@@ -10,6 +10,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Logging](#logging)
   - [Build tools](#build-tools)
   - [Web Frameworks](#web-frameworks)
+  - [Data validation](#data-validation)
 
 ## Official
 
@@ -73,6 +74,20 @@ English | [简体中文](./README-zh-CN.md)
 - [seneca](https://github.com/senecajs/seneca) - Toolkit for writing microservices.
 - [Marble.js](https://github.com/marblejs/marble) - Functional reactive framework for building server-side apps, based on TypeScript and RxJS.
 - [ActionHero](https://github.com/actionhero/actionhero) - Framework for making reusable & scalable APIs for TCP sockets, WebSockets, and HTTP clients.
+- [lad](https://github.com/ladjs/lad) - The best Node.js framework. Made by a former Express TC and Koa team member.
 - [Tinyhttp](https://github.com/talentlessguy/tinyhttp) - Modern and fast Express-like web framework.
 - [Hemera](https://github.com/hemerajs/hemera) - Write reliable and fault-tolerant microservices with [NATS](https://nats.io).
 - [Zeronode](https://github.com/sfast/zeronode) - Minimal building block for reliable and fault-tolerant microservices.
+
+### Data validation
+- [validator.js](https://github.com/validatorjs/validator.js) - A library of string validators and sanitizers.
+- [joi](https://github.com/hapijs/joi) - Object schema description language and validator for JavaScript objects.
+- [class-validator](https://github.com/typestack/class-validator) - Decorator-based property validation for classes.
+- [ajv](https://github.com/epoberezkin/ajv) - The fastest JSON schema Validator. Supports JSON Schema draft-04/06/07/2019-09/2020-12 and JSON Type Definition (RFC8927).
+- [Superstruct](https://github.com/ianstormtaylor/superstruct) - Simple and composable way to validate data in JavaScript (and TypeScript).
+- [v8n](https://github.com/imbrn/v8n) - JavaScript fluent validation library
+- [forgJs](https://github.com/oussamahamdaoui/forgJs) - Javascript lightweight object validator.
+- [validatorjs](https://github.com/mikeerickson/validatorjs) - Data validation library in JavaScript for the browser and Node.js, inspired by Laravel's Validator.
+- [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) - JSON Schema validator that uses code generation to be extremely fast.
+- [property-validator](https://github.com/nettofarah/property-validator) - Easy property validation for JavaScript, Node and Express.
+- [schema-inspector](https://github.com/Atinux/schema-inspector) - JSON API sanitization and validation.
