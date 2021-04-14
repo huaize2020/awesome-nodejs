@@ -11,6 +11,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Build tools](#build-tools)
   - [Web Frameworks](#web-frameworks)
   - [Data validation](#data-validation)
+  - [Office](#office)
 
 ## Official
 
@@ -29,7 +30,14 @@ English | [简体中文](./README-zh-CN.md)
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - Colored symbols for various log levels.
 
 ### Filesystem
+- [chokidar](https://github.com/paulmillr/chokidar) - Minimal and efficient cross-platform file watching library.
 - [fs-extra](https://github.com/jprichardson/node-fs-extra) - Extra methods for the `fs` module.
+- [rimraf](https://github.com/isaacs/rimraf) - Recursively delete files like rm -rf.
+- [globby](https://github.com/sindresorhus/globby) - Based on fast-glob but adds a bunch of useful features.
+- [fast-glob](https://github.com/mrmlnc/fast-glob) - Very fast and efficient glob library for Node.js.
+- [del](https://github.com/sindresorhus/del) - Delete files and directories.
+- [make-dir](https://github.com/sindresorhus/make-dir) - Recursively create directories like mkdir -p.
+- [cpy](https://github.com/sindresorhus/cpy) - Copy files.
 
 ### Logging
 - [winston](https://github.com/winstonjs/winston) - Multi-transport async logging library.
@@ -91,3 +99,12 @@ English | [简体中文](./README-zh-CN.md)
 - [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) - JSON Schema validator that uses code generation to be extremely fast.
 - [property-validator](https://github.com/nettofarah/property-validator) - Easy property validation for JavaScript, Node and Express.
 - [schema-inspector](https://github.com/Atinux/schema-inspector) - JSON API sanitization and validation.
+
+### Office
+- [sheetjs](https://github.com/SheetJS/sheetjs) - Spreadsheet Data Toolkit.
+- [PDFKit](https://github.com/foliojs/pdfkit) - JavaScript PDF generation library for Node and the browser.
+- [exceljs](https://github.com/exceljs/exceljs) - Excel Workbook Manager.
+- [officegen](https://github.com/Ziv-Barber/officegen) - Standalone Office Open XML files (Microsoft Office 2007 and later) generator for Word (docx), PowerPoint (pptx) and Excell (xlsx) in javascript. The output is a stream.
+- [Mammoth](https://github.com/mwilliamson/mammoth.js) - Convert Word documents (.docx files) to HTML.
+- [docx](https://github.com/dolanmiu/docx) - Easily generate .docx files with JS/TS with a nice declarative API. Works for Node and on the Browser.
+- [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) - Excel XLSX parser/generator written in JavaScript with Node.js and browser support.

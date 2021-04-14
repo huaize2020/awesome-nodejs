@@ -17,6 +17,7 @@
   - [构建工具](#构建工具)
   - [Web框架](#web框架)
   - [数据校验](#数据校验)
+  - [办公软件](#办公软件)
 
 ## 官方资源
 
@@ -35,7 +36,14 @@
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - 为不同日志级别添加色彩图标。
 
 ### 文件系统
+- [chokidar](https://github.com/paulmillr/chokidar) - 最小且高效的跨平台Watch库。
 - [fs-extra](https://github.com/jprichardson/node-fs-extra) - 为 `fs` 模块提供额外方法。
+- [rimraf](https://github.com/isaacs/rimraf) - 递归删除文件，类似 `rm -rf`。
+- [globby](https://github.com/sindresorhus/globby) - 基于fast-glob，但添加了很多有用的特性。
+- [fast-glob](https://github.com/mrmlnc/fast-glob) - 非常快速且高效的Node.js glob库。
+- [del](https://github.com/sindresorhus/del) - 删除文件/文件夹。
+- [make-dir](https://github.com/sindresorhus/make-dir) - 递归创建文件夹，类似 `mkdir -p`。
+- [cpy](https://github.com/sindresorhus/cpy) - 文件拷贝。
 
 ### 日志
 - [winston](https://github.com/winstonjs/winston) - 多传输异步日志记录库。
@@ -44,7 +52,6 @@
 - [log4js-node](https://github.com/log4js-node/log4js-node) - 不同于Java log4j的日志记录库。
 - [consola](https://github.com/nuxt/consola) - 优雅的Node.js和浏览器日志记录库。
 - [storyboard](https://github.com/guigrpa/storyboard) - 一个Chrome浏览器插件，用于查看日志。
-
 
 ### 构建工具
 - [webpack](https://github.com/webpack/webpack) - 打包浏览器的模块和资产。
@@ -97,3 +104,13 @@
 - [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) - 极快的JSON Schema校验工具。
 - [property-validator](https://github.com/nettofarah/property-validator) - 用于JavaScript、Node和Express的易用的属性校验工具。
 - [schema-inspector](https://github.com/Atinux/schema-inspector) - 用于净化和验证JS对象的强大工具。
+
+### 办公软件
+- [sheetjs](https://github.com/SheetJS/sheetjs) - 电子表格数据工具箱。
+- [PDFKit](https://github.com/foliojs/pdfkit) - 在Node.js和浏览器中生成PDF的库。
+- [exceljs](https://github.com/exceljs/exceljs) - Excel工作表管理工具。
+- [officegen](https://github.com/Ziv-Barber/officegen) - 使用Javascript，生成可打开Word（docx）、PowerPoint（pptx）和Excel（xlsx）的XML文件（需Microsoft Office 2007及更高版本），输出是一个stream。
+- [Mammoth](https://github.com/mwilliamson/mammoth.js) - 将Word文档(.docx文件)转化为HTML。
+- [docx](https://github.com/dolanmiu/docx) - 通过良好定义的API,在NodeJS和浏览器中，使用JS/TS轻松的生成docx文件。
+- [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) -
+Excel XLSX生成和解析工具，可运行在Node和浏览器
