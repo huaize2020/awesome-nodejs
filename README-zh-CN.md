@@ -7,6 +7,7 @@
 - [NPM包](#npm包)
   - [命令行工具](#命令行工具)
   - [文件系统](#文件系统)
+  - [构建工具](#构建工具)
   - [Web框架](#web框架)
 
 ## 官方资源
@@ -27,6 +28,18 @@
 
 ### 文件系统
 - [fs-extra](https://github.com/jprichardson/node-fs-extra) - 为 `fs` 模块提供额外方法.
+
+### 构建工具
+- [webpack](https://github.com/webpack/webpack) - 打包浏览器的模块和资产。
+- [parcel](https://github.com/parcel-bundler/parcel) - 快速，零配置的Web应用构建工具。
+- [gulp](https://github.com/gulpjs/gulp) - 流式快速构建系统，支持代码而不是配置。
+- [Vite](https://github.com/vitejs/vite) - 新一代前端构建工具。
+- [rollup](https://github.com/rollup/rollup) - 新一代的 ES2015 打包构建工具。
+- [pkg](https://github.com/zeit/pkg) - 将Node.js项目打包成可执行文件。
+- [Grunt](https://github.com/gruntjs/grunt) - JavaScript任务执行器。
+- [Brunch](https://github.com/brunch/brunch) - 前端web应用程序构建工具，具有简单的声明性配置、快速的增量编译和自定的工作流。
+- [FuseBox](https://github.com/fuse-box/fuse-box) - 快速构建系统，结合了webpack，JSPM和SystemJS的强大功能，并具有一流的TypeScript支持。
+- [Broccoli](https://github.com/broccolijs/broccoli) - 快速、可靠的资产管道，支持固定时间重建和紧凑的构建定义。
 
 ### Web框架
 - [Express](https://github.com/expressjs/express) - Web应用程序框架，为构建单页和多页以及混合Web应用程序提供了一组强大的功能。
