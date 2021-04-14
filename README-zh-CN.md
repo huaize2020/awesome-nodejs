@@ -20,6 +20,7 @@
   - [数据校验](#数据校验)
   - [办公软件](#办公软件)
   - [Email](#email)
+  - [爬虫](#爬虫)
 
 ## 官方资源
 
@@ -35,6 +36,7 @@
 - [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - 通用可交互命令行工具集合。
 - [Enquirer](https://github.com/enquirer/enquirer) - 用户友好、直观且易于创建的时尚CLI提示。
 - [minimist](https://github.com/substack/minimist) - 命令行参数解析引擎。
+- [cac](https://github.com/cacjs/cac) - 用于构建命令行应用的强大框架。
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - 为不同日志级别添加色彩图标。
 
 ### 文件系统
@@ -130,3 +132,7 @@
 - [Email Templates](https://github.com/forwardemail/email-templates) - 创建、预览和发送自定义电子邮件模板。
 - [emailjs](https://github.com/eleith/emailjs) - 向任何SMTP服务器发送带有附件的文本/HTML电子邮件。
 - [mjml](https://github.com/mjmlio/mjml) - 旨在减少创建响应电子邮件的痛苦的标记语言。
+
+### 爬虫
+- [node-crawler](https://github.com/bda-research/node-crawler) - NodeJS Web爬虫 + 服务端jQuery.
+- [Headless Chrome Crawler](https://github.com/yujiosaka/headless-chrome-crawler) - 使用Chrome悟透浏览器的分布式爬虫。
