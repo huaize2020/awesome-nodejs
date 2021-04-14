@@ -10,8 +10,10 @@ English | [简体中文](./README-zh-CN.md)
   - [Logging](#logging)
   - [Build tools](#build-tools)
   - [Web Frameworks](#web-frameworks)
+  - [Date & Time](#date--time)
   - [Data validation](#data-validation)
   - [Office](#office)
+  - [Email](#email)
 
 ## Official
 
@@ -46,6 +48,7 @@ English | [简体中文](./README-zh-CN.md)
 - [log4js-node](https://github.com/log4js-node/log4js-node) - A logging library which different from Java log4j.
 - [consola](https://github.com/nuxt/consola) - Elegant Console Logger for Node.js and Browser.
 - [storyboard](https://github.com/guigrpa/storyboard) - A library, plus a Chrome DevTools extension.
+- [cabin](https://github.com/cabinjs/cabin) - Best JavaScript and Node.js logging service and logging npm package
 
 ### Build tools
 - [webpack](https://github.com/webpack/webpack) - Packs modules and assets for the browser.
@@ -87,6 +90,13 @@ English | [简体中文](./README-zh-CN.md)
 - [Hemera](https://github.com/hemerajs/hemera) - Write reliable and fault-tolerant microservices with [NATS](https://nats.io).
 - [Zeronode](https://github.com/sfast/zeronode) - Minimal building block for reliable and fault-tolerant microservices.
 
+### Date & Time
+- [moment](https://github.com/moment/moment) - Parse, validate, manipulate, and display dates in javascript.
+- [dayjs](https://github.com/iamkun/dayjs) - Day.js 2KB immutable date-time library alternative to Moment.js with the same modern API.
+- [date-fns](https://github.com/date-fns/date-fns) - Modern JavaScript date utility library.
+- [luxon](https://github.com/moment/luxon) - Library for working with dates and times.
+- [ms](https://github.com/vercel/ms) - Tiny millisecond conversion utility.
+
 ### Data validation
 - [validator.js](https://github.com/validatorjs/validator.js) - A library of string validators and sanitizers.
 - [joi](https://github.com/hapijs/joi) - Object schema description language and validator for JavaScript objects.
@@ -108,3 +118,10 @@ English | [简体中文](./README-zh-CN.md)
 - [Mammoth](https://github.com/mwilliamson/mammoth.js) - Convert Word documents (.docx files) to HTML.
 - [docx](https://github.com/dolanmiu/docx) - Easily generate .docx files with JS/TS with a nice declarative API. Works for Node and on the Browser.
 - [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) - Excel XLSX parser/generator written in JavaScript with Node.js and browser support.
+
+### Email
+- [Nylas Mail](https://github.com/nylas/nylas-mail) - An extensible desktop mail app built on the modern web.
+- [Nodemailer](https://github.com/nodemailer/nodemailer) - Send e-mails with Node.JS – easy as cake!
+- [Email Templates](https://github.com/forwardemail/email-templates) - Create, preview, and send custom email templates for Node.js.
+- [emailjs](https://github.com/eleith/emailjs) - Html emails and attachments to any smtp server with nodejs.
+- [mjml](https://github.com/mjmlio/mjml) - Makes responsive-email easy.

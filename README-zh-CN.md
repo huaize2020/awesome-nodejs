@@ -16,8 +16,10 @@
   - [日志](#日志)
   - [构建工具](#构建工具)
   - [Web框架](#web框架)
+  - [日期 和 时间](#日期-和-时间)
   - [数据校验](#数据校验)
   - [办公软件](#办公软件)
+  - [Email](#email)
 
 ## 官方资源
 
@@ -52,6 +54,7 @@
 - [log4js-node](https://github.com/log4js-node/log4js-node) - 不同于Java log4j的日志记录库。
 - [consola](https://github.com/nuxt/consola) - 优雅的Node.js和浏览器日志记录库。
 - [storyboard](https://github.com/guigrpa/storyboard) - 一个Chrome浏览器插件，用于查看日志。
+- [cabin](https://github.com/cabinjs/cabin) - 提供日志服务和NPM包。
 
 ### 构建工具
 - [webpack](https://github.com/webpack/webpack) - 打包浏览器的模块和资产。
@@ -92,6 +95,13 @@
 - [Hemera](https://github.com/hemerajs/hemera) -使用以下工具编写可靠且容错的微服务 [NATS](https://nats.io)。
 - [Zeronode](https://github.com/sfast/zeronode) - 最小的构建块，可实现可靠且容错的微服务。
 
+### 日期 和 时间
+- [moment](https://github.com/moment/moment) - 解析、校验、操作和显示日期。
+- [dayjs](https://github.com/iamkun/dayjs) - 仅2KB，不可变的日期时间库。使用与Moment.js同样的API，Moment.js的替代库。
+- [date-fns](https://github.com/date-fns/date-fns) - 现代JavaScript日期工具库。
+- [luxon](https://github.com/moment/luxon) - 用于处理日期和时间的库。
+- [ms](https://github.com/vercel/ms) - 毫秒转换工具。
+
 ### 数据校验
 - [validator.js](https://github.com/validatorjs/validator.js) - 字符串校验库。
 - [joi](https://github.com/hapijs/joi) - 基于JavaScript对象的对象模式描述语言和验证器。
@@ -112,5 +122,11 @@
 - [officegen](https://github.com/Ziv-Barber/officegen) - 使用Javascript，生成可打开Word（docx）、PowerPoint（pptx）和Excel（xlsx）的XML文件（需Microsoft Office 2007及更高版本），输出是一个stream。
 - [Mammoth](https://github.com/mwilliamson/mammoth.js) - 将Word文档(.docx文件)转化为HTML。
 - [docx](https://github.com/dolanmiu/docx) - 通过良好定义的API,在NodeJS和浏览器中，使用JS/TS轻松的生成docx文件。
-- [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) -
-Excel XLSX生成和解析工具，可运行在Node和浏览器
+- [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) - Excel XLSX生成和解析工具，可运行在Node和浏览器。
+
+### Email
+- [Nylas Mail](https://github.com/nylas/nylas-mail) - 构建在现代Web技术的高扩展性邮件客户端程序。
+- [Nodemailer](https://github.com/nodemailer/nodemailer) - 使用Node.js轻松发送电子邮件。
+- [Email Templates](https://github.com/forwardemail/email-templates) - 创建、预览和发送自定义电子邮件模板。
+- [emailjs](https://github.com/eleith/emailjs) - 向任何SMTP服务器发送带有附件的文本/HTML电子邮件。
+- [mjml](https://github.com/mjmlio/mjml) - 旨在减少创建响应电子邮件的痛苦的标记语言。
