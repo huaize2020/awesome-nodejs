@@ -1,3 +1,9 @@
+> 该项目受 [awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) 启发
+>
+> 原本是希望在原仓库中提供中文版，但跟该作者沟通，作者不希望添加本地化翻译增加维护工作量；且该库有很多国内用户常见的库并未收录，分类体系也不符合我的预期
+>
+> 故此另开分支，希望可以更好的满足国内开发者的需求。
+
 [English](./README.md) | 简体中文
 
 ## 目录
@@ -7,6 +13,7 @@
 - [NPM包](#npm包)
   - [命令行工具](#命令行工具)
   - [文件系统](#文件系统)
+  - [日志](#日志)
   - [构建工具](#构建工具)
   - [Web框架](#web框架)
 
@@ -27,7 +34,16 @@
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - 为不同日志级别添加色彩图标。
 
 ### 文件系统
-- [fs-extra](https://github.com/jprichardson/node-fs-extra) - 为 `fs` 模块提供额外方法.
+- [fs-extra](https://github.com/jprichardson/node-fs-extra) - 为 `fs` 模块提供额外方法。
+
+### 日志
+- [winston](https://github.com/winstonjs/winston) - 多传输异步日志记录库。
+- [pino](https://github.com/pinojs/pino) - 受Bunyan启发的超快日志记录库。
+- [signale](https://github.com/klauscfhq/signale) - 高度可配置的日志工具。
+- [log4js-node](https://github.com/log4js-node/log4js-node) - 不同于Java log4j的日志记录库。
+- [consola](https://github.com/nuxt/consola) - 优雅的Node.js和浏览器日志记录库。
+- [storyboard](https://github.com/guigrpa/storyboard) - 一个Chrome浏览器插件，用于查看日志。
+
 
 ### 构建工具
 - [webpack](https://github.com/webpack/webpack) - 打包浏览器的模块和资产。
@@ -43,11 +59,11 @@
 
 ### Web框架
 - [Express](https://github.com/expressjs/express) - Web应用程序框架，为构建单页和多页以及混合Web应用程序提供了一组强大的功能。
-- [Nest](https://github.com/nestjs/nest) -受Angular启发的框架，用于构建高效且可扩展的服务器端应用程序。
+- [Nest](https://github.com/nestjs/nest) -受Angular启发的框架，用于构建高效且可扩展的服务器端应用程序。*(你也许会喜欢 [awesome-nestjs](https://github.com/juliandavidmr/awesome-nestjs))*
 - [Koa](https://github.com/koajs/koa) - 由Express背后的团队设计的框架，旨在为Web应用程序和API提供更小，更富表现力和更强大的基础。
 - [Next.js](https://github.com/zeit/next.js) - React服务端渲染框架。
 - [Nuxt.js](https://github.com/nuxt/nuxt.js) - Vue服务端渲染框架。
-- [Meteor](https://github.com/meteor/meteor) - 超简单，无处不在的数据库，在线数据，纯Javascript Web框架。 *（你可能会喜欢 [awesome-meteor](https://github.com/Urigo/awesome-meteor))*
+- [Meteor](https://github.com/meteor/meteor) - 超简单，无处不在的数据库，在线数据，纯Javascript Web框架。 *（你也许会喜欢 [awesome-meteor](https://github.com/Urigo/awesome-meteor))*
 - [Fastify](https://github.com/fastify/fastify) - 快速和低开销的Web框架。
 - [Hapi](https://github.com/hapijs/hapi) - 用于创建应用和服务的框架。
 - [Egg](https://github.com/eggjs/egg) - 为企业级框架和应用而生。

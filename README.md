@@ -7,6 +7,7 @@ English | [简体中文](./README-zh-CN.md)
 - [Packages](#packages)
   - [Command-line utilities](#command-line-utilities)
   - [Filesystem](#filesystem)
+  - [Logging](#logging)
   - [Build tools](#build-tools)
   - [Web Frameworks](#web-frameworks)
 
@@ -29,6 +30,14 @@ English | [简体中文](./README-zh-CN.md)
 ### Filesystem
 - [fs-extra](https://github.com/jprichardson/node-fs-extra) - Extra methods for the `fs` module.
 
+### Logging
+- [winston](https://github.com/winstonjs/winston) - Multi-transport async logging library.
+- [pino](https://github.com/pinojs/pino) - Extremely fast logger inspired by Bunyan.
+- [signale](https://github.com/klauscfhq/signale) - Highly configurable logging utility.
+- [log4js-node](https://github.com/log4js-node/log4js-node) - A logging library which different from Java log4j.
+- [consola](https://github.com/nuxt/consola) - Elegant Console Logger for Node.js and Browser.
+- [storyboard](https://github.com/guigrpa/storyboard) - A library, plus a Chrome DevTools extension.
+
 ### Build tools
 - [webpack](https://github.com/webpack/webpack) - Packs modules and assets for the browser.
 - [parcel](https://github.com/parcel-bundler/parcel) - Blazing fast, zero config web app bundler.
@@ -44,6 +53,7 @@ English | [简体中文](./README-zh-CN.md)
 ### Web Frameworks
 - [Express](https://github.com/expressjs/express) - Web application framework, providing a robust set of features for building single and multi-page, and hybrid web applications.
 - [Nest](https://github.com/nestjs/nest) - Angular-inspired framework for building efficient and scalable server-side apps.
+*(You might like [awesome-nestjs](https://github.com/juliandavidmr/awesome-nestjs))*
 - [Koa](https://github.com/koajs/koa) - Framework designed by the team behind Express, which aims to be a smaller, more expressive, and more robust foundation for web applications and APIs.
 - [Next.js](https://github.com/zeit/next.js) - Minimalistic framework for server-rendered universal JavaScript web apps.
 - [Nuxt.js](https://github.com/nuxt/nuxt.js) - Minimalistic framework for server-rendered Vue.js apps.
