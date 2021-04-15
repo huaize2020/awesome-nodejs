@@ -25,6 +25,7 @@
   - [Email](#email)
   - [爬虫](#爬虫)
   - [AST](#ast)
+  - [自动化 & RPA](#自动化--rpa)
 
 ## 官方资源
 
@@ -204,3 +205,9 @@
 - [astexplorer](https://github.com/fkling/astexplorer) - 使用多种解析器的AST Web可视化工具。
 - [espree](https://github.com/eslint/espree) - 与Esprima兼容的JavaScript解析器。
 - [csstree](https://github.com/csstree/csstree) - 基于W3C标准和浏览器标准实现，包含快速详细的解析器、遍历器、生成器、词法解析的CSS工具集。
+
+### 自动化 & RPA
+ - [puppeteer](https://github.com/puppeteer/puppeteer) - 无头Chrome Node.js API。
+ - [playwright](https://github.com/microsoft/playwright) - 使用单一API自动操作Chromium, Firefox and WebKi。
+ - [phantomjs](https://github.com/ariya/phantomjs) - 脚本化无头浏览器。
+ - [appium](https://github.com/appium/appium) - iOS, Android, and Windows Apps自动化。
