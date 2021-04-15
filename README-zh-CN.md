@@ -68,6 +68,7 @@
 ### 文件系统
 - [chokidar](https://github.com/paulmillr/chokidar) - 最小且高效的跨平台Watch库。
 - [fs-extra](https://github.com/jprichardson/node-fs-extra) - 为 `fs` 模块提供额外方法。
+- [glob](https://github.com/isaacs/node-glob) - Node.js版glob功能。
 - [rimraf](https://github.com/isaacs/rimraf) - 递归删除文件，类似 `rm -rf`。
 - [globby](https://github.com/sindresorhus/globby) - 基于fast-glob，但添加了很多有用的特性。
 - [fast-glob](https://github.com/mrmlnc/fast-glob) - 非常快速且高效的Node.js glob库。
@@ -88,6 +89,7 @@
 - [consola](https://github.com/nuxt/consola) - 优雅的Node.js和浏览器日志记录库。
 - [storyboard](https://github.com/guigrpa/storyboard) - 一个Chrome浏览器插件，用于查看日志。
 - [cabin](https://github.com/cabinjs/cabin) - 提供日志服务和NPM包。
+- [captains-log](https://www.npmjs.com/package/captains-log) - 通过简单的配置就可以使用的轻量日志记录库。
 
 ### URL
 - [URI.js](https://github.com/medialize/URI.js) - URL转换库。
@@ -131,6 +133,7 @@
 - [Nuxt.js](https://github.com/nuxt/nuxt.js) - Vue服务端渲染框架。
 - [Nest](https://github.com/nestjs/nest) -受Angular启发的框架，用于构建高效且可扩展的服务器端应用程序。*(你也许会喜欢 [awesome-nestjs](https://github.com/juliandavidmr/awesome-nestjs))*
 - [Koa](https://github.com/koajs/koa) - 由Express背后的团队设计的框架，旨在为Web应用程序和API提供更小，更富表现力和更强大的基础。
+- [sails](https://github.com/balderdashy/sails) - Node.js实时MVC框架。
 - [Fastify](https://github.com/fastify/fastify) - 快速和低开销的Web框架。
 - [Hapi](https://github.com/hapijs/hapi) - 用于创建应用和服务的框架。
 - [Egg](https://github.com/eggjs/egg) - 为企业级框架和应用而生。

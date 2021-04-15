@@ -62,6 +62,7 @@ English | [简体中文](./README-zh-CN.md)
 ### Filesystem
 - [chokidar](https://github.com/paulmillr/chokidar) - Minimal and efficient cross-platform file watching library.
 - [fs-extra](https://github.com/jprichardson/node-fs-extra) - Extra methods for the `fs` module.
+- [glob](https://github.com/isaacs/node-glob) - Glob functionality for node.js.
 - [rimraf](https://github.com/isaacs/rimraf) - Recursively delete files like rm -rf.
 - [globby](https://github.com/sindresorhus/globby) - Based on fast-glob but adds a bunch of useful features.
 - [fast-glob](https://github.com/mrmlnc/fast-glob) - Very fast and efficient glob library for Node.js.
@@ -81,7 +82,8 @@ English | [简体中文](./README-zh-CN.md)
 - [log4js-node](https://github.com/log4js-node/log4js-node) - A logging library which different from Java log4j.
 - [consola](https://github.com/nuxt/consola) - Elegant Console Logger for Node.js and Browser.
 - [storyboard](https://github.com/guigrpa/storyboard) - A library, plus a Chrome DevTools extension.
-- [cabin](https://github.com/cabinjs/cabin) - Best JavaScript and Node.js logging service and logging npm package
+- [cabin](https://github.com/cabinjs/cabin) - Best JavaScript and Node.js logging service and logging npm package.
+- [captains-log](https://www.npmjs.com/package/captains-log) - Lightweight logger with a simple pass-through configuration for use with fancier logging librarie.
 
 ### URL
 - [URI.js](https://github.com/medialize/URI.js) - Javascript URL mutation library.
@@ -126,6 +128,7 @@ English | [简体中文](./README-zh-CN.md)
 - [Nest](https://github.com/nestjs/nest) - Angular-inspired framework for building efficient and scalable server-side apps.
 *(You might like [awesome-nestjs](https://github.com/juliandavidmr/awesome-nestjs))*
 - [Koa](https://github.com/koajs/koa) - Framework designed by the team behind Express, which aims to be a smaller, more expressive, and more robust foundation for web applications and APIs.
+- [sails](https://github.com/balderdashy/sails) - Realtime MVC Framework for Node.js.
 - [Fastify](https://github.com/fastify/fastify) - Fast and low overhead web framework.
 - [Hapi](https://github.com/hapijs/hapi) - Framework for building applications and services.
 - [Egg](https://github.com/eggjs/egg) - Born to build better enterprise frameworks and apps with Node.js & Koa.
