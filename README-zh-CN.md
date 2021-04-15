@@ -11,13 +11,14 @@
 - [目录](#目录)
 - [官方资源](#官方资源)
 - [NPM包](#npm包)
+  - [日期 和 时间](#日期-和-时间)
+  - [数据校验](#数据校验)
   - [命令行工具](#命令行工具)
   - [文件系统](#文件系统)
   - [日志](#日志)
+  - [URL](#url)
   - [构建工具](#构建工具)
   - [Web框架](#web框架)
-  - [日期 和 时间](#日期-和-时间)
-  - [数据校验](#数据校验)
   - [办公软件](#办公软件)
   - [Email](#email)
   - [爬虫](#爬虫)
@@ -30,6 +31,26 @@
 - [仓库](https://github.com/nodejs/node)
 
 ## NPM包
+
+### 日期 和 时间
+- [moment](https://github.com/moment/moment) - 解析、校验、操作和显示日期。
+- [dayjs](https://github.com/iamkun/dayjs) - 仅2KB，不可变的日期时间库。使用与Moment.js同样的API，Moment.js的替代库。
+- [date-fns](https://github.com/date-fns/date-fns) - 现代JavaScript日期工具库。
+- [luxon](https://github.com/moment/luxon) - 用于处理日期和时间的库。
+- [ms](https://github.com/vercel/ms) - 毫秒转换工具。
+
+### 数据校验
+- [validator.js](https://github.com/validatorjs/validator.js) - 字符串校验库。
+- [joi](https://github.com/hapijs/joi) - 基于JavaScript对象的对象模式描述语言和验证器。
+- [class-validator](https://github.com/typestack/class-validator) - 基于装饰器属性校验的类校验器。
+- [ajv](https://github.com/epoberezkin/ajv) - 最快的JSON Schema验证器。支持JSON Schema draft-04/06/07/2019-09/2020-12 and JSON类型定义(RFC8927)。
+- [Superstruct](https://github.com/ianstormtaylor/superstruct) - 用简单和可组合的方式在JavaScript和TypeScript中校验数据。
+- [v8n](https://github.com/imbrn/v8n) - 流畅的JavaScript校验库。
+- [forgJs](https://github.com/oussamahamdaoui/forgJs) - 轻量的JavaScript对象校验器。
+- [validatorjs](https://github.com/mikeerickson/validatorjs) - 受Laravel的校验器启发，在浏览器和Node.JS上的数据校验库.
+- [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) - 极快的JSON Schema校验工具。
+- [property-validator](https://github.com/nettofarah/property-validator) - 用于JavaScript、Node和Express的易用的属性校验工具。
+- [schema-inspector](https://github.com/Atinux/schema-inspector) - 用于净化和验证JS对象的强大工具。
 
 ### 命令行工具
 - [Commander.js](https://github.com/tj/commander.js) - Node.JS命令行界面完整解决方案。
@@ -59,6 +80,17 @@
 - [storyboard](https://github.com/guigrpa/storyboard) - 一个Chrome浏览器插件，用于查看日志。
 - [cabin](https://github.com/cabinjs/cabin) - 提供日志服务和NPM包。
 
+### URL
+- [URI.js](https://github.com/medialize/URI.js) - URL转换库。
+- [query-string](https://github.com/sindresorhus/query-string) - 解析和字符串化URL查询字符串。
+- [url-parse](https://github.com/unshiftio/url-parse) - 轻量URL解析器，可跨Node.js和浏览器环境无缝运行。
+- [normalize-url](https://github.com/sindresorhus/normalize-url) - 规范化URL.
+- [url-pattern](https://github.com/snd/url-pattern) - 比正则表达式更易匹配URL和其他字符串，将字符串转化成数据 或 将数据转换成字符串。
+- [native-url](https://github.com/GoogleChromeLabs/native-url) - 使用内建URL API实现的NodeJS URL模块。
+- [humanize-url](https://github.com/sindresorhus/humanize-url) - 使URL更可读: http://sindresorhus.com → sindresorhus.com。
+- [parseurl](https://github.com/pillarjs/parseurl) - 使用记忆化方式解析URL.
+- [encodeurl](https://github.com/pillarjs/encodeurl) - 将URL编码为"百分比"形式，不编码已编码部分。
+
 ### 构建工具
 - [webpack](https://github.com/webpack/webpack) - 打包浏览器的模块和资产。
 - [parcel](https://github.com/parcel-bundler/parcel) - 快速，零配置的Web应用构建工具。
@@ -73,11 +105,11 @@
 
 ### Web框架
 - [Express](https://github.com/expressjs/express) - Web应用程序框架，为构建单页和多页以及混合Web应用程序提供了一组强大的功能。
+- [Next.js](https://github.com/zeit/next.js) - React服务端渲染框架。
+- [Meteor](https://github.com/meteor/meteor) - 超简单，无处不在的数据库，在线数据，纯Javascript Web框架。 *（你也许会喜欢 [awesome-meteor](https://github.com/Urigo/awesome-meteor))*
+- [Nuxt.js](https://github.com/nuxt/nuxt.js) - Vue服务端渲染框架。
 - [Nest](https://github.com/nestjs/nest) -受Angular启发的框架，用于构建高效且可扩展的服务器端应用程序。*(你也许会喜欢 [awesome-nestjs](https://github.com/juliandavidmr/awesome-nestjs))*
 - [Koa](https://github.com/koajs/koa) - 由Express背后的团队设计的框架，旨在为Web应用程序和API提供更小，更富表现力和更强大的基础。
-- [Next.js](https://github.com/zeit/next.js) - React服务端渲染框架。
-- [Nuxt.js](https://github.com/nuxt/nuxt.js) - Vue服务端渲染框架。
-- [Meteor](https://github.com/meteor/meteor) - 超简单，无处不在的数据库，在线数据，纯Javascript Web框架。 *（你也许会喜欢 [awesome-meteor](https://github.com/Urigo/awesome-meteor))*
 - [Fastify](https://github.com/fastify/fastify) - 快速和低开销的Web框架。
 - [Hapi](https://github.com/hapijs/hapi) - 用于创建应用和服务的框架。
 - [Egg](https://github.com/eggjs/egg) - 为企业级框架和应用而生。
@@ -97,26 +129,6 @@
 - [Tinyhttp](https://github.com/talentlessguy/tinyhttp) - 类Express更现代更快的Web框架。
 - [Hemera](https://github.com/hemerajs/hemera) -使用以下工具编写可靠且容错的微服务 [NATS](https://nats.io)。
 - [Zeronode](https://github.com/sfast/zeronode) - 最小的构建块，可实现可靠且容错的微服务。
-
-### 日期 和 时间
-- [moment](https://github.com/moment/moment) - 解析、校验、操作和显示日期。
-- [dayjs](https://github.com/iamkun/dayjs) - 仅2KB，不可变的日期时间库。使用与Moment.js同样的API，Moment.js的替代库。
-- [date-fns](https://github.com/date-fns/date-fns) - 现代JavaScript日期工具库。
-- [luxon](https://github.com/moment/luxon) - 用于处理日期和时间的库。
-- [ms](https://github.com/vercel/ms) - 毫秒转换工具。
-
-### 数据校验
-- [validator.js](https://github.com/validatorjs/validator.js) - 字符串校验库。
-- [joi](https://github.com/hapijs/joi) - 基于JavaScript对象的对象模式描述语言和验证器。
-- [class-validator](https://github.com/typestack/class-validator) - 基于装饰器属性校验的类校验器。
-- [ajv](https://github.com/epoberezkin/ajv) - 最快的JSON Schema验证器。支持JSON Schema draft-04/06/07/2019-09/2020-12 and JSON类型定义(RFC8927)。
-- [Superstruct](https://github.com/ianstormtaylor/superstruct) - 用简单和可组合的方式在JavaScript和TypeScript中校验数据。
-- [v8n](https://github.com/imbrn/v8n) - 流畅的JavaScript校验库。
-- [forgJs](https://github.com/oussamahamdaoui/forgJs) - 轻量的JavaScript对象校验器。
-- [validatorjs](https://github.com/mikeerickson/validatorjs) - 受Laravel的校验器启发，在浏览器和Node.JS上的数据校验库.
-- [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) - 极快的JSON Schema校验工具。
-- [property-validator](https://github.com/nettofarah/property-validator) - 用于JavaScript、Node和Express的易用的属性校验工具。
-- [schema-inspector](https://github.com/Atinux/schema-inspector) - 用于净化和验证JS对象的强大工具。
 
 ### 办公软件
 - [sheetjs](https://github.com/SheetJS/sheetjs) - 电子表格数据工具箱。

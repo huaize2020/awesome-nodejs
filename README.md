@@ -5,13 +5,14 @@ English | [简体中文](./README-zh-CN.md)
 - [Contents](#contents)
 - [Official](#official)
 - [Packages](#packages)
+  - [Date & Time](#date--time)
+  - [Data validation](#data-validation)
   - [Command-line utilities](#command-line-utilities)
   - [Filesystem](#filesystem)
   - [Logging](#logging)
+  - [URL](#url)
   - [Build tools](#build-tools)
   - [Web Frameworks](#web-frameworks)
-  - [Date & Time](#date--time)
-  - [Data validation](#data-validation)
   - [Office](#office)
   - [Email](#email)
   - [Crawler](#crawler)
@@ -24,6 +25,26 @@ English | [简体中文](./README-zh-CN.md)
 - [Repository](https://github.com/nodejs/node)
 
 ## Packages
+
+### Date & Time
+- [moment](https://github.com/moment/moment) - Parse, validate, manipulate, and display dates in javascript.
+- [dayjs](https://github.com/iamkun/dayjs) - Day.js 2KB immutable date-time library alternative to Moment.js with the same modern API.
+- [date-fns](https://github.com/date-fns/date-fns) - Modern JavaScript date utility library.
+- [luxon](https://github.com/moment/luxon) - Library for working with dates and times.
+- [ms](https://github.com/vercel/ms) - Tiny millisecond conversion utility.
+
+### Data validation
+- [validator.js](https://github.com/validatorjs/validator.js) - A library of string validators and sanitizers.
+- [joi](https://github.com/hapijs/joi) - Object schema description language and validator for JavaScript objects.
+- [class-validator](https://github.com/typestack/class-validator) - Decorator-based property validation for classes.
+- [ajv](https://github.com/epoberezkin/ajv) - The fastest JSON schema Validator. Supports JSON Schema draft-04/06/07/2019-09/2020-12 and JSON Type Definition (RFC8927).
+- [Superstruct](https://github.com/ianstormtaylor/superstruct) - Simple and composable way to validate data in JavaScript (and TypeScript).
+- [v8n](https://github.com/imbrn/v8n) - JavaScript fluent validation library
+- [forgJs](https://github.com/oussamahamdaoui/forgJs) - Javascript lightweight object validator.
+- [validatorjs](https://github.com/mikeerickson/validatorjs) - Data validation library in JavaScript for the browser and Node.js, inspired by Laravel's Validator.
+- [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) - JSON Schema validator that uses code generation to be extremely fast.
+- [property-validator](https://github.com/nettofarah/property-validator) - Easy property validation for JavaScript, Node and Express.
+- [schema-inspector](https://github.com/Atinux/schema-inspector) - JSON API sanitization and validation.
 
 ### Command-line utilities
 - [Commander.js](https://github.com/tj/commander.js) - The complete solution for node.js command-line interfaces.
@@ -53,6 +74,17 @@ English | [简体中文](./README-zh-CN.md)
 - [storyboard](https://github.com/guigrpa/storyboard) - A library, plus a Chrome DevTools extension.
 - [cabin](https://github.com/cabinjs/cabin) - Best JavaScript and Node.js logging service and logging npm package
 
+### URL
+- [URI.js](https://github.com/medialize/URI.js) - Javascript URL mutation library.
+- [query-string](https://github.com/sindresorhus/query-string) - Parse and stringify URL query strings.
+- [url-parse](https://github.com/unshiftio/url-parse) - Small footprint URL parser that works seamlessly across Node.js and browser environments.
+- [normalize-url](https://github.com/sindresorhus/normalize-url) - Normalize a URL.
+- [url-pattern](https://github.com/snd/url-pattern) - Easier than regex string matching patterns for urls and other strings. turn strings into data or data into strings.
+- [native-url](https://github.com/GoogleChromeLabs/native-url) - Node's url module implemented using the built-in URL API.
+- [humanize-url](https://github.com/sindresorhus/humanize-url) - Node's url module implemented using the built-in URL API.
+- [parseurl](https://github.com/pillarjs/parseurl) - Parse a url with memoization.
+- [encodeurl](https://github.com/pillarjs/encodeurl) - Encode a URL to a percent-encoded form, excluding already-encoded sequences.
+
 ### Build tools
 - [webpack](https://github.com/webpack/webpack) - Packs modules and assets for the browser.
 - [parcel](https://github.com/parcel-bundler/parcel) - Blazing fast, zero config web app bundler.
@@ -67,12 +99,12 @@ English | [简体中文](./README-zh-CN.md)
 
 ### Web Frameworks
 - [Express](https://github.com/expressjs/express) - Web application framework, providing a robust set of features for building single and multi-page, and hybrid web applications.
+- [Next.js](https://github.com/zeit/next.js) - Minimalistic framework for server-rendered universal JavaScript web apps.
+- [Meteor](https://github.com/meteor/meteor) - An ultra-simple, database-everywhere, data-on-the-wire, pure-Javascript web framework. *(You might like [awesome-meteor](https://github.com/Urigo/awesome-meteor))*
+- [Nuxt.js](https://github.com/nuxt/nuxt.js) - Minimalistic framework for server-rendered Vue.js apps.
 - [Nest](https://github.com/nestjs/nest) - Angular-inspired framework for building efficient and scalable server-side apps.
 *(You might like [awesome-nestjs](https://github.com/juliandavidmr/awesome-nestjs))*
 - [Koa](https://github.com/koajs/koa) - Framework designed by the team behind Express, which aims to be a smaller, more expressive, and more robust foundation for web applications and APIs.
-- [Next.js](https://github.com/zeit/next.js) - Minimalistic framework for server-rendered universal JavaScript web apps.
-- [Nuxt.js](https://github.com/nuxt/nuxt.js) - Minimalistic framework for server-rendered Vue.js apps.
-- [Meteor](https://github.com/meteor/meteor) - An ultra-simple, database-everywhere, data-on-the-wire, pure-Javascript web framework. *(You might like [awesome-meteor](https://github.com/Urigo/awesome-meteor))*
 - [Fastify](https://github.com/fastify/fastify) - Fast and low overhead web framework.
 - [Hapi](https://github.com/hapijs/hapi) - Framework for building applications and services.
 - [Egg](https://github.com/eggjs/egg) - Born to build better enterprise frameworks and apps with Node.js & Koa.
@@ -92,26 +124,6 @@ English | [简体中文](./README-zh-CN.md)
 - [Tinyhttp](https://github.com/talentlessguy/tinyhttp) - Modern and fast Express-like web framework.
 - [Hemera](https://github.com/hemerajs/hemera) - Write reliable and fault-tolerant microservices with [NATS](https://nats.io).
 - [Zeronode](https://github.com/sfast/zeronode) - Minimal building block for reliable and fault-tolerant microservices.
-
-### Date & Time
-- [moment](https://github.com/moment/moment) - Parse, validate, manipulate, and display dates in javascript.
-- [dayjs](https://github.com/iamkun/dayjs) - Day.js 2KB immutable date-time library alternative to Moment.js with the same modern API.
-- [date-fns](https://github.com/date-fns/date-fns) - Modern JavaScript date utility library.
-- [luxon](https://github.com/moment/luxon) - Library for working with dates and times.
-- [ms](https://github.com/vercel/ms) - Tiny millisecond conversion utility.
-
-### Data validation
-- [validator.js](https://github.com/validatorjs/validator.js) - A library of string validators and sanitizers.
-- [joi](https://github.com/hapijs/joi) - Object schema description language and validator for JavaScript objects.
-- [class-validator](https://github.com/typestack/class-validator) - Decorator-based property validation for classes.
-- [ajv](https://github.com/epoberezkin/ajv) - The fastest JSON schema Validator. Supports JSON Schema draft-04/06/07/2019-09/2020-12 and JSON Type Definition (RFC8927).
-- [Superstruct](https://github.com/ianstormtaylor/superstruct) - Simple and composable way to validate data in JavaScript (and TypeScript).
-- [v8n](https://github.com/imbrn/v8n) - JavaScript fluent validation library
-- [forgJs](https://github.com/oussamahamdaoui/forgJs) - Javascript lightweight object validator.
-- [validatorjs](https://github.com/mikeerickson/validatorjs) - Data validation library in JavaScript for the browser and Node.js, inspired by Laravel's Validator.
-- [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) - JSON Schema validator that uses code generation to be extremely fast.
-- [property-validator](https://github.com/nettofarah/property-validator) - Easy property validation for JavaScript, Node and Express.
-- [schema-inspector](https://github.com/Atinux/schema-inspector) - JSON API sanitization and validation.
 
 ### Office
 - [sheetjs](https://github.com/SheetJS/sheetjs) - Spreadsheet Data Toolkit.
