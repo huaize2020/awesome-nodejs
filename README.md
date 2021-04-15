@@ -137,6 +137,7 @@ English | [简体中文](./README-zh-CN.md)
 - [Restify](https://github.com/restify/node-restify) - Enables you to build correct REST web services.
 - [ThinkJS](https://github.com/thinkjs/thinkjs) - Framework with ES2015+ support, WebSockets, REST API.
 - [Midway](https://github.com/midwayjs/midway) - A Node.js framework for building Serverless services, traditional server-side applications, microservices, and small programs.
+- [total.js](https://github.com/totaljs/framework) - A framework for Node.js platfrom written in pure JavaScript similar to PHP's Laravel or Python's Django or ASP.NET MVC
 - [AdonisJs](http://adonisjs.com) - A true MVC framework for Node.js built on solid foundations of Dependency Injection and IoC container.
 - [Micro](https://github.com/zeit/micro) - Minimalistic microservice framework with an async approach.
 - [Moleculer](https://moleculer.services) - Fast & powerful microservices framework.

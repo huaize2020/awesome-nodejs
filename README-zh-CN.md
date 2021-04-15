@@ -142,6 +142,7 @@
 - [Restify](https://github.com/restify/node-restify) - 使你能够构建正确的REST Web服务。
 - [ThinkJS](https://github.com/thinkjs/thinkjs) - 支持ES2015 +的框架，WebSockets，REST API。
 - [Midway](https://github.com/midwayjs/midway) - 一个面向未来的云端一体 Node.js 框架。
+- [total.js](https://github.com/totaljs/framework) - 使用纯JavaScript编写的Node.js框架，类似PHP's Laravel或Python's Django或ASP.NET MVC
 - [AdonisJs](http://adonisjs.com) - 基于依赖注入和IoC容器的坚实基础构建的Node.js的真正MVC框架。
 - [Micro](https://github.com/zeit/micro) - 具有异步方法的简约微服务框架。
 - [Moleculer](https://moleculer.services) - 快速而强大的微服务框架。
