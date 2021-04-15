@@ -18,7 +18,9 @@
   - [日志](#日志)
   - [URL](#url)
   - [构建工具](#构建工具)
+  - [模板引擎](#模板引擎)
   - [Web框架](#web框架)
+  - [数据库](#数据库)
   - [办公软件](#办公软件)
   - [Email](#email)
   - [爬虫](#爬虫)
@@ -56,6 +58,7 @@
 - [Commander.js](https://github.com/tj/commander.js) - Node.JS命令行界面完整解决方案。
 - [chalk](https://github.com/chalk/chalk) - 命令行字符串样式美化工具。
 - [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - 通用可交互命令行工具集合。
+- [yargs](https://github.com/yargs/yargs) - 通用可交互命令行工具集合。
 - [Enquirer](https://github.com/enquirer/enquirer) - 用户友好、直观且易于创建的时尚CLI提示。
 - [minimist](https://github.com/substack/minimist) - 命令行参数解析引擎。
 - [cac](https://github.com/cacjs/cac) - 用于构建命令行应用的强大框架。
@@ -71,8 +74,10 @@
 - [graceful-fs](https://github.com/isaacs/node-graceful-fs) - graceful-fs可以替代fs模块，并做了各种改进。
 - [filesize.js](https://github.com/avoidwork/filesize.js) - 生成人类可读的文件大小字符串。
 - [make-dir](https://github.com/sindresorhus/make-dir) - 递归创建文件夹，类似 `mkdir -p`。
+- [memfs](https://github.com/streamich/memfs) - Node.js API内存文件系统.
 - [watchpack](https://github.com/webpack/watchpack) - Watch文件和文件夹。
 - [cpy](https://github.com/sindresorhus/cpy) - 文件拷贝。
+- [mkdirp](https://github.com/isaacs/node-mkdirp) - 递归创建文件夹，类似 `mkdir -p`.
 
 ### 日志
 - [winston](https://github.com/winstonjs/winston) - 多传输异步日志记录库。
@@ -107,6 +112,17 @@
 - [FuseBox](https://github.com/fuse-box/fuse-box) - 快速构建系统，结合了webpack，JSPM和SystemJS的强大功能，并具有一流的TypeScript支持。
 - [Broccoli](https://github.com/broccolijs/broccoli) - 快速、可靠的资产管道，支持固定时间重建和紧凑的构建定义。
 
+### 模板引擎
+- [Pug](https://github.com/pugjs/pug) - 受Haml启发的高性能模板引擎。
+- [handlebars.js](https://github.com/wycats/handlebars.js) - Mustache 模板的超集，添加了强大的功能，如helper和更高级的block。
+- [mustache.js](https://github.com/janl/mustache.js) - 轻量的JavaScript模板引擎{{八字须}}。
+- [marko](https://github.com/marko-js/marko) - 基于HTML的模板引擎，编译成CommonJS模块，支持流、异步渲染和自定义标签。
+- [art-template](https://github.com/aui/art-template) - 高性能JavaScript模板引擎。
+- [nunjucks](https://github.com/mozilla/nunjucks) - 具有继承，异步控制等功能的模板引擎（受Jinja2启发）。
+- [EJS](https://github.com/mde/ejs) - 超级简单的模板语言。
+- [doT](https://github.com/olado/doT) - 最快简洁的JavaScript模板引擎。
+- [Twig.js](https://github.com/twigjs/twig.js) - Twig模板语言的JavaScript实现。
+
 ### Web框架
 - [Express](https://github.com/expressjs/express) - Web应用程序框架，为构建单页和多页以及混合Web应用程序提供了一组强大的功能。
 - [Next.js](https://github.com/zeit/next.js) - React服务端渲染框架。
@@ -133,6 +149,32 @@
 - [Tinyhttp](https://github.com/talentlessguy/tinyhttp) - 类Express更现代更快的Web框架。
 - [Hemera](https://github.com/hemerajs/hemera) -使用以下工具编写可靠且容错的微服务 [NATS](https://nats.io)。
 - [Zeronode](https://github.com/sfast/zeronode) - 最小的构建块，可实现可靠且容错的微服务。
+
+### 数据库
+- 驱动
+  - [MySQL](https://github.com/mysqljs/mysql) - MySQL 客户端。
+  - [PostgreSQL](https://github.com/brianc/node-postgres) - PostgreSQL客户端。
+  - [MongoDB](https://github.com/mongodb/node-mongodb-native) - 官方MongoDB驱动。
+  - [ioredis](https://github.com/luin/ioredis) - Redis客户端。
+  - [LevelUP](https://github.com/Level/levelup) - LevelDB客户端。
+  - [couchdb-nano](https://github.com/apache/couchdb-nano) - 官方CouchDB客户端。
+  - [Couchbase](https://github.com/couchbase/couchnode) - Couchbase客户端（官方）。
+  - [Aerospike](https://github.com/aerospike/aerospike-client-nodejs) - Aerospike客户端.
+- ODM / ORM
+  - [Sequelize](https://github.com/sequelize/sequelize) - 多方ORM。 支持PostgreSQL，SQLite，MySQL。
+  - [TypeORM](https://github.com/typeorm/typeorm) - PostgreSQL，MariaDB，MySQL，SQLite等的ORM。
+  - [Mongoose](https://github.com/Automattic/mongoose) - 优雅的MongoDB对象建模。
+  - [Prisma](https://github.com/prisma/prisma) - 支持PostgreSQL, MySQL & SQLite，自动生成、类型安全的query builder。
+  - [Bookshelf](https://github.com/bookshelf/bookshelf) - Backbone.js风格的PostgreSQL，MySQL和SQLite3的ORM。
+  - [Objection.js](https://github.com/Vincit/objection.js) - 基于SQL查询生成器Knex的轻量级ORM。
+  - [Waterline](https://github.com/balderdashy/waterline) - 与数据存储区无关的工具，可大大简化与一个或多个数据库的交互。
+  - [Massive](https://github.com/robconery/massive-js) - PostgreSQL数据访问工具。
+  - [pg-promise](https://github.com/vitaly-t/pg-promise) - 用于使用Promise的本机SQL的PostgreSQL框架。
+  - [MikroORM](https://github.com/mikro-orm/mikro-orm) - 基于数据映射器，工作单元和身份映射模式的TypeScript ORM。 支持MongoDB，PostgreSQL，MySQL和SQLite。
+  - [slonik](https://github.com/gajus/slonik) - 具有严格类型，详细日志记录和断言的PostgreSQL客户端。
+  - [OpenRecord](https://github.com/PhilWaldmann/openrecord) - PostgreSQL，MySQL，SQLite3和RESTful数据存储的ORM。 类似于ActiveRecord。
+- Query builder
+  - [Knex](https://github.com/tgriesser/knex) - PostgreSQL，MySQL和SQLite3的查询构建器，旨在灵活，可移植且易于使用。
 
 ### 办公软件
 - [sheetjs](https://github.com/SheetJS/sheetjs) - 电子表格数据工具箱。

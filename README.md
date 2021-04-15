@@ -12,7 +12,9 @@ English | [简体中文](./README-zh-CN.md)
   - [Logging](#logging)
   - [URL](#url)
   - [Build tools](#build-tools)
+  - [Templating](#templating)
   - [Web Frameworks](#web-frameworks)
+  - [Database](#database)
   - [Office](#office)
   - [Email](#email)
   - [Crawler](#crawler)
@@ -49,7 +51,8 @@ English | [简体中文](./README-zh-CN.md)
 ### Command-line utilities
 - [Commander.js](https://github.com/tj/commander.js) - The complete solution for node.js command-line interfaces.
 - [chalk](https://github.com/chalk/chalk) - Terminal string styling done right.
-- [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - A collection of common interactive command line user interfaces.
+- [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - Collection of common interactive command line user interfaces.
+- [yargs](https://github.com/yargs/yargs) - Collection of common interactive command line user interfaces.
 - [Enquirer](https://github.com/enquirer/enquirer) - Stylish CLI prompts that are user-friendly, intuitive and easy to create.
 - [minimist](https://github.com/substack/minimist) - Guts of optimist's argument parser without all the fanciful decoration.
 - [cac](https://github.com/cacjs/cac) - Simple yet powerful framework for building command-line apps.
@@ -65,8 +68,10 @@ English | [简体中文](./README-zh-CN.md)
 - [graceful-fs](https://github.com/isaacs/node-graceful-fs) - graceful-fs functions as a drop-in replacement for the fs module, making various improvements.
 - [filesize.js](https://github.com/avoidwork/filesize.js) - Generate a human readable String describing the file size.
 - [make-dir](https://github.com/sindresorhus/make-dir) - Recursively create directories like mkdir -p.
+- [memfs](https://github.com/streamich/memfs) - In-memory filesystem with Node's API.
 - [watchpack](https://github.com/webpack/watchpack) - Wrapper library for directory and file watching.
 - [cpy](https://github.com/sindresorhus/cpy) - Copy files.
+- [mkdirp](https://github.com/isaacs/node-mkdirp) - Recursively mkdir, like `mkdir -p`.
 
 ### Logging
 - [winston](https://github.com/winstonjs/winston) - Multi-transport async logging library.
@@ -101,6 +106,17 @@ English | [简体中文](./README-zh-CN.md)
 - [FuseBox](https://github.com/fuse-box/fuse-box) - Fast build system that combines the power of webpack, JSPM and SystemJS, with first-class TypeScript support.
 - [Broccoli](https://github.com/broccolijs/broccoli) - Fast, reliable asset pipeline, supporting constant-time rebuilds and compact build definitions.
 
+### Templating
+- [Pug](https://github.com/pugjs/pug) - High-performance template engine heavily influenced by Haml.
+- [handlebars.js](https://github.com/wycats/handlebars.js) - Superset of Mustache templates which adds powerful features like helpers and more advanced blocks.
+- [mustache.js](https://github.com/janl/mustache.js) - Minimal templating with {{mustaches}} in JavaScript.
+- [marko](https://github.com/marko-js/marko) - HTML-based templating engine that compiles templates to CommonJS modules and supports streaming, async rendering and custom tags.
+- [art-template](https://github.com/aui/art-template) - High performance JavaScript templating engine.
+- [nunjucks](https://github.com/mozilla/nunjucks) - Templating engine with inheritance, asynchronous control, and more (jinja2 inspired).
+- [EJS](https://github.com/mde/ejs) - Simple unopinionated templating language.
+- [doT](https://github.com/olado/doT) - Fastest + concise javascript template engine for nodejs and browsers. Partials, custom delimiters and more.
+- [Twig.js](https://github.com/twigjs/twig.js) - JS implementation of the Twig Templating Language.
+
 ### Web Frameworks
 - [Express](https://github.com/expressjs/express) - Web application framework, providing a robust set of features for building single and multi-page, and hybrid web applications.
 - [Next.js](https://github.com/zeit/next.js) - Minimalistic framework for server-rendered universal JavaScript web apps.
@@ -128,6 +144,32 @@ English | [简体中文](./README-zh-CN.md)
 - [Tinyhttp](https://github.com/talentlessguy/tinyhttp) - Modern and fast Express-like web framework.
 - [Hemera](https://github.com/hemerajs/hemera) - Write reliable and fault-tolerant microservices with [NATS](https://nats.io).
 - [Zeronode](https://github.com/sfast/zeronode) - Minimal building block for reliable and fault-tolerant microservices.
+
+### Database
+- Drivers
+  - [MySQL](https://github.com/mysqljs/mysql) - A pure node.js JavaScript Client implementing the MySQL protocol.
+  - [PostgreSQL](https://github.com/brianc/node-postgres) - PostgreSQL client for node.js.
+  - [MongoDB](https://github.com/mongodb/node-mongodb-native) - The Official MongoDB Node.js Driver.
+  - [ioredis](https://github.com/luin/ioredis) - A robust, performance-focused and full-featured Redis client for Node.js.
+  - [LevelUP](https://github.com/Level/levelup) - A wrapper for abstract-leveldown compliant stores, for Node.js and browsers.
+  - [couchdb-nano](https://github.com/apache/couchdb-nano) - Nano: The official Apache CouchDB library for Node.js.
+  - [Couchbase](https://github.com/couchbase/couchnode) - Couchbase Node.js Client Library (Official).
+  - [Aerospike](https://github.com/aerospike/aerospike-client-nodejs) - Node.js client for the Aerospike database.
+- ODM / ORM
+  - [Sequelize](https://github.com/sequelize/sequelize) - Multi-dialect ORM. Supports PostgreSQL, SQLite, MySQL, and more.
+  - [TypeORM](https://github.com/typeorm/typeorm) - ORM for PostgreSQL, MariaDB, MySQL, SQLite, and more.
+  - [Mongoose](https://github.com/Automattic/mongoose) - Elegant MongoDB object modeling.
+  - [Prisma](https://github.com/prisma/prisma) - Modern database access (ORM alternative). Auto-generated and type-safe query builder in TypeScript. Supports PostgreSQL, MySQL & SQLite.
+  - [Bookshelf](https://github.com/bookshelf/bookshelf) - ORM for PostgreSQL, MySQL and SQLite3 in the style of Backbone.js.
+  - [Objection.js](https://github.com/Vincit/objection.js) - Lightweight ORM built on the SQL query builder Knex.
+  - [Waterline](https://github.com/balderdashy/waterline) - Datastore-agnostic tool that dramatically simplifies interaction with one or more databases.
+  - [pg-promise](https://github.com/vitaly-t/pg-promise) - PostgreSQL framework for native SQL using promises.
+  - [MikroORM](https://github.com/mikro-orm/mikro-orm) - TypeScript ORM based on Data Mapper, Unit of Work and Identity Map patterns. Supports MongoDB, PostgreSQL, MySQL and SQLite.
+  - [Massive](https://github.com/robconery/massive-js) - PostgreSQL data access tool.
+  - [slonik](https://github.com/gajus/slonik) - PostgreSQL client with strict types, detailed logging and assertions.
+  - [OpenRecord](https://github.com/PhilWaldmann/openrecord) - ORM for PostgreSQL, MySQL, SQLite3 and RESTful datastores. Similar to ActiveRecord.
+- Query builder
+  - [Knex](https://github.com/tgriesser/knex) - Query builder for PostgreSQL, MySQL and SQLite3, designed to be flexible, portable, and fun to use.
 
 ### Office
 - [sheetjs](https://github.com/SheetJS/sheetjs) - Spreadsheet Data Toolkit.
