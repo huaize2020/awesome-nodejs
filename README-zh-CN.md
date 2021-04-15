@@ -68,7 +68,10 @@
 - [globby](https://github.com/sindresorhus/globby) - 基于fast-glob，但添加了很多有用的特性。
 - [fast-glob](https://github.com/mrmlnc/fast-glob) - 非常快速且高效的Node.js glob库。
 - [del](https://github.com/sindresorhus/del) - 删除文件/文件夹。
+- [graceful-fs](https://github.com/isaacs/node-graceful-fs) - graceful-fs可以替代fs模块，并做了各种改进。
+- [filesize.js](https://github.com/avoidwork/filesize.js) - 生成人类可读的文件大小字符串。
 - [make-dir](https://github.com/sindresorhus/make-dir) - 递归创建文件夹，类似 `mkdir -p`。
+- [watchpack](https://github.com/webpack/watchpack) - Watch文件和文件夹。
 - [cpy](https://github.com/sindresorhus/cpy) - 文件拷贝。
 
 ### 日志
@@ -82,6 +85,7 @@
 
 ### URL
 - [URI.js](https://github.com/medialize/URI.js) - URL转换库。
+- [qs](https://github.com/ljharb/qs) - 请求字符串解析器。
 - [query-string](https://github.com/sindresorhus/query-string) - 解析和字符串化URL查询字符串。
 - [url-parse](https://github.com/unshiftio/url-parse) - 轻量URL解析器，可跨Node.js和浏览器环境无缝运行。
 - [normalize-url](https://github.com/sindresorhus/normalize-url) - 规范化URL.

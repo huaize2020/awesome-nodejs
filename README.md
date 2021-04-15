@@ -62,7 +62,10 @@ English | [简体中文](./README-zh-CN.md)
 - [globby](https://github.com/sindresorhus/globby) - Based on fast-glob but adds a bunch of useful features.
 - [fast-glob](https://github.com/mrmlnc/fast-glob) - Very fast and efficient glob library for Node.js.
 - [del](https://github.com/sindresorhus/del) - Delete files and directories.
+- [graceful-fs](https://github.com/isaacs/node-graceful-fs) - graceful-fs functions as a drop-in replacement for the fs module, making various improvements.
+- [filesize.js](https://github.com/avoidwork/filesize.js) - Generate a human readable String describing the file size.
 - [make-dir](https://github.com/sindresorhus/make-dir) - Recursively create directories like mkdir -p.
+- [watchpack](https://github.com/webpack/watchpack) - Wrapper library for directory and file watching.
 - [cpy](https://github.com/sindresorhus/cpy) - Copy files.
 
 ### Logging
@@ -76,6 +79,7 @@ English | [简体中文](./README-zh-CN.md)
 
 ### URL
 - [URI.js](https://github.com/medialize/URI.js) - Javascript URL mutation library.
+- [qs](https://github.com/ljharb/qs) - Querystring parser with nesting support.
 - [query-string](https://github.com/sindresorhus/query-string) - Parse and stringify URL query strings.
 - [url-parse](https://github.com/unshiftio/url-parse) - Small footprint URL parser that works seamlessly across Node.js and browser environments.
 - [normalize-url](https://github.com/sindresorhus/normalize-url) - Normalize a URL.
