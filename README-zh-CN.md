@@ -20,6 +20,7 @@
   - [构建工具](#构建工具)
   - [模板引擎](#模板引擎)
   - [Web框架](#web框架)
+  - [静态网站生成 & 博客](#静态网站生成--博客)
   - [数据库](#数据库)
   - [办公软件](#办公软件)
   - [Email](#email)
@@ -154,6 +155,13 @@
 - [Tinyhttp](https://github.com/talentlessguy/tinyhttp) - 类Express更现代更快的Web框架。
 - [Hemera](https://github.com/hemerajs/hemera) -使用以下工具编写可靠且容错的微服务 [NATS](https://nats.io)。
 - [Zeronode](https://github.com/sfast/zeronode) - 最小的构建块，可实现可靠且容错的微服务。
+
+### 静态网站生成 & 博客
+- [gatsby](https://github.com/gatsbyjs/gatsby) - 使用React构建快速、现代的应用程序和网站。
+- [hexo](https://github.com/hexojs/hexo) - 使用Node.js的快速，简单，强大的博客框架。
+- [vuepress](https://github.com/vuejs/vuepress) - 极简的Vue静态网站生成工具。
+- [react-static](https://github.com/react-static/react-static) - 渐进式的React静态网站生成工具。
+- [gridsome](https://github.com/gridsome/gridsome) - Vue.js静态网站生成工具.
 
 ### 数据库
 - 驱动

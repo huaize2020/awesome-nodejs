@@ -14,6 +14,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Build tools](#build-tools)
   - [Templating](#templating)
   - [Web Frameworks](#web-frameworks)
+  - [Static Site Generator & blogging](#static-site-generator--blogging)
   - [Database](#database)
   - [Office](#office)
   - [Email](#email)
@@ -149,6 +150,13 @@ English | [简体中文](./README-zh-CN.md)
 - [Tinyhttp](https://github.com/talentlessguy/tinyhttp) - Modern and fast Express-like web framework.
 - [Hemera](https://github.com/hemerajs/hemera) - Write reliable and fault-tolerant microservices with [NATS](https://nats.io).
 - [Zeronode](https://github.com/sfast/zeronode) - Minimal building block for reliable and fault-tolerant microservices.
+
+### Static Site Generator & blogging
+- [gatsby](https://github.com/gatsbyjs/gatsby) - Build blazing fast, modern apps and websites with React.
+- [hexo](https://github.com/hexojs/hexo) - A fast, simple & powerful blog framework, powered by Node.js.
+- [vuepress](https://github.com/vuejs/vuepress) - Minimalistic Vue-powered static site generator.
+- [react-static](https://github.com/react-static/react-static) - A progressive static site generator for React.
+- [gridsome](https://github.com/gridsome/gridsome) - The Jamstack framework for Vue.js.
 
 ### Database
 - Drivers
