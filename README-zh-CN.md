@@ -32,6 +32,7 @@
   - [爬虫](#爬虫)
   - [AST](#ast)
   - [机器学习](#机器学习)
+  - [代码校验 和 格式化工具](#代码校验-和-格式化工具)
 
 ## 官方资源
 
@@ -240,6 +241,7 @@
 
 ### 办公软件
 - [sheetjs](https://github.com/SheetJS/sheetjs) - 电子表格数据工具箱。
+- [nodeppt](https://github.com/ksky521/nodeppt) - Web端展示端PPT工具。
 - [PDFKit](https://github.com/foliojs/pdfkit) - 在Node.js和浏览器中生成PDF的库。
 - [exceljs](https://github.com/exceljs/exceljs) - Excel工作表管理工具。
 - [officegen](https://github.com/Ziv-Barber/officegen) - 使用Javascript，生成可打开Word（docx）、PowerPoint（pptx）和Excel（xlsx）的XML文件（需Microsoft Office 2007及更高版本），输出是一个stream。
@@ -271,3 +273,9 @@
 - [tfjs](https://github.com/tensorflow/tfjs) - Tensorflow官方提供JS版本。
 - [brain.js](https://github.com/BrainJS/brain.js) - 基于模型训练的神经网络 JS 库，支持浏览器和 Node.js。
 - [pipcook](https://github.com/alibaba/pipcook) - 为Web开发者提供的机器学习平台。
+
+### 代码校验 和 格式化工具
+- [prettier](https://github.com/prettier/prettier) - ❤"有主见"的多语言代码格式化程序
+- [standard](https://github.com/standard/standard) - JavaScript 代码规范，自带 linter & 代码自动修正
+- [eslint](https://github.com/eslint/eslint) - 插件化并且可配置的 JavaScript 语法规则和代码风格的检查工具
+- [textlint](https://github.com/textlint/textlint) - Text 和 Markdown 校验和格式化

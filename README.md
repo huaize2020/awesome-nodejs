@@ -26,6 +26,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Crawler](#crawler)
   - [AST](#ast)
   - [Machine learning](#machine-learning)
+  - [Linter & Formatter](#linter--formatter)
 
 ## Official
 
@@ -235,6 +236,7 @@ English | [简体中文](./README-zh-CN.md)
 
 ### Office
 - [sheetjs](https://github.com/SheetJS/sheetjs) - Spreadsheet Data Toolkit.
+- [nodeppt](https://github.com/ksky521/nodeppt) - This is probably the best web presentation tool so far!
 - [PDFKit](https://github.com/foliojs/pdfkit) - JavaScript PDF generation library for Node and the browser.
 - [exceljs](https://github.com/exceljs/exceljs) - Excel Workbook Manager.
 - [officegen](https://github.com/Ziv-Barber/officegen) - Standalone Office Open XML files (Microsoft Office 2007 and later) generator for Word (docx), PowerPoint (pptx) and Excell (xlsx) in javascript. The output is a stream.
@@ -266,3 +268,9 @@ English | [简体中文](./README-zh-CN.md)
 - [tfjs](https://github.com/tensorflow/tfjs) - A WebGL accelerated JavaScript library for training and deploying ML models.
 - [brain.js](https://github.com/BrainJS/brain.js) - GPU accelerated Neural networks in JavaScript for Browsers and Node.js.
 - [pipcook](https://github.com/alibaba/pipcook) - Machine learning platform for Web developers.
+
+### Linter & Formatter
+- [prettier](https://github.com/prettier/prettier) - ❤Prettier is an opinionated code formatter.
+- [standard](https://github.com/standard/standard) - JavaScript Style Guide, with linter & automatic code fixer.
+- [eslint](https://github.com/eslint/eslint) - Find and fix problems in your JavaScript code.
+- [textlint](https://github.com/textlint/textlint) - The pluggable natural language linter for text and markdown.
