@@ -22,6 +22,7 @@
   - [模板引擎](#模板引擎)
   - [Web框架](#web框架)
   - [静态网站生成 & 博客](#静态网站生成--博客)
+  - [论坛](#论坛)
   - [数据库](#数据库)
   - [办公软件](#办公软件)
   - [Email](#email)
@@ -43,6 +44,7 @@
 - [date-fns](https://github.com/date-fns/date-fns) - 现代JavaScript日期工具库。
 - [luxon](https://github.com/moment/luxon) - 用于处理日期和时间的库。
 - [ms](https://github.com/vercel/ms) - 毫秒转换工具。
+- [dateformat](https://github.com/felixge/node-dateformat) - 日期格式化。
 
 ### 数据校验
 - [validator.js](https://github.com/validatorjs/validator.js) - 字符串校验库。
@@ -64,6 +66,8 @@
 - [yargs](https://github.com/yargs/yargs) - 通用可交互命令行工具集合。
 - [Enquirer](https://github.com/enquirer/enquirer) - 用户友好、直观且易于创建的时尚CLI提示。
 - [minimist](https://github.com/substack/minimist) - 命令行参数解析引擎。
+- [progress](https://github.com/visionmedia/node-progress) - Node.js的灵活ascii进度条。
+- [depcheck]https://github.com/depcheck/depcheck) - 检查项目中未使用的依赖。
 - [cac](https://github.com/cacjs/cac) - 用于构建命令行应用的强大框架。
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - 为不同日志级别添加色彩图标。
 
@@ -158,6 +162,7 @@
 - [Moleculer](https://moleculer.services) - 快速而强大的微服务框架。
 - [TypeGraphQL](https://github.com/19majkel94/type-graphql) - 使用类和装饰器使用TypeScript创建GraphQL API的现代框架。
 - [seneca](https://github.com/senecajs/seneca) - 编写微服务的工具包。
+- [beidou](https://github.com/alibaba/beidou) - NodeJS & React 同构框架，基于Egg.js开发。
 - [Marble.js](https://github.com/marblejs/marble) - 基于TypeScript和RxJS，用于构建服务端应用的函数响应式框架。
 - [ActionHero](https://github.com/actionhero/actionhero) - 用于为TCP套接字，WebSocket和HTTP客户端制作可重用和可扩展的API的框架。
 - [lad](https://github.com/ladjs/lad) - 最好的Node.js框架，由前Express和Koa团队成员创建。
@@ -171,6 +176,10 @@
 - [vuepress](https://github.com/vuejs/vuepress) - 极简的Vue静态网站生成工具。
 - [react-static](https://github.com/react-static/react-static) - 渐进式的React静态网站生成工具。
 - [gridsome](https://github.com/gridsome/gridsome) - Vue.js静态网站生成工具.
+
+### 论坛
+- [NodeBB](https://github.com/NodeBB/NodeBB) - 基于Node.js的现代Web论坛。
+- [nodeclub](https://github.com/cnodejs/nodeclub/) -  Nodeclub 是使用 Node.js 和 MongoDB 开发的社区系统
 
 ### 数据库
 - 驱动
