@@ -154,7 +154,6 @@ English | [简体中文](./README-zh-CN.md)
 - [total.js](https://github.com/totaljs/framework) - A framework for Node.js platfrom written in pure JavaScript similar to PHP's Laravel or Python's Django or ASP.NET MVC
 - [AdonisJs](http://adonisjs.com) - A true MVC framework for Node.js built on solid foundations of Dependency Injection and IoC container.
 - [Micro](https://github.com/zeit/micro) - Minimalistic microservice framework with an async approach.
-- [beidou](https://github.com/alibaba/beidou) - Isomorphic framework for server-rendered React apps.
 - [Moleculer](https://moleculer.services) - Fast & powerful microservices framework.
 - [TypeGraphQL](https://github.com/19majkel94/type-graphql) - Modern framework for creating GraphQL APIs with TypeScript, using classes and decorators.
 - [seneca](https://github.com/senecajs/seneca) - Toolkit for writing microservices.
