@@ -40,7 +40,7 @@
 ## NPM包
 
 ### 数字
-- [Numeral.js](https://github.com/adamwdraper/Numeral-js) - 格式化和操和数字。
+- [Numeral.js](https://github.com/adamwdraper/Numeral-js) - 格式化和操作数字。
 - [decimal.js](https://github.com/MikeMcl/decimal.js) - JavaScript的任意精度的十进制类型。
 - [round-to](https://github.com/sindresorhus/round-to) - 将数字四舍五入到指定的小数位数：`1.234`→1.2`。
 - [unique-random](https://github.com/sindresorhus/unique-random) - 生成连续唯一的随机数。
