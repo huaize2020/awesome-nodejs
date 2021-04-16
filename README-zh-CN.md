@@ -13,12 +13,13 @@
 - [NPM包](#npm包)
   - [数字](#数字)
   - [日期 和 时间](#日期-和-时间)
+  - [URL](#url)
   - [数据校验](#数据校验)
   - [命令行工具](#命令行工具)
   - [文件系统](#文件系统)
   - [Git](#git)
   - [日志](#日志)
-  - [URL](#url)
+  - [代码校验 和 格式化工具](#代码校验-和-格式化工具)
   - [构建工具](#构建工具)
   - [模板引擎](#模板引擎)
   - [Web框架](#web框架)
@@ -32,7 +33,6 @@
   - [爬虫](#爬虫)
   - [AST](#ast)
   - [机器学习](#机器学习)
-  - [代码校验 和 格式化工具](#代码校验-和-格式化工具)
 
 ## 官方资源
 
@@ -57,6 +57,18 @@
 - [luxon](https://github.com/moment/luxon) - 用于处理日期和时间的库。
 - [ms](https://github.com/vercel/ms) - 毫秒转换工具。
 - [dateformat](https://github.com/felixge/node-dateformat) - 日期格式化。
+
+### URL
+- [URI.js](https://github.com/medialize/URI.js) - URL转换库。
+- [qs](https://github.com/ljharb/qs) - 请求字符串解析器。
+- [query-string](https://github.com/sindresorhus/query-string) - 解析和字符串化URL查询字符串。
+- [url-parse](https://github.com/unshiftio/url-parse) - 轻量URL解析器，可跨Node.js和浏览器环境无缝运行。
+- [normalize-url](https://github.com/sindresorhus/normalize-url) - 规范化URL.
+- [url-pattern](https://github.com/snd/url-pattern) - 比正则表达式更易匹配URL和其他字符串，将字符串转化成数据 或 将数据转换成字符串。
+- [native-url](https://github.com/GoogleChromeLabs/native-url) - 使用内建URL API实现的NodeJS URL模块。
+- [humanize-url](https://github.com/sindresorhus/humanize-url) - 使URL更可读: http://sindresorhus.com → sindresorhus.com。
+- [parseurl](https://github.com/pillarjs/parseurl) - 使用记忆化方式解析URL.
+- [encodeurl](https://github.com/pillarjs/encodeurl) - 将URL编码为"百分比"形式，不编码已编码部分。
 
 ### 数据校验
 - [validator.js](https://github.com/validatorjs/validator.js) - 字符串校验库。
@@ -95,7 +107,8 @@
 - [jsonfile](https://github.com/jprichardson/node-jsonfile) - 轻松读写JSON文件。
 - [filesize.js](https://github.com/avoidwork/filesize.js) - 生成人类可读的文件大小字符串。
 - [make-dir](https://github.com/sindresorhus/make-dir) - 递归创建文件夹，类似 `mkdir -p`。
-- [memfs](https://github.com/streamich/memfs) - Node.js API内存文件系统.
+- [memfs](https://github.com/streamich/memfs) - Node.js API内存文件系统。
+- [temp](https://github.com/bruce/node-temp) - Node.js临时文件、文件夹、流。
 - [watchpack](https://github.com/webpack/watchpack) - Watch文件和文件夹。
 - [cpy](https://github.com/sindresorhus/cpy) - 文件拷贝。
 - [mkdirp](https://github.com/isaacs/node-mkdirp) - 递归创建文件夹，类似 `mkdir -p`.
@@ -117,17 +130,15 @@
 - [cabin](https://github.com/cabinjs/cabin) - 提供日志服务和NPM包。
 - [captains-log](https://www.npmjs.com/package/captains-log) - 通过简单的配置就可以使用的轻量日志记录库。
 
-### URL
-- [URI.js](https://github.com/medialize/URI.js) - URL转换库。
-- [qs](https://github.com/ljharb/qs) - 请求字符串解析器。
-- [query-string](https://github.com/sindresorhus/query-string) - 解析和字符串化URL查询字符串。
-- [url-parse](https://github.com/unshiftio/url-parse) - 轻量URL解析器，可跨Node.js和浏览器环境无缝运行。
-- [normalize-url](https://github.com/sindresorhus/normalize-url) - 规范化URL.
-- [url-pattern](https://github.com/snd/url-pattern) - 比正则表达式更易匹配URL和其他字符串，将字符串转化成数据 或 将数据转换成字符串。
-- [native-url](https://github.com/GoogleChromeLabs/native-url) - 使用内建URL API实现的NodeJS URL模块。
-- [humanize-url](https://github.com/sindresorhus/humanize-url) - 使URL更可读: http://sindresorhus.com → sindresorhus.com。
-- [parseurl](https://github.com/pillarjs/parseurl) - 使用记忆化方式解析URL.
-- [encodeurl](https://github.com/pillarjs/encodeurl) - 将URL编码为"百分比"形式，不编码已编码部分。
+### 代码校验 和 格式化工具
+- [prettier](https://github.com/prettier/prettier) - ❤"有主见"的多语言代码格式化程序。
+- [standard](https://github.com/standard/standard) - JavaScript 代码规范，自带 linter & 代码自动修正。
+- [eslint](https://github.com/eslint/eslint) - 插件化并且可配置的 JavaScript 语法规则和代码风格的检查工具。
+- [stylelint](https://github.com/stylelint/stylelint) - 功能强大现代风格检查工具，帮助你避免错误和强制约定样式风格。
+- [lint-staged](https://github.com/okonet/lint-staged) - 在Git暂存文件上运行风格检查工具。
+- [commitlint](https://github.com/conventional-changelog/commitlint) - Git提交信息风格检查工具。
+- [markdownlint](https://github.com/DavidAnson/markdownlint) - Markdown/CommonMark风格检查工具。
+- [textlint](https://github.com/textlint/textlint) - Text 和 Markdown 校验和格式化。
 
 ### 构建工具
 - [webpack](https://github.com/webpack/webpack) - 打包浏览器的模块和资产。
@@ -273,9 +284,3 @@
 - [tfjs](https://github.com/tensorflow/tfjs) - Tensorflow官方提供JS版本。
 - [brain.js](https://github.com/BrainJS/brain.js) - 基于模型训练的神经网络 JS 库，支持浏览器和 Node.js。
 - [pipcook](https://github.com/alibaba/pipcook) - 为Web开发者提供的机器学习平台。
-
-### 代码校验 和 格式化工具
-- [prettier](https://github.com/prettier/prettier) - ❤"有主见"的多语言代码格式化程序
-- [standard](https://github.com/standard/standard) - JavaScript 代码规范，自带 linter & 代码自动修正
-- [eslint](https://github.com/eslint/eslint) - 插件化并且可配置的 JavaScript 语法规则和代码风格的检查工具
-- [textlint](https://github.com/textlint/textlint) - Text 和 Markdown 校验和格式化

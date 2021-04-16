@@ -1,18 +1,19 @@
 English | [简体中文](./README-zh-CN.md)
 
-## Contents
+## Table of contents
 
-- [Contents](#contents)
+- [Table of contents](#table-of-contents)
 - [Official](#official)
 - [Packages](#packages)
   - [Number](#number)
   - [Date & Time](#date--time)
+  - [URL](#url)
   - [Data validation](#data-validation)
   - [Command-line utilities](#command-line-utilities)
   - [Filesystem](#filesystem)
   - [Git](#git)
   - [Logging](#logging)
-  - [URL](#url)
+  - [Linter & Formatter](#linter--formatter)
   - [Build tools](#build-tools)
   - [Templating](#templating)
   - [Web Frameworks](#web-frameworks)
@@ -26,7 +27,6 @@ English | [简体中文](./README-zh-CN.md)
   - [Crawler](#crawler)
   - [AST](#ast)
   - [Machine learning](#machine-learning)
-  - [Linter & Formatter](#linter--formatter)
 
 ## Official
 
@@ -51,6 +51,18 @@ English | [简体中文](./README-zh-CN.md)
 - [luxon](https://github.com/moment/luxon) - Library for working with dates and times.
 - [ms](https://github.com/vercel/ms) - Tiny millisecond conversion utility.
 - [dateformat](https://github.com/felixge/node-dateformat) - A node.js package for Steven Levithan's excellent dateFormat() function.
+
+### URL
+- [URI.js](https://github.com/medialize/URI.js) - Javascript URL mutation library.
+- [qs](https://github.com/ljharb/qs) - Querystring parser with nesting support.
+- [query-string](https://github.com/sindresorhus/query-string) - Parse and stringify URL query strings.
+- [url-parse](https://github.com/unshiftio/url-parse) - Small footprint URL parser that works seamlessly across Node.js and browser environments.
+- [normalize-url](https://github.com/sindresorhus/normalize-url) - Normalize a URL.
+- [url-pattern](https://github.com/snd/url-pattern) - Easier than regex string matching patterns for urls and other strings. turn strings into data or data into strings.
+- [native-url](https://github.com/GoogleChromeLabs/native-url) - Node's url module implemented using the built-in URL API.
+- [humanize-url](https://github.com/sindresorhus/humanize-url) - Node's url module implemented using the built-in URL API.
+- [parseurl](https://github.com/pillarjs/parseurl) - Parse a url with memoization.
+- [encodeurl](https://github.com/pillarjs/encodeurl) - Encode a URL to a percent-encoded form, excluding already-encoded sequences.
 
 ### Data validation
 - [validator.js](https://github.com/validatorjs/validator.js) - A library of string validators and sanitizers.
@@ -90,6 +102,7 @@ English | [简体中文](./README-zh-CN.md)
 - [filesize.js](https://github.com/avoidwork/filesize.js) - Generate a human readable String describing the file size.
 - [make-dir](https://github.com/sindresorhus/make-dir) - Recursively create directories like mkdir -p.
 - [memfs](https://github.com/streamich/memfs) - In-memory filesystem with Node's API.
+- [temp](https://github.com/bruce/node-temp) - Temporary File, Directory, and Stream support for Node.js.
 - [watchpack](https://github.com/webpack/watchpack) - Wrapper library for directory and file watching.
 - [cpy](https://github.com/sindresorhus/cpy) - Copy files.
 - [mkdirp](https://github.com/isaacs/node-mkdirp) - Recursively mkdir, like `mkdir -p`.
@@ -111,17 +124,15 @@ English | [简体中文](./README-zh-CN.md)
 - [cabin](https://github.com/cabinjs/cabin) - Best JavaScript and Node.js logging service and logging npm package.
 - [captains-log](https://www.npmjs.com/package/captains-log) - Lightweight logger with a simple pass-through configuration for use with fancier logging librarie.
 
-### URL
-- [URI.js](https://github.com/medialize/URI.js) - Javascript URL mutation library.
-- [qs](https://github.com/ljharb/qs) - Querystring parser with nesting support.
-- [query-string](https://github.com/sindresorhus/query-string) - Parse and stringify URL query strings.
-- [url-parse](https://github.com/unshiftio/url-parse) - Small footprint URL parser that works seamlessly across Node.js and browser environments.
-- [normalize-url](https://github.com/sindresorhus/normalize-url) - Normalize a URL.
-- [url-pattern](https://github.com/snd/url-pattern) - Easier than regex string matching patterns for urls and other strings. turn strings into data or data into strings.
-- [native-url](https://github.com/GoogleChromeLabs/native-url) - Node's url module implemented using the built-in URL API.
-- [humanize-url](https://github.com/sindresorhus/humanize-url) - Node's url module implemented using the built-in URL API.
-- [parseurl](https://github.com/pillarjs/parseurl) - Parse a url with memoization.
-- [encodeurl](https://github.com/pillarjs/encodeurl) - Encode a URL to a percent-encoded form, excluding already-encoded sequences.
+### Linter & Formatter
+- [prettier](https://github.com/prettier/prettier) - ❤Prettier is an opinionated code formatter.
+- [standard](https://github.com/standard/standard) - JavaScript Style Guide, with linter & automatic code fixer.
+- [eslint](https://github.com/eslint/eslint) - Find and fix problems in your JavaScript code.
+- [stylelint](https://github.com/stylelint/stylelint) - Mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
+- [lint-staged](https://github.com/okonet/lint-staged) - Run linters on git staged files.
+- [commitlint](https://github.com/conventional-changelog/commitlint) - Lint commit messages.
+- [markdownlint](https://github.com/DavidAnson/markdownlint) - A Node.js style checker and lint tool for Markdown/CommonMark files.
+- [textlint](https://github.com/textlint/textlint) - The pluggable natural language linter for text and markdown.
 
 ### Build tools
 - [webpack](https://github.com/webpack/webpack) - Packs modules and assets for the browser.
@@ -268,9 +279,3 @@ English | [简体中文](./README-zh-CN.md)
 - [tfjs](https://github.com/tensorflow/tfjs) - A WebGL accelerated JavaScript library for training and deploying ML models.
 - [brain.js](https://github.com/BrainJS/brain.js) - GPU accelerated Neural networks in JavaScript for Browsers and Node.js.
 - [pipcook](https://github.com/alibaba/pipcook) - Machine learning platform for Web developers.
-
-### Linter & Formatter
-- [prettier](https://github.com/prettier/prettier) - ❤Prettier is an opinionated code formatter.
-- [standard](https://github.com/standard/standard) - JavaScript Style Guide, with linter & automatic code fixer.
-- [eslint](https://github.com/eslint/eslint) - Find and fix problems in your JavaScript code.
-- [textlint](https://github.com/textlint/textlint) - The pluggable natural language linter for text and markdown.
