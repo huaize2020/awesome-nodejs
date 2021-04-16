@@ -158,6 +158,7 @@ English | [简体中文](./README-zh-CN.md)
 - [Moleculer](https://moleculer.services) - Fast & powerful microservices framework.
 - [TypeGraphQL](https://github.com/19majkel94/type-graphql) - Modern framework for creating GraphQL APIs with TypeScript, using classes and decorators.
 - [seneca](https://github.com/senecajs/seneca) - Toolkit for writing microservices.
+- [beidou](https://github.com/alibaba/beidou) - Isomorphic framework for server-rendered React apps.
 - [Marble.js](https://github.com/marblejs/marble) - Functional reactive framework for building server-side apps, based on TypeScript and RxJS.
 - [ActionHero](https://github.com/actionhero/actionhero) - Framework for making reusable & scalable APIs for TCP sockets, WebSockets, and HTTP clients.
 - [lad](https://github.com/ladjs/lad) - The best Node.js framework. Made by a former Express TC and Koa team member.
@@ -173,8 +174,8 @@ English | [简体中文](./README-zh-CN.md)
 - [gridsome](https://github.com/gridsome/gridsome) - The Jamstack framework for Vue.js.
 
 ### Forum
-- [NodeBB](https://github.com/NodeBB/NodeBB) - 基于Node.js的现代Web论坛。
-- [nodeclub](https://github.com/cnodejs/nodeclub/) -  Nodeclub 是使用 Node.js 和 MongoDB 开发的社区系统
+- [NodeBB](https://github.com/NodeBB/NodeBB) - Node.js based forum software built for the modern web
+- [nodeclub](https://github.com/cnodejs/nodeclub/) - A forum software based on Node.js and MongoDB.
 
 ### Database
 - Drivers
