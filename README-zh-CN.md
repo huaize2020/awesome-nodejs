@@ -11,6 +11,7 @@
 - [目录](#目录)
 - [官方资源](#官方资源)
 - [NPM包](#npm包)
+  - [数字](#数字)
   - [日期 和 时间](#日期-和-时间)
   - [数据校验](#数据校验)
   - [命令行工具](#命令行工具)
@@ -37,6 +38,14 @@
 - [仓库](https://github.com/nodejs/node)
 
 ## NPM包
+
+### 数字
+- [Numeral.js](https://github.com/adamwdraper/Numeral-js) - 格式化和操和数字。
+- [decimal.js](https://github.com/MikeMcl/decimal.js) - JavaScript的任意精度的十进制类型。
+- [round-to](https://github.com/sindresorhus/round-to) - 将数字四舍五入到指定的小数位数：`1.234`→1.2`。
+- [unique-random](https://github.com/sindresorhus/unique-random) - 生成连续唯一的随机数。
+- [random-int](https://github.com/sindresorhus/random-int) - 生成随机整数。
+- [random-float](https://github.com/sindresorhus/random-float) - 生成随机浮点数。
 
 ### 日期 和 时间
 - [moment](https://github.com/moment/moment) - 解析、校验、操作和显示日期。

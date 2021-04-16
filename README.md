@@ -5,6 +5,7 @@ English | [简体中文](./README-zh-CN.md)
 - [Contents](#contents)
 - [Official](#official)
 - [Packages](#packages)
+  - [Number](#number)
   - [Date & Time](#date--time)
   - [Data validation](#data-validation)
   - [Command-line utilities](#command-line-utilities)
@@ -31,6 +32,14 @@ English | [简体中文](./README-zh-CN.md)
 - [Repository](https://github.com/nodejs/node)
 
 ## Packages
+
+### Number
+- [Numeral.js](https://github.com/adamwdraper/Numeral-js) - A javascript library for formatting and manipulating numbers.
+- [decimal.js](https://github.com/MikeMcl/decimal.js) - An arbitrary-precision Decimal type for JavaScript.
+- [round-to](https://github.com/sindresorhus/round-to) - Round a number to a specific number of decimal places: `1.234` → `1.2`.
+- [unique-random](https://github.com/sindresorhus/unique-random) - Generate random numbers that are consecutively unique.
+- [random-int](https://github.com/sindresorhus/random-int) - Generate a random integer.
+- [random-float](https://github.com/sindresorhus/random-float) - Generate a random float.
 
 ### Date & Time
 - [moment](https://github.com/moment/moment) - Parse, validate, manipulate, and display dates in javascript.
