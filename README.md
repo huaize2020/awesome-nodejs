@@ -16,6 +16,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Templating](#templating)
   - [Web Frameworks](#web-frameworks)
   - [Static Site Generator & blogging](#static-site-generator--blogging)
+  - [Forum](#forum)
   - [Database](#database)
   - [Office](#office)
   - [Email](#email)
@@ -37,6 +38,7 @@ English | [简体中文](./README-zh-CN.md)
 - [date-fns](https://github.com/date-fns/date-fns) - Modern JavaScript date utility library.
 - [luxon](https://github.com/moment/luxon) - Library for working with dates and times.
 - [ms](https://github.com/vercel/ms) - Tiny millisecond conversion utility.
+- [dateformat](https://github.com/felixge/node-dateformat) - A node.js package for Steven Levithan's excellent dateFormat() function.
 
 ### Data validation
 - [validator.js](https://github.com/validatorjs/validator.js) - A library of string validators and sanitizers.
@@ -58,6 +60,8 @@ English | [简体中文](./README-zh-CN.md)
 - [yargs](https://github.com/yargs/yargs) - Collection of common interactive command line user interfaces.
 - [Enquirer](https://github.com/enquirer/enquirer) - Stylish CLI prompts that are user-friendly, intuitive and easy to create.
 - [minimist](https://github.com/substack/minimist) - Guts of optimist's argument parser without all the fanciful decoration.
+- [progress](https://github.com/visionmedia/node-progress) - Flexible ascii progress bar for nodejs.
+- [depcheck]https://github.com/depcheck/depcheck) - Check your npm module for unused dependencies.
 - [cac](https://github.com/cacjs/cac) - Simple yet powerful framework for building command-line apps.
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - Colored symbols for various log levels.
 
@@ -153,6 +157,7 @@ English | [简体中文](./README-zh-CN.md)
 - [Moleculer](https://moleculer.services) - Fast & powerful microservices framework.
 - [TypeGraphQL](https://github.com/19majkel94/type-graphql) - Modern framework for creating GraphQL APIs with TypeScript, using classes and decorators.
 - [seneca](https://github.com/senecajs/seneca) - Toolkit for writing microservices.
+- [beidou](https://github.com/alibaba/beidou) - Isomorphic framework for server-rendered React apps.
 - [Marble.js](https://github.com/marblejs/marble) - Functional reactive framework for building server-side apps, based on TypeScript and RxJS.
 - [ActionHero](https://github.com/actionhero/actionhero) - Framework for making reusable & scalable APIs for TCP sockets, WebSockets, and HTTP clients.
 - [lad](https://github.com/ladjs/lad) - The best Node.js framework. Made by a former Express TC and Koa team member.
@@ -166,6 +171,10 @@ English | [简体中文](./README-zh-CN.md)
 - [vuepress](https://github.com/vuejs/vuepress) - Minimalistic Vue-powered static site generator.
 - [react-static](https://github.com/react-static/react-static) - A progressive static site generator for React.
 - [gridsome](https://github.com/gridsome/gridsome) - The Jamstack framework for Vue.js.
+
+### Forum
+- [NodeBB](https://github.com/NodeBB/NodeBB) - Node.js based forum software built for the modern web
+- [nodeclub](https://github.com/cnodejs/nodeclub/) - A forum software based on Node.js and MongoDB.
 
 ### Database
 - Drivers
