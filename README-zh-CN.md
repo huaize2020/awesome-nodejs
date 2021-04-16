@@ -31,6 +31,7 @@
   - [Email](#email)
   - [爬虫](#爬虫)
   - [AST](#ast)
+  - [机器学习](#机器学习)
 
 ## 官方资源
 
@@ -265,3 +266,8 @@
 - [astexplorer](https://github.com/fkling/astexplorer) - 使用多种解析器的AST Web可视化工具。
 - [espree](https://github.com/eslint/espree) - 与Esprima兼容的JavaScript解析器。
 - [csstree](https://github.com/csstree/csstree) - 基于W3C标准和浏览器标准实现，包含快速详细的解析器、遍历器、生成器、词法解析的CSS工具集。
+
+### 机器学习
+- [tfjs](https://github.com/tensorflow/tfjs) - Tensorflow官方提供JS版本。
+- [brain.js](https://github.com/BrainJS/brain.js) - 基于模型训练的神经网络 JS 库，支持浏览器和 Node.js。
+- [pipcook](https://github.com/alibaba/pipcook) - 为Web开发者提供的机器学习平台。
