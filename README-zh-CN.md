@@ -25,11 +25,12 @@
   - [静态网站生成 & 博客](#静态网站生成--博客)
   - [论坛](#论坛)
   - [数据库](#数据库)
+  - [自动化 & 机器人流程自动化 - RPA](#自动化--机器人流程自动化---rpa)
+  - [测试相关](#测试相关)
   - [办公软件](#办公软件)
   - [Email](#email)
   - [爬虫](#爬虫)
   - [AST](#ast)
-  - [自动化 & RPA](#自动化--rpa)
 
 ## 官方资源
 
@@ -63,7 +64,7 @@
 - [Superstruct](https://github.com/ianstormtaylor/superstruct) - 用简单和可组合的方式在JavaScript和TypeScript中校验数据。
 - [v8n](https://github.com/imbrn/v8n) - 流畅的JavaScript校验库。
 - [forgJs](https://github.com/oussamahamdaoui/forgJs) - 轻量的JavaScript对象校验器。
-- [validatorjs](https://github.com/mikeerickson/validatorjs) - 受Laravel的校验器启发，在浏览器和Node.JS上的数据校验库.
+- [validatorjs](https://github.com/mikeerickson/validatorjs) - 受Laravel的校验器启发，在浏览器和Node.JS上的数据校验库。
 - [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) - 极快的JSON Schema校验工具。
 - [property-validator](https://github.com/nettofarah/property-validator) - 用于JavaScript、Node和Express的易用的属性校验工具。
 - [schema-inspector](https://github.com/Atinux/schema-inspector) - 用于净化和验证JS对象的强大工具。
@@ -216,6 +217,26 @@
 - Query builder
   - [Knex](https://github.com/tgriesser/knex) - PostgreSQL，MySQL和SQLite3的查询构建器，旨在灵活，可移植且易于使用。
 
+### 自动化 & 机器人流程自动化 - RPA
+ - [puppeteer](https://github.com/puppeteer/puppeteer) - 无头Chrome Node.js API。
+ - [playwright](https://github.com/microsoft/playwright) - 使用单一API自动操作Chromium, Firefox and WebKi。
+ - [phantomjs](https://github.com/ariya/phantomjs) - 脚本化无头浏览器。
+ - [appium](https://github.com/appium/appium) - iOS, Android, and Windows Apps自动化。
+
+### 测试相关
+- 断言库
+  - [chai](https://github.com/chaijs/chai) - 基于行为驱动开发和测试驱动开发理念的Node.js和浏览器断言库，可与任何 JavaScript 测试框架集成。
+  - [power-assert](https://github.com/power-assert-js/power-assert) - 使用标准assert接口提供的描述型断言消息。
+  - [expect.js](https://github.com/Automattic/expect.js) - 适用于Node.JS和浏览器的简约BDD风格的断言库。
+  - [better-assert](https://github.com/tj/better-assert) - C语言风格的Node.js断言，将表达式字符串报告为错误消息。
+  - [http-assert](https://github.com/jshttp/http-assert) - 带状态码的断言。
+- Mock
+  - [Mock.js](https://github.com/nuysoft/Mock) - 浏览器和 Node 均可用，支持自定义 schema 和 随机数据。
+  - [Nock](https://github.com/pgte/nock) - HTTP mock和期望。
+  - [Sinon.JS](https://github.com/sinonjs/sinon) - 通过间谍函数(spies), 目标函数替换（stubs）和mocks功能提供的Mock库. 8.5k
+  - [easy-mock](https://github.com/easy-mock/easy-mock) - 可视化，并且能快速生成模拟数据的持久化服务。
+  - [mm](https://github.com/node-modules/mm) - 简单但灵活的 mock(或者叫stub) 包, mock伴侣。
+
 ### 办公软件
 - [sheetjs](https://github.com/SheetJS/sheetjs) - 电子表格数据工具箱。
 - [PDFKit](https://github.com/foliojs/pdfkit) - 在Node.js和浏览器中生成PDF的库。
@@ -244,9 +265,3 @@
 - [astexplorer](https://github.com/fkling/astexplorer) - 使用多种解析器的AST Web可视化工具。
 - [espree](https://github.com/eslint/espree) - 与Esprima兼容的JavaScript解析器。
 - [csstree](https://github.com/csstree/csstree) - 基于W3C标准和浏览器标准实现，包含快速详细的解析器、遍历器、生成器、词法解析的CSS工具集。
-
-### 自动化 & RPA
- - [puppeteer](https://github.com/puppeteer/puppeteer) - 无头Chrome Node.js API。
- - [playwright](https://github.com/microsoft/playwright) - 使用单一API自动操作Chromium, Firefox and WebKi。
- - [phantomjs](https://github.com/ariya/phantomjs) - 脚本化无头浏览器。
- - [appium](https://github.com/appium/appium) - iOS, Android, and Windows Apps自动化。
