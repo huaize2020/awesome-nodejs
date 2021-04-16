@@ -9,6 +9,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Data validation](#data-validation)
   - [Command-line utilities](#command-line-utilities)
   - [Filesystem](#filesystem)
+  - [Git](#git)
   - [Logging](#logging)
   - [URL](#url)
   - [Build tools](#build-tools)
@@ -68,13 +69,21 @@ English | [简体中文](./README-zh-CN.md)
 - [globby](https://github.com/sindresorhus/globby) - Based on fast-glob but adds a bunch of useful features.
 - [fast-glob](https://github.com/mrmlnc/fast-glob) - Very fast and efficient glob library for Node.js.
 - [del](https://github.com/sindresorhus/del) - Delete files and directories.
-- [graceful-fs](https://github.com/isaacs/node-graceful-fs) - graceful-fs functions as a drop-in replacement for the fs module, making various improvements.
+- [graceful-fs](https://github.com/isaacs/node-graceful-fs) - Graceful-fs functions as a drop-in replacement for the fs module, making various improvements.
+- [jsonfile](https://github.com/jprichardson/node-jsonfile) - Easily read/write JSON files.
 - [filesize.js](https://github.com/avoidwork/filesize.js) - Generate a human readable String describing the file size.
 - [make-dir](https://github.com/sindresorhus/make-dir) - Recursively create directories like mkdir -p.
 - [memfs](https://github.com/streamich/memfs) - In-memory filesystem with Node's API.
 - [watchpack](https://github.com/webpack/watchpack) - Wrapper library for directory and file watching.
 - [cpy](https://github.com/sindresorhus/cpy) - Copy files.
 - [mkdirp](https://github.com/isaacs/node-mkdirp) - Recursively mkdir, like `mkdir -p`.
+
+### Git
+- [nodegit](https://github.com/nodegit/nodegit) - Node bindings to the libgit2 project.
+- [simple-git](https://github.com/steveukx/git-js) - A light weight interface for running git commands in any node.js application.
+- [@gitgraph/node](https://github.com/nicoespeon/gitgraph.js) - Draw pretty git graphs in your terminal.
+- [remote-git-tags](https://github.com/sindresorhus/remote-git-tags) - Get tags from a remote git repo. Using only JS.
+- [download-git-repo](https://gitlab.com/flippidippi/download-git-repo) - Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.
 
 ### Logging
 - [winston](https://github.com/winstonjs/winston) - Multi-transport async logging library.

@@ -15,6 +15,7 @@
   - [数据校验](#数据校验)
   - [命令行工具](#命令行工具)
   - [文件系统](#文件系统)
+  - [Git](#git)
   - [日志](#日志)
   - [URL](#url)
   - [构建工具](#构建工具)
@@ -75,12 +76,20 @@
 - [fast-glob](https://github.com/mrmlnc/fast-glob) - 非常快速且高效的Node.js glob库。
 - [del](https://github.com/sindresorhus/del) - 删除文件/文件夹。
 - [graceful-fs](https://github.com/isaacs/node-graceful-fs) - graceful-fs可以替代fs模块，并做了各种改进。
+- [jsonfile](https://github.com/jprichardson/node-jsonfile) - 轻松读写JSON文件。
 - [filesize.js](https://github.com/avoidwork/filesize.js) - 生成人类可读的文件大小字符串。
 - [make-dir](https://github.com/sindresorhus/make-dir) - 递归创建文件夹，类似 `mkdir -p`。
 - [memfs](https://github.com/streamich/memfs) - Node.js API内存文件系统.
 - [watchpack](https://github.com/webpack/watchpack) - Watch文件和文件夹。
 - [cpy](https://github.com/sindresorhus/cpy) - 文件拷贝。
 - [mkdirp](https://github.com/isaacs/node-mkdirp) - 递归创建文件夹，类似 `mkdir -p`.
+
+### Git
+- [nodegit](https://github.com/nodegit/nodegit) - [libgit2](https://libgit2.org/) 的 Node.js 绑定版本。
+- [simple-git](https://github.com/steveukx/git-js) - 一个轻量级的接口，用于在任何 node.js 应用程序中运行 git 命令。
+- [@gitgraph/node](https://github.com/nicoespeon/gitgraph.js) - 在 Terminal 绘制 git 流程图（支持浏览器、React）。
+- [remote-git-tags](https://github.com/sindresorhus/remote-git-tags) - 从远程仓库中获取标签。
+- [download-git-repo](https://gitlab.com/flippidippi/download-git-repo) - 下载和提取Git仓库 (支持GitHub, GitLab, Bitbucket)。
 
 ### 日志
 - [winston](https://github.com/winstonjs/winston) - 多传输异步日志记录库。
