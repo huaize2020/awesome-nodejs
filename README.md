@@ -23,6 +23,9 @@ English | [简体中文](./README-zh-CN.md)
   - [Automation & RPA](#automation--rpa)
   - [Testing](#testing)
   - [Office](#office)
+  - [OS identification](#os-identification)
+  - [Shell](#shell)
+  - [Environment](#environment)
   - [Email](#email)
   - [Crawler](#crawler)
   - [AST](#ast)
@@ -257,6 +260,30 @@ English | [简体中文](./README-zh-CN.md)
 - [Mammoth](https://github.com/mwilliamson/mammoth.js) - Convert Word documents (.docx files) to HTML.
 - [docx](https://github.com/dolanmiu/docx) - Easily generate .docx files with JS/TS with a nice declarative API. Works for Node and on the Browser.
 - [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) - Excel XLSX parser/generator written in JavaScript with Node.js and browser support.
+### OS identification
+- [systeminformation](https://github.com/sebhildebrandt/systeminformation) - Hardware/software system information.
+- [is-wsl](https://github.com/sindresorhus/is-wsl) - Detect whether current platform is WSL (Windows Subsystem for Linux).
+- [os-name](https://github.com/sindresorhus/os-name) - Get the name of the current operating system.
+- [getos](https://github.com/retrohacker/getos) - Retrieve the current OS, including Linux distribution.
+- [is-windows](https://github.com/jonschlinkert/is-windows) - Detect whether the current platform is Windows.
+
+### Shell
+- [shelljs](https://github.com/shelljs/shelljs) - Cross-platform Unix shell commands.
+- [execa](https://github.com/sindresorhus/execa) - Cross-platform implementation of `child_process.{execFile,exec}`.
+- [node-windows](https://github.com/coreybutler/node-windows) - Windows support for Node.js scripts (daemons, eventlog, UAC, etc).
+- [clipboardy](https://github.com/sindresorhus/clipboardy) - Cross-platform copy/paste.
+- [cross-spawn](https://github.com/IndigoUnited/node-cross-spawn) - Cross-platform implementation of `child_process.spawn()`.
+- [figures](https://github.com/sindresorhus/figures) - Unicode symbols with Windows fallbacks.
+- [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - Cross-platform copy/paste.
+- [gulp-execa](https://github.com/ehmicky/gulp-execa) - Cross-platform command execution in Gulp.js.
+
+### Environment
+- [cross-env](https://github.com/kentcdodds/cross-env) - Set environment variables cross-platform.
+- [which](https://github.com/npm/node-which) - Cross-platform implementation of Unix's `which`.
+- [user-home](https://github.com/sindresorhus/user-home) - Get the path to the user home directory. Cross-platform.
+- [username](https://github.com/sindresorhus/username) - Get the current username.
+- [osenv](https://github.com/npm/osenv) - Cross-platform environment variables.
+- [is-elevated](https://github.com/sindresorhus/is-elevated) - Check if the process is running with elevated privileges.
 
 ### Email
 - [Nylas Mail](https://github.com/nylas/nylas-mail) - An extensible desktop mail app built on the modern web.

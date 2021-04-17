@@ -29,6 +29,9 @@
   - [自动化 & 机器人流程自动化 - RPA](#自动化--机器人流程自动化---rpa)
   - [测试相关](#测试相关)
   - [办公软件](#办公软件)
+  - [操作系统识别](#操作系统识别)
+  - [Shell命令](#shell命令)
+  - [环境变量](#环境变量)
   - [Email](#email)
   - [爬虫](#爬虫)
   - [AST](#ast)
@@ -262,6 +265,29 @@
 - [Mammoth](https://github.com/mwilliamson/mammoth.js) - 将Word文档(.docx文件)转化为HTML。
 - [docx](https://github.com/dolanmiu/docx) - 通过良好定义的API,在NodeJS和浏览器中，使用JS/TS轻松的生成docx文件。
 - [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) - Excel XLSX生成和解析工具，可运行在Node和浏览器。
+
+### 操作系统识别
+- [systeminformation](https://github.com/sebhildebrandt/systeminformation) - 获取硬件和软件系统信息。
+- [is-wsl](https://github.com/sindresorhus/is-wsl) - 判断当前是否是否为WSL (适用于Linux的Windows子系统)。
+- [os-name](https://github.com/sindresorhus/os-name) - 获取当前操作系统的名字。
+- [getos](https://github.com/retrohacker/getos) - 获取当前操作系统名称，包括Linux的发行版名称。
+- [is-windows](https://github.com/jonschlinkert/is-windows) - 判断当前系统是否为Windows。
+
+### Shell命令
+- [shelljs](https://github.com/shelljs/shelljs) - 跨平台Unix shell命令。
+- [execa](https://github.com/sindresorhus/execa) - 跨平台实现子进程执行 `child_process.{execFile,exec}`。
+- [clipboardy](https://github.com/sindresorhus/clipboardy) - 跨平台的复制/粘贴。
+- [cross-spawn](https://github.com/IndigoUnited/node-cross-spawn) - 跨平台实现 `child_process.spawn()`。
+- [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - 跨平台的复制/粘贴。
+- [gulp-execa](https://github.com/ehmicky/gulp-execa) - 在Gulp中跨平台命令执行。
+
+### 环境变量
+- [cross-env](https://github.com/kentcdodds/cross-env) - 跨平台设置环境变量。
+- [which](https://github.com/npm/node-which) - 跨平台实现的Unix `which`.
+- [user-home](https://github.com/sindresorhus/user-home) - 跨平台获取用户home目录路径。
+- [username](https://github.com/sindresorhus/username) - 获取当前用户名。
+- [osenv](https://github.com/npm/osenv) - 跨平台环境变量。
+- [is-elevated](https://github.com/sindresorhus/is-elevated) - 检查进程是否以提升的权限运行。
 
 ### Email
 - [Nylas Mail](https://github.com/nylas/nylas-mail) - 构建在现代Web技术的高扩展性邮件客户端程序。
