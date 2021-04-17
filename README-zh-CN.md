@@ -66,6 +66,7 @@
 - [normalize-url](https://github.com/sindresorhus/normalize-url) - 规范化URL.
 - [url-pattern](https://github.com/snd/url-pattern) - 比正则表达式更易匹配URL和其他字符串，将字符串转化成数据 或 将数据转换成字符串。
 - [native-url](https://github.com/GoogleChromeLabs/native-url) - 使用内建URL API实现的NodeJS URL模块。
+- [url-join](https://github.com/jfromaniello/url-join) - 将所有参数连接在一起，并将结果url规范化。
 - [humanize-url](https://github.com/sindresorhus/humanize-url) - 使URL更可读: http://sindresorhus.com → sindresorhus.com。
 - [parseurl](https://github.com/pillarjs/parseurl) - 使用记忆化方式解析URL.
 - [encodeurl](https://github.com/pillarjs/encodeurl) - 将URL编码为"百分比"形式，不编码已编码部分。
@@ -91,7 +92,7 @@
 - [Enquirer](https://github.com/enquirer/enquirer) - 用户友好、直观且易于创建的时尚CLI提示。
 - [minimist](https://github.com/substack/minimist) - 命令行参数解析引擎。
 - [progress](https://github.com/visionmedia/node-progress) - Node.js的灵活ascii进度条。
-- [depcheck]https://github.com/depcheck/depcheck) - 检查项目中未使用的依赖。
+- [depcheck](https://github.com/depcheck/depcheck) - 检查项目中未使用的依赖。
 - [cac](https://github.com/cacjs/cac) - 用于构建命令行应用的强大框架。
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - 为不同日志级别添加色彩图标。
 
@@ -99,7 +100,9 @@
 - [chokidar](https://github.com/paulmillr/chokidar) - 最小且高效的跨平台Watch库。
 - [fs-extra](https://github.com/jprichardson/node-fs-extra) - 为 `fs` 模块提供额外方法。
 - [glob](https://github.com/isaacs/node-glob) - Node.js版glob功能。
+- [ora](https://github.com/sindresorhus/ora) - 优雅的命令行loading效果。
 - [rimraf](https://github.com/isaacs/rimraf) - 递归删除文件，类似 `rm -rf`。
+- [progress-estimator](https://github.com/bvaughn/progress-estimator) - 记录进度条并估计完成承诺所需的时间。
 - [globby](https://github.com/sindresorhus/globby) - 基于fast-glob，但添加了很多有用的特性。
 - [fast-glob](https://github.com/mrmlnc/fast-glob) - 非常快速且高效的Node.js glob库。
 - [del](https://github.com/sindresorhus/del) - 删除文件/文件夹。

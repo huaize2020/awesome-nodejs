@@ -60,7 +60,8 @@ English | [简体中文](./README-zh-CN.md)
 - [normalize-url](https://github.com/sindresorhus/normalize-url) - Normalize a URL.
 - [url-pattern](https://github.com/snd/url-pattern) - Easier than regex string matching patterns for urls and other strings. turn strings into data or data into strings.
 - [native-url](https://github.com/GoogleChromeLabs/native-url) - Node's url module implemented using the built-in URL API.
-- [humanize-url](https://github.com/sindresorhus/humanize-url) - Node's url module implemented using the built-in URL API.
+- [url-join](https://github.com/jfromaniello/url-join) - Join all arguments together and normalize the resulting url.
+- [humanize-url](https://github.com/sindresorhus/humanize-url) - Humanize a URL: https://sindresorhus.com → sindresorhus.com.
 - [parseurl](https://github.com/pillarjs/parseurl) - Parse a url with memoization.
 - [encodeurl](https://github.com/pillarjs/encodeurl) - Encode a URL to a percent-encoded form, excluding already-encoded sequences.
 
@@ -93,7 +94,9 @@ English | [简体中文](./README-zh-CN.md)
 - [chokidar](https://github.com/paulmillr/chokidar) - Minimal and efficient cross-platform file watching library.
 - [fs-extra](https://github.com/jprichardson/node-fs-extra) - Extra methods for the `fs` module.
 - [glob](https://github.com/isaacs/node-glob) - Glob functionality for node.js.
+- [ora](https://github.com/sindresorhus/ora) - Elegant terminal spinner.
 - [rimraf](https://github.com/isaacs/rimraf) - Recursively delete files like rm -rf.
+- [progress-estimator](https://github.com/bvaughn/progress-estimator) - Logs a progress bar and estimation for how long a Promise will take to complete.
 - [globby](https://github.com/sindresorhus/globby) - Based on fast-glob but adds a bunch of useful features.
 - [fast-glob](https://github.com/mrmlnc/fast-glob) - Very fast and efficient glob library for Node.js.
 - [del](https://github.com/sindresorhus/del) - Delete files and directories.
