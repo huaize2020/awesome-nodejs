@@ -89,7 +89,7 @@ English | [简体中文](./README-zh-CN.md)
 - [Enquirer](https://github.com/enquirer/enquirer) - Stylish CLI prompts that are user-friendly, intuitive and easy to create.
 - [minimist](https://github.com/substack/minimist) - Guts of optimist's argument parser without all the fanciful decoration.
 - [progress](https://github.com/visionmedia/node-progress) - Flexible ascii progress bar for nodejs.
-- [depcheck]https://github.com/depcheck/depcheck) - Check your npm module for unused dependencies.
+- [depcheck](https://github.com/depcheck/depcheck) - Check your npm module for unused dependencies.
 - [cac](https://github.com/cacjs/cac) - Simple yet powerful framework for building command-line apps.
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - Colored symbols for various log levels.
 
