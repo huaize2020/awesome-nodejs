@@ -6,6 +6,7 @@ English | [简体中文](./README-zh-CN.md)
 - [Official](#official)
 - [Packages](#packages)
   - [Number](#number)
+  - [Math](#math)
   - [Date & Time](#date--time)
   - [URL](#url)
   - [Data validation](#data-validation)
@@ -46,6 +47,12 @@ English | [简体中文](./README-zh-CN.md)
 - [unique-random](https://github.com/sindresorhus/unique-random) - Generate random numbers that are consecutively unique.
 - [random-int](https://github.com/sindresorhus/random-int) - Generate a random integer.
 - [random-float](https://github.com/sindresorhus/random-float) - Generate a random float.
+
+### Math
+- [mathjs](https://github.com/josdejong/mathjs) - An extensive math library.
+- [ndarray](https://github.com/scijs/ndarray) - Multidimensional arrays.
+- [algebra](https://github.com/fibo/algebra) - Algebraic structures.
+- [multimath](https://github.com/nodeca/multimath) - Core to create fast image math in WebAssembly and JS.
 
 ### Date & Time
 - [moment](https://github.com/moment/moment) - Parse, validate, manipulate, and display dates in javascript.

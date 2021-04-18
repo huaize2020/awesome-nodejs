@@ -12,6 +12,7 @@
 - [官方资源](#官方资源)
 - [NPM包](#npm包)
   - [数字](#数字)
+  - [数学运算](#数学运算)
   - [日期 和 时间](#日期-和-时间)
   - [URL](#url)
   - [数据校验](#数据校验)
@@ -52,6 +53,12 @@
 - [unique-random](https://github.com/sindresorhus/unique-random) - 生成连续唯一的随机数。
 - [random-int](https://github.com/sindresorhus/random-int) - 生成随机整数。
 - [random-float](https://github.com/sindresorhus/random-float) - 生成随机浮点数。
+
+### 数学运算
+- [mathjs](https://github.com/josdejong/mathjs) - 广泛的数学运算库。
+- [ndarray](https://github.com/scijs/ndarray) - 多维数组。
+- [algebra](https://github.com/fibo/algebra) - 代数结构。
+- [multimath](https://github.com/nodeca/multimath) - 在WebAssembly和JS中进行快速图像数学运算。
 
 ### 日期 和 时间
 - [moment](https://github.com/moment/moment) - 解析、校验、操作和显示日期。
