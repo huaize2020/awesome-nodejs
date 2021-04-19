@@ -17,6 +17,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Filesystem](#filesystem)
   - [Git](#git)
   - [Logging](#logging)
+  - [Process management](#process-management)
   - [Linter & Formatter](#linter--formatter)
   - [Build tools](#build-tools)
   - [Templating](#templating)
@@ -184,6 +185,7 @@ English | [简体中文](./README-zh-CN.md)
 - [gitgraph-node](https://github.com/nicoespeon/gitgraph.js/tree/master/packages/gitgraph-node) - Draw pretty git graphs in your terminal.
 - [git-promise](https://github.com/piuccio/git-promise) - Simple wrapper to run any git command and process it's output using promises.
 - [remote-git-tags](https://github.com/sindresorhus/remote-git-tags) - Get tags from a remote git repo. Using only JS.
+- [giturl](https://github.com/repo-utils/giturl) - Transfer git url to web url.
 - [download-git-repo](https://gitlab.com/flippidippi/download-git-repo) - Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.
 
 ### Logging
@@ -195,6 +197,15 @@ English | [简体中文](./README-zh-CN.md)
 - [storyboard](https://github.com/guigrpa/storyboard) - A library, plus a Chrome DevTools extension.
 - [cabin](https://github.com/cabinjs/cabin) - Best JavaScript and Node.js logging service and logging npm package.
 - [captains-log](https://www.npmjs.com/package/captains-log) - Lightweight logger with a simple pass-through configuration for use with fancier logging librarie.
+
+### Process management
+- [PM2](https://github.com/Unitech/pm2) - Advanced Process Manager.
+- [nodemon](https://github.com/remy/nodemon) - Monitor for changes in your app and automatically restart the server.
+- [forever](https://github.com/foreversd/forever) - A simple CLI tool for ensuring that a given script runs continuously.
+- [supervisor](https://github.com/petruisfan/node-supervisor) - Restart scripts when they crash or restart when a `*.js` file changes.
+- [node-windows](https://github.com/coreybutler/node-windows) - Run scripts as a native Windows service and log to the Event viewer.
+- [node-mac](https://github.com/coreybutler/node-mac) - Run scripts as a native Mac daemon and log to the console app.
+- [node-linux](https://github.com/coreybutler/node-linux) - Run scripts as native system service and log to syslog.
 
 ### Linter & Formatter
 - [prettier](https://github.com/prettier/prettier) - ❤Prettier is an opinionated code formatter.

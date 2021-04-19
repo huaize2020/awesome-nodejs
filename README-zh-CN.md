@@ -23,6 +23,7 @@
   - [文件系统](#文件系统)
   - [Git](#git)
   - [日志](#日志)
+  - [进程管理](#进程管理)
   - [代码校验 和 格式化工具](#代码校验-和-格式化工具)
   - [构建工具](#构建工具)
   - [模板引擎](#模板引擎)
@@ -190,6 +191,7 @@
 - [gitgraph-node](https://github.com/nicoespeon/gitgraph.js/tree/master/packages/gitgraph-node) - 在 Terminal 绘制 git 流程图（支持浏览器、React）。
 - [git-promise](https://github.com/piuccio/git-promise) - 简单的封装，可运行任何git命令，并使用promise处理其输出。
 - [remote-git-tags](https://github.com/sindresorhus/remote-git-tags) - 从远程仓库中获取标签。
+- [giturl](https://github.com/repo-utils/giturl) - 将Git链接转化成Web链接。
 - [download-git-repo](https://gitlab.com/flippidippi/download-git-repo) - 下载和提取Git仓库 (支持GitHub, GitLab, Bitbucket)。
 
 ### 日志
@@ -201,6 +203,15 @@
 - [storyboard](https://github.com/guigrpa/storyboard) - 一个Chrome浏览器插件，用于查看日志。
 - [cabin](https://github.com/cabinjs/cabin) - 提供日志服务和NPM包。
 - [captains-log](https://www.npmjs.com/package/captains-log) - 通过简单的配置就可以使用的轻量日志记录库。
+
+### 进程管理
+- [PM2](https://github.com/Unitech/pm2) - 高级进程管理工具。
+- [nodemon](https://github.com/remy/nodemon) - 监视应用程序中的更改并自动重新启动服务器。
+- [forever](https://github.com/foreversd/forever) - 简单的CLI工具，用于确认提供的代码持续运行。
+- [supervisor](https://github.com/petruisfan/node-supervisor) - 当脚本崩溃时重新启动脚本，或者当`*.js'文件更改时重新启动脚本。
+- [node-windows](https://github.com/coreybutler/node-windows) - 将脚本作为本机Windows服务运行，并登录到事件查看器。
+- [node-mac](https://github.com/coreybutler/node-mac) - 将脚本作为本机Mac守护进程运行，并登录到控制台应用程序。
+- [node-linux](https://github.com/coreybutler/node-linux) - 将脚本作为本机系统服务运行，并登录到syslog。
 
 ### 代码校验 和 格式化工具
 - [prettier](https://github.com/prettier/prettier) - ❤"有主见"的多语言代码格式化程序。
