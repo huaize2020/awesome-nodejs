@@ -18,6 +18,8 @@
   - [URL](#url)
   - [数据校验](#数据校验)
   - [命令行工具](#命令行工具)
+  - [Node.js Management](#nodejs-management)
+  - [NPM](#npm)
   - [文件系统](#文件系统)
   - [Git](#git)
   - [日志](#日志)
@@ -139,6 +141,28 @@
 - [cac](https://github.com/cacjs/cac) - 用于构建命令行应用的强大框架。
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - 为不同日志级别添加色彩图标。
 
+### Node.js Management
+- [nvm](https://github.com/nvm-sh/nvm) - Node.js版本管理工具。
+- [nvm for Windows](https://github.com/coreybutler/nvm-windows) -  Node.js版本管理工具Windows版。
+- [n](https://github.com/tj/n) - Node.js版本管理工具。
+- [fnm](https://github.com/Schniz/fnm) - 🚀 快速、轻量的Node.js版本管理工具，由Rust构建。
+- [nave](https://github.com/isaacs/nave) - Node.js虚拟环境。
+- [nodenv](https://github.com/nodenv/nodenv) - 版本管理工具（类似Ruby的 rbenv ），它支持自动切换。
+- [nodeenv](https://github.com/ekalinin/nodeenv) - 与Python的 virtualenv 兼容的Node.js虚拟环境。
+
+### NPM
+  - NPM管理工具
+    - [npm](https://github.com/npm/cli) - JavaScript包管理工具。
+    - [yarn](https://github.com/yarnpkg/berry) - 现代包管理工具，拆分成多个不同的包。
+    - [nrm](https://github.com/Pana/nrm) - 快速切换NPM注册服务商，如npm、cnpm、nj、taobao。
+    - [cnpm](https://github.com/cnpm/cnpm) - NPM中国区镜像客户端。
+
+  - 工具
+    - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - 查找当前package.json依赖允许的更新的版本。
+    - [npm-run-all](https://github.com/mysticatea/npm-run-all) - 命令行工具，同时运行多个NPM脚本（并行或串行）。
+    - [npm-home](https://github.com/sindresorhus/npm-home) - 打开NPM包页面。
+    - [npm-name](https://github.com/sindresorhus/npm-name) - 在npm上检查软件包名称的可用性。
+
 ### 文件系统
 - [chokidar](https://github.com/paulmillr/chokidar) - 最小且高效的跨平台Watch库。
 - [fs-extra](https://github.com/jprichardson/node-fs-extra) - 为 `fs` 模块提供额外方法。
@@ -156,13 +180,15 @@
 - [memfs](https://github.com/streamich/memfs) - Node.js API内存文件系统。
 - [temp](https://github.com/bruce/node-temp) - Node.js临时文件、文件夹、流。
 - [watchpack](https://github.com/webpack/watchpack) - Watch文件和文件夹。
+- [tar-fs](https://github.com/mafintosh/tar-fs) - tar-fs允许您将目录打包到tar格式压缩包中，并将tar格式压缩包提取到目录中。
 - [cpy](https://github.com/sindresorhus/cpy) - 文件拷贝。
 - [mkdirp](https://github.com/isaacs/node-mkdirp) - 递归创建文件夹，类似 `mkdir -p`.
 
 ### Git
 - [nodegit](https://github.com/nodegit/nodegit) - [libgit2](https://libgit2.org/) 的 Node.js 绑定版本。
 - [simple-git](https://github.com/steveukx/git-js) - 一个轻量级的接口，用于在任何 node.js 应用程序中运行 git 命令。
-- [@gitgraph/node](https://github.com/nicoespeon/gitgraph.js) - 在 Terminal 绘制 git 流程图（支持浏览器、React）。
+- [gitgraph-node](https://github.com/nicoespeon/gitgraph.js/tree/master/packages/gitgraph-node) - 在 Terminal 绘制 git 流程图（支持浏览器、React）。
+- [git-promise](https://github.com/piuccio/git-promise) - 简单的封装，可运行任何git命令，并使用promise处理其输出。
 - [remote-git-tags](https://github.com/sindresorhus/remote-git-tags) - 从远程仓库中获取标签。
 - [download-git-repo](https://gitlab.com/flippidippi/download-git-repo) - 下载和提取Git仓库 (支持GitHub, GitLab, Bitbucket)。
 
@@ -208,6 +234,7 @@
 - [EJS](https://github.com/mde/ejs) - 超级简单的模板语言。
 - [doT](https://github.com/olado/doT) - 最快简洁的JavaScript模板引擎。
 - [Twig.js](https://github.com/twigjs/twig.js) - Twig模板语言的JavaScript实现。
+- [hbs](https://github.com/pillarjs/hbs) - Handlebars的Expresss版本封装。
 
 ### Web框架
 - [Express](https://github.com/expressjs/express) - Web应用程序框架，为构建单页和多页以及混合Web应用程序提供了一组强大的功能。
@@ -243,6 +270,7 @@
 - [gatsby](https://github.com/gatsbyjs/gatsby) - 使用React构建快速、现代的应用程序和网站。
 - [hexo](https://github.com/hexojs/hexo) - 使用Node.js的快速，简单，强大的博客框架。
 - [vuepress](https://github.com/vuejs/vuepress) - 极简的Vue静态网站生成工具。
+- [netlify-cms](https://github.com/netlify/netlify-cms) - 基于Git的静态网站生成工具。
 - [react-static](https://github.com/react-static/react-static) - 渐进式的React静态网站生成工具。
 - [gridsome](https://github.com/gridsome/gridsome) - Vue.js静态网站生成工具。
 - [vitepress](https://github.com/vuejs/vitepress) - Vite & Vue.js静态网站生成工具。
@@ -260,7 +288,8 @@
   - [LevelUP](https://github.com/Level/levelup) - LevelDB客户端。
   - [couchdb-nano](https://github.com/apache/couchdb-nano) - 官方CouchDB客户端。
   - [Couchbase](https://github.com/couchbase/couchnode) - Couchbase客户端（官方）。
-  - [Aerospike](https://github.com/aerospike/aerospike-client-nodejs) - Aerospike客户端.
+  - [Aerospike](https://github.com/aerospike/aerospike-client-nodejs) - Aerospike客户端。
+
 - ODM / ORM
   - [Sequelize](https://github.com/sequelize/sequelize) - 多方ORM。 支持PostgreSQL，SQLite，MySQL。
   - [TypeORM](https://github.com/typeorm/typeorm) - PostgreSQL，MariaDB，MySQL，SQLite等的ORM。
@@ -274,6 +303,7 @@
   - [MikroORM](https://github.com/mikro-orm/mikro-orm) - 基于数据映射器，工作单元和身份映射模式的TypeScript ORM。 支持MongoDB，PostgreSQL，MySQL和SQLite。
   - [slonik](https://github.com/gajus/slonik) - 具有严格类型，详细日志记录和断言的PostgreSQL客户端。
   - [OpenRecord](https://github.com/PhilWaldmann/openrecord) - PostgreSQL，MySQL，SQLite3和RESTful数据存储的ORM。 类似于ActiveRecord。
+
 - Query builder
   - [Knex](https://github.com/tgriesser/knex) - PostgreSQL，MySQL和SQLite3的查询构建器，旨在灵活，可移植且易于使用。
 
@@ -290,12 +320,19 @@
   - [expect.js](https://github.com/Automattic/expect.js) - 适用于Node.JS和浏览器的简约BDD风格的断言库。
   - [better-assert](https://github.com/tj/better-assert) - C语言风格的Node.js断言，将表达式字符串报告为错误消息。
   - [http-assert](https://github.com/jshttp/http-assert) - 带状态码的断言。
+
 - Mock
   - [Mock.js](https://github.com/nuysoft/Mock) - 浏览器和 Node 均可用，支持自定义 schema 和 随机数据。
   - [Nock](https://github.com/pgte/nock) - HTTP mock和期望。
-  - [Sinon.JS](https://github.com/sinonjs/sinon) - 通过间谍函数(spies), 目标函数替换（stubs）和mocks功能提供的Mock库. 8.5k
+  - [Sinon.JS](https://github.com/sinonjs/sinon) - 通过间谍函数(spies), 目标函数替换（stubs）和mocks功能提供的Mock库。
   - [easy-mock](https://github.com/easy-mock/easy-mock) - 可视化，并且能快速生成模拟数据的持久化服务。
   - [mm](https://github.com/node-modules/mm) - 简单但灵活的 mock(或者叫stub) 包, mock伴侣。
+
+- 测试框架
+  - [jest](https://github.com/facebook/jest) - 愉悦的JavaScript测试。
+  - [mocha](https://github.com/mochajs/mocha) - 简单、灵活、有趣的功能丰富的Node.js和浏览器测试框架。
+  - [ava](https://github.com/avajs/ava) - 面向未来的测试运行程序。
+  - [supertest](https://github.com/visionmedia/supertest) - 使用流畅的API，基于Super-agent库测试Node.js HTTP服务器。
 
 ### 办公软件
 - [sheetjs](https://github.com/SheetJS/sheetjs) - 电子表格数据工具箱。

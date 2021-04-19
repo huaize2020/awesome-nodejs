@@ -12,6 +12,8 @@ English | [简体中文](./README-zh-CN.md)
   - [URL](#url)
   - [Data validation](#data-validation)
   - [Command-line utilities](#command-line-utilities)
+  - [Node.js Management](#nodejs-management)
+  - [NPM](#npm)
   - [Filesystem](#filesystem)
   - [Git](#git)
   - [Logging](#logging)
@@ -25,7 +27,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Automation & RPA](#automation--rpa)
   - [Testing](#testing)
   - [Office](#office)
-  - [OS identification](#os-identification)
+  - [OS Identification](#os-identification)
   - [Shell](#shell)
   - [Environment](#environment)
   - [Email](#email)
@@ -133,6 +135,28 @@ English | [简体中文](./README-zh-CN.md)
 - [cac](https://github.com/cacjs/cac) - Simple yet powerful framework for building command-line apps.
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - Colored symbols for various log levels.
 
+### Node.js Management
+- [nvm](https://github.com/nvm-sh/nvm) - Node Version Manager。
+- [nvm for Windows](https://github.com/coreybutler/nvm-windows) - Version management for Windows.
+- [n](https://github.com/tj/n) - Node.js version management.
+- [fnm](https://github.com/Schniz/fnm) - 🚀 Fast and simple Node.js version manager, built in Rust.
+- [nave](https://github.com/isaacs/nave) - Virtual Environments for Node.js.
+- [nodenv](https://github.com/nodenv/nodenv) - Version manager that is similar to Ruby's rbenv. It supports auto version switching.
+- [nodeenv](https://github.com/ekalinin/nodeenv) - Node.js virtual environment compatible to Python's virtualenv.
+
+### NPM
+  - NPM Management
+    - [npm](https://github.com/npm/cli) - The package manager for JavaScript.
+    - [yarn](https://github.com/yarnpkg/berry) - A modern package manager split into various packages.
+    - [nrm](https://github.com/Pana/nrm) - About NPM registry manager, fast switch between different registries: npm, cnpm, nj, taobao.
+    - [cnpm](https://github.com/cnpm/cnpm) - Npm client for China mirror of npm.
+
+  - Utilities
+    - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - Find newer versions of package dependencies than what your package.json allows.
+    - [npm-run-all](https://github.com/mysticatea/npm-run-all) - A CLI tool to run multiple npm-scripts in parallel or sequential.
+    - [npm-home](https://github.com/sindresorhus/npm-home) - Open the npm page of a package.
+    - [npm-name](https://github.com/sindresorhus/npm-name) - Check a package name's availability on npm.
+
 ### Filesystem
 - [chokidar](https://github.com/paulmillr/chokidar) - Minimal and efficient cross-platform file watching library.
 - [fs-extra](https://github.com/jprichardson/node-fs-extra) - Extra methods for the `fs` module.
@@ -150,13 +174,15 @@ English | [简体中文](./README-zh-CN.md)
 - [memfs](https://github.com/streamich/memfs) - In-memory filesystem with Node's API.
 - [temp](https://github.com/bruce/node-temp) - Temporary File, Directory, and Stream support for Node.js.
 - [watchpack](https://github.com/webpack/watchpack) - Wrapper library for directory and file watching.
+- [tar-fs](https://github.com/mafintosh/tar-fs) - Tar-fs allows you to pack directories into tarballs and extract tarballs into directories.
 - [cpy](https://github.com/sindresorhus/cpy) - Copy files.
 - [mkdirp](https://github.com/isaacs/node-mkdirp) - Recursively mkdir, like `mkdir -p`.
 
 ### Git
 - [nodegit](https://github.com/nodegit/nodegit) - Node bindings to the libgit2 project.
 - [simple-git](https://github.com/steveukx/git-js) - A light weight interface for running git commands in any node.js application.
-- [@gitgraph/node](https://github.com/nicoespeon/gitgraph.js) - Draw pretty git graphs in your terminal.
+- [gitgraph-node](https://github.com/nicoespeon/gitgraph.js/tree/master/packages/gitgraph-node) - Draw pretty git graphs in your terminal.
+- [git-promise](https://github.com/piuccio/git-promise) - Simple wrapper to run any git command and process it's output using promises.
 - [remote-git-tags](https://github.com/sindresorhus/remote-git-tags) - Get tags from a remote git repo. Using only JS.
 - [download-git-repo](https://gitlab.com/flippidippi/download-git-repo) - Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.
 
@@ -202,6 +228,7 @@ English | [简体中文](./README-zh-CN.md)
 - [EJS](https://github.com/mde/ejs) - Simple unopinionated templating language.
 - [doT](https://github.com/olado/doT) - Fastest + concise javascript template engine for nodejs and browsers. Partials, custom delimiters and more.
 - [Twig.js](https://github.com/twigjs/twig.js) - JS implementation of the Twig Templating Language.
+- [hbs](https://github.com/pillarjs/hbs) - Express view engine wrapper for Handlebars
 
 ### Web Frameworks
 - [Express](https://github.com/expressjs/express) - Web application framework, providing a robust set of features for building single and multi-page, and hybrid web applications.
@@ -238,6 +265,7 @@ English | [简体中文](./README-zh-CN.md)
 - [gatsby](https://github.com/gatsbyjs/gatsby) - Build blazing fast, modern apps and websites with React.
 - [hexo](https://github.com/hexojs/hexo) - A fast, simple & powerful blog framework, powered by Node.js.
 - [vuepress](https://github.com/vuejs/vuepress) - Minimalistic Vue-powered static site generator.
+- [netlify-cms](https://github.com/netlify/netlify-cms) - A Git-based CMS for Static Site Generators.
 - [react-static](https://github.com/react-static/react-static) - A progressive static site generator for React.
 - [gridsome](https://github.com/gridsome/gridsome) - The Jamstack framework for Vue.js.
 - [vitepress](https://github.com/vuejs/vitepress) - Vite & Vue powered static site generator.
@@ -256,6 +284,7 @@ English | [简体中文](./README-zh-CN.md)
   - [couchdb-nano](https://github.com/apache/couchdb-nano) - Nano: The official Apache CouchDB library for Node.js.
   - [Couchbase](https://github.com/couchbase/couchnode) - Couchbase Node.js Client Library (Official).
   - [Aerospike](https://github.com/aerospike/aerospike-client-nodejs) - Node.js client for the Aerospike database.
+
 - ODM / ORM
   - [Sequelize](https://github.com/sequelize/sequelize) - Multi-dialect ORM. Supports PostgreSQL, SQLite, MySQL, and more.
   - [TypeORM](https://github.com/typeorm/typeorm) - ORM for PostgreSQL, MariaDB, MySQL, SQLite, and more.
@@ -269,6 +298,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Massive](https://github.com/robconery/massive-js) - PostgreSQL data access tool.
   - [slonik](https://github.com/gajus/slonik) - PostgreSQL client with strict types, detailed logging and assertions.
   - [OpenRecord](https://github.com/PhilWaldmann/openrecord) - ORM for PostgreSQL, MySQL, SQLite3 and RESTful datastores. Similar to ActiveRecord.
+
 - Query builder
   - [Knex](https://github.com/tgriesser/knex) - Query builder for PostgreSQL, MySQL and SQLite3, designed to be flexible, portable, and fun to use.
 
@@ -285,12 +315,19 @@ English | [简体中文](./README-zh-CN.md)
   - [expect.js](https://github.com/Automattic/expect.js) - Minimalistic BDD-style assertions for Node.JS and the browser.
   - [better-assert](https://github.com/tj/better-assert) - C-style assert() for nodejs, reporting the expression string as the error message.
   - [http-assert](https://github.com/jshttp/http-assert) - Assert with status codes.
+
 - Mock
   - [Mock.js](https://github.com/nuysoft/Mock) - A simulation data generator.
   - [Nock](https://github.com/pgte/nock) - HTTP mocking and expectations.
   - [Sinon.JS](https://github.com/sinonjs/sinon) - Test spies, stubs and mocks.
   - [easy-mock](https://github.com/easy-mock/easy-mock) - A persistent service that generates mock data quickly and provids visualization view.
-  - [mm](https://github.com/node-modules/mm) - An simple but flexible mock(or say stub) package, mock mate
+  - [mm](https://github.com/node-modules/mm) - An simple but flexible mock(or say stub) package, mock mate.
+
+- Testing Framework
+  - [jest](https://github.com/facebook/jest) - Delightful JavaScript Testing.
+  - [mocha](https://github.com/mochajs/mocha) - Simple, flexible, fun javascript test framework for node.js & the browser.
+  - [ava](https://github.com/avajs/ava) - Node.js test runner that lets you develop with confidence 🚀.
+  - [supertest](https://github.com/visionmedia/supertest) - Super-agent driven library for testing node.js HTTP servers using a fluent API.
 
 ### Office
 - [sheetjs](https://github.com/SheetJS/sheetjs) - Spreadsheet Data Toolkit.
@@ -301,7 +338,8 @@ English | [简体中文](./README-zh-CN.md)
 - [Mammoth](https://github.com/mwilliamson/mammoth.js) - Convert Word documents (.docx files) to HTML.
 - [docx](https://github.com/dolanmiu/docx) - Easily generate .docx files with JS/TS with a nice declarative API. Works for Node and on the Browser.
 - [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) - Excel XLSX parser/generator written in JavaScript with Node.js and browser support.
-### OS identification
+
+### OS Identification
 - [systeminformation](https://github.com/sebhildebrandt/systeminformation) - Hardware/software system information.
 - [is-wsl](https://github.com/sindresorhus/is-wsl) - Detect whether current platform is WSL (Windows Subsystem for Linux).
 - [os-name](https://github.com/sindresorhus/os-name) - Get the name of the current operating system.
