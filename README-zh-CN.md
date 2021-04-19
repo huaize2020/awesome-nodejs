@@ -11,6 +11,7 @@
 - [目录](#目录)
 - [官方资源](#官方资源)
 - [NPM包](#npm包)
+  - [文本](#文本)
   - [数字](#数字)
   - [数学运算](#数学运算)
   - [日期 和 时间](#日期-和-时间)
@@ -45,6 +46,38 @@
 - [仓库](https://github.com/nodejs/node)
 
 ## NPM包
+
+### 文本
+  - 通用
+    - [camelcase](https://github.com/sindresorhus/camelcase) - 将破折号/点号/下划线/空格分隔的字符串转换为驼峰式, 案例：foo-bar→fooBar。
+    - [detect-indent](https://github.com/sindresorhus/detect-indent) - 检查代码缩进。
+    - [string-length](https://github.com/sindresorhus/string-length) - 获取字符串的真实长度 - 通过正确计算星号并忽略ansi转义码。
+    - [strip-indent](https://github.com/sindresorhus/strip-indent) - 将字符串每一行中前置的空格删除。
+    - [indent-string](https://github.com/sindresorhus/indent-string) - 将字符串每一行缩进。
+    - [min-indent](https://github.com/jamiebuilds/min-indent) - 取每一行最少前置空格数。
+    - [splice-string](https://github.com/sindresorhus/splice-string) - 移除或替换字符串的一部分。类似`Array#splice`.
+
+  - 国际化
+    - [i18next](https://github.com/i18next/i18next) - 国际化框架。
+    - [i18n-node](https://github.com/mashpie/i18n-node) - 具有动态JSON存储的简单翻译模块。
+    - [babelfish](https://github.com/nodeca/babelfish) - 适用于JavaScript的人性化i18n（node.js +浏览器）。
+
+  - 唯一ID
+    - [nanoid](https://github.com/ai/nanoid) - 小巧、安全、URL友好、唯一的字符串ID生成器。
+    - [uuid](https://github.com/uuidjs/uuid) - 在JavaScript中生成符合RFC规范的UUID。
+
+  - 编码/解码
+    - [he](https://github.com/mathiasbynens/he) - HTML实体编码器/解码器。
+    - [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - 转换字符编码。
+
+  - 正则/通配符匹配
+    - [matcher](https://github.com/sindresorhus/matcher) - 简单通配符匹配。
+    - [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - 转义特殊正则字符。
+    - [execall](https://github.com/sindresorhus/execall) - 在字符串中查找多个RegExp匹配项。
+
+  - 其他
+    - [StegCloak](https://github.com/kurolabs/stegcloak) - 基于纯JavaScript开发的隐写功能模块，StegCloak可以对文本中的机密信息进行压缩和加密，然后再使用特殊的Unicode不可见字符来隐藏它。
+    - [unhomoglyph](https://github.com/nodeca/unhomoglyph) - 规范视觉上相似的unicode字符。
 
 ### 数字
 - [Numeral.js](https://github.com/adamwdraper/Numeral-js) - 格式化和操作数字。
@@ -211,7 +244,8 @@
 - [hexo](https://github.com/hexojs/hexo) - 使用Node.js的快速，简单，强大的博客框架。
 - [vuepress](https://github.com/vuejs/vuepress) - 极简的Vue静态网站生成工具。
 - [react-static](https://github.com/react-static/react-static) - 渐进式的React静态网站生成工具。
-- [gridsome](https://github.com/gridsome/gridsome) - Vue.js静态网站生成工具.
+- [gridsome](https://github.com/gridsome/gridsome) - Vue.js静态网站生成工具。
+- [vitepress](https://github.com/vuejs/vitepress) - Vite & Vue.js静态网站生成工具。
 
 ### 论坛
 - [NodeBB](https://github.com/NodeBB/NodeBB) - 基于Node.js的现代Web论坛。

@@ -5,6 +5,7 @@ English | [简体中文](./README-zh-CN.md)
 - [Table of contents](#table-of-contents)
 - [Official](#official)
 - [Packages](#packages)
+  - [Text](#text)
   - [Number](#number)
   - [Math](#math)
   - [Date & Time](#date--time)
@@ -39,6 +40,38 @@ English | [简体中文](./README-zh-CN.md)
 - [Repository](https://github.com/nodejs/node)
 
 ## Packages
+
+### Text
+  - Common
+    - [camelcase](https://github.com/sindresorhus/camelcase) - Convert a dash/dot/underscore/space separated string to camelCase: foo-bar → fooBar.
+    - [detect-indent](https://github.com/sindresorhus/detect-indent) - Detect the indentation of code.
+    - [string-length](https://github.com/sindresorhus/string-length) - Get the real length of a string - by correctly counting astral symbols and ignoring ansi escape codes.
+    - [strip-indent](https://github.com/sindresorhus/strip-indent) - Strip leading whitespace from every line in a string.
+    - [indent-string](https://github.com/sindresorhus/indent-string) - Indent each line in a string.
+    - [min-indent](https://github.com/jamiebuilds/min-indent) - Get the shortest leading whitespace from lines in a string.
+    - [splice-string](https://github.com/sindresorhus/splice-string) - Remove or replace part of a string like `Array#splice`.
+
+  - i18n
+    - [i18next](https://github.com/i18next/i18next) - Internationalization framework.
+    - [i18n-node](https://github.com/mashpie/i18n-node) - Simple translation module with dynamic JSON storage.
+    - [babelfish](https://github.com/nodeca/babelfish) - human friendly i18n for javascript (node.js + browser).
+
+  - Unique Id
+    - [nanoid](https://github.com/ai/nanoid) - Tiny, secure, URL-friendly, unique string ID generator.
+    - [uuid](https://github.com/uuidjs/uuid) - Generate RFC-compliant UUIDs in JavaScript.
+
+  - Encode/Decode
+    - [he](https://github.com/mathiasbynens/he) - HTML entity encoder/decoder.
+    - [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - Convert character encodings.
+
+  - RegExp/Glob
+    - [matcher](https://github.com/sindresorhus/matcher) - Simple wildcard matching.
+    - [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - Escape RegExp special characters.
+    - [execall](https://github.com/sindresorhus/execall) - Find multiple RegExp matches in a string.
+
+  - Other
+    - [StegCloak](https://github.com/kurolabs/stegcloak) - Conceal secrets within strings, in plain sight.
+    - [unhomoglyph](https://github.com/nodeca/unhomoglyph) - Normalize visually similar unicode characters.
 
 ### Number
 - [Numeral.js](https://github.com/adamwdraper/Numeral-js) - A javascript library for formatting and manipulating numbers.
@@ -207,6 +240,7 @@ English | [简体中文](./README-zh-CN.md)
 - [vuepress](https://github.com/vuejs/vuepress) - Minimalistic Vue-powered static site generator.
 - [react-static](https://github.com/react-static/react-static) - A progressive static site generator for React.
 - [gridsome](https://github.com/gridsome/gridsome) - The Jamstack framework for Vue.js.
+- [vitepress](https://github.com/vuejs/vitepress) - Vite & Vue powered static site generator.
 
 ### Forum
 - [NodeBB](https://github.com/NodeBB/NodeBB) - Node.js based forum software built for the modern web
