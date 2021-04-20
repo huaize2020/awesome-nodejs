@@ -40,6 +40,7 @@
   - [Email](#email)
   - [HTTP](#http)
   - [爬虫](#爬虫)
+  - [定时任务](#定时任务)
   - [AST](#ast)
   - [机器学习](#机器学习)
 
@@ -244,6 +245,7 @@
 - [stylelint](https://github.com/stylelint/stylelint) - 功能强大现代风格检查工具，帮助你避免错误和强制约定样式风格。
 - [lint-staged](https://github.com/okonet/lint-staged) - 在Git暂存文件上运行风格检查工具。
 - [commitlint](https://github.com/conventional-changelog/commitlint) - Git提交信息风格检查工具。
+- [xo](https://github.com/xojs/xo) - 带出色默认配置的JavaScript/TypeScript代码校验 (基于ESLint封装)
 - [markdownlint](https://github.com/DavidAnson/markdownlint) - Markdown/CommonMark风格检查工具。
 - [textlint](https://github.com/textlint/textlint) - Text 和 Markdown 校验和格式化。
 
@@ -350,9 +352,10 @@
 
 ### 测试相关
 - 断言库
-  - [chai](https://github.com/chaijs/chai) - 基于行为驱动开发和测试驱动开发理念的Node.js和浏览器断言库，可与任何 JavaScript 测试框架集成。
+  - [chai](https://github.com/chaijs/chai) - 基于行为驱动开发(BDD)和测试驱动开发(TDD)理念的Node.js和浏览器断言库，可与任何 JavaScript 测试框架集成。
   - [power-assert](https://github.com/power-assert-js/power-assert) - 使用标准assert接口提供的描述型断言消息。
   - [expect.js](https://github.com/Automattic/expect.js) - 适用于Node.JS和浏览器的简约BDD风格的断言库。
+  - [should.js](https://github.com/shouldjs/should.js) - Node.JS的行为驱动开发(BDD)风格断言库。
   - [better-assert](https://github.com/tj/better-assert) - C语言风格的Node.js断言，将表达式字符串报告为错误消息。
   - [http-assert](https://github.com/jshttp/http-assert) - 带状态码的断言。
 
@@ -402,6 +405,7 @@
     - [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP代理。
     - [got](https://github.com/sindresorhus/got) - 更好的基于内建“http”模块接口实现。
     - [node-fetch](https://github.com/bitinn/node-fetch) - Node.js的 `window.fetch` 实现。
+    - [needle](https://github.com/tomas/needle) - 灵活，基于流的HTTP Node.js客户端请求库。支持proxy，iconv，cookie，deflate和multipart。
     - [download](https://github.com/kevva/download) - 轻松下载和提取文件。
     - [urllib](https://github.com/node-modules/urllib) - 在复杂世界中请求HTTP/HTTPS的URL。
     - [gotql](https://github.com/khaosdoctor/gotql) - 基于[got](https://github.com/sindresorhus/got)构建的GraphQL请求库。
@@ -419,6 +423,11 @@
 ### 爬虫
 - [node-crawler](https://github.com/bda-research/node-crawler) - NodeJS Web爬虫 + 服务端jQuery。
 - [Headless Chrome Crawler](https://github.com/yujiosaka/headless-chrome-crawler) - 使用Chrome无头浏览器的分布式爬虫。
+
+### 定时任务
+- [agenda](https://github.com/agenda/agenda) - Node.js轻量级定时任务。
+- [node-cron](https://github.com/kelektiv/node-cron) - 允许执行定时任务的工具。
+- [cron-parser](https://github.com/harrisiirak/cron-parser) - 用于解析crontab指令的Node.js库。
 
 ### AST
 - [babel-parser](https://github.com/babel/babel/tree/master/packages/babel-parser) - JavaScript解析器。

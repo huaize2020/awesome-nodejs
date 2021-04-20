@@ -34,6 +34,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Email](#email)
   - [HTTP](#http)
   - [Crawler](#crawler)
+  - [Job Scheduling](#job-scheduling)
   - [AST](#ast)
   - [Machine learning](#machine-learning)
 
@@ -240,6 +241,7 @@ English | [简体中文](./README-zh-CN.md)
 - [stylelint](https://github.com/stylelint/stylelint) - Mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
 - [lint-staged](https://github.com/okonet/lint-staged) - Run linters on git staged files.
 - [commitlint](https://github.com/conventional-changelog/commitlint) - Lint commit messages.
+- [xo](https://github.com/xojs/xo) - JavaScript/TypeScript linter (ESLint wrapper) with great defaults
 - [markdownlint](https://github.com/DavidAnson/markdownlint) - A Node.js style checker and lint tool for Markdown/CommonMark files.
 - [textlint](https://github.com/textlint/textlint) - The pluggable natural language linter for text and markdown.
 
@@ -350,6 +352,7 @@ English | [简体中文](./README-zh-CN.md)
   - [chai](https://github.com/chaijs/chai) - BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework.
   - [power-assert](https://github.com/power-assert-js/power-assert) - Provides descriptive assertion messages through the standard assert interface.
   - [expect.js](https://github.com/Automattic/expect.js) - Minimalistic BDD-style assertions for Node.JS and the browser.
+  - [should.js](https://github.com/shouldjs/should.js) - BDD style assertions for node.js.
   - [better-assert](https://github.com/tj/better-assert) - C-style assert() for nodejs, reporting the expression string as the error message.
   - [http-assert](https://github.com/jshttp/http-assert) - Assert with status codes.
 
@@ -399,6 +402,7 @@ English | [简体中文](./README-zh-CN.md)
     - [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP proxy.
     - [got](https://github.com/sindresorhus/got) - Nicer interface to the built-in `http` module.
     - [node-fetch](https://github.com/bitinn/node-fetch) - `window.fetch` for Node.js.
+    - [needle](https://github.com/tomas/needle) - Nimble, streamable HTTP client for Node.js. With proxy, iconv, cookie, deflate & multipart support.
     - [download](https://github.com/kevva/download) - Download and extract files effortlessly.
     - [urllib](https://github.com/node-modules/urllib) - Request HTTP(s) URLs in a complex world.
     - [gotql](https://github.com/khaosdoctor/gotql) - GraphQL request library built on [got](https://github.com/sindresorhus/got).
@@ -417,6 +421,11 @@ English | [简体中文](./README-zh-CN.md)
 ### Crawler
 - [node-crawler](https://github.com/bda-research/node-crawler) - Web Crawler/Spider for NodeJS + server-side jQuery.
 - [Headless Chrome Crawler](https://github.com/yujiosaka/headless-chrome-crawler) - Distributed crawler powered by Headless Chrome.
+
+### Job Scheduling
+- [agenda](https://github.com/agenda/agenda) - Lightweight job scheduling for Node.js.
+- [node-cron](https://github.com/kelektiv/node-cron) - A tool that allows you to execute something on a schedule.
+- [cron-parser](https://github.com/harrisiirak/cron-parser) - Node.js library for parsing crontab instructions.
 
 ### AST
 - [babel-parser](https://github.com/babel/babel/tree/master/packages/babel-parser) - JavaScript parser.
