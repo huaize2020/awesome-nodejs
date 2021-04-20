@@ -22,7 +22,7 @@
   - [Shell命令](#shell命令)
   - [环境变量](#环境变量)
   - [命令行工具](#命令行工具)
-  - [Node.js Management](#nodejs-management)
+  - [Node.js管理工具](#nodejs管理工具)
   - [NPM](#npm)
   - [文件系统](#文件系统)
   - [Git](#git)
@@ -183,7 +183,7 @@
 - [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - 在命令行/终端应用中轻松的使用进度条。
 - [common-bin](https://github.com/node-modules/common-bin) - 基于yargs的命令行工具抽象，提供更方便的使用，支持async/generator。
 
-### Node.js Management
+### Node.js管理工具
 - [nvm](https://github.com/nvm-sh/nvm) - Node.js版本管理工具。
 - [nvm for Windows](https://github.com/coreybutler/nvm-windows) -  Node.js版本管理工具Windows版。
 - [n](https://github.com/tj/n) - Node.js版本管理工具。
