@@ -11,6 +11,8 @@ English | [简体中文](./README-zh-CN.md)
   - [Date & Time](#date--time)
   - [URL](#url)
   - [Data validation](#data-validation)
+  - [Shell](#shell)
+  - [Environment](#environment)
   - [Command-line utilities](#command-line-utilities)
   - [Node.js Management](#nodejs-management)
   - [NPM](#npm)
@@ -29,9 +31,8 @@ English | [简体中文](./README-zh-CN.md)
   - [Testing](#testing)
   - [Office](#office)
   - [OS Identification](#os-identification)
-  - [Shell](#shell)
-  - [Environment](#environment)
   - [Email](#email)
+  - [HTTP](#http)
   - [Crawler](#crawler)
   - [AST](#ast)
   - [Machine learning](#machine-learning)
@@ -66,6 +67,7 @@ English | [简体中文](./README-zh-CN.md)
   - Encode/Decode
     - [he](https://github.com/mathiasbynens/he) - HTML entity encoder/decoder.
     - [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - Convert character encodings.
+    - [jschardet](https://github.com/aadsm/jschardet) - Character encoding auto-detection in JavaScript (port of python's chardet)
 
   - RegExp/Glob
     - [matcher](https://github.com/sindresorhus/matcher) - Simple wildcard matching.
@@ -124,6 +126,24 @@ English | [简体中文](./README-zh-CN.md)
 - [property-validator](https://github.com/nettofarah/property-validator) - Easy property validation for JavaScript, Node and Express.
 - [schema-inspector](https://github.com/Atinux/schema-inspector) - JSON API sanitization and validation.
 
+### Shell
+- [shelljs](https://github.com/shelljs/shelljs) - Cross-platform Unix shell commands.
+- [execa](https://github.com/sindresorhus/execa) - Cross-platform implementation of `child_process.{execFile,exec}`.
+- [node-windows](https://github.com/coreybutler/node-windows) - Windows support for Node.js scripts (daemons, eventlog, UAC, etc).
+- [clipboardy](https://github.com/sindresorhus/clipboardy) - Cross-platform copy/paste.
+- [cross-spawn](https://github.com/IndigoUnited/node-cross-spawn) - Cross-platform implementation of `child_process.spawn()`.
+- [figures](https://github.com/sindresorhus/figures) - Unicode symbols with Windows fallbacks.
+- [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - Cross-platform copy/paste.
+- [gulp-execa](https://github.com/ehmicky/gulp-execa) - Cross-platform command execution in Gulp.js.
+
+### Environment
+- [cross-env](https://github.com/kentcdodds/cross-env) - Set environment variables cross-platform.
+- [which](https://github.com/npm/node-which) - Cross-platform implementation of Unix's `which`.
+- [user-home](https://github.com/sindresorhus/user-home) - Get the path to the user home directory. Cross-platform.
+- [username](https://github.com/sindresorhus/username) - Get the current username.
+- [osenv](https://github.com/npm/osenv) - Cross-platform environment variables.
+- [is-elevated](https://github.com/sindresorhus/is-elevated) - Check if the process is running with elevated privileges.
+
 ### Command-line utilities
 - [Commander.js](https://github.com/tj/commander.js) - The complete solution for node.js command-line interfaces.
 - [chalk](https://github.com/chalk/chalk) - Terminal string styling done right.
@@ -131,10 +151,13 @@ English | [简体中文](./README-zh-CN.md)
 - [yargs](https://github.com/yargs/yargs) - Collection of common interactive command line user interfaces.
 - [Enquirer](https://github.com/enquirer/enquirer) - Stylish CLI prompts that are user-friendly, intuitive and easy to create.
 - [minimist](https://github.com/substack/minimist) - Guts of optimist's argument parser without all the fanciful decoration.
+- [colors.js](https://github.com/Marak/colors.js) - Get colors in your node.js console.
 - [progress](https://github.com/visionmedia/node-progress) - Flexible ascii progress bar for nodejs.
 - [depcheck](https://github.com/depcheck/depcheck) - Check your npm module for unused dependencies.
 - [cac](https://github.com/cacjs/cac) - Simple yet powerful framework for building command-line apps.
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - Colored symbols for various log levels.
+- [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - Easy to use progress-bar for command-line/terminal applications.
+- [common-bin](https://github.com/node-modules/common-bin) - Abstraction bin tool wrap yargs, to provide more convenient usage, support async / generator.
 
 ### Node.js Management
 - [nvm](https://github.com/nvm-sh/nvm) - Node Version Manager。
@@ -155,8 +178,11 @@ English | [简体中文](./README-zh-CN.md)
   - Utilities
     - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - Find newer versions of package dependencies than what your package.json allows.
     - [npm-run-all](https://github.com/mysticatea/npm-run-all) - A CLI tool to run multiple npm-scripts in parallel or sequential.
+    - [npminstall](https://github.com/cnpm/npminstall) - Make `npm install` fast and easy.
     - [npm-home](https://github.com/sindresorhus/npm-home) - Open the npm page of a package.
     - [npm-name](https://github.com/sindresorhus/npm-name) - Check a package name's availability on npm.
+    - [npm-package-arg](https://github.com/npm/npm-package-arg) - Parse the things that can be arguments to `npm install`.
+    - [npm-updater](https://github.com/node-modules/npm-updater) - Check update of npm package.
 
 ### Filesystem
 - [chokidar](https://github.com/paulmillr/chokidar) - Minimal and efficient cross-platform file watching library.
@@ -333,6 +359,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Sinon.JS](https://github.com/sinonjs/sinon) - Test spies, stubs and mocks.
   - [easy-mock](https://github.com/easy-mock/easy-mock) - A persistent service that generates mock data quickly and provids visualization view.
   - [mm](https://github.com/node-modules/mm) - An simple but flexible mock(or say stub) package, mock mate.
+  - [smoke](https://github.com/sinedied/smoke) - 💨 Simple yet powerful file-based mock server with recording abilities.
 
 - Testing Framework
   - [jest](https://github.com/facebook/jest) - Delightful JavaScript Testing.
@@ -357,30 +384,30 @@ English | [简体中文](./README-zh-CN.md)
 - [getos](https://github.com/retrohacker/getos) - Retrieve the current OS, including Linux distribution.
 - [is-windows](https://github.com/jonschlinkert/is-windows) - Detect whether the current platform is Windows.
 
-### Shell
-- [shelljs](https://github.com/shelljs/shelljs) - Cross-platform Unix shell commands.
-- [execa](https://github.com/sindresorhus/execa) - Cross-platform implementation of `child_process.{execFile,exec}`.
-- [node-windows](https://github.com/coreybutler/node-windows) - Windows support for Node.js scripts (daemons, eventlog, UAC, etc).
-- [clipboardy](https://github.com/sindresorhus/clipboardy) - Cross-platform copy/paste.
-- [cross-spawn](https://github.com/IndigoUnited/node-cross-spawn) - Cross-platform implementation of `child_process.spawn()`.
-- [figures](https://github.com/sindresorhus/figures) - Unicode symbols with Windows fallbacks.
-- [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - Cross-platform copy/paste.
-- [gulp-execa](https://github.com/ehmicky/gulp-execa) - Cross-platform command execution in Gulp.js.
-
-### Environment
-- [cross-env](https://github.com/kentcdodds/cross-env) - Set environment variables cross-platform.
-- [which](https://github.com/npm/node-which) - Cross-platform implementation of Unix's `which`.
-- [user-home](https://github.com/sindresorhus/user-home) - Get the path to the user home directory. Cross-platform.
-- [username](https://github.com/sindresorhus/username) - Get the current username.
-- [osenv](https://github.com/npm/osenv) - Cross-platform environment variables.
-- [is-elevated](https://github.com/sindresorhus/is-elevated) - Check if the process is running with elevated privileges.
-
 ### Email
 - [Nylas Mail](https://github.com/nylas/nylas-mail) - An extensible desktop mail app built on the modern web.
 - [Nodemailer](https://github.com/nodemailer/nodemailer) - Send e-mails with Node.JS – easy as cake!
 - [Email Templates](https://github.com/forwardemail/email-templates) - Create, preview, and send custom email templates for Node.js.
 - [emailjs](https://github.com/eleith/emailjs) - Html emails and attachments to any smtp server with nodejs.
 - [mjml](https://github.com/mjmlio/mjml) - Makes responsive-email easy.
+
+### HTTP
+- [axios](https://github.com/mzabriskie/axios) - Promise based HTTP client (works in the browser too).
+- [request](https://github.com/request/request) - 🏊🏾 Simplified HTTP request client.
+- [superagent](https://github.com/visionmedia/superagent) - HTTP request library.
+- [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP proxy.
+- [got](https://github.com/sindresorhus/got) - Nicer interface to the built-in `http` module.
+- [node-fetch](https://github.com/bitinn/node-fetch) - `window.fetch` for Node.js.
+- [download](https://github.com/kevva/download) - Download and extract files effortlessly.
+- [urllib](https://github.com/node-modules/urllib) - Request HTTP(s) URLs in a complex world.
+- [gotql](https://github.com/khaosdoctor/gotql) - GraphQL request library built on [got](https://github.com/sindresorhus/got).
+- [wreck](https://github.com/hapijs/wreck) - HTTP Client Utilities.
+- [http-fake-backend](https://github.com/micromata/http-fake-backend) - Build a fake backend by providing the content of JSON files or JavaScript objects through configurable routes.
+- [cacheable-request](https://github.com/lukechilds/cacheable-request) - Wrap native HTTP requests with RFC compliant cache support.
+- [global-agent](https://github.com/gajus/global-agent) - Global HTTP/HTTPS proxy agent that is configurable using environment variables.
+- [gh-got](https://github.com/sindresorhus/gh-got) - Convenience wrapper for `got` to interact with the GitHub API.
+- [smoke](https://github.com/sinedied/smoke) - File-based HTTP mock server with recording abilities.
+- [flashheart](https://github.com/bbc/flashheart) - REST client.
 
 ### Crawler
 - [node-crawler](https://github.com/bda-research/node-crawler) - Web Crawler/Spider for NodeJS + server-side jQuery.

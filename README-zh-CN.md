@@ -17,6 +17,8 @@
   - [日期 和 时间](#日期-和-时间)
   - [URL](#url)
   - [数据校验](#数据校验)
+  - [Shell命令](#shell命令)
+  - [环境变量](#环境变量)
   - [命令行工具](#命令行工具)
   - [Node.js Management](#nodejs-management)
   - [NPM](#npm)
@@ -35,9 +37,8 @@
   - [测试相关](#测试相关)
   - [办公软件](#办公软件)
   - [操作系统识别](#操作系统识别)
-  - [Shell命令](#shell命令)
-  - [环境变量](#环境变量)
   - [Email](#email)
+  - [HTTP](#http)
   - [爬虫](#爬虫)
   - [AST](#ast)
   - [机器学习](#机器学习)
@@ -72,6 +73,7 @@
   - 编码/解码
     - [he](https://github.com/mathiasbynens/he) - HTML实体编码器/解码器。
     - [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - 转换字符编码。
+    - [jschardet](https://github.com/aadsm/jschardet) - JavaScript编码自动识别 (Python版chardet的实现)。
 
   - 正则/通配符匹配
     - [matcher](https://github.com/sindresorhus/matcher) - 简单通配符匹配。
@@ -130,6 +132,22 @@
 - [property-validator](https://github.com/nettofarah/property-validator) - 用于JavaScript、Node和Express的易用的属性校验工具。
 - [schema-inspector](https://github.com/Atinux/schema-inspector) - 用于净化和验证JS对象的强大工具。
 
+### Shell命令
+- [shelljs](https://github.com/shelljs/shelljs) - 跨平台Unix shell命令。
+- [execa](https://github.com/sindresorhus/execa) - 跨平台实现子进程执行 `child_process.{execFile,exec}`。
+- [clipboardy](https://github.com/sindresorhus/clipboardy) - 跨平台的复制/粘贴。
+- [cross-spawn](https://github.com/IndigoUnited/node-cross-spawn) - 跨平台实现 `child_process.spawn()`。
+- [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - 跨平台的复制/粘贴。
+- [gulp-execa](https://github.com/ehmicky/gulp-execa) - 在Gulp中跨平台命令执行。
+
+### 环境变量
+- [cross-env](https://github.com/kentcdodds/cross-env) - 跨平台设置环境变量。
+- [which](https://github.com/npm/node-which) - 跨平台实现的Unix `which`.
+- [user-home](https://github.com/sindresorhus/user-home) - 跨平台获取用户home目录路径。
+- [username](https://github.com/sindresorhus/username) - 获取当前用户名。
+- [osenv](https://github.com/npm/osenv) - 跨平台环境变量。
+- [is-elevated](https://github.com/sindresorhus/is-elevated) - 检查进程是否以提升的权限运行。
+
 ### 命令行工具
 - [Commander.js](https://github.com/tj/commander.js) - Node.JS命令行界面完整解决方案。
 - [chalk](https://github.com/chalk/chalk) - 命令行字符串样式美化工具。
@@ -137,10 +155,13 @@
 - [yargs](https://github.com/yargs/yargs) - 通用可交互命令行工具集合。
 - [Enquirer](https://github.com/enquirer/enquirer) - 用户友好、直观且易于创建的时尚CLI提示。
 - [minimist](https://github.com/substack/minimist) - 命令行参数解析引擎。
+- [colors.js](https://github.com/Marak/colors.js) - 获取Node.js控制台的颜色。
 - [progress](https://github.com/visionmedia/node-progress) - Node.js的灵活ascii进度条。
 - [depcheck](https://github.com/depcheck/depcheck) - 检查项目中未使用的依赖。
 - [cac](https://github.com/cacjs/cac) - 用于构建命令行应用的强大框架。
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - 为不同日志级别添加色彩图标。
+- [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - 在命令行/终端应用中轻松的使用进度条。
+- [common-bin](https://github.com/node-modules/common-bin) - 基于yargs的命令行工具抽象，提供更方便的使用，支持async/generator。
 
 ### Node.js Management
 - [nvm](https://github.com/nvm-sh/nvm) - Node.js版本管理工具。
@@ -155,14 +176,17 @@
   - NPM管理工具
     - [npm](https://github.com/npm/cli) - JavaScript包管理工具。
     - [yarn](https://github.com/yarnpkg/berry) - 现代包管理工具，拆分成多个不同的包。
-    - [nrm](https://github.com/Pana/nrm) - 快速切换NPM注册服务商，如npm、cnpm、nj、taobao。
+    - [nrm](https://github.com/Pana/nrm) - 快速切换npm注册服务商，如npm、cnpm、nj、taobao。
     - [cnpm](https://github.com/cnpm/cnpm) - NPM中国区镜像客户端。
 
   - 工具
     - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - 查找当前package.json依赖允许的更新的版本。
-    - [npm-run-all](https://github.com/mysticatea/npm-run-all) - 命令行工具，同时运行多个NPM脚本（并行或串行）。
-    - [npm-home](https://github.com/sindresorhus/npm-home) - 打开NPM包页面。
+    - [npm-run-all](https://github.com/mysticatea/npm-run-all) - 命令行工具，同时运行多个npm脚本（并行或串行）。
+    - [npminstall](https://github.com/cnpm/npminstall) - 使 `npm install` 更快更容易。
+    - [npm-home](https://github.com/sindresorhus/npm-home) - 打开npm包页面。
     - [npm-name](https://github.com/sindresorhus/npm-name) - 在npm上检查软件包名称的可用性。
+    - [npm-package-arg](https://github.com/npm/npm-package-arg) - 根据npm包名称解析到package.json的内容。
+    - [npm-updater](https://github.com/node-modules/npm-updater) - 检查npm包的更新。
 
 ### 文件系统
 - [chokidar](https://github.com/paulmillr/chokidar) - 最小且高效的跨平台Watch库。
@@ -338,6 +362,7 @@
   - [Sinon.JS](https://github.com/sinonjs/sinon) - 通过间谍函数(spies), 目标函数替换（stubs）和mocks功能提供的Mock库。
   - [easy-mock](https://github.com/easy-mock/easy-mock) - 可视化，并且能快速生成模拟数据的持久化服务。
   - [mm](https://github.com/node-modules/mm) - 简单但灵活的 mock(或者叫stub) 包, mock伴侣。
+  - [smoke](https://github.com/sinedied/smoke) - 具有记录功能的，简单但功能强大的基于文件的Mock服务器。
 
 - 测试框架
   - [jest](https://github.com/facebook/jest) - 愉悦的JavaScript测试。
@@ -362,28 +387,29 @@
 - [getos](https://github.com/retrohacker/getos) - 获取当前操作系统名称，包括Linux的发行版名称。
 - [is-windows](https://github.com/jonschlinkert/is-windows) - 判断当前系统是否为Windows。
 
-### Shell命令
-- [shelljs](https://github.com/shelljs/shelljs) - 跨平台Unix shell命令。
-- [execa](https://github.com/sindresorhus/execa) - 跨平台实现子进程执行 `child_process.{execFile,exec}`。
-- [clipboardy](https://github.com/sindresorhus/clipboardy) - 跨平台的复制/粘贴。
-- [cross-spawn](https://github.com/IndigoUnited/node-cross-spawn) - 跨平台实现 `child_process.spawn()`。
-- [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - 跨平台的复制/粘贴。
-- [gulp-execa](https://github.com/ehmicky/gulp-execa) - 在Gulp中跨平台命令执行。
-
-### 环境变量
-- [cross-env](https://github.com/kentcdodds/cross-env) - 跨平台设置环境变量。
-- [which](https://github.com/npm/node-which) - 跨平台实现的Unix `which`.
-- [user-home](https://github.com/sindresorhus/user-home) - 跨平台获取用户home目录路径。
-- [username](https://github.com/sindresorhus/username) - 获取当前用户名。
-- [osenv](https://github.com/npm/osenv) - 跨平台环境变量。
-- [is-elevated](https://github.com/sindresorhus/is-elevated) - 检查进程是否以提升的权限运行。
-
 ### Email
 - [Nylas Mail](https://github.com/nylas/nylas-mail) - 构建在现代Web技术的高扩展性邮件客户端程序。
 - [Nodemailer](https://github.com/nodemailer/nodemailer) - 使用Node.js轻松发送电子邮件。
 - [Email Templates](https://github.com/forwardemail/email-templates) - 创建、预览和发送自定义电子邮件模板。
 - [emailjs](https://github.com/eleith/emailjs) - 向任何SMTP服务器发送带有附件的文本/HTML电子邮件。
 - [mjml](https://github.com/mjmlio/mjml) - 旨在减少创建响应电子邮件的痛苦的标记语言。
+
+### HTTP
+- [axios](https://github.com/mzabriskie/axios) - 基于Promise 的HTTP客户端（也可以在浏览器中工作）。
+- [request](https://github.com/request/request) - 🏊🏾 简单的 HTTP 请求客户端。
+- [superagent](https://github.com/visionmedia/superagent) - HTTP请求库。
+- [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP代理。
+- [got](https://github.com/sindresorhus/got) - 更好的基于内建“http”模块接口实现。
+- [node-fetch](https://github.com/bitinn/node-fetch) - Node.js的 `window.fetch` 实现。
+- [download](https://github.com/kevva/download) - 轻松下载和提取文件。
+- [urllib](https://github.com/node-modules/urllib) - 在复杂世界中请求HTTP/HTTPS的URL。
+- [gotql](https://github.com/khaosdoctor/gotql) - 基于[got](https://github.com/sindresorhus/got)构建的GraphQL请求库。
+- [wreck](https://github.com/hapijs/wreck) - HTTP 客户端工具。
+- [http-fake-backend](https://github.com/micromata/http-fake-backend) - 通过可配置的路由，提供JSON文件或JavaScript对象来构建伪造的后端。
+- [cacheable-request](https://github.com/lukechilds/cacheable-request) - 使用符合RFC的缓存封装的本机HTTP请求库。
+- [global-agent](https://github.com/gajus/global-agent) - 可以使用环境变量配置的全局 HTTP/HTTPS 代理。
+- [gh-got](https://github.com/sindresorhus/gh-got) - 基于"got"封装，与GitHub API更方便的交互。
+- [flashheart](https://github.com/bbc/flashheart) - REST 客户端。
 
 ### 爬虫
 - [node-crawler](https://github.com/bda-research/node-crawler) - NodeJS Web爬虫 + 服务端jQuery。
