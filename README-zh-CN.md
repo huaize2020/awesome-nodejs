@@ -55,6 +55,7 @@
 
 ### 文本
   - 通用
+    - [dedent](https://github.com/dmnd/dedent) - ES6模板字符串函数，用于去除多行字符串的缩进。
     - [camelcase](https://github.com/sindresorhus/camelcase) - 将破折号/点号/下划线/空格分隔的字符串转换为驼峰式, 案例：foo-bar→fooBar。
     - [detect-indent](https://github.com/sindresorhus/detect-indent) - 检查代码缩进。
     - [string-length](https://github.com/sindresorhus/string-length) - 获取字符串的真实长度 - 通过正确计算星号并忽略ansi转义码。
@@ -164,6 +165,7 @@
 - [yargs](https://github.com/yargs/yargs) - 通用可交互命令行工具集合。
 - [Enquirer](https://github.com/enquirer/enquirer) - 用户友好、直观且易于创建的时尚CLI提示。
 - [minimist](https://github.com/substack/minimist) - 命令行参数解析引擎。
+- [concurrently](https://github.com/kimmobrunfeldt/concurrently) - 并行执行命令，类似 `npm run watch-js & npm run watch-less`但更优。
 - [colors.js](https://github.com/Marak/colors.js) - 获取Node.js控制台的颜色。
 - [progress](https://github.com/visionmedia/node-progress) - Node.js的灵活ascii进度条。
 - [depcheck](https://github.com/depcheck/depcheck) - 检查项目中未使用的依赖。
@@ -194,7 +196,9 @@
     - [npminstall](https://github.com/cnpm/npminstall) - 使 `npm install` 更快更容易。
     - [npm-home](https://github.com/sindresorhus/npm-home) - 打开npm包页面。
     - [npm-name](https://github.com/sindresorhus/npm-name) - 在npm上检查软件包名称的可用性。
+    - [pacote](https://github.com/npm/pacote) - 从npm注册商下载tar压缩文件，并获取包的资源信息。
     - [npm-package-arg](https://github.com/npm/npm-package-arg) - 根据npm包名称解析到package.json的内容。
+    - [npm-registry-fetch](https://github.com/npm/npm-registry-fetch) - 类型fetch()函数，但用于npm仓库。
     - [npm-updater](https://github.com/node-modules/npm-updater) - 检查npm包的更新。
 
 ### 文件系统
@@ -222,6 +226,7 @@
 - [nodegit](https://github.com/nodegit/nodegit) - [libgit2](https://libgit2.org/) 的 Node.js 绑定版本。
 - [simple-git](https://github.com/steveukx/git-js) - 一个轻量级的接口，用于在任何 node.js 应用程序中运行 git 命令。
 - [gitgraph-node](https://github.com/nicoespeon/gitgraph.js/tree/master/packages/gitgraph-node) - 在 Terminal 绘制 git 流程图（支持浏览器、React）。
+- [git-url-parse](https://github.com/IonicaBizau/git-url-parse) - 高级别git解析。
 - [git-promise](https://github.com/piuccio/git-promise) - 简单的封装，可运行任何git命令，并使用promise处理其输出。
 - [remote-git-tags](https://github.com/sindresorhus/remote-git-tags) - 从远程仓库中获取标签。
 - [giturl](https://github.com/repo-utils/giturl) - 将Git链接转化成Web链接。

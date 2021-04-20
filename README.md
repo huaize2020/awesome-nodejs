@@ -49,6 +49,7 @@ English | [简体中文](./README-zh-CN.md)
 
 ### Text
   - Common
+    - [dedent](https://github.com/dmnd/dedent) - ES6 string tag that strips indentation from multi-line strings.
     - [camelcase](https://github.com/sindresorhus/camelcase) - Convert a dash/dot/underscore/space separated string to camelCase: foo-bar → fooBar.
     - [detect-indent](https://github.com/sindresorhus/detect-indent) - Detect the indentation of code.
     - [string-length](https://github.com/sindresorhus/string-length) - Get the real length of a string - by correctly counting astral symbols and ignoring ansi escape codes.
@@ -160,6 +161,7 @@ English | [简体中文](./README-zh-CN.md)
 - [yargs](https://github.com/yargs/yargs) - Collection of common interactive command line user interfaces.
 - [Enquirer](https://github.com/enquirer/enquirer) - Stylish CLI prompts that are user-friendly, intuitive and easy to create.
 - [minimist](https://github.com/substack/minimist) - Guts of optimist's argument parser without all the fanciful decoration.
+- [concurrently](https://github.com/kimmobrunfeldt/concurrently) - Run commands concurrently. Like `npm run watch-js & npm run watch-less` but better.
 - [colors.js](https://github.com/Marak/colors.js) - Get colors in your node.js console.
 - [progress](https://github.com/visionmedia/node-progress) - Flexible ascii progress bar for nodejs.
 - [depcheck](https://github.com/depcheck/depcheck) - Check your npm module for unused dependencies.
@@ -190,7 +192,9 @@ English | [简体中文](./README-zh-CN.md)
     - [npminstall](https://github.com/cnpm/npminstall) - Make `npm install` fast and easy.
     - [npm-home](https://github.com/sindresorhus/npm-home) - Open the npm page of a package.
     - [npm-name](https://github.com/sindresorhus/npm-name) - Check a package name's availability on npm.
+    - [pacote](https://github.com/npm/pacote) - Fetches package manifests and tarballs from the npm registry.
     - [npm-package-arg](https://github.com/npm/npm-package-arg) - Parse the things that can be arguments to `npm install`.
+    - [npm-registry-fetch](https://github.com/npm/npm-registry-fetch) - Like fetch() but for the npm registry
     - [npm-updater](https://github.com/node-modules/npm-updater) - Check update of npm package.
 
 ### Filesystem
@@ -218,6 +222,7 @@ English | [简体中文](./README-zh-CN.md)
 - [nodegit](https://github.com/nodegit/nodegit) - Node bindings to the libgit2 project.
 - [simple-git](https://github.com/steveukx/git-js) - A light weight interface for running git commands in any node.js application.
 - [gitgraph-node](https://github.com/nicoespeon/gitgraph.js/tree/master/packages/gitgraph-node) - Draw pretty git graphs in your terminal.
+- [git-url-parse](https://github.com/IonicaBizau/git-url-parse) - A high level git url parser for common git providers.
 - [git-promise](https://github.com/piuccio/git-promise) - Simple wrapper to run any git command and process it's output using promises.
 - [remote-git-tags](https://github.com/sindresorhus/remote-git-tags) - Get tags from a remote git repo. Using only JS.
 - [giturl](https://github.com/repo-utils/giturl) - Transfer git url to web url.
