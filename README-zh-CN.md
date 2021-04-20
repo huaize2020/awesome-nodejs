@@ -16,6 +16,7 @@
   - [数学运算](#数学运算)
   - [日期 和 时间](#日期-和-时间)
   - [URL](#url)
+  - [类型判断](#类型判断)
   - [数据校验](#数据校验)
   - [Shell命令](#shell命令)
   - [环境变量](#环境变量)
@@ -119,6 +120,13 @@
 - [humanize-url](https://github.com/sindresorhus/humanize-url) - 使URL更可读: http://sindresorhus.com → sindresorhus.com。
 - [parseurl](https://github.com/pillarjs/parseurl) - 使用记忆化方式解析URL.
 - [encodeurl](https://github.com/pillarjs/encodeurl) - 将URL编码为"百分比"形式，不编码已编码部分。
+
+### 类型判断
+- [is-type-of](https://github.com/node-modules/is-type-of) - Node.js完整类型判断。
+- [core-util-is](https://github.com/isaacs/core-util-is) - Node.js核心工具 util.is* 函数。
+- [isstream](https://github.com/rvagg/isstream) - 判断对象是否为流对象。
+- [is-class](https://github.com/miguelmota/is-class) - 判断函数是否为 ES6类(class) 类型。
+- [is-type](https://github.com/juliangruber/is-type) - Node.js核心类型判断。
 
 ### 数据校验
 - [validator.js](https://github.com/validatorjs/validator.js) - 字符串校验库。

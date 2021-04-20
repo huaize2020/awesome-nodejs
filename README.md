@@ -10,6 +10,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Math](#math)
   - [Date & Time](#date--time)
   - [URL](#url)
+  - [Type Checking](#type-checking)
   - [Data validation](#data-validation)
   - [Shell](#shell)
   - [Environment](#environment)
@@ -113,6 +114,13 @@ English | [简体中文](./README-zh-CN.md)
 - [humanize-url](https://github.com/sindresorhus/humanize-url) - Humanize a URL: https://sindresorhus.com → sindresorhus.com.
 - [parseurl](https://github.com/pillarjs/parseurl) - Parse a url with memoization.
 - [encodeurl](https://github.com/pillarjs/encodeurl) - Encode a URL to a percent-encoded form, excluding already-encoded sequences.
+
+### Type Checking
+- [is-type-of](https://github.com/node-modules/is-type-of) - Complete type checking for node.
+- [core-util-is](https://github.com/isaacs/core-util-is) - The util.is* functions from Node core.
+- [isstream](https://github.com/rvagg/isstream) - Determine if an object is a Node.js Stream.
+- [is-class](https://github.com/miguelmota/is-class) - Check if function is an ES6 class.
+- [is-type](https://github.com/juliangruber/is-type) - Type checking from node core.
 
 ### Data validation
 - [validator.js](https://github.com/validatorjs/validator.js) - A library of string validators and sanitizers.
