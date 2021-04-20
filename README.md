@@ -10,6 +10,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Math](#math)
   - [Date & Time](#date--time)
   - [URL](#url)
+  - [JSON](#json)
   - [Type Checking](#type-checking)
   - [Data validation](#data-validation)
   - [Shell](#shell)
@@ -116,6 +117,10 @@ English | [简体中文](./README-zh-CN.md)
 - [parseurl](https://github.com/pillarjs/parseurl) - Parse a url with memoization.
 - [encodeurl](https://github.com/pillarjs/encodeurl) - Encode a URL to a percent-encoded form, excluding already-encoded sequences.
 
+### JSON
+- [jsonfile](https://github.com/jprichardson/node-jsonfile) - Easily read/write JSON files.
+- [load-json-file](https://github.com/sindresorhus/load-json-file) - Read and parse a JSON file.
+
 ### Type Checking
 - [is-type-of](https://github.com/node-modules/is-type-of) - Complete type checking for node.
 - [core-util-is](https://github.com/isaacs/core-util-is) - The util.is* functions from Node core.
@@ -186,6 +191,10 @@ English | [简体中文](./README-zh-CN.md)
     - [nrm](https://github.com/Pana/nrm) - About NPM registry manager, fast switch between different registries: npm, cnpm, nj, taobao.
     - [cnpm](https://github.com/cnpm/cnpm) - Npm client for China mirror of npm.
 
+  - package.json
+    - [read-pkg](https://github.com/sindresorhus/read-pkg) - Read a package.json file.
+    - [write-pkg](https://github.com/sindresorhus/write-pkg) - Write a package.json file.
+
   - Utilities
     - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - Find newer versions of package dependencies than what your package.json allows.
     - [npm-run-all](https://github.com/mysticatea/npm-run-all) - A CLI tool to run multiple npm-scripts in parallel or sequential.
@@ -208,7 +217,6 @@ English | [简体中文](./README-zh-CN.md)
 - [fast-glob](https://github.com/mrmlnc/fast-glob) - Very fast and efficient glob library for Node.js.
 - [del](https://github.com/sindresorhus/del) - Delete files and directories.
 - [graceful-fs](https://github.com/isaacs/node-graceful-fs) - Graceful-fs functions as a drop-in replacement for the fs module, making various improvements.
-- [jsonfile](https://github.com/jprichardson/node-jsonfile) - Easily read/write JSON files.
 - [filesize.js](https://github.com/avoidwork/filesize.js) - Generate a human readable String describing the file size.
 - [make-dir](https://github.com/sindresorhus/make-dir) - Recursively create directories like mkdir -p.
 - [memfs](https://github.com/streamich/memfs) - In-memory filesystem with Node's API.

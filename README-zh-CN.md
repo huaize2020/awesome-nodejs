@@ -16,6 +16,7 @@
   - [数学运算](#数学运算)
   - [日期 和 时间](#日期-和-时间)
   - [URL](#url)
+  - [JSON](#json)
   - [类型判断](#类型判断)
   - [数据校验](#数据校验)
   - [Shell命令](#shell命令)
@@ -122,6 +123,10 @@
 - [parseurl](https://github.com/pillarjs/parseurl) - 使用记忆化方式解析URL.
 - [encodeurl](https://github.com/pillarjs/encodeurl) - 将URL编码为"百分比"形式，不编码已编码部分。
 
+### JSON
+- [jsonfile](https://github.com/jprichardson/node-jsonfile) - 轻松读写JSON文件。
+- [load-json-file](https://github.com/sindresorhus/load-json-file) - 读取并解析JSON文件。
+
 ### 类型判断
 - [is-type-of](https://github.com/node-modules/is-type-of) - Node.js完整类型判断。
 - [core-util-is](https://github.com/isaacs/core-util-is) - Node.js核心工具 util.is* 函数。
@@ -190,6 +195,10 @@
     - [nrm](https://github.com/Pana/nrm) - 快速切换npm注册服务商，如npm、cnpm、nj、taobao。
     - [cnpm](https://github.com/cnpm/cnpm) - NPM中国区镜像客户端。
 
+  - package.json
+    - [read-pkg](https://github.com/sindresorhus/read-pkg) - 读取package.json文件。
+    - [write-pkg](https://github.com/sindresorhus/write-pkg) - 写入package.json文件。
+
   - 工具
     - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - 查找当前package.json依赖允许的更新的版本。
     - [npm-run-all](https://github.com/mysticatea/npm-run-all) - 命令行工具，同时运行多个npm脚本（并行或串行）。
@@ -197,7 +206,7 @@
     - [npm-home](https://github.com/sindresorhus/npm-home) - 打开npm包页面。
     - [npm-name](https://github.com/sindresorhus/npm-name) - 在npm上检查软件包名称的可用性。
     - [pacote](https://github.com/npm/pacote) - 从npm注册商下载tar压缩文件，并获取包的资源信息。
-    - [npm-package-arg](https://github.com/npm/npm-package-arg) - 根据npm包名称解析到package.json的内容。
+    - [npm-package-arg](https://github.com/npm/npm-package-arg) - 根据包名解析信息。
     - [npm-registry-fetch](https://github.com/npm/npm-registry-fetch) - 类型fetch()函数，但用于npm仓库。
     - [npm-updater](https://github.com/node-modules/npm-updater) - 检查npm包的更新。
 
@@ -212,7 +221,6 @@
 - [fast-glob](https://github.com/mrmlnc/fast-glob) - 非常快速且高效的Node.js glob库。
 - [del](https://github.com/sindresorhus/del) - 删除文件/文件夹。
 - [graceful-fs](https://github.com/isaacs/node-graceful-fs) - graceful-fs可以替代fs模块，并做了各种改进。
-- [jsonfile](https://github.com/jprichardson/node-jsonfile) - 轻松读写JSON文件。
 - [filesize.js](https://github.com/avoidwork/filesize.js) - 生成人类可读的文件大小字符串。
 - [make-dir](https://github.com/sindresorhus/make-dir) - 递归创建文件夹，类似 `mkdir -p`。
 - [memfs](https://github.com/streamich/memfs) - Node.js API内存文件系统。
