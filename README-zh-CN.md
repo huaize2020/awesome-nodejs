@@ -121,11 +121,15 @@
 - [url-join](https://github.com/jfromaniello/url-join) - 将所有参数连接在一起，并将结果url规范化。
 - [humanize-url](https://github.com/sindresorhus/humanize-url) - 使URL更可读: http://sindresorhus.com → sindresorhus.com。
 - [parseurl](https://github.com/pillarjs/parseurl) - 使用记忆化方式解析URL.
+- [file-url](https://github.com/sindresorhus/file-url) - 将文件路径转化为文件URL: `unicorn.jpg` → `file:///Users/sindresorhus/unicorn.jpg`
 - [encodeurl](https://github.com/pillarjs/encodeurl) - 将URL编码为"百分比"形式，不编码已编码部分。
 
 ### JSON
+- [json5](https://github.com/json5/json5) - JSON5是对JSON的扩展，其目的是能够更加容易的阅读和编写。
+- [fast-json-stringify](https://github.com/fastify/fast-json-stringify) - 比JSON.stringify()快2倍。
 - [jsonfile](https://github.com/jprichardson/node-jsonfile) - 轻松读写JSON文件。
 - [load-json-file](https://github.com/sindresorhus/load-json-file) - 读取并解析JSON文件。
+- [write-json-file](https://github.com/sindresorhus/write-json-file) - 序列化并写入JSON文件。
 
 ### 类型判断
 - [is-type-of](https://github.com/node-modules/is-type-of) - Node.js完整类型判断。
@@ -198,6 +202,9 @@
   - package.json
     - [read-pkg](https://github.com/sindresorhus/read-pkg) - 读取package.json文件。
     - [write-pkg](https://github.com/sindresorhus/write-pkg) - 写入package.json文件。
+
+  - Semantic Version
+    - [semver](https://github.com/npm/node-semver) - NPM使用的JavaScript语义化版本号解析器。
 
   - 工具
     - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - 查找当前package.json依赖允许的更新的版本。

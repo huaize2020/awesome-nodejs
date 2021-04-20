@@ -115,11 +115,15 @@ English | [简体中文](./README-zh-CN.md)
 - [url-join](https://github.com/jfromaniello/url-join) - Join all arguments together and normalize the resulting url.
 - [humanize-url](https://github.com/sindresorhus/humanize-url) - Humanize a URL: https://sindresorhus.com → sindresorhus.com.
 - [parseurl](https://github.com/pillarjs/parseurl) - Parse a url with memoization.
+- [file-url](https://github.com/sindresorhus/file-url) - Convert a file path to a file URL: `unicorn.jpg` → `file:///Users/sindresorhus/unicorn.jpg`
 - [encodeurl](https://github.com/pillarjs/encodeurl) - Encode a URL to a percent-encoded form, excluding already-encoded sequences.
 
 ### JSON
+- [json5](https://github.com/json5/json5) - JSON5 — JSON for humans.
+- [fast-json-stringify](https://github.com/fastify/fast-json-stringify) - 2x faster than JSON.stringify()
 - [jsonfile](https://github.com/jprichardson/node-jsonfile) - Easily read/write JSON files.
 - [load-json-file](https://github.com/sindresorhus/load-json-file) - Read and parse a JSON file.
+- [write-json-file](https://github.com/sindresorhus/write-json-file) - Stringify and write JSON to a file atomically.
 
 ### Type Checking
 - [is-type-of](https://github.com/node-modules/is-type-of) - Complete type checking for node.
@@ -194,6 +198,9 @@ English | [简体中文](./README-zh-CN.md)
   - package.json
     - [read-pkg](https://github.com/sindresorhus/read-pkg) - Read a package.json file.
     - [write-pkg](https://github.com/sindresorhus/write-pkg) - Write a package.json file.
+
+  - Semantic Version
+    - [semver](https://github.com/npm/node-semver) - The semver parser for node (the one npm uses).
 
   - Utilities
     - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - Find newer versions of package dependencies than what your package.json allows.
