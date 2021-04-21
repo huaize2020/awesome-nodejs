@@ -4,7 +4,7 @@ English | [简体中文](./README-zh-CN.md)
 
 - [Table of contents](#table-of-contents)
 - [Official](#official)
-- [Packages](#packages)
+- [Repository](#repository)
   - [Text](#text)
   - [Number](#number)
   - [Math](#math)
@@ -27,6 +27,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Templating](#templating)
   - [Web Frameworks](#web-frameworks)
   - [Static Site Generator & blogging](#static-site-generator--blogging)
+  - [Real-time](#real-time)
   - [Forum](#forum)
   - [Database](#database)
   - [Automation & RPA](#automation--rpa)
@@ -46,7 +47,7 @@ English | [简体中文](./README-zh-CN.md)
 - [Documentation](https://nodejs.org/dist/latest/docs/api/)
 - [Repository](https://github.com/nodejs/node)
 
-## Packages
+## Repository
 
 ### Text
   - Common
@@ -337,6 +338,21 @@ English | [简体中文](./README-zh-CN.md)
 - [react-static](https://github.com/react-static/react-static) - A progressive static site generator for React.
 - [gridsome](https://github.com/gridsome/gridsome) - The Jamstack framework for Vue.js.
 - [vitepress](https://github.com/vuejs/vitepress) - Vite & Vue powered static site generator.
+
+### Real-time
+- [Socket.io](https://github.com/socketio/socket.io) - Enables real-time bidirectional event-based communication.
+- [ws](https://github.com/websockets/ws) - Simple to use, blazing fast and thoroughly tested WebSocket client and server for Node.js.
+- [µWebSockets](https://github.com/uWebSockets/uWebSockets) - Highly scalable WebSocket server & client library.
+- [MQTT.js](https://github.com/mqttjs/MQTT.js) - Client for MQTT - Pub-sub based messaging protocol for use on top of TCP/IP.
+- [SocketCluster](https://github.com/SocketCluster/socketcluster) - Scalable HTTP + WebSocket engine which can run on multiple CPU cores.
+- [Faye](https://github.com/faye/faye) - Real-time client-server message bus, based on Bayeux protocol.
+- [Primus](https://github.com/primus/primus) - An abstraction layer for real-time frameworks to prevent module lock-in.
+- [engine.io](https://github.com/socketio/engine.io) - The implementation of transport-based cross-browser/cross-device bi-directional communication layer for Socket.IO.
+- [SockJS-node](https://github.com/sockjs/sockjs-node) - WebSocket emulation - Node.js server.
+- [Aedes](https://github.com/mcollina/aedes) - Barebone MQTT server that can run on any stream server.
+- [rpc-websockets](https://github.com/elpheria/rpc-websockets) - JSON-RPC 2.0 implementation over WebSockets.
+- [deepstream.io](https://github.com/deepstreamIO/deepstream.io-client-js) - Scalable real-time microservice framework.
+- [Kalm](https://github.com/kalm/kalm.js) - Low-level socket router and middleware framework.
 
 ### Forum
 - [NodeBB](https://github.com/NodeBB/NodeBB) - Node.js based forum software built for the modern web

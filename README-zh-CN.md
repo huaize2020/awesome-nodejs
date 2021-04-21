@@ -10,7 +10,7 @@
 
 - [目录](#目录)
 - [官方资源](#官方资源)
-- [NPM包](#npm包)
+- [GIT仓库](#git仓库)
   - [文本](#文本)
   - [数字](#数字)
   - [数学运算](#数学运算)
@@ -33,6 +33,7 @@
   - [模板引擎](#模板引擎)
   - [Web框架](#web框架)
   - [静态网站生成 & 博客](#静态网站生成--博客)
+  - [实时通信](#实时通信)
   - [论坛](#论坛)
   - [数据库](#数据库)
   - [自动化 & 机器人流程自动化 - RPA](#自动化--机器人流程自动化---rpa)
@@ -53,7 +54,7 @@
 - [文档](https://nodejs.org/dist/latest/docs/api/)
 - [仓库](https://github.com/nodejs/node)
 
-## NPM包
+## GIT仓库
 
 ### 文本
   - 通用
@@ -344,6 +345,21 @@
 - [react-static](https://github.com/react-static/react-static) - 渐进式的React静态网站生成工具。
 - [gridsome](https://github.com/gridsome/gridsome) - Vue.js静态网站生成工具。
 - [vitepress](https://github.com/vuejs/vitepress) - Vite & Vue.js静态网站生成工具。
+
+### 实时通信
+- [Socket.io](https://github.com/socketio/socket.io) - 实现基于事件的实时双向通信。
+- [ws](https://github.com/websockets/ws) - 简单易用，速度极快，经过全面测试的WebSocket客户端和服务器Node.js通信库。
+- [µWebSockets](https://github.com/uWebSockets/uWebSockets) - 高度可扩展的WebSocket服务器和客户端库。
+- [MQTT.js](https://github.com/mqttjs/MQTT.js) - MQTT客户端-基于Pub-sub的消息协议，用于TCP / IP。
+- [SocketCluster](https://github.com/SocketCluster/socketcluster) -  可扩展的HTTP + WebSocket引擎，可以在多个CPU内核上运行。
+- [Faye](https://github.com/faye/faye) - 基于Bayeux协议的实时客户端-服务器消息总线。
+- [Primus](https://github.com/primus/primus) - 实时框架的抽象层，以防止模块锁定。
+- [engine.io](https://github.com/socketio/engine.io) - 基于传输的跨浏览器/跨设备双向通信层的实现Socket.IO。
+- [SockJS-node](https://github.com/sockjs/sockjs-node) - WebSocket Node.js服务端实现。
+- [Aedes](https://github.com/mcollina/aedes) - 可以在任何流服务器上运行的准系统MQTT服务器。
+- [rpc-websockets](https://github.com/elpheria/rpc-websockets) - 通过WebSocket实现JSON-RPC 2.0。
+- [deepstream.io](https://github.com/deepstreamIO/deepstream.io-client-js) - 可扩展的实时通信微服务框架。
+- [Kalm](https://github.com/kalm/kalm.js) - 低级套接字路由器和中间件框架。
 
 ### 论坛
 - [NodeBB](https://github.com/NodeBB/NodeBB) - 基于Node.js的现代Web论坛。
