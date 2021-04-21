@@ -39,9 +39,9 @@ English | [简体中文](./README-zh-CN.md)
   - [Job Scheduling](#job-scheduling)
   - [AST](#ast)
   - [Machine learning](#machine-learning)
+  - [Natural language processing](#natural-language-processing)
 
 ## Official
-
 - [Website](https://nodejs.org)
 - [Documentation](https://nodejs.org/dist/latest/docs/api/)
 - [Repository](https://github.com/nodejs/node)
@@ -304,8 +304,7 @@ English | [简体中文](./README-zh-CN.md)
 - [Next.js](https://github.com/zeit/next.js) - Minimalistic framework for server-rendered universal JavaScript web apps.
 - [Meteor](https://github.com/meteor/meteor) - An ultra-simple, database-everywhere, data-on-the-wire, pure-Javascript web framework. *(You might like [awesome-meteor](https://github.com/Urigo/awesome-meteor))*
 - [Nuxt.js](https://github.com/nuxt/nuxt.js) - Minimalistic framework for server-rendered Vue.js apps.
-- [Nest](https://github.com/nestjs/nest) - Angular-inspired framework for building efficient and scalable server-side apps.
-*(You might like [awesome-nestjs](https://github.com/juliandavidmr/awesome-nestjs))*
+- [Nest](https://github.com/nestjs/nest) - Angular-inspired framework for building efficient and scalable server-side apps. *(You might like [awesome-nestjs](https://github.com/juliandavidmr/awesome-nestjs))*
 - [Koa](https://github.com/koajs/koa) - Framework designed by the team behind Express, which aims to be a smaller, more expressive, and more robust foundation for web applications and APIs.
 - [sails](https://github.com/balderdashy/sails) - Realtime MVC Framework for Node.js.
 - [Fastify](https://github.com/fastify/fastify) - Fast and low overhead web framework.
@@ -453,6 +452,7 @@ English | [简体中文](./README-zh-CN.md)
 - [Headless Chrome Crawler](https://github.com/yujiosaka/headless-chrome-crawler) - Distributed crawler powered by Headless Chrome.
 
 ### Job Scheduling
+- [node-schedule](https://github.com/node-schedule/node-schedule) - A cron-like and not-cron-like job scheduler for Node.
 - [agenda](https://github.com/agenda/agenda) - Lightweight job scheduling for Node.js.
 - [node-cron](https://github.com/kelektiv/node-cron) - A tool that allows you to execute something on a schedule.
 - [cron-parser](https://github.com/harrisiirak/cron-parser) - Node.js library for parsing crontab instructions.
@@ -473,3 +473,11 @@ English | [简体中文](./README-zh-CN.md)
 - [tfjs](https://github.com/tensorflow/tfjs) - A WebGL accelerated JavaScript library for training and deploying ML models.
 - [brain.js](https://github.com/BrainJS/brain.js) - GPU accelerated Neural networks in JavaScript for Browsers and Node.js.
 - [pipcook](https://github.com/alibaba/pipcook) - Machine learning platform for Web developers.
+
+### Natural language processing
+- [natural](https://github.com/NaturalNode/natural) - Natural language facility.
+- [nlp.js](https://github.com/axa-group/nlp.js) - Building bots, with entity extraction, sentiment analysis, automatic language identify, and more.
+- [franc](https://github.com/wooorm/franc) - Detect the language of text.
+- [sentiment](https://github.com/thisandagain/sentiment) - AFINN-based sentiment analysis for Node.js.
+- [retext](https://github.com/wooorm/retext) - An extensible natural language system.
+- [leven](https://github.com/sindresorhus/leven) - Measure the difference between two strings using the Levenshtein distance algorithm.

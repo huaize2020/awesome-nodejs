@@ -45,6 +45,7 @@
   - [定时任务](#定时任务)
   - [AST](#ast)
   - [机器学习](#机器学习)
+  - [自然语言处理](#自然语言处理)
 
 ## 官方资源
 
@@ -155,8 +156,10 @@
 ### Shell命令
 - [shelljs](https://github.com/shelljs/shelljs) - 跨平台Unix shell命令。
 - [execa](https://github.com/sindresorhus/execa) - 跨平台实现子进程执行 `child_process.{execFile,exec}`。
+- [node-windows](https://github.com/coreybutler/node-windows) - Node.js上支持的Windows脚本。如(daemons, eventlog, UAC, etc)。
 - [clipboardy](https://github.com/sindresorhus/clipboardy) - 跨平台的复制/粘贴。
 - [cross-spawn](https://github.com/IndigoUnited/node-cross-spawn) - 跨平台实现 `child_process.spawn()`。
+- [figures](https://github.com/sindresorhus/figures) - Windows兜底的Unicode符号。
 - [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - 跨平台的复制/粘贴。
 - [gulp-execa](https://github.com/ehmicky/gulp-execa) - 在Gulp中跨平台命令执行。
 
@@ -444,6 +447,7 @@
     - [cacheable-request](https://github.com/lukechilds/cacheable-request) - 使用符合RFC的缓存封装的本机HTTP请求库。
     - [global-agent](https://github.com/gajus/global-agent) - 可以使用环境变量配置的全局 HTTP/HTTPS 代理。
     - [gh-got](https://github.com/sindresorhus/gh-got) - 基于"got"封装，与GitHub API更方便的交互。
+    - [smoke](https://github.com/sinedied/smoke) - 具有记录功能的基于文件的HTTP Mock服务器。
     - [flashheart](https://github.com/bbc/flashheart) - REST 客户端。
 
   - 服务端库
@@ -455,6 +459,7 @@
 - [Headless Chrome Crawler](https://github.com/yujiosaka/headless-chrome-crawler) - 使用Chrome无头浏览器的分布式爬虫。
 
 ### 定时任务
+- [node-schedule](https://github.com/node-schedule/node-schedule) - 类Cron和不类似Cron的Node.js定时任务。
 - [agenda](https://github.com/agenda/agenda) - Node.js轻量级定时任务。
 - [node-cron](https://github.com/kelektiv/node-cron) - 允许执行定时任务的工具。
 - [cron-parser](https://github.com/harrisiirak/cron-parser) - 用于解析crontab指令的Node.js库。
@@ -475,3 +480,11 @@
 - [tfjs](https://github.com/tensorflow/tfjs) - Tensorflow官方提供JS版本。
 - [brain.js](https://github.com/BrainJS/brain.js) - 基于模型训练的神经网络 JS 库，支持浏览器和 Node.js。
 - [pipcook](https://github.com/alibaba/pipcook) - 为Web开发者提供的机器学习平台。
+
+### 自然语言处理
+- [natural](https://github.com/NaturalNode/natural) - 自然语言设施。
+- [nlp.js](https://github.com/axa-group/nlp.js) - 构建机器人，具有实体提取、情感分析、自动语言识别等功能。
+- [franc](https://github.com/wooorm/franc) - 检测文本使用的语言。
+- [sentiment](https://github.com/thisandagain/sentiment) - 基于AFINN的Node.js情感判断库。
+- [retext](https://github.com/wooorm/retext) - 一个可扩展的自然语言系统。
+- [leven](https://github.com/sindresorhus/leven) - 使用Levenshtein距离算法测量两个字符串之间的差异。
