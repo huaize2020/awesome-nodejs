@@ -182,6 +182,7 @@
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - 为不同日志级别添加色彩图标。
 - [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - 在命令行/终端应用中轻松的使用进度条。
 - [common-bin](https://github.com/node-modules/common-bin) - 基于yargs的命令行工具抽象，提供更方便的使用，支持async/generator。
+- [kolorist](https://github.com/marvinhagemeister/kolorist) - 使用输入和输出色彩化的小工具。
 
 ### Node.js管理工具
 - [nvm](https://github.com/nvm-sh/nvm) - Node.js版本管理工具。
@@ -465,6 +466,9 @@
 - [astexplorer](https://github.com/fkling/astexplorer) - 使用多种解析器的AST Web可视化工具。
 - [espree](https://github.com/eslint/espree) - 与Esprima兼容的JavaScript解析器。
 - [csstree](https://github.com/csstree/csstree) - 基于W3C标准和浏览器标准实现，包含快速详细的解析器、遍历器、生成器、词法解析的CSS工具集。
+- [es-module-lexer](https://github.com/guybedford/es-module-lexer) - 低开销的词法分析器，专门用于ES模块快速分析解析。
+- [estree-walker](https://github.com/Rich-Harris/estree-walker) - 用于遍历ESTree兼容树的AST。
+- [periscopic](https://github.com/Rich-Harris/periscopic) - 用于分析符合ESTree的AST的作用域的工具。
 
 ### 机器学习
 - [tfjs](https://github.com/tensorflow/tfjs) - Tensorflow官方提供JS版本。
