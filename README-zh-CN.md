@@ -80,6 +80,7 @@
     - [jschardet](https://github.com/aadsm/jschardet) - JavaScript编码自动识别 (Python版chardet的实现)。
 
   - 正则/通配符匹配
+    - [minimatch](https://github.com/isaacs/minimatch) - 最小匹配工具。
     - [matcher](https://github.com/sindresorhus/matcher) - 简单通配符匹配。
     - [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - 转义特殊正则字符。
     - [execall](https://github.com/sindresorhus/execall) - 在字符串中查找多个RegExp匹配项。

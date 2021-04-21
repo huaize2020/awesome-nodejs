@@ -74,6 +74,7 @@ English | [简体中文](./README-zh-CN.md)
     - [jschardet](https://github.com/aadsm/jschardet) - Character encoding auto-detection in JavaScript (port of python's chardet)
 
   - RegExp/Glob
+    - [minimatch](https://github.com/isaacs/minimatch) - A minimal matching utility.
     - [matcher](https://github.com/sindresorhus/matcher) - Simple wildcard matching.
     - [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - Escape RegExp special characters.
     - [execall](https://github.com/sindresorhus/execall) - Find multiple RegExp matches in a string.
