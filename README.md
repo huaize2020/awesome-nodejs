@@ -413,6 +413,7 @@ English | [简体中文](./README-zh-CN.md)
   - [jest](https://github.com/facebook/jest) - Delightful JavaScript Testing.
   - [mocha](https://github.com/mochajs/mocha) - Simple, flexible, fun javascript test framework for node.js & the browser.
   - [ava](https://github.com/avajs/ava) - Node.js test runner that lets you develop with confidence 🚀.
+  - [jasmine](https://github.com/jasmine/jasmine) - Simple JavaScript testing framework for browsers and node.js.
   - [supertest](https://github.com/visionmedia/supertest) - Super-agent driven library for testing node.js HTTP servers using a fluent API.
 
 ### Office

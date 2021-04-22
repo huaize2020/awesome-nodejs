@@ -420,6 +420,7 @@
   - [jest](https://github.com/facebook/jest) - 愉悦的JavaScript测试。
   - [mocha](https://github.com/mochajs/mocha) - 简单、灵活、有趣的功能丰富的Node.js和浏览器测试框架。
   - [ava](https://github.com/avajs/ava) - 面向未来的测试运行程序。
+  - [jasmine](https://github.com/jasmine/jasmine) - 简单的Node.js和浏览器测试框架。
   - [supertest](https://github.com/visionmedia/supertest) - 使用流畅的API，基于Super-agent库测试Node.js HTTP服务器。
 
 ### 办公软件
