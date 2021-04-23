@@ -130,6 +130,7 @@ English | [简体中文](./README-zh-CN.md)
 - [write-json-file](https://github.com/sindresorhus/write-json-file) - Stringify and write JSON to a file atomically.
 
 ### Type Checking
+- [is](https://github.com/enricomarino/is) - The definitive JavaScript type testing library.
 - [is-type-of](https://github.com/node-modules/is-type-of) - Complete type checking for node.
 - [core-util-is](https://github.com/isaacs/core-util-is) - The util.is* functions from Node core.
 - [isstream](https://github.com/rvagg/isstream) - Determine if an object is a Node.js Stream.
@@ -447,15 +448,22 @@ English | [简体中文](./README-zh-CN.md)
   - [supertest](https://github.com/visionmedia/supertest) - Super-agent driven library for testing node.js HTTP servers using a fluent API.
 
 ### Office
-- [sheetjs](https://github.com/SheetJS/sheetjs) - Spreadsheet Data Toolkit.
-- [nodeppt](https://github.com/ksky521/nodeppt) - This is probably the best web presentation tool so far!
-- [PDFKit](https://github.com/foliojs/pdfkit) - JavaScript PDF generation library for Node and the browser.
-- [exceljs](https://github.com/exceljs/exceljs) - Excel Workbook Manager.
-- [officegen](https://github.com/Ziv-Barber/officegen) - Standalone Office Open XML files (Microsoft Office 2007 and later) generator for Word (docx), PowerPoint (pptx) and Excell (xlsx) in javascript. The output is a stream.
-- [Mammoth](https://github.com/mwilliamson/mammoth.js) - Convert Word documents (.docx files) to HTML.
-- [docx](https://github.com/dolanmiu/docx) - Easily generate .docx files with JS/TS with a nice declarative API. Works for Node and on the Browser.
-- [pdf2json](https://github.com/modesty/pdf2json) - A PDF file parser that converts PDF binaries to text based JSON.
-- [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) - Excel XLSX parser/generator written in JavaScript with Node.js and browser support.
+  - Excel
+    - [sheetjs](https://github.com/SheetJS/sheetjs) - Spreadsheet Data Toolkit.
+    - [exceljs](https://github.com/exceljs/exceljs) - Excel Workbook Manager.
+    - [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) - Excel XLSX parser/generator written in JavaScript with Node.js and browser support.
+
+  - Word
+    - [officegen](https://github.com/Ziv-Barber/officegen) - Standalone Office Open XML files (Microsoft Office 2007 and later) generator for Word (docx), PowerPoint (pptx) and Excell (xlsx) in javascript. The output is a stream.
+    - [Mammoth](https://github.com/mwilliamson/mammoth.js) - Convert Word documents (.docx files) to HTML.
+    - [docx](https://github.com/dolanmiu/docx) - Easily generate .docx files with JS/TS with a nice declarative API. Works for Node and on the Browser.
+
+  - PDF
+    - [PDFKit](https://github.com/foliojs/pdfkit) - JavaScript PDF generation library for Node and the browser.
+    - [pdf2json](https://github.com/modesty/pdf2json) - A PDF file parser that converts PDF binaries to text based JSON.
+
+  - PPT
+    - [nodeppt](https://github.com/ksky521/nodeppt) - This is probably the best web presentation tool so far!
 
 ### OS Identification
 - [systeminformation](https://github.com/sebhildebrandt/systeminformation) - Hardware/software system information.

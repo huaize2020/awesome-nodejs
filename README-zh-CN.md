@@ -137,6 +137,7 @@
 - [write-json-file](https://github.com/sindresorhus/write-json-file) - 序列化并写入JSON文件。
 
 ### 类型判断
+- [is](https://github.com/enricomarino/is) - JavaScript类型测试库。
 - [is-type-of](https://github.com/node-modules/is-type-of) - Node.js完整类型判断。
 - [core-util-is](https://github.com/isaacs/core-util-is) - Node.js核心工具 util.is* 函数。
 - [isstream](https://github.com/rvagg/isstream) - 判断对象是否为流对象。
@@ -454,15 +455,22 @@
   - [supertest](https://github.com/visionmedia/supertest) - 使用流畅的API，基于Super-agent库测试Node.js HTTP服务器。
 
 ### 办公软件
-- [sheetjs](https://github.com/SheetJS/sheetjs) - 电子表格数据工具箱。
-- [nodeppt](https://github.com/ksky521/nodeppt) - Web端展示端PPT工具。
-- [PDFKit](https://github.com/foliojs/pdfkit) - 在Node.js和浏览器中生成PDF的库。
-- [exceljs](https://github.com/exceljs/exceljs) - Excel工作表管理工具。
-- [officegen](https://github.com/Ziv-Barber/officegen) - 使用Javascript，生成可打开Word（docx）、PowerPoint（pptx）和Excel（xlsx）的XML文件（需Microsoft Office 2007及更高版本），输出是一个stream。
-- [Mammoth](https://github.com/mwilliamson/mammoth.js) - 将Word文档(.docx文件)转化为HTML。
-- [docx](https://github.com/dolanmiu/docx) - 通过良好定义的API,在NodeJS和浏览器中，使用JS/TS轻松的生成docx文件。
-- [pdf2json](https://github.com/modesty/pdf2json) - PDF文件解析器，它将PDF二进制文件转换为基于文本的JSON。
-- [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) - Excel XLSX生成和解析工具，可运行在Node和浏览器。
+  - Excel
+    - [sheetjs](https://github.com/SheetJS/sheetjs) - 电子表格数据工具箱。
+    - [exceljs](https://github.com/exceljs/exceljs) - Excel工作表管理工具。
+    - [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) - Excel XLSX生成和解析工具，可运行在Node和浏览器。
+
+  - Word
+    - [officegen](https://github.com/Ziv-Barber/officegen) - 使用Javascript，生成可打开Word（docx）、PowerPoint（pptx）和Excel（xlsx）的XML文件（需Microsoft Office 2007及更高版本），输出是一个stream。
+    - [Mammoth](https://github.com/mwilliamson/mammoth.js) - 将Word文档(.docx文件)转化为HTML。
+    - [docx](https://github.com/dolanmiu/docx) - 通过良好定义的API,在NodeJS和浏览器中，使用JS/TS轻松的生成docx文件。
+
+  - PDF
+    - [PDFKit](https://github.com/foliojs/pdfkit) - 在Node.js和浏览器中生成PDF的库。
+    - [pdf2json](https://github.com/modesty/pdf2json) - PDF文件解析器，它将PDF二进制文件转换为基于文本的JSON。
+
+  - PPT
+    - [nodeppt](https://github.com/ksky521/nodeppt) - Web端展示端PPT工具。
 
 ### 操作系统识别
 - [systeminformation](https://github.com/sebhildebrandt/systeminformation) - 获取硬件和软件系统信息。
