@@ -298,7 +298,8 @@ English | [简体中文](./README-zh-CN.md)
 - [EJS](https://github.com/mde/ejs) - Simple unopinionated templating language.
 - [doT](https://github.com/olado/doT) - Fastest + concise javascript template engine for nodejs and browsers. Partials, custom delimiters and more.
 - [Twig.js](https://github.com/twigjs/twig.js) - JS implementation of the Twig Templating Language.
-- [hbs](https://github.com/pillarjs/hbs) - Express view engine wrapper for Handlebars
+- [hbs](https://github.com/pillarjs/hbs) - Express view engine wrapper for Handlebars.
+- [xtemplate](https://github.com/xtemplate/xtemplate) - High Speed, eXtensible Template Engine lib on browser and nodejs. support async control, inheritance, include, logic expression, custom function and more.
 
 ### Web Frameworks
 - [Express](https://github.com/expressjs/express) - Web application framework, providing a robust set of features for building single and multi-page, and hybrid web applications.

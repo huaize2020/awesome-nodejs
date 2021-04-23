@@ -305,7 +305,8 @@
 - [EJS](https://github.com/mde/ejs) - 超级简单的模板语言。
 - [doT](https://github.com/olado/doT) - 最快简洁的JavaScript模板引擎。
 - [Twig.js](https://github.com/twigjs/twig.js) - Twig模板语言的JavaScript实现。
-- [hbs](https://github.com/pillarjs/hbs) - Handlebars的Expresss版本封装。
+- [hbs](https://github.com/pillarjs/hbs) - Handlebars的Express版本封装。
+- [xtemplate](https://github.com/xtemplate/xtemplate) - 用于浏览器和Node.js上的高速，可扩展模板引擎库。支持异步控制，继承，包含，逻辑表达式，自定义函数等。
 
 ### Web框架
 - [Express](https://github.com/expressjs/express) - Web应用程序框架，为构建单页和多页以及混合Web应用程序提供了一组强大的功能。
