@@ -178,12 +178,14 @@
 - [chalk](https://github.com/chalk/chalk) - 命令行字符串样式美化工具。
 - [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - 通用可交互命令行工具集合。
 - [yargs](https://github.com/yargs/yargs) - 通用可交互命令行工具集合。
+- [ora](https://github.com/sindresorhus/ora) - 优雅的命令行loading效果。
 - [Enquirer](https://github.com/enquirer/enquirer) - 用户友好、直观且易于创建的时尚CLI提示。
 - [minimist](https://github.com/substack/minimist) - 命令行参数解析引擎。
 - [concurrently](https://github.com/kimmobrunfeldt/concurrently) - 并行执行命令，类似 `npm run watch-js & npm run watch-less`但更优。
 - [colors.js](https://github.com/Marak/colors.js) - 获取Node.js控制台的颜色。
 - [progress](https://github.com/visionmedia/node-progress) - Node.js的灵活ascii进度条。
 - [depcheck](https://github.com/depcheck/depcheck) - 检查项目中未使用的依赖。
+- [progress-estimator](https://github.com/bvaughn/progress-estimator) - 记录进度条并估计完成承诺所需的时间。
 - [cac](https://github.com/cacjs/cac) - 用于构建命令行应用的强大框架。
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - 为不同日志级别添加色彩图标。
 - [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - 在命令行/终端应用中轻松的使用进度条。
@@ -225,24 +227,30 @@
     - [npm-updater](https://github.com/node-modules/npm-updater) - 检查npm包的更新。
 
 ### 文件系统
-- [chokidar](https://github.com/paulmillr/chokidar) - 最小且高效的跨平台Watch库。
-- [fs-extra](https://github.com/jprichardson/node-fs-extra) - 为 `fs` 模块提供额外方法。
-- [glob](https://github.com/isaacs/node-glob) - Node.js版glob功能。
-- [ora](https://github.com/sindresorhus/ora) - 优雅的命令行loading效果。
-- [rimraf](https://github.com/isaacs/rimraf) - 递归删除文件，类似 `rm -rf`。
-- [progress-estimator](https://github.com/bvaughn/progress-estimator) - 记录进度条并估计完成承诺所需的时间。
-- [globby](https://github.com/sindresorhus/globby) - 基于fast-glob，但添加了很多有用的特性。
-- [fast-glob](https://github.com/mrmlnc/fast-glob) - 非常快速且高效的Node.js glob库。
-- [del](https://github.com/sindresorhus/del) - 删除文件/文件夹。
-- [graceful-fs](https://github.com/isaacs/node-graceful-fs) - graceful-fs可以替代fs模块，并做了各种改进。
-- [filesize.js](https://github.com/avoidwork/filesize.js) - 生成人类可读的文件大小字符串。
-- [make-dir](https://github.com/sindresorhus/make-dir) - 递归创建文件夹，类似 `mkdir -p`。
-- [memfs](https://github.com/streamich/memfs) - Node.js API内存文件系统。
-- [temp](https://github.com/bruce/node-temp) - Node.js临时文件、文件夹、流。
-- [watchpack](https://github.com/webpack/watchpack) - Watch文件和文件夹。
-- [tar-fs](https://github.com/mafintosh/tar-fs) - tar-fs允许您将目录打包到tar格式压缩包中，并将tar格式压缩包提取到目录中。
-- [cpy](https://github.com/sindresorhus/cpy) - 文件拷贝。
-- [mkdirp](https://github.com/isaacs/node-mkdirp) - 递归创建文件夹，类似 `mkdir -p`.
+  - 通用
+    - [fs-extra](https://github.com/jprichardson/node-fs-extra) - 为 `fs` 模块提供额外方法。
+    - [rimraf](https://github.com/isaacs/rimraf) - 递归删除文件，类似 `rm -rf`。
+    - [del](https://github.com/sindresorhus/del) - 删除文件/文件夹。
+    - [graceful-fs](https://github.com/isaacs/node-graceful-fs) - graceful-fs可以替代fs模块，并做了各种改进。
+    - [filesize.js](https://github.com/avoidwork/filesize.js) - 生成人类可读的文件大小字符串。
+    - [make-dir](https://github.com/sindresorhus/make-dir) - 递归创建文件夹，类似 `mkdir -p`。
+    - [memfs](https://github.com/streamich/memfs) - Node.js API内存文件系统。
+    - [temp](https://github.com/bruce/node-temp) - Node.js临时文件、文件夹、流。
+    - [cpy](https://github.com/sindresorhus/cpy) - 文件拷贝。
+    - [mkdirp](https://github.com/isaacs/node-mkdirp) - 递归创建文件夹，类似 `mkdir -p`。
+
+  - 监控
+    - [chokidar](https://github.com/paulmillr/chokidar) - 最小且高效的跨平台Watch库。
+    - [watchpack](https://github.com/webpack/watchpack) - Watch文件和文件夹。
+
+  - 遍历查找
+    - [glob](https://github.com/isaacs/node-glob) - Node.js版glob功能。
+    - [globby](https://github.com/sindresorhus/globby) - 基于fast-glob，但添加了很多有用的特性。
+    - [fast-glob](https://github.com/mrmlnc/fast-glob) - 非常快速且高效的Node.js glob库。
+
+  - 压缩和解压
+    - [tar-fs](https://github.com/mafintosh/tar-fs) - tar-fs允许您将目录打包到tar格式压缩包中，并将tar格式压缩包提取到目录中。
+    - [7zip](https://github.com/fritx/win-7zip) - Windows包压缩/解压 - 7zip。
 
 ### Git
 - [nodegit](https://github.com/nodegit/nodegit) - [libgit2](https://libgit2.org/) 的 Node.js 绑定版本。

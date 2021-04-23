@@ -171,12 +171,14 @@ English | [简体中文](./README-zh-CN.md)
 - [chalk](https://github.com/chalk/chalk) - Terminal string styling done right.
 - [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - Collection of common interactive command line user interfaces.
 - [yargs](https://github.com/yargs/yargs) - Collection of common interactive command line user interfaces.
+- [ora](https://github.com/sindresorhus/ora) - Elegant terminal spinner.
 - [Enquirer](https://github.com/enquirer/enquirer) - Stylish CLI prompts that are user-friendly, intuitive and easy to create.
 - [minimist](https://github.com/substack/minimist) - Guts of optimist's argument parser without all the fanciful decoration.
 - [concurrently](https://github.com/kimmobrunfeldt/concurrently) - Run commands concurrently. Like `npm run watch-js & npm run watch-less` but better.
 - [colors.js](https://github.com/Marak/colors.js) - Get colors in your node.js console.
 - [progress](https://github.com/visionmedia/node-progress) - Flexible ascii progress bar for nodejs.
 - [depcheck](https://github.com/depcheck/depcheck) - Check your npm module for unused dependencies.
+- [progress-estimator](https://github.com/bvaughn/progress-estimator) - Logs a progress bar and estimation for how long a Promise will take to complete.
 - [cac](https://github.com/cacjs/cac) - Simple yet powerful framework for building command-line apps.
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - Colored symbols for various log levels.
 - [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - Easy to use progress-bar for command-line/terminal applications.
@@ -218,24 +220,30 @@ English | [简体中文](./README-zh-CN.md)
     - [npm-updater](https://github.com/node-modules/npm-updater) - Check update of npm package.
 
 ### Filesystem
-- [chokidar](https://github.com/paulmillr/chokidar) - Minimal and efficient cross-platform file watching library.
-- [fs-extra](https://github.com/jprichardson/node-fs-extra) - Extra methods for the `fs` module.
-- [glob](https://github.com/isaacs/node-glob) - Glob functionality for node.js.
-- [ora](https://github.com/sindresorhus/ora) - Elegant terminal spinner.
-- [rimraf](https://github.com/isaacs/rimraf) - Recursively delete files like rm -rf.
-- [progress-estimator](https://github.com/bvaughn/progress-estimator) - Logs a progress bar and estimation for how long a Promise will take to complete.
-- [globby](https://github.com/sindresorhus/globby) - Based on fast-glob but adds a bunch of useful features.
-- [fast-glob](https://github.com/mrmlnc/fast-glob) - Very fast and efficient glob library for Node.js.
-- [del](https://github.com/sindresorhus/del) - Delete files and directories.
-- [graceful-fs](https://github.com/isaacs/node-graceful-fs) - Graceful-fs functions as a drop-in replacement for the fs module, making various improvements.
-- [filesize.js](https://github.com/avoidwork/filesize.js) - Generate a human readable String describing the file size.
-- [make-dir](https://github.com/sindresorhus/make-dir) - Recursively create directories like mkdir -p.
-- [memfs](https://github.com/streamich/memfs) - In-memory filesystem with Node's API.
-- [temp](https://github.com/bruce/node-temp) - Temporary File, Directory, and Stream support for Node.js.
-- [watchpack](https://github.com/webpack/watchpack) - Wrapper library for directory and file watching.
-- [tar-fs](https://github.com/mafintosh/tar-fs) - Tar-fs allows you to pack directories into tarballs and extract tarballs into directories.
-- [cpy](https://github.com/sindresorhus/cpy) - Copy files.
-- [mkdirp](https://github.com/isaacs/node-mkdirp) - Recursively mkdir, like `mkdir -p`.
+  - Common
+    - [fs-extra](https://github.com/jprichardson/node-fs-extra) - Extra methods for the `fs` module.
+    - [rimraf](https://github.com/isaacs/rimraf) - Recursively delete files like rm -rf.
+    - [del](https://github.com/sindresorhus/del) - Delete files and directories.
+    - [graceful-fs](https://github.com/isaacs/node-graceful-fs) - Graceful-fs functions as a drop-in replacement for the fs module, making various improvements.
+    - [filesize.js](https://github.com/avoidwork/filesize.js) - Generate a human readable String describing the file size.
+    - [make-dir](https://github.com/sindresorhus/make-dir) - Recursively create directories like mkdir -p.
+    - [memfs](https://github.com/streamich/memfs) - In-memory filesystem with Node's API.
+    - [temp](https://github.com/bruce/node-temp) - Temporary File, Directory, and Stream support for Node.js.
+    - [cpy](https://github.com/sindresorhus/cpy) - Copy files.
+    - [mkdirp](https://github.com/isaacs/node-mkdirp) - Recursively mkdir, like `mkdir -p`.
+
+  - Watch
+    - [chokidar](https://github.com/paulmillr/chokidar) - Minimal and efficient cross-platform file watching library.
+    - [watchpack](https://github.com/webpack/watchpack) - Wrapper library for directory and file watching.
+
+  - Glob
+    - [glob](https://github.com/isaacs/node-glob) - Glob functionality for node.js.
+    - [globby](https://github.com/sindresorhus/globby) - Based on fast-glob but adds a bunch of useful features.
+    - [fast-glob](https://github.com/mrmlnc/fast-glob) - Very fast and efficient glob library for Node.js.
+
+  - Compression / Decompression
+    - [tar-fs](https://github.com/mafintosh/tar-fs) - Tar-fs allows you to pack directories into tarballs and extract tarballs into directories.
+    - [7zip](https://github.com/fritx/win-7zip) - 7zip Windows Package via Node.js
 
 ### Git
 - [nodegit](https://github.com/nodegit/nodegit) - Node bindings to the libgit2 project.
