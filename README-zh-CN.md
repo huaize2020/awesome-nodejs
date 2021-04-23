@@ -46,6 +46,7 @@
   - [爬虫](#爬虫)
   - [定时任务](#定时任务)
   - [AST](#ast)
+  - [沙箱](#沙箱)
   - [机器学习](#机器学习)
   - [自然语言处理](#自然语言处理)
 
@@ -522,6 +523,10 @@
 - [es-module-lexer](https://github.com/guybedford/es-module-lexer) - 低开销的词法分析器，专门用于ES模块快速分析解析。
 - [estree-walker](https://github.com/Rich-Harris/estree-walker) - 用于遍历ESTree兼容树的AST。
 - [periscopic](https://github.com/Rich-Harris/periscopic) - 用于分析符合ESTree的AST的作用域的工具。
+
+### 沙箱
+- [vm2](https://github.com/patriksimek/vm2) - Node.js高级虚拟机/沙箱。
+- [sandbox](https://github.com/gf3/sandbox) - 用于Node.js漂亮的JavaScript沙箱。
 
 ### 机器学习
 - [tfjs](https://github.com/tensorflow/tfjs) - Tensorflow官方提供JS版本。

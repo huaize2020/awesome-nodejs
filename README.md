@@ -40,6 +40,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Crawler](#crawler)
   - [Job Scheduling](#job-scheduling)
   - [AST](#ast)
+  - [Sandbox](#sandbox)
   - [Machine learning](#machine-learning)
   - [Natural language processing](#natural-language-processing)
 
@@ -515,6 +516,10 @@ English | [简体中文](./README-zh-CN.md)
 - [es-module-lexer](https://github.com/guybedford/es-module-lexer) - Low-overhead lexer dedicated to ES module parsing for fast analysis.
 - [estree-walker](https://github.com/Rich-Harris/estree-walker) - Traverse an ESTree-compliant AST.
 - [periscopic](https://github.com/Rich-Harris/periscopic) - Utility for analyzing scopes belonging to an ESTree-compliant AST.
+
+### Sandbox
+- [vm2](https://github.com/patriksimek/vm2) - Advanced vm/sandbox for Node.js.
+- [sandbox](https://github.com/gf3/sandbox) - A nifty javascript sandbox for node.js.
 
 ### Machine learning
 - [tfjs](https://github.com/tensorflow/tfjs) - A WebGL accelerated JavaScript library for training and deploying ML models.
