@@ -34,6 +34,7 @@
   - [Web框架](#web框架)
   - [静态网站生成 & 博客](#静态网站生成--博客)
   - [实时通信](#实时通信)
+  - [调试和剖析](#调试和剖析)
   - [论坛](#论坛)
   - [数据库](#数据库)
   - [自动化 & 机器人流程自动化 - RPA](#自动化--机器人流程自动化---rpa)
@@ -261,7 +262,8 @@
 - [consola](https://github.com/nuxt/consola) - 优雅的Node.js和浏览器日志记录库。
 - [storyboard](https://github.com/guigrpa/storyboard) - 一个Chrome浏览器插件，用于查看日志。
 - [cabin](https://github.com/cabinjs/cabin) - 提供日志服务和NPM包。
-- [captains-log](https://www.npmjs.com/package/captains-log) - 通过简单的配置就可以使用的轻量日志记录库。
+- [fancy-log](https://github.com/gulpjs/fancy-log) - 带上时间前缀的日志记录库。
+- [captains-log](https://github.com/balderdashy/captains-log) - 通过简单的配置就可以使用的轻量日志记录库。
 
 ### 进程管理
 - [PM2](https://github.com/Unitech/pm2) - 高级进程管理工具。
@@ -361,6 +363,24 @@
 - [rpc-websockets](https://github.com/elpheria/rpc-websockets) - 通过WebSocket实现JSON-RPC 2.0。
 - [deepstream.io](https://github.com/deepstreamIO/deepstream.io-client-js) - 可扩展的实时通信微服务框架。
 - [Kalm](https://github.com/kalm/kalm.js) - 低级套接字路由器和中间件框架。
+
+### 调试和剖析
+- [node-inspector](https://github.com/node-inspector/node-inspector) - 基于Blink开发者工具的调试器。
+- [ndb](https://github.com/GoogleChromeLabs/ndb) - Chrome DevTools调试体验改进工具。
+- [debug](https://github.com/visionmedia/debug) - 轻量调试工具。
+- [ironNode](https://github.com/s-a/iron-node) - 支持ES2015的Node.js开箱即用的调试器。
+- [0x](https://github.com/davidmarkclements/0x) - 火焰图分析。
+- [leakage](https://github.com/andywer/leakage) - 内存写入泄漏测试。
+- [why-is-node-running](https://github.com/mafintosh/why-is-node-running) - 当不明Node原因继续运行时，使用的分析工具。
+- [llnode](https://github.com/nodejs/llnode) - 事后分析工具，使您可以检查对象并从崩溃的Node.js进程中获取信息。
+- [swagger-stats](https://github.com/slanatech/swagger-stats) - 跟踪API调用并监视API性能，运行状况和使用情况指标。
+- [njsTrace](https://github.com/valyouw/njstrace) - 跟踪API调用并监视API性能，运行状况和使用情况指标。
+- [locus](https://github.com/alidavut/locus) - 检测并跟踪代码，查看所有函数调用、参数、返回值以及在每个函数中花费的时间。
+- [stackman](https://github.com/watson/stackman) - 使用代码摘录和其他优点增强错误堆栈跟踪。
+- [NiM](https://github.com/june07/nim) - 管理DevTools调试工具流。
+- [thetool](https://github.com/sfninja/thetool) - 以Chrome DevTools友好格式为您的应用捕获不同的CPU，内存和其他配置文件。
+- [ctrace](https://github.com/automation-stack/ctrace) - 格式正确且经过改进的跟踪系统调用和信号。
+- [vstream](https://github.com/joyent/node-vstream) - 可检测的流混入以检查流的管道。
 
 ### 论坛
 - [NodeBB](https://github.com/NodeBB/NodeBB) - 基于Node.js的现代Web论坛。
