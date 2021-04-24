@@ -12,10 +12,10 @@ English | [简体中文](./README-zh-CN.md)
   - [URL](#url)
   - [JSON](#json)
   - [Type Checking](#type-checking)
-  - [Data validation](#data-validation)
+  - [Data Validation](#data-validation)
   - [Shell](#shell)
   - [Environment](#environment)
-  - [Command-line utilities](#command-line-utilities)
+  - [Command-line Utilities](#command-line-utilities)
   - [Node.js Management](#nodejs-management)
   - [NPM](#npm)
   - [Filesystem](#filesystem)
@@ -23,10 +23,10 @@ English | [简体中文](./README-zh-CN.md)
   - [Logging](#logging)
   - [Process management](#process-management)
   - [Linter & Formatter](#linter--formatter)
-  - [Build tools](#build-tools)
+  - [Build Tools](#build-tools)
   - [Templating](#templating)
   - [Web Frameworks](#web-frameworks)
-  - [Static Site Generator & blogging](#static-site-generator--blogging)
+  - [Static Site Generator & Blogging](#static-site-generator--blogging)
   - [Real-time](#real-time)
   - [Debugging / Profiling](#debugging--profiling)
   - [Forum](#forum)
@@ -52,41 +52,43 @@ English | [简体中文](./README-zh-CN.md)
 ## Repository
 
 ### Text
-  - Common
-    - [dedent](https://github.com/dmnd/dedent) - ES6 string tag that strips indentation from multi-line strings.
-    - [camelcase](https://github.com/sindresorhus/camelcase) - Convert a dash/dot/underscore/space separated string to camelCase: foo-bar → fooBar.
-    - [detect-indent](https://github.com/sindresorhus/detect-indent) - Detect the indentation of code.
-    - [string-length](https://github.com/sindresorhus/string-length) - Get the real length of a string - by correctly counting astral symbols and ignoring ansi escape codes.
-    - [strip-indent](https://github.com/sindresorhus/strip-indent) - Strip leading whitespace from every line in a string.
-    - [indent-string](https://github.com/sindresorhus/indent-string) - Indent each line in a string.
-    - [min-indent](https://github.com/jamiebuilds/min-indent) - Get the shortest leading whitespace from lines in a string.
-    - [splice-string](https://github.com/sindresorhus/splice-string) - Remove or replace part of a string like `Array#splice`.
 
-  - i18n
-    - [i18next](https://github.com/i18next/i18next) - Internationalization framework.
-    - [i18n-node](https://github.com/mashpie/i18n-node) - Simple translation module with dynamic JSON storage.
-    - [babelfish](https://github.com/nodeca/babelfish) - human friendly i18n for javascript (node.js + browser).
+- Common
+  - [dedent](https://github.com/dmnd/dedent) - ES6 string tag that strips indentation from multi-line strings.
+  - [camelcase](https://github.com/sindresorhus/camelcase) - Convert a dash/dot/underscore/space separated string to camelCase: foo-bar → fooBar.
+  - [detect-indent](https://github.com/sindresorhus/detect-indent) - Detect the indentation of code.
+  - [string-length](https://github.com/sindresorhus/string-length) - Get the real length of a string - by correctly counting astral symbols and ignoring ansi escape codes.
+  - [strip-indent](https://github.com/sindresorhus/strip-indent) - Strip leading whitespace from every line in a string.
+  - [indent-string](https://github.com/sindresorhus/indent-string) - Indent each line in a string.
+  - [min-indent](https://github.com/jamiebuilds/min-indent) - Get the shortest leading whitespace from lines in a string.
+  - [splice-string](https://github.com/sindresorhus/splice-string) - Remove or replace part of a string like `Array#splice`.
 
-  - Unique Id
-    - [nanoid](https://github.com/ai/nanoid) - Tiny, secure, URL-friendly, unique string ID generator.
-    - [uuid](https://github.com/uuidjs/uuid) - Generate RFC-compliant UUIDs in JavaScript.
+- i18n
+  - [i18next](https://github.com/i18next/i18next) - Internationalization framework.
+  - [i18n-node](https://github.com/mashpie/i18n-node) - Simple translation module with dynamic JSON storage.
+  - [babelfish](https://github.com/nodeca/babelfish) - human friendly i18n for javascript (node.js + browser).
 
-  - Encode/Decode
-    - [he](https://github.com/mathiasbynens/he) - HTML entity encoder/decoder.
-    - [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - Convert character encodings.
-    - [jschardet](https://github.com/aadsm/jschardet) - Character encoding auto-detection in JavaScript (port of python's chardet)
+- Unique Id
+  - [nanoid](https://github.com/ai/nanoid) - Tiny, secure, URL-friendly, unique string ID generator.
+  - [uuid](https://github.com/uuidjs/uuid) - Generate RFC-compliant UUIDs in JavaScript.
 
-  - RegExp/Glob
-    - [minimatch](https://github.com/isaacs/minimatch) - A minimal matching utility.
-    - [matcher](https://github.com/sindresorhus/matcher) - Simple wildcard matching.
-    - [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - Escape RegExp special characters.
-    - [execall](https://github.com/sindresorhus/execall) - Find multiple RegExp matches in a string.
+- Encode/Decode
+  - [he](https://github.com/mathiasbynens/he) - HTML entity encoder/decoder.
+  - [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - Convert character encodings.
+  - [jschardet](https://github.com/aadsm/jschardet) - Character encoding auto-detection in JavaScript (port of python's chardet)
 
-  - Other
-    - [StegCloak](https://github.com/kurolabs/stegcloak) - Conceal secrets within strings, in plain sight.
-    - [unhomoglyph](https://github.com/nodeca/unhomoglyph) - Normalize visually similar unicode characters.
+- RegExp/Glob
+  - [minimatch](https://github.com/isaacs/minimatch) - A minimal matching utility.
+  - [matcher](https://github.com/sindresorhus/matcher) - Simple wildcard matching.
+  - [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - Escape RegExp special characters.
+  - [execall](https://github.com/sindresorhus/execall) - Find multiple RegExp matches in a string.
+
+- Other
+  - [StegCloak](https://github.com/kurolabs/stegcloak) - Conceal secrets within strings, in plain sight.
+  - [unhomoglyph](https://github.com/nodeca/unhomoglyph) - Normalize visually similar unicode characters.
 
 ### Number
+
 - [Numeral.js](https://github.com/adamwdraper/Numeral-js) - A javascript library for formatting and manipulating numbers.
 - [decimal.js](https://github.com/MikeMcl/decimal.js) - An arbitrary-precision Decimal type for JavaScript.
 - [round-to](https://github.com/sindresorhus/round-to) - Round a number to a specific number of decimal places: `1.234` → `1.2`.
@@ -95,12 +97,14 @@ English | [简体中文](./README-zh-CN.md)
 - [random-float](https://github.com/sindresorhus/random-float) - Generate a random float.
 
 ### Math
+
 - [mathjs](https://github.com/josdejong/mathjs) - An extensive math library.
 - [ndarray](https://github.com/scijs/ndarray) - Multidimensional arrays.
 - [algebra](https://github.com/fibo/algebra) - Algebraic structures.
 - [multimath](https://github.com/nodeca/multimath) - Core to create fast image math in WebAssembly and JS.
 
 ### Date & Time
+
 - [moment](https://github.com/moment/moment) - Parse, validate, manipulate, and display dates in javascript.
 - [dayjs](https://github.com/iamkun/dayjs) - Day.js 2KB immutable date-time library alternative to Moment.js with the same modern API.
 - [date-fns](https://github.com/date-fns/date-fns) - Modern JavaScript date utility library.
@@ -109,6 +113,7 @@ English | [简体中文](./README-zh-CN.md)
 - [dateformat](https://github.com/felixge/node-dateformat) - A node.js package for Steven Levithan's excellent dateFormat() function.
 
 ### URL
+
 - [URI.js](https://github.com/medialize/URI.js) - Javascript URL mutation library.
 - [qs](https://github.com/ljharb/qs) - Querystring parser with nesting support.
 - [query-string](https://github.com/sindresorhus/query-string) - Parse and stringify URL query strings.
@@ -123,6 +128,7 @@ English | [简体中文](./README-zh-CN.md)
 - [encodeurl](https://github.com/pillarjs/encodeurl) - Encode a URL to a percent-encoded form, excluding already-encoded sequences.
 
 ### JSON
+
 - [json5](https://github.com/json5/json5) - JSON5 — JSON for humans.
 - [fast-json-stringify](https://github.com/fastify/fast-json-stringify) - 2x faster than JSON.stringify()
 - [jsonfile](https://github.com/jprichardson/node-jsonfile) - Easily read/write JSON files.
@@ -130,6 +136,7 @@ English | [简体中文](./README-zh-CN.md)
 - [write-json-file](https://github.com/sindresorhus/write-json-file) - Stringify and write JSON to a file atomically.
 
 ### Type Checking
+
 - [is](https://github.com/enricomarino/is) - The definitive JavaScript type testing library.
 - [is-type-of](https://github.com/node-modules/is-type-of) - Complete type checking for node.
 - [core-util-is](https://github.com/isaacs/core-util-is) - The util.is* functions from Node core.
@@ -137,7 +144,8 @@ English | [简体中文](./README-zh-CN.md)
 - [is-class](https://github.com/miguelmota/is-class) - Check if function is an ES6 class.
 - [is-type](https://github.com/juliangruber/is-type) - Type checking from node core.
 
-### Data validation
+### Data Validation
+
 - [validator.js](https://github.com/validatorjs/validator.js) - A library of string validators and sanitizers.
 - [joi](https://github.com/hapijs/joi) - Object schema description language and validator for JavaScript objects.
 - [class-validator](https://github.com/typestack/class-validator) - Decorator-based property validation for classes.
@@ -151,6 +159,7 @@ English | [简体中文](./README-zh-CN.md)
 - [schema-inspector](https://github.com/Atinux/schema-inspector) - JSON API sanitization and validation.
 
 ### Shell
+
 - [shelljs](https://github.com/shelljs/shelljs) - Cross-platform Unix shell commands.
 - [execa](https://github.com/sindresorhus/execa) - Cross-platform implementation of `child_process.{execFile,exec}`.
 - [node-windows](https://github.com/coreybutler/node-windows) - Windows support for Node.js scripts (daemons, eventlog, UAC, etc).
@@ -161,6 +170,7 @@ English | [简体中文](./README-zh-CN.md)
 - [gulp-execa](https://github.com/ehmicky/gulp-execa) - Cross-platform command execution in Gulp.js.
 
 ### Environment
+
 - [cross-env](https://github.com/kentcdodds/cross-env) - Set environment variables cross-platform.
 - [which](https://github.com/npm/node-which) - Cross-platform implementation of Unix's `which`.
 - [user-home](https://github.com/sindresorhus/user-home) - Get the path to the user home directory. Cross-platform.
@@ -168,7 +178,8 @@ English | [简体中文](./README-zh-CN.md)
 - [osenv](https://github.com/npm/osenv) - Cross-platform environment variables.
 - [is-elevated](https://github.com/sindresorhus/is-elevated) - Check if the process is running with elevated privileges.
 
-### Command-line utilities
+### Command-line Utilities
+
 - [Commander.js](https://github.com/tj/commander.js) - The complete solution for node.js command-line interfaces.
 - [chalk](https://github.com/chalk/chalk) - Terminal string styling done right.
 - [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - Collection of common interactive command line user interfaces.
@@ -188,6 +199,7 @@ English | [简体中文](./README-zh-CN.md)
 - [kolorist](https://github.com/marvinhagemeister/kolorist) - A tiny utility to colorize stdin/stdout.
 
 ### Node.js Management
+
 - [nvm](https://github.com/nvm-sh/nvm) - Node Version Manager。
 - [nvm for Windows](https://github.com/coreybutler/nvm-windows) - Version management for Windows.
 - [n](https://github.com/tj/n) - Node.js version management.
@@ -197,57 +209,60 @@ English | [简体中文](./README-zh-CN.md)
 - [nodeenv](https://github.com/ekalinin/nodeenv) - Node.js virtual environment compatible to Python's virtualenv.
 
 ### NPM
-  - NPM Management
-    - [npm](https://github.com/npm/cli) - The package manager for JavaScript.
-    - [yarn](https://github.com/yarnpkg/berry) - A modern package manager split into various packages.
-    - [nrm](https://github.com/Pana/nrm) - About NPM registry manager, fast switch between different registries: npm, cnpm, nj, taobao.
-    - [cnpm](https://github.com/cnpm/cnpm) - Npm client for China mirror of npm.
 
-  - package.json
-    - [read-pkg](https://github.com/sindresorhus/read-pkg) - Read a package.json file.
-    - [write-pkg](https://github.com/sindresorhus/write-pkg) - Write a package.json file.
+- NPM Management
+  - [npm](https://github.com/npm/cli) - The package manager for JavaScript.
+  - [yarn](https://github.com/yarnpkg/berry) - A modern package manager split into various packages.
+  - [nrm](https://github.com/Pana/nrm) - About NPM registry manager, fast switch between different registries: npm, cnpm, nj, taobao.
+  - [cnpm](https://github.com/cnpm/cnpm) - Npm client for China mirror of npm.
 
-  - Semantic Version
-    - [semver](https://github.com/npm/node-semver) - The semver parser for node (the one npm uses).
+- package.json
+  - [read-pkg](https://github.com/sindresorhus/read-pkg) - Read a package.json file.
+  - [write-pkg](https://github.com/sindresorhus/write-pkg) - Write a package.json file.
 
-  - Utilities
-    - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - Find newer versions of package dependencies than what your package.json allows.
-    - [npm-run-all](https://github.com/mysticatea/npm-run-all) - A CLI tool to run multiple npm-scripts in parallel or sequential.
-    - [npminstall](https://github.com/cnpm/npminstall) - Make `npm install` fast and easy.
-    - [npm-home](https://github.com/sindresorhus/npm-home) - Open the npm page of a package.
-    - [npm-name](https://github.com/sindresorhus/npm-name) - Check a package name's availability on npm.
-    - [pacote](https://github.com/npm/pacote) - Fetches package manifests and tarballs from the npm registry.
-    - [npm-package-arg](https://github.com/npm/npm-package-arg) - Parse the things that can be arguments to `npm install`.
-    - [npm-registry-fetch](https://github.com/npm/npm-registry-fetch) - Like fetch() but for the npm registry
-    - [npm-updater](https://github.com/node-modules/npm-updater) - Check update of npm package.
+- Semantic Version
+  - [semver](https://github.com/npm/node-semver) - The semver parser for node (the one npm uses).
+
+- Utilities
+  - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - Find newer versions of package dependencies than what your package.json allows.
+  - [npm-run-all](https://github.com/mysticatea/npm-run-all) - A CLI tool to run multiple npm-scripts in parallel or sequential.
+  - [npminstall](https://github.com/cnpm/npminstall) - Make `npm install` fast and easy.
+  - [npm-home](https://github.com/sindresorhus/npm-home) - Open the npm page of a package.
+  - [npm-name](https://github.com/sindresorhus/npm-name) - Check a package name's availability on npm.
+  - [pacote](https://github.com/npm/pacote) - Fetches package manifests and tarballs from the npm registry.
+  - [npm-package-arg](https://github.com/npm/npm-package-arg) - Parse the things that can be arguments to `npm install`.
+  - [npm-registry-fetch](https://github.com/npm/npm-registry-fetch) - Like fetch() but for the npm registry
+  - [npm-updater](https://github.com/node-modules/npm-updater) - Check update of npm package.
 
 ### Filesystem
-  - Common
-    - [fs-extra](https://github.com/jprichardson/node-fs-extra) - Extra methods for the `fs` module.
-    - [rimraf](https://github.com/isaacs/rimraf) - Recursively delete files like rm -rf.
-    - [del](https://github.com/sindresorhus/del) - Delete files and directories.
-    - [graceful-fs](https://github.com/isaacs/node-graceful-fs) - Graceful-fs functions as a drop-in replacement for the fs module, making various improvements.
-    - [filesize.js](https://github.com/avoidwork/filesize.js) - Generate a human readable String describing the file size.
-    - [make-dir](https://github.com/sindresorhus/make-dir) - Recursively create directories like mkdir -p.
-    - [memfs](https://github.com/streamich/memfs) - In-memory filesystem with Node's API.
-    - [temp](https://github.com/bruce/node-temp) - Temporary File, Directory, and Stream support for Node.js.
-    - [cpy](https://github.com/sindresorhus/cpy) - Copy files.
-    - [mkdirp](https://github.com/isaacs/node-mkdirp) - Recursively mkdir, like `mkdir -p`.
 
-  - Watch
-    - [chokidar](https://github.com/paulmillr/chokidar) - Minimal and efficient cross-platform file watching library.
-    - [watchpack](https://github.com/webpack/watchpack) - Wrapper library for directory and file watching.
+- Common
+  - [fs-extra](https://github.com/jprichardson/node-fs-extra) - Extra methods for the `fs` module.
+  - [rimraf](https://github.com/isaacs/rimraf) - Recursively delete files like rm -rf.
+  - [del](https://github.com/sindresorhus/del) - Delete files and directories.
+  - [graceful-fs](https://github.com/isaacs/node-graceful-fs) - Graceful-fs functions as a drop-in replacement for the fs module, making various improvements.
+  - [filesize.js](https://github.com/avoidwork/filesize.js) - Generate a human readable String describing the file size.
+  - [make-dir](https://github.com/sindresorhus/make-dir) - Recursively create directories like mkdir -p.
+  - [memfs](https://github.com/streamich/memfs) - In-memory filesystem with Node's API.
+  - [temp](https://github.com/bruce/node-temp) - Temporary File, Directory, and Stream support for Node.js.
+  - [cpy](https://github.com/sindresorhus/cpy) - Copy files.
+  - [mkdirp](https://github.com/isaacs/node-mkdirp) - Recursively mkdir, like `mkdir -p`.
 
-  - Glob
-    - [glob](https://github.com/isaacs/node-glob) - Glob functionality for node.js.
-    - [globby](https://github.com/sindresorhus/globby) - Based on fast-glob but adds a bunch of useful features.
-    - [fast-glob](https://github.com/mrmlnc/fast-glob) - Very fast and efficient glob library for Node.js.
+- Watch
+  - [chokidar](https://github.com/paulmillr/chokidar) - Minimal and efficient cross-platform file watching library.
+  - [watchpack](https://github.com/webpack/watchpack) - Wrapper library for directory and file watching.
 
-  - Compression / Decompression
-    - [tar-fs](https://github.com/mafintosh/tar-fs) - Tar-fs allows you to pack directories into tarballs and extract tarballs into directories.
-    - [7zip](https://github.com/fritx/win-7zip) - 7zip Windows Package via Node.js
+- Glob
+  - [glob](https://github.com/isaacs/node-glob) - Glob functionality for node.js.
+  - [globby](https://github.com/sindresorhus/globby) - Based on fast-glob but adds a bunch of useful features.
+  - [fast-glob](https://github.com/mrmlnc/fast-glob) - Very fast and efficient glob library for Node.js.
+
+- Compression / Decompression
+  - [tar-fs](https://github.com/mafintosh/tar-fs) - Tar-fs allows you to pack directories into tarballs and extract tarballs into directories.
+  - [7zip](https://github.com/fritx/win-7zip) - 7zip Windows Package via Node.js
 
 ### Git
+
 - [nodegit](https://github.com/nodegit/nodegit) - Node bindings to the libgit2 project.
 - [simple-git](https://github.com/steveukx/git-js) - A light weight interface for running git commands in any node.js application.
 - [gitgraph-node](https://github.com/nicoespeon/gitgraph.js/tree/master/packages/gitgraph-node) - Draw pretty git graphs in your terminal.
@@ -258,6 +273,7 @@ English | [简体中文](./README-zh-CN.md)
 - [download-git-repo](https://gitlab.com/flippidippi/download-git-repo) - Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.
 
 ### Logging
+
 - [winston](https://github.com/winstonjs/winston) - Multi-transport async logging library.
 - [pino](https://github.com/pinojs/pino) - Extremely fast logger inspired by Bunyan.
 - [signale](https://github.com/klauscfhq/signale) - Highly configurable logging utility.
@@ -269,6 +285,7 @@ English | [简体中文](./README-zh-CN.md)
 - [captains-log](https://www.npmjs.com/package/captains-log) - Lightweight logger with a simple pass-through configuration for use with fancier logging librarie.
 
 ### Process management
+
 - [PM2](https://github.com/Unitech/pm2) - Advanced Process Manager.
 - [nodemon](https://github.com/remy/nodemon) - Monitor for changes in your app and automatically restart the server.
 - [forever](https://github.com/foreversd/forever) - A simple CLI tool for ensuring that a given script runs continuously.
@@ -278,6 +295,7 @@ English | [简体中文](./README-zh-CN.md)
 - [node-linux](https://github.com/coreybutler/node-linux) - Run scripts as native system service and log to syslog.
 
 ### Linter & Formatter
+
 - [prettier](https://github.com/prettier/prettier) - ❤Prettier is an opinionated code formatter.
 - [standard](https://github.com/standard/standard) - JavaScript Style Guide, with linter & automatic code fixer.
 - [eslint](https://github.com/eslint/eslint) - Find and fix problems in your JavaScript code.
@@ -288,7 +306,8 @@ English | [简体中文](./README-zh-CN.md)
 - [markdownlint](https://github.com/DavidAnson/markdownlint) - A Node.js style checker and lint tool for Markdown/CommonMark files.
 - [textlint](https://github.com/textlint/textlint) - The pluggable natural language linter for text and markdown.
 
-### Build tools
+### Build Tools
+
 - [webpack](https://github.com/webpack/webpack) - Packs modules and assets for the browser.
 - [parcel](https://github.com/parcel-bundler/parcel) - Blazing fast, zero config web app bundler.
 - [gulp](https://github.com/gulpjs/gulp) - Streaming and fast build system that favors code over config.
@@ -301,6 +320,7 @@ English | [简体中文](./README-zh-CN.md)
 - [Broccoli](https://github.com/broccolijs/broccoli) - Fast, reliable asset pipeline, supporting constant-time rebuilds and compact build definitions.
 
 ### Templating
+
 - [Pug](https://github.com/pugjs/pug) - High-performance template engine heavily influenced by Haml.
 - [handlebars.js](https://github.com/wycats/handlebars.js) - Superset of Mustache templates which adds powerful features like helpers and more advanced blocks.
 - [mustache.js](https://github.com/janl/mustache.js) - Minimal templating with {{mustaches}} in JavaScript.
@@ -314,6 +334,7 @@ English | [简体中文](./README-zh-CN.md)
 - [xtemplate](https://github.com/xtemplate/xtemplate) - High Speed, eXtensible Template Engine lib on browser and nodejs. support async control, inheritance, include, logic expression, custom function and more.
 
 ### Web Frameworks
+
 - [Express](https://github.com/expressjs/express) - Web application framework, providing a robust set of features for building single and multi-page, and hybrid web applications.
 - [Next.js](https://github.com/zeit/next.js) - Minimalistic framework for server-rendered universal JavaScript web apps.
 - [Meteor](https://github.com/meteor/meteor) - An ultra-simple, database-everywhere, data-on-the-wire, pure-Javascript web framework. *(You might like [awesome-meteor](https://github.com/Urigo/awesome-meteor))*
@@ -343,7 +364,8 @@ English | [简体中文](./README-zh-CN.md)
 - [Hemera](https://github.com/hemerajs/hemera) - Write reliable and fault-tolerant microservices with [NATS](https://nats.io).
 - [Zeronode](https://github.com/sfast/zeronode) - Minimal building block for reliable and fault-tolerant microservices.
 
-### Static Site Generator & blogging
+### Static Site Generator & Blogging
+
 - [gatsby](https://github.com/gatsbyjs/gatsby) - Build blazing fast, modern apps and websites with React.
 - [hexo](https://github.com/hexojs/hexo) - A fast, simple & powerful blog framework, powered by Node.js.
 - [vuepress](https://github.com/vuejs/vuepress) - Minimalistic Vue-powered static site generator.
@@ -353,6 +375,7 @@ English | [简体中文](./README-zh-CN.md)
 - [vitepress](https://github.com/vuejs/vitepress) - Vite & Vue powered static site generator.
 
 ### Real-time
+
 - [Socket.io](https://github.com/socketio/socket.io) - Enables real-time bidirectional event-based communication.
 - [ws](https://github.com/websockets/ws) - Simple to use, blazing fast and thoroughly tested WebSocket client and server for Node.js.
 - [µWebSockets](https://github.com/uWebSockets/uWebSockets) - Highly scalable WebSocket server & client library.
@@ -368,6 +391,7 @@ English | [简体中文](./README-zh-CN.md)
 - [Kalm](https://github.com/kalm/kalm.js) - Low-level socket router and middleware framework.
 
 ### Debugging / Profiling
+
 - [node-inspector](https://github.com/node-inspector/node-inspector) - Debugger based on Blink Developer Tools. 12.6k
 - [ndb](https://github.com/GoogleChromeLabs/ndb) - Improved debugging experience, enabled by Chrome DevTools. 10.4k
 - [debug](https://github.com/visionmedia/debug) - Tiny debugging utility. 9.5k
@@ -386,10 +410,12 @@ English | [简体中文](./README-zh-CN.md)
 - [vstream](https://github.com/joyent/node-vstream) - Instrumentable streams mix-ins to inspect a pipeline of streams. 56
 
 ### Forum
+
 - [NodeBB](https://github.com/NodeBB/NodeBB) - Node.js based forum software built for the modern web
 - [nodeclub](https://github.com/cnodejs/nodeclub/) - A forum software based on Node.js and MongoDB.
 
 ### Database
+
 - Drivers
   - [MySQL](https://github.com/mysqljs/mysql) - A pure node.js JavaScript Client implementing the MySQL protocol.
   - [PostgreSQL](https://github.com/brianc/node-postgres) - PostgreSQL client for node.js.
@@ -418,12 +444,14 @@ English | [简体中文](./README-zh-CN.md)
   - [Knex](https://github.com/tgriesser/knex) - Query builder for PostgreSQL, MySQL and SQLite3, designed to be flexible, portable, and fun to use.
 
 ### Automation & RPA
- - [puppeteer](https://github.com/puppeteer/puppeteer) - Headless Chrome Node.js API.
- - [playwright](https://github.com/microsoft/playwright) - Automate Chromium, Firefox and WebKit with a single API.
- - [phantomjs](https://github.com/ariya/phantomjs) - Scriptable Headless Browser.
- - [appium](https://github.com/appium/appium) - Automation for iOS, Android, and Windows Apps.
+
+- [puppeteer](https://github.com/puppeteer/puppeteer) - Headless Chrome Node.js API.
+- [playwright](https://github.com/microsoft/playwright) - Automate Chromium, Firefox and WebKit with a single API.
+- [phantomjs](https://github.com/ariya/phantomjs) - Scriptable Headless Browser.
+- [appium](https://github.com/appium/appium) - Automation for iOS, Android, and Windows Apps.
 
 ### Testing
+
 - Assertion
   - [chai](https://github.com/chaijs/chai) - BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework.
   - [power-assert](https://github.com/power-assert-js/power-assert) - Provides descriptive assertion messages through the standard assert interface.
@@ -448,25 +476,27 @@ English | [简体中文](./README-zh-CN.md)
   - [supertest](https://github.com/visionmedia/supertest) - Super-agent driven library for testing node.js HTTP servers using a fluent API.
 
 ### Office
-  - Excel
-    - [sheetjs](https://github.com/SheetJS/sheetjs) - Spreadsheet Data Toolkit.
-    - [exceljs](https://github.com/exceljs/exceljs) - Excel Workbook Manager.
-    - [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) - Excel XLSX parser/generator written in JavaScript with Node.js and browser support.
 
-  - Word
-    - [officegen](https://github.com/Ziv-Barber/officegen) - Standalone Office Open XML files (Microsoft Office 2007 and later) generator for Word (docx), PowerPoint (pptx) and Excell (xlsx) in javascript. The output is a stream.
-    - [Mammoth](https://github.com/mwilliamson/mammoth.js) - Convert Word documents (.docx files) to HTML.
-    - [docx](https://github.com/dolanmiu/docx) - Easily generate .docx files with JS/TS with a nice declarative API. Works for Node and on the Browser.
+- Excel
+  - [sheetjs](https://github.com/SheetJS/sheetjs) - Spreadsheet Data Toolkit.
+  - [exceljs](https://github.com/exceljs/exceljs) - Excel Workbook Manager.
+  - [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) - Excel XLSX parser/generator written in JavaScript with Node.js and browser support.
 
-  - PDF
-    - [PDFKit](https://github.com/foliojs/pdfkit) - JavaScript PDF generation library for Node and the browser.
-    - [percollate](https://github.com/danburzo/percollate) - A command-line tool to turn web pages into beautiful, readable PDF, EPUB, or HTML docs.
-    - [pdf2json](https://github.com/modesty/pdf2json) - A PDF file parser that converts PDF binaries to text based JSON.
+- Word
+  - [officegen](https://github.com/Ziv-Barber/officegen) - Standalone Office Open XML files (Microsoft Office 2007 and later) generator for Word (docx), PowerPoint (pptx) and Excell (xlsx) in javascript. The output is a stream.
+  - [Mammoth](https://github.com/mwilliamson/mammoth.js) - Convert Word documents (.docx files) to HTML.
+  - [docx](https://github.com/dolanmiu/docx) - Easily generate .docx files with JS/TS with a nice declarative API. Works for Node and on the Browser.
 
-  - PPT
-    - [nodeppt](https://github.com/ksky521/nodeppt) - This is probably the best web presentation tool so far!
+- PDF
+  - [PDFKit](https://github.com/foliojs/pdfkit) - JavaScript PDF generation library for Node and the browser.
+  - [percollate](https://github.com/danburzo/percollate) - A command-line tool to turn web pages into beautiful, readable PDF, EPUB, or HTML docs.
+  - [pdf2json](https://github.com/modesty/pdf2json) - A PDF file parser that converts PDF binaries to text based JSON.
+
+- PPT
+  - [nodeppt](https://github.com/ksky521/nodeppt) - This is probably the best web presentation tool so far!
 
 ### OS Identification
+
 - [systeminformation](https://github.com/sebhildebrandt/systeminformation) - Hardware/software system information.
 - [is-wsl](https://github.com/sindresorhus/is-wsl) - Detect whether current platform is WSL (Windows Subsystem for Linux).
 - [os-name](https://github.com/sindresorhus/os-name) - Get the name of the current operating system.
@@ -474,6 +504,7 @@ English | [简体中文](./README-zh-CN.md)
 - [is-windows](https://github.com/jonschlinkert/is-windows) - Detect whether the current platform is Windows.
 
 ### Email
+
 - [Nylas Mail](https://github.com/nylas/nylas-mail) - An extensible desktop mail app built on the modern web.
 - [Nodemailer](https://github.com/nodemailer/nodemailer) - Send e-mails with Node.JS – easy as cake!
 - [Email Templates](https://github.com/forwardemail/email-templates) - Create, preview, and send custom email templates for Node.js.
@@ -481,40 +512,44 @@ English | [简体中文](./README-zh-CN.md)
 - [mjml](https://github.com/mjmlio/mjml) - Makes responsive-email easy.
 
 ### HTTP
-  - Request Client
-    - [axios](https://github.com/mzabriskie/axios) - Promise based HTTP client (works in the browser too).
-    - [request](https://github.com/request/request) - 🏊🏾 Simplified HTTP request client.
-    - [superagent](https://github.com/visionmedia/superagent) - HTTP request library.
-    - [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP proxy.
-    - [got](https://github.com/sindresorhus/got) - Nicer interface to the built-in `http` module.
-    - [node-fetch](https://github.com/bitinn/node-fetch) - `window.fetch` for Node.js.
-    - [needle](https://github.com/tomas/needle) - Nimble, streamable HTTP client for Node.js. With proxy, iconv, cookie, deflate & multipart support.
-    - [download](https://github.com/kevva/download) - Download and extract files effortlessly.
-    - [urllib](https://github.com/node-modules/urllib) - Request HTTP(s) URLs in a complex world.
-    - [gotql](https://github.com/khaosdoctor/gotql) - GraphQL request library built on [got](https://github.com/sindresorhus/got).
-    - [wreck](https://github.com/hapijs/wreck) - HTTP Client Utilities.
-    - [http-fake-backend](https://github.com/micromata/http-fake-backend) - Build a fake backend by providing the content of JSON files or JavaScript objects through configurable routes.
-    - [cacheable-request](https://github.com/lukechilds/cacheable-request) - Wrap native HTTP requests with RFC compliant cache support.
-    - [global-agent](https://github.com/gajus/global-agent) - Global HTTP/HTTPS proxy agent that is configurable using environment variables.
-    - [gh-got](https://github.com/sindresorhus/gh-got) - Convenience wrapper for `got` to interact with the GitHub API.
-    - [smoke](https://github.com/sinedied/smoke) - File-based HTTP mock server with recording abilities.
-    - [flashheart](https://github.com/bbc/flashheart) - REST client.
 
-  - HTTP Server
-    - [http-server](https://github.com/http-party/http-server) - A simple zero-configuration command-line http server.
-    - [anywhere](https://github.com/JacksonTian/anywhere) - Running static file server anywhere.
+- Request Client
+  - [axios](https://github.com/mzabriskie/axios) - Promise based HTTP client (works in the browser too).
+  - [request](https://github.com/request/request) - 🏊🏾 Simplified HTTP request client.
+  - [superagent](https://github.com/visionmedia/superagent) - HTTP request library.
+  - [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP proxy.
+  - [got](https://github.com/sindresorhus/got) - Nicer interface to the built-in `http` module.
+  - [node-fetch](https://github.com/bitinn/node-fetch) - `window.fetch` for Node.js.
+  - [needle](https://github.com/tomas/needle) - Nimble, streamable HTTP client for Node.js. With proxy, iconv, cookie, deflate & multipart support.
+  - [download](https://github.com/kevva/download) - Download and extract files effortlessly.
+  - [urllib](https://github.com/node-modules/urllib) - Request HTTP(s) URLs in a complex world.
+  - [gotql](https://github.com/khaosdoctor/gotql) - GraphQL request library built on [got](https://github.com/sindresorhus/got).
+  - [wreck](https://github.com/hapijs/wreck) - HTTP Client Utilities.
+  - [http-fake-backend](https://github.com/micromata/http-fake-backend) - Build a fake backend by providing the content of JSON files or JavaScript objects through configurable routes.
+  - [cacheable-request](https://github.com/lukechilds/cacheable-request) - Wrap native HTTP requests with RFC compliant cache support.
+  - [global-agent](https://github.com/gajus/global-agent) - Global HTTP/HTTPS proxy agent that is configurable using environment variables.
+  - [gh-got](https://github.com/sindresorhus/gh-got) - Convenience wrapper for `got` to interact with the GitHub API.
+  - [smoke](https://github.com/sinedied/smoke) - File-based HTTP mock server with recording abilities.
+  - [flashheart](https://github.com/bbc/flashheart) - REST client.
+
+- HTTP Server
+  - [http-server](https://github.com/http-party/http-server) - A simple zero-configuration command-line http server.
+  - [anywhere](https://github.com/JacksonTian/anywhere) - Running static file server anywhere.
 
 ### Crawler
+
 - [node-crawler](https://github.com/bda-research/node-crawler) - Web Crawler/Spider for NodeJS + server-side jQuery.
 - [Headless Chrome Crawler](https://github.com/yujiosaka/headless-chrome-crawler) - Distributed crawler powered by Headless Chrome.
 
 ### Job Scheduling
+
 - [node-schedule](https://github.com/node-schedule/node-schedule) - A cron-like and not-cron-like job scheduler for Node.
 - [agenda](https://github.com/agenda/agenda) - Lightweight job scheduling for Node.js.
 - [node-cron](https://github.com/kelektiv/node-cron) - A tool that allows you to execute something on a schedule.
 - [cron-parser](https://github.com/harrisiirak/cron-parser) - Node.js library for parsing crontab instructions.
 
 ### AST
+
 - [babel-parser](https://github.com/babel/babel/tree/master/packages/babel-parser) - JavaScript parser.
 - [antlr](https://github.com/antlr/antlr4) - ANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files.
 - [acorn](https://github.com/acornjs/acorn) - Small, fast, JavaScript-based JavaScript parser.
@@ -527,15 +562,18 @@ English | [简体中文](./README-zh-CN.md)
 - [periscopic](https://github.com/Rich-Harris/periscopic) - Utility for analyzing scopes belonging to an ESTree-compliant AST.
 
 ### Sandbox
+
 - [vm2](https://github.com/patriksimek/vm2) - Advanced vm/sandbox for Node.js.
 - [sandbox](https://github.com/gf3/sandbox) - A nifty javascript sandbox for node.js.
 
 ### Machine learning
+
 - [tfjs](https://github.com/tensorflow/tfjs) - A WebGL accelerated JavaScript library for training and deploying ML models.
 - [brain.js](https://github.com/BrainJS/brain.js) - GPU accelerated Neural networks in JavaScript for Browsers and Node.js.
 - [pipcook](https://github.com/alibaba/pipcook) - Machine learning platform for Web developers.
 
 ### Natural language processing
+
 - [natural](https://github.com/NaturalNode/natural) - Natural language facility.
 - [nlp.js](https://github.com/axa-group/nlp.js) - Building bots, with entity extraction, sentiment analysis, automatic language identify, and more.
 - [franc](https://github.com/wooorm/franc) - Detect the language of text.

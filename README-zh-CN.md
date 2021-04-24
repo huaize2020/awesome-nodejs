@@ -41,7 +41,7 @@
   - [测试相关](#测试相关)
   - [办公软件](#办公软件)
   - [操作系统识别](#操作系统识别)
-  - [Email](#email)
+  - [邮箱](#邮箱)
   - [HTTP](#http)
   - [爬虫](#爬虫)
   - [定时任务](#定时任务)
@@ -59,41 +59,43 @@
 ## GIT仓库
 
 ### 文本
-  - 通用
-    - [dedent](https://github.com/dmnd/dedent) - ES6模板字符串函数，用于去除多行字符串的缩进。
-    - [camelcase](https://github.com/sindresorhus/camelcase) - 将破折号/点号/下划线/空格分隔的字符串转换为驼峰式, 案例：foo-bar→fooBar。
-    - [detect-indent](https://github.com/sindresorhus/detect-indent) - 检查代码缩进。
-    - [string-length](https://github.com/sindresorhus/string-length) - 获取字符串的真实长度 - 通过正确计算星号并忽略ansi转义码。
-    - [strip-indent](https://github.com/sindresorhus/strip-indent) - 将字符串每一行中前置的空格删除。
-    - [indent-string](https://github.com/sindresorhus/indent-string) - 将字符串每一行缩进。
-    - [min-indent](https://github.com/jamiebuilds/min-indent) - 取每一行最少前置空格数。
-    - [splice-string](https://github.com/sindresorhus/splice-string) - 移除或替换字符串的一部分。类似`Array#splice`.
 
-  - 国际化
-    - [i18next](https://github.com/i18next/i18next) - 国际化框架。
-    - [i18n-node](https://github.com/mashpie/i18n-node) - 具有动态JSON存储的简单翻译模块。
-    - [babelfish](https://github.com/nodeca/babelfish) - 适用于JavaScript的人性化i18n（node.js +浏览器）。
+- 通用
+  - [dedent](https://github.com/dmnd/dedent) - ES6模板字符串函数，用于去除多行字符串的缩进。
+  - [camelcase](https://github.com/sindresorhus/camelcase) - 将破折号/点号/下划线/空格分隔的字符串转换为驼峰式, 案例：foo-bar→fooBar。
+  - [detect-indent](https://github.com/sindresorhus/detect-indent) - 检查代码缩进。
+  - [string-length](https://github.com/sindresorhus/string-length) - 获取字符串的真实长度 - 通过正确计算星号并忽略ansi转义码。
+  - [strip-indent](https://github.com/sindresorhus/strip-indent) - 将字符串每一行中前置的空格删除。
+  - [indent-string](https://github.com/sindresorhus/indent-string) - 将字符串每一行缩进。
+  - [min-indent](https://github.com/jamiebuilds/min-indent) - 取每一行最少前置空格数。
+  - [splice-string](https://github.com/sindresorhus/splice-string) - 移除或替换字符串的一部分。类似`Array#splice`.
 
-  - 唯一ID
-    - [nanoid](https://github.com/ai/nanoid) - 小巧、安全、URL友好、唯一的字符串ID生成器。
-    - [uuid](https://github.com/uuidjs/uuid) - 在JavaScript中生成符合RFC规范的UUID。
+- 国际化
+  - [i18next](https://github.com/i18next/i18next) - 国际化框架。
+  - [i18n-node](https://github.com/mashpie/i18n-node) - 具有动态JSON存储的简单翻译模块。
+  - [babelfish](https://github.com/nodeca/babelfish) - 适用于JavaScript的人性化i18n（node.js +浏览器）。
 
-  - 编码/解码
-    - [he](https://github.com/mathiasbynens/he) - HTML实体编码器/解码器。
-    - [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - 转换字符编码。
-    - [jschardet](https://github.com/aadsm/jschardet) - JavaScript编码自动识别 (Python版chardet的实现)。
+- 唯一ID
+  - [nanoid](https://github.com/ai/nanoid) - 小巧、安全、URL友好、唯一的字符串ID生成器。
+  - [uuid](https://github.com/uuidjs/uuid) - 在JavaScript中生成符合RFC规范的UUID。
 
-  - 正则/通配符匹配
-    - [minimatch](https://github.com/isaacs/minimatch) - 最小匹配工具。
-    - [matcher](https://github.com/sindresorhus/matcher) - 简单通配符匹配。
-    - [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - 转义特殊正则字符。
-    - [execall](https://github.com/sindresorhus/execall) - 在字符串中查找多个RegExp匹配项。
+- 编码/解码
+  - [he](https://github.com/mathiasbynens/he) - HTML实体编码器/解码器。
+  - [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - 转换字符编码。
+  - [jschardet](https://github.com/aadsm/jschardet) - JavaScript编码自动识别 (Python版chardet的实现)。
 
-  - 其他
-    - [StegCloak](https://github.com/kurolabs/stegcloak) - 基于纯JavaScript开发的隐写功能模块，StegCloak可以对文本中的机密信息进行压缩和加密，然后再使用特殊的Unicode不可见字符来隐藏它。
-    - [unhomoglyph](https://github.com/nodeca/unhomoglyph) - 规范视觉上相似的unicode字符。
+- 正则/通配符匹配
+  - [minimatch](https://github.com/isaacs/minimatch) - 最小匹配工具。
+  - [matcher](https://github.com/sindresorhus/matcher) - 简单通配符匹配。
+  - [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - 转义特殊正则字符。
+  - [execall](https://github.com/sindresorhus/execall) - 在字符串中查找多个RegExp匹配项。
+
+- 其他
+  - [StegCloak](https://github.com/kurolabs/stegcloak) - 基于纯JavaScript开发的隐写功能模块，StegCloak可以对文本中的机密信息进行压缩和加密，然后再使用特殊的Unicode不可见字符来隐藏它。
+  - [unhomoglyph](https://github.com/nodeca/unhomoglyph) - 规范视觉上相似的unicode字符。
 
 ### 数字
+
 - [Numeral.js](https://github.com/adamwdraper/Numeral-js) - 格式化和操作数字。
 - [decimal.js](https://github.com/MikeMcl/decimal.js) - JavaScript的任意精度的十进制类型。
 - [round-to](https://github.com/sindresorhus/round-to) - 将数字四舍五入到指定的小数位数：`1.234`→1.2`。
@@ -102,12 +104,14 @@
 - [random-float](https://github.com/sindresorhus/random-float) - 生成随机浮点数。
 
 ### 数学运算
+
 - [mathjs](https://github.com/josdejong/mathjs) - 广泛的数学运算库。
 - [ndarray](https://github.com/scijs/ndarray) - 多维数组。
 - [algebra](https://github.com/fibo/algebra) - 代数结构。
 - [multimath](https://github.com/nodeca/multimath) - 在WebAssembly和JS中进行快速图像数学运算。
 
 ### 日期 和 时间
+
 - [moment](https://github.com/moment/moment) - 解析、校验、操作和显示日期。
 - [dayjs](https://github.com/iamkun/dayjs) - 仅2KB，不可变的日期时间库。使用与Moment.js同样的API，Moment.js的替代库。
 - [date-fns](https://github.com/date-fns/date-fns) - 现代JavaScript日期工具库。
@@ -116,6 +120,7 @@
 - [dateformat](https://github.com/felixge/node-dateformat) - 日期格式化。
 
 ### URL
+
 - [URI.js](https://github.com/medialize/URI.js) - URL转换库。
 - [qs](https://github.com/ljharb/qs) - 请求字符串解析器。
 - [query-string](https://github.com/sindresorhus/query-string) - 解析和字符串化URL查询字符串。
@@ -130,6 +135,7 @@
 - [encodeurl](https://github.com/pillarjs/encodeurl) - 将URL编码为"百分比"形式，不编码已编码部分。
 
 ### JSON
+
 - [json5](https://github.com/json5/json5) - JSON5是对JSON的扩展，其目的是能够更加容易的阅读和编写。
 - [fast-json-stringify](https://github.com/fastify/fast-json-stringify) - 比JSON.stringify()快2倍。
 - [jsonfile](https://github.com/jprichardson/node-jsonfile) - 轻松读写JSON文件。
@@ -137,6 +143,7 @@
 - [write-json-file](https://github.com/sindresorhus/write-json-file) - 序列化并写入JSON文件。
 
 ### 类型判断
+
 - [is](https://github.com/enricomarino/is) - JavaScript类型测试库。
 - [is-type-of](https://github.com/node-modules/is-type-of) - Node.js完整类型判断。
 - [core-util-is](https://github.com/isaacs/core-util-is) - Node.js核心工具 util.is* 函数。
@@ -145,6 +152,7 @@
 - [is-type](https://github.com/juliangruber/is-type) - Node.js核心类型判断。
 
 ### 数据校验
+
 - [validator.js](https://github.com/validatorjs/validator.js) - 字符串校验库。
 - [joi](https://github.com/hapijs/joi) - 基于JavaScript对象的对象模式描述语言和验证器。
 - [class-validator](https://github.com/typestack/class-validator) - 基于装饰器属性校验的类校验器。
@@ -158,6 +166,7 @@
 - [schema-inspector](https://github.com/Atinux/schema-inspector) - 用于净化和验证JS对象的强大工具。
 
 ### Shell命令
+
 - [shelljs](https://github.com/shelljs/shelljs) - 跨平台Unix shell命令。
 - [execa](https://github.com/sindresorhus/execa) - 跨平台实现子进程执行 `child_process.{execFile,exec}`。
 - [node-windows](https://github.com/coreybutler/node-windows) - Node.js上支持的Windows脚本。如(daemons, eventlog, UAC, etc)。
@@ -168,6 +177,7 @@
 - [gulp-execa](https://github.com/ehmicky/gulp-execa) - 在Gulp中跨平台命令执行。
 
 ### 环境变量
+
 - [cross-env](https://github.com/kentcdodds/cross-env) - 跨平台设置环境变量。
 - [which](https://github.com/npm/node-which) - 跨平台实现的Unix `which`.
 - [user-home](https://github.com/sindresorhus/user-home) - 跨平台获取用户home目录路径。
@@ -176,6 +186,7 @@
 - [is-elevated](https://github.com/sindresorhus/is-elevated) - 检查进程是否以提升的权限运行。
 
 ### 命令行工具
+
 - [Commander.js](https://github.com/tj/commander.js) - Node.JS命令行界面完整解决方案。
 - [chalk](https://github.com/chalk/chalk) - 命令行字符串样式美化工具。
 - [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - 通用可交互命令行工具集合。
@@ -195,6 +206,7 @@
 - [kolorist](https://github.com/marvinhagemeister/kolorist) - 使用输入和输出色彩化的小工具。
 
 ### Node.js管理工具
+
 - [nvm](https://github.com/nvm-sh/nvm) - Node.js版本管理工具。
 - [nvm for Windows](https://github.com/coreybutler/nvm-windows) -  Node.js版本管理工具Windows版。
 - [n](https://github.com/tj/n) - Node.js版本管理工具。
@@ -204,20 +216,21 @@
 - [nodeenv](https://github.com/ekalinin/nodeenv) - 与Python的 virtualenv 兼容的Node.js虚拟环境。
 
 ### NPM
-  - NPM管理工具
-    - [npm](https://github.com/npm/cli) - JavaScript包管理工具。
-    - [yarn](https://github.com/yarnpkg/berry) - 现代包管理工具，拆分成多个不同的包。
-    - [nrm](https://github.com/Pana/nrm) - 快速切换npm注册服务商，如npm、cnpm、nj、taobao。
-    - [cnpm](https://github.com/cnpm/cnpm) - NPM中国区镜像客户端。
 
-  - package.json
-    - [read-pkg](https://github.com/sindresorhus/read-pkg) - 读取package.json文件。
-    - [write-pkg](https://github.com/sindresorhus/write-pkg) - 写入package.json文件。
+- NPM管理工具
+  - [npm](https://github.com/npm/cli) - JavaScript包管理工具。
+  - [yarn](https://github.com/yarnpkg/berry) - 现代包管理工具，拆分成多个不同的包。
+  - [nrm](https://github.com/Pana/nrm) - 快速切换npm注册服务商，如npm、cnpm、nj、taobao。
+  - [cnpm](https://github.com/cnpm/cnpm) - NPM中国区镜像客户端。
 
-  - Semantic Version
-    - [semver](https://github.com/npm/node-semver) - NPM使用的JavaScript语义化版本号解析器。
+- package.json
+  - [read-pkg](https://github.com/sindresorhus/read-pkg) - 读取package.json文件。
+  - [write-pkg](https://github.com/sindresorhus/write-pkg) - 写入package.json文件。
 
-  - 工具
+- Semantic Version
+  - [semver](https://github.com/npm/node-semver) - NPM使用的JavaScript语义化版本号解析器。
+
+- 工具
     - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - 查找当前package.json依赖允许的更新的版本。
     - [npm-run-all](https://github.com/mysticatea/npm-run-all) - 命令行工具，同时运行多个npm脚本（并行或串行）。
     - [npminstall](https://github.com/cnpm/npminstall) - 使 `npm install` 更快更容易。
@@ -229,32 +242,34 @@
     - [npm-updater](https://github.com/node-modules/npm-updater) - 检查npm包的更新。
 
 ### 文件系统
-  - 通用
-    - [fs-extra](https://github.com/jprichardson/node-fs-extra) - 为 `fs` 模块提供额外方法。
-    - [rimraf](https://github.com/isaacs/rimraf) - 递归删除文件，类似 `rm -rf`。
-    - [del](https://github.com/sindresorhus/del) - 删除文件/文件夹。
-    - [graceful-fs](https://github.com/isaacs/node-graceful-fs) - graceful-fs可以替代fs模块，并做了各种改进。
-    - [filesize.js](https://github.com/avoidwork/filesize.js) - 生成人类可读的文件大小字符串。
-    - [make-dir](https://github.com/sindresorhus/make-dir) - 递归创建文件夹，类似 `mkdir -p`。
-    - [memfs](https://github.com/streamich/memfs) - Node.js API内存文件系统。
-    - [temp](https://github.com/bruce/node-temp) - Node.js临时文件、文件夹、流。
-    - [cpy](https://github.com/sindresorhus/cpy) - 文件拷贝。
-    - [mkdirp](https://github.com/isaacs/node-mkdirp) - 递归创建文件夹，类似 `mkdir -p`。
 
-  - 监控
-    - [chokidar](https://github.com/paulmillr/chokidar) - 最小且高效的跨平台Watch库。
-    - [watchpack](https://github.com/webpack/watchpack) - Watch文件和文件夹。
+- 通用
+  - [fs-extra](https://github.com/jprichardson/node-fs-extra) - 为 `fs` 模块提供额外方法。
+  - [rimraf](https://github.com/isaacs/rimraf) - 递归删除文件，类似 `rm -rf`。
+  - [del](https://github.com/sindresorhus/del) - 删除文件/文件夹。
+  - [graceful-fs](https://github.com/isaacs/node-graceful-fs) - graceful-fs可以替代fs模块，并做了各种改进。
+  - [filesize.js](https://github.com/avoidwork/filesize.js) - 生成人类可读的文件大小字符串。
+  - [make-dir](https://github.com/sindresorhus/make-dir) - 递归创建文件夹，类似 `mkdir -p`。
+  - [memfs](https://github.com/streamich/memfs) - Node.js API内存文件系统。
+  - [temp](https://github.com/bruce/node-temp) - Node.js临时文件、文件夹、流。
+  - [cpy](https://github.com/sindresorhus/cpy) - 文件拷贝。
+  - [mkdirp](https://github.com/isaacs/node-mkdirp) - 递归创建文件夹，类似 `mkdir -p`。
 
-  - 遍历查找
-    - [glob](https://github.com/isaacs/node-glob) - Node.js版glob功能。
-    - [globby](https://github.com/sindresorhus/globby) - 基于fast-glob，但添加了很多有用的特性。
-    - [fast-glob](https://github.com/mrmlnc/fast-glob) - 非常快速且高效的Node.js glob库。
+- 监控
+  - [chokidar](https://github.com/paulmillr/chokidar) - 最小且高效的跨平台Watch库。
+  - [watchpack](https://github.com/webpack/watchpack) - Watch文件和文件夹。
 
-  - 压缩和解压
-    - [tar-fs](https://github.com/mafintosh/tar-fs) - tar-fs允许您将目录打包到tar格式压缩包中，并将tar格式压缩包提取到目录中。
-    - [7zip](https://github.com/fritx/win-7zip) - Windows包压缩/解压 - 7zip。
+- 遍历查找
+  - [glob](https://github.com/isaacs/node-glob) - Node.js版glob功能。
+  - [globby](https://github.com/sindresorhus/globby) - 基于fast-glob，但添加了很多有用的特性。
+  - [fast-glob](https://github.com/mrmlnc/fast-glob) - 非常快速且高效的Node.js glob库。
+
+- 压缩和解压
+  - [tar-fs](https://github.com/mafintosh/tar-fs) - tar-fs允许您将目录打包到tar格式压缩包中，并将tar格式压缩包提取到目录中。
+  - [7zip](https://github.com/fritx/win-7zip) - Windows包压缩/解压 - 7zip。
 
 ### Git
+
 - [nodegit](https://github.com/nodegit/nodegit) - [libgit2](https://libgit2.org/) 的 Node.js 绑定版本。
 - [simple-git](https://github.com/steveukx/git-js) - 一个轻量级的接口，用于在任何 node.js 应用程序中运行 git 命令。
 - [gitgraph-node](https://github.com/nicoespeon/gitgraph.js/tree/master/packages/gitgraph-node) - 在 Terminal 绘制 git 流程图（支持浏览器、React）。
@@ -265,6 +280,7 @@
 - [download-git-repo](https://gitlab.com/flippidippi/download-git-repo) - 下载和提取Git仓库 (支持GitHub, GitLab, Bitbucket)。
 
 ### 日志
+
 - [winston](https://github.com/winstonjs/winston) - 多传输异步日志记录库。
 - [pino](https://github.com/pinojs/pino) - 受Bunyan启发的超快日志记录库。
 - [signale](https://github.com/klauscfhq/signale) - 高度可配置的日志工具。
@@ -276,6 +292,7 @@
 - [captains-log](https://github.com/balderdashy/captains-log) - 通过简单的配置就可以使用的轻量日志记录库。
 
 ### 进程管理
+
 - [PM2](https://github.com/Unitech/pm2) - 高级进程管理工具。
 - [nodemon](https://github.com/remy/nodemon) - 监视应用程序中的更改并自动重新启动服务器。
 - [forever](https://github.com/foreversd/forever) - 简单的CLI工具，用于确认提供的代码持续运行。
@@ -285,6 +302,7 @@
 - [node-linux](https://github.com/coreybutler/node-linux) - 将脚本作为本机系统服务运行，并登录到syslog。
 
 ### 代码校验 和 格式化工具
+
 - [prettier](https://github.com/prettier/prettier) - ❤"有主见"的多语言代码格式化程序。
 - [standard](https://github.com/standard/standard) - JavaScript 代码规范，自带 linter & 代码自动修正。
 - [eslint](https://github.com/eslint/eslint) - 插件化并且可配置的 JavaScript 语法规则和代码风格的检查工具。
@@ -296,6 +314,7 @@
 - [textlint](https://github.com/textlint/textlint) - Text 和 Markdown 校验和格式化。
 
 ### 构建工具
+
 - [webpack](https://github.com/webpack/webpack) - 打包浏览器的模块和资产。
 - [parcel](https://github.com/parcel-bundler/parcel) - 快速，零配置的Web应用构建工具。
 - [gulp](https://github.com/gulpjs/gulp) - 流式快速构建系统，支持代码而不是配置。
@@ -308,6 +327,7 @@
 - [Broccoli](https://github.com/broccolijs/broccoli) - 快速、可靠的资产管道，支持固定时间重建和紧凑的构建定义。
 
 ### 模板引擎
+
 - [Pug](https://github.com/pugjs/pug) - 受Haml启发的高性能模板引擎。
 - [handlebars.js](https://github.com/wycats/handlebars.js) - Mustache 模板的超集，添加了强大的功能，如helper和更高级的block。
 - [mustache.js](https://github.com/janl/mustache.js) - 轻量的JavaScript模板引擎{{八字须}}。
@@ -321,6 +341,7 @@
 - [xtemplate](https://github.com/xtemplate/xtemplate) - 用于浏览器和Node.js上的高速，可扩展模板引擎库。支持异步控制，继承，包含，逻辑表达式，自定义函数等。
 
 ### Web框架
+
 - [Express](https://github.com/expressjs/express) - Web应用程序框架，为构建单页和多页以及混合Web应用程序提供了一组强大的功能。
 - [Next.js](https://github.com/zeit/next.js) - React服务端渲染框架。
 - [Meteor](https://github.com/meteor/meteor) - 超简单，无处不在的数据库，在线数据，纯Javascript Web框架。 *（你也许会喜欢 [awesome-meteor](https://github.com/Urigo/awesome-meteor))*
@@ -351,6 +372,7 @@
 - [Zeronode](https://github.com/sfast/zeronode) - 最小的构建块，可实现可靠且容错的微服务。
 
 ### 静态网站生成 & 博客
+
 - [gatsby](https://github.com/gatsbyjs/gatsby) - 使用React构建快速、现代的应用程序和网站。
 - [hexo](https://github.com/hexojs/hexo) - 使用Node.js的快速，简单，强大的博客框架。
 - [vuepress](https://github.com/vuejs/vuepress) - 极简的Vue静态网站生成工具。
@@ -360,6 +382,7 @@
 - [vitepress](https://github.com/vuejs/vitepress) - Vite & Vue.js静态网站生成工具。
 
 ### 实时通信
+
 - [Socket.io](https://github.com/socketio/socket.io) - 实现基于事件的实时双向通信。
 - [ws](https://github.com/websockets/ws) - 简单易用，速度极快，经过全面测试的WebSocket客户端和服务器Node.js通信库。
 - [µWebSockets](https://github.com/uWebSockets/uWebSockets) - 高度可扩展的WebSocket服务器和客户端库。
@@ -375,6 +398,7 @@
 - [Kalm](https://github.com/kalm/kalm.js) - 低级套接字路由器和中间件框架。
 
 ### 调试和剖析
+
 - [node-inspector](https://github.com/node-inspector/node-inspector) - 基于Blink开发者工具的调试器。
 - [ndb](https://github.com/GoogleChromeLabs/ndb) - Chrome DevTools调试体验改进工具。
 - [debug](https://github.com/visionmedia/debug) - 轻量调试工具。
@@ -393,10 +417,12 @@
 - [vstream](https://github.com/joyent/node-vstream) - 可检测的流混入以检查流的管道。
 
 ### 论坛
+
 - [NodeBB](https://github.com/NodeBB/NodeBB) - 基于Node.js的现代Web论坛。
 - [nodeclub](https://github.com/cnodejs/nodeclub/) -  Nodeclub 是使用 Node.js 和 MongoDB 开发的社区系统
 
 ### 数据库
+
 - 驱动
   - [MySQL](https://github.com/mysqljs/mysql) - MySQL 客户端。
   - [PostgreSQL](https://github.com/brianc/node-postgres) - PostgreSQL客户端。
@@ -425,12 +451,14 @@
   - [Knex](https://github.com/tgriesser/knex) - PostgreSQL，MySQL和SQLite3的查询构建器，旨在灵活，可移植且易于使用。
 
 ### 自动化 & 机器人流程自动化 - RPA
- - [puppeteer](https://github.com/puppeteer/puppeteer) - 无头Chrome Node.js API。
- - [playwright](https://github.com/microsoft/playwright) - 使用单一API自动操作Chromium, Firefox and WebKi。
- - [phantomjs](https://github.com/ariya/phantomjs) - 脚本化无头浏览器。
- - [appium](https://github.com/appium/appium) - iOS, Android, and Windows Apps自动化。
+
+- [puppeteer](https://github.com/puppeteer/puppeteer) - 无头Chrome Node.js API。
+- [playwright](https://github.com/microsoft/playwright) - 使用单一API自动操作Chromium, Firefox and WebKi。
+- [phantomjs](https://github.com/ariya/phantomjs) - 脚本化无头浏览器。
+- [appium](https://github.com/appium/appium) - iOS, Android, and Windows Apps自动化。
 
 ### 测试相关
+
 - 断言库
   - [chai](https://github.com/chaijs/chai) - 基于行为驱动开发(BDD)和测试驱动开发(TDD)理念的Node.js和浏览器断言库，可与任何 JavaScript 测试框架集成。
   - [power-assert](https://github.com/power-assert-js/power-assert) - 使用标准assert接口提供的描述型断言消息。
@@ -455,32 +483,35 @@
   - [supertest](https://github.com/visionmedia/supertest) - 使用流畅的API，基于Super-agent库测试Node.js HTTP服务器。
 
 ### 办公软件
-  - Excel
-    - [sheetjs](https://github.com/SheetJS/sheetjs) - 电子表格数据工具箱。
-    - [exceljs](https://github.com/exceljs/exceljs) - Excel工作表管理工具。
-    - [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) - Excel XLSX生成和解析工具，可运行在Node和浏览器。
 
-  - Word
-    - [officegen](https://github.com/Ziv-Barber/officegen) - 使用Javascript，生成可打开Word（docx）、PowerPoint（pptx）和Excel（xlsx）的XML文件（需Microsoft Office 2007及更高版本），输出是一个stream。
-    - [Mammoth](https://github.com/mwilliamson/mammoth.js) - 将Word文档(.docx文件)转化为HTML。
-    - [docx](https://github.com/dolanmiu/docx) - 通过良好定义的API,在NodeJS和浏览器中，使用JS/TS轻松的生成docx文件。
+- Excel
+  - [sheetjs](https://github.com/SheetJS/sheetjs) - 电子表格数据工具箱。
+  - [exceljs](https://github.com/exceljs/exceljs) - Excel工作表管理工具。
+  - [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) - Excel XLSX生成和解析工具，可运行在Node和浏览器。
 
-  - PDF
-    - [PDFKit](https://github.com/foliojs/pdfkit) - 在Node.js和浏览器中生成PDF的库。
-    - [percollate](https://github.com/danburzo/percollate) - 一个命令行工具，可将网页转换为漂亮的，可读的PDF，EPUB或HTML文档。
-    - [pdf2json](https://github.com/modesty/pdf2json) - PDF文件解析器，它将PDF二进制文件转换为基于文本的JSON。
+- Word
+  - [officegen](https://github.com/Ziv-Barber/officegen) - 使用Javascript，生成可打开Word（docx）、PowerPoint（pptx）和Excel（xlsx）的XML文件（需Microsoft Office 2007及更高版本），输出是一个stream。
+  - [Mammoth](https://github.com/mwilliamson/mammoth.js) - 将Word文档(.docx文件)转化为HTML。
+  - [docx](https://github.com/dolanmiu/docx) - 通过良好定义的API,在NodeJS和浏览器中，使用JS/TS轻松的生成docx文件。
 
-  - PPT
-    - [nodeppt](https://github.com/ksky521/nodeppt) - Web端展示端PPT工具。
+- PDF
+  - [PDFKit](https://github.com/foliojs/pdfkit) - 在Node.js和浏览器中生成PDF的库。
+  - [percollate](https://github.com/danburzo/percollate) - 一个命令行工具，可将网页转换为漂亮的，可读的PDF，EPUB或HTML文档。
+  - [pdf2json](https://github.com/modesty/pdf2json) - PDF文件解析器，它将PDF二进制文件转换为基于文本的JSON。
+
+- PPT
+  - [nodeppt](https://github.com/ksky521/nodeppt) - Web端展示端PPT工具。
 
 ### 操作系统识别
+
 - [systeminformation](https://github.com/sebhildebrandt/systeminformation) - 获取硬件和软件系统信息。
 - [is-wsl](https://github.com/sindresorhus/is-wsl) - 判断当前是否是否为WSL (适用于Linux的Windows子系统)。
 - [os-name](https://github.com/sindresorhus/os-name) - 获取当前操作系统的名字。
 - [getos](https://github.com/retrohacker/getos) - 获取当前操作系统名称，包括Linux的发行版名称。
 - [is-windows](https://github.com/jonschlinkert/is-windows) - 判断当前系统是否为Windows。
 
-### Email
+### 邮箱
+
 - [Nylas Mail](https://github.com/nylas/nylas-mail) - 构建在现代Web技术的高扩展性邮件客户端程序。
 - [Nodemailer](https://github.com/nodemailer/nodemailer) - 使用Node.js轻松发送电子邮件。
 - [Email Templates](https://github.com/forwardemail/email-templates) - 创建、预览和发送自定义电子邮件模板。
@@ -488,40 +519,44 @@
 - [mjml](https://github.com/mjmlio/mjml) - 旨在减少创建响应电子邮件的痛苦的标记语言。
 
 ### HTTP
-  - 请求库
-    - [axios](https://github.com/mzabriskie/axios) - 基于Promise 的HTTP客户端（也可以在浏览器中工作）。
-    - [request](https://github.com/request/request) - 🏊🏾 简单的 HTTP 请求客户端。
-    - [superagent](https://github.com/visionmedia/superagent) - HTTP请求库。
-    - [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP代理。
-    - [got](https://github.com/sindresorhus/got) - 更好的基于内建“http”模块接口实现。
-    - [node-fetch](https://github.com/bitinn/node-fetch) - Node.js的 `window.fetch` 实现。
-    - [needle](https://github.com/tomas/needle) - 灵活，基于流的HTTP Node.js客户端请求库。支持proxy，iconv，cookie，deflate和multipart。
-    - [download](https://github.com/kevva/download) - 轻松下载和提取文件。
-    - [urllib](https://github.com/node-modules/urllib) - 在复杂世界中请求HTTP/HTTPS的URL。
-    - [gotql](https://github.com/khaosdoctor/gotql) - 基于[got](https://github.com/sindresorhus/got)构建的GraphQL请求库。
-    - [wreck](https://github.com/hapijs/wreck) - HTTP 客户端工具。
-    - [http-fake-backend](https://github.com/micromata/http-fake-backend) - 通过可配置的路由，提供JSON文件或JavaScript对象来构建伪造的后端。
-    - [cacheable-request](https://github.com/lukechilds/cacheable-request) - 使用符合RFC的缓存封装的本机HTTP请求库。
-    - [global-agent](https://github.com/gajus/global-agent) - 可以使用环境变量配置的全局 HTTP/HTTPS 代理。
-    - [gh-got](https://github.com/sindresorhus/gh-got) - 基于"got"封装，与GitHub API更方便的交互。
-    - [smoke](https://github.com/sinedied/smoke) - 具有记录功能的基于文件的HTTP Mock服务器。
-    - [flashheart](https://github.com/bbc/flashheart) - REST 客户端。
 
-  - 服务端库
+- 请求库
+  - [axios](https://github.com/mzabriskie/axios) - 基于Promise 的HTTP客户端（也可以在浏览器中工作）。
+  - [request](https://github.com/request/request) - 🏊🏾 简单的 HTTP 请求客户端。
+  - [superagent](https://github.com/visionmedia/superagent) - HTTP请求库。
+  - [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP代理。
+  - [got](https://github.com/sindresorhus/got) - 更好的基于内建“http”模块接口实现。
+  - [node-fetch](https://github.com/bitinn/node-fetch) - Node.js的 `window.fetch` 实现。
+  - [needle](https://github.com/tomas/needle) - 灵活，基于流的HTTP Node.js客户端请求库。支持proxy，iconv，cookie，deflate和multipart。
+  - [download](https://github.com/kevva/download) - 轻松下载和提取文件。
+  - [urllib](https://github.com/node-modules/urllib) - 在复杂世界中请求HTTP/HTTPS的URL。
+  - [gotql](https://github.com/khaosdoctor/gotql) - 基于[got](https://github.com/sindresorhus/got)构建的GraphQL请求库。
+  - [wreck](https://github.com/hapijs/wreck) - HTTP 客户端工具。
+  - [http-fake-backend](https://github.com/micromata/http-fake-backend) - 通过可配置的路由，提供JSON文件或JavaScript对象来构建伪造的后端。
+  - [cacheable-request](https://github.com/lukechilds/cacheable-request) - 使用符合RFC的缓存封装的本机HTTP请求库。
+  - [global-agent](https://github.com/gajus/global-agent) - 可以使用环境变量配置的全局 HTTP/HTTPS 代理。
+  - [gh-got](https://github.com/sindresorhus/gh-got) - 基于"got"封装，与GitHub API更方便的交互。
+  - [smoke](https://github.com/sinedied/smoke) - 具有记录功能的基于文件的HTTP Mock服务器。
+  - [flashheart](https://github.com/bbc/flashheart) - REST 客户端。
+
+- 服务端库
     - [http-server](https://github.com/http-party/http-server) - 零配置的命令行Http服务端。
     - [anywhere](https://github.com/JacksonTian/anywhere) - 随启随用的静态文件服务器。
 
 ### 爬虫
+
 - [node-crawler](https://github.com/bda-research/node-crawler) - NodeJS Web爬虫 + 服务端jQuery。
 - [Headless Chrome Crawler](https://github.com/yujiosaka/headless-chrome-crawler) - 使用Chrome无头浏览器的分布式爬虫。
 
 ### 定时任务
+
 - [node-schedule](https://github.com/node-schedule/node-schedule) - 类Cron和不类似Cron的Node.js定时任务。
 - [agenda](https://github.com/agenda/agenda) - Node.js轻量级定时任务。
 - [node-cron](https://github.com/kelektiv/node-cron) - 允许执行定时任务的工具。
 - [cron-parser](https://github.com/harrisiirak/cron-parser) - 用于解析crontab指令的Node.js库。
 
 ### AST
+
 - [babel-parser](https://github.com/babel/babel/tree/master/packages/babel-parser) - JavaScript解析器。
 - [antlr](https://github.com/antlr/antlr4) - ANTLR (ANother Tool for Language Recognition)是一个用于阅读、处理、执行和翻译结构化文本或二进制文件的强大的解析生成器。
 - [acorn](https://github.com/acornjs/acorn) - 小巧、快速的JavaScript解析器。
@@ -534,15 +569,18 @@
 - [periscopic](https://github.com/Rich-Harris/periscopic) - 用于分析符合ESTree的AST的作用域的工具。
 
 ### 沙箱
+
 - [vm2](https://github.com/patriksimek/vm2) - Node.js高级虚拟机/沙箱。
 - [sandbox](https://github.com/gf3/sandbox) - 用于Node.js漂亮的JavaScript沙箱。
 
 ### 机器学习
+
 - [tfjs](https://github.com/tensorflow/tfjs) - Tensorflow官方提供JS版本。
 - [brain.js](https://github.com/BrainJS/brain.js) - 基于模型训练的神经网络 JS 库，支持浏览器和 Node.js。
 - [pipcook](https://github.com/alibaba/pipcook) - 为Web开发者提供的机器学习平台。
 
 ### 自然语言处理
+
 - [natural](https://github.com/NaturalNode/natural) - 自然语言设施。
 - [nlp.js](https://github.com/axa-group/nlp.js) - 构建机器人，具有实体提取、情感分析、自动语言识别等功能。
 - [franc](https://github.com/wooorm/franc) - 检测文本使用的语言。
