@@ -267,6 +267,7 @@
   - [fast-glob](https://github.com/mrmlnc/fast-glob) - 非常快速且高效的Node.js glob库。
 
 - 压缩和解压
+  - [jszip](https://github.com/Stuk/jszip) - 使用JavaScript创建、读取、编辑.zip文件。
   - [tar-fs](https://github.com/mafintosh/tar-fs) - tar-fs允许您将目录打包到tar格式压缩包中，并将tar格式压缩包提取到目录中。
   - [7zip](https://github.com/fritx/win-7zip) - Windows包压缩/解压 - 7zip。
 

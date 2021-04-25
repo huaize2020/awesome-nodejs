@@ -260,6 +260,7 @@ English | [简体中文](./README-zh-CN.md)
   - [fast-glob](https://github.com/mrmlnc/fast-glob) - Very fast and efficient glob library for Node.js.
 
 - Compression / Decompression
+  - [jszip](https://github.com/Stuk/jszip) - Create, read and edit .zip files with Javascript.
   - [tar-fs](https://github.com/mafintosh/tar-fs) - Tar-fs allows you to pack directories into tarballs and extract tarballs into directories.
   - [7zip](https://github.com/fritx/win-7zip) - 7zip Windows Package via Node.js
 
