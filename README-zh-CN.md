@@ -78,6 +78,7 @@
 - 唯一ID
   - [nanoid](https://github.com/ai/nanoid) - 小巧、安全、URL友好、唯一的字符串ID生成器。
   - [uuid](https://github.com/uuidjs/uuid) - 在JavaScript中生成符合RFC规范的UUID。
+  - [pure-uuid](https://github.com/rse/pure-uuid) - 基于纯JavaScript全局唯一ID(UUID)。
 
 - 编码/解码
   - [he](https://github.com/mathiasbynens/he) - HTML实体编码器/解码器。
@@ -175,6 +176,7 @@
 - [figures](https://github.com/sindresorhus/figures) - Windows兜底的Unicode符号。
 - [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - 跨平台的复制/粘贴。
 - [gulp-execa](https://github.com/ehmicky/gulp-execa) - 在Gulp中跨平台命令执行。
+- [cross-spawn-promise](https://github.com/zentrick/cross-spawn-promise) - Promise化的cross-spawn。
 
 ### 环境变量
 
@@ -275,6 +277,7 @@
 - [gitgraph-node](https://github.com/nicoespeon/gitgraph.js/tree/master/packages/gitgraph-node) - 在 Terminal 绘制 git 流程图（支持浏览器、React）。
 - [git-url-parse](https://github.com/IonicaBizau/git-url-parse) - 高级别git解析。
 - [git-promise](https://github.com/piuccio/git-promise) - 简单的封装，可运行任何git命令，并使用promise处理其输出。
+- [gittar](https://github.com/lukeed/gittar) - 下载/提取git仓库 (GitHub, GitLab, BitBucket)，跨平台和优先离线。
 - [remote-git-tags](https://github.com/sindresorhus/remote-git-tags) - 从远程仓库中获取标签。
 - [giturl](https://github.com/repo-utils/giturl) - 将Git链接转化成Web链接。
 - [download-git-repo](https://gitlab.com/flippidippi/download-git-repo) - 下载和提取Git仓库 (支持GitHub, GitLab, Bitbucket)。

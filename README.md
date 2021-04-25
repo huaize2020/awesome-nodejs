@@ -71,6 +71,7 @@ English | [简体中文](./README-zh-CN.md)
 - Unique Id
   - [nanoid](https://github.com/ai/nanoid) - Tiny, secure, URL-friendly, unique string ID generator.
   - [uuid](https://github.com/uuidjs/uuid) - Generate RFC-compliant UUIDs in JavaScript.
+  - [pure-uuid](https://github.com/rse/pure-uuid) - Pure JavaScript Based Universally Unique Identifiers (UUID).
 
 - Encode/Decode
   - [he](https://github.com/mathiasbynens/he) - HTML entity encoder/decoder.
@@ -168,6 +169,7 @@ English | [简体中文](./README-zh-CN.md)
 - [figures](https://github.com/sindresorhus/figures) - Unicode symbols with Windows fallbacks.
 - [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - Cross-platform copy/paste.
 - [gulp-execa](https://github.com/ehmicky/gulp-execa) - Cross-platform command execution in Gulp.js.
+- [cross-spawn-promise](https://github.com/zentrick/cross-spawn-promise) - Promisified cross-spawn.
 
 ### Environment
 
@@ -268,6 +270,7 @@ English | [简体中文](./README-zh-CN.md)
 - [gitgraph-node](https://github.com/nicoespeon/gitgraph.js/tree/master/packages/gitgraph-node) - Draw pretty git graphs in your terminal.
 - [git-url-parse](https://github.com/IonicaBizau/git-url-parse) - A high level git url parser for common git providers.
 - [git-promise](https://github.com/piuccio/git-promise) - Simple wrapper to run any git command and process it's output using promises.
+- [gittar](https://github.com/lukeed/gittar) - Download and/or Extract git repositories (GitHub, GitLab, BitBucket). Cross-platform and Offline-first.
 - [remote-git-tags](https://github.com/sindresorhus/remote-git-tags) - Get tags from a remote git repo. Using only JS.
 - [giturl](https://github.com/repo-utils/giturl) - Transfer git url to web url.
 - [download-git-repo](https://gitlab.com/flippidippi/download-git-repo) - Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.
