@@ -99,6 +99,7 @@
 
 - [Numeral.js](https://github.com/adamwdraper/Numeral-js) - 格式化和操作数字。
 - [decimal.js](https://github.com/MikeMcl/decimal.js) - JavaScript的任意精度的十进制类型。
+- [big.js](https://github.com/MikeMcl/big.js) - 一个小型，快速的JavaScript库，用于任意精度的十进制算术运算。
 - [round-to](https://github.com/sindresorhus/round-to) - 将数字四舍五入到指定的小数位数：`1.234`→1.2`。
 - [unique-random](https://github.com/sindresorhus/unique-random) - 生成连续唯一的随机数。
 - [random-int](https://github.com/sindresorhus/random-int) - 生成随机整数。
@@ -201,6 +202,7 @@
 - [progress](https://github.com/visionmedia/node-progress) - Node.js的灵活ascii进度条。
 - [depcheck](https://github.com/depcheck/depcheck) - 检查项目中未使用的依赖。
 - [progress-estimator](https://github.com/bvaughn/progress-estimator) - 记录进度条并估计完成承诺所需的时间。
+- [update-notifier](https://github.com/yeoman/update-notifier) - 为你的CLI应用提供的更新提示。
 - [cac](https://github.com/cacjs/cac) - 用于构建命令行应用的强大框架。
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - 为不同日志级别添加色彩图标。
 - [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - 在命令行/终端应用中轻松的使用进度条。

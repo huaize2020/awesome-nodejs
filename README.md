@@ -92,6 +92,7 @@ English | [简体中文](./README-zh-CN.md)
 
 - [Numeral.js](https://github.com/adamwdraper/Numeral-js) - A javascript library for formatting and manipulating numbers.
 - [decimal.js](https://github.com/MikeMcl/decimal.js) - An arbitrary-precision Decimal type for JavaScript.
+- [big.js](https://github.com/MikeMcl/big.js) - A small, fast JavaScript library for arbitrary-precision decimal arithmetic.
 - [round-to](https://github.com/sindresorhus/round-to) - Round a number to a specific number of decimal places: `1.234` → `1.2`.
 - [unique-random](https://github.com/sindresorhus/unique-random) - Generate random numbers that are consecutively unique.
 - [random-int](https://github.com/sindresorhus/random-int) - Generate a random integer.
@@ -194,6 +195,7 @@ English | [简体中文](./README-zh-CN.md)
 - [progress](https://github.com/visionmedia/node-progress) - Flexible ascii progress bar for nodejs.
 - [depcheck](https://github.com/depcheck/depcheck) - Check your npm module for unused dependencies.
 - [progress-estimator](https://github.com/bvaughn/progress-estimator) - Logs a progress bar and estimation for how long a Promise will take to complete.
+- [update-notifier](https://github.com/yeoman/update-notifier) - Update notifications for your CLI app.
 - [cac](https://github.com/cacjs/cac) - Simple yet powerful framework for building command-line apps.
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - Colored symbols for various log levels.
 - [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - Easy to use progress-bar for command-line/terminal applications.
