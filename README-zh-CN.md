@@ -148,6 +148,7 @@
 
 - [is](https://github.com/enricomarino/is) - JavaScript类型测试库。
 - [is-type-of](https://github.com/node-modules/is-type-of) - Node.js完整类型判断。
+- [is-stream](https://github.com/sindresorhus/is-stream) - 判断对象是否为流对象。
 - [core-util-is](https://github.com/isaacs/core-util-is) - Node.js核心工具 util.is* 函数。
 - [isstream](https://github.com/rvagg/isstream) - 判断对象是否为流对象。
 - [is-class](https://github.com/miguelmota/is-class) - 判断函数是否为 ES6类(class) 类型。
