@@ -456,22 +456,22 @@ English | [简体中文](./README-zh-CN.md)
 
 ### Debugging / Profiling
 
-- [node-inspector](https://github.com/node-inspector/node-inspector) - Debugger based on Blink Developer Tools. 12.6k
-- [ndb](https://github.com/GoogleChromeLabs/ndb) - Improved debugging experience, enabled by Chrome DevTools. 10.4k
-- [debug](https://github.com/visionmedia/debug) - Tiny debugging utility. 9.5k
-- [ironNode](https://github.com/s-a/iron-node) - Node.js debugger supporting ES2015 out of the box. 2.4k
-- [0x](https://github.com/davidmarkclements/0x) - Flamegraph profiling. 2.1k
-- [leakage](https://github.com/andywer/leakage) - Write memory leak tests. 1.5k
-- [why-is-node-running](https://github.com/mafintosh/why-is-node-running) - Node.js is running but you don't know why? 1.3k
-- [llnode](https://github.com/nodejs/llnode) - Post-mortem analysis tool which allows you to inspect objects and get insights from a crashed Node.js process. 917
-- [swagger-stats](https://github.com/slanatech/swagger-stats) - Trace API calls and monitor API performance, health, and usage metrics. 584
-- [njsTrace](https://github.com/valyouw/njstrace) - Instrument and trace your code, see all function calls, arguments, return values, as well as the time spent in each function. 304
-- [locus](https://github.com/alidavut/locus) - Starts a REPL at runtime that has access to all variables. 289
-- [stackman](https://github.com/watson/stackman) - Enhance an error stacktrace with code excerpts and other goodies. 229
-- [NiM](https://github.com/june07/nim) - Manages DevTools debugging workflow. 170
-- [thetool](https://github.com/sfninja/thetool) - Capture different CPU, memory, and other profiles for your app in Chrome DevTools friendly format. 117
-- [ctrace](https://github.com/automation-stack/ctrace) - Well-formatted and improved trace system calls and signals. 110
-- [vstream](https://github.com/joyent/node-vstream) - Instrumentable streams mix-ins to inspect a pipeline of streams. 56
+- [node-inspector](https://github.com/node-inspector/node-inspector) - Debugger based on Blink Developer Tools.
+- [ndb](https://github.com/GoogleChromeLabs/ndb) - Improved debugging experience, enabled by Chrome DevTools.
+- [debug](https://github.com/visionmedia/debug) - Tiny debugging utility.
+- [ironNode](https://github.com/s-a/iron-node) - Node.js debugger supporting ES2015 out of the box.
+- [0x](https://github.com/davidmarkclements/0x) - Flamegraph profiling.
+- [leakage](https://github.com/andywer/leakage) - Write memory leak tests.
+- [why-is-node-running](https://github.com/mafintosh/why-is-node-running) - Node.js is running but you don't know why?
+- [llnode](https://github.com/nodejs/llnode) - Post-mortem analysis tool which allows you to inspect objects and get insights from a crashed Node.js process.
+- [swagger-stats](https://github.com/slanatech/swagger-stats) - Trace API calls and monitor API performance, health, and usage metrics.
+- [njsTrace](https://github.com/valyouw/njstrace) - Instrument and trace your code, see all function calls, arguments, return values, as well as the time spent in each function.
+- [locus](https://github.com/alidavut/locus) - Starts a REPL at runtime that has access to all variables.
+- [stackman](https://github.com/watson/stackman) - Enhance an error stacktrace with code excerpts and other goodies.
+- [NiM](https://github.com/june07/nim) - Manages DevTools debugging workflow.
+- [thetool](https://github.com/sfninja/thetool) - Capture different CPU, memory, and other profiles for your app in Chrome DevTools friendly format.
+- [ctrace](https://github.com/automation-stack/ctrace) - Well-formatted and improved trace system calls and signals.
+- [vstream](https://github.com/joyent/node-vstream) - Instrumentable streams mix-ins to inspect a pipeline of streams.
 
 ### Forum
 
