@@ -64,6 +64,7 @@
 - 通用
   - [dedent](https://github.com/dmnd/dedent) - ES6模板字符串函数，用于去除多行字符串的缩进。
   - [camelcase](https://github.com/sindresorhus/camelcase) - 将破折号/点号/下划线/空格分隔的字符串转换为驼峰式, 案例：foo-bar→fooBar。
+  - [decamelize](https://github.com/sindresorhus/decamelize) - 将驼峰式字符串转化成小写带分隔符带字符串, 案例：unicornRainbow → unicorn_rainbow
   - [detect-indent](https://github.com/sindresorhus/detect-indent) - 检查代码缩进。
   - [string-length](https://github.com/sindresorhus/string-length) - 获取字符串的真实长度 - 通过正确计算星号并忽略ansi转义码。
   - [strip-indent](https://github.com/sindresorhus/strip-indent) - 将字符串每一行中前置的空格删除。
@@ -495,6 +496,9 @@
   - [ava](https://github.com/avajs/ava) - 面向未来的测试运行程序。
   - [jasmine](https://github.com/jasmine/jasmine) - 简单的Node.js和浏览器测试框架。
   - [supertest](https://github.com/visionmedia/supertest) - 使用流畅的API，基于Super-agent库测试Node.js HTTP服务器。
+
+- 覆盖率
+  - [nyc](https://github.com/istanbuljs/nyc) - Istanbul的命令行工具。
 
 ### 办公软件
 
