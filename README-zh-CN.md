@@ -476,6 +476,11 @@
   - [better-assert](https://github.com/tj/better-assert) - C语言风格的Node.js断言，将表达式字符串报告为错误消息。
   - [http-assert](https://github.com/jshttp/http-assert) - 带状态码的断言。
 
+- 假数据生成
+  - [faker.js](https://github.com/marak/Faker.js/) - 在Node.js和浏览器中生成大量逼真的假数据。
+  - [casual](https://github.com/boo1ean/casual) - JavaScript假数据生成。
+  - [fony](https://github.com/captainsafia/fony) - 一个简单的命令行工具，从模板字符串中生成假数据。
+
 - Mock
   - [Mock.js](https://github.com/nuysoft/Mock) - 浏览器和 Node 均可用，支持自定义 schema 和 随机数据。
   - [Nock](https://github.com/pgte/nock) - HTTP mock和期望。

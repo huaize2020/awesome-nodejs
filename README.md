@@ -526,6 +526,11 @@ English | [简体中文](./README-zh-CN.md)
   - [better-assert](https://github.com/tj/better-assert) - C-style assert() for nodejs, reporting the expression string as the error message.
   - [http-assert](https://github.com/jshttp/http-assert) - Assert with status codes.
 
+- Faker Generator
+  - [faker.js](https://github.com/marak/Faker.js/) - Generate massive amounts of realistic fake data in Node.js and the browser.
+  - [casual](https://github.com/boo1ean/casual) - Fake data generator for javascript.
+  - [fony](https://github.com/captainsafia/fony) - A simple command line tool for generating fake data from a template string.
+
 - Mock
   - [Mock.js](https://github.com/nuysoft/Mock) - A simulation data generator.
   - [Nock](https://github.com/pgte/nock) - HTTP mocking and expectations.
