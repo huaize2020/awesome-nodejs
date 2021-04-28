@@ -41,6 +41,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Crawler](#crawler)
   - [Job Scheduling](#job-scheduling)
   - [AST](#ast)
+  - [Design To Code（D2C）](#design-to-coded2c)
   - [Sandbox](#sandbox)
   - [Machine learning](#machine-learning)
   - [Natural language processing](#natural-language-processing)
@@ -257,6 +258,7 @@ English | [简体中文](./README-zh-CN.md)
 - [cac](https://github.com/cacjs/cac) - Simple yet powerful framework for building command-line apps.
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - Colored symbols for various log levels.
 - [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - Easy to use progress-bar for command-line/terminal applications.
+- [cli-table3](https://github.com/cli-table/cli-table3) - Pretty unicode tables for the command line.
 - [common-bin](https://github.com/node-modules/common-bin) - Abstraction bin tool wrap yargs, to provide more convenient usage, support async / generator.
 - [kolorist](https://github.com/marvinhagemeister/kolorist) - A tiny utility to colorize stdin/stdout.
 
@@ -624,6 +626,9 @@ English | [简体中文](./README-zh-CN.md)
 - [es-module-lexer](https://github.com/guybedford/es-module-lexer) - Low-overhead lexer dedicated to ES module parsing for fast analysis.
 - [estree-walker](https://github.com/Rich-Harris/estree-walker) - Traverse an ESTree-compliant AST.
 - [periscopic](https://github.com/Rich-Harris/periscopic) - Utility for analyzing scopes belonging to an ESTree-compliant AST.
+
+### Design To Code（D2C）
+- [psd.js](https://github.com/meltingice/psd.js) - A Photoshop PSD file parser for NodeJS and browsers.
 
 ### Sandbox
 

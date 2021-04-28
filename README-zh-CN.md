@@ -46,6 +46,7 @@
   - [爬虫](#爬虫)
   - [定时任务](#定时任务)
   - [AST](#ast)
+  - [设计稿转代码（D2C）](#设计稿转代码d2c)
   - [沙箱](#沙箱)
   - [机器学习](#机器学习)
   - [自然语言处理](#自然语言处理)
@@ -207,6 +208,7 @@
 - [cac](https://github.com/cacjs/cac) - 用于构建命令行应用的强大框架。
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - 为不同日志级别添加色彩图标。
 - [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - 在命令行/终端应用中轻松的使用进度条。
+- [cli-table3](https://github.com/cli-table/cli-table3) - 命令行的漂亮unicode表。
 - [common-bin](https://github.com/node-modules/common-bin) - 基于yargs的命令行工具抽象，提供更方便的使用，支持async/generator。
 - [kolorist](https://github.com/marvinhagemeister/kolorist) - 使用输入和输出色彩化的小工具。
 
@@ -574,6 +576,9 @@
 - [es-module-lexer](https://github.com/guybedford/es-module-lexer) - 低开销的词法分析器，专门用于ES模块快速分析解析。
 - [estree-walker](https://github.com/Rich-Harris/estree-walker) - 用于遍历ESTree兼容树的AST。
 - [periscopic](https://github.com/Rich-Harris/periscopic) - 用于分析符合ESTree的AST的作用域的工具。
+
+### 设计稿转代码（D2C）
+- [psd.js](https://github.com/meltingice/psd.js) - 在Node.js和浏览器中解析Photoshop PSD文件。
 
 ### 沙箱
 
