@@ -43,7 +43,7 @@ English | [简体中文](./README-zh-CN.md)
   - [AST](#ast)
   - [Design To Code（D2C）](#design-to-coded2c)
   - [Sandbox](#sandbox)
-  - [Machine learning](#machine-learning)
+  - [Machine learning & Neural networks](#machine-learning--neural-networks)
   - [Natural language processing](#natural-language-processing)
 
 ## Official
@@ -640,11 +640,13 @@ English | [简体中文](./README-zh-CN.md)
 - [vm2](https://github.com/patriksimek/vm2) - Advanced vm/sandbox for Node.js.
 - [sandbox](https://github.com/gf3/sandbox) - A nifty javascript sandbox for node.js.
 
-### Machine learning
+### Machine learning & Neural networks
 
 - [tfjs](https://github.com/tensorflow/tfjs) - A WebGL accelerated JavaScript library for training and deploying ML models.
 - [brain.js](https://github.com/BrainJS/brain.js) - GPU accelerated Neural networks in JavaScript for Browsers and Node.js.
 - [pipcook](https://github.com/alibaba/pipcook) - Machine learning platform for Web developers.
+- [onnxjs](https://github.com/microsoft/onnxjs) - ONNX.js: run ONNX models using JavaScript.
+- [tensorflow-nodejs](https://github.com/yorkie/tensorflow-nodejs) - TensorFlow Node.js provides idiomatic JavaScript language bindings and a high layer API for Node.js users.
 
 ### Natural language processing
 

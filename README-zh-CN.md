@@ -48,7 +48,7 @@
   - [AST](#ast)
   - [设计稿转代码（D2C）](#设计稿转代码d2c)
   - [沙箱](#沙箱)
-  - [机器学习](#机器学习)
+  - [机器学习 和 神经网络](#机器学习-和-神经网络)
   - [自然语言处理](#自然语言处理)
 
 ## 官方资源
@@ -479,7 +479,7 @@
 - 假数据生成
   - [faker.js](https://github.com/marak/Faker.js/) - 在Node.js和浏览器中生成大量逼真的假数据。
   - [casual](https://github.com/boo1ean/casual) - JavaScript假数据生成。
-  - [fony](https://github.com/captainsafia/fony) - 一个简单的命令行工具，从模板字符串中生成假数据。
+  - [fony](https://github.com/captainsafia/fony) - 一个简单的命令行工具，从字符串模板中生成假数据。
 
 - Mock
   - [Mock.js](https://github.com/nuysoft/Mock) - 浏览器和 Node 均可用，支持自定义 schema 和 随机数据。
@@ -590,11 +590,13 @@
 - [vm2](https://github.com/patriksimek/vm2) - Node.js高级虚拟机/沙箱。
 - [sandbox](https://github.com/gf3/sandbox) - 用于Node.js漂亮的JavaScript沙箱。
 
-### 机器学习
+### 机器学习 和 神经网络
 
-- [tfjs](https://github.com/tensorflow/tfjs) - Tensorflow官方提供JS版本。
+- [tfjs](https://github.com/tensorflow/tfjs) - 一个WebGL加速的JavaScript库，用于训练和部署ML模型（Tensorflow官方）。
 - [brain.js](https://github.com/BrainJS/brain.js) - 基于模型训练的神经网络 JS 库，支持浏览器和 Node.js。
 - [pipcook](https://github.com/alibaba/pipcook) - 为Web开发者提供的机器学习平台。
+- [onnxjs](https://github.com/microsoft/onnxjs) - 使用JavaScript运行ONNX模型。
+- [tensorflow-nodejs](https://github.com/yorkie/tensorflow-nodejs) - TensorFlow Node.js为Node.js用户提供常用的JavaScript语言绑定和高级API。
 
 ### 自然语言处理
 
