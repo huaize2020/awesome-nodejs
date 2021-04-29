@@ -575,16 +575,21 @@
 
 ### AST
 
-- [babel-parser](https://github.com/babel/babel/tree/master/packages/babel-parser) - JavaScript解析器。
-- [antlr](https://github.com/antlr/antlr4) - ANTLR (ANother Tool for Language Recognition)是一个用于阅读、处理、执行和翻译结构化文本或二进制文件的强大的解析生成器。
-- [acorn](https://github.com/acornjs/acorn) - 小巧、快速的JavaScript解析器。
-- [esprima](https://github.com/jquery/esprima) - 高性能、符合ECMASCRIPT标准的解析器。
-- [astexplorer](https://github.com/fkling/astexplorer) - 使用多种解析器的AST Web可视化工具。
-- [espree](https://github.com/eslint/espree) - 与Esprima兼容的JavaScript解析器。
-- [csstree](https://github.com/csstree/csstree) - 基于W3C标准和浏览器标准实现，包含快速详细的解析器、遍历器、生成器、词法解析的CSS工具集。
-- [es-module-lexer](https://github.com/guybedford/es-module-lexer) - 低开销的词法分析器，专门用于ES模块快速分析解析。
-- [estree-walker](https://github.com/Rich-Harris/estree-walker) - 用于遍历ESTree兼容树的AST。
-- [periscopic](https://github.com/Rich-Harris/periscopic) - 用于分析符合ESTree的AST的作用域的工具。
+- 解析器
+  - [babel-parser](https://github.com/babel/babel/tree/master/packages/babel-parser) - JavaScript解析器。
+  - [antlr](https://github.com/antlr/antlr4) - ANTLR (ANother Tool for Language Recognition)是一个用于阅读、处理、执行和翻译结构化文本或二进制文件的强大的解析生成器。
+  - [acorn](https://github.com/acornjs/acorn) - 小巧、快速的JavaScript解析器。
+  - [esprima](https://github.com/jquery/esprima) - 高性能、符合ECMASCRIPT标准的解析器。
+  - [espree](https://github.com/eslint/espree) - 与Esprima兼容的JavaScript解析器。
+  - [csstree](https://github.com/csstree/csstree) - 基于W3C标准和浏览器标准实现，包含快速详细的解析器、遍历器、生成器、词法解析的CSS工具集。
+  - [es-module-lexer](https://github.com/guybedford/es-module-lexer) - 低开销的词法分析器，专门用于ES模块快速分析解析。
+
+- 其他
+  - [astexplorer](https://github.com/fkling/astexplorer) - 使用多种解析器的AST Web可视化工具。
+  - [escodegen](https://github.com/estools/escodegen) - ECMAScript代码生成。
+  - [sval](https://github.com/Siubaak/sval) - 使用JavaScript编写的JavaScript解释器
+  - [estree-walker](https://github.com/Rich-Harris/estree-walker) - 用于遍历ESTree兼容树的AST。
+  - [periscopic](https://github.com/Rich-Harris/periscopic) - 用于分析符合ESTree的AST的作用域的工具。
 
 ### 设计稿转代码（D2C）
 - [psd.js](https://github.com/meltingice/psd.js) - 在Node.js和浏览器中解析Photoshop PSD文件。
