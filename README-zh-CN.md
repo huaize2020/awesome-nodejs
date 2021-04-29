@@ -588,10 +588,13 @@
   - [escodegen](https://github.com/estools/escodegen) - ECMAScript代码生成。
   - [astring](https://github.com/davidbonnet/astring) - 🌳 小巧快速的JavaScript代码生成器（通过ESTree兼容的AST）。
 
-- 其他
-  - [astexplorer](https://github.com/fkling/astexplorer) - 使用多种解析器的AST Web可视化工具。
+- JavaScript解释器
+  - [JS-Interpreter](https://github.com/NeilFraser/JS-Interpreter) - JavaScript中沙箱解释器。
   - [jsjs](https://github.com/bramblex/jsjs) - 简易的 JavaScript 元循环解释器。
   - [sval](https://github.com/Siubaak/sval) - 使用JavaScript编写的JavaScript解释器。
+
+- 其他
+  - [astexplorer](https://github.com/fkling/astexplorer) - 使用多种解析器的AST Web可视化工具。
   - [estree-walker](https://github.com/Rich-Harris/estree-walker) - 用于遍历ESTree兼容树的AST。
   - [periscopic](https://github.com/Rich-Harris/periscopic) - 用于分析符合ESTree的AST的作用域的工具。
 
