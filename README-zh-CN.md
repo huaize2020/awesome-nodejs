@@ -123,6 +123,7 @@
 - [luxon](https://github.com/moment/luxon) - 用于处理日期和时间的库。
 - [ms](https://github.com/vercel/ms) - 毫秒转换工具。
 - [dateformat](https://github.com/felixge/node-dateformat) - 日期格式化。
+- [pretty-ms](https://github.com/sindresorhus/pretty-ms) - 将毫秒转换为人类可读的字符串，如: `1337000000` → `15d 11h 23m 20s`
 
 ### URL
 
@@ -263,6 +264,7 @@
   - [temp](https://github.com/bruce/node-temp) - Node.js临时文件、文件夹、流。
   - [cpy](https://github.com/sindresorhus/cpy) - 文件拷贝。
   - [mkdirp](https://github.com/isaacs/node-mkdirp) - 递归创建文件夹，类似 `mkdir -p`。
+  - [temp-dir](https://github.com/sindresorhus/temp-dir) - 获取系统临时文件夹的真实路径。
 
 - 监控
   - [chokidar](https://github.com/paulmillr/chokidar) - 最小且高效的跨平台Watch库。

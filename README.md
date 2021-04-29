@@ -117,6 +117,7 @@ English | [简体中文](./README-zh-CN.md)
 - [luxon](https://github.com/moment/luxon) - Library for working with dates and times.
 - [ms](https://github.com/vercel/ms) - Tiny millisecond conversion utility.
 - [dateformat](https://github.com/felixge/node-dateformat) - A node.js package for Steven Levithan's excellent dateFormat() function.
+- [pretty-ms](https://github.com/sindresorhus/pretty-ms) - Convert milliseconds to a human readable string: `1337000000` → `15d 11h 23m 20s`
 
 ### URL
 
@@ -313,6 +314,7 @@ English | [简体中文](./README-zh-CN.md)
   - [temp](https://github.com/bruce/node-temp) - Temporary File, Directory, and Stream support for Node.js.
   - [cpy](https://github.com/sindresorhus/cpy) - Copy files.
   - [mkdirp](https://github.com/isaacs/node-mkdirp) - Recursively mkdir, like `mkdir -p`.
+  - [temp-dir](https://github.com/sindresorhus/temp-dir) - Get the real path of the system temp directory.
 
 - Watch
   - [chokidar](https://github.com/paulmillr/chokidar) - Minimal and efficient cross-platform file watching library.
