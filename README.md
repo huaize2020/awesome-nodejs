@@ -571,6 +571,7 @@ English | [简体中文](./README-zh-CN.md)
 
 - Coverage
   - [nyc](https://github.com/istanbuljs/nyc) - The Istanbul command line interface.
+  - [node-coveralls](https://github.com/nickmerwin/node-coveralls) - Coveralls.io support for Node.js. Get the great coverage reporting of coveralls.io and add a cool coverage button (like the one above) to your README.
 
 ### Office
 

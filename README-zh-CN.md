@@ -236,7 +236,7 @@
   - [read-pkg](https://github.com/sindresorhus/read-pkg) - 读取package.json文件。
   - [write-pkg](https://github.com/sindresorhus/write-pkg) - 写入package.json文件。
 
-- Semantic Version
+- 语义化版本
   - [semver](https://github.com/npm/node-semver) - NPM使用的JavaScript语义化版本号解析器。
 
 - 工具
@@ -521,6 +521,7 @@
 
 - 覆盖率
   - [nyc](https://github.com/istanbuljs/nyc) - Istanbul的命令行工具。
+  - [node-coveralls](https://github.com/nickmerwin/node-coveralls) - 借助持续集成服务(Travis CI 或 Jenkins) 向用户报告自动测试的测试覆盖率；为README添加一个很酷的覆盖率按钮。
 
 ### 办公软件
 
