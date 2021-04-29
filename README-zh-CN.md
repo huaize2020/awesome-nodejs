@@ -584,9 +584,12 @@
   - [csstree](https://github.com/csstree/csstree) - 基于W3C标准和浏览器标准实现，包含快速详细的解析器、遍历器、生成器、词法解析的CSS工具集。
   - [es-module-lexer](https://github.com/guybedford/es-module-lexer) - 低开销的词法分析器，专门用于ES模块快速分析解析。
 
+- 代码生成
+  - [escodegen](https://github.com/estools/escodegen) - ECMAScript代码生成。
+  - [astring](https://github.com/davidbonnet/astring) - 🌳 小巧快速的JavaScript代码生成器（通过ESTree兼容的AST）。
+
 - 其他
   - [astexplorer](https://github.com/fkling/astexplorer) - 使用多种解析器的AST Web可视化工具。
-  - [escodegen](https://github.com/estools/escodegen) - ECMAScript代码生成。
   - [sval](https://github.com/Siubaak/sval) - 使用JavaScript编写的JavaScript解释器
   - [estree-walker](https://github.com/Rich-Harris/estree-walker) - 用于遍历ESTree兼容树的AST。
   - [periscopic](https://github.com/Rich-Harris/periscopic) - 用于分析符合ESTree的AST的作用域的工具。
