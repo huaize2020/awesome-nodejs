@@ -29,6 +29,8 @@ English | [简体中文](./README-zh-CN.md)
   - [Web Frameworks](#web-frameworks)
   - [Static Site Generator & Blogging](#static-site-generator--blogging)
   - [Real-time](#real-time)
+  - [Job Queues](#job-queues)
+  - [Job Scheduling](#job-scheduling)
   - [Debugging / Profiling](#debugging--profiling)
   - [Forum](#forum)
   - [Database](#database)
@@ -39,7 +41,6 @@ English | [简体中文](./README-zh-CN.md)
   - [Email](#email)
   - [HTTP](#http)
   - [Crawler](#crawler)
-  - [Job Scheduling](#job-scheduling)
   - [AST](#ast)
   - [Design To Code（D2C）](#design-to-coded2c)
   - [Sandbox](#sandbox)
@@ -457,6 +458,27 @@ English | [简体中文](./README-zh-CN.md)
 - [deepstream.io](https://github.com/deepstreamIO/deepstream.io-client-js) - Scalable real-time microservice framework.
 - [Kalm](https://github.com/kalm/kalm.js) - Low-level socket router and middleware framework.
 
+### Job Queues
+
+- [bull](https://github.com/OptimalBits/bull) - Persistent job and message queue.
+- [amqp](https://github.com/squaremo/amqp.node)- AMQP 0-9-1 library and client for Node.JS.
+- [kafka-node]( https://github.com/SOHU-Co/kafka-node)- Node.js client for Apache Kafka 0.8 and later.
+- [bee-queue](https://github.com/bee-queue/bee-queue) - High-performance Redis-backed job queue.
+  - [arena](https://github.com/bee-queue/arena) - An interactive UI dashboard for Bee Queue.
+- [rsmq](https://github.com/smrchy/rsmq) - Redis-backed message queue.
+- [sqs-consumer](https://github.com/bbc/sqs-consumer) - Build Amazon Simple Queue Service (SQS) based apps without the boilerplate.
+- [node-resque](https://github.com/taskrabbit/node-resque) - Redis-backed job queue.
+- [better-queue](https://github.com/diamondio/better-queue) - Simple and efficient job queue when you cannot use Redis.
+- [RedisSMQ](https://github.com/weyoss/redis-smq) - Simple high-performance Redis message queue with real-time monitoring.
+- [idoit](https://github.com/nodeca/idoit) - Redis-backed job queue engine with advanced job control.
+
+### Job Scheduling
+
+- [node-schedule](https://github.com/node-schedule/node-schedule) - A cron-like and not-cron-like job scheduler for Node.
+- [agenda](https://github.com/agenda/agenda) - Lightweight job scheduling for Node.js.
+- [node-cron](https://github.com/kelektiv/node-cron) - A tool that allows you to execute something on a schedule.
+- [cron-parser](https://github.com/harrisiirak/cron-parser) - Node.js library for parsing crontab instructions.
+
 ### Debugging / Profiling
 
 - [node-inspector](https://github.com/node-inspector/node-inspector) - Debugger based on Blink Developer Tools.
@@ -615,13 +637,6 @@ English | [简体中文](./README-zh-CN.md)
 
 - [node-crawler](https://github.com/bda-research/node-crawler) - Web Crawler/Spider for NodeJS + server-side jQuery.
 - [Headless Chrome Crawler](https://github.com/yujiosaka/headless-chrome-crawler) - Distributed crawler powered by Headless Chrome.
-
-### Job Scheduling
-
-- [node-schedule](https://github.com/node-schedule/node-schedule) - A cron-like and not-cron-like job scheduler for Node.
-- [agenda](https://github.com/agenda/agenda) - Lightweight job scheduling for Node.js.
-- [node-cron](https://github.com/kelektiv/node-cron) - A tool that allows you to execute something on a schedule.
-- [cron-parser](https://github.com/harrisiirak/cron-parser) - Node.js library for parsing crontab instructions.
 
 ### AST
 

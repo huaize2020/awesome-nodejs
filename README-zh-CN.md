@@ -34,6 +34,8 @@
   - [Web框架](#web框架)
   - [静态网站生成 & 博客](#静态网站生成--博客)
   - [实时通信](#实时通信)
+  - [任务队列](#任务队列)
+  - [定时任务](#定时任务)
   - [调试和剖析](#调试和剖析)
   - [论坛](#论坛)
   - [数据库](#数据库)
@@ -44,7 +46,6 @@
   - [邮箱](#邮箱)
   - [HTTP](#http)
   - [爬虫](#爬虫)
-  - [定时任务](#定时任务)
   - [AST](#ast)
   - [设计稿转代码（D2C）](#设计稿转代码d2c)
   - [沙箱](#沙箱)
@@ -407,6 +408,27 @@
 - [deepstream.io](https://github.com/deepstreamIO/deepstream.io-client-js) - 可扩展的实时通信微服务框架。
 - [Kalm](https://github.com/kalm/kalm.js) - 低级套接字路由器和中间件框架。
 
+### 任务队列
+
+- [bull](https://github.com/OptimalBits/bull) - 持久作业和消息队列。
+- [amqp](https://github.com/squaremo/amqp.node)- AMQP 0-9-1 rabbit消息队列连接库。
+- [kafka-node]( https://github.com/SOHU-Co/kafka-node)-  Apache Kafka 0.8 kafka客户端。
+- [bee-queue](https://github.com/bee-queue/bee-queue) - 高性能的 基于Redis的任务队列。
+  - [arena](https://github.com/bee-queue/arena) - bee-queue的交互式UI仪表盘。
+- [rsmq](https://github.com/smrchy/rsmq) - 基于Redis的消息队列.
+- [sqs-consumer](https://github.com/bbc/sqs-consumer) - 在没有样板文件的情况下构建基于Amazon简单队列服务（SQS）的应用程序.
+- [node-resque](https://github.com/taskrabbit/node-resque) - Redis支持的作业队列.
+- [better-queue](https://github.com/diamondio/better-queue) - 当你无法使用Redis时，简单高效的作业队列.
+- [RedisSMQ](https://github.com/weyoss/redis-smq) - 具有实时监控功能的简单高性能Redis消息队列.
+- [idoit](https://github.com/nodeca/idoit) - 具有高级作业控制的Redis支持的作业队列引擎.
+
+### 定时任务
+
+- [node-schedule](https://github.com/node-schedule/node-schedule) - 类Cron和不类似Cron的Node.js定时任务。
+- [agenda](https://github.com/agenda/agenda) - Node.js轻量级定时任务。
+- [node-cron](https://github.com/kelektiv/node-cron) - 允许执行定时任务的工具。
+- [cron-parser](https://github.com/harrisiirak/cron-parser) - 用于解析crontab指令的Node.js库。
+
 ### 调试和剖析
 
 - [node-inspector](https://github.com/node-inspector/node-inspector) - 基于Blink开发者工具的调试器。
@@ -558,20 +580,13 @@
   - [flashheart](https://github.com/bbc/flashheart) - REST 客户端。
 
 - 服务端库
-    - [http-server](https://github.com/http-party/http-server) - 零配置的命令行Http服务端。
-    - [anywhere](https://github.com/JacksonTian/anywhere) - 随启随用的静态文件服务器。
+  - [http-server](https://github.com/http-party/http-server) - 零配置的命令行Http服务端。
+  - [anywhere](https://github.com/JacksonTian/anywhere) - 随启随用的静态文件服务器。
 
 ### 爬虫
 
 - [node-crawler](https://github.com/bda-research/node-crawler) - NodeJS Web爬虫 + 服务端jQuery。
 - [Headless Chrome Crawler](https://github.com/yujiosaka/headless-chrome-crawler) - 使用Chrome无头浏览器的分布式爬虫。
-
-### 定时任务
-
-- [node-schedule](https://github.com/node-schedule/node-schedule) - 类Cron和不类似Cron的Node.js定时任务。
-- [agenda](https://github.com/agenda/agenda) - Node.js轻量级定时任务。
-- [node-cron](https://github.com/kelektiv/node-cron) - 允许执行定时任务的工具。
-- [cron-parser](https://github.com/harrisiirak/cron-parser) - 用于解析crontab指令的Node.js库。
 
 ### AST
 
