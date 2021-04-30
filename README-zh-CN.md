@@ -362,6 +362,7 @@
 - [Vite](https://github.com/vitejs/vite) - 新一代前端构建工具。
 - [esbuild](https://github.com/evanw/esbuild) - 极快的JavaScript打包压缩工具。
 - [rollup](https://github.com/rollup/rollup) - 新一代的 ES2015 打包构建工具。
+- [snowpack](https://github.com/snowpackjs/snowpack) - 由ESM支持的前端构建工具。 即时，轻量级，无捆绑开发。
 - [pkg](https://github.com/zeit/pkg) - 将Node.js项目打包成可执行文件。
 - [Grunt](https://github.com/gruntjs/grunt) - JavaScript任务执行器。
 - [Brunch](https://github.com/brunch/brunch) - 前端web应用程序构建工具，具有简单的声明性配置、快速的增量编译和自定的工作流。

@@ -413,6 +413,7 @@ English | [简体中文](./README-zh-CN.md)
 - [Vite](https://github.com/vitejs/vite) - Next Generation Frontend Tooling.
 - [esbuild](https://github.com/evanw/esbuild) - An extremely fast JavaScript bundler and minifier.
 - [rollup](https://github.com/rollup/rollup) - Next-generation ES2015 module bundler.
+- [snowpack](https://github.com/snowpackjs/snowpack) - ESM-powered frontend build tool. Instant, lightweight, unbundled development.
 - [pkg](https://github.com/zeit/pkg) - Package your Node.js project into an executable.
 - [Grunt](https://github.com/gruntjs/grunt) - JavaScript Task Runner
 - [Brunch](https://github.com/brunch/brunch) - Front-end web app build tool with simple declarative config, fast incremental compilation, and an opinionated workflow.
