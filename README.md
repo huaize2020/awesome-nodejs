@@ -38,6 +38,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Testing](#testing)
   - [Office](#office)
   - [OS Identification](#os-identification)
+  - [Minifiers](#minifiers)
   - [Email](#email)
   - [HTTP](#http)
   - [Crawler](#crawler)
@@ -87,6 +88,9 @@ English | [简体中文](./README-zh-CN.md)
   - [matcher](https://github.com/sindresorhus/matcher) - Simple wildcard matching.
   - [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - Escape RegExp special characters.
   - [execall](https://github.com/sindresorhus/execall) - Find multiple RegExp matches in a string.
+
+- Comparison
+  - [jsdiff](https://github.com/kpdecker/jsdiff) - A javascript text differencing implementation.
 
 - Other
   - [StegCloak](https://github.com/kurolabs/stegcloak) - Conceal secrets within strings, in plain sight.
@@ -602,6 +606,14 @@ English | [简体中文](./README-zh-CN.md)
 - [os-name](https://github.com/sindresorhus/os-name) - Get the name of the current operating system.
 - [getos](https://github.com/retrohacker/getos) - Retrieve the current OS, including Linux distribution.
 - [is-windows](https://github.com/jonschlinkert/is-windows) - Detect whether the current platform is Windows.
+
+### Minifiers
+
+- [UglifyJS](https://github.com/mishoo/UglifyJS) - JavaScript minifier.
+- [imagemin](https://github.com/imagemin/imagemin) - Image minifier.
+- [babili](https://github.com/babel/babili) - ES2015+ aware minifier based on the Babel toolchain.
+- [clean-css](https://github.com/jakubpawlowicz/clean-css) - CSS minifier.
+- [minimize](https://github.com/Swaagie/minimize) - HTML minifier.
 
 ### Email
 

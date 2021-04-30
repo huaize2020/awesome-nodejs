@@ -43,6 +43,7 @@
   - [测试相关](#测试相关)
   - [办公软件](#办公软件)
   - [操作系统识别](#操作系统识别)
+  - [文件压缩](#文件压缩)
   - [邮箱](#邮箱)
   - [HTTP](#http)
   - [爬虫](#爬虫)
@@ -93,6 +94,9 @@
   - [matcher](https://github.com/sindresorhus/matcher) - 简单通配符匹配。
   - [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - 转义特殊正则字符。
   - [execall](https://github.com/sindresorhus/execall) - 在字符串中查找多个RegExp匹配项。
+
+- 差异对比
+  - [jsdiff](https://github.com/kpdecker/jsdiff) - A javascript text differencing implementation.
 
 - 其他
   - [StegCloak](https://github.com/kurolabs/stegcloak) - 基于纯JavaScript开发的隐写功能模块，StegCloak可以对文本中的机密信息进行压缩和加密，然后再使用特殊的Unicode不可见字符来隐藏它。
@@ -552,6 +556,14 @@
 - [os-name](https://github.com/sindresorhus/os-name) - 获取当前操作系统的名字。
 - [getos](https://github.com/retrohacker/getos) - 获取当前操作系统名称，包括Linux的发行版名称。
 - [is-windows](https://github.com/jonschlinkert/is-windows) - 判断当前系统是否为Windows。
+
+### 文件压缩
+
+- [UglifyJS](https://github.com/mishoo/UglifyJS) - JavaScript 压缩工具.
+- [imagemin](https://github.com/imagemin/imagemin) - Image压缩工具.
+- [babili](https://github.com/babel/babili) -基于Babel工具链的 ES2015+ 压缩库.
+- [clean-css](https://github.com/jakubpawlowicz/clean-css) - CSS 压缩工具.
+- [minimize](https://github.com/Swaagie/minimize) - HTML压缩工具.
 
 ### 邮箱
 
