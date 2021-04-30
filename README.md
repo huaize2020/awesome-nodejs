@@ -340,6 +340,7 @@ English | [简体中文](./README-zh-CN.md)
 ### Parsing
 
 - Markdown
+  - [marked](https://github.com/markedjs/marked) - A markdown parser and compiler. Built for speed.
   - [remark](https://github.com/wooorm/remark) - Markdown processor powered by plugins.
   - [markdown-it](https://github.com/markdown-it/markdown-it) - Markdown parser with 100% CommonMark support, extensions and syntax plugins.
 
@@ -475,6 +476,7 @@ English | [简体中文](./README-zh-CN.md)
 ### Documentation
 
 - [Docusaurus](https://github.com/facebook/docusaurus) - Documentation website generator that leverages React and Markdown, and comes with translation and versioning features.
+- [docsify](https://github.com/docsifyjs/docsify) - 🃏 A magical documentation site generator.
 - [JSDoc](https://github.com/jsdoc3/jsdoc) - API documentation generator similar to JavaDoc or PHPDoc.
 - [documentation.js](https://github.com/documentationjs/documentation) - API documentation generator with support for ES2015+ and flow annotation.
 - [Docco](https://github.com/jashkenas/docco) - Documentation generator which produces an HTML document that displays your comments intermingled with your code.

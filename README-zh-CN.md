@@ -289,6 +289,7 @@
 ### 解析工具
 
 - Markdown
+  - [marked](https://github.com/markedjs/marked) - Markdown解析器和编译器，专为提高速度而设计。
   - [remark](https://github.com/wooorm/remark) - Markdown处理工具。
   - [markdown-it](https://github.com/markdown-it/markdown-it) - 支持100%通用Markdown标签解析的扩展&语法插件。
 
@@ -424,6 +425,7 @@
 ### 文档生成
 
 - [Docusaurus](https://github.com/facebook/docusaurus) - 使用React和Markdown并具有翻译和版本控制功能的文档站点生成器。
+- [docsify](https://github.com/docsifyjs/docsify) - API文档生成器。
 - [JSDoc](https://github.com/jsdoc3/jsdoc) - API文档生成器，类似于JavaDoc或PHPDoc。
 - [documentation.js](https://github.com/documentationjs/documentation) - API文档生成器，支持ES2015+和流程注释。
 - [Docco](https://github.com/jashkenas/docco) - 文档生成器，该生成器生成一个HTML文档，该文档显示与代码混合的注释。
