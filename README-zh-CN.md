@@ -33,6 +33,7 @@
   - [模板引擎](#模板引擎)
   - [Web框架](#web框架)
   - [静态网站生成 & 博客](#静态网站生成--博客)
+  - [文档生成](#文档生成)
   - [实时通信](#实时通信)
   - [任务队列](#任务队列)
   - [定时任务](#定时任务)
@@ -397,6 +398,14 @@
 - [react-static](https://github.com/react-static/react-static) - 渐进式的React静态网站生成工具。
 - [gridsome](https://github.com/gridsome/gridsome) - Vue.js静态网站生成工具。
 - [vitepress](https://github.com/vuejs/vitepress) - Vite & Vue.js静态网站生成工具。
+
+### 文档生成
+
+- [Docusaurus](https://github.com/facebook/docusaurus) - 使用React和Markdown并具有翻译和版本控制功能的文档站点生成器。
+- [JSDoc](https://github.com/jsdoc3/jsdoc) - API文档生成器，类似于JavaDoc或PHPDoc。
+- [documentation.js](https://github.com/documentationjs/documentation) - API文档生成器，支持ES2015+和流程注释。
+- [Docco](https://github.com/jashkenas/docco) - 文档生成器，该生成器生成一个HTML文档，该文档显示与代码混合的注释。
+- [ESDoc](https://github.com/esdoc/esdoc) - 针对ES2015的文档生成器，附加测试代码并衡量文档覆盖范围。
 
 ### 实时通信
 
