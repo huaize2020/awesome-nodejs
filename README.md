@@ -410,7 +410,8 @@ English | [简体中文](./README-zh-CN.md)
 - [webpack](https://github.com/webpack/webpack) - Packs modules and assets for the browser.
 - [parcel](https://github.com/parcel-bundler/parcel) - Blazing fast, zero config web app bundler.
 - [gulp](https://github.com/gulpjs/gulp) - Streaming and fast build system that favors code over config.
-- [Vite](https://github.com/vitejs/vite) - Next Generation Frontend Tooling
+- [Vite](https://github.com/vitejs/vite) - Next Generation Frontend Tooling.
+- [esbuild](https://github.com/evanw/esbuild) - An extremely fast JavaScript bundler and minifier.
 - [rollup](https://github.com/rollup/rollup) - Next-generation ES2015 module bundler.
 - [pkg](https://github.com/zeit/pkg) - Package your Node.js project into an executable.
 - [Grunt](https://github.com/gruntjs/grunt) - JavaScript Task Runner

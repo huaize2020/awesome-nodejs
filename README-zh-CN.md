@@ -360,6 +360,7 @@
 - [parcel](https://github.com/parcel-bundler/parcel) - 快速，零配置的Web应用构建工具。
 - [gulp](https://github.com/gulpjs/gulp) - 流式快速构建系统，支持代码而不是配置。
 - [Vite](https://github.com/vitejs/vite) - 新一代前端构建工具。
+- [esbuild](https://github.com/evanw/esbuild) - 极快的JavaScript打包压缩工具。
 - [rollup](https://github.com/rollup/rollup) - 新一代的 ES2015 打包构建工具。
 - [pkg](https://github.com/zeit/pkg) - 将Node.js项目打包成可执行文件。
 - [Grunt](https://github.com/gruntjs/grunt) - JavaScript任务执行器。
