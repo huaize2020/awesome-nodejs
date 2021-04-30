@@ -25,6 +25,7 @@
   - [Node.js管理工具](#nodejs管理工具)
   - [NPM](#npm)
   - [文件系统](#文件系统)
+  - [解析工具](#解析工具)
   - [Git](#git)
   - [日志](#日志)
   - [进程管理](#进程管理)
@@ -284,6 +285,27 @@
   - [jszip](https://github.com/Stuk/jszip) - 使用JavaScript创建、读取、编辑.zip文件。
   - [tar-fs](https://github.com/mafintosh/tar-fs) - tar-fs允许您将目录打包到tar格式压缩包中，并将tar格式压缩包提取到目录中。
   - [7zip](https://github.com/fritx/win-7zip) - Windows包压缩/解压 - 7zip。
+
+### 解析工具
+
+- Markdown
+  - [remark](https://github.com/wooorm/remark) - Markdown处理工具。
+  - [markdown-it](https://github.com/markdown-it/markdown-it) - 支持100%通用Markdown标签解析的扩展&语法插件。
+
+- CSV
+  - [neat-csv](https://github.com/sindresorhus/neat-csv) - 快速的CSV解析器。
+  - [csv-parser](https://github.com/mafintosh/csv-parser) - 旨在比其他任何人都快的流式CSV解析器。
+
+- YAML
+  - [js-yaml](https://github.com/nodeca/js-yaml) - 快速的YAML解析器。
+
+- XML
+  - [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) - 将XML转换为JavaScript对象的转换器。
+  - [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser) - 验证&解析 XML。
+
+- CSS
+  - [PostCSS](https://github.com/postcss/postcss) - CSS解析工具。
+  - [strip-css-comments](https://github.com/sindresorhus/strip-css-comments) - CSS注释剔除工具。
 
 ### Git
 

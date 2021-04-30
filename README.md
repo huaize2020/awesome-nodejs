@@ -20,6 +20,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Node.js Management](#nodejs-management)
   - [NPM](#npm)
   - [Filesystem](#filesystem)
+  - [Parsing](#parsing)
   - [Git](#git)
   - [Logging](#logging)
   - [Process management](#process-management)
@@ -144,6 +145,7 @@ English | [简体中文](./README-zh-CN.md)
 - [json5](https://github.com/json5/json5) - JSON5 — JSON for humans.
 - [fast-json-stringify](https://github.com/fastify/fast-json-stringify) - 2x faster than JSON.stringify()
 - [jsonfile](https://github.com/jprichardson/node-jsonfile) - Easily read/write JSON files.
+- [parse-json](https://github.com/sindresorhus/parse-json) - Parse JSON with more helpful errors.
 - [load-json-file](https://github.com/sindresorhus/load-json-file) - Read and parse a JSON file.
 - [write-json-file](https://github.com/sindresorhus/write-json-file) - Stringify and write JSON to a file atomically.
 
@@ -334,6 +336,27 @@ English | [简体中文](./README-zh-CN.md)
   - [jszip](https://github.com/Stuk/jszip) - Create, read and edit .zip files with Javascript.
   - [tar-fs](https://github.com/mafintosh/tar-fs) - Tar-fs allows you to pack directories into tarballs and extract tarballs into directories.
   - [7zip](https://github.com/fritx/win-7zip) - 7zip Windows Package via Node.js
+
+### Parsing
+
+- Markdown
+  - [remark](https://github.com/wooorm/remark) - Markdown processor powered by plugins.
+  - [markdown-it](https://github.com/markdown-it/markdown-it) - Markdown parser with 100% CommonMark support, extensions and syntax plugins.
+
+- CSV
+  - [neat-csv](https://github.com/sindresorhus/neat-csv) - Fast CSV parser. Callback interface for the above.
+  - [csv-parser](https://github.com/mafintosh/csv-parser) - Streaming CSV parser that aims to be faster than everyone else.
+
+- YAML
+  - [js-yaml](https://github.com/nodeca/js-yaml) - Very fast YAML parser.
+
+- XML
+  - [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) - XML to JavaScript object converter.
+  - [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser) - Validate and parse XML.
+
+- CSS
+  - [PostCSS](https://github.com/postcss/postcss) - CSS parser / stringifier.
+  - [strip-css-comments](https://github.com/sindresorhus/strip-css-comments) - Strip comments from CSS.
 
 ### Git
 
