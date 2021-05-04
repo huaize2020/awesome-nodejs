@@ -477,6 +477,7 @@
 - [node-inspector](https://github.com/node-inspector/node-inspector) - 基于Blink开发者工具的调试器。
 - [ndb](https://github.com/GoogleChromeLabs/ndb) - Chrome DevTools调试体验改进工具。
 - [debug](https://github.com/visionmedia/debug) - 轻量调试工具。
+- [Clinic.js](https://github.com/clinicjs/node-clinic) - Clinic.js诊断Node.js性能问题。
 - [ironNode](https://github.com/s-a/iron-node) - 支持ES2015的Node.js开箱即用的调试器。
 - [0x](https://github.com/davidmarkclements/0x) - 火焰图分析。
 - [leakage](https://github.com/andywer/leakage) - 内存写入泄漏测试。

@@ -528,6 +528,7 @@ English | [简体中文](./README-zh-CN.md)
 - [node-inspector](https://github.com/node-inspector/node-inspector) - Debugger based on Blink Developer Tools.
 - [ndb](https://github.com/GoogleChromeLabs/ndb) - Improved debugging experience, enabled by Chrome DevTools.
 - [debug](https://github.com/visionmedia/debug) - Tiny debugging utility.
+- [Clinic.js](https://github.com/clinicjs/node-clinic) - Clinic.js diagnoses your Node.js performance issues.
 - [ironNode](https://github.com/s-a/iron-node) - Node.js debugger supporting ES2015 out of the box.
 - [0x](https://github.com/davidmarkclements/0x) - Flamegraph profiling.
 - [leakage](https://github.com/andywer/leakage) - Write memory leak tests.
