@@ -73,6 +73,7 @@
   - [string-length](https://github.com/sindresorhus/string-length) - 获取字符串的真实长度 - 通过正确计算星号并忽略ansi转义码。
   - [strip-indent](https://github.com/sindresorhus/strip-indent) - 将字符串每一行中前置的空格删除。
   - [indent-string](https://github.com/sindresorhus/indent-string) - 将字符串每一行缩进。
+  - [redent](https://github.com/sindresorhus/redent) - 去除多余的缩进并缩进字符串。
   - [min-indent](https://github.com/jamiebuilds/min-indent) - 取每一行最少前置空格数。
   - [splice-string](https://github.com/sindresorhus/splice-string) - 移除或替换字符串的一部分。类似`Array#splice`.
 

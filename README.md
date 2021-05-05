@@ -67,6 +67,7 @@ English | [简体中文](./README-zh-CN.md)
   - [string-length](https://github.com/sindresorhus/string-length) - Get the real length of a string - by correctly counting astral symbols and ignoring ansi escape codes.
   - [strip-indent](https://github.com/sindresorhus/strip-indent) - Strip leading whitespace from every line in a string.
   - [indent-string](https://github.com/sindresorhus/indent-string) - Indent each line in a string.
+  - [redent](https://github.com/sindresorhus/redent) - Strip redundant indentation and indent the string.
   - [min-indent](https://github.com/jamiebuilds/min-indent) - Get the shortest leading whitespace from lines in a string.
   - [splice-string](https://github.com/sindresorhus/splice-string) - Remove or replace part of a string like `Array#splice`.
 
