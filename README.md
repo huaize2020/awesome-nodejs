@@ -688,6 +688,9 @@ English | [简体中文](./README-zh-CN.md)
   - [http-server](https://github.com/http-party/http-server) - A simple zero-configuration command-line http server.
   - [anywhere](https://github.com/JacksonTian/anywhere) - Running static file server anywhere.
 
+- Middleware
+  - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - ⚡ The one-liner node.js http-proxy middleware for connect, express and browser-sync.
+
 ### Crawler
 
 - [node-crawler](https://github.com/bda-research/node-crawler) - Web Crawler/Spider for NodeJS + server-side jQuery.

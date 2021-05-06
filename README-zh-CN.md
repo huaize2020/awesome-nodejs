@@ -637,6 +637,9 @@
   - [http-server](https://github.com/http-party/http-server) - 零配置的命令行Http服务端。
   - [anywhere](https://github.com/JacksonTian/anywhere) - 随启随用的静态文件服务器。
 
+- 中间件
+  - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - ⚡用于connect，express和browser-sync的单线Node.js Http代理中间件。
+
 ### 爬虫
 
 - [node-crawler](https://github.com/bda-research/node-crawler) - NodeJS Web爬虫 + 服务端jQuery。
