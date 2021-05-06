@@ -62,6 +62,7 @@ English | [简体中文](./README-zh-CN.md)
 - Common
   - [dedent](https://github.com/dmnd/dedent) - ES6 string tag that strips indentation from multi-line strings.
   - [camelcase](https://github.com/sindresorhus/camelcase) - Convert a dash/dot/underscore/space separated string to camelCase: foo-bar → fooBar.
+  - [string-width](https://github.com/sindresorhus/string-width) - Get the visual width of a string - the number of columns required to display it.
   - [decamelize](https://github.com/sindresorhus/decamelize) - Convert a camelized string into a lowercased one with a custom separator: unicornRainbow → unicorn_rainbow
   - [detect-indent](https://github.com/sindresorhus/detect-indent) - Detect the indentation of code.
   - [string-length](https://github.com/sindresorhus/string-length) - Get the real length of a string - by correctly counting astral symbols and ignoring ansi escape codes.
