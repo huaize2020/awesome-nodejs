@@ -241,6 +241,7 @@
   - [cnpm](https://github.com/cnpm/cnpm) - NPM中国区镜像客户端。
 
 - package.json
+  - [node-pkginfo](https://github.com/indexzero/node-pkginfo) - 从package.json读取属性的简单方法。
   - [read-pkg](https://github.com/sindresorhus/read-pkg) - 读取package.json文件。
   - [write-pkg](https://github.com/sindresorhus/write-pkg) - 写入package.json文件。
 

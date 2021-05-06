@@ -292,6 +292,7 @@ English | [简体中文](./README-zh-CN.md)
   - [cnpm](https://github.com/cnpm/cnpm) - Npm client for China mirror of npm.
 
 - package.json
+  - [node-pkginfo](https://github.com/indexzero/node-pkginfo) - An easy way to expose properties on a module from a package.json.
   - [read-pkg](https://github.com/sindresorhus/read-pkg) - Read a package.json file.
   - [write-pkg](https://github.com/sindresorhus/write-pkg) - Write a package.json file.
 
