@@ -305,6 +305,7 @@
 - XML
   - [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) - 将XML转换为JavaScript对象的转换器。
   - [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser) - 验证&解析 XML。
+  - [xmlbuilder](https://github.com/oozcitak/xmlbuilder-js) - XML构建器。
 
 - CSS
   - [PostCSS](https://github.com/postcss/postcss) - CSS解析工具。

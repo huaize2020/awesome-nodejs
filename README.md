@@ -356,6 +356,7 @@ English | [简体中文](./README-zh-CN.md)
 - XML
   - [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) - XML to JavaScript object converter.
   - [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser) - Validate and parse XML.
+  - [xmlbuilder](https://github.com/oozcitak/xmlbuilder-js) - An XML builder for node.js.
 
 - CSS
   - [PostCSS](https://github.com/postcss/postcss) - CSS parser / stringifier.
