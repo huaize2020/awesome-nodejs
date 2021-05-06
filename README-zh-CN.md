@@ -507,6 +507,7 @@
   - [MongoDB](https://github.com/mongodb/node-mongodb-native) - 官方MongoDB驱动。
   - [ioredis](https://github.com/luin/ioredis) - Redis客户端。
   - [LevelUP](https://github.com/Level/levelup) - LevelDB客户端。
+  - [memcached](https://github.com/3rd-Eden/memcached) - 功能齐全的Memcached Node.js客户端库。 考虑到扩展性，因此它将支持Memcached群集和一致的哈希。
   - [couchdb-nano](https://github.com/apache/couchdb-nano) - 官方CouchDB客户端。
   - [Couchbase](https://github.com/couchbase/couchnode) - Couchbase客户端（官方）。
   - [Aerospike](https://github.com/aerospike/aerospike-client-nodejs) - Aerospike客户端。
