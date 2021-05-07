@@ -222,6 +222,7 @@
 - [cli-table3](https://github.com/cli-table/cli-table3) - 命令行的漂亮unicode表。
 - [common-bin](https://github.com/node-modules/common-bin) - 基于yargs的命令行工具抽象，提供更方便的使用，支持async/generator。
 - [kolorist](https://github.com/marvinhagemeister/kolorist) - 使用输入和输出色彩化的小工具。
+- [console-clear](https://github.com/lukeed/console-clear) - 跨平台清空控制台。
 
 ### Node.js管理工具
 

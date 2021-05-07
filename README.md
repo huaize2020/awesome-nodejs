@@ -273,6 +273,7 @@ English | [简体中文](./README-zh-CN.md)
 - [cli-table3](https://github.com/cli-table/cli-table3) - Pretty unicode tables for the command line.
 - [common-bin](https://github.com/node-modules/common-bin) - Abstraction bin tool wrap yargs, to provide more convenient usage, support async / generator.
 - [kolorist](https://github.com/marvinhagemeister/kolorist) - A tiny utility to colorize stdin/stdout.
+- [console-clear](https://github.com/lukeed/console-clear) - Clear the console, cross-platform.
 
 ### Node.js Management
 
