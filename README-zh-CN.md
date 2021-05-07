@@ -571,6 +571,7 @@
 - 覆盖率
   - [nyc](https://github.com/istanbuljs/nyc) - Istanbul的命令行工具。
   - [node-coveralls](https://github.com/nickmerwin/node-coveralls) - 借助持续集成服务(Travis CI 或 Jenkins) 向用户报告自动测试的测试覆盖率；为README添加一个很酷的覆盖率按钮。
+  - [codecov](https://github.com/codecov/codecov-node) - NodeJS中代码覆盖率报告上载器。
 
 ### 办公软件
 
