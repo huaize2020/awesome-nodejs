@@ -663,6 +663,7 @@
   - [antlr](https://github.com/antlr/antlr4) - ANTLR (ANother Tool for Language Recognition)是一个用于阅读、处理、执行和翻译结构化文本或二进制文件的强大的解析生成器。
   - [acorn](https://github.com/acornjs/acorn) - 小巧、快速的JavaScript解析器。
   - [esprima](https://github.com/jquery/esprima) - 高性能、符合ECMASCRIPT标准的解析器。
+  - [recast](https://github.com/benjamn/recast) - JavaScript语法树转换器，非破坏性漂亮print和自动source map生成器。
   - [espree](https://github.com/eslint/espree) - 与Esprima兼容的JavaScript解析器。
   - [csstree](https://github.com/csstree/csstree) - 基于W3C标准和浏览器标准实现，包含快速详细的解析器、遍历器、生成器、词法解析的CSS工具集。
   - [es-module-lexer](https://github.com/guybedford/es-module-lexer) - 低开销的词法分析器，专门用于ES模块快速分析解析。
