@@ -87,6 +87,7 @@
 - 唯一ID
   - [nanoid](https://github.com/ai/nanoid) - 小巧、安全、URL友好、唯一的字符串ID生成器。
   - [uuid](https://github.com/uuidjs/uuid) - 在JavaScript中生成符合RFC规范的UUID。
+  - [shortid](https://github.com/dylang/shortid) - 短ID生成器。 网址友好。 不可预测的。 集群兼容。
   - [pure-uuid](https://github.com/rse/pure-uuid) - 基于纯JavaScript全局唯一ID(UUID)。
 
 - 编码/解码
@@ -218,6 +219,7 @@
 - [progress-estimator](https://github.com/bvaughn/progress-estimator) - 记录进度条并估计完成承诺所需的时间。
 - [update-notifier](https://github.com/yeoman/update-notifier) - 为你的CLI应用提供的更新提示。
 - [cac](https://github.com/cacjs/cac) - 用于构建命令行应用的强大框架。
+- [boxen](https://github.com/sindresorhus/boxen) - 控制台中创建盒子。
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - 为不同日志级别添加色彩图标。
 - [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - 在命令行/终端应用中轻松的使用进度条。
 - [cli-table3](https://github.com/cli-table/cli-table3) - 命令行的漂亮unicode表。

@@ -80,6 +80,7 @@ English | [简体中文](./README-zh-CN.md)
 - Unique Id
   - [nanoid](https://github.com/ai/nanoid) - Tiny, secure, URL-friendly, unique string ID generator.
   - [uuid](https://github.com/uuidjs/uuid) - Generate RFC-compliant UUIDs in JavaScript.
+  - [shortid](https://github.com/dylang/shortid) - Short id generator. Url-friendly. Non-predictable. Cluster-compatible.
   - [pure-uuid](https://github.com/rse/pure-uuid) - Pure JavaScript Based Universally Unique Identifiers (UUID).
 
 - Encode/Decode
@@ -268,6 +269,7 @@ English | [简体中文](./README-zh-CN.md)
 - [progress-estimator](https://github.com/bvaughn/progress-estimator) - Logs a progress bar and estimation for how long a Promise will take to complete.
 - [update-notifier](https://github.com/yeoman/update-notifier) - Update notifications for your CLI app.
 - [cac](https://github.com/cacjs/cac) - Simple yet powerful framework for building command-line apps.
+- [boxen](https://github.com/sindresorhus/boxen) - Create boxes in the terminal.
 - [log-symbols](https://github.com/sindresorhus/log-symbols) - Colored symbols for various log levels.
 - [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - Easy to use progress-bar for command-line/terminal applications.
 - [cli-table3](https://github.com/cli-table/cli-table3) - Pretty unicode tables for the command line.
