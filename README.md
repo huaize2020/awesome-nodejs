@@ -40,7 +40,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Testing](#testing)
   - [Office](#office)
   - [OS Identification](#os-identification)
-  - [Minifiers](#minifiers)
+  - [Compression / Decompression](#compression--decompression)
   - [Email](#email)
   - [HTTP](#http)
   - [Crawler](#crawler)
@@ -335,11 +335,6 @@ English | [简体中文](./README-zh-CN.md)
   - [glob](https://github.com/isaacs/node-glob) - Glob functionality for node.js.
   - [globby](https://github.com/sindresorhus/globby) - Based on fast-glob but adds a bunch of useful features.
   - [fast-glob](https://github.com/mrmlnc/fast-glob) - Very fast and efficient glob library for Node.js.
-
-- Compression / Decompression
-  - [jszip](https://github.com/Stuk/jszip) - Create, read and edit .zip files with Javascript.
-  - [tar-fs](https://github.com/mafintosh/tar-fs) - Tar-fs allows you to pack directories into tarballs and extract tarballs into directories.
-  - [7zip](https://github.com/fritx/win-7zip) - 7zip Windows Package via Node.js
 
 ### Parsing
 
@@ -653,13 +648,20 @@ English | [简体中文](./README-zh-CN.md)
 - [getos](https://github.com/retrohacker/getos) - Retrieve the current OS, including Linux distribution.
 - [is-windows](https://github.com/jonschlinkert/is-windows) - Detect whether the current platform is Windows.
 
-### Minifiers
+### Compression / Decompression
 
-- [UglifyJS](https://github.com/mishoo/UglifyJS) - JavaScript minifier.
-- [imagemin](https://github.com/imagemin/imagemin) - Image minifier.
-- [babili](https://github.com/babel/babili) - ES2015+ aware minifier based on the Babel toolchain.
-- [clean-css](https://github.com/jakubpawlowicz/clean-css) - CSS minifier.
-- [minimize](https://github.com/Swaagie/minimize) - HTML minifier.
+- Compression / Decompression
+  - [jszip](https://github.com/Stuk/jszip) - Create, read and edit .zip files with Javascript.
+  - [adm-zip](https://github.com/cthackers/adm-zip) - Create, read and edit .zip files with Javascript.
+  - [tar-fs](https://github.com/mafintosh/tar-fs) - Tar-fs allows you to pack directories into tarballs and extract tarballs into directories.
+  - [7zip](https://github.com/fritx/win-7zip) - 7zip Windows Package via Node.js.
+
+- Minifiers
+  - [UglifyJS](https://github.com/mishoo/UglifyJS) - JavaScript minifier.
+  - [imagemin](https://github.com/imagemin/imagemin) - Image minifier.
+  - [babili](https://github.com/babel/babili) - ES2015+ aware minifier based on the Babel toolchain.
+  - [clean-css](https://github.com/jakubpawlowicz/clean-css) - CSS minifier.
+  - [minimize](https://github.com/Swaagie/minimize) - HTML minifier.
 
 ### Email
 

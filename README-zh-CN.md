@@ -45,7 +45,8 @@
   - [测试相关](#测试相关)
   - [办公软件](#办公软件)
   - [操作系统识别](#操作系统识别)
-  - [文件压缩](#文件压缩)
+  - [文件压缩解压](#文件压缩解压)
+  - [和解压](#和解压)
   - [邮箱](#邮箱)
   - [HTTP](#http)
   - [爬虫](#爬虫)
@@ -284,11 +285,6 @@
   - [glob](https://github.com/isaacs/node-glob) - Node.js版glob功能。
   - [globby](https://github.com/sindresorhus/globby) - 基于fast-glob，但添加了很多有用的特性。
   - [fast-glob](https://github.com/mrmlnc/fast-glob) - 非常快速且高效的Node.js glob库。
-
-- 压缩和解压
-  - [jszip](https://github.com/Stuk/jszip) - 使用JavaScript创建、读取、编辑.zip文件。
-  - [tar-fs](https://github.com/mafintosh/tar-fs) - tar-fs允许您将目录打包到tar格式压缩包中，并将tar格式压缩包提取到目录中。
-  - [7zip](https://github.com/fritx/win-7zip) - Windows包压缩/解压 - 7zip。
 
 ### 解析工具
 
@@ -602,13 +598,22 @@
 - [getos](https://github.com/retrohacker/getos) - 获取当前操作系统名称，包括Linux的发行版名称。
 - [is-windows](https://github.com/jonschlinkert/is-windows) - 判断当前系统是否为Windows。
 
-### 文件压缩
+### 文件压缩解压
 
-- [UglifyJS](https://github.com/mishoo/UglifyJS) - JavaScript 压缩工具.
-- [imagemin](https://github.com/imagemin/imagemin) - Image压缩工具.
-- [babili](https://github.com/babel/babili) -基于Babel工具链的 ES2015+ 压缩库.
-- [clean-css](https://github.com/jakubpawlowicz/clean-css) - CSS 压缩工具.
-- [minimize](https://github.com/Swaagie/minimize) - HTML压缩工具.
+- 压缩解压
+  - [jszip](https://github.com/Stuk/jszip) - 使用JavaScript创建、读取、编辑.zip文件。
+  - [adm-zip](https://github.com/cthackers/adm-zip) - 使用JavaScript创建、读取、编辑.zip文件。
+  - [tar-fs](https://github.com/mafintosh/tar-fs) - tar-fs允许您将目录打包到tar格式压缩包中，并将tar格式压缩包提取到目录中。
+  - [7zip](https://github.com/fritx/win-7zip) - Windows包压缩/解压 - 7zip。
+
+- 最小化
+  - [UglifyJS](https://github.com/mishoo/UglifyJS) - JavaScript 压缩工具.
+  - [imagemin](https://github.com/imagemin/imagemin) - Image压缩工具.
+  - [babili](https://github.com/babel/babili) -基于Babel工具链的 ES2015+ 压缩库.
+  - [clean-css](https://github.com/jakubpawlowicz/clean-css) - CSS 压缩工具.
+  - [minimize](https://github.com/Swaagie/minimize) - HTML压缩工具.
+
+### 和解压
 
 ### 邮箱
 
