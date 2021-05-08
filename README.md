@@ -714,6 +714,7 @@ English | [简体中文](./README-zh-CN.md)
   - [recast](https://github.com/benjamn/recast) - JavaScript syntax tree transformer, nondestructive pretty-printer, and automatic source map generator.
   - [espree](https://github.com/eslint/espree) - Esprima-compatible JavaScript parser.
   - [csstree](https://github.com/csstree/csstree) - Tool set for CSS including fast detailed parser, walker, generator and lexer based on W3C specs and browser implementations.
+  - [himalaya](https://github.com/andrejewski/himalaya) - JavaScript HTML to JSON Parser.
   - [es-module-lexer](https://github.com/guybedford/es-module-lexer) - Low-overhead lexer dedicated to ES module parsing for fast analysis.
 
 - Codegen

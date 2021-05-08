@@ -666,6 +666,7 @@
   - [recast](https://github.com/benjamn/recast) - JavaScript语法树转换器，非破坏性漂亮print和自动source map生成器。
   - [espree](https://github.com/eslint/espree) - 与Esprima兼容的JavaScript解析器。
   - [csstree](https://github.com/csstree/csstree) - 基于W3C标准和浏览器标准实现，包含快速详细的解析器、遍历器、生成器、词法解析的CSS工具集。
+  - [himalaya](https://github.com/andrejewski/himalaya) - 将HTML转化为JSON的解析器。
   - [es-module-lexer](https://github.com/guybedford/es-module-lexer) - 低开销的词法分析器，专门用于ES模块快速分析解析。
 
 - 代码生成
