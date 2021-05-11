@@ -587,6 +587,7 @@
 - PDF
   - [PDFKit](https://github.com/foliojs/pdfkit) - 在Node.js和浏览器中生成PDF的库。
   - [percollate](https://github.com/danburzo/percollate) - 一个命令行工具，可将网页转换为漂亮的，可读的PDF，EPUB或HTML文档。
+  - [pdf-lib](https://github.com/Hopding/pdf-lib) - 在任意JavaScript环境中创建和修改PDF文档。
   - [pdf2json](https://github.com/modesty/pdf2json) - PDF文件解析器，它将PDF二进制文件转换为基于文本的JSON。
 
 - PPT
