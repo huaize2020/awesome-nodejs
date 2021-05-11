@@ -260,6 +260,7 @@ English | [简体中文](./README-zh-CN.md)
 - [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - Collection of common interactive command line user interfaces.
 - [yargs](https://github.com/yargs/yargs) - Collection of common interactive command line user interfaces.
 - [ora](https://github.com/sindresorhus/ora) - Elegant terminal spinner.
+- [oclif](https://github.com/oclif/oclif) - Node.js Open CLI Framework. Built with 💜 by Heroku.
 - [Enquirer](https://github.com/enquirer/enquirer) - Stylish CLI prompts that are user-friendly, intuitive and easy to create.
 - [minimist](https://github.com/substack/minimist) - Guts of optimist's argument parser without all the fanciful decoration.
 - [concurrently](https://github.com/kimmobrunfeldt/concurrently) - Run commands concurrently. Like `npm run watch-js & npm run watch-less` but better.

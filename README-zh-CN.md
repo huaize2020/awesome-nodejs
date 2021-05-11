@@ -209,6 +209,7 @@
 - [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - 通用可交互命令行工具集合。
 - [yargs](https://github.com/yargs/yargs) - 通用可交互命令行工具集合。
 - [ora](https://github.com/sindresorhus/ora) - 优雅的命令行loading效果。
+- [oclif](https://github.com/oclif/oclif) - 基于Heroku开源Node.js CLI框架。
 - [Enquirer](https://github.com/enquirer/enquirer) - 用户友好、直观且易于创建的时尚CLI提示。
 - [minimist](https://github.com/substack/minimist) - 命令行参数解析引擎。
 - [concurrently](https://github.com/kimmobrunfeldt/concurrently) - 并行执行命令，类似 `npm run watch-js & npm run watch-less`但更优。
