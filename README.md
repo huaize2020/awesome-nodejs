@@ -396,6 +396,7 @@ English | [简体中文](./README-zh-CN.md)
 - [node-windows](https://github.com/coreybutler/node-windows) - Run scripts as a native Windows service and log to the Event viewer.
 - [node-mac](https://github.com/coreybutler/node-mac) - Run scripts as a native Mac daemon and log to the console app.
 - [node-linux](https://github.com/coreybutler/node-linux) - Run scripts as native system service and log to syslog.
+- [current-processes](https://github.com/branneman/current-processes) - Node.js library to get a snapshot of the currently running processes, OS-agnostic.
 
 ### Linter & Formatter
 

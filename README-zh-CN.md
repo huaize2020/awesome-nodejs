@@ -345,6 +345,7 @@
 - [node-windows](https://github.com/coreybutler/node-windows) - 将脚本作为本机Windows服务运行，并登录到事件查看器。
 - [node-mac](https://github.com/coreybutler/node-mac) - 将脚本作为本机Mac守护进程运行，并登录到控制台应用程序。
 - [node-linux](https://github.com/coreybutler/node-linux) - 将脚本作为本机系统服务运行，并登录到syslog。
+- [current-processes](https://github.com/branneman/current-processes) - 可获取当前正在运行的进程快照（操作系统无关）。
 
 ### 代码校验 和 格式化工具
 
