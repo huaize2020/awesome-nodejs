@@ -533,6 +533,7 @@
 
 ### 缓存
 
+- [lru-cache](https://github.com/isaacs/node-lru-cache) - 最近最少使用的缓存（LRU）实现。
 - [node-cache](https://github.com/node-cache/node-cache) - Node.js内存缓存模块。
 - [memcached](https://github.com/3rd-Eden/memcached) - 功能齐全的Memcached Node.js客户端库。 考虑到扩展性，因此它将支持Memcached群集和一致的哈希。
 

@@ -584,6 +584,7 @@ English | [简体中文](./README-zh-CN.md)
 
 ### Cache
 
+- [lru-cache](https://github.com/isaacs/node-lru-cache) - A cache object that deletes the least-recently-used items.
 - [node-cache](https://github.com/node-cache/node-cache) - A node internal (in-memory) caching module.
 - [memcached](https://github.com/3rd-Eden/memcached) - A fully featured Memcached client build on top of Node.js. Build with scaling in mind so it will support Memcached clusters and consistent hashing.
 
