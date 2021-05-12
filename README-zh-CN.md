@@ -96,6 +96,7 @@
   - [jschardet](https://github.com/aadsm/jschardet) - JavaScript编码自动识别 (Python版chardet的实现)。
 
 - 正则/通配符匹配
+  - [path-to-regexp](https://github.com/pillarjs/path-to-regexp) - 将路径字符串（如`/user/:name`）转化为正则。
   - [minimatch](https://github.com/isaacs/minimatch) - 最小匹配工具。
   - [matcher](https://github.com/sindresorhus/matcher) - 简单通配符匹配。
   - [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - 转义特殊正则字符。
@@ -484,6 +485,7 @@
 - [debug](https://github.com/visionmedia/debug) - 轻量调试工具。
 - [Clinic.js](https://github.com/clinicjs/node-clinic) - Clinic.js诊断Node.js性能问题。
 - [ironNode](https://github.com/s-a/iron-node) - 支持ES2015的Node.js开箱即用的调试器。
+- [node-heapdump](https://github.com/bnoordhuis/node-heapdump) - 存储V8内存堆使用情况，以供以后诊断。
 - [0x](https://github.com/davidmarkclements/0x) - 火焰图分析。
 - [leakage](https://github.com/andywer/leakage) - 内存写入泄漏测试。
 - [why-is-node-running](https://github.com/mafintosh/why-is-node-running) - 当不明Node原因继续运行时，使用的分析工具。
@@ -495,6 +497,7 @@
 - [NiM](https://github.com/june07/nim) - 管理DevTools调试工具流。
 - [thetool](https://github.com/sfninja/thetool) - 以Chrome DevTools友好格式为您的应用捕获不同的CPU，内存和其他配置文件。
 - [ctrace](https://github.com/automation-stack/ctrace) - 格式正确且经过改进的跟踪系统调用和信号。
+- [v8-profiler-next](https://github.com/hyj1991/v8-profiler-next) - V8性能探测器。
 - [vstream](https://github.com/joyent/node-vstream) - 可检测的流混入以检查流的管道。
 
 ### 论坛
@@ -536,6 +539,8 @@
 - [lru-cache](https://github.com/isaacs/node-lru-cache) - 最近最少使用的缓存（LRU）实现。
 - [node-cache](https://github.com/node-cache/node-cache) - Node.js内存缓存模块。
 - [memcached](https://github.com/3rd-Eden/memcached) - 功能齐全的Memcached Node.js客户端库。 考虑到扩展性，因此它将支持Memcached群集和一致的哈希。
+- [hashlru](https://github.com/dominictarr/hashlru) - 更轻量更快的LRU算法。
+- [ylru](https://github.com/node-modules/ylru) - 基于hashlru添加过期时间，允许空值。
 
 ### 自动化 & 机器人流程自动化 - RPA
 

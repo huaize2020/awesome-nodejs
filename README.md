@@ -90,6 +90,7 @@ English | [简体中文](./README-zh-CN.md)
   - [jschardet](https://github.com/aadsm/jschardet) - Character encoding auto-detection in JavaScript (port of python's chardet)
 
 - RegExp/Glob
+  - [path-to-regexp](https://github.com/pillarjs/path-to-regexp) - Turn a path string such as `/user/:name` into a regular expression.
   - [minimatch](https://github.com/isaacs/minimatch) - A minimal matching utility.
   - [matcher](https://github.com/sindresorhus/matcher) - Simple wildcard matching.
   - [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - Escape RegExp special characters.
@@ -535,6 +536,7 @@ English | [简体中文](./README-zh-CN.md)
 - [debug](https://github.com/visionmedia/debug) - Tiny debugging utility.
 - [Clinic.js](https://github.com/clinicjs/node-clinic) - Clinic.js diagnoses your Node.js performance issues.
 - [ironNode](https://github.com/s-a/iron-node) - Node.js debugger supporting ES2015 out of the box.
+- [node-heapdump](https://github.com/bnoordhuis/node-heapdump) - Make a dump of the V8 heap for later inspection.
 - [0x](https://github.com/davidmarkclements/0x) - Flamegraph profiling.
 - [leakage](https://github.com/andywer/leakage) - Write memory leak tests.
 - [why-is-node-running](https://github.com/mafintosh/why-is-node-running) - Node.js is running but you don't know why?
@@ -546,6 +548,7 @@ English | [简体中文](./README-zh-CN.md)
 - [NiM](https://github.com/june07/nim) - Manages DevTools debugging workflow.
 - [thetool](https://github.com/sfninja/thetool) - Capture different CPU, memory, and other profiles for your app in Chrome DevTools friendly format.
 - [ctrace](https://github.com/automation-stack/ctrace) - Well-formatted and improved trace system calls and signals.
+- [v8-profiler-next](https://github.com/hyj1991/v8-profiler-next) - Node bindings for the v8 profiler.
 - [vstream](https://github.com/joyent/node-vstream) - Instrumentable streams mix-ins to inspect a pipeline of streams.
 
 ### Forum
@@ -587,6 +590,8 @@ English | [简体中文](./README-zh-CN.md)
 - [lru-cache](https://github.com/isaacs/node-lru-cache) - A cache object that deletes the least-recently-used items.
 - [node-cache](https://github.com/node-cache/node-cache) - A node internal (in-memory) caching module.
 - [memcached](https://github.com/3rd-Eden/memcached) - A fully featured Memcached client build on top of Node.js. Build with scaling in mind so it will support Memcached clusters and consistent hashing.
+- [hashlru](https://github.com/dominictarr/hashlru) - Simpler, faster LRU cache algorithm.
+- [ylru](https://github.com/node-modules/ylru) - Add "expire", "allow set empty value" extends on hashlru.
 
 ### Automation & RPA
 
