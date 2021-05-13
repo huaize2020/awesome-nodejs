@@ -16,6 +16,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Data Validation](#data-validation)
   - [Shell](#shell)
   - [Environment](#environment)
+  - [Event](#event)
   - [Command-line Utilities](#command-line-utilities)
   - [Node.js Management](#nodejs-management)
   - [NPM](#npm)
@@ -254,6 +255,9 @@ English | [简体中文](./README-zh-CN.md)
 - [username](https://github.com/sindresorhus/username) - Get the current username.
 - [osenv](https://github.com/npm/osenv) - Cross-platform environment variables.
 - [is-elevated](https://github.com/sindresorhus/is-elevated) - Check if the process is running with elevated privileges.
+
+### Event
+- [ee-first](https://github.com/jonathanong/ee-first) - Get the first event in a set of event emitters and event pairs, then clean up after itself.
 
 ### Command-line Utilities
 

@@ -21,6 +21,7 @@
   - [数据校验](#数据校验)
   - [Shell命令](#shell命令)
   - [环境变量](#环境变量)
+  - [事件](#事件)
   - [命令行工具](#命令行工具)
   - [Node.js管理工具](#nodejs管理工具)
   - [NPM](#npm)
@@ -203,6 +204,9 @@
 - [username](https://github.com/sindresorhus/username) - 获取当前用户名。
 - [osenv](https://github.com/npm/osenv) - 跨平台环境变量。
 - [is-elevated](https://github.com/sindresorhus/is-elevated) - 检查进程是否以提升的权限运行。
+
+### 事件
+- [ee-first](https://github.com/jonathanong/ee-first) - 获取一组EventEmitter和Event对中的第一个事件，然后对其进行清理。
 
 ### 命令行工具
 
