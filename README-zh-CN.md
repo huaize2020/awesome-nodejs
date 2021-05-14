@@ -468,6 +468,7 @@
 - [kafka-node]( https://github.com/SOHU-Co/kafka-node)-  Apache Kafka 0.8 kafka客户端。
 - [bee-queue](https://github.com/bee-queue/bee-queue) - 高性能的 基于Redis的任务队列。
   - [arena](https://github.com/bee-queue/arena) - bee-queue的交互式UI仪表盘。
+- [kafkajs](https://github.com/tulios/kafkajs) - A modern Apache Kafka client for node.js.
 - [rsmq](https://github.com/smrchy/rsmq) - 基于Redis的消息队列.
 - [sqs-consumer](https://github.com/bbc/sqs-consumer) - 在没有样板文件的情况下构建基于Amazon简单队列服务（SQS）的应用程序.
 - [node-resque](https://github.com/taskrabbit/node-resque) - Redis支持的作业队列.
@@ -543,6 +544,7 @@
 - [lru-cache](https://github.com/isaacs/node-lru-cache) - 最近最少使用的缓存（LRU）实现。
 - [node-cache](https://github.com/node-cache/node-cache) - Node.js内存缓存模块。
 - [memcached](https://github.com/3rd-Eden/memcached) - 功能齐全的Memcached Node.js客户端库。 考虑到扩展性，因此它将支持Memcached群集和一致的哈希。
+- [node-cache-manager](https://github.com/BryanDonovan/node-cache-manager) - Node.js Cache模块。
 - [hashlru](https://github.com/dominictarr/hashlru) - 更轻量更快的LRU算法。
 - [ylru](https://github.com/node-modules/ylru) - 基于hashlru添加过期时间，允许空值。
 
@@ -582,11 +584,17 @@
   - [ava](https://github.com/avajs/ava) - 面向未来的测试运行程序。
   - [jasmine](https://github.com/jasmine/jasmine) - 简单的Node.js和浏览器测试框架。
   - [supertest](https://github.com/visionmedia/supertest) - 使用流畅的API，基于Super-agent库测试Node.js HTTP服务器。
+  - [node-tap](https://github.com/tapjs/node-tap) - 用于Node.js测试任何协议的工具。
 
 - 覆盖率
   - [nyc](https://github.com/istanbuljs/nyc) - Istanbul的命令行工具。
   - [node-coveralls](https://github.com/nickmerwin/node-coveralls) - 借助持续集成服务(Travis CI 或 Jenkins) 向用户报告自动测试的测试覆盖率；为README添加一个很酷的覆盖率按钮。
   - [codecov](https://github.com/codecov/codecov-node) - NodeJS中代码覆盖率报告上载器。
+
+- 基准测试
+  - [Benchmark.js](https://github.com/bestiejs/benchmark.js) - 基准测试库，支持高分辨率计时器并返回具有统计意义的结果。
+  - [matcha](https://github.com/logicalparadox/matcha) - 基准测试的简化方法。
+  - [node-wrk](https://github.com/sidorares/node-wrk) - Wrk负载测试工具Node.js版封装。
 
 ### 办公软件
 

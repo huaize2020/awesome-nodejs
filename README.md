@@ -519,6 +519,7 @@ English | [简体中文](./README-zh-CN.md)
 - [kafka-node]( https://github.com/SOHU-Co/kafka-node)- Node.js client for Apache Kafka 0.8 and later.
 - [bee-queue](https://github.com/bee-queue/bee-queue) - High-performance Redis-backed job queue.
   - [arena](https://github.com/bee-queue/arena) - An interactive UI dashboard for Bee Queue.
+- [kafkajs](https://github.com/tulios/kafkajs) - A modern Apache Kafka client for node.js.
 - [rsmq](https://github.com/smrchy/rsmq) - Redis-backed message queue.
 - [sqs-consumer](https://github.com/bbc/sqs-consumer) - Build Amazon Simple Queue Service (SQS) based apps without the boilerplate.
 - [node-resque](https://github.com/taskrabbit/node-resque) - Redis-backed job queue.
@@ -594,6 +595,7 @@ English | [简体中文](./README-zh-CN.md)
 - [lru-cache](https://github.com/isaacs/node-lru-cache) - A cache object that deletes the least-recently-used items.
 - [node-cache](https://github.com/node-cache/node-cache) - A node internal (in-memory) caching module.
 - [memcached](https://github.com/3rd-Eden/memcached) - A fully featured Memcached client build on top of Node.js. Build with scaling in mind so it will support Memcached clusters and consistent hashing.
+- [node-cache-manager](https://github.com/BryanDonovan/node-cache-manager) - Cache module for Node.JS.
 - [hashlru](https://github.com/dominictarr/hashlru) - Simpler, faster LRU cache algorithm.
 - [ylru](https://github.com/node-modules/ylru) - Add "expire", "allow set empty value" extends on hashlru.
 
@@ -633,11 +635,17 @@ English | [简体中文](./README-zh-CN.md)
   - [ava](https://github.com/avajs/ava) - Node.js test runner that lets you develop with confidence 🚀.
   - [jasmine](https://github.com/jasmine/jasmine) - Simple JavaScript testing framework for browsers and node.js.
   - [supertest](https://github.com/visionmedia/supertest) - Super-agent driven library for testing node.js HTTP servers using a fluent API.
+  - [node-tap](https://github.com/tapjs/node-tap) - Test Anything Protocol tools for node.
 
 - Coverage
   - [nyc](https://github.com/istanbuljs/nyc) - The Istanbul command line interface.
   - [node-coveralls](https://github.com/nickmerwin/node-coveralls) - Coveralls.io support for Node.js. Get the great coverage reporting of coveralls.io and add a cool coverage button (like the one above) to your README.
   - [codecov](https://github.com/codecov/codecov-node) - Global coverage report uploader for Codecov in NodeJS.
+
+- Benchmarking
+  - [Benchmark.js](https://github.com/bestiejs/benchmark.js) - Benchmarking library that supports high-resolution timers and returns statistically significant results.
+  - [matcha](https://github.com/logicalparadox/matcha) - Simplistic approach to benchmarking.
+  - [node-wrk](https://github.com/sidorares/node-wrk) - Wrk load testing tool node wrapper.
 
 ### Office
 
