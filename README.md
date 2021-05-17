@@ -155,6 +155,7 @@ English | [简体中文](./README-zh-CN.md)
 - [parse-json](https://github.com/sindresorhus/parse-json) - Parse JSON with more helpful errors.
 - [load-json-file](https://github.com/sindresorhus/load-json-file) - Read and parse a JSON file.
 - [write-json-file](https://github.com/sindresorhus/write-json-file) - Stringify and write JSON to a file atomically.
+- [jsonuri](https://github.com/aligay/jsonuri) - Use URI style methods to operate data.
 
 ### Streams
 

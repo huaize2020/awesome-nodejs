@@ -160,6 +160,7 @@
 - [jsonfile](https://github.com/jprichardson/node-jsonfile) - 轻松读写JSON文件。
 - [load-json-file](https://github.com/sindresorhus/load-json-file) - 读取并解析JSON文件。
 - [write-json-file](https://github.com/sindresorhus/write-json-file) - 序列化并写入JSON文件。
+- [jsonuri](https://github.com/aligay/jsonuri) - 使用”URI样式“的方法来操作数据。
 
 ### 类型判断
 
