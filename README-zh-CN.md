@@ -19,6 +19,7 @@
   - [JSON](#json)
   - [类型判断](#类型判断)
   - [数据校验](#数据校验)
+  - [函数式编程](#函数式编程)
   - [Shell命令](#shell命令)
   - [环境变量](#环境变量)
   - [事件](#事件)
@@ -183,6 +184,19 @@
 - [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) - 极快的JSON Schema校验工具。
 - [property-validator](https://github.com/nettofarah/property-validator) - 用于JavaScript、Node和Express的易用的属性校验工具。
 - [schema-inspector](https://github.com/Atinux/schema-inspector) - 用于净化和验证JS对象的强大工具。
+
+### 函数式编程
+
+- [lodash](https://github.com/lodash/lodash) - 可提供一致性、自定义、性能和其他功能的实用程序库，比Underscore.js更好更快。
+- [immutable](https://github.com/facebook/immutable-js) - 不可变的数据集合。
+- [RxJS](https://github.com/reactivex/rxjs) - 用于转换、组合和查询各种数据的函数式响应式库。
+- [Ramda](https://github.com/ramda/ramda) - 实用程序库着重于通过自动计算和相反的参数顺序实现的灵活功能组合，避免数据变化。
+- [immer](https://github.com/immerjs/immer) - 函数式响应式编程。
+- [Bacon.js](https://github.com/baconjs/bacon.js) - 函数式响应式编程。
+- [Lazy.js](https://github.com/dtao/lazy.js) - 类似于lodash/underline的工具库，但具有惰性计算，在许多情况下可以转换为卓越的性能.
+- [Folktale](https://github.com/origamitower/folktale) - 一套用于JavaScript中的通用函数编程的库，它允许您编写优雅的、模块化的应用程序，并且bug更少及更强的重用性。
+- [Kefir.js](https://github.com/kefirjs/kefir) - 响应式库，专注于高性能和低内存使用。
+- [Mout](https://github.com/mout/mout) - 该库与其他现有解决方案之间最大的区别是，您可以选择只加载需要的模块/函数，而不需要额外开销。.
 
 ### Shell命令
 

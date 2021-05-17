@@ -14,6 +14,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Streams](#streams)
   - [Type Checking](#type-checking)
   - [Data Validation](#data-validation)
+  - [Functional programming](#functional-programming)
   - [Shell](#shell)
   - [Environment](#environment)
   - [Event](#event)
@@ -234,6 +235,18 @@ English | [简体中文](./README-zh-CN.md)
 - [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) - JSON Schema validator that uses code generation to be extremely fast.
 - [property-validator](https://github.com/nettofarah/property-validator) - Easy property validation for JavaScript, Node and Express.
 - [schema-inspector](https://github.com/Atinux/schema-inspector) - JSON API sanitization and validation.
+
+### Functional programming
+
+- [lodash](https://github.com/lodash/lodash) - Utility library delivering consistency, customization, performance, & extras. A better and faster Underscore.js.
+- [immutable](https://github.com/facebook/immutable-js) - Immutable data collections.
+- [RxJS](https://github.com/reactivex/rxjs) - Functional reactive library for transforming, composing, and querying various kinds of data.
+- [Ramda](https://github.com/ramda/ramda) - Utility library with a focus on flexible functional composition enabled by automatic currying and reversed argument order. Avoids mutating data.
+- [Bacon.js](https://github.com/baconjs/bacon.js) - Functional reactive programming.
+- [Lazy.js](https://github.com/dtao/lazy.js) - Utility library similar to lodash/Underscore but with lazy evaluation, which can translate to superior performance in many cases.
+- [Folktale](https://github.com/origamitower/folktale) - Suite of libraries for generic functional programming in JavaScript that allows you to write elegant, modular applications with fewer bugs, and more reuse.
+- [Kefir.js](https://github.com/kefirjs/kefir) - Reactive library with focus on high performance and low memory usage.
+- [Mout](https://github.com/mout/mout) - Utility library with the biggest difference between other existing solutions is that you can choose to load only the modules/functions that you need, no extra overhead.
 
 ### Shell
 
