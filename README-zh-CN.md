@@ -105,7 +105,9 @@
   - [execall](https://github.com/sindresorhus/execall) - 在字符串中查找多个RegExp匹配项。
 
 - 差异对比
-  - [jsdiff](https://github.com/kpdecker/jsdiff) - A javascript text differencing implementation.
+  - [jsdiff](https://github.com/kpdecker/jsdiff) - 一种JavaScript文本差异实现。
+  - [recursive-diff](https://github.com/cosmicanant/recursive-diff) - 查找两个JavaScript对象的差异，支持数组、数字、日期和其他原始数据类型。
+
 
 - 其他
   - [StegCloak](https://github.com/kurolabs/stegcloak) - 基于纯JavaScript开发的隐写功能模块，StegCloak可以对文本中的机密信息进行压缩和加密，然后再使用特殊的Unicode不可见字符来隐藏它。

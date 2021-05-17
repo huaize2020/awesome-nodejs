@@ -100,6 +100,7 @@ English | [简体中文](./README-zh-CN.md)
 
 - Comparison
   - [jsdiff](https://github.com/kpdecker/jsdiff) - A javascript text differencing implementation.
+  - [recursive-diff](https://github.com/cosmicanant/recursive-diff) - A JavaScript library to find diff between two JavaScript Objects. Support for Array, Number, Date and other primitive data types.
 
 - Other
   - [StegCloak](https://github.com/kurolabs/stegcloak) - Conceal secrets within strings, in plain sight.
