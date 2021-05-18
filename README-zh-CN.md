@@ -167,6 +167,7 @@
 
 ### 类型判断
 
+- [is-promise](https://github.com/then/is-promise) - 测试对象是否看起来像一个 Promises-a+ promise。
 - [is](https://github.com/enricomarino/is) - JavaScript类型测试库。
 - [is-type-of](https://github.com/node-modules/is-type-of) - Node.js完整类型判断。
 - [is-stream](https://github.com/sindresorhus/is-stream) - 判断对象是否为流对象。
