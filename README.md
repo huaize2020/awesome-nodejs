@@ -11,6 +11,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Date & Time](#date--time)
   - [URL](#url)
   - [JSON](#json)
+  - [Crypto](#crypto)
   - [Streams](#streams)
   - [Type Checking](#type-checking)
   - [Data Validation](#data-validation)
@@ -158,6 +159,10 @@ English | [简体中文](./README-zh-CN.md)
 - [load-json-file](https://github.com/sindresorhus/load-json-file) - Read and parse a JSON file.
 - [write-json-file](https://github.com/sindresorhus/write-json-file) - Stringify and write JSON to a file atomically.
 - [jsonuri](https://github.com/aligay/jsonuri) - Use URI style methods to operate data.
+
+### Crypto
+
+- [crypto-js](https://github.com/brix/crypto-js) - JavaScript library of crypto standards.
 
 ### Streams
 
