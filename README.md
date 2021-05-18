@@ -15,6 +15,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Type Checking](#type-checking)
   - [Data Validation](#data-validation)
   - [Functional programming](#functional-programming)
+  - [Inversion of control / Dependency Injection (Ioc/DI)](#inversion-of-control--dependency-injection-iocdi)
   - [Shell](#shell)
   - [Environment](#environment)
   - [Event](#event)
@@ -250,6 +251,12 @@ English | [简体中文](./README-zh-CN.md)
 - [Kefir.js](https://github.com/kefirjs/kefir) - Reactive library with focus on high performance and low memory usage.
 - [Mout](https://github.com/mout/mout) - Utility library with the biggest difference between other existing solutions is that you can choose to load only the modules/functions that you need, no extra overhead.
 
+### Inversion of control / Dependency Injection (Ioc/DI)
+
+- [InversifyJS](https://github.com/inversify/InversifyJS) - A powerful and lightweight inversion of control container for JavaScript & Node.js apps powered by TypeScript.
+- [injection-js](https://github.com/mgechev/injection-js) - Dependency injection library for JavaScript and TypeScript in 5.1K. It is an extraction of the Angular's ReflectiveInjector which means that it's well designed, feature complete, fast, reliable and well tested.
+- [power-di](https://github.com/zhang740/power-di) - A lightweight Dependency Injection library.
+
 ### Shell
 
 - [shelljs](https://github.com/shelljs/shelljs) - Cross-platform Unix shell commands.
@@ -279,6 +286,7 @@ English | [简体中文](./README-zh-CN.md)
 - [Commander.js](https://github.com/tj/commander.js) - The complete solution for node.js command-line interfaces.
 - [chalk](https://github.com/chalk/chalk) - Terminal string styling done right.
 - [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - Collection of common interactive command line user interfaces.
+- [commitizen](https://github.com/commitizen/cz-cli) - The commitizen command line utility.
 - [yargs](https://github.com/yargs/yargs) - Collection of common interactive command line user interfaces.
 - [ora](https://github.com/sindresorhus/ora) - Elegant terminal spinner.
 - [oclif](https://github.com/oclif/oclif) - Node.js Open CLI Framework. Built with 💜 by Heroku.

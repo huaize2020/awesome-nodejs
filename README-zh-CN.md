@@ -20,6 +20,7 @@
   - [类型判断](#类型判断)
   - [数据校验](#数据校验)
   - [函数式编程](#函数式编程)
+  - [控制反转/依赖注入](#控制反转依赖注入)
   - [Shell命令](#shell命令)
   - [环境变量](#环境变量)
   - [事件](#事件)
@@ -201,6 +202,12 @@
 - [Kefir.js](https://github.com/kefirjs/kefir) - 响应式库，专注于高性能和低内存使用。
 - [Mout](https://github.com/mout/mout) - 该库与其他现有解决方案之间最大的区别是，您可以选择只加载需要的模块/函数，而不需要额外开销。.
 
+### 控制反转/依赖注入
+
+- [InversifyJS](https://github.com/inversify/InversifyJS) - 功能强大且轻便的控制反转容器。
+- [injection-js](https://github.com/mgechev/injection-js) - 5.1K中的JavaScript和TypeScript的依赖注入库。它提取自Angular的ReflectiveInjector，这意味着它设计合理，功能完整、快速、可靠且经过良好测试。
+- [power-di](https://github.com/zhang740/power-di) - 轻量的依赖注入库。
+
 ### Shell命令
 
 - [shelljs](https://github.com/shelljs/shelljs) - 跨平台Unix shell命令。
@@ -230,6 +237,7 @@
 - [Commander.js](https://github.com/tj/commander.js) - Node.JS命令行界面完整解决方案。
 - [chalk](https://github.com/chalk/chalk) - 命令行字符串样式美化工具。
 - [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - 通用可交互命令行工具集合。
+- [commitizen](https://github.com/commitizen/cz-cli) - Commitizen命令行实用程序。
 - [yargs](https://github.com/yargs/yargs) - 通用可交互命令行工具集合。
 - [ora](https://github.com/sindresorhus/ora) - 优雅的命令行loading效果。
 - [oclif](https://github.com/oclif/oclif) - 基于Heroku开源Node.js CLI框架。
