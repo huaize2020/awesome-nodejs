@@ -297,6 +297,7 @@
   - [filesize.js](https://github.com/avoidwork/filesize.js) - 生成人类可读的文件大小字符串。
   - [make-dir](https://github.com/sindresorhus/make-dir) - 递归创建文件夹，类似 `mkdir -p`。
   - [memfs](https://github.com/streamich/memfs) - Node.js API内存文件系统。
+  - [ncp](https://github.com/AvianFlu/ncp) - 使用Node.js进行异步递归文件复制。
   - [temp](https://github.com/bruce/node-temp) - Node.js临时文件、文件夹、流。
   - [cpy](https://github.com/sindresorhus/cpy) - 文件拷贝。
   - [mkdirp](https://github.com/isaacs/node-mkdirp) - 递归创建文件夹，类似 `mkdir -p`。

@@ -346,6 +346,7 @@ English | [简体中文](./README-zh-CN.md)
   - [filesize.js](https://github.com/avoidwork/filesize.js) - Generate a human readable String describing the file size.
   - [make-dir](https://github.com/sindresorhus/make-dir) - Recursively create directories like mkdir -p.
   - [memfs](https://github.com/streamich/memfs) - In-memory filesystem with Node's API.
+  - [ncp](https://github.com/AvianFlu/ncp) - Asynchronous recursive file copying with Node.js.
   - [temp](https://github.com/bruce/node-temp) - Temporary File, Directory, and Stream support for Node.js.
   - [cpy](https://github.com/sindresorhus/cpy) - Copy files.
   - [mkdirp](https://github.com/isaacs/node-mkdirp) - Recursively mkdir, like `mkdir -p`.
