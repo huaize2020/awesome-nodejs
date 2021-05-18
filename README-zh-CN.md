@@ -179,6 +179,7 @@
 
 - [validator.js](https://github.com/validatorjs/validator.js) - 字符串校验库。
 - [joi](https://github.com/hapijs/joi) - 基于JavaScript对象的对象模式描述语言和验证器。
+- [async-validator](https://github.com/yiminghe/async-validator) - 异步校验。
 - [class-validator](https://github.com/typestack/class-validator) - 基于装饰器属性校验的类校验器。
 - [ajv](https://github.com/epoberezkin/ajv) - 最快的JSON Schema验证器。支持JSON Schema draft-04/06/07/2019-09/2020-12 and JSON类型定义(RFC8927)。
 - [Superstruct](https://github.com/ianstormtaylor/superstruct) - 用简单和可组合的方式在JavaScript和TypeScript中校验数据。

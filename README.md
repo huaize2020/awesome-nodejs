@@ -229,6 +229,7 @@ English | [简体中文](./README-zh-CN.md)
 
 - [validator.js](https://github.com/validatorjs/validator.js) - A library of string validators and sanitizers.
 - [joi](https://github.com/hapijs/joi) - Object schema description language and validator for JavaScript objects.
+- [async-validator](https://github.com/yiminghe/async-validator) - Validate form asynchronous.
 - [class-validator](https://github.com/typestack/class-validator) - Decorator-based property validation for classes.
 - [ajv](https://github.com/epoberezkin/ajv) - The fastest JSON schema Validator. Supports JSON Schema draft-04/06/07/2019-09/2020-12 and JSON Type Definition (RFC8927).
 - [Superstruct](https://github.com/ianstormtaylor/superstruct) - Simple and composable way to validate data in JavaScript (and TypeScript).
