@@ -17,7 +17,7 @@
   - [日期 和 时间](#日期-和-时间)
   - [URL](#url)
   - [JSON](#json)
-  - [Crypto](#crypto)
+  - [加解密](#加解密)
   - [类型判断](#类型判断)
   - [数据校验](#数据校验)
   - [函数式编程](#函数式编程)
@@ -169,7 +169,7 @@
 - [write-json-file](https://github.com/sindresorhus/write-json-file) - 序列化并写入JSON文件。
 - [jsonuri](https://github.com/aligay/jsonuri) - 使用”URI样式“的方法来操作数据。
 
-### Crypto
+### 加解密
 
 - [crypto-js](https://github.com/brix/crypto-js) - JavaScript加密标准库。
 
