@@ -300,20 +300,24 @@ English | [简体中文](./README-zh-CN.md)
   - [cac](https://github.com/cacjs/cac) - Simple yet powerful framework for building command-line apps.
   - [common-bin](https://github.com/node-modules/common-bin) - Abstraction bin tool wrap yargs, to provide more convenient usage, support async / generator.
 
-- Option parser
+- Option/Argument parser
   - [minimist](https://github.com/substack/minimist) - Guts of optimist's argument parser without all the fanciful decoration.
+  - [arg](https://github.com/vercel/arg) - Simple argument parsing.
   - [yargs-parser](https://github.com/yargs/yargs-parser) - 💪 the mighty option parser used by yargs.
 
 - Prompt
   - [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - Collection of common interactive command line user interfaces.
+  - [prompts](https://github.com/terkelg/prompts) - Lightweight, beautiful and user-friendly interactive prompts.
   - [Enquirer](https://github.com/enquirer/enquirer) - Stylish CLI prompts that are user-friendly, intuitive and easy to create.
 
 - Style
   - [chalk](https://github.com/chalk/chalk) - Terminal string styling done right.
   - [ora](https://github.com/sindresorhus/ora) - Elegant terminal spinner.
   - [colors.js](https://github.com/Marak/colors.js) - Get colors in your node.js console.
+  - [listr](https://github.com/SamVerschueren/listr) - Terminal task list.
   - [progress](https://github.com/visionmedia/node-progress) - Flexible ascii progress bar for nodejs.
   - [progress-estimator](https://github.com/bvaughn/progress-estimator) - Logs a progress bar and estimation for how long a Promise will take to complete.
+  - [kleur](https://github.com/lukeed/kleur) - The fastest Node.js library for formatting terminal text with ANSI colors~!
   - [boxen](https://github.com/sindresorhus/boxen) - Create boxes in the terminal.
   - [log-symbols](https://github.com/sindresorhus/log-symbols) - Colored symbols for various log levels.
   - [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - Easy to use progress-bar for command-line/terminal applications.
