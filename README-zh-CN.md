@@ -102,8 +102,10 @@
 - 正则/通配符匹配
   - [path-to-regexp](https://github.com/pillarjs/path-to-regexp) - 将路径字符串（如`/user/:name`）转化为正则。
   - [minimatch](https://github.com/isaacs/minimatch) - 最小匹配工具。
+  - [micromatch](https://github.com/micromatch/micromatch) - 高度优化的通配符和全局匹配库。更快，直接替换到 minimatch 和 multimatch。由webpack、babel core、yarn、jest、browser-sync、documentation.js、stylelint、nyc、ava以及许多其他资源使用！
   - [matcher](https://github.com/sindresorhus/matcher) - 简单通配符匹配。
   - [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - 转义特殊正则字符。
+  - [multimatch](https://github.com/sindresorhus/multimatch) - 扩展 minimatch.match() 以支持多种模式。
   - [execall](https://github.com/sindresorhus/execall) - 在字符串中查找多个RegExp匹配项。
 
 - 差异对比

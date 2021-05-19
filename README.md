@@ -96,8 +96,10 @@ English | [简体中文](./README-zh-CN.md)
 - RegExp/Glob
   - [path-to-regexp](https://github.com/pillarjs/path-to-regexp) - Turn a path string such as `/user/:name` into a regular expression.
   - [minimatch](https://github.com/isaacs/minimatch) - A minimal matching utility.
+  - [micromatch](https://github.com/micromatch/micromatch) - Highly optimized wildcard and glob matching library. Faster, drop-in replacement to minimatch and multimatch. Used by webpack, babel core, yarn, jest, browser-sync, documentation.js, stylelint, nyc, ava, and many others!
   - [matcher](https://github.com/sindresorhus/matcher) - Simple wildcard matching.
   - [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - Escape RegExp special characters.
+  - [multimatch](https://github.com/sindresorhus/multimatch) - Extends minimatch.match() with support for multiple patterns.
   - [execall](https://github.com/sindresorhus/execall) - Find multiple RegExp matches in a string.
 
 - Comparison
