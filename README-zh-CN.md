@@ -403,6 +403,7 @@
 - [xo](https://github.com/xojs/xo) - 带出色默认配置的JavaScript/TypeScript代码校验 (基于ESLint封装)
 - [markdownlint](https://github.com/DavidAnson/markdownlint) - Markdown/CommonMark风格检查工具。
 - [textlint](https://github.com/textlint/textlint) - Text 和 Markdown 校验和格式化。
+- [pretty-quick](https://github.com/azz/pretty-quick) - 快速美化。
 
 ### 构建工具
 

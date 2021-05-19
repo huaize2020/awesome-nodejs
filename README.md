@@ -452,6 +452,7 @@ English | [简体中文](./README-zh-CN.md)
 - [xo](https://github.com/xojs/xo) - JavaScript/TypeScript linter (ESLint wrapper) with great defaults
 - [markdownlint](https://github.com/DavidAnson/markdownlint) - A Node.js style checker and lint tool for Markdown/CommonMark files.
 - [textlint](https://github.com/textlint/textlint) - The pluggable natural language linter for text and markdown.
+- [pretty-quick](https://github.com/azz/pretty-quick) - ⚡ Get Pretty Quick.
 
 ### Build Tools
 
