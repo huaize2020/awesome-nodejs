@@ -736,7 +736,6 @@ English | [简体中文](./README-zh-CN.md)
   - [axios](https://github.com/mzabriskie/axios) - Promise based HTTP client (works in the browser too).
   - [request](https://github.com/request/request) - 🏊🏾 Simplified HTTP request client.
   - [superagent](https://github.com/visionmedia/superagent) - HTTP request library.
-  - [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP proxy.
   - [got](https://github.com/sindresorhus/got) - Nicer interface to the built-in `http` module.
   - [node-fetch](https://github.com/bitinn/node-fetch) - `window.fetch` for Node.js.
   - [needle](https://github.com/tomas/needle) - Nimble, streamable HTTP client for Node.js. With proxy, iconv, cookie, deflate & multipart support.
@@ -744,16 +743,18 @@ English | [简体中文](./README-zh-CN.md)
   - [urllib](https://github.com/node-modules/urllib) - Request HTTP(s) URLs in a complex world.
   - [gotql](https://github.com/khaosdoctor/gotql) - GraphQL request library built on [got](https://github.com/sindresorhus/got).
   - [wreck](https://github.com/hapijs/wreck) - HTTP Client Utilities.
-  - [http-fake-backend](https://github.com/micromata/http-fake-backend) - Build a fake backend by providing the content of JSON files or JavaScript objects through configurable routes.
   - [cacheable-request](https://github.com/lukechilds/cacheable-request) - Wrap native HTTP requests with RFC compliant cache support.
-  - [global-agent](https://github.com/gajus/global-agent) - Global HTTP/HTTPS proxy agent that is configurable using environment variables.
   - [gh-got](https://github.com/sindresorhus/gh-got) - Convenience wrapper for `got` to interact with the GitHub API.
-  - [smoke](https://github.com/sinedied/smoke) - File-based HTTP mock server with recording abilities.
   - [flashheart](https://github.com/bbc/flashheart) - REST client.
 
 - HTTP Server
   - [http-server](https://github.com/http-party/http-server) - A simple zero-configuration command-line http server.
   - [anywhere](https://github.com/JacksonTian/anywhere) - Running static file server anywhere.
+  - [http-fake-backend](https://github.com/micromata/http-fake-backend) - Build a fake backend by providing the content of JSON files or JavaScript objects through configurable routes.
+
+- Proxy
+  - [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP proxy.
+  - [global-agent](https://github.com/gajus/global-agent) - Global HTTP/HTTPS proxy agent that is configurable using environment variables.
 
 - Middleware
   - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - ⚡ The one-liner node.js http-proxy middleware for connect, express and browser-sync.

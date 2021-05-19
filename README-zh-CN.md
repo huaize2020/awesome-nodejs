@@ -687,7 +687,6 @@
   - [axios](https://github.com/mzabriskie/axios) - 基于Promise 的HTTP客户端（也可以在浏览器中工作）。
   - [request](https://github.com/request/request) - 🏊🏾 简单的 HTTP 请求客户端。
   - [superagent](https://github.com/visionmedia/superagent) - HTTP请求库。
-  - [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP代理。
   - [got](https://github.com/sindresorhus/got) - 更好的基于内建“http”模块接口实现。
   - [node-fetch](https://github.com/bitinn/node-fetch) - Node.js的 `window.fetch` 实现。
   - [needle](https://github.com/tomas/needle) - 灵活，基于流的HTTP Node.js客户端请求库。支持proxy，iconv，cookie，deflate和multipart。
@@ -695,16 +694,18 @@
   - [urllib](https://github.com/node-modules/urllib) - 在复杂世界中请求HTTP/HTTPS的URL。
   - [gotql](https://github.com/khaosdoctor/gotql) - 基于[got](https://github.com/sindresorhus/got)构建的GraphQL请求库。
   - [wreck](https://github.com/hapijs/wreck) - HTTP 客户端工具。
-  - [http-fake-backend](https://github.com/micromata/http-fake-backend) - 通过可配置的路由，提供JSON文件或JavaScript对象来构建伪造的后端。
   - [cacheable-request](https://github.com/lukechilds/cacheable-request) - 使用符合RFC的缓存封装的本机HTTP请求库。
-  - [global-agent](https://github.com/gajus/global-agent) - 可以使用环境变量配置的全局 HTTP/HTTPS 代理。
   - [gh-got](https://github.com/sindresorhus/gh-got) - 基于"got"封装，与GitHub API更方便的交互。
-  - [smoke](https://github.com/sinedied/smoke) - 具有记录功能的基于文件的HTTP Mock服务器。
   - [flashheart](https://github.com/bbc/flashheart) - REST 客户端。
 
 - 服务端库
   - [http-server](https://github.com/http-party/http-server) - 零配置的命令行Http服务端。
   - [anywhere](https://github.com/JacksonTian/anywhere) - 随启随用的静态文件服务器。
+  - [http-fake-backend](https://github.com/micromata/http-fake-backend) - 通过可配置的路由，提供JSON文件或JavaScript对象来构建伪造的后端。
+
+- 代理
+  - [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP代理。
+  - [global-agent](https://github.com/gajus/global-agent) - 可以使用环境变量配置的全局 HTTP/HTTPS 代理。
 
 - 中间件
   - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - ⚡用于connect，express和browser-sync的单线Node.js Http代理中间件。
