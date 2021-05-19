@@ -506,6 +506,7 @@ English | [简体中文](./README-zh-CN.md)
 - [lad](https://github.com/ladjs/lad) - The best Node.js framework. Made by a former Express TC and Koa team member.
 - [Tinyhttp](https://github.com/talentlessguy/tinyhttp) - Modern and fast Express-like web framework.
 - [Hemera](https://github.com/hemerajs/hemera) - Write reliable and fault-tolerant microservices with [NATS](https://nats.io).
+- [restana](https://github.com/BackendStack21/restana) - Super fast and minimalist framework for building REST micro-services.
 - [Zeronode](https://github.com/sfast/zeronode) - Minimal building block for reliable and fault-tolerant microservices.
 
 ### Static Site Generator & Blogging
@@ -755,6 +756,7 @@ English | [简体中文](./README-zh-CN.md)
 - Proxy
   - [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP proxy.
   - [global-agent](https://github.com/gajus/global-agent) - Global HTTP/HTTPS proxy agent that is configurable using environment variables.
+  - [fast-proxy](https://github.com/fastify/fast-proxy) - Node.js framework agnostic library that enables you to forward an http request to another HTTP server. Supported protocols: HTTP, HTTPS, HTTP2.
 
 - Middleware
   - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - ⚡ The one-liner node.js http-proxy middleware for connect, express and browser-sync.
