@@ -293,29 +293,38 @@ English | [简体中文](./README-zh-CN.md)
 
 ### Command-line Utilities
 
-- [Commander.js](https://github.com/tj/commander.js) - The complete solution for node.js command-line interfaces.
-- [chalk](https://github.com/chalk/chalk) - Terminal string styling done right.
-- [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - Collection of common interactive command line user interfaces.
-- [commitizen](https://github.com/commitizen/cz-cli) - The commitizen command line utility.
-- [yargs](https://github.com/yargs/yargs) - Collection of common interactive command line user interfaces.
-- [ora](https://github.com/sindresorhus/ora) - Elegant terminal spinner.
-- [oclif](https://github.com/oclif/oclif) - Node.js Open CLI Framework. Built with 💜 by Heroku.
-- [Enquirer](https://github.com/enquirer/enquirer) - Stylish CLI prompts that are user-friendly, intuitive and easy to create.
-- [minimist](https://github.com/substack/minimist) - Guts of optimist's argument parser without all the fanciful decoration.
-- [concurrently](https://github.com/kimmobrunfeldt/concurrently) - Run commands concurrently. Like `npm run watch-js & npm run watch-less` but better.
-- [colors.js](https://github.com/Marak/colors.js) - Get colors in your node.js console.
-- [progress](https://github.com/visionmedia/node-progress) - Flexible ascii progress bar for nodejs.
-- [depcheck](https://github.com/depcheck/depcheck) - Check your npm module for unused dependencies.
-- [progress-estimator](https://github.com/bvaughn/progress-estimator) - Logs a progress bar and estimation for how long a Promise will take to complete.
-- [update-notifier](https://github.com/yeoman/update-notifier) - Update notifications for your CLI app.
-- [cac](https://github.com/cacjs/cac) - Simple yet powerful framework for building command-line apps.
-- [boxen](https://github.com/sindresorhus/boxen) - Create boxes in the terminal.
-- [log-symbols](https://github.com/sindresorhus/log-symbols) - Colored symbols for various log levels.
-- [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - Easy to use progress-bar for command-line/terminal applications.
-- [cli-table3](https://github.com/cli-table/cli-table3) - Pretty unicode tables for the command line.
-- [common-bin](https://github.com/node-modules/common-bin) - Abstraction bin tool wrap yargs, to provide more convenient usage, support async / generator.
-- [kolorist](https://github.com/marvinhagemeister/kolorist) - A tiny utility to colorize stdin/stdout.
-- [console-clear](https://github.com/lukeed/console-clear) - Clear the console, cross-platform.
+- Framework/Solution
+  - [Commander.js](https://github.com/tj/commander.js) - The complete solution for node.js command-line interfaces.
+  - [yargs](https://github.com/yargs/yargs) - Collection of common interactive command line user interfaces.
+  - [oclif](https://github.com/oclif/oclif) - Node.js Open CLI Framework. Built with 💜 by Heroku.
+  - [cac](https://github.com/cacjs/cac) - Simple yet powerful framework for building command-line apps.
+  - [common-bin](https://github.com/node-modules/common-bin) - Abstraction bin tool wrap yargs, to provide more convenient usage, support async / generator.
+
+- Option parser
+  - [minimist](https://github.com/substack/minimist) - Guts of optimist's argument parser without all the fanciful decoration.
+  - [yargs-parser](https://github.com/yargs/yargs-parser) - 💪 the mighty option parser used by yargs.
+
+- Prompt
+  - [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - Collection of common interactive command line user interfaces.
+  - [Enquirer](https://github.com/enquirer/enquirer) - Stylish CLI prompts that are user-friendly, intuitive and easy to create.
+
+- Style
+  - [chalk](https://github.com/chalk/chalk) - Terminal string styling done right.
+  - [ora](https://github.com/sindresorhus/ora) - Elegant terminal spinner.
+  - [colors.js](https://github.com/Marak/colors.js) - Get colors in your node.js console.
+  - [progress](https://github.com/visionmedia/node-progress) - Flexible ascii progress bar for nodejs.
+  - [progress-estimator](https://github.com/bvaughn/progress-estimator) - Logs a progress bar and estimation for how long a Promise will take to complete.
+  - [boxen](https://github.com/sindresorhus/boxen) - Create boxes in the terminal.
+  - [log-symbols](https://github.com/sindresorhus/log-symbols) - Colored symbols for various log levels.
+  - [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - Easy to use progress-bar for command-line/terminal applications.
+  - [cli-table3](https://github.com/cli-table/cli-table3) - Pretty unicode tables for the command line.
+  - [kolorist](https://github.com/marvinhagemeister/kolorist) - A tiny utility to colorize stdin/stdout.
+
+- Other
+  - [commitizen](https://github.com/commitizen/cz-cli) - The commitizen command line utility.
+  - [concurrently](https://github.com/kimmobrunfeldt/concurrently) - Run commands concurrently. Like `npm run watch-js & npm run watch-less` but better.
+  - [update-notifier](https://github.com/yeoman/update-notifier) - Update notifications for your CLI app.
+  - [console-clear](https://github.com/lukeed/console-clear) - Clear the console, cross-platform.
 
 ### Node.js Management
 
@@ -347,6 +356,7 @@ English | [简体中文](./README-zh-CN.md)
 - Utilities
   - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - Find newer versions of package dependencies than what your package.json allows.
   - [npm-run-all](https://github.com/mysticatea/npm-run-all) - A CLI tool to run multiple npm-scripts in parallel or sequential.
+  - [depcheck](https://github.com/depcheck/depcheck) - Check your npm module for unused dependencies.
   - [npminstall](https://github.com/cnpm/npminstall) - Make `npm install` fast and easy.
   - [npm-home](https://github.com/sindresorhus/npm-home) - Open the npm page of a package.
   - [npm-name](https://github.com/sindresorhus/npm-name) - Check a package name's availability on npm.

@@ -244,29 +244,38 @@
 
 ### 命令行工具
 
-- [Commander.js](https://github.com/tj/commander.js) - Node.JS命令行界面完整解决方案。
-- [chalk](https://github.com/chalk/chalk) - 命令行字符串样式美化工具。
-- [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - 通用可交互命令行工具集合。
-- [commitizen](https://github.com/commitizen/cz-cli) - Commitizen命令行实用程序。
-- [yargs](https://github.com/yargs/yargs) - 通用可交互命令行工具集合。
-- [ora](https://github.com/sindresorhus/ora) - 优雅的命令行loading效果。
-- [oclif](https://github.com/oclif/oclif) - 基于Heroku开源Node.js CLI框架。
-- [Enquirer](https://github.com/enquirer/enquirer) - 用户友好、直观且易于创建的时尚CLI提示。
-- [minimist](https://github.com/substack/minimist) - 命令行参数解析引擎。
-- [concurrently](https://github.com/kimmobrunfeldt/concurrently) - 并行执行命令，类似 `npm run watch-js & npm run watch-less`但更优。
-- [colors.js](https://github.com/Marak/colors.js) - 获取Node.js控制台的颜色。
-- [progress](https://github.com/visionmedia/node-progress) - Node.js的灵活ascii进度条。
-- [depcheck](https://github.com/depcheck/depcheck) - 检查项目中未使用的依赖。
-- [progress-estimator](https://github.com/bvaughn/progress-estimator) - 记录进度条并估计完成承诺所需的时间。
-- [update-notifier](https://github.com/yeoman/update-notifier) - 为你的CLI应用提供的更新提示。
-- [cac](https://github.com/cacjs/cac) - 用于构建命令行应用的强大框架。
-- [boxen](https://github.com/sindresorhus/boxen) - 控制台中创建盒子。
-- [log-symbols](https://github.com/sindresorhus/log-symbols) - 为不同日志级别添加色彩图标。
-- [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - 在命令行/终端应用中轻松的使用进度条。
-- [cli-table3](https://github.com/cli-table/cli-table3) - 命令行的漂亮unicode表。
-- [common-bin](https://github.com/node-modules/common-bin) - 基于yargs的命令行工具抽象，提供更方便的使用，支持async/generator。
-- [kolorist](https://github.com/marvinhagemeister/kolorist) - 使用输入和输出色彩化的小工具。
-- [console-clear](https://github.com/lukeed/console-clear) - 跨平台清空控制台。
+- 框架/解决方案
+  - [Commander.js](https://github.com/tj/commander.js) - Node.JS命令行界面完整解决方案。
+  - [yargs](https://github.com/yargs/yargs) - 通用可交互命令行工具集合。
+  - [oclif](https://github.com/oclif/oclif) - 基于Heroku开源Node.js CLI框架。
+  - [cac](https://github.com/cacjs/cac) - 用于构建命令行应用的强大框架。
+  - [common-bin](https://github.com/node-modules/common-bin) - 基于yargs的命令行工具抽象，提供更方便的使用，支持async/generator。
+
+- 参数解析
+  - [minimist](https://github.com/substack/minimist) - 命令行参数解析引擎。
+  - [yargs-parser](https://github.com/yargs/yargs-parser) - yargs在使用，优雅参数解析库.
+
+- Prompt提示
+  - [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - 通用可交互命令行工具集合。
+  - [Enquirer](https://github.com/enquirer/enquirer) - 用户友好、直观且易于创建的时尚CLI提示。
+
+- 样式
+  - [chalk](https://github.com/chalk/chalk) - 命令行字符串样式美化工具。
+  - [ora](https://github.com/sindresorhus/ora) - 优雅的命令行loading效果。
+  - [colors.js](https://github.com/Marak/colors.js) - 获取Node.js控制台的颜色。
+  - [progress](https://github.com/visionmedia/node-progress) - Node.js的灵活ascii进度条。
+  - [progress-estimator](https://github.com/bvaughn/progress-estimator) - 记录进度条并估计完成承诺所需的时间。
+  - [boxen](https://github.com/sindresorhus/boxen) - 控制台中创建盒子。
+  - [log-symbols](https://github.com/sindresorhus/log-symbols) - 为不同日志级别添加色彩图标。
+  - [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - 在命令行/终端应用中轻松的使用进度条。
+  - [cli-table3](https://github.com/cli-table/cli-table3) - 命令行的漂亮unicode表。
+  - [kolorist](https://github.com/marvinhagemeister/kolorist) - 使用输入和输出色彩化的小工具。
+
+- 其他
+  - [commitizen](https://github.com/commitizen/cz-cli) - Commitizen命令行实用程序。
+  - [concurrently](https://github.com/kimmobrunfeldt/concurrently) - 并行执行命令，类似 `npm run watch-js & npm run watch-less`但更优。
+  - [update-notifier](https://github.com/yeoman/update-notifier) - 为你的CLI应用提供的更新提示。
+  - [console-clear](https://github.com/lukeed/console-clear) - 跨平台清空控制台。
 
 ### Node.js管理工具
 
@@ -296,15 +305,16 @@
   - [semver](https://github.com/npm/node-semver) - NPM使用的JavaScript语义化版本号解析器。
 
 - 工具
-    - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - 查找当前package.json依赖允许的更新的版本。
-    - [npm-run-all](https://github.com/mysticatea/npm-run-all) - 命令行工具，同时运行多个npm脚本（并行或串行）。
-    - [npminstall](https://github.com/cnpm/npminstall) - 使 `npm install` 更快更容易。
-    - [npm-home](https://github.com/sindresorhus/npm-home) - 打开npm包页面。
-    - [npm-name](https://github.com/sindresorhus/npm-name) - 在npm上检查软件包名称的可用性。
-    - [pacote](https://github.com/npm/pacote) - 从npm注册商下载tar压缩文件，并获取包的资源信息。
-    - [npm-package-arg](https://github.com/npm/npm-package-arg) - 根据包名解析信息。
-    - [npm-registry-fetch](https://github.com/npm/npm-registry-fetch) - 类型fetch()函数，但用于npm仓库。
-    - [npm-updater](https://github.com/node-modules/npm-updater) - 检查npm包的更新。
+  - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - 查找当前package.json依赖允许的更新的版本。
+  - [npm-run-all](https://github.com/mysticatea/npm-run-all) - 命令行工具，同时运行多个npm脚本（并行或串行）。
+  - [depcheck](https://github.com/depcheck/depcheck) - 检查你的NPM模块未使用的依赖。
+  - [npminstall](https://github.com/cnpm/npminstall) - 使 `npm install` 更快更容易。
+  - [npm-home](https://github.com/sindresorhus/npm-home) - 打开npm包页面。
+  - [npm-name](https://github.com/sindresorhus/npm-name) - 在npm上检查软件包名称的可用性。
+  - [pacote](https://github.com/npm/pacote) - 从npm注册商下载tar压缩文件，并获取包的资源信息。
+  - [npm-package-arg](https://github.com/npm/npm-package-arg) - 根据包名解析信息。
+  - [npm-registry-fetch](https://github.com/npm/npm-registry-fetch) - 类型fetch()函数，但用于npm仓库。
+  - [npm-updater](https://github.com/node-modules/npm-updater) - 检查npm包的更新。
 
 ### 文件系统
 
