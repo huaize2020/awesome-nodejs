@@ -47,6 +47,7 @@ English | [简体中文](./README-zh-CN.md)
   - [OS Identification](#os-identification)
   - [Compression / Decompression](#compression--decompression)
   - [Email](#email)
+  - [Network](#network)
   - [HTTP](#http)
   - [Crawler](#crawler)
   - [AST](#ast)
@@ -732,6 +733,15 @@ English | [简体中文](./README-zh-CN.md)
 - [Email Templates](https://github.com/forwardemail/email-templates) - Create, preview, and send custom email templates for Node.js.
 - [emailjs](https://github.com/eleith/emailjs) - Html emails and attachments to any smtp server with nodejs.
 - [mjml](https://github.com/mjmlio/mjml) - Makes responsive-email easy.
+
+### Network
+
+- [get-port](https://github.com/sindresorhus/get-port) - Get an available port.
+- [request-ip](https://github.com/pbojinov/request-ip) - A Node.js module for retrieving a request's IP address on the server.
+- [netcat](https://github.com/roccomuso/netcat) - Netcat port in pure JS.
+- [getmac](https://github.com/bevry/getmac) - Get the computer MAC address.
+- [DHCP](https://github.com/infusion/node-dhcp) - DHCP client and server.
+- [ipify](https://github.com/sindresorhus/ipify) - Get your public IP address.
 
 ### HTTP
 

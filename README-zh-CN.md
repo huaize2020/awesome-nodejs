@@ -52,6 +52,7 @@
   - [操作系统识别](#操作系统识别)
   - [文件压缩解压](#文件压缩解压)
   - [邮箱](#邮箱)
+  - [网络](#网络)
   - [HTTP](#http)
   - [爬虫](#爬虫)
   - [AST](#ast)
@@ -683,6 +684,15 @@
 - [Email Templates](https://github.com/forwardemail/email-templates) - 创建、预览和发送自定义电子邮件模板。
 - [emailjs](https://github.com/eleith/emailjs) - 向任何SMTP服务器发送带有附件的文本/HTML电子邮件。
 - [mjml](https://github.com/mjmlio/mjml) - 旨在减少创建响应电子邮件的痛苦的标记语言。
+
+### 网络
+
+- [get-port](https://github.com/sindresorhus/get-port) - 获取一个可用的端口。
+- [request-ip](https://github.com/pbojinov/request-ip) - 在服务器中获取请求的IP地址。
+- [netcat](https://github.com/roccomuso/netcat) - 纯JS中的Netcat端口。
+- [getmac](https://github.com/bevry/getmac) -  获取电脑的MAC地址。
+- [DHCP](https://github.com/infusion/node-dhcp) - DHCP客户端和服务器。
+- [ipify](https://github.com/sindresorhus/ipify) - 获取你的公网IP地址。
 
 ### HTTP
 
