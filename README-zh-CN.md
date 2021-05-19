@@ -287,6 +287,7 @@
   - [cnpm](https://github.com/cnpm/cnpm) - NPM中国区镜像客户端。
 
 - package.json
+  - [read-pkg-up](https://github.com/sindresorhus/read-pkg-up) - 读取最近的package.json文件。
   - [node-pkginfo](https://github.com/indexzero/node-pkginfo) - 从package.json读取属性的简单方法。
   - [read-pkg](https://github.com/sindresorhus/read-pkg) - 读取package.json文件。
   - [write-pkg](https://github.com/sindresorhus/write-pkg) - 写入package.json文件。
@@ -317,6 +318,7 @@
   - [memfs](https://github.com/streamich/memfs) - Node.js API内存文件系统。
   - [ncp](https://github.com/AvianFlu/ncp) - 使用Node.js进行异步递归文件复制。
   - [temp](https://github.com/bruce/node-temp) - Node.js临时文件、文件夹、流。
+  - [find-up](https://github.com/sindresorhus/find-up) - 通过上级父目录查找文件或目录。
   - [cpy](https://github.com/sindresorhus/cpy) - 文件拷贝。
   - [mkdirp](https://github.com/isaacs/node-mkdirp) - 递归创建文件夹，类似 `mkdir -p`。
   - [temp-dir](https://github.com/sindresorhus/temp-dir) - 获取系统临时文件夹的真实路径。
@@ -359,6 +361,7 @@
 - [nodegit](https://github.com/nodegit/nodegit) - [libgit2](https://libgit2.org/) 的 Node.js 绑定版本。
 - [simple-git](https://github.com/steveukx/git-js) - 一个轻量级的接口，用于在任何 node.js 应用程序中运行 git 命令。
 - [gitgraph-node](https://github.com/nicoespeon/gitgraph.js/tree/master/packages/gitgraph-node) - 在 Terminal 绘制 git 流程图（支持浏览器、React）。
+- [pre-commit](https://github.com/observing/pre-commit) - 自动在您的git储存库中安装git pre-commit脚本，该脚本在pre-commit上运行您的`npm test`。
 - [git-url-parse](https://github.com/IonicaBizau/git-url-parse) - 高级别git解析。
 - [git-promise](https://github.com/piuccio/git-promise) - 简单的封装，可运行任何git命令，并使用promise处理其输出。
 - [gittar](https://github.com/lukeed/gittar) - 下载/提取git仓库 (GitHub, GitLab, BitBucket)，跨平台和优先离线。

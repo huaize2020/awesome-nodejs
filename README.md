@@ -336,6 +336,7 @@ English | [简体中文](./README-zh-CN.md)
   - [cnpm](https://github.com/cnpm/cnpm) - Npm client for China mirror of npm.
 
 - package.json
+  - [read-pkg-up](https://github.com/sindresorhus/read-pkg-up) - Read the closest package.json file.
   - [node-pkginfo](https://github.com/indexzero/node-pkginfo) - An easy way to expose properties on a module from a package.json.
   - [read-pkg](https://github.com/sindresorhus/read-pkg) - Read a package.json file.
   - [write-pkg](https://github.com/sindresorhus/write-pkg) - Write a package.json file.
@@ -366,6 +367,7 @@ English | [简体中文](./README-zh-CN.md)
   - [memfs](https://github.com/streamich/memfs) - In-memory filesystem with Node's API.
   - [ncp](https://github.com/AvianFlu/ncp) - Asynchronous recursive file copying with Node.js.
   - [temp](https://github.com/bruce/node-temp) - Temporary File, Directory, and Stream support for Node.js.
+  - [find-up](https://github.com/sindresorhus/find-up) - Find a file or directory by walking up parent directories.
   - [cpy](https://github.com/sindresorhus/cpy) - Copy files.
   - [mkdirp](https://github.com/isaacs/node-mkdirp) - Recursively mkdir, like `mkdir -p`.
   - [temp-dir](https://github.com/sindresorhus/temp-dir) - Get the real path of the system temp directory.
@@ -408,6 +410,7 @@ English | [简体中文](./README-zh-CN.md)
 - [nodegit](https://github.com/nodegit/nodegit) - Node bindings to the libgit2 project.
 - [simple-git](https://github.com/steveukx/git-js) - A light weight interface for running git commands in any node.js application.
 - [gitgraph-node](https://github.com/nicoespeon/gitgraph.js/tree/master/packages/gitgraph-node) - Draw pretty git graphs in your terminal.
+- [pre-commit](https://github.com/observing/pre-commit) - Automatically installs a git pre-commit script in your git repository which runs your `npm test` on pre-commit.
 - [git-url-parse](https://github.com/IonicaBizau/git-url-parse) - A high level git url parser for common git providers.
 - [git-promise](https://github.com/piuccio/git-promise) - Simple wrapper to run any git command and process it's output using promises.
 - [gittar](https://github.com/lukeed/gittar) - Download and/or Extract git repositories (GitHub, GitLab, BitBucket). Cross-platform and Offline-first.
