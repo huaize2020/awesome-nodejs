@@ -172,6 +172,8 @@
 ### 加解密
 
 - [crypto-js](https://github.com/brix/crypto-js) - JavaScript加密标准库。
+- [node-rsa](https://github.com/rzcoder/node-rsa) - Node.js RSA库。
+- [node-md5](https://github.com/pvorb/node-md5) - 一个JavaScript函数，用于使用MD5对消息进行哈希处理。
 
 ### 类型判断
 
