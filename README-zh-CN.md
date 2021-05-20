@@ -79,6 +79,7 @@
   - [detect-indent](https://github.com/sindresorhus/detect-indent) - 检查代码缩进。
   - [string-length](https://github.com/sindresorhus/string-length) - 获取字符串的真实长度 - 通过正确计算星号并忽略ansi转义码。
   - [strip-indent](https://github.com/sindresorhus/strip-indent) - 将字符串每一行中前置的空格删除。
+  - [strip-bom](https://github.com/sindresorhus/strip-bom) - 从字符串中删除UTF-8字节顺序标记（BOM）。
   - [indent-string](https://github.com/sindresorhus/indent-string) - 将字符串每一行缩进。
   - [redent](https://github.com/sindresorhus/redent) - 去除多余的缩进并缩进字符串。
   - [min-indent](https://github.com/jamiebuilds/min-indent) - 取每一行最少前置空格数。
@@ -165,6 +166,7 @@
 - [json5](https://github.com/json5/json5) - JSON5是对JSON的扩展，其目的是能够更加容易的阅读和编写。
 - [fast-json-stringify](https://github.com/fastify/fast-json-stringify) - 比JSON.stringify()快2倍。
 - [jsonfile](https://github.com/jprichardson/node-jsonfile) - 轻松读写JSON文件。
+- [strip-json-comments](https://github.com/sindresorhus/strip-json-comments) - 去除JSON文件重的注释。让你可以在JSON中使用注释。
 - [load-json-file](https://github.com/sindresorhus/load-json-file) - 读取并解析JSON文件。
 - [write-json-file](https://github.com/sindresorhus/write-json-file) - 序列化并写入JSON文件。
 - [jsonuri](https://github.com/aligay/jsonuri) - 使用”URI样式“的方法来操作数据。

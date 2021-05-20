@@ -73,6 +73,7 @@ English | [简体中文](./README-zh-CN.md)
   - [detect-indent](https://github.com/sindresorhus/detect-indent) - Detect the indentation of code.
   - [string-length](https://github.com/sindresorhus/string-length) - Get the real length of a string - by correctly counting astral symbols and ignoring ansi escape codes.
   - [strip-indent](https://github.com/sindresorhus/strip-indent) - Strip leading whitespace from every line in a string.
+  - [strip-bom](https://github.com/sindresorhus/strip-bom) - Strip UTF-8 byte order mark (BOM) from a string.
   - [indent-string](https://github.com/sindresorhus/indent-string) - Indent each line in a string.
   - [redent](https://github.com/sindresorhus/redent) - Strip redundant indentation and indent the string.
   - [min-indent](https://github.com/jamiebuilds/min-indent) - Get the shortest leading whitespace from lines in a string.
@@ -158,6 +159,7 @@ English | [简体中文](./README-zh-CN.md)
 - [json5](https://github.com/json5/json5) - JSON5 — JSON for humans.
 - [fast-json-stringify](https://github.com/fastify/fast-json-stringify) - 2x faster than JSON.stringify()
 - [jsonfile](https://github.com/jprichardson/node-jsonfile) - Easily read/write JSON files.
+- [strip-json-comments](https://github.com/sindresorhus/strip-json-comments) - Strip comments from JSON. Lets you use comments in your JSON files.
 - [parse-json](https://github.com/sindresorhus/parse-json) - Parse JSON with more helpful errors.
 - [load-json-file](https://github.com/sindresorhus/load-json-file) - Read and parse a JSON file.
 - [write-json-file](https://github.com/sindresorhus/write-json-file) - Stringify and write JSON to a file atomically.
