@@ -274,6 +274,7 @@ English | [简体中文](./README-zh-CN.md)
 - [shelljs](https://github.com/shelljs/shelljs) - Cross-platform Unix shell commands.
 - [execa](https://github.com/sindresorhus/execa) - Cross-platform implementation of `child_process.{execFile,exec}`.
 - [node-windows](https://github.com/coreybutler/node-windows) - Windows support for Node.js scripts (daemons, eventlog, UAC, etc).
+- [shx](https://github.com/shelljs/shx) - Portable Shell Commands for Node.
 - [clipboardy](https://github.com/sindresorhus/clipboardy) - Cross-platform copy/paste.
 - [cross-spawn](https://github.com/IndigoUnited/node-cross-spawn) - Cross-platform implementation of `child_process.spawn()`.
 - [figures](https://github.com/sindresorhus/figures) - Unicode symbols with Windows fallbacks.

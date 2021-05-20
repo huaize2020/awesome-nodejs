@@ -22,7 +22,7 @@
   - [数据校验](#数据校验)
   - [函数式编程](#函数式编程)
   - [控制反转/依赖注入](#控制反转依赖注入)
-  - [Shell命令](#shell命令)
+  - [Shell](#shell)
   - [环境变量](#环境变量)
   - [事件](#事件)
   - [命令行工具](#命令行工具)
@@ -220,11 +220,12 @@
 - [injection-js](https://github.com/mgechev/injection-js) - 5.1K中的JavaScript和TypeScript的依赖注入库。它提取自Angular的ReflectiveInjector，这意味着它设计合理，功能完整、快速、可靠且经过良好测试。
 - [power-di](https://github.com/zhang740/power-di) - 轻量的依赖注入库。
 
-### Shell命令
+### Shell
 
 - [shelljs](https://github.com/shelljs/shelljs) - 跨平台Unix shell命令。
 - [execa](https://github.com/sindresorhus/execa) - 跨平台实现子进程执行 `child_process.{execFile,exec}`。
-- [node-windows](https://github.com/coreybutler/node-windows) - Node.js上支持的Windows脚本。如(daemons, eventlog, UAC, etc)。
+- [node-windows](https://github.com/coreybutler/node-windows) - Node.js上支持的Windows脚本。如(daemons, eventlog, UAC等)。
+- [shx](https://github.com/shelljs/shx) - Node的可移植Shell命令。
 - [clipboardy](https://github.com/sindresorhus/clipboardy) - 跨平台的复制/粘贴。
 - [cross-spawn](https://github.com/IndigoUnited/node-cross-spawn) - 跨平台实现 `child_process.spawn()`。
 - [figures](https://github.com/sindresorhus/figures) - Windows兜底的Unicode符号。
