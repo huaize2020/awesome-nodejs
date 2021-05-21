@@ -166,9 +166,11 @@
 - [json5](https://github.com/json5/json5) - JSON5是对JSON的扩展，其目的是能够更加容易的阅读和编写。
 - [fast-json-stringify](https://github.com/fastify/fast-json-stringify) - 比JSON.stringify()快2倍。
 - [jsonfile](https://github.com/jprichardson/node-jsonfile) - 轻松读写JSON文件。
+- [json-stable-stringify](https://github.com/substack/json-stable-stringify) - 具有自定义排序功能的确定性JSON.stringify(), 可以从字符串化结果中获取确定性哈希值。
 - [strip-json-comments](https://github.com/sindresorhus/strip-json-comments) - 去除JSON文件重的注释。让你可以在JSON中使用注释。
 - [load-json-file](https://github.com/sindresorhus/load-json-file) - 读取并解析JSON文件。
 - [write-json-file](https://github.com/sindresorhus/write-json-file) - 序列化并写入JSON文件。
+- [fast-json-stable-stringify](https://github.com/epoberezkin/fast-json-stable-stringify) - 确定性JSON.stringify() - 比 @substack 的 json-stable-stringify 更快的版本，不带jsonify。
 - [jsonuri](https://github.com/aligay/jsonuri) - 使用”URI样式“的方法来操作数据。
 
 ### 加解密
