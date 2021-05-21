@@ -170,6 +170,7 @@ English | [简体中文](./README-zh-CN.md)
 ### Crypto
 
 - [crypto-js](https://github.com/brix/crypto-js) - JavaScript library of crypto standards.
+- [bcrypt](https://github.com/kelektiv/node.bcrypt.js) - Bcrypt for NodeJs.
 - [node-rsa](https://github.com/rzcoder/node-rsa) - Node.js RSA library.
 - [node-md5](https://github.com/pvorb/node-md5) - A JavaScript function for hashing messages with MD5.
 

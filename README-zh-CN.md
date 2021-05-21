@@ -167,7 +167,7 @@
 - [fast-json-stringify](https://github.com/fastify/fast-json-stringify) - 比JSON.stringify()快2倍。
 - [jsonfile](https://github.com/jprichardson/node-jsonfile) - 轻松读写JSON文件。
 - [json-stable-stringify](https://github.com/substack/json-stable-stringify) - 具有自定义排序功能的确定性JSON.stringify(), 可以从字符串化结果中获取确定性哈希值。
-- [strip-json-comments](https://github.com/sindresorhus/strip-json-comments) - 去除JSON文件重的注释。让你可以在JSON中使用注释。
+- [strip-json-comments](https://github.com/sindresorhus/strip-json-comments) - 去除JSON文件中的注释。让你可以在JSON中使用注释。
 - [load-json-file](https://github.com/sindresorhus/load-json-file) - 读取并解析JSON文件。
 - [write-json-file](https://github.com/sindresorhus/write-json-file) - 序列化并写入JSON文件。
 - [fast-json-stable-stringify](https://github.com/epoberezkin/fast-json-stable-stringify) - 确定性JSON.stringify() - 比 @substack 的 json-stable-stringify 更快的版本，不带jsonify。
@@ -176,6 +176,7 @@
 ### 加解密
 
 - [crypto-js](https://github.com/brix/crypto-js) - JavaScript加密标准库。
+- [bcrypt](https://github.com/kelektiv/node.bcrypt.js) - Node.js版Bcrypt。
 - [node-rsa](https://github.com/rzcoder/node-rsa) - Node.js RSA库。
 - [node-md5](https://github.com/pvorb/node-md5) - 一个JavaScript函数，用于使用MD5对消息进行哈希处理。
 
