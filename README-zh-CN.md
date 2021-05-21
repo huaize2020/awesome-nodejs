@@ -17,6 +17,7 @@
   - [日期 和 时间](#日期-和-时间)
   - [URL](#url)
   - [JSON](#json)
+  - [图像处理](#图像处理)
   - [加解密](#加解密)
   - [类型判断](#类型判断)
   - [数据校验](#数据校验)
@@ -172,6 +173,17 @@
 - [write-json-file](https://github.com/sindresorhus/write-json-file) - 序列化并写入JSON文件。
 - [fast-json-stable-stringify](https://github.com/epoberezkin/fast-json-stable-stringify) - 确定性JSON.stringify() - 比 @substack 的 json-stable-stringify 更快的版本，不带jsonify。
 - [jsonuri](https://github.com/aligay/jsonuri) - 使用”URI样式“的方法来操作数据。
+
+### 图像处理
+
+- [sharp](https://github.com/lovell/sharp) - 调整JPEG，PNG，WebP和TIFF格式图像大小的最快模块。
+- [jimp](https://github.com/oliver-moran/jimp) - 纯JavaScript中的图像处理。
+- [gm](https://github.com/aheckmann/gm) - GraphicsMagick 和 ImageMagick 封装。
+- [qrcode](https://github.com/soldair/node-qrcode) - 二维码和条形码生成器。
+- [pica](https://github.com/nodeca/pica) - 使用纯JS中的高质量和快速调整大小（lanczos3）。 当不允许像素化时替代canvas drawImage()。
+- [lwip](https://github.com/EyalAr/lwip) - 不需要ImageMagick的轻量级图像处理器.
+- [probe-image-size](https://github.com/nodeca/probe-image-size) - 无需完全下载即可获取大多数图像格式的大小.
+- [image-type](https://github.com/sindresorhus/image-type) - 检测Buffer / Uint8Array的图像类型.
 
 ### 加解密
 

@@ -11,6 +11,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Date & Time](#date--time)
   - [URL](#url)
   - [JSON](#json)
+  - [Image](#image)
   - [Crypto](#crypto)
   - [Streams](#streams)
   - [Type Checking](#type-checking)
@@ -166,6 +167,17 @@ English | [简体中文](./README-zh-CN.md)
 - [write-json-file](https://github.com/sindresorhus/write-json-file) - Stringify and write JSON to a file atomically.
 - [fast-json-stable-stringify](https://github.com/epoberezkin/fast-json-stable-stringify) - Deterministic JSON.stringify() - a faster version of @substack's json-stable-strigify without jsonify.
 - [jsonuri](https://github.com/aligay/jsonuri) - Use URI style methods to operate data.
+
+### Image
+
+- [sharp](https://github.com/lovell/sharp) - The fastest module for resizing JPEG, PNG, WebP and TIFF images.
+- [jimp](https://github.com/oliver-moran/jimp) - Image processing in pure JavaScript.
+- [gm](https://github.com/aheckmann/gm) - GraphicsMagick and ImageMagick wrapper.
+- [qrcode](https://github.com/soldair/node-qrcode) - QR code and bar code generator.
+- [pica](https://github.com/nodeca/pica) - High quality & fast resize (lanczos3) in pure JS. Alternative to canvas drawImage(), when no pixelation allowed.
+- [lwip](https://github.com/EyalAr/lwip) - Lightweight image processor which does not require ImageMagick.
+- [probe-image-size](https://github.com/nodeca/probe-image-size) - Get the size of most image formats without a full download.
+- [image-type](https://github.com/sindresorhus/image-type) - Detect the image type of a Buffer/Uint8Array.
 
 ### Crypto
 
