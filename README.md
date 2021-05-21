@@ -305,7 +305,9 @@ English | [简体中文](./README-zh-CN.md)
   - [Commander.js](https://github.com/tj/commander.js) - The complete solution for node.js command-line interfaces.
   - [yargs](https://github.com/yargs/yargs) - Collection of common interactive command line user interfaces.
   - [oclif](https://github.com/oclif/oclif) - Node.js Open CLI Framework. Built with 💜 by Heroku.
+  - [meow](https://github.com/sindresorhus/meow) - CLI app helper.
   - [cac](https://github.com/cacjs/cac) - Simple yet powerful framework for building command-line apps.
+  - [Cliffy](https://github.com/drew-y/cliffy) - Framework for interactive CLIs.
   - [common-bin](https://github.com/node-modules/common-bin) - Abstraction bin tool wrap yargs, to provide more convenient usage, support async / generator.
 
 - Option/Argument parser
@@ -318,17 +320,22 @@ English | [简体中文](./README-zh-CN.md)
   - [prompts](https://github.com/terkelg/prompts) - Lightweight, beautiful and user-friendly interactive prompts.
   - [Enquirer](https://github.com/enquirer/enquirer) - Stylish CLI prompts that are user-friendly, intuitive and easy to create.
 
+- Progress
+  - [progress](https://github.com/visionmedia/node-progress) - Flexible ascii progress bar for nodejs.
+  - [progress-estimator](https://github.com/bvaughn/progress-estimator) - Logs a progress bar and estimation for how long a Promise will take to complete.
+  - [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - Easy to use progress-bar for command-line/terminal applications.
+
 - Style
   - [chalk](https://github.com/chalk/chalk) - Terminal string styling done right.
   - [ora](https://github.com/sindresorhus/ora) - Elegant terminal spinner.
   - [colors.js](https://github.com/Marak/colors.js) - Get colors in your node.js console.
   - [listr](https://github.com/SamVerschueren/listr) - Terminal task list.
-  - [progress](https://github.com/visionmedia/node-progress) - Flexible ascii progress bar for nodejs.
-  - [progress-estimator](https://github.com/bvaughn/progress-estimator) - Logs a progress bar and estimation for how long a Promise will take to complete.
   - [kleur](https://github.com/lukeed/kleur) - The fastest Node.js library for formatting terminal text with ANSI colors~!
   - [boxen](https://github.com/sindresorhus/boxen) - Create boxes in the terminal.
+  - [terminal-image](https://github.com/sindresorhus/terminal-image) - Display images in the terminal.
   - [log-symbols](https://github.com/sindresorhus/log-symbols) - Colored symbols for various log levels.
-  - [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - Easy to use progress-bar for command-line/terminal applications.
+  - [gradient-string](https://github.com/bokub/gradient-string) - Beautiful color gradients in terminal output.
+  - [terminal-link](https://github.com/sindresorhus/terminal-link) - Create clickable links in the terminal.
   - [cli-table3](https://github.com/cli-table/cli-table3) - Pretty unicode tables for the command line.
   - [kolorist](https://github.com/marvinhagemeister/kolorist) - A tiny utility to colorize stdin/stdout.
 

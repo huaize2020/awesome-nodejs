@@ -256,7 +256,9 @@
   - [Commander.js](https://github.com/tj/commander.js) - Node.JS命令行界面完整解决方案。
   - [yargs](https://github.com/yargs/yargs) - 通用可交互命令行工具集合。
   - [oclif](https://github.com/oclif/oclif) - 基于Heroku开源Node.js CLI框架。
+  - [meow](https://github.com/sindresorhus/meow) - CLI应用助手。
   - [cac](https://github.com/cacjs/cac) - 用于构建命令行应用的强大框架。
+  - [Cliffy](https://github.com/drew-y/cliffy) - 可交互命令行框架。
   - [common-bin](https://github.com/node-modules/common-bin) - 基于yargs的命令行工具抽象，提供更方便的使用，支持async/generator。
 
 - 命令行参数解析
@@ -269,17 +271,22 @@
   - [prompts](https://github.com/terkelg/prompts) - 轻量、美观、用户友好的交互式命令行提示。
   - [Enquirer](https://github.com/enquirer/enquirer) - 用户友好、直观且易于创建的时尚CLI提示。
 
+- 进度条
+  - [progress](https://github.com/visionmedia/node-progress) - Node.js的灵活ascii进度条。
+  - [progress-estimator](https://github.com/bvaughn/progress-estimator) - 记录进度条并估计完成承诺所需的时间。
+  - [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - 在命令行/终端应用中轻松的使用进度条。
+
 - 样式
   - [chalk](https://github.com/chalk/chalk) - 命令行字符串样式美化工具。
   - [ora](https://github.com/sindresorhus/ora) - 优雅的命令行loading效果。
   - [colors.js](https://github.com/Marak/colors.js) - 获取Node.js控制台的颜色。
   - [listr](https://github.com/SamVerschueren/listr) - 命令行任务列表。
-  - [progress](https://github.com/visionmedia/node-progress) - Node.js的灵活ascii进度条。
-  - [progress-estimator](https://github.com/bvaughn/progress-estimator) - 记录进度条并估计完成承诺所需的时间。
   - [kleur](https://github.com/lukeed/kleur) - 最快的Node.js库，使用ANSI颜色格式化命令行文本。
   - [boxen](https://github.com/sindresorhus/boxen) - 控制台中创建盒子。
+  - [terminal-image](https://github.com/sindresorhus/terminal-image) - 在终端中展示图片。
   - [log-symbols](https://github.com/sindresorhus/log-symbols) - 为不同日志级别添加色彩图标。
-  - [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - 在命令行/终端应用中轻松的使用进度条。
+  - [gradient-string](https://github.com/bokub/gradient-string) - 终端输出中漂亮的颜色渐变。
+  - [terminal-link](https://github.com/sindresorhus/terminal-link) - 在终端中创建可点击的链接。
   - [cli-table3](https://github.com/cli-table/cli-table3) - 命令行的漂亮unicode表。
   - [kolorist](https://github.com/marvinhagemeister/kolorist) - 使用输入和输出色彩化的小工具。
 
