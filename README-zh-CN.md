@@ -55,6 +55,7 @@
   - [邮箱](#邮箱)
   - [网络](#网络)
   - [HTTP](#http)
+  - [RPC](#rpc)
   - [爬虫](#爬虫)
   - [AST](#ast)
   - [设计稿转代码（D2C）](#设计稿转代码d2c)
@@ -190,7 +191,9 @@
 - [crypto-js](https://github.com/brix/crypto-js) - JavaScript加密标准库。
 - [bcrypt](https://github.com/kelektiv/node.bcrypt.js) - Node.js版Bcrypt。
 - [node-rsa](https://github.com/rzcoder/node-rsa) - Node.js RSA库。
+- [aes-js](https://github.com/ricmoo/aes-js) - AES的纯JavaScript实现。
 - [node-md5](https://github.com/pvorb/node-md5) - 一个JavaScript函数，用于使用MD5对消息进行哈希处理。
+- [pbkdf2](https://github.com/crypto-browserify/pbkdf2) - 在Node中具有任何受支持的哈希算法PBKDF2。
 
 ### 类型判断
 
@@ -300,6 +303,7 @@
   - [gradient-string](https://github.com/bokub/gradient-string) - 终端输出中漂亮的颜色渐变。
   - [terminal-link](https://github.com/sindresorhus/terminal-link) - 在终端中创建可点击的链接。
   - [cli-table3](https://github.com/cli-table/cli-table3) - 命令行的漂亮unicode表。
+  - [easy-table](https://github.com/eldargab/easy-table) - 漂亮的文本表格。
   - [kolorist](https://github.com/marvinhagemeister/kolorist) - 使用输入和输出色彩化的小工具。
 
 - 其他
@@ -381,8 +385,9 @@
   - [markdown-it](https://github.com/markdown-it/markdown-it) - 支持100%通用Markdown标签解析的扩展&语法插件。
 
 - CSV
-  - [neat-csv](https://github.com/sindresorhus/neat-csv) - 快速的CSV解析器。
+  - [node-csv](https://github.com/adaltas/node-csv) - 具有简单api的全功能CSV解析器，并针对大型数据集进行了测试。
   - [csv-parser](https://github.com/mafintosh/csv-parser) - 旨在比其他任何人都快的流式CSV解析器。
+  - [neat-csv](https://github.com/sindresorhus/neat-csv) - 快速的CSV解析器。
 
 - YAML
   - [js-yaml](https://github.com/nodeca/js-yaml) - 快速的YAML解析器。
@@ -637,6 +642,7 @@
 - [playwright](https://github.com/microsoft/playwright) - 使用单一API自动操作Chromium, Firefox and WebKi。
 - [phantomjs](https://github.com/ariya/phantomjs) - 脚本化无头浏览器。
 - [appium](https://github.com/appium/appium) - iOS, Android, and Windows Apps自动化。
+- [robotjs](https://github.com/octalmage/robotjs) - Node.js桌面自动化。
 
 ### 测试相关
 
@@ -770,6 +776,12 @@
 - 中间件
   - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - ⚡用于connect，express和browser-sync的单线Node.js Http代理中间件。
 
+### RPC
+
+- [grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js) - Pure JavaScript gRPC Client.
+- [jayson](https://github.com/tedeh/jayson) - Jayson is a simple but featureful JSON-RPC 2.0/1.0 client and server for node.js.
+- [sofa-rpc-node](https://github.com/sofastack/sofa-rpc-node) - SOFARPC Node is a high-performance, high-extensibility, production-level Nodejs RPC framework.
+
 ### 爬虫
 
 - [node-crawler](https://github.com/bda-research/node-crawler) - NodeJS Web爬虫 + 服务端jQuery。
@@ -780,13 +792,17 @@
 - 解析器
   - [babel-parser](https://github.com/babel/babel/tree/master/packages/babel-parser) - JavaScript解析器。
   - [antlr](https://github.com/antlr/antlr4) - ANTLR (ANother Tool for Language Recognition)是一个用于阅读、处理、执行和翻译结构化文本或二进制文件的强大的解析生成器。
-  - [acorn](https://github.com/acornjs/acorn) - 小巧、快速的JavaScript解析器。
+  - [acorn](https://github.com/acornjs/acorn/tree/master/acorn) - 小巧、快速的JavaScript解析器。
   - [esprima](https://github.com/jquery/esprima) - 高性能、符合ECMASCRIPT标准的解析器。
   - [recast](https://github.com/benjamn/recast) - JavaScript语法树转换器，非破坏性漂亮print和自动source map生成器。
   - [espree](https://github.com/eslint/espree) - 与Esprima兼容的JavaScript解析器。
   - [csstree](https://github.com/csstree/csstree) - 基于W3C标准和浏览器标准实现，包含快速详细的解析器、遍历器、生成器、词法解析的CSS工具集。
   - [himalaya](https://github.com/andrejewski/himalaya) - 将HTML转化为JSON的解析器。
   - [es-module-lexer](https://github.com/guybedford/es-module-lexer) - 低开销的词法分析器，专门用于ES模块快速分析解析。
+
+- 遍历
+  - [acorn-walker](https://github.com/acornjs/acorn/tree/master/acorn-walk) - 小巧、快速的JavaScript解析器。
+  - [estraverse](https://github.com/estools/estraverse) - ECMAScript JS AST遍历功能。
 
 - 代码生成
   - [escodegen](https://github.com/estools/escodegen) - ECMAScript代码生成。

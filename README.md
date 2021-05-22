@@ -50,6 +50,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Email](#email)
   - [Network](#network)
   - [HTTP](#http)
+  - [RPC](#rpc)
   - [Crawler](#crawler)
   - [AST](#ast)
   - [Design To Code（D2C）](#design-to-coded2c)
@@ -184,7 +185,9 @@ English | [简体中文](./README-zh-CN.md)
 - [crypto-js](https://github.com/brix/crypto-js) - JavaScript library of crypto standards.
 - [bcrypt](https://github.com/kelektiv/node.bcrypt.js) - Bcrypt for NodeJs.
 - [node-rsa](https://github.com/rzcoder/node-rsa) - Node.js RSA library.
+- [aes-js](https://github.com/ricmoo/aes-js) - A pure JavaScript implementation of the AES block cipher and all common modes of operation for node.js or web browsers.
 - [node-md5](https://github.com/pvorb/node-md5) - A JavaScript function for hashing messages with MD5.
+- [pbkdf2](https://github.com/crypto-browserify/pbkdf2) - PBKDF2 with any supported hashing algorithm in Node.
 
 ### Streams
 
@@ -349,6 +352,7 @@ English | [简体中文](./README-zh-CN.md)
   - [gradient-string](https://github.com/bokub/gradient-string) - Beautiful color gradients in terminal output.
   - [terminal-link](https://github.com/sindresorhus/terminal-link) - Create clickable links in the terminal.
   - [cli-table3](https://github.com/cli-table/cli-table3) - Pretty unicode tables for the command line.
+  - [easy-table](https://github.com/eldargab/easy-table) - Nice text table for Node.js.
   - [kolorist](https://github.com/marvinhagemeister/kolorist) - A tiny utility to colorize stdin/stdout.
 
 - Other
@@ -430,8 +434,9 @@ English | [简体中文](./README-zh-CN.md)
   - [markdown-it](https://github.com/markdown-it/markdown-it) - Markdown parser with 100% CommonMark support, extensions and syntax plugins.
 
 - CSV
-  - [neat-csv](https://github.com/sindresorhus/neat-csv) - Fast CSV parser. Callback interface for the above.
+  - [node-csv](https://github.com/adaltas/node-csv) - Full featured CSV parser with simple api and tested against large datasets.
   - [csv-parser](https://github.com/mafintosh/csv-parser) - Streaming CSV parser that aims to be faster than everyone else.
+  - [neat-csv](https://github.com/sindresorhus/neat-csv) - Fast CSV parser. Callback interface for the above.
 
 - YAML
   - [js-yaml](https://github.com/nodeca/js-yaml) - Very fast YAML parser.
@@ -686,6 +691,7 @@ English | [简体中文](./README-zh-CN.md)
 - [playwright](https://github.com/microsoft/playwright) - Automate Chromium, Firefox and WebKit with a single API.
 - [phantomjs](https://github.com/ariya/phantomjs) - Scriptable Headless Browser.
 - [appium](https://github.com/appium/appium) - Automation for iOS, Android, and Windows Apps.
+- [robotjs](https://github.com/octalmage/robotjs) - Node.js Desktop Automation.
 
 ### Testing
 
@@ -819,6 +825,13 @@ English | [简体中文](./README-zh-CN.md)
 - Middleware
   - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - ⚡ The one-liner node.js http-proxy middleware for connect, express and browser-sync.
 
+
+### RPC
+
+- [grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js) - 纯JavaScript gRPC客户端。
+- [jayson](https://github.com/tedeh/jayson) - Jayson是用于Node.js的简单但功能强大的JSON-RPC 2.0 / 1.0客户端和服务器。
+- [sofa-rpc-node](https://github.com/sofastack/sofa-rpc-node) - SOFARPC Node是高性能、高可扩展性、产品级Node.js RPC框架。
+
 ### Crawler
 
 - [node-crawler](https://github.com/bda-research/node-crawler) - Web Crawler/Spider for NodeJS + server-side jQuery.
@@ -829,13 +842,17 @@ English | [简体中文](./README-zh-CN.md)
 - Parser
   - [babel-parser](https://github.com/babel/babel/tree/master/packages/babel-parser) - JavaScript parser.
   - [antlr](https://github.com/antlr/antlr4) - ANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files.
-  - [acorn](https://github.com/acornjs/acorn) - Small, fast, JavaScript-based JavaScript parser.
+  - [acorn](https://github.com/acornjs/acorn/tree/master/acorn) - Small, fast, JavaScript-based JavaScript parser.
   - [esprima](https://github.com/jquery/esprima) - High performance, standard-compliant ECMAScript parser.
   - [recast](https://github.com/benjamn/recast) - JavaScript syntax tree transformer, nondestructive pretty-printer, and automatic source map generator.
   - [espree](https://github.com/eslint/espree) - Esprima-compatible JavaScript parser.
   - [csstree](https://github.com/csstree/csstree) - Tool set for CSS including fast detailed parser, walker, generator and lexer based on W3C specs and browser implementations.
   - [himalaya](https://github.com/andrejewski/himalaya) - JavaScript HTML to JSON Parser.
   - [es-module-lexer](https://github.com/guybedford/es-module-lexer) - Low-overhead lexer dedicated to ES module parsing for fast analysis.
+
+- Traversal
+  - [acorn-walker](https://github.com/acornjs/acorn/tree/master/acorn-walk) - Small, fast, JavaScript-based JavaScript parser.
+  - [estraverse](https://github.com/estools/estraverse) - ECMAScript JS AST traversal functions.
 
 - Codegen
   - [escodegen](https://github.com/estools/escodegen) - ECMAScript code generator.
