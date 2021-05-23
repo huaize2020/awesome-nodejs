@@ -184,6 +184,7 @@ English | [简体中文](./README-zh-CN.md)
 
 - [crypto-js](https://github.com/brix/crypto-js) - JavaScript library of crypto standards.
 - [bcrypt](https://github.com/kelektiv/node.bcrypt.js) - Bcrypt for NodeJs.
+- [jsencrypt](https://github.com/travist/jsencrypt) - A Javascript library to perform OpenSSL RSA Encryption, Decryption, and Key Generation.
 - [node-rsa](https://github.com/rzcoder/node-rsa) - Node.js RSA library.
 - [aes-js](https://github.com/ricmoo/aes-js) - A pure JavaScript implementation of the AES block cipher and all common modes of operation for node.js or web browsers.
 - [node-md5](https://github.com/pvorb/node-md5) - A JavaScript function for hashing messages with MD5.
@@ -849,6 +850,7 @@ English | [简体中文](./README-zh-CN.md)
   - [csstree](https://github.com/csstree/csstree) - Tool set for CSS including fast detailed parser, walker, generator and lexer based on W3C specs and browser implementations.
   - [himalaya](https://github.com/andrejewski/himalaya) - JavaScript HTML to JSON Parser.
   - [es-module-lexer](https://github.com/guybedford/es-module-lexer) - Low-overhead lexer dedicated to ES module parsing for fast analysis.
+  - [dt-sql-parser](https://github.com/DTStack/dt-sql-parser) - SQL Parsers for BigData, built with antlr4.
 
 - Traversal
   - [acorn-walker](https://github.com/acornjs/acorn/tree/master/acorn-walk) - Small, fast, JavaScript-based JavaScript parser.

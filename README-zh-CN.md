@@ -190,6 +190,7 @@
 
 - [crypto-js](https://github.com/brix/crypto-js) - JavaScript加密标准库。
 - [bcrypt](https://github.com/kelektiv/node.bcrypt.js) - Node.js版Bcrypt。
+- [jsencrypt](https://github.com/travist/jsencrypt) - 用于执行OpenSSL RSA加密、解密和密钥生成的Javascript库。
 - [node-rsa](https://github.com/rzcoder/node-rsa) - Node.js RSA库。
 - [aes-js](https://github.com/ricmoo/aes-js) - AES的纯JavaScript实现。
 - [node-md5](https://github.com/pvorb/node-md5) - 一个JavaScript函数，用于使用MD5对消息进行哈希处理。
@@ -799,6 +800,8 @@
   - [csstree](https://github.com/csstree/csstree) - 基于W3C标准和浏览器标准实现，包含快速详细的解析器、遍历器、生成器、词法解析的CSS工具集。
   - [himalaya](https://github.com/andrejewski/himalaya) - 将HTML转化为JSON的解析器。
   - [es-module-lexer](https://github.com/guybedford/es-module-lexer) - 低开销的词法分析器，专门用于ES模块快速分析解析。
+  - [dt-sql-parser](https://github.com/DTStack/dt-sql-parser) - 大数据的SQL解析器，用antlr4构建。
+
 
 - 遍历
   - [acorn-walker](https://github.com/acornjs/acorn/tree/master/acorn-walk) - 小巧、快速的JavaScript解析器。
