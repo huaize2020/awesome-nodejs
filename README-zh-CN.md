@@ -746,6 +746,7 @@
 - [getmac](https://github.com/bevry/getmac) -  获取电脑的MAC地址。
 - [DHCP](https://github.com/infusion/node-dhcp) - DHCP客户端和服务器。
 - [ipify](https://github.com/sindresorhus/ipify) - 获取你的公网IP地址。
+- [address](https://github.com/node-modules/address) - 获取当前机器IP地址和MAC地址。
 
 ### HTTP
 

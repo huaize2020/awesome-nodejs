@@ -795,6 +795,7 @@ English | [简体中文](./README-zh-CN.md)
 - [getmac](https://github.com/bevry/getmac) - Get the computer MAC address.
 - [DHCP](https://github.com/infusion/node-dhcp) - DHCP client and server.
 - [ipify](https://github.com/sindresorhus/ipify) - Get your public IP address.
+- [address](https://github.com/node-modules/address) - Get current machine IP and MAC address.
 
 ### HTTP
 
