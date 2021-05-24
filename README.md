@@ -50,6 +50,8 @@ English | [简体中文](./README-zh-CN.md)
   - [Email](#email)
   - [Network](#network)
   - [HTTP](#http)
+  - [Authentication](#authentication)
+  - [Authorization](#authorization)
   - [Distribute](#distribute)
   - [RPC](#rpc)
   - [Crawler](#crawler)
@@ -187,6 +189,7 @@ English | [简体中文](./README-zh-CN.md)
 - [crypto-js](https://github.com/brix/crypto-js) - JavaScript library of crypto standards.
 - [bcrypt](https://github.com/kelektiv/node.bcrypt.js) - Bcrypt for NodeJs.
 - [jsencrypt](https://github.com/travist/jsencrypt) - A Javascript library to perform OpenSSL RSA Encryption, Decryption, and Key Generation.
+- [bcrypt.js](https://github.com/dcodeIO/bcrypt.js) - Optimized bcrypt in plain JavaScript with zero dependencies.
 - [node-rsa](https://github.com/rzcoder/node-rsa) - Node.js RSA library.
 - [aes-js](https://github.com/ricmoo/aes-js) - A pure JavaScript implementation of the AES block cipher and all common modes of operation for node.js or web browsers.
 - [node-md5](https://github.com/pvorb/node-md5) - A JavaScript function for hashing messages with MD5.
@@ -823,11 +826,23 @@ English | [简体中文](./README-zh-CN.md)
 
 - Proxy
   - [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP proxy.
+  - [https-proxy-agent](https://github.com/TooTallNate/node-https-proxy-agent) - An HTTP(s) proxy `http.Agent` implementation for HTTPS endpoints.
   - [global-agent](https://github.com/gajus/global-agent) - Global HTTP/HTTPS proxy agent that is configurable using environment variables.
   - [fast-proxy](https://github.com/fastify/fast-proxy) - Node.js framework agnostic library that enables you to forward an http request to another HTTP server. Supported protocols: HTTP, HTTPS, HTTP2.
 
 - Middleware
   - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - ⚡ The one-liner node.js http-proxy middleware for connect, express and browser-sync.
+
+### Authentication
+
+- [Passport](https://github.com/jaredhanson/passport) - Simple, unobtrusive authentication.
+- [Grant](https://github.com/simov/grant) - OAuth providers for Express, Koa, Hapi, Fastify, AWS Lambda, Azure, Google Cloud, Vercel, and many more.
+- [permit](https://github.com/ianstormtaylor/permit) - An unopinionated authentication library for building Node.js APIs.
+
+### Authorization
+
+- [CASL](https://github.com/stalniy/casl) - Isomorphic authorization for UI and API.
+- [node-casbin](https://github.com/casbin/node-casbin) - Authorization library that supports access control models like ACL, RBAC and ABAC.
 
 ### Distribute
 

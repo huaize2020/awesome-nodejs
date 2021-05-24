@@ -55,6 +55,8 @@
   - [邮箱](#邮箱)
   - [网络](#网络)
   - [HTTP](#http)
+  - [验证](#验证)
+  - [授权](#授权)
   - [分布式](#分布式)
   - [RPC](#rpc)
   - [爬虫](#爬虫)
@@ -193,6 +195,7 @@
 - [crypto-js](https://github.com/brix/crypto-js) - JavaScript加密标准库。
 - [bcrypt](https://github.com/kelektiv/node.bcrypt.js) - Node.js版Bcrypt。
 - [jsencrypt](https://github.com/travist/jsencrypt) - 用于执行OpenSSL RSA加密、解密和密钥生成的Javascript库。
+- [bcrypt.js](https://github.com/dcodeIO/bcrypt.js) - 经过优化bcrypt库，使用纯JavaScript的零依赖。
 - [node-rsa](https://github.com/rzcoder/node-rsa) - Node.js RSA库。
 - [aes-js](https://github.com/ricmoo/aes-js) - AES的纯JavaScript实现。
 - [node-md5](https://github.com/pvorb/node-md5) - 一个JavaScript函数，用于使用MD5对消息进行哈希处理。
@@ -774,11 +777,23 @@
 
 - 代理
   - [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP代理。
+  - [https-proxy-agent](https://github.com/TooTallNate/node-https-proxy-agent) - HTTP(S) 代理 `http.Agent`实现。
   - [global-agent](https://github.com/gajus/global-agent) - 可以使用环境变量配置的全局 HTTP/HTTPS 代理。
   - [fast-proxy](https://github.com/fastify/fast-proxy) - Node.js框架，使您可以将http请求转发到另一个HTTP服务器。 支持的协议：HTTP，HTTPS，HTTP2。
 
 - 中间件
   - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - ⚡用于connect，express和browser-sync的单线Node.js Http代理中间件。
+
+### 验证
+
+- [Passport](https://github.com/jaredhanson/passport) - 简单的身份验证。
+- [Grant](https://github.com/simov/grant) - 适用于Express，Koa，Hapi，Fastify，AWS Lambda，Azure，Google Cloud，Vercel等的OAuth程序。
+- [permit](https://github.com/ianstormtaylor/permit) - 用于构建Node.js API的非标准认证库。
+
+### 授权
+
+- [CASL](https://github.com/stalniy/casl) - 同构授权用于可视化界面和API。
+- [node-casbin](https://github.com/casbin/node-casbin) - 支持访问控制模型（如ACL，RBAC和ABAC）的授权库。
 
 ### 分布式
 
@@ -808,7 +823,6 @@
   - [himalaya](https://github.com/andrejewski/himalaya) - 将HTML转化为JSON的解析器。
   - [es-module-lexer](https://github.com/guybedford/es-module-lexer) - 低开销的词法分析器，专门用于ES模块快速分析解析。
   - [dt-sql-parser](https://github.com/DTStack/dt-sql-parser) - 大数据的SQL解析器，用antlr4构建。
-
 
 - 遍历
   - [acorn-walker](https://github.com/acornjs/acorn/tree/master/acorn-walk) - 小巧、快速的JavaScript解析器。
