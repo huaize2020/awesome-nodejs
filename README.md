@@ -310,6 +310,7 @@ English | [简体中文](./README-zh-CN.md)
 
 ### Environment
 
+- [dotenv](https://github.com/motdotla/dotenv) - Loads environment variables from .env for nodejs projects.
 - [cross-env](https://github.com/kentcdodds/cross-env) - Set environment variables cross-platform.
 - [which](https://github.com/npm/node-which) - Cross-platform implementation of Unix's `which`.
 - [user-home](https://github.com/sindresorhus/user-home) - Get the path to the user home directory. Cross-platform.

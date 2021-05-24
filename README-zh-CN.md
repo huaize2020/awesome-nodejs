@@ -261,6 +261,7 @@
 
 ### 环境变量
 
+- [dotenv](https://github.com/motdotla/dotenv) - 从 .env文件 加载用于nodejs项目的环境变量。
 - [cross-env](https://github.com/kentcdodds/cross-env) - 跨平台设置环境变量。
 - [which](https://github.com/npm/node-which) - 跨平台实现的Unix `which`.
 - [user-home](https://github.com/sindresorhus/user-home) - 跨平台获取用户home目录路径。
