@@ -55,6 +55,7 @@
   - [邮箱](#邮箱)
   - [网络](#网络)
   - [HTTP](#http)
+  - [分布式](#分布式)
   - [RPC](#rpc)
   - [爬虫](#爬虫)
   - [AST](#ast)
@@ -170,6 +171,7 @@
 - [jsonfile](https://github.com/jprichardson/node-jsonfile) - 轻松读写JSON文件。
 - [json-stable-stringify](https://github.com/substack/json-stable-stringify) - 具有自定义排序功能的确定性JSON.stringify(), 可以从字符串化结果中获取确定性哈希值。
 - [strip-json-comments](https://github.com/sindresorhus/strip-json-comments) - 去除JSON文件中的注释。让你可以在JSON中使用注释。
+- [json-stringify-safe](https://github.com/moll/json-stringify-safe) - 类似于JSON.stringify，但不会引发循环引用。
 - [load-json-file](https://github.com/sindresorhus/load-json-file) - 读取并解析JSON文件。
 - [write-json-file](https://github.com/sindresorhus/write-json-file) - 序列化并写入JSON文件。
 - [fast-json-stable-stringify](https://github.com/epoberezkin/fast-json-stable-stringify) - 确定性JSON.stringify() - 比 @substack 的 json-stable-stringify 更快的版本，不带jsonify。
@@ -777,6 +779,10 @@
 
 - 中间件
   - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - ⚡用于connect，express和browser-sync的单线Node.js Http代理中间件。
+
+### 分布式
+
+- [node-zookeeper-client](https://github.com/alexguan/node-zookeeper-client) - 纯JavaScript ZooKeeper客户端。
 
 ### RPC
 

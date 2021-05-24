@@ -50,6 +50,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Email](#email)
   - [Network](#network)
   - [HTTP](#http)
+  - [Distribute](#distribute)
   - [RPC](#rpc)
   - [Crawler](#crawler)
   - [AST](#ast)
@@ -163,6 +164,7 @@ English | [简体中文](./README-zh-CN.md)
 - [jsonfile](https://github.com/jprichardson/node-jsonfile) - Easily read/write JSON files.
 - [json-stable-stringify](https://github.com/substack/json-stable-stringify) - Deterministic JSON.stringify() with custom sorting to get deterministic hashes from stringified results.
 - [strip-json-comments](https://github.com/sindresorhus/strip-json-comments) - Strip comments from JSON. Lets you use comments in your JSON files.
+- [json-stringify-safe](https://github.com/moll/json-stringify-safe) - Like JSON.stringify, but doesn't throw on circular references.
 - [parse-json](https://github.com/sindresorhus/parse-json) - Parse JSON with more helpful errors.
 - [load-json-file](https://github.com/sindresorhus/load-json-file) - Read and parse a JSON file.
 - [write-json-file](https://github.com/sindresorhus/write-json-file) - Stringify and write JSON to a file atomically.
@@ -827,6 +829,9 @@ English | [简体中文](./README-zh-CN.md)
 - Middleware
   - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - ⚡ The one-liner node.js http-proxy middleware for connect, express and browser-sync.
 
+### Distribute
+
+- [node-zookeeper-client](https://github.com/alexguan/node-zookeeper-client) - A pure Javascript ZooKeeper client for Node.js.
 
 ### RPC
 
