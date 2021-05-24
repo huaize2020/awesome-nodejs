@@ -919,6 +919,7 @@ English | [简体中文](./README-zh-CN.md)
 
 ### Natural language processing
 
+- [compromise](https://github.com/spencermountain/compromise) - Modest natural-language processing.
 - [natural](https://github.com/NaturalNode/natural) - Natural language facility.
 - [nlp.js](https://github.com/axa-group/nlp.js) - Building bots, with entity extraction, sentiment analysis, automatic language identify, and more.
 - [franc](https://github.com/wooorm/franc) - Detect the language of text.

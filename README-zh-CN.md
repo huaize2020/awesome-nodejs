@@ -870,6 +870,7 @@
 
 ### 自然语言处理
 
+- [compromise](https://github.com/spencermountain/compromise) - 自然语言处理。
 - [natural](https://github.com/NaturalNode/natural) - 自然语言设施。
 - [nlp.js](https://github.com/axa-group/nlp.js) - 构建机器人，具有实体提取、情感分析、自动语言识别等功能。
 - [franc](https://github.com/wooorm/franc) - 检测文本使用的语言。
