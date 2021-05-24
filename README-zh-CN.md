@@ -808,7 +808,17 @@
 ### 爬虫
 
 - [node-crawler](https://github.com/bda-research/node-crawler) - NodeJS Web爬虫 + 服务端jQuery。
-- [Headless Chrome Crawler](https://github.com/yujiosaka/headless-chrome-crawler) - 使用Chrome无头浏览器的分布式爬虫。
+- [x-ray](https://github.com/lapwinglabs/x-ray) - 具有分页的Web抓取爬虫。
+- [headless-chrome-crawler](https://github.com/yujiosaka/headless-chrome-crawler) - 使用Chrome无头浏览器的分布式爬虫。
+- [node-osmosis](https://github.com/rchipka/node-osmosis) - Node.js的HTML / XML解析器和Web抓取工具。
+- [scrape-it](https://github.com/IonicaBizau/scrape-it) - 适用于人类的Node.js抓取工具。
+- [scraperjs](https://github.com/ruipgil/scraperjs) - 完整而多功能的Web抓取器。
+- [simplecrawler](https://github.com/cgiffard/node-simplecrawler) - 事件驱动的Web爬虫。
+- [web-scraper-chrome-extension](https://github.com/martinsbalodis/web-scraper-chrome-extension) -实现为Chrome插件的Web数据抽取工具。
+- [webster](https://github.com/zhuyingda/webster) - 一个可靠的Web爬虫框架，可以在网页中抓取Ajax和js呈现的内容。
+- [supercrawler](https://github.com/brendonboshell/supercrawler) - 定义自定义处理程序以解析内容。 遵守robots.txt，速率限制和并发限制。
+- [Squidwarc](https://github.com/n0tan3rd/squidwarc) - 高保真度，用户可编写脚本的归档爬虫程序，使用带头或不带头的Chrome或Chromium。
+- [js-crawler](https://github.com/antivanov/js-crawler) - 适用于Node.JS的Web爬虫，同时支持HTTP和HTTPS。
 
 ### AST
 

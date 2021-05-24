@@ -857,7 +857,17 @@ English | [简体中文](./README-zh-CN.md)
 ### Crawler
 
 - [node-crawler](https://github.com/bda-research/node-crawler) - Web Crawler/Spider for NodeJS + server-side jQuery.
-- [Headless Chrome Crawler](https://github.com/yujiosaka/headless-chrome-crawler) - Distributed crawler powered by Headless Chrome.
+- [x-ray](https://github.com/lapwinglabs/x-ray) - Web scraper with pagination and crawler support.
+- [headless-chrome-crawler](https://github.com/yujiosaka/headless-chrome-crawler) - Headless Chrome crawls with jQuery support.
+- [node-osmosis](https://github.com/rchipka/node-osmosis) - HTML/XML parser and web scraper for Node.js.
+- [scrape-it](https://github.com/IonicaBizau/scrape-it) - A Node.js scraper for humans.
+- [scraperjs](https://github.com/ruipgil/scraperjs) - A complete and versatile web scraper.
+- [simplecrawler](https://github.com/cgiffard/node-simplecrawler) - Event driven web crawler.
+- [web-scraper-chrome-extension](https://github.com/martinsbalodis/web-scraper-chrome-extension) - Web data extraction tool implemented as chrome extension.
+- [webster](https://github.com/zhuyingda/webster) - A reliable web crawling framework which can scrape ajax and js rendered content in a web page.
+- [supercrawler](https://github.com/brendonboshell/supercrawler) - Define custom handlers to parse content. Obeys robots.txt, rate limits and concurrency limits.
+- [Squidwarc](https://github.com/n0tan3rd/squidwarc) - High fidelity, user scriptable, archival crawler that uses Chrome or Chromium with or without a head.
+- [js-crawler](https://github.com/antivanov/js-crawler) - Web crawler for Node.JS, both HTTP and HTTPS are supported.
 
 ### AST
 
