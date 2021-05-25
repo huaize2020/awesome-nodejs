@@ -313,6 +313,7 @@
   - [cli-table3](https://github.com/cli-table/cli-table3) - 命令行的漂亮unicode表。
   - [easy-table](https://github.com/eldargab/easy-table) - 漂亮的文本表格。
   - [kolorist](https://github.com/marvinhagemeister/kolorist) - 使用输入和输出色彩化的小工具。
+  - [console-png](https://github.com/aantthony/console-png) - 在命令行输出中打印PNG图片。
 
 - 其他
   - [commitizen](https://github.com/commitizen/cz-cli) - Commitizen命令行实用程序。

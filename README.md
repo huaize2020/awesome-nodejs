@@ -362,6 +362,7 @@ English | [简体中文](./README-zh-CN.md)
   - [cli-table3](https://github.com/cli-table/cli-table3) - Pretty unicode tables for the command line.
   - [easy-table](https://github.com/eldargab/easy-table) - Nice text table for Node.js.
   - [kolorist](https://github.com/marvinhagemeister/kolorist) - A tiny utility to colorize stdin/stdout.
+  - [console-png](https://github.com/aantthony/console-png) - Print PNG images to terminal output.
 
 - Other
   - [commitizen](https://github.com/commitizen/cz-cli) - The commitizen command line utility.
