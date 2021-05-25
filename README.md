@@ -144,6 +144,7 @@ English | [简体中文](./README-zh-CN.md)
 - [ms](https://github.com/vercel/ms) - Tiny millisecond conversion utility.
 - [dateformat](https://github.com/felixge/node-dateformat) - A node.js package for Steven Levithan's excellent dateFormat() function.
 - [pretty-ms](https://github.com/sindresorhus/pretty-ms) - Convert milliseconds to a human readable string: `1337000000` → `15d 11h 23m 20s`
+- [date-utils](https://github.com/JerrySievert/date-utils) - Date Pollyfills for Node.js and Browser.
 
 ### URL
 
@@ -535,9 +536,13 @@ English | [简体中文](./README-zh-CN.md)
 - [art-template](https://github.com/aui/art-template) - High performance JavaScript templating engine.
 - [nunjucks](https://github.com/mozilla/nunjucks) - Templating engine with inheritance, asynchronous control, and more (jinja2 inspired).
 - [EJS](https://github.com/mde/ejs) - Simple unopinionated templating language.
+- [hogan.js](https://github.com/twitter/hogan.js) - A compiler for the Mustache templating language.
 - [doT](https://github.com/olado/doT) - Fastest + concise javascript template engine for nodejs and browsers. Partials, custom delimiters and more.
+- [jsrender](https://github.com/BorisMoore/jsrender) - A lightweight, powerful and highly extensible templating engine. In the browser or on Node.js, with or without jQuery.
 - [Twig.js](https://github.com/twigjs/twig.js) - JS implementation of the Twig Templating Language.
 - [hbs](https://github.com/pillarjs/hbs) - Express view engine wrapper for Handlebars.
+- [Juicer](https://github.com/PaulGuo/Juicer) - A Lightweight JavaScript Template Engine.
+- [tempo](https://github.com/twigkit/tempo) - Tempo is an easy, intuitive JavaScript rendering engine that enables you to craft data templates in pure HTML.
 - [xtemplate](https://github.com/xtemplate/xtemplate) - High Speed, eXtensible Template Engine lib on browser and nodejs. support async control, inheritance, include, logic expression, custom function and more.
 
 ### Web Frameworks

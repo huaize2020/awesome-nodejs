@@ -151,6 +151,7 @@
 - [ms](https://github.com/vercel/ms) - 毫秒转换工具。
 - [dateformat](https://github.com/felixge/node-dateformat) - 日期格式化。
 - [pretty-ms](https://github.com/sindresorhus/pretty-ms) - 将毫秒转换为人类可读的字符串，如: `1337000000` → `15d 11h 23m 20s`
+- [date-utils](https://github.com/JerrySievert/date-utils) - 用于Node.js和浏览器的日期垫片（Polyfills）。
 
 ### URL
 
@@ -486,9 +487,14 @@
 - [art-template](https://github.com/aui/art-template) - 高性能JavaScript模板引擎。
 - [nunjucks](https://github.com/mozilla/nunjucks) - 具有继承，异步控制等功能的模板引擎（受Jinja2启发）。
 - [EJS](https://github.com/mde/ejs) - 超级简单的模板语言。
+- [hogan.js](https://github.com/twitter/hogan.js) - {{八字须}} 样式的模板语言。
 - [doT](https://github.com/olado/doT) - 最快简洁的JavaScript模板引擎。
+- [dustjs](https://github.com/linkedin/dustjs) - 用于浏览器和服务器的异步Javascript模板。
+- [jsrender](https://github.com/BorisMoore/jsrender) -  轻巧，功能强大且高度可扩展的模板引擎。
 - [Twig.js](https://github.com/twigjs/twig.js) - Twig模板语言的JavaScript实现。
 - [hbs](https://github.com/pillarjs/hbs) - Handlebars的Express版本封装。
+- [Juicer](https://github.com/PaulGuo/Juicer) - 轻量级JavaScript模板引擎。
+- [tempo](https://github.com/twigkit/tempo) - Tempo是一个简单，直观的JavaScript渲染引擎，使您能够以纯HTML格式制作数据模板。
 - [xtemplate](https://github.com/xtemplate/xtemplate) - 用于浏览器和Node.js上的高速，可扩展模板引擎库。支持异步控制，继承，包含，逻辑表达式，自定义函数等。
 
 ### Web框架
