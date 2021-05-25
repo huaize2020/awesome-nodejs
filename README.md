@@ -775,6 +775,7 @@ English | [简体中文](./README-zh-CN.md)
 - Compression / Decompression
   - [jszip](https://github.com/Stuk/jszip) - Create, read and edit .zip files with Javascript.
   - [adm-zip](https://github.com/cthackers/adm-zip) - Create, read and edit .zip files with Javascript.
+  - [node-tar](https://github.com/npm/node-tar) - Fast and full-featured Tar for Node.js.
   - [tar-fs](https://github.com/mafintosh/tar-fs) - Tar-fs allows you to pack directories into tarballs and extract tarballs into directories.
   - [7zip](https://github.com/fritx/win-7zip) - 7zip Windows Package via Node.js.
 
