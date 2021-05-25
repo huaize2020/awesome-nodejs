@@ -99,6 +99,7 @@
   - [nanoid](https://github.com/ai/nanoid) - 小巧、安全、URL友好、唯一的字符串ID生成器。
   - [uuid](https://github.com/uuidjs/uuid) - 在JavaScript中生成符合RFC规范的UUID。
   - [shortid](https://github.com/dylang/shortid) - 短ID生成器。 网址友好。 不可预测的。 集群兼容。
+  - [ulid](https://github.com/ulid/javascript) - 通用唯一词典分类排序标识符。
   - [pure-uuid](https://github.com/rse/pure-uuid) - 基于纯JavaScript全局唯一ID(UUID)。
 
 - 编码/解码
@@ -776,6 +777,7 @@
   - [http-server](https://github.com/http-party/http-server) - 零配置的命令行Http服务端。
   - [anywhere](https://github.com/JacksonTian/anywhere) - 随启随用的静态文件服务器。
   - [http-fake-backend](https://github.com/micromata/http-fake-backend) - 通过可配置的路由，提供JSON文件或JavaScript对象来构建伪造的后端。
+  - [json-server](https://github.com/typicode/json-server) - 在不到30秒的时间内获得具有零编码的完整伪造的REST API。
 
 - 代理
   - [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP代理。

@@ -93,6 +93,7 @@ English | [简体中文](./README-zh-CN.md)
   - [nanoid](https://github.com/ai/nanoid) - Tiny, secure, URL-friendly, unique string ID generator.
   - [uuid](https://github.com/uuidjs/uuid) - Generate RFC-compliant UUIDs in JavaScript.
   - [shortid](https://github.com/dylang/shortid) - Short id generator. Url-friendly. Non-predictable. Cluster-compatible.
+  - [ulid](https://github.com/ulid/javascript) - Universally Unique Lexicographically Sortable Identifier.
   - [pure-uuid](https://github.com/rse/pure-uuid) - Pure JavaScript Based Universally Unique Identifiers (UUID).
 
 - Encode/Decode
@@ -825,6 +826,7 @@ English | [简体中文](./README-zh-CN.md)
   - [http-server](https://github.com/http-party/http-server) - A simple zero-configuration command-line http server.
   - [anywhere](https://github.com/JacksonTian/anywhere) - Running static file server anywhere.
   - [http-fake-backend](https://github.com/micromata/http-fake-backend) - Build a fake backend by providing the content of JSON files or JavaScript objects through configurable routes.
+  - [json-server](https://github.com/typicode/json-server) - Get a full fake REST API with zero coding in less than 30 seconds.
 
 - Proxy
   - [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP proxy.
