@@ -12,6 +12,7 @@ English | [简体中文](./README-zh-CN.md)
   - [URL](#url)
   - [JSON](#json)
   - [Image](#image)
+  - [Color](#color)
   - [Crypto](#crypto)
   - [Streams](#streams)
   - [Type Checking](#type-checking)
@@ -185,6 +186,11 @@ English | [简体中文](./README-zh-CN.md)
 - [lwip](https://github.com/EyalAr/lwip) - Lightweight image processor which does not require ImageMagick.
 - [probe-image-size](https://github.com/nodeca/probe-image-size) - Get the size of most image formats without a full download.
 - [image-type](https://github.com/sindresorhus/image-type) - Detect the image type of a Buffer/Uint8Array.
+
+### Color
+
+- [chroma](https://github.com/gka/chroma.js) - JavaScript library for all kinds of color manipulations.
+- [rgbaster](https://github.com/briangonzalez/rgbaster.js) - 🎨 A simple library for extracting dominant colors from images.
 
 ### Crypto
 

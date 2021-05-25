@@ -18,6 +18,7 @@
   - [URL](#url)
   - [JSON](#json)
   - [图像处理](#图像处理)
+  - [颜色](#颜色)
   - [加解密](#加解密)
   - [类型判断](#类型判断)
   - [数据校验](#数据校验)
@@ -191,6 +192,11 @@
 - [lwip](https://github.com/EyalAr/lwip) - 不需要ImageMagick的轻量级图像处理器.
 - [probe-image-size](https://github.com/nodeca/probe-image-size) - 无需完全下载即可获取大多数图像格式的大小.
 - [image-type](https://github.com/sindresorhus/image-type) - 检测Buffer / Uint8Array的图像类型.
+
+### 颜色
+
+- [chroma](https://github.com/gka/chroma.js) - JavaScript库，用于各种颜色处理。
+- [rgbaster](https://github.com/briangonzalez/rgbaster.js) - 🎨一个简单的库，用于从图像中提取主色。
 
 ### 加解密
 
