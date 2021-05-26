@@ -824,6 +824,7 @@
 
 ### 网络
 
+- [public-ip](https://github.com/sindresorhus/public-ip) - 非常快的获取你的公网IP地址。
 - [get-port](https://github.com/sindresorhus/get-port) - 获取一个可用的端口。
 - [request-ip](https://github.com/pbojinov/request-ip) - 在服务器中获取请求的IP地址。
 - [netcat](https://github.com/roccomuso/netcat) - 纯JS中的Netcat端口。

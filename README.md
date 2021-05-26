@@ -815,6 +815,7 @@ English | [简体中文](./README-zh-CN.md)
 
 ### Network
 
+- [public-ip](https://github.com/sindresorhus/public-ip) - Get your public IP address - very fast!
 - [get-port](https://github.com/sindresorhus/get-port) - Get an available port.
 - [request-ip](https://github.com/pbojinov/request-ip) - A Node.js module for retrieving a request's IP address on the server.
 - [netcat](https://github.com/roccomuso/netcat) - Netcat port in pure JS.
