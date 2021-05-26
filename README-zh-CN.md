@@ -20,6 +20,7 @@
   - [图像处理](#图像处理)
   - [颜色](#颜色)
   - [加解密](#加解密)
+  - [流](#流)
   - [类型判断](#类型判断)
   - [数据校验](#数据校验)
   - [函数式编程](#函数式编程)
@@ -208,6 +209,62 @@
 - [aes-js](https://github.com/ricmoo/aes-js) - AES的纯JavaScript实现。
 - [node-md5](https://github.com/pvorb/node-md5) - 一个JavaScript函数，用于使用MD5对消息进行哈希处理。
 - [pbkdf2](https://github.com/crypto-browserify/pbkdf2) - 在Node中具有任何受支持的哈希算法PBKDF2。
+
+### 流
+
+- [event-stream](https://github.com/dominictarr/event-stream) - EventStream就像函数式编程遇到IO。
+- [through2](https://github.com/rvagg/through2) - 基于Node stream2 的封装进行转换以避免显式的子类化噪声。
+- [JSONStream](https://github.com/dominictarr/JSONStream) - 流JSON.parse和stringify。
+- [mississippi](https://github.com/maxogden/mississippi) - 有用的流实用程序模块的集合，用于更好编写的使用流的代码。
+- [readable-stream](https://github.com/nodejs/readable-stream) - 可读流。
+- [pump](https://github.com/mafintosh/pump) - 将流连接在一起，如果其中一个关闭，则关闭所有流。
+- [concat-stream](https://github.com/maxogden/concat-stream) - 可写流，它将字符串或数据连接起来并执行回调。
+- [stream-json](https://github.com/uhop/stream-json) - stream-json是用于创建自定义标准兼容JSON处理器的nod​​e.js流组件的集合，该组件所需的内存占用最少。它可以解析远远超出可用内存的JSON文件。甚至单个原始数据项（键，字符串和数字）也可以分段流式传输。还包括流式SAX启发式的基于事件的API。
+- [split](https://github.com/dominictarr/split) - 分解流并重新组装它，以便每一行都是一块。匹配器可以是字符串，也可以是正则表达式。
+- [tar-stream](https://github.com/mafintosh/tar-stream) - tar-stream是一个流式tar解析器和生成器。
+- [node-byline](https://github.com/jahewson/node-byline) - 逐行流阅读器。
+- [ndjson](https://github.com/maxogden/ndjson) - 流逐行分隔的json解析器 + 序列化器。
+- [oppressor](https://github.com/substack/oppressor) - 流HTTP压缩响应协商程序。
+- [multistream](https://github.com/feross/multistream) - 一种流，一个接一个地发出多个其他流（streams2）。
+- [get-stream](https://github.com/sindresorhus/get-stream) - 以字符串，缓冲区或数组的形式获取流。
+- [node-stream-buffer](https://github.com/samcday/node-stream-buffer) - 使用缓存的可读和可写流。
+- [split2](https://github.com/mcollina/split2) - 拆分stream3样式。
+- [fstream](https://github.com/npm/fstream) - 高级的Node.js文件操作流。
+- [pumpify](https://github.com/mafintosh/pumpify) - 使用泵和全双工，将一系列流合并为单个双工流。
+- [progress-stream](https://github.com/freeall/progress-stream) - 读取流的进度。
+- [merge-stream](https://github.com/grncdr/merge-stream) - 将多个流合并为一个交错流。
+- [duplexify](https://github.com/mafintosh/duplexify) - 将可写和可读流转换为具有异步初始化和stream1/streams2输入支持的stream2双工流。
+- [into-stream](https://github.com/sindresorhus/into-stream) - 将缓存/字符串/数组/对象转换为流。
+- [merge2](https://github.com/teambition/merge2) - 按顺序或并行的方式将多个流合并为一个流。
+- [end-of-stream](https://github.com/mafintosh/end-of-stream) - 当可读/可写/双工流已完成或失败时，调用回调。
+- [stream-to-promise](https://github.com/bendrucker/stream-to-promise) - 将流（可读或可写流）转换为Promise。
+- [node-streamifier](https://github.com/gagle/node-streamifier) - 将 Buffer/String 转换为可读流。
+- [stream-spec](https://github.com/dominictarr/stream-spec) - Stream的可执行规范（让测试流变得更容易）。
+- [from2](https://github.com/hughsk/from2) - ReadableStream的便捷包装，其灵感来自through2。
+- [dmap-stream](https://github.com/dominictarr/map-stream) - 基于Event-stream事件流重构。
+- [emit-stream](https://github.com/substack/emit-stream) - 将event-emiiters转换为流 和 将流转换为event-emiiters。
+- [stream-combiner](https://github.com/dominictarr/stream-combiner) - 将管道变成单个流。合并返回的流，写入第一个流并从最后一个流读取的流。
+- [duplexer](https://github.com/raynos/duplexer) - 创建一个双工流。
+- [promise-streams](https://github.com/spion/promise-streams) - Node.js流的集合，可以很好地与Promises (through, map, reduce等）一起使用。
+- [binary-split](https://github.com/maxogden/binary-split) - 快速的换行符（或任何分隔符）分隔符流。
+- [stream-combiner2](https://github.com/substack/stream-combiner2) - stream3的stream-combiner。
+- [through2-concurrent](https://github.com/almost/through2-concurrent) - 简单的Node.JS流（streams2）转换，可并行执行转换功能（可设置的最大并发数）。
+- [cloneable-readable](https://github.com/mcollina/cloneable-readable) - 安全地克隆可读流。
+- [destroy](https://github.com/stream-utils/destroy) - 如果可能，销毁流。
+- [peek-stream](https://github.com/mafintosh/peek-stream) - 转换流，可让您在决定如何解析前先窥视第一行。
+- [resumer](https://github.com/substack/resumer) - 通过流开始暂停，并在下一个tick恢复。
+- [stream-each](https://github.com/mafintosh/stream-each) - 迭代流中的所有数据。
+- [flush-write-stream](https://github.com/mafintosh/flush-write-stream) - 一种写入流构造函数，支持流完成之前调用的flush函数。
+- [multi-write-stream](https://github.com/mafintosh/multi-write-stream) - 创建一个可写流，其可写入多个其他可写流。
+- [first-chunk-stream](https://github.com/sindresorhus/first-chunk-stream) - 缓冲并转换流的前n个字节。
+- [multi-read-stream](https://github.com/mafintosh/multi-read-stream) - 可读流，它同时从多个可读流中读取。
+- [node-stream-reduce](https://github.com/parshap/node-stream-reduce) - 将流数据减少为单个值。
+- [stream-shift](https://github.com/mafintosh/stream-shift) - 返回流可读队列中的下一个缓冲区/对象。
+- [stream-assert](https://github.com/floatdrop/stream-assert) - 流的断言库。
+- [stream-from-promise](https://github.com/schnittstabil/stream-from-promise) - 根据Promise创建流。
+- [stromjs](https://github.com/lewisdiamond/stromjs) - 无依赖的流实用程序。流的Lodash。
+- [exec-stream](https://github.com/suarasaur/exec-stream) - 将流传入到子进程。
+- [stream-callback](https://github.com/kikobeats/stream-callback) – 将流转换为一个回调函数。
 
 ### 类型判断
 
