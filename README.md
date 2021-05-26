@@ -269,6 +269,7 @@ English | [简体中文](./README-zh-CN.md)
 - [isstream](https://github.com/rvagg/isstream) - Determine if an object is a Node.js Stream.
 - [is-class](https://github.com/miguelmota/is-class) - Check if function is an ES6 class.
 - [is-type](https://github.com/juliangruber/is-type) - Type checking from node core.
+- [is-md5](https://github.com/imanhodjaev/is-md5) - JavaScript utility to check if string is md5 encrypted.
 
 ### Data Validation
 
@@ -368,6 +369,7 @@ English | [简体中文](./README-zh-CN.md)
   - [terminal-link](https://github.com/sindresorhus/terminal-link) - Create clickable links in the terminal.
   - [cli-table3](https://github.com/cli-table/cli-table3) - Pretty unicode tables for the command line.
   - [easy-table](https://github.com/eldargab/easy-table) - Nice text table for Node.js.
+  - [treeify](https://github.com/notatestuser/treeify) - Pretty-print a javascript object as a tree.
   - [kolorist](https://github.com/marvinhagemeister/kolorist) - A tiny utility to colorize stdin/stdout.
   - [console-png](https://github.com/aantthony/console-png) - Print PNG images to terminal output.
 
