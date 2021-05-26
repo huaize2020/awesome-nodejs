@@ -240,7 +240,7 @@
 - [stream-to-promise](https://github.com/bendrucker/stream-to-promise) - 将流（可读或可写流）转换为Promise。
 - [node-streamifier](https://github.com/gagle/node-streamifier) - 将 Buffer/String 转换为可读流。
 - [stream-spec](https://github.com/dominictarr/stream-spec) - Stream的可执行规范（让测试流变得更容易）。
-- [from2](https://github.com/hughsk/from2) - ReadableStream的便捷包装，其灵感来自through2。
+- [from2](https://github.com/hughsk/from2) - ReadableStream的便捷封装，其灵感来自through2。
 - [dmap-stream](https://github.com/dominictarr/map-stream) - 基于Event-stream事件流重构。
 - [emit-stream](https://github.com/substack/emit-stream) - 将event-emiiters转换为流 和 将流转换为event-emiiters。
 - [stream-combiner](https://github.com/dominictarr/stream-combiner) - 将管道变成单个流。合并返回的流，写入第一个流并从最后一个流读取的流。
