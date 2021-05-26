@@ -202,6 +202,8 @@ English | [简体中文](./README-zh-CN.md)
 - [node-rsa](https://github.com/rzcoder/node-rsa) - Node.js RSA library.
 - [aes-js](https://github.com/ricmoo/aes-js) - A pure JavaScript implementation of the AES block cipher and all common modes of operation for node.js or web browsers.
 - [node-md5](https://github.com/pvorb/node-md5) - A JavaScript function for hashing messages with MD5.
+- [crypto-hash](https://github.com/sindresorhus/crypto-hash) - Tiny hashing module that uses the native crypto API in Node.js and the browser.
+- [hash.js](https://github.com/indutny/hash.js) - Hash functions in pure javascript.
 - [pbkdf2](https://github.com/crypto-browserify/pbkdf2) - PBKDF2 with any supported hashing algorithm in Node.
 
 ### Streams
