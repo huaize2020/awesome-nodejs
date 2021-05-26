@@ -294,7 +294,8 @@
 
 - 命令行参数解析
   - [minimist](https://github.com/substack/minimist) - 命令行参数解析引擎。
-  - [arg](https://github.com/vercel/arg) - 简单的参数解析.
+  - [arg](https://github.com/vercel/arg) - 简单的参数解析。
+  - [nopt](https://github.com/npm/nopt) - Node/npm参数解析。
   - [yargs-parser](https://github.com/yargs/yargs-parser) - yargs在使用，优雅参数解析库.
 
 - Prompt提示

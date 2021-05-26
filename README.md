@@ -208,7 +208,7 @@ English | [简体中文](./README-zh-CN.md)
 - [event-stream](https://github.com/dominictarr/event-stream) - EventStream is like functional programming meets IO.
 - [through2](https://github.com/rvagg/through2) - Tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise.
 - [JSONStream](https://github.com/dominictarr/JSONStream) - streaming JSON.parse and stringify.
-- [mississippi](https://github.com/maxogden/mississippi) - A collection of useful stream utility modules for writing better code using streams. 1k
+- [mississippi](https://github.com/maxogden/mississippi) - A collection of useful stream utility modules for writing better code using streams.
 - [readable-stream](https://github.com/nodejs/readable-stream) - Node-core streams for userland.
 - [pump](https://github.com/mafintosh/pump) - pipe streams together and close all of them if one of them closes.
 - [concat-stream](https://github.com/maxogden/concat-stream) - writable stream that concatenates strings or data and calls a callback with the result.
@@ -344,6 +344,7 @@ English | [简体中文](./README-zh-CN.md)
 - Option/Argument parser
   - [minimist](https://github.com/substack/minimist) - Guts of optimist's argument parser without all the fanciful decoration.
   - [arg](https://github.com/vercel/arg) - Simple argument parsing.
+  - [nopt](https://github.com/npm/nopt) - Node/npm Option Parsing.
   - [yargs-parser](https://github.com/yargs/yargs-parser) - 💪 the mighty option parser used by yargs.
 
 - Prompt
