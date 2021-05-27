@@ -485,6 +485,9 @@
   - [PostCSS](https://github.com/postcss/postcss) - CSS解析工具。
   - [strip-css-comments](https://github.com/sindresorhus/strip-css-comments) - CSS注释剔除工具。
 
+- Other
+  - [readability](https://github.com/mozilla/readability) - 可读内容提取库，用于Firefox Reader View的独立提取版本。
+
 ### Git
 
 - [husky](https://github.com/typicode/husky) - 现代化的本地Git钩子使操作更加轻松！

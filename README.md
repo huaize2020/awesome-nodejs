@@ -477,6 +477,9 @@ English | [简体中文](./README-zh-CN.md)
   - [PostCSS](https://github.com/postcss/postcss) - CSS parser / stringifier.
   - [strip-css-comments](https://github.com/sindresorhus/strip-css-comments) - Strip comments from CSS.
 
+- Other
+  - [readability](https://github.com/mozilla/readability) - A standalone version of the readability library used for Firefox Reader View.
+
 ### Git
 
 - [husky](https://github.com/typicode/husky) - Modern native Git hooks made easy 🐶 woof!
