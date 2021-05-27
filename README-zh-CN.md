@@ -151,6 +151,7 @@
 - [dayjs](https://github.com/iamkun/dayjs) - 仅2KB，不可变的日期时间库。使用与Moment.js同样的API，Moment.js的替代库。
 - [date-fns](https://github.com/date-fns/date-fns) - 现代JavaScript日期工具库。
 - [luxon](https://github.com/moment/luxon) - 用于处理日期和时间的库。
+- [timeago.js](https://github.com/hustcc/timeago.js) - timeago.js是一个很小的（2.0 kb）库，用于使用 *** time ago 语句格式化日期。
 - [ms](https://github.com/vercel/ms) - 毫秒转换工具。
 - [dateformat](https://github.com/felixge/node-dateformat) - 日期格式化。
 - [pretty-ms](https://github.com/sindresorhus/pretty-ms) - 将毫秒转换为人类可读的字符串，如: `1337000000` → `15d 11h 23m 20s`
@@ -199,6 +200,7 @@
 
 - [chroma](https://github.com/gka/chroma.js) - JavaScript库，用于各种颜色处理。
 - [rgbaster](https://github.com/briangonzalez/rgbaster.js) - 🎨一个简单的库，用于从图像中提取主色。
+- [onecolor](https://github.com/One-com/one-color) - 面向对象的JavaScript颜色解析器/计算工具包，支持RGB，HSV，HSL，CMYK和alpha通道。 颜色空间之间的转换是隐式进行的，并且所有方法都返回新对象，而不是对现有实例进行突变。 可在浏览器和Node.js中使用。
 
 ### 加解密
 

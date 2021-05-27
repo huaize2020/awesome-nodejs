@@ -143,6 +143,7 @@ English | [简体中文](./README-zh-CN.md)
 - [dayjs](https://github.com/iamkun/dayjs) - Day.js 2KB immutable date-time library alternative to Moment.js with the same modern API.
 - [date-fns](https://github.com/date-fns/date-fns) - Modern JavaScript date utility library.
 - [luxon](https://github.com/moment/luxon) - Library for working with dates and times.
+- [timeago.js](https://github.com/hustcc/timeago.js) - 🕗 ⌛ timeago.js is a tiny(2.0 kb) library used to format date with `*** time ago` statement.
 - [ms](https://github.com/vercel/ms) - Tiny millisecond conversion utility.
 - [dateformat](https://github.com/felixge/node-dateformat) - A node.js package for Steven Levithan's excellent dateFormat() function.
 - [pretty-ms](https://github.com/sindresorhus/pretty-ms) - Convert milliseconds to a human readable string: `1337000000` → `15d 11h 23m 20s`
@@ -192,6 +193,7 @@ English | [简体中文](./README-zh-CN.md)
 
 - [chroma](https://github.com/gka/chroma.js) - JavaScript library for all kinds of color manipulations.
 - [rgbaster](https://github.com/briangonzalez/rgbaster.js) - 🎨 A simple library for extracting dominant colors from images.
+- [onecolor](https://github.com/One-com/one-color) - An OO-based JavaScript color parser/computation toolkit with support for RGB, HSV, HSL, CMYK, and alpha channels. Conversion between color spaces occurs implicitly, and all methods return new objects rather than mutating existing instances. Works in the browser and node.js.
 
 ### Crypto
 
