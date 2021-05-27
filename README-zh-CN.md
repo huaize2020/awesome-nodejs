@@ -851,7 +851,6 @@
   - [got](https://github.com/sindresorhus/got) - 更好的基于内建“http”模块接口实现。
   - [node-fetch](https://github.com/bitinn/node-fetch) - Node.js的 `window.fetch` 实现。
   - [needle](https://github.com/tomas/needle) - 灵活，基于流的HTTP Node.js客户端请求库。支持proxy，iconv，cookie，deflate和multipart。
-  - [download](https://github.com/kevva/download) - 轻松下载和提取文件。
   - [urllib](https://github.com/node-modules/urllib) - 在复杂世界中请求HTTP/HTTPS的URL。
   - [gotql](https://github.com/khaosdoctor/gotql) - 基于[got](https://github.com/sindresorhus/got)构建的GraphQL请求库。
   - [wreck](https://github.com/hapijs/wreck) - HTTP 客户端工具。
@@ -873,6 +872,10 @@
 
 - 中间件
   - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - ⚡用于connect，express和browser-sync的单线Node.js Http代理中间件。
+
+- 下载
+  - [download](https://github.com/kevva/download) - 轻松下载和提取文件。
+  - [nugget](https://github.com/maxogden/nugget) - 使用Node.js编写的极简主义wget clone。 HTTP GET文件并将其下载到当前目录。
 
 ### 验证
 

@@ -843,7 +843,6 @@ English | [简体中文](./README-zh-CN.md)
   - [got](https://github.com/sindresorhus/got) - Nicer interface to the built-in `http` module.
   - [node-fetch](https://github.com/bitinn/node-fetch) - `window.fetch` for Node.js.
   - [needle](https://github.com/tomas/needle) - Nimble, streamable HTTP client for Node.js. With proxy, iconv, cookie, deflate & multipart support.
-  - [download](https://github.com/kevva/download) - Download and extract files effortlessly.
   - [urllib](https://github.com/node-modules/urllib) - Request HTTP(s) URLs in a complex world.
   - [gotql](https://github.com/khaosdoctor/gotql) - GraphQL request library built on [got](https://github.com/sindresorhus/got).
   - [wreck](https://github.com/hapijs/wreck) - HTTP Client Utilities.
@@ -865,6 +864,10 @@ English | [简体中文](./README-zh-CN.md)
 
 - Middleware
   - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - ⚡ The one-liner node.js http-proxy middleware for connect, express and browser-sync.
+
+- Download
+  - [download](https://github.com/kevva/download) - Download and extract files effortlessly.
+  - [nugget](https://github.com/maxogden/nugget) - Minimalist wget clone written in node. HTTP GET files and downloads them into the current directory.
 
 ### Authentication
 
