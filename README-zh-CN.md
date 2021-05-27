@@ -42,6 +42,7 @@
   - [Web框架](#web框架)
   - [静态网站生成 & 博客](#静态网站生成--博客)
   - [文档生成](#文档生成)
+  - [跨平台](#跨平台)
   - [实时通信](#实时通信)
   - [任务队列](#任务队列)
   - [定时任务](#定时任务)
@@ -329,6 +330,7 @@
 - [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - 跨平台的复制/粘贴。
 - [gulp-execa](https://github.com/ehmicky/gulp-execa) - 在Gulp中跨平台命令执行。
 - [cross-spawn-promise](https://github.com/zentrick/cross-spawn-promise) - Promise化的cross-spawn。
+- [shell-exec](https://github.com/tiaanduplessis/shell-exec) - 通过系统Shell执行命令。
 
 ### 环境变量
 
@@ -447,6 +449,7 @@
   - [find-up](https://github.com/sindresorhus/find-up) - 通过上级父目录查找文件或目录。
   - [cpy](https://github.com/sindresorhus/cpy) - 文件拷贝。
   - [mkdirp](https://github.com/isaacs/node-mkdirp) - 递归创建文件夹，类似 `mkdir -p`。
+  - [folder-hash](https://github.com/marc136/node-folder-hash) - 为 文件夹或文件 上创建哈希检验码。
   - [temp-dir](https://github.com/sindresorhus/temp-dir) - 获取系统临时文件夹的真实路径。
 
 - 监控
@@ -618,6 +621,10 @@
 - [documentation.js](https://github.com/documentationjs/documentation) - API文档生成器，支持ES2015+和流程注释。
 - [Docco](https://github.com/jashkenas/docco) - 文档生成器，该生成器生成一个HTML文档，该文档显示与代码混合的注释。
 - [ESDoc](https://github.com/esdoc/esdoc) - 针对ES2015的文档生成器，附加测试代码并衡量文档覆盖范围。
+
+### 跨平台
+
+- [Electron](https://github.com/atom/electron) - 使用Web技术构建跨平台的桌面应用程序。 *(你也许喜欢 [awesome-electron](https://github.com/sindresorhus/awesome-electron))*
 
 ### 实时通信
 

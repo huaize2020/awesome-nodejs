@@ -36,6 +36,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Web Frameworks](#web-frameworks)
   - [Static Site Generator & Blogging](#static-site-generator--blogging)
   - [Documentation](#documentation)
+  - [Cross-Platform](#cross-platform)
   - [Real-time](#real-time)
   - [Job Queues](#job-queues)
   - [Job Scheduling](#job-scheduling)
@@ -321,6 +322,7 @@ English | [简体中文](./README-zh-CN.md)
 - [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - Cross-platform copy/paste.
 - [gulp-execa](https://github.com/ehmicky/gulp-execa) - Cross-platform command execution in Gulp.js.
 - [cross-spawn-promise](https://github.com/zentrick/cross-spawn-promise) - Promisified cross-spawn.
+- [shell-exec](https://github.com/tiaanduplessis/shell-exec) - Execute a command through the system shell.
 
 ### Environment
 
@@ -439,6 +441,7 @@ English | [简体中文](./README-zh-CN.md)
   - [find-up](https://github.com/sindresorhus/find-up) - Find a file or directory by walking up parent directories.
   - [cpy](https://github.com/sindresorhus/cpy) - Copy files.
   - [mkdirp](https://github.com/isaacs/node-mkdirp) - Recursively mkdir, like `mkdir -p`.
+  - [folder-hash](https://github.com/marc136/node-folder-hash) - Create a hash checksum over a folder or a file.
   - [temp-dir](https://github.com/sindresorhus/temp-dir) - Get the real path of the system temp directory.
 
 - Watch
@@ -609,6 +612,11 @@ English | [简体中文](./README-zh-CN.md)
 - [documentation.js](https://github.com/documentationjs/documentation) - API documentation generator with support for ES2015+ and flow annotation.
 - [Docco](https://github.com/jashkenas/docco) - Documentation generator which produces an HTML document that displays your comments intermingled with your code.
 - [ESDoc](https://github.com/esdoc/esdoc) - Documentation generator targeting ES2015, attaching test code and measuring documentation coverage.
+
+### Cross-Platform
+
+- [Electron](https://github.com/atom/electron) - Build cross platform desktop apps with web technologies. *(You might like [awesome-electron](https://github.com/sindresorhus/awesome-electron))*
+
 
 ### Real-time
 
