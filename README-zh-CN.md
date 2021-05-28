@@ -214,6 +214,7 @@
 - [node-md5](https://github.com/pvorb/node-md5) - 一个JavaScript函数，用于使用MD5对消息进行哈希处理。
 - [crypto-hash](https://github.com/sindresorhus/crypto-hash) - 微型哈希模块，在Node.js和浏览器中使用原生crypto API。
 - [hash.js](https://github.com/indutny/hash.js) - 使用纯JavaScript的哈希实现。
+- [sha.js](https://github.com/crypto-browserify/sha.js) - 使用纯JavaScript中的流式SHA哈希。
 - [pbkdf2](https://github.com/crypto-browserify/pbkdf2) - 在Node中具有任何受支持的哈希算法PBKDF2。
 
 ### 流
