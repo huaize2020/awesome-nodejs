@@ -414,6 +414,7 @@ English | [简体中文](./README-zh-CN.md)
 
 - Semantic Version
   - [semver](https://github.com/npm/node-semver) - The semver parser for node (the one npm uses).
+  - [compare-versions](https://github.com/omichelsen/compare-versions) - Compare semver version strings to find which is greater, equal or lesser.
 
 - Utilities
   - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - Find newer versions of package dependencies than what your package.json allows.

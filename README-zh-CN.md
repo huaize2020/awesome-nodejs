@@ -176,6 +176,7 @@
 ### JSON
 
 - [json5](https://github.com/json5/json5) - JSON5是对JSON的扩展，其目的是能够更加容易的阅读和编写。
+- [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker) - JSON-Schema + 假数据生成器。
 - [fast-json-stringify](https://github.com/fastify/fast-json-stringify) - 比JSON.stringify()快2倍。
 - [jsonfile](https://github.com/jprichardson/node-jsonfile) - 轻松读写JSON文件。
 - [json-stable-stringify](https://github.com/substack/json-stable-stringify) - 具有自定义排序功能的确定性JSON.stringify(), 可以从字符串化结果中获取确定性哈希值。
@@ -422,6 +423,7 @@
 
 - 语义化版本
   - [semver](https://github.com/npm/node-semver) - NPM使用的JavaScript语义化版本号解析器。
+  - [compare-versions](https://github.com/omichelsen/compare-versions) - 比较semver版本字符串，找出哪个更大，哪个相等，哪个更小。
 
 - 工具
   - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - 查找当前package.json依赖允许的更新的版本。
