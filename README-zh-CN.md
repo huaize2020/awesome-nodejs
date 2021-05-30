@@ -441,18 +441,33 @@
 
 - 通用
   - [fs-extra](https://github.com/jprichardson/node-fs-extra) - 为 `fs` 模块提供额外方法。
-  - [rimraf](https://github.com/isaacs/rimraf) - 递归删除文件，类似 `rm -rf`。
-  - [del](https://github.com/sindresorhus/del) - 删除文件/文件夹。
   - [graceful-fs](https://github.com/isaacs/node-graceful-fs) - graceful-fs可以替代fs模块，并做了各种改进。
   - [filesize.js](https://github.com/avoidwork/filesize.js) - 生成人类可读的文件大小字符串。
-  - [make-dir](https://github.com/sindresorhus/make-dir) - 递归创建文件夹，类似 `mkdir -p`。
   - [memfs](https://github.com/streamich/memfs) - Node.js API内存文件系统。
-  - [ncp](https://github.com/AvianFlu/ncp) - 使用Node.js进行异步递归文件复制。
-  - [temp](https://github.com/bruce/node-temp) - Node.js临时文件、文件夹、流。
+  - [fs-jetpack](https://github.com/szwacz/fs-jetpack) - 完全重新设计的文件系统API，方便日常使用。
+  - [make-dir](https://github.com/sindresorhus/make-dir) - 递归创建文件夹，类似 `mkdir -p`。
   - [find-up](https://github.com/sindresorhus/find-up) - 通过上级父目录查找文件或目录。
-  - [cpy](https://github.com/sindresorhus/cpy) - 文件拷贝。
+  - [filenamify](https://github.com/sindresorhus/filenamify) - 将字符串转换为有效的文件名。
+  - [filehound](https://github.com/nspragg/filehound) - 灵活流畅的文件系统搜索界面。
+  - [move-file](https://github.com/sindresorhus/move-file) - 移动文件，甚至可以跨设备工作。
+  - [pkg-dir](https://github.com/sindresorhus/pkg-dir) - 查找npm包的根目录。
+  - [proper-lockfile](https://github.com/IndigoUnited/node-proper-lockfile) - 进程间和机器间文件锁实用工具。
+  - [istextorbinary](https://github.com/bevry/istextorbinary) - 检查文件是文本文件还是二进制文件。
   - [mkdirp](https://github.com/isaacs/node-mkdirp) - 递归创建文件夹，类似 `mkdir -p`。
   - [folder-hash](https://github.com/marc136/node-folder-hash) - 为 文件夹或文件 上创建哈希检验码。
+  - [lnfs](https://github.com/kevva/lnfs) - 强制创建符号链接。类似`ln -fs`.
+
+- 复制
+  - [ncp](https://github.com/AvianFlu/ncp) - 使用Node.js进行异步递归文件复制。
+  - [cpy](https://github.com/sindresorhus/cpy) - 文件拷贝。
+
+- 删除
+  - [rimraf](https://github.com/isaacs/rimraf) - 递归删除文件，类似 `rm -rf`。
+  - [del](https://github.com/sindresorhus/del) - 删除文件/文件夹。
+
+- 临时
+  - [temp](https://github.com/bruce/node-temp) - Node.js临时文件、文件夹、流。
+  - [tempy](https://github.com/sindresorhus/tempy) - 获取随机的临时文件或目录路径。
   - [temp-dir](https://github.com/sindresorhus/temp-dir) - 获取系统临时文件夹的真实路径。
 
 - 监控

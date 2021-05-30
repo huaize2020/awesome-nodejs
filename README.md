@@ -432,18 +432,33 @@ English | [简体中文](./README-zh-CN.md)
 
 - Common
   - [fs-extra](https://github.com/jprichardson/node-fs-extra) - Extra methods for the `fs` module.
-  - [rimraf](https://github.com/isaacs/rimraf) - Recursively delete files like rm -rf.
-  - [del](https://github.com/sindresorhus/del) - Delete files and directories.
   - [graceful-fs](https://github.com/isaacs/node-graceful-fs) - Graceful-fs functions as a drop-in replacement for the fs module, making various improvements.
   - [filesize.js](https://github.com/avoidwork/filesize.js) - Generate a human readable String describing the file size.
-  - [make-dir](https://github.com/sindresorhus/make-dir) - Recursively create directories like mkdir -p.
   - [memfs](https://github.com/streamich/memfs) - In-memory filesystem with Node's API.
-  - [ncp](https://github.com/AvianFlu/ncp) - Asynchronous recursive file copying with Node.js.
-  - [temp](https://github.com/bruce/node-temp) - Temporary File, Directory, and Stream support for Node.js.
+  - [fs-jetpack](https://github.com/szwacz/fs-jetpack) - Completely redesigned file system API for convenience in everyday use.
+  - [make-dir](https://github.com/sindresorhus/make-dir) - Recursively create directories like mkdir -p.
   - [find-up](https://github.com/sindresorhus/find-up) - Find a file or directory by walking up parent directories.
-  - [cpy](https://github.com/sindresorhus/cpy) - Copy files.
+  - [filenamify](https://github.com/sindresorhus/filenamify) - Convert a string to a valid filename.
+  - [filehound](https://github.com/nspragg/filehound) - Flexible and fluent interface for searching the file system.
+  - [move-file](https://github.com/sindresorhus/move-file) - Move a file, even works across devices.
+  - [pkg-dir](https://github.com/sindresorhus/pkg-dir) - Find the root directory of an npm package.
+  - [proper-lockfile](https://github.com/IndigoUnited/node-proper-lockfile) - Inter-process and inter-machine lockfile utility.
+  - [istextorbinary](https://github.com/bevry/istextorbinary) - Check if a file is text or binary.
   - [mkdirp](https://github.com/isaacs/node-mkdirp) - Recursively mkdir, like `mkdir -p`.
   - [folder-hash](https://github.com/marc136/node-folder-hash) - Create a hash checksum over a folder or a file.
+  - [lnfs](https://github.com/kevva/lnfs) - Force create symlinks like `ln -fs`.
+
+- Copy
+  - [ncp](https://github.com/AvianFlu/ncp) - Asynchronous recursive file copying with Node.js.
+  - [cpy](https://github.com/sindresorhus/cpy) - Copy files.
+
+- Delete
+  - [rimraf](https://github.com/isaacs/rimraf) - Recursively delete files like rm -rf.
+  - [del](https://github.com/sindresorhus/del) - Delete files and directories.
+
+- Temporary
+  - [temp](https://github.com/bruce/node-temp) - Temporary File, Directory, and Stream support for Node.js.
+  - [tempy](https://github.com/sindresorhus/tempy) - Get a random temporary file or directory path. 302
   - [temp-dir](https://github.com/sindresorhus/temp-dir) - Get the real path of the system temp directory.
 
 - Watch
