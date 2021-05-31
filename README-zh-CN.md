@@ -480,6 +480,7 @@
   - [glob](https://github.com/isaacs/node-glob) - Node.js版glob功能。
   - [globby](https://github.com/sindresorhus/globby) - 基于fast-glob，但添加了很多有用的特性。
   - [fast-glob](https://github.com/mrmlnc/fast-glob) - 非常快速且高效的Node.js glob库。
+  - [node-sync-glob](https://github.com/AndyOGo/node-sync-glob) - 通过glob模式在本地同步文件和文件夹，包括watch选项。
 
 ### 解析工具
 
@@ -861,6 +862,7 @@
 - [request-ip](https://github.com/pbojinov/request-ip) - 在服务器中获取请求的IP地址。
 - [netcat](https://github.com/roccomuso/netcat) - 纯JS中的Netcat端口。
 - [getmac](https://github.com/bevry/getmac) -  获取电脑的MAC地址。
+- [internal-ip](https://github.com/sindresorhus/internal-ip) - 获取您的内网IP地址。
 - [DHCP](https://github.com/infusion/node-dhcp) - DHCP客户端和服务器。
 - [ipify](https://github.com/sindresorhus/ipify) - 获取你的公网IP地址。
 - [address](https://github.com/node-modules/address) - 获取当前机器IP地址和MAC地址。

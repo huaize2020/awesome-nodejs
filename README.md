@@ -471,6 +471,7 @@ English | [简体中文](./README-zh-CN.md)
   - [glob](https://github.com/isaacs/node-glob) - Glob functionality for node.js.
   - [globby](https://github.com/sindresorhus/globby) - Based on fast-glob but adds a bunch of useful features.
   - [fast-glob](https://github.com/mrmlnc/fast-glob) - Very fast and efficient glob library for Node.js.
+  - [node-sync-glob](https://github.com/AndyOGo/node-sync-glob) - Synchronize files and folders locally by glob patterns, watch option included.
 
 ### Parsing
 
@@ -852,6 +853,7 @@ English | [简体中文](./README-zh-CN.md)
 - [request-ip](https://github.com/pbojinov/request-ip) - A Node.js module for retrieving a request's IP address on the server.
 - [netcat](https://github.com/roccomuso/netcat) - Netcat port in pure JS.
 - [getmac](https://github.com/bevry/getmac) - Get the computer MAC address.
+- [internal-ip](https://github.com/sindresorhus/internal-ip) - Get your internal IP address.
 - [DHCP](https://github.com/infusion/node-dhcp) - DHCP client and server.
 - [ipify](https://github.com/sindresorhus/ipify) - Get your public IP address.
 - [address](https://github.com/node-modules/address) - Get current machine IP and MAC address.
