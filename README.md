@@ -269,6 +269,7 @@ English | [简体中文](./README-zh-CN.md)
 
 ### Type Checking
 
+- [is.js](https://github.com/arasatasaygin/is.js) - Micro check library.
 - [is-promise](https://github.com/then/is-promise) - Test whether an object looks like a promises-a+ promise.
 - [is](https://github.com/enricomarino/is) - The definitive JavaScript type testing library.
 - [is-type-of](https://github.com/node-modules/is-type-of) - Complete type checking for node.

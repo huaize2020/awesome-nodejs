@@ -277,6 +277,7 @@
 
 ### 类型判断
 
+- [is.js](https://github.com/arasatasaygin/is.js) - 微型检查库。
 - [is-promise](https://github.com/then/is-promise) - 测试对象是否看起来像一个 Promises-a+ promise。
 - [is](https://github.com/enricomarino/is) - JavaScript类型测试库。
 - [is-type-of](https://github.com/node-modules/is-type-of) - Node.js完整类型判断。
