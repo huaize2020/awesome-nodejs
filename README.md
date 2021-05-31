@@ -61,6 +61,7 @@ English | [简体中文](./README-zh-CN.md)
   - [AST](#ast)
   - [Design To Code（D2C）](#design-to-coded2c)
   - [Sandbox](#sandbox)
+  - [Hardware](#hardware)
   - [Machine learning & Neural networks](#machine-learning--neural-networks)
   - [Natural language processing](#natural-language-processing)
 
@@ -964,6 +965,17 @@ English | [简体中文](./README-zh-CN.md)
 
 - [vm2](https://github.com/patriksimek/vm2) - Advanced vm/sandbox for Node.js.
 - [sandbox](https://github.com/gf3/sandbox) - A nifty javascript sandbox for node.js.
+
+### Hardware
+
+- [johnny-five](https://github.com/rwaldron/johnny-five) - Firmata based Arduino Framework.
+- [serialport](https://github.com/voodootikigod/node-serialport) - Access serial ports for reading and writing.
+- [usb](https://github.com/nonolith/node-usb) - USB library.
+- [onoff](https://github.com/fivdi/onoff) - GPIO access and interrupt detection.
+- [pigpio](https://github.com/fivdi/pigpio) - Fast GPIO, PWM, servo control, state change notification, and interrupt handling on the Raspberry Pi.
+- [i2c-bus](https://github.com/fivdi/i2c-bus) - I2C serial bus access.
+- [gps](https://github.com/infusion/GPS.js) - NMEA parser for handling GPS receivers.
+- [spi-device](https://github.com/fivdi/spi-device) - SPI serial bus access.
 
 ### Machine learning & Neural networks
 

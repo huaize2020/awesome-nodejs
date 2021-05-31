@@ -67,6 +67,7 @@
   - [AST](#ast)
   - [设计稿转代码（D2C）](#设计稿转代码d2c)
   - [沙箱](#沙箱)
+  - [硬件](#硬件)
   - [机器学习 和 神经网络](#机器学习-和-神经网络)
   - [自然语言处理](#自然语言处理)
 
@@ -973,6 +974,17 @@
 
 - [vm2](https://github.com/patriksimek/vm2) - Node.js高级虚拟机/沙箱。
 - [sandbox](https://github.com/gf3/sandbox) - 用于Node.js漂亮的JavaScript沙箱。
+
+### 硬件
+
+- [johnny-five](https://github.com/rwaldron/johnny-five) - 基于Firmata的Arduino框架。
+- [serialport](https://github.com/voodootikigod/node-serialport) - 访问串行端口以进行读写。
+- [usb](https://github.com/nonolith/node-usb) - USB 库。
+- [onoff](https://github.com/fivdi/onoff) - GPIO访问和中断检测.
+- [pigpio](https://github.com/fivdi/pigpio) - 树莓派（Raspberry Pi）上的快速GPIO，PWM，伺服控制，状态更改通知和中断处理。
+- [i2c-bus](https://github.com/fivdi/i2c-bus) - I2C串行总线访问。
+- [gps](https://github.com/infusion/GPS.js) - NMEA解析器，用于处理GPS接收器。
+- [spi-device](https://github.com/fivdi/spi-device) - SPI串行总线访问。
 
 ### 机器学习 和 神经网络
 
