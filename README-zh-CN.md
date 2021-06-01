@@ -283,6 +283,7 @@
 - [is-type-of](https://github.com/node-modules/is-type-of) - Node.js完整类型判断。
 - [is-stream](https://github.com/sindresorhus/is-stream) - 判断对象是否为流对象。
 - [core-util-is](https://github.com/isaacs/core-util-is) - Node.js核心工具 util.is* 函数。
+- [is-ip](https://github.com/sindresorhus/is-ip) - 检查字符串是否为IP地址。
 - [isstream](https://github.com/rvagg/isstream) - 判断对象是否为流对象。
 - [is-class](https://github.com/miguelmota/is-class) - 判断函数是否为 ES6类(class) 类型。
 - [is-type](https://github.com/juliangruber/is-type) - Node.js核心类型判断。
@@ -860,12 +861,14 @@
 - [public-ip](https://github.com/sindresorhus/public-ip) - 非常快的获取你的公网IP地址。
 - [get-port](https://github.com/sindresorhus/get-port) - 获取一个可用的端口。
 - [request-ip](https://github.com/pbojinov/request-ip) - 在服务器中获取请求的IP地址。
+- [ipaddr.js](https://github.com/whitequark/ipaddr.js) - JavaScript 中的 IP 地址操作库。
 - [netcat](https://github.com/roccomuso/netcat) - 纯JS中的Netcat端口。
 - [getmac](https://github.com/bevry/getmac) -  获取电脑的MAC地址。
 - [internal-ip](https://github.com/sindresorhus/internal-ip) - 获取您的内网IP地址。
 - [DHCP](https://github.com/infusion/node-dhcp) - DHCP客户端和服务器。
 - [ipify](https://github.com/sindresorhus/ipify) - 获取你的公网IP地址。
 - [address](https://github.com/node-modules/address) - 获取当前机器IP地址和MAC地址。
+- [default-gateway](https://github.com/silverwind/default-gateway) - 获取默认网络网关(跨平台)。
 
 ### HTTP
 

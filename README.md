@@ -275,6 +275,7 @@ English | [简体中文](./README-zh-CN.md)
 - [is-type-of](https://github.com/node-modules/is-type-of) - Complete type checking for node.
 - [is-stream](https://github.com/sindresorhus/is-stream) - Check if something is a Node.js stream.
 - [core-util-is](https://github.com/isaacs/core-util-is) - The util.is* functions from Node core.
+- [is-ip](https://github.com/sindresorhus/is-ip) - Check if a string is an IP address.
 - [isstream](https://github.com/rvagg/isstream) - Determine if an object is a Node.js Stream.
 - [is-class](https://github.com/miguelmota/is-class) - Check if function is an ES6 class.
 - [is-type](https://github.com/juliangruber/is-type) - Type checking from node core.
@@ -851,12 +852,14 @@ English | [简体中文](./README-zh-CN.md)
 - [public-ip](https://github.com/sindresorhus/public-ip) - Get your public IP address - very fast!
 - [get-port](https://github.com/sindresorhus/get-port) - Get an available port.
 - [request-ip](https://github.com/pbojinov/request-ip) - A Node.js module for retrieving a request's IP address on the server.
+- [ipaddr.js](https://github.com/whitequark/ipaddr.js) - IP address manipulation library in JavaScript.
 - [netcat](https://github.com/roccomuso/netcat) - Netcat port in pure JS.
 - [getmac](https://github.com/bevry/getmac) - Get the computer MAC address.
 - [internal-ip](https://github.com/sindresorhus/internal-ip) - Get your internal IP address.
 - [DHCP](https://github.com/infusion/node-dhcp) - DHCP client and server.
 - [ipify](https://github.com/sindresorhus/ipify) - Get your public IP address.
 - [address](https://github.com/node-modules/address) - Get current machine IP and MAC address.
+- [default-gateway](https://github.com/silverwind/default-gateway) - Get the default network gateway, cross-platform.
 
 ### HTTP
 
