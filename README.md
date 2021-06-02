@@ -171,6 +171,7 @@ English | [简体中文](./README-zh-CN.md)
 - [json5](https://github.com/json5/json5) - JSON5 — JSON for humans.
 - [fast-json-stringify](https://github.com/fastify/fast-json-stringify) - 2x faster than JSON.stringify()
 - [jsonfile](https://github.com/jprichardson/node-jsonfile) - Easily read/write JSON files.
+- [jsonata](https://github.com/jsonata-js/jsonata) - JSONata query and transformation language - http://jsonata.org
 - [json-stable-stringify](https://github.com/substack/json-stable-stringify) - Deterministic JSON.stringify() with custom sorting to get deterministic hashes from stringified results.
 - [strip-json-comments](https://github.com/sindresorhus/strip-json-comments) - Strip comments from JSON. Lets you use comments in your JSON files.
 - [json-stringify-safe](https://github.com/moll/json-stringify-safe) - Like JSON.stringify, but doesn't throw on circular references.

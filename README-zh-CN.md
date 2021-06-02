@@ -180,6 +180,7 @@
 - [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker) - JSON-Schema + 假数据生成器。
 - [fast-json-stringify](https://github.com/fastify/fast-json-stringify) - 比JSON.stringify()快2倍。
 - [jsonfile](https://github.com/jprichardson/node-jsonfile) - 轻松读写JSON文件。
+- [jsonata](https://github.com/jsonata-js/jsonata) - JSONata 查询和转换语言 - http://jsonata.org
 - [json-stable-stringify](https://github.com/substack/json-stable-stringify) - 具有自定义排序功能的确定性JSON.stringify(), 可以从字符串化结果中获取确定性哈希值。
 - [strip-json-comments](https://github.com/sindresorhus/strip-json-comments) - 去除JSON文件中的注释。让你可以在JSON中使用注释。
 - [json-stringify-safe](https://github.com/moll/json-stringify-safe) - 类似于JSON.stringify，但不会引发循环引用。
