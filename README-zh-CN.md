@@ -988,6 +988,7 @@
 - [usb](https://github.com/nonolith/node-usb) - USB 库。
 - [onoff](https://github.com/fivdi/onoff) - GPIO访问和中断检测.
 - [pigpio](https://github.com/fivdi/pigpio) - 树莓派（Raspberry Pi）上的快速GPIO，PWM，伺服控制，状态更改通知和中断处理。
+- [node-escpos](https://github.com/song940/node-escpos) - ESC/POS打印机驱动程序。
 - [i2c-bus](https://github.com/fivdi/i2c-bus) - I2C串行总线访问。
 - [gps](https://github.com/infusion/GPS.js) - NMEA解析器，用于处理GPS接收器。
 - [spi-device](https://github.com/fivdi/spi-device) - SPI串行总线访问。

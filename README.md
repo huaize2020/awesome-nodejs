@@ -979,6 +979,7 @@ English | [简体中文](./README-zh-CN.md)
 - [usb](https://github.com/nonolith/node-usb) - USB library.
 - [onoff](https://github.com/fivdi/onoff) - GPIO access and interrupt detection.
 - [pigpio](https://github.com/fivdi/pigpio) - Fast GPIO, PWM, servo control, state change notification, and interrupt handling on the Raspberry Pi.
+- [node-escpos](https://github.com/song940/node-escpos) - ESC/POS Printer driver for node.
 - [i2c-bus](https://github.com/fivdi/i2c-bus) - I2C serial bus access.
 - [gps](https://github.com/infusion/GPS.js) - NMEA parser for handling GPS receivers.
 - [spi-device](https://github.com/fivdi/spi-device) - SPI serial bus access.
