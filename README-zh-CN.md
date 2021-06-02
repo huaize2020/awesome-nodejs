@@ -282,6 +282,7 @@
 - [is](https://github.com/enricomarino/is) - JavaScript类型测试库。
 - [is-type-of](https://github.com/node-modules/is-type-of) - Node.js完整类型判断。
 - [is-stream](https://github.com/sindresorhus/is-stream) - 判断对象是否为流对象。
+- [is-utf8](https://github.com/wayfind/is-utf8) - 判断Buffer对象是否UTF8编码。
 - [core-util-is](https://github.com/isaacs/core-util-is) - Node.js核心工具 util.is* 函数。
 - [is-ip](https://github.com/sindresorhus/is-ip) - 检查字符串是否为IP地址。
 - [isstream](https://github.com/rvagg/isstream) - 判断对象是否为流对象。

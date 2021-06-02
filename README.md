@@ -274,6 +274,7 @@ English | [简体中文](./README-zh-CN.md)
 - [is](https://github.com/enricomarino/is) - The definitive JavaScript type testing library.
 - [is-type-of](https://github.com/node-modules/is-type-of) - Complete type checking for node.
 - [is-stream](https://github.com/sindresorhus/is-stream) - Check if something is a Node.js stream.
+- [is-utf8](https://github.com/wayfind/is-utf8) - Detect if a buffer is utf8 encoded.
 - [core-util-is](https://github.com/isaacs/core-util-is) - The util.is* functions from Node core.
 - [is-ip](https://github.com/sindresorhus/is-ip) - Check if a string is an IP address.
 - [isstream](https://github.com/rvagg/isstream) - Determine if an object is a Node.js Stream.
