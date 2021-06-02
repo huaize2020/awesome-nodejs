@@ -15,7 +15,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Color](#color)
   - [Crypto](#crypto)
   - [Streams](#streams)
-  - [Type Checking](#type-checking)
+  - [Check/Detect](#checkdetect)
   - [Data Validation](#data-validation)
   - [Functional programming](#functional-programming)
   - [Inversion of control / Dependency Injection (Ioc/DI)](#inversion-of-control--dependency-injection-iocdi)
@@ -85,7 +85,9 @@ English | [简体中文](./README-zh-CN.md)
   - [strip-bom](https://github.com/sindresorhus/strip-bom) - Strip UTF-8 byte order mark (BOM) from a string.
   - [indent-string](https://github.com/sindresorhus/indent-string) - Indent each line in a string.
   - [redent](https://github.com/sindresorhus/redent) - Strip redundant indentation and indent the string.
+  - [normalize-newline](https://github.com/sindresorhus/normalize-newline) - Normalize the newline characters in a string to `\n`.
   - [min-indent](https://github.com/jamiebuilds/min-indent) - Get the shortest leading whitespace from lines in a string.
+  - [trim-right](https://github.com/sindresorhus/trim-right) - Similar to String#trim() but removes only whitespace on the right.
   - [splice-string](https://github.com/sindresorhus/splice-string) - Remove or replace part of a string like `Array#splice`.
 
 - i18n
@@ -268,10 +270,11 @@ English | [简体中文](./README-zh-CN.md)
 - [exec-stream](https://github.com/suarasaur/exec-stream) - stream to a child process.
 - [stream-callback](https://github.com/kikobeats/stream-callback) – Turns a stream into a callback.
 
-### Type Checking
+### Check/Detect
 
 - [is.js](https://github.com/arasatasaygin/is.js) - Micro check library.
 - [is-promise](https://github.com/then/is-promise) - Test whether an object looks like a promises-a+ promise.
+- [is-ci](https://github.com/watson/is-ci) - Detect if the current environment is a CI server.
 - [is](https://github.com/enricomarino/is) - The definitive JavaScript type testing library.
 - [is-type-of](https://github.com/node-modules/is-type-of) - Complete type checking for node.
 - [is-stream](https://github.com/sindresorhus/is-stream) - Check if something is a Node.js stream.
@@ -282,6 +285,7 @@ English | [简体中文](./README-zh-CN.md)
 - [is-class](https://github.com/miguelmota/is-class) - Check if function is an ES6 class.
 - [is-type](https://github.com/juliangruber/is-type) - Type checking from node core.
 - [is-md5](https://github.com/imanhodjaev/is-md5) - JavaScript utility to check if string is md5 encrypted.
+- [is-core-module](https://github.com/inspect-js/is-core-module) - Is this specifier a node.js core module?
 
 ### Data Validation
 

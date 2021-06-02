@@ -21,7 +21,7 @@
   - [颜色](#颜色)
   - [加解密](#加解密)
   - [流](#流)
-  - [类型判断](#类型判断)
+  - [检测/判断](#检测判断)
   - [数据校验](#数据校验)
   - [函数式编程](#函数式编程)
   - [控制反转/依赖注入](#控制反转依赖注入)
@@ -92,7 +92,9 @@
   - [strip-bom](https://github.com/sindresorhus/strip-bom) - 从字符串中删除UTF-8字节顺序标记（BOM）。
   - [indent-string](https://github.com/sindresorhus/indent-string) - 将字符串每一行缩进。
   - [redent](https://github.com/sindresorhus/redent) - 去除多余的缩进并缩进字符串。
+  - [normalize-newline](https://github.com/sindresorhus/normalize-newline) - Normalize the newline characters in a string to `\n`.
   - [min-indent](https://github.com/jamiebuilds/min-indent) - 取每一行最少前置空格数。
+  - [trim-right](https://github.com/sindresorhus/trim-right) - 与 String#trim() 类似，但仅删除右侧的空格。
   - [splice-string](https://github.com/sindresorhus/splice-string) - 移除或替换字符串的一部分。类似`Array#splice`.
 
 - 国际化
@@ -276,10 +278,11 @@
 - [exec-stream](https://github.com/suarasaur/exec-stream) - 将流传入到子进程。
 - [stream-callback](https://github.com/kikobeats/stream-callback) – 将流转换为一个回调函数。
 
-### 类型判断
+### 检测/判断
 
 - [is.js](https://github.com/arasatasaygin/is.js) - 微型检查库。
 - [is-promise](https://github.com/then/is-promise) - 测试对象是否看起来像一个 Promises-a+ promise。
+- [is-ci](https://github.com/watson/is-ci) - 判断当前环境是否为CI服务器。
 - [is](https://github.com/enricomarino/is) - JavaScript类型测试库。
 - [is-type-of](https://github.com/node-modules/is-type-of) - Node.js完整类型判断。
 - [is-stream](https://github.com/sindresorhus/is-stream) - 判断对象是否为流对象。
@@ -290,6 +293,7 @@
 - [is-class](https://github.com/miguelmota/is-class) - 判断函数是否为 ES6类(class) 类型。
 - [is-type](https://github.com/juliangruber/is-type) - Node.js核心类型判断。
 - [is-md5](https://github.com/imanhodjaev/is-md5) - JavaScript实用程序，用于检查字符串是否为md5加密。
+- [is-core-module](https://github.com/inspect-js/is-core-module) - 判断一个说明符 是否为 Node.js 核心模块。
 
 ### 数据校验
 
