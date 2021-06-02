@@ -26,7 +26,7 @@
   - [函数式编程](#函数式编程)
   - [控制反转/依赖注入](#控制反转依赖注入)
   - [Shell](#shell)
-  - [环境变量](#环境变量)
+  - [环境](#环境)
   - [事件](#事件)
   - [命令行工具](#命令行工具)
   - [Node.js管理工具](#nodejs管理工具)
@@ -343,10 +343,11 @@
 - [cross-spawn-promise](https://github.com/zentrick/cross-spawn-promise) - Promise化的cross-spawn。
 - [shell-exec](https://github.com/tiaanduplessis/shell-exec) - 通过系统Shell执行命令。
 
-### 环境变量
+### 环境
 
 - [dotenv](https://github.com/motdotla/dotenv) - 从 .env文件 加载用于nodejs项目的环境变量。
 - [cross-env](https://github.com/kentcdodds/cross-env) - 跨平台设置环境变量。
+- [envinfo](https://github.com/tabrindle/envinfo) - 生成关于您的开发环境的报告，用于调试和问题报告。
 - [which](https://github.com/npm/node-which) - 跨平台实现的Unix `which`.
 - [user-home](https://github.com/sindresorhus/user-home) - 跨平台获取用户home目录路径。
 - [username](https://github.com/sindresorhus/username) - 获取当前用户名。
@@ -509,9 +510,16 @@
   - [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser) - 验证&解析 XML。
   - [xmlbuilder](https://github.com/oozcitak/xmlbuilder-js) - XML构建器。
 
+- HTML
+  - [htmlparser2](https://github.com/fb55/htmlparser2) - Forgiving HTML and XML parser.
+  - [himalaya](https://github.com/andrejewski/himalaya) - 将HTML转化为JSON的解析器。
+
 - CSS
   - [PostCSS](https://github.com/postcss/postcss) - CSS解析工具。
   - [strip-css-comments](https://github.com/sindresorhus/strip-css-comments) - CSS注释剔除工具。
+
+- SQL
+  - [dt-sql-parser](https://github.com/DTStack/dt-sql-parser) - 大数据的SQL解析器，用antlr4构建。
 
 - Other
   - [readability](https://github.com/mozilla/readability) - 可读内容提取库，用于Firefox Reader View的独立提取版本。
@@ -523,6 +531,7 @@
 - [simple-git](https://github.com/steveukx/git-js) - 一个轻量级的接口，用于在任何 node.js 应用程序中运行 git 命令。
 - [gitgraph-node](https://github.com/nicoespeon/gitgraph.js/tree/master/packages/gitgraph-node) - 在 Terminal 绘制 git 流程图（支持浏览器、React）。
 - [pre-commit](https://github.com/observing/pre-commit) - 自动在您的git储存库中安装git pre-commit脚本，该脚本在pre-commit上运行您的`npm test`。
+- [yorkie](https://github.com/yyx990803/yorkie) -  husky的Fork，让 Git 钩子变得简单(在 vue3 中使用)
 - [git-url-parse](https://github.com/IonicaBizau/git-url-parse) - 高级别git解析。
 - [git-promise](https://github.com/piuccio/git-promise) - 简单的封装，可运行任何git命令，并使用promise处理其输出。
 - [gittar](https://github.com/lukeed/gittar) - 下载/提取git仓库 (GitHub, GitLab, BitBucket)，跨平台和优先离线。
@@ -864,17 +873,21 @@
 
 ### 网络
 
-- [public-ip](https://github.com/sindresorhus/public-ip) - 非常快的获取你的公网IP地址。
-- [get-port](https://github.com/sindresorhus/get-port) - 获取一个可用的端口。
-- [request-ip](https://github.com/pbojinov/request-ip) - 在服务器中获取请求的IP地址。
-- [ipaddr.js](https://github.com/whitequark/ipaddr.js) - JavaScript 中的 IP 地址操作库。
-- [netcat](https://github.com/roccomuso/netcat) - 纯JS中的Netcat端口。
-- [getmac](https://github.com/bevry/getmac) -  获取电脑的MAC地址。
-- [internal-ip](https://github.com/sindresorhus/internal-ip) - 获取您的内网IP地址。
-- [DHCP](https://github.com/infusion/node-dhcp) - DHCP客户端和服务器。
-- [ipify](https://github.com/sindresorhus/ipify) - 获取你的公网IP地址。
-- [address](https://github.com/node-modules/address) - 获取当前机器IP地址和MAC地址。
-- [default-gateway](https://github.com/silverwind/default-gateway) - 获取默认网络网关(跨平台)。
+- IP
+  - [node-ip](https://github.com/indutny/node-ip) - NodeJS IP地址工具。
+  - [public-ip](https://github.com/sindresorhus/public-ip) - 非常快的获取你的公网IP地址。
+  - [request-ip](https://github.com/pbojinov/request-ip) - 在服务器中获取请求的IP地址。
+  - [ipaddr.js](https://github.com/whitequark/ipaddr.js) - JavaScript 中的 IP 地址操作库。
+  - [internal-ip](https://github.com/sindresorhus/internal-ip) - 获取您的内网IP地址。
+  - [ipify](https://github.com/sindresorhus/ipify) - 获取你的公网IP地址。
+
+- 其他
+  - [get-port](https://github.com/sindresorhus/get-port) - 获取一个可用的端口。
+  - [netcat](https://github.com/roccomuso/netcat) - 纯JS中的Netcat端口。
+  - [getmac](https://github.com/bevry/getmac) -  获取电脑的MAC地址。
+  - [DHCP](https://github.com/infusion/node-dhcp) - DHCP客户端和服务器。
+  - [address](https://github.com/node-modules/address) - 获取当前机器IP地址和MAC地址。
+  - [default-gateway](https://github.com/silverwind/default-gateway) - 获取默认网络网关(跨平台)。
 
 ### HTTP
 
@@ -957,9 +970,7 @@
   - [recast](https://github.com/benjamn/recast) - JavaScript语法树转换器，非破坏性漂亮print和自动source map生成器。
   - [espree](https://github.com/eslint/espree) - 与Esprima兼容的JavaScript解析器。
   - [csstree](https://github.com/csstree/csstree) - 基于W3C标准和浏览器标准实现，包含快速详细的解析器、遍历器、生成器、词法解析的CSS工具集。
-  - [himalaya](https://github.com/andrejewski/himalaya) - 将HTML转化为JSON的解析器。
   - [es-module-lexer](https://github.com/guybedford/es-module-lexer) - 低开销的词法分析器，专门用于ES模块快速分析解析。
-  - [dt-sql-parser](https://github.com/DTStack/dt-sql-parser) - 大数据的SQL解析器，用antlr4构建。
 
 - 遍历
   - [acorn-walker](https://github.com/acornjs/acorn/tree/master/acorn-walk) - 小巧、快速的JavaScript解析器。

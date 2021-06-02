@@ -338,6 +338,7 @@ English | [简体中文](./README-zh-CN.md)
 
 - [dotenv](https://github.com/motdotla/dotenv) - Loads environment variables from .env for nodejs projects.
 - [cross-env](https://github.com/kentcdodds/cross-env) - Set environment variables cross-platform.
+- [envinfo](https://github.com/tabrindle/envinfo) - Generate a report about your development environment for debugging and issue reporting.
 - [which](https://github.com/npm/node-which) - Cross-platform implementation of Unix's `which`.
 - [user-home](https://github.com/sindresorhus/user-home) - Get the path to the user home directory. Cross-platform.
 - [username](https://github.com/sindresorhus/username) - Get the current username.
@@ -500,9 +501,16 @@ English | [简体中文](./README-zh-CN.md)
   - [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser) - Validate and parse XML.
   - [xmlbuilder](https://github.com/oozcitak/xmlbuilder-js) - An XML builder for node.js.
 
+- HTML
+  - [htmlparser2](https://github.com/fb55/htmlparser2) - Forgiving HTML and XML parser.
+  - [himalaya](https://github.com/andrejewski/himalaya) - JavaScript HTML to JSON Parser.
+
 - CSS
   - [PostCSS](https://github.com/postcss/postcss) - CSS parser / stringifier.
   - [strip-css-comments](https://github.com/sindresorhus/strip-css-comments) - Strip comments from CSS.
+
+- SQL
+  - [dt-sql-parser](https://github.com/DTStack/dt-sql-parser) - SQL Parsers for BigData, built with antlr4.
 
 - Other
   - [readability](https://github.com/mozilla/readability) - A standalone version of the readability library used for Firefox Reader View.
@@ -514,6 +522,7 @@ English | [简体中文](./README-zh-CN.md)
 - [simple-git](https://github.com/steveukx/git-js) - A light weight interface for running git commands in any node.js application.
 - [gitgraph-node](https://github.com/nicoespeon/gitgraph.js/tree/master/packages/gitgraph-node) - Draw pretty git graphs in your terminal.
 - [pre-commit](https://github.com/observing/pre-commit) - Automatically installs a git pre-commit script in your git repository which runs your `npm test` on pre-commit.
+- [yorkie](https://github.com/yyx990803/yorkie) -  A fork of husky, 🐶 Git hooks made easy, used in vue3.
 - [git-url-parse](https://github.com/IonicaBizau/git-url-parse) - A high level git url parser for common git providers.
 - [git-promise](https://github.com/piuccio/git-promise) - Simple wrapper to run any git command and process it's output using promises.
 - [gittar](https://github.com/lukeed/gittar) - Download and/or Extract git repositories (GitHub, GitLab, BitBucket). Cross-platform and Offline-first.
@@ -855,17 +864,21 @@ English | [简体中文](./README-zh-CN.md)
 
 ### Network
 
-- [public-ip](https://github.com/sindresorhus/public-ip) - Get your public IP address - very fast!
-- [get-port](https://github.com/sindresorhus/get-port) - Get an available port.
-- [request-ip](https://github.com/pbojinov/request-ip) - A Node.js module for retrieving a request's IP address on the server.
-- [ipaddr.js](https://github.com/whitequark/ipaddr.js) - IP address manipulation library in JavaScript.
-- [netcat](https://github.com/roccomuso/netcat) - Netcat port in pure JS.
-- [getmac](https://github.com/bevry/getmac) - Get the computer MAC address.
-- [internal-ip](https://github.com/sindresorhus/internal-ip) - Get your internal IP address.
-- [DHCP](https://github.com/infusion/node-dhcp) - DHCP client and server.
-- [ipify](https://github.com/sindresorhus/ipify) - Get your public IP address.
-- [address](https://github.com/node-modules/address) - Get current machine IP and MAC address.
-- [default-gateway](https://github.com/silverwind/default-gateway) - Get the default network gateway, cross-platform.
+- IP
+  - [node-ip](https://github.com/indutny/node-ip) - IP address tools for node.js.
+  - [public-ip](https://github.com/sindresorhus/public-ip) - Get your public IP address - very fast!
+  - [request-ip](https://github.com/pbojinov/request-ip) - A Node.js module for retrieving a request's IP address on the server.
+  - [ipaddr.js](https://github.com/whitequark/ipaddr.js) - IP address manipulation library in JavaScript.
+  - [internal-ip](https://github.com/sindresorhus/internal-ip) - Get your internal IP address.
+  - [ipify](https://github.com/sindresorhus/ipify) - Get your public IP address.
+
+- Other
+  - [get-port](https://github.com/sindresorhus/get-port) - Get an available port.
+  - [netcat](https://github.com/roccomuso/netcat) - Netcat port in pure JS.
+  - [getmac](https://github.com/bevry/getmac) - Get the computer MAC address.
+  - [DHCP](https://github.com/infusion/node-dhcp) - DHCP client and server.
+  - [address](https://github.com/node-modules/address) - Get current machine IP and MAC address.
+  - [default-gateway](https://github.com/silverwind/default-gateway) - Get the default network gateway, cross-platform.
 
 ### HTTP
 
@@ -948,9 +961,7 @@ English | [简体中文](./README-zh-CN.md)
   - [recast](https://github.com/benjamn/recast) - JavaScript syntax tree transformer, nondestructive pretty-printer, and automatic source map generator.
   - [espree](https://github.com/eslint/espree) - Esprima-compatible JavaScript parser.
   - [csstree](https://github.com/csstree/csstree) - Tool set for CSS including fast detailed parser, walker, generator and lexer based on W3C specs and browser implementations.
-  - [himalaya](https://github.com/andrejewski/himalaya) - JavaScript HTML to JSON Parser.
   - [es-module-lexer](https://github.com/guybedford/es-module-lexer) - Low-overhead lexer dedicated to ES module parsing for fast analysis.
-  - [dt-sql-parser](https://github.com/DTStack/dt-sql-parser) - SQL Parsers for BigData, built with antlr4.
 
 - Traversal
   - [acorn-walker](https://github.com/acornjs/acorn/tree/master/acorn-walk) - Small, fast, JavaScript-based JavaScript parser.
