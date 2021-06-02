@@ -390,6 +390,7 @@
   - [colors.js](https://github.com/Marak/colors.js) - 获取Node.js控制台的颜色。
   - [listr](https://github.com/SamVerschueren/listr) - 命令行任务列表。
   - [kleur](https://github.com/lukeed/kleur) - 最快的Node.js库，使用ANSI颜色格式化命令行文本。
+  - [qrcode-terminal](https://github.com/gtanner/qrcode-terminal) - 命令行中显示二维码。
   - [boxen](https://github.com/sindresorhus/boxen) - 控制台中创建盒子。
   - [terminal-image](https://github.com/sindresorhus/terminal-image) - 在终端中展示图片。
   - [log-symbols](https://github.com/sindresorhus/log-symbols) - 为不同日志级别添加色彩图标。
@@ -511,7 +512,7 @@
   - [xmlbuilder](https://github.com/oozcitak/xmlbuilder-js) - XML构建器。
 
 - HTML
-  - [htmlparser2](https://github.com/fb55/htmlparser2) - Forgiving HTML and XML parser.
+  - [htmlparser2](https://github.com/fb55/htmlparser2) - 宽容的 HTML 和 XML 解析器。
   - [himalaya](https://github.com/andrejewski/himalaya) - 将HTML转化为JSON的解析器。
 
 - CSS
@@ -881,8 +882,11 @@
   - [internal-ip](https://github.com/sindresorhus/internal-ip) - 获取您的内网IP地址。
   - [ipify](https://github.com/sindresorhus/ipify) - 获取你的公网IP地址。
 
-- 其他
+- 端口
+  - [node-portfinder](https://github.com/http-party/node-portfinder) - 在当前机器上查找开放端口 或 域套接字的简单工具。
   - [get-port](https://github.com/sindresorhus/get-port) - 获取一个可用的端口。
+
+- 其他
   - [netcat](https://github.com/roccomuso/netcat) - 纯JS中的Netcat端口。
   - [getmac](https://github.com/bevry/getmac) -  获取电脑的MAC地址。
   - [DHCP](https://github.com/infusion/node-dhcp) - DHCP客户端和服务器。

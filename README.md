@@ -381,6 +381,7 @@ English | [简体中文](./README-zh-CN.md)
   - [colors.js](https://github.com/Marak/colors.js) - Get colors in your node.js console.
   - [listr](https://github.com/SamVerschueren/listr) - Terminal task list.
   - [kleur](https://github.com/lukeed/kleur) - The fastest Node.js library for formatting terminal text with ANSI colors~!
+  - [qrcode-terminal](https://github.com/gtanner/qrcode-terminal) - QRCodes in your terminal.
   - [boxen](https://github.com/sindresorhus/boxen) - Create boxes in the terminal.
   - [terminal-image](https://github.com/sindresorhus/terminal-image) - Display images in the terminal.
   - [log-symbols](https://github.com/sindresorhus/log-symbols) - Colored symbols for various log levels.
@@ -872,8 +873,11 @@ English | [简体中文](./README-zh-CN.md)
   - [internal-ip](https://github.com/sindresorhus/internal-ip) - Get your internal IP address.
   - [ipify](https://github.com/sindresorhus/ipify) - Get your public IP address.
 
-- Other
+- Port
+  - [node-portfinder](https://github.com/http-party/node-portfinder) - A simple tool to find an open port or domain socket on the current machine.
   - [get-port](https://github.com/sindresorhus/get-port) - Get an available port.
+
+- Other
   - [netcat](https://github.com/roccomuso/netcat) - Netcat port in pure JS.
   - [getmac](https://github.com/bevry/getmac) - Get the computer MAC address.
   - [DHCP](https://github.com/infusion/node-dhcp) - DHCP client and server.
