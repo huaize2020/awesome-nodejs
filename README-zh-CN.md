@@ -838,7 +838,7 @@
   - [node-wrk](https://github.com/sidorares/node-wrk) - Wrk负载测试工具Node.js版封装。
 
 - 解决方案
-  - [macaca](https://github.com/alibaba/macaca) - 多平台开源自动化解决方案。
+  - [macaca](https://github.com/alibaba/macaca) - 多端自动化解决方案。
 
 ### 办公软件
 
