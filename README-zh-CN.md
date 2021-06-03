@@ -203,7 +203,12 @@
 - [pica](https://github.com/nodeca/pica) - 使用纯JS中的高质量和快速调整大小（lanczos3）。 当不允许像素化时替代canvas drawImage()。
 - [lwip](https://github.com/EyalAr/lwip) - 不需要ImageMagick的轻量级图像处理器.
 - [probe-image-size](https://github.com/nodeca/probe-image-size) - 无需完全下载即可获取大多数图像格式的大小.
+- [omggif](https://github.com/deanm/omggif) - GIF 89a编码解码器。
+- [jpeg-js](https://github.com/jpeg-js/jpeg-js) - 使用纯JavaScript的JPEG编码和解码器。
+- [pngjs](https://github.com/lukeapage/pngjs) - 简单的PNG编码解码器。
+- [get-pixels](https://github.com/scijs/get-pixels) - 将图像读入ndarray。
 - [image-type](https://github.com/sindresorhus/image-type) - 检测Buffer / Uint8Array的图像类型.
+- [node-bitmap](https://github.com/nowelium/node-bitmap) - Pure javascript Bitmap library.
 
 ### 颜色
 
