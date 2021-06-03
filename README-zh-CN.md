@@ -875,6 +875,7 @@
 - [adm-zip](https://github.com/cthackers/adm-zip) - 使用JavaScript创建、读取、编辑.zip文件。
 - [node-tar](https://github.com/npm/node-tar) - 快速且功能齐全的Tar。
 - [tar-fs](https://github.com/mafintosh/tar-fs) - tar-fs允许您将目录打包到tar格式压缩包中，并将tar格式压缩包提取到目录中。
+- [compressing](https://github.com/node-modules/compressing) - 压缩和解压缩你所需的一切。
 - [7zip](https://github.com/fritx/win-7zip) - Windows包压缩/解压 - 7zip。
 
 ### 最小化
