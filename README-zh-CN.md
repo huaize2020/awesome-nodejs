@@ -68,6 +68,7 @@
   - [设计稿转代码（D2C）](#设计稿转代码d2c)
   - [沙箱](#沙箱)
   - [硬件](#硬件)
+  - [物联网IoT](#物联网iot)
   - [机器学习 和 神经网络](#机器学习-和-神经网络)
   - [自然语言处理](#自然语言处理)
 
@@ -159,6 +160,7 @@
 - [ms](https://github.com/vercel/ms) - 毫秒转换工具。
 - [dateformat](https://github.com/felixge/node-dateformat) - 日期格式化。
 - [pretty-ms](https://github.com/sindresorhus/pretty-ms) - 将毫秒转换为人类可读的字符串，如: `1337000000` → `15d 11h 23m 20s`
+- [strftime](https://github.com/samsonjs/strftime) - JavaScript版时间格式化Strftime.
 - [date-utils](https://github.com/JerrySievert/date-utils) - 用于Node.js和浏览器的日期垫片（Polyfills）。
 
 ### URL
@@ -920,6 +922,8 @@
   - [https-proxy-agent](https://github.com/TooTallNate/node-https-proxy-agent) - HTTP(S) 代理 `http.Agent`实现。
   - [global-agent](https://github.com/gajus/global-agent) - 可以使用环境变量配置的全局 HTTP/HTTPS 代理。
   - [fast-proxy](https://github.com/fastify/fast-proxy) - Node.js框架，使您可以将http请求转发到另一个HTTP服务器。 支持的协议：HTTP，HTTPS，HTTP2。
+  - [argo](https://github.com/argo/argo) - 一个可扩展的异步 HTTP 反向代理和源服务器。
+
 
 - 中间件
   - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - ⚡用于connect，express和browser-sync的单线Node.js Http代理中间件。
@@ -1013,6 +1017,11 @@
 - [i2c-bus](https://github.com/fivdi/i2c-bus) - I2C串行总线访问。
 - [gps](https://github.com/infusion/GPS.js) - NMEA解析器，用于处理GPS接收器。
 - [spi-device](https://github.com/fivdi/spi-device) - SPI串行总线访问。
+
+### 物联网IoT
+
+- [zetta](https://github.com/zettajs/zetta) - 面向物联网的 API 优先的开源软件平台。
+- [iot-nodejs](https://github.com/ibm-watson-iot/iot-nodejs) - 用于使用 nodejs 连接到 IBM Watson IoT 的客户端库和示例。
 
 ### 机器学习 和 神经网络
 

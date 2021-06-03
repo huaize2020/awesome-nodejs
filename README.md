@@ -62,6 +62,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Design To Code（D2C）](#design-to-coded2c)
   - [Sandbox](#sandbox)
   - [Hardware](#hardware)
+  - [IoT](#iot)
   - [Machine learning & Neural networks](#machine-learning--neural-networks)
   - [Natural language processing](#natural-language-processing)
 
@@ -151,6 +152,7 @@ English | [简体中文](./README-zh-CN.md)
 - [ms](https://github.com/vercel/ms) - Tiny millisecond conversion utility.
 - [dateformat](https://github.com/felixge/node-dateformat) - A node.js package for Steven Levithan's excellent dateFormat() function.
 - [pretty-ms](https://github.com/sindresorhus/pretty-ms) - Convert milliseconds to a human readable string: `1337000000` → `15d 11h 23m 20s`
+- [strftime](https://github.com/samsonjs/strftime) - Strftime for JavaScript.
 - [date-utils](https://github.com/JerrySievert/date-utils) - Date Pollyfills for Node.js and Browser.
 
 ### URL
@@ -911,6 +913,7 @@ English | [简体中文](./README-zh-CN.md)
   - [https-proxy-agent](https://github.com/TooTallNate/node-https-proxy-agent) - An HTTP(s) proxy `http.Agent` implementation for HTTPS endpoints.
   - [global-agent](https://github.com/gajus/global-agent) - Global HTTP/HTTPS proxy agent that is configurable using environment variables.
   - [fast-proxy](https://github.com/fastify/fast-proxy) - Node.js framework agnostic library that enables you to forward an http request to another HTTP server. Supported protocols: HTTP, HTTPS, HTTP2.
+  - [argo](https://github.com/argo/argo) - An extensible, asynchronous HTTP reverse proxy and origin server.
 
 - Middleware
   - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - ⚡ The one-liner node.js http-proxy middleware for connect, express and browser-sync.
@@ -1004,6 +1007,11 @@ English | [简体中文](./README-zh-CN.md)
 - [i2c-bus](https://github.com/fivdi/i2c-bus) - I2C serial bus access.
 - [gps](https://github.com/infusion/GPS.js) - NMEA parser for handling GPS receivers.
 - [spi-device](https://github.com/fivdi/spi-device) - SPI serial bus access.
+
+### IoT
+
+- [zetta](https://github.com/zettajs/zetta) - An API-first, open source software platform for the Internet of Things.
+- [iot-nodejs](https://github.com/ibm-watson-iot/iot-nodejs) - Client libraries and samples for connecting to IBM Watson IoT using nodejs.
 
 ### Machine learning & Neural networks
 
