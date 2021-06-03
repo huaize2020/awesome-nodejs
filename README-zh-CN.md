@@ -42,7 +42,7 @@
   - [Web框架](#web框架)
   - [静态网站生成 & 博客](#静态网站生成--博客)
   - [文档生成](#文档生成)
-  - [跨平台](#跨平台)
+  - [桌面应用程序](#桌面应用程序)
   - [实时通信](#实时通信)
   - [任务队列](#任务队列)
   - [定时任务](#定时任务)
@@ -671,9 +671,10 @@
 - [Docco](https://github.com/jashkenas/docco) - 文档生成器，该生成器生成一个HTML文档，该文档显示与代码混合的注释。
 - [ESDoc](https://github.com/esdoc/esdoc) - 针对ES2015的文档生成器，附加测试代码并衡量文档覆盖范围。
 
-### 跨平台
+### 桌面应用程序
 
 - [Electron](https://github.com/atom/electron) - 使用Web技术构建跨平台的桌面应用程序。 *(你也许喜欢 [awesome-electron](https://github.com/sindresorhus/awesome-electron))*
+- [nw.js](https://github.com/nwjs/nw.js) - 使用 Web 技术编写应用程序的新方法，并直接从 DOM/WebWorker 调用所有 Node.js 模块。
 
 ### 实时通信
 
