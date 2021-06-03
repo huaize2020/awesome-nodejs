@@ -1016,6 +1016,7 @@ English | [简体中文](./README-zh-CN.md)
 - [node-escpos](https://github.com/song940/node-escpos) - ESC/POS Printer driver for node.
 - [i2c-bus](https://github.com/fivdi/i2c-bus) - I2C serial bus access.
 - [gps](https://github.com/infusion/GPS.js) - NMEA parser for handling GPS receivers.
+- [node-bluetooth](https://github.com/song940/node-bluetooth) - Bluetooth serial port communication for Node.js.
 - [spi-device](https://github.com/fivdi/spi-device) - SPI serial bus access.
 
 ### IoT

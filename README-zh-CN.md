@@ -1026,6 +1026,7 @@
 - [node-escpos](https://github.com/song940/node-escpos) - ESC/POS打印机驱动程序。
 - [i2c-bus](https://github.com/fivdi/i2c-bus) - I2C串行总线访问。
 - [gps](https://github.com/infusion/GPS.js) - NMEA解析器，用于处理GPS接收器。
+- [node-bluetooth](https://github.com/song940/node-bluetooth) - Node.js 的蓝牙串口通信。
 - [spi-device](https://github.com/fivdi/spi-device) - SPI串行总线访问。
 
 ### 物联网IoT
