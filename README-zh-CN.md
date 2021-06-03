@@ -814,6 +814,10 @@
   - [mm](https://github.com/node-modules/mm) - 简单但灵活的 mock(或者叫stub) 包, mock伴侣。
   - [smoke](https://github.com/sinedied/smoke) - 具有记录功能的，简单但功能强大的基于文件的Mock服务器。
 
+- 端到端的测试(E2E) / 自动化UI
+  - [nightwatch](https://github.com/nightwatchjs/nightwatch) - 用 Node.js 编写，并使用 Webdriver API 的端到端测试框架。
+  - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - Node.js端到端测试框架。
+
 - 测试框架
   - [jest](https://github.com/facebook/jest) - 愉悦的JavaScript测试。
   - [mocha](https://github.com/mochajs/mocha) - 简单、灵活、有趣的功能丰富的Node.js和浏览器测试框架。
@@ -831,6 +835,9 @@
   - [Benchmark.js](https://github.com/bestiejs/benchmark.js) - 基准测试库，支持高分辨率计时器并返回具有统计意义的结果。
   - [matcha](https://github.com/logicalparadox/matcha) - 基准测试的简化方法。
   - [node-wrk](https://github.com/sidorares/node-wrk) - Wrk负载测试工具Node.js版封装。
+
+- 解决方案
+  - [macaca](https://github.com/alibaba/macaca) - 多平台开源自动化解决方案。
 
 ### 办公软件
 

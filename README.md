@@ -805,6 +805,10 @@ English | [简体中文](./README-zh-CN.md)
   - [mm](https://github.com/node-modules/mm) - An simple but flexible mock(or say stub) package, mock mate.
   - [smoke](https://github.com/sinedied/smoke) - 💨 Simple yet powerful file-based mock server with recording abilities.
 
+- End-to-end Testing / Automated UI
+  - [nightwatch](https://github.com/nightwatchjs/nightwatch) - End-to-end testing framework written in Node.js and using the Webdriver API.
+  - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - End 2 End Testing Framework for NodeJS.
+
 - Testing Framework
   - [jest](https://github.com/facebook/jest) - Delightful JavaScript Testing.
   - [mocha](https://github.com/mochajs/mocha) - Simple, flexible, fun javascript test framework for node.js & the browser.
@@ -822,6 +826,9 @@ English | [简体中文](./README-zh-CN.md)
   - [Benchmark.js](https://github.com/bestiejs/benchmark.js) - Benchmarking library that supports high-resolution timers and returns statistically significant results.
   - [matcha](https://github.com/logicalparadox/matcha) - Simplistic approach to benchmarking.
   - [node-wrk](https://github.com/sidorares/node-wrk) - Wrk load testing tool node wrapper.
+
+- Solution
+  - [macaca](https://github.com/alibaba/macaca) - Automation solution for multi-platform.
 
 ### Office
 
