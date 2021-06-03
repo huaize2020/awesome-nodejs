@@ -50,6 +50,7 @@
   - [论坛](#论坛)
   - [数据库](#数据库)
   - [缓存](#缓存)
+  - [Serverless](#serverless)
   - [自动化 & 机器人流程自动化 - RPA](#自动化--机器人流程自动化---rpa)
   - [测试相关](#测试相关)
   - [办公软件](#办公软件)
@@ -771,6 +772,10 @@
 - [node-cache-manager](https://github.com/BryanDonovan/node-cache-manager) - Node.js Cache模块。
 - [hashlru](https://github.com/dominictarr/hashlru) - 更轻量更快的LRU算法。
 - [ylru](https://github.com/node-modules/ylru) - 基于hashlru添加过期时间，允许空值。
+
+### Serverless
+
+- [serverless](https://github.com/serverless/serverless) - 无服务器框架 – 使用 AWS Lambda、Azure Functions、Google CloudFunctions 等无服务器架构构建 Web、移动和 IoT 应用程序。
 
 ### 自动化 & 机器人流程自动化 - RPA
 

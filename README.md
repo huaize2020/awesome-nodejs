@@ -44,6 +44,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Forum](#forum)
   - [Database](#database)
   - [Cache](#cache)
+  - [Serverless](#serverless)
   - [Automation & RPA](#automation--rpa)
   - [Testing](#testing)
   - [Office](#office)
@@ -762,6 +763,10 @@ English | [简体中文](./README-zh-CN.md)
 - [node-cache-manager](https://github.com/BryanDonovan/node-cache-manager) - Cache module for Node.JS.
 - [hashlru](https://github.com/dominictarr/hashlru) - Simpler, faster LRU cache algorithm.
 - [ylru](https://github.com/node-modules/ylru) - Add "expire", "allow set empty value" extends on hashlru.
+
+### Serverless
+
+- [serverless](https://github.com/serverless/serverless) - Serverless Framework – Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more!
 
 ### Automation & RPA
 
