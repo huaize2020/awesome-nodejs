@@ -897,6 +897,7 @@
 - 端口
   - [node-portfinder](https://github.com/http-party/node-portfinder) - 在当前机器上查找开放端口 或 域套接字的简单工具。
   - [get-port](https://github.com/sindresorhus/get-port) - 获取一个可用的端口。
+  - [detect-port](https://github.com/node-modules/detect-port) - 端口探测的Node.JS实现。
 
 - 其他
   - [netcat](https://github.com/roccomuso/netcat) - 纯JS中的Netcat端口。

@@ -888,6 +888,7 @@ English | [简体中文](./README-zh-CN.md)
 - Port
   - [node-portfinder](https://github.com/http-party/node-portfinder) - A simple tool to find an open port or domain socket on the current machine.
   - [get-port](https://github.com/sindresorhus/get-port) - Get an available port.
+  - [detect-port](https://github.com/node-modules/detect-port) - Node.js implementation of port detector.
 
 - Other
   - [netcat](https://github.com/roccomuso/netcat) - Netcat port in pure JS.
