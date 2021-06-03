@@ -345,6 +345,7 @@
 - [shx](https://github.com/shelljs/shx) - Node的可移植Shell命令。
 - [clipboardy](https://github.com/sindresorhus/clipboardy) - 跨平台的复制/粘贴。
 - [cross-spawn](https://github.com/IndigoUnited/node-cross-spawn) - 跨平台实现 `child_process.spawn()`。
+- [parallelshell](https://github.com/darkguy2008/parallelshell) - 并行运行多个 shell 命令。
 - [figures](https://github.com/sindresorhus/figures) - Windows兜底的Unicode符号。
 - [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - 跨平台的复制/粘贴。
 - [gulp-execa](https://github.com/ehmicky/gulp-execa) - 在Gulp中跨平台命令执行。

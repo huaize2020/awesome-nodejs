@@ -336,6 +336,7 @@ English | [简体中文](./README-zh-CN.md)
 - [shx](https://github.com/shelljs/shx) - Portable Shell Commands for Node.
 - [clipboardy](https://github.com/sindresorhus/clipboardy) - Cross-platform copy/paste.
 - [cross-spawn](https://github.com/IndigoUnited/node-cross-spawn) - Cross-platform implementation of `child_process.spawn()`.
+- [parallelshell](https://github.com/darkguy2008/parallelshell) - Run multiple shell commands in parallel.
 - [figures](https://github.com/sindresorhus/figures) - Unicode symbols with Windows fallbacks.
 - [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - Cross-platform copy/paste.
 - [gulp-execa](https://github.com/ehmicky/gulp-execa) - Cross-platform command execution in Gulp.js.
