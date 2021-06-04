@@ -202,6 +202,7 @@
 - [gm](https://github.com/aheckmann/gm) - GraphicsMagick 和 ImageMagick 封装。
 - [qrcode](https://github.com/soldair/node-qrcode) - 二维码和条形码生成器。
 - [pica](https://github.com/nodeca/pica) - 使用纯JS中的高质量和快速调整大小（lanczos3）。 当不允许像素化时替代canvas drawImage()。
+- [jsQR](https://github.com/cozmo/jsQR) - 一个纯javascript的二维码读取库。 该库接收原始图像，并将定位、提取和解析其中发现的任何二维码。
 - [lwip](https://github.com/EyalAr/lwip) - 不需要ImageMagick的轻量级图像处理器.
 - [probe-image-size](https://github.com/nodeca/probe-image-size) - 无需完全下载即可获取大多数图像格式的大小.
 - [omggif](https://github.com/deanm/omggif) - GIF 89a编码解码器。
@@ -350,6 +351,7 @@
 - [figures](https://github.com/sindresorhus/figures) - Windows兜底的Unicode符号。
 - [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - 跨平台的复制/粘贴。
 - [gulp-execa](https://github.com/ehmicky/gulp-execa) - 在Gulp中跨平台命令执行。
+- [runscript](https://github.com/node-modules/runscript) - 更容易的运行脚本命令。
 - [cross-spawn-promise](https://github.com/zentrick/cross-spawn-promise) - Promise化的cross-spawn。
 - [shell-exec](https://github.com/tiaanduplessis/shell-exec) - 通过系统Shell执行命令。
 
@@ -533,6 +535,9 @@
 
 - SQL
   - [dt-sql-parser](https://github.com/DTStack/dt-sql-parser) - 大数据的SQL解析器，用antlr4构建。
+
+- Plist
+  - [node-bplist-parser](https://github.com/joeferner/node-bplist-parser) - 二进制plist文件解析。
 
 - Other
   - [readability](https://github.com/mozilla/readability) - 可读内容提取库，用于Firefox Reader View的独立提取版本。

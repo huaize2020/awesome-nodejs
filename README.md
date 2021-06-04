@@ -194,6 +194,7 @@ English | [简体中文](./README-zh-CN.md)
 - [gm](https://github.com/aheckmann/gm) - GraphicsMagick and ImageMagick wrapper.
 - [qrcode](https://github.com/soldair/node-qrcode) - QR code and bar code generator.
 - [pica](https://github.com/nodeca/pica) - High quality & fast resize (lanczos3) in pure JS. Alternative to canvas drawImage(), when no pixelation allowed.
+- [jsQR](https://github.com/cozmo/jsQR) - A pure javascript QR code reading library. This library takes in raw images and will locate, extract and parse any QR code found within.
 - [lwip](https://github.com/EyalAr/lwip) - Lightweight image processor which does not require ImageMagick.
 - [probe-image-size](https://github.com/nodeca/probe-image-size) - Get the size of most image formats without a full download.
 - [omggif](https://github.com/deanm/omggif) - JavaScript implementation of a GIF 89a encoder and decoder.
@@ -341,6 +342,7 @@ English | [简体中文](./README-zh-CN.md)
 - [figures](https://github.com/sindresorhus/figures) - Unicode symbols with Windows fallbacks.
 - [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - Cross-platform copy/paste.
 - [gulp-execa](https://github.com/ehmicky/gulp-execa) - Cross-platform command execution in Gulp.js.
+- [runscript](https://github.com/node-modules/runscript) - Run script easy!
 - [cross-spawn-promise](https://github.com/zentrick/cross-spawn-promise) - Promisified cross-spawn.
 - [shell-exec](https://github.com/tiaanduplessis/shell-exec) - Execute a command through the system shell.
 
@@ -524,6 +526,9 @@ English | [简体中文](./README-zh-CN.md)
 
 - SQL
   - [dt-sql-parser](https://github.com/DTStack/dt-sql-parser) - SQL Parsers for BigData, built with antlr4.
+
+- Plist
+  - [node-bplist-parser](https://github.com/joeferner/node-bplist-parser) - Binary plist parser.
 
 - Other
   - [readability](https://github.com/mozilla/readability) - A standalone version of the readability library used for Firefox Reader View.
