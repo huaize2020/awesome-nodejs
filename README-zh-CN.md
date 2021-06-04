@@ -85,7 +85,7 @@
 
 ### 工具
 
-- [npm.devtool](https://npm.devtool.tech/) - 找到最适合您的包，为分析您的项目技术栈。
+- [npm.devtool](https://npm.devtool.tech/) - 找到最适合您的包，分析您的项目技术栈。
 
 ## GIT仓库
 
