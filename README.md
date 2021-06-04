@@ -465,6 +465,7 @@ English | [简体中文](./README-zh-CN.md)
   - [proper-lockfile](https://github.com/IndigoUnited/node-proper-lockfile) - Inter-process and inter-machine lockfile utility.
   - [istextorbinary](https://github.com/bevry/istextorbinary) - Check if a file is text or binary.
   - [mkdirp](https://github.com/isaacs/node-mkdirp) - Recursively mkdir, like `mkdir -p`.
+  - [dir-compare](https://github.com/gliviu/dir-compare) - Node JS directory compare.
   - [folder-hash](https://github.com/marc136/node-folder-hash) - Create a hash checksum over a folder or a file.
   - [lnfs](https://github.com/kevva/lnfs) - Force create symlinks like `ln -fs`.
 
@@ -865,8 +866,10 @@ English | [简体中文](./README-zh-CN.md)
 - [jszip](https://github.com/Stuk/jszip) - Create, read and edit .zip files with Javascript.
 - [adm-zip](https://github.com/cthackers/adm-zip) - Create, read and edit .zip files with Javascript.
 - [node-tar](https://github.com/npm/node-tar) - Fast and full-featured Tar for Node.js.
+- [yauzl](https://github.com/thejoshwolfe/yauzl) - Yet another unzip library for node.
 - [tar-fs](https://github.com/mafintosh/tar-fs) - Tar-fs allows you to pack directories into tarballs and extract tarballs into directories.
 - [compressing](https://github.com/node-modules/compressing) - Everything you need for compressing and uncompressing.
+- [yazl](https://github.com/thejoshwolfe/yazl) - Yet another zip library for node.
 - [7zip](https://github.com/fritx/win-7zip) - 7zip Windows Package via Node.js.
 
 ###  Minifiers

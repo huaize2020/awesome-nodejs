@@ -474,6 +474,7 @@
   - [proper-lockfile](https://github.com/IndigoUnited/node-proper-lockfile) - 进程间和机器间文件锁实用工具。
   - [istextorbinary](https://github.com/bevry/istextorbinary) - 检查文件是文本文件还是二进制文件。
   - [mkdirp](https://github.com/isaacs/node-mkdirp) - 递归创建文件夹，类似 `mkdir -p`。
+  - [dir-compare](https://github.com/gliviu/dir-compare) - Node JS文件夹对比。
   - [folder-hash](https://github.com/marc136/node-folder-hash) - 为 文件夹或文件 上创建哈希检验码。
   - [lnfs](https://github.com/kevva/lnfs) - 强制创建符号链接。类似`ln -fs`.
 
@@ -874,8 +875,10 @@
 - [jszip](https://github.com/Stuk/jszip) - 使用JavaScript创建、读取、编辑.zip文件。
 - [adm-zip](https://github.com/cthackers/adm-zip) - 使用JavaScript创建、读取、编辑.zip文件。
 - [node-tar](https://github.com/npm/node-tar) - 快速且功能齐全的Tar。
+- [yauzl](https://github.com/thejoshwolfe/yauzl) - Node.js unzip解压库。
 - [tar-fs](https://github.com/mafintosh/tar-fs) - tar-fs允许您将目录打包到tar格式压缩包中，并将tar格式压缩包提取到目录中。
 - [compressing](https://github.com/node-modules/compressing) - 压缩和解压缩你所需的一切。
+- [yazl](https://github.com/thejoshwolfe/yazl) - Node.js zip压缩库。
 - [7zip](https://github.com/fritx/win-7zip) - Windows包压缩/解压 - 7zip。
 
 ### 最小化
