@@ -155,6 +155,7 @@ English | [简体中文](./README-zh-CN.md)
 - [pretty-ms](https://github.com/sindresorhus/pretty-ms) - Convert milliseconds to a human readable string: `1337000000` → `15d 11h 23m 20s`
 - [strftime](https://github.com/samsonjs/strftime) - Strftime for JavaScript.
 - [date-utils](https://github.com/JerrySievert/date-utils) - Date Pollyfills for Node.js and Browser.
+- [pretty-hrtime](https://github.com/robrich/pretty-hrtime) - process.hrtime() to words.
 
 ### URL
 

@@ -163,6 +163,7 @@
 - [pretty-ms](https://github.com/sindresorhus/pretty-ms) - 将毫秒转换为人类可读的字符串，如: `1337000000` → `15d 11h 23m 20s`
 - [strftime](https://github.com/samsonjs/strftime) - JavaScript版时间格式化Strftime.
 - [date-utils](https://github.com/JerrySievert/date-utils) - 用于Node.js和浏览器的日期垫片（Polyfills）。
+- [pretty-hrtime](https://github.com/robrich/pretty-hrtime) - 将process.hrtime()的结果转换为人可读性的字符串。
 
 ### URL
 
