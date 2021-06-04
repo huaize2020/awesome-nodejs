@@ -10,6 +10,8 @@
 
 - [目录](#目录)
 - [官方资源](#官方资源)
+- [资源](#资源)
+  - [工具](#工具)
 - [GIT仓库](#git仓库)
   - [文本](#文本)
   - [数字](#数字)
@@ -78,6 +80,11 @@
 - [官网](https://nodejs.org)
 - [文档](https://nodejs.org/dist/latest/docs/api/)
 - [仓库](https://github.com/nodejs/node)
+
+## 资源
+
+### 工具
+  - [https://npm.devtool.tech/](https://npm.devtool.tech/)
 
 ## GIT仓库
 

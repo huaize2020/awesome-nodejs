@@ -4,6 +4,8 @@ English | [简体中文](./README-zh-CN.md)
 
 - [Table of contents](#table-of-contents)
 - [Official](#official)
+- [Resources](#resources)
+  - [Tools](#tools)
 - [Repository](#repository)
   - [Text](#text)
   - [Number](#number)
@@ -71,6 +73,12 @@ English | [简体中文](./README-zh-CN.md)
 - [Website](https://nodejs.org)
 - [Documentation](https://nodejs.org/dist/latest/docs/api/)
 - [Repository](https://github.com/nodejs/node)
+
+## Resources
+
+### Tools
+
+- [npm.devtool](https://npm.devtool.tech/)
 
 ## Repository
 
