@@ -699,6 +699,7 @@
 - [Aedes](https://github.com/mcollina/aedes) - 可以在任何流服务器上运行的准系统MQTT服务器。
 - [rpc-websockets](https://github.com/elpheria/rpc-websockets) - 通过WebSocket实现JSON-RPC 2.0。
 - [deepstream.io](https://github.com/deepstreamIO/deepstream.io-client-js) - 可扩展的实时通信微服务框架。
+- [isomorphic-ws](https://github.com/heineiuo/isomorphic-ws) - WebSocket 的同构实现。
 - [Kalm](https://github.com/kalm/kalm.js) - 低级套接字路由器和中间件框架。
 
 ### 任务队列

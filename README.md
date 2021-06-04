@@ -690,6 +690,7 @@ English | [简体中文](./README-zh-CN.md)
 - [Aedes](https://github.com/mcollina/aedes) - Barebone MQTT server that can run on any stream server.
 - [rpc-websockets](https://github.com/elpheria/rpc-websockets) - JSON-RPC 2.0 implementation over WebSockets.
 - [deepstream.io](https://github.com/deepstreamIO/deepstream.io-client-js) - Scalable real-time microservice framework.
+- [isomorphic-ws](https://github.com/heineiuo/isomorphic-ws) - Isomorphic implementation of WebSocket.
 - [Kalm](https://github.com/kalm/kalm.js) - Low-level socket router and middleware framework.
 
 ### Job Queues
