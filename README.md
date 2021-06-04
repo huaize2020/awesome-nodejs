@@ -78,7 +78,7 @@ English | [简体中文](./README-zh-CN.md)
 
 ### Tools
 
-- [npm.devtool](https://npm.devtool.tech/)
+- [npm.devtool](https://npm.devtool.tech/) - Find the best package for you, Analyze tech stack for your project.
 
 ## Repository
 
