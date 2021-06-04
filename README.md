@@ -460,6 +460,7 @@ English | [简体中文](./README-zh-CN.md)
   - [make-dir](https://github.com/sindresorhus/make-dir) - Recursively create directories like mkdir -p.
   - [find-up](https://github.com/sindresorhus/find-up) - Find a file or directory by walking up parent directories.
   - [filenamify](https://github.com/sindresorhus/filenamify) - Convert a string to a valid filename.
+  - [copyfiles](https://github.com/calvinmetcalf/copyfiles) - Copy files on the command line.
   - [filehound](https://github.com/nspragg/filehound) - Flexible and fluent interface for searching the file system.
   - [move-file](https://github.com/sindresorhus/move-file) - Move a file, even works across devices.
   - [pkg-dir](https://github.com/sindresorhus/pkg-dir) - Find the root directory of an npm package.

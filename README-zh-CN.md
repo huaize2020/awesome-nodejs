@@ -469,7 +469,8 @@
   - [make-dir](https://github.com/sindresorhus/make-dir) - 递归创建文件夹，类似 `mkdir -p`。
   - [find-up](https://github.com/sindresorhus/find-up) - 通过上级父目录查找文件或目录。
   - [filenamify](https://github.com/sindresorhus/filenamify) - 将字符串转换为有效的文件名。
-  - [filehound](https://github.com/nspragg/filehound) - 灵活流畅的文件系统搜索界面。
+  - [copyfiles](https://github.com/calvinmetcalf/copyfiles) - 在命令行中复制文件。
+  - [filehound](https://github.com/nspragg/filehound) - 灵活流畅的文件系统搜索接口。
   - [move-file](https://github.com/sindresorhus/move-file) - 移动文件，甚至可以跨设备工作。
   - [pkg-dir](https://github.com/sindresorhus/pkg-dir) - 查找npm包的根目录。
   - [proper-lockfile](https://github.com/IndigoUnited/node-proper-lockfile) - 进程间和机器间文件锁实用工具。
