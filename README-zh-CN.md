@@ -191,6 +191,7 @@
 ### JSON
 
 - [json5](https://github.com/json5/json5) - JSON5是对JSON的扩展，其目的是能够更加容易的阅读和编写。
+- [jsondiffpatch](https://github.com/benjamine/jsondiffpatch) - 对比JSON对象，并生成差异和Patch信息。
 - [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker) - JSON-Schema + 假数据生成器。
 - [fast-json-stringify](https://github.com/fastify/fast-json-stringify) - 比JSON.stringify()快2倍。
 - [jsonfile](https://github.com/jprichardson/node-jsonfile) - 轻松读写JSON文件。

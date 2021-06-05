@@ -183,6 +183,7 @@ English | [简体中文](./README-zh-CN.md)
 ### JSON
 
 - [json5](https://github.com/json5/json5) - JSON5 — JSON for humans.
+- [jsondiffpatch](https://github.com/benjamine/jsondiffpatch) - Diff & patch JavaScript objects.
 - [fast-json-stringify](https://github.com/fastify/fast-json-stringify) - 2x faster than JSON.stringify()
 - [jsonfile](https://github.com/jprichardson/node-jsonfile) - Easily read/write JSON files.
 - [jsonata](https://github.com/jsonata-js/jsonata) - JSONata query and transformation language - http://jsonata.org
