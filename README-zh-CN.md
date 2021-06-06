@@ -232,7 +232,8 @@
 - [crypto-js](https://github.com/brix/crypto-js) - JavaScript加密标准库。
 - [bcrypt](https://github.com/kelektiv/node.bcrypt.js) - Node.js版Bcrypt。
 - [jsencrypt](https://github.com/travist/jsencrypt) - 用于执行OpenSSL RSA加密、解密和密钥生成的Javascript库。
-- [bcrypt.js](https://github.com/dcodeIO/bcrypt.js) - 经过优化bcrypt库，使用纯JavaScript的零依赖。
+- [bcrypt.js](https://github.com/dcodeIO/bcrypt.js) - 经过优化bcrypt库，使用纯JavaScript且零依赖。
+- [jsrsasign](https://github.com/kjur/jsrsasign) - "jsrsasign"（RSA Sign JavaScript库）是一个开源的免费加密库，支持纯JavaScript中的RSA/RSAPSS/ECDSA/DSA签名/验证、ASN.1、PKCS#1/5/8私钥/公钥、X.509证书、CRL、OCSP、CMS SignedData、TimeStamp、CAdES JSON Web签名/令牌。
 - [node-rsa](https://github.com/rzcoder/node-rsa) - Node.js RSA库。
 - [aes-js](https://github.com/ricmoo/aes-js) - AES的纯JavaScript实现。
 - [node-md5](https://github.com/pvorb/node-md5) - 一个JavaScript函数，用于使用MD5对消息进行哈希处理。

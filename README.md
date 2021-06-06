@@ -225,6 +225,7 @@ English | [简体中文](./README-zh-CN.md)
 - [bcrypt](https://github.com/kelektiv/node.bcrypt.js) - Bcrypt for NodeJs.
 - [jsencrypt](https://github.com/travist/jsencrypt) - A Javascript library to perform OpenSSL RSA Encryption, Decryption, and Key Generation.
 - [bcrypt.js](https://github.com/dcodeIO/bcrypt.js) - Optimized bcrypt in plain JavaScript with zero dependencies.
+- [jsrsasign](https://github.com/kjur/jsrsasign) - The 'jsrsasign' (RSA-Sign JavaScript Library) is an opensource free cryptography library supporting RSA/RSAPSS/ECDSA/DSA signing/validation, ASN.1, PKCS#1/5/8 private/public key, X.509 certificate, CRL, OCSP, CMS SignedData, TimeStamp, CAdES JSON Web Signature/Token in pure JavaScript.
 - [node-rsa](https://github.com/rzcoder/node-rsa) - Node.js RSA library.
 - [aes-js](https://github.com/ricmoo/aes-js) - A pure JavaScript implementation of the AES block cipher and all common modes of operation for node.js or web browsers.
 - [node-md5](https://github.com/pvorb/node-md5) - A JavaScript function for hashing messages with MD5.
