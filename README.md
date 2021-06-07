@@ -915,17 +915,20 @@ English | [简体中文](./README-zh-CN.md)
   - [ipaddr.js](https://github.com/whitequark/ipaddr.js) - IP address manipulation library in JavaScript.
   - [internal-ip](https://github.com/sindresorhus/internal-ip) - Get your internal IP address.
   - [ipify](https://github.com/sindresorhus/ipify) - Get your public IP address.
+  - [address](https://github.com/node-modules/address) - Get current machine IP and MAC address.
 
 - Port
   - [node-portfinder](https://github.com/http-party/node-portfinder) - A simple tool to find an open port or domain socket on the current machine.
   - [get-port](https://github.com/sindresorhus/get-port) - Get an available port.
   - [detect-port](https://github.com/node-modules/detect-port) - Node.js implementation of port detector.
 
+- Tunnel
+  - [tunnel-agent](https://github.com/request/tunnel-agent) - HTTP proxy tunneling agent. Formerly part of mikeal/request, now a standalone module.
+
 - Other
   - [netcat](https://github.com/roccomuso/netcat) - Netcat port in pure JS.
   - [getmac](https://github.com/bevry/getmac) - Get the computer MAC address.
   - [DHCP](https://github.com/infusion/node-dhcp) - DHCP client and server.
-  - [address](https://github.com/node-modules/address) - Get current machine IP and MAC address.
   - [default-gateway](https://github.com/silverwind/default-gateway) - Get the default network gateway, cross-platform.
 
 ### HTTP

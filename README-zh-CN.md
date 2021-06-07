@@ -924,17 +924,20 @@
   - [ipaddr.js](https://github.com/whitequark/ipaddr.js) - JavaScript 中的 IP 地址操作库。
   - [internal-ip](https://github.com/sindresorhus/internal-ip) - 获取您的内网IP地址。
   - [ipify](https://github.com/sindresorhus/ipify) - 获取你的公网IP地址。
+  - [address](https://github.com/node-modules/address) - 获取当前机器IP地址和MAC地址。
 
 - 端口
   - [node-portfinder](https://github.com/http-party/node-portfinder) - 在当前机器上查找开放端口 或 域套接字的简单工具。
   - [get-port](https://github.com/sindresorhus/get-port) - 获取一个可用的端口。
   - [detect-port](https://github.com/node-modules/detect-port) - 端口探测的Node.JS实现。
 
+- 隧道
+  - [tunnel-agent](https://github.com/request/tunnel-agent) - HTTP proxy tunneling agent. Formerly part of mikeal/request, now a standalone module.
+
 - 其他
   - [netcat](https://github.com/roccomuso/netcat) - 纯JS中的Netcat端口。
   - [getmac](https://github.com/bevry/getmac) -  获取电脑的MAC地址。
   - [DHCP](https://github.com/infusion/node-dhcp) - DHCP客户端和服务器。
-  - [address](https://github.com/node-modules/address) - 获取当前机器IP地址和MAC地址。
   - [default-gateway](https://github.com/silverwind/default-gateway) - 获取默认网络网关(跨平台)。
 
 ### HTTP
