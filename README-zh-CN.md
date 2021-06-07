@@ -741,6 +741,7 @@
 - [debug](https://github.com/visionmedia/debug) - 轻量调试工具。
 - [Clinic.js](https://github.com/clinicjs/node-clinic) - Clinic.js诊断Node.js性能问题。
 - [ironNode](https://github.com/s-a/iron-node) - 支持ES2015的Node.js开箱即用的调试器。
+- [easy-monitor](https://github.com/hyj1991/easy-monitor) - 企业级 Node.js 应用性能监控与线上故障定位解决方案。
 - [node-heapdump](https://github.com/bnoordhuis/node-heapdump) - 存储V8内存堆使用情况，以供以后诊断。
 - [0x](https://github.com/davidmarkclements/0x) - 火焰图分析。
 - [leakage](https://github.com/andywer/leakage) - 内存写入泄漏测试。
