@@ -66,6 +66,7 @@
   - [授权](#授权)
   - [分布式](#分布式)
   - [RPC](#rpc)
+  - [服务端DOM](#服务端dom)
   - [爬虫](#爬虫)
   - [AST](#ast)
   - [设计稿转代码（D2C）](#设计稿转代码d2c)
@@ -1000,6 +1001,12 @@
 - [grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js) - 纯JavaScript gRPC客户端。
 - [jayson](https://github.com/tedeh/jayson) - Jayson是用于Node.js的简单但功能强大的JSON-RPC 2.0 / 1.0客户端和服务器。
 - [sofa-rpc-node](https://github.com/sofastack/sofa-rpc-node) - SOFARPC Node是高性能、高可扩展性、产品级Node.js RPC框架。
+
+### 服务端DOM
+
+- [cheerio](https://github.com/cheeriojs/cheerio) - 运行在服务器端，快速、灵活和精益的jQuery核心功能实现。
+- [jsdom](https://github.com/jsdom/jsdom) - Node.js版Web标准实现。
+- [domino](https://github.com/fgnass/domino) - 基于 Mozilla的dom.js的服务器端DOM实现。
 
 ### 爬虫
 
