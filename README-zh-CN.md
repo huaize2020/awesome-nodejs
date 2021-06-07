@@ -934,8 +934,9 @@
   - [get-port](https://github.com/sindresorhus/get-port) - 获取一个可用的端口。
   - [detect-port](https://github.com/node-modules/detect-port) - 端口探测的Node.JS实现。
 
-- 隧道
-  - [tunnel-agent](https://github.com/request/tunnel-agent) - HTTP proxy tunneling agent. Formerly part of mikeal/request, now a standalone module.
+- 隧道代理
+  - [node-tunnel](https://github.com/koichik/node-tunnel) - 用于隧道代理的节点 HTTP/HTTPS 代理。
+  - [tunnel-agent](https://github.com/request/tunnel-agent) - HTTP 代理隧道代理。以前是 mikeal/request 的一部分，现在是一个独立的模块。
 
 - 其他
   - [netcat](https://github.com/roccomuso/netcat) - 纯JS中的Netcat端口。
