@@ -512,6 +512,7 @@ English | [简体中文](./README-zh-CN.md)
   - [marked](https://github.com/markedjs/marked) - A markdown parser and compiler. Built for speed.
   - [remark](https://github.com/wooorm/remark) - Markdown processor powered by plugins.
   - [markdown-it](https://github.com/markdown-it/markdown-it) - Markdown parser with 100% CommonMark support, extensions and syntax plugins.
+  - [turndown](https://www.npmjs.com/package/turndown) - An HTML to Markdown converter written in JavaScript.
 
 - CSV
   - [node-csv](https://github.com/adaltas/node-csv) - Full featured CSV parser with simple api and tested against large datasets.
