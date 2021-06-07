@@ -543,7 +543,7 @@
 
 - CSS
   - [PostCSS](https://github.com/postcss/postcss) - CSS解析工具。
-  - [strip-css-comments](https://github.com/sindresorhus/strip-css-comments) - CSS注释剔除工具。
+  - [less](https://github.com/less/less.js) - Less动态样式表语言。
 
 - SQL
   - [dt-sql-parser](https://github.com/DTStack/dt-sql-parser) - 大数据的SQL解析器，用antlr4构建。
@@ -907,8 +907,11 @@
 - [UglifyJS](https://github.com/mishoo/UglifyJS) - JavaScript压缩工具。
 - [imagemin](https://github.com/imagemin/imagemin) - Image压缩工具。
 - [babel-minify](https://github.com/babel/minify) - 基于Babel工具链的 ES6+ 压缩库。
+- [cssnano](https://github.com/cssnano/cssnano) - 建立在PostCSS生态系统之上模块化的压缩工具。
 - [clean-css](https://github.com/jakubpawlowicz/clean-css) - CSS压缩工具。
 - [minimize](https://github.com/Swaagie/minimize) - HTML压缩工具。
+- [strip-css-comments](https://github.com/sindresorhus/strip-css-comments) - CSS注释剔除工具。
+
 
 ### 邮箱
 

@@ -534,7 +534,7 @@ English | [简体中文](./README-zh-CN.md)
 
 - CSS
   - [PostCSS](https://github.com/postcss/postcss) - CSS parser / stringifier.
-  - [strip-css-comments](https://github.com/sindresorhus/strip-css-comments) - Strip comments from CSS.
+  - [less](https://github.com/less/less.js) - Less. The dynamic stylesheet language.
 
 - SQL
   - [dt-sql-parser](https://github.com/DTStack/dt-sql-parser) - SQL Parsers for BigData, built with antlr4.
@@ -898,8 +898,10 @@ English | [简体中文](./README-zh-CN.md)
 - [UglifyJS](https://github.com/mishoo/UglifyJS) - JavaScript minifier.
 - [imagemin](https://github.com/imagemin/imagemin) - Image minifier.
 - [babel-minify](https://github.com/babel/minify) - ES6+ aware minifier based on the Babel toolchain.
+- [cssnano](https://github.com/cssnano/cssnano) - A modular minifier, built on top of the PostCSS ecosystem.
 - [clean-css](https://github.com/jakubpawlowicz/clean-css) - CSS minifier.
 - [minimize](https://github.com/Swaagie/minimize) - HTML minifier.
+- [strip-css-comments](https://github.com/sindresorhus/strip-css-comments) - Strip comments from CSS.
 
 ### Email
 
