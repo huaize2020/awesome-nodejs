@@ -790,6 +790,16 @@ English | [简体中文](./README-zh-CN.md)
 - Query builder
   - [Knex](https://github.com/tgriesser/knex) - Query builder for PostgreSQL, MySQL and SQLite3, designed to be flexible, portable, and fun to use.
 
+- Other
+  - [Lowdb](https://github.com/typicode/lowdb) - Tiny local JSON database for small projects (supports Node, Electron and the browser).
+  - [NeDB](https://github.com/louischatriot/nedb) - Embedded persistent or in memory database for Node.js, nw.js, Electron and browsers.
+  - [Keyv](https://github.com/lukechilds/keyv) - Simple key-value storage with support for multiple backends.
+  - [pg-mem](https://github.com/oguimbal/pg-mem) - In-memory PostgreSQL instance.
+  - [Mongo Seeding](https://github.com/pkosiec/mongo-seeding) - Populate MongoDB databases with JavaScript and JSON files.
+  - [@databases](https://github.com/ForbesLindesay/atdatabases) - Query PostgreSQL, MySQL and SQLite3 with plain SQL without risking SQL injection.
+  - [Finale](https://github.com/tommybananas/finale) - RESTful endpoint generator for your Sequelize models.
+  - [database-js](https://github.com/mlaanderson/database-js) - Wrapper for multiple databases with a JDBC-like connection.
+
 ### Cache
 
 - [lru-cache](https://github.com/isaacs/node-lru-cache) - A cache object that deletes the least-recently-used items.

@@ -799,6 +799,16 @@
 - Query builder
   - [Knex](https://github.com/tgriesser/knex) - PostgreSQL，MySQL和SQLite3的查询构建器，旨在灵活，可移植且易于使用。
 
+- 其他
+  - [Lowdb](https://github.com/typicode/lowdb) - 用于小型项目的微型本地 JSON 数据库（支持 Node、Electron 和浏览器）。
+  - [NeDB](https://github.com/louischatriot/nedb) - 用于 Node.js、nw.js、Electron和浏览器的嵌入式持久数据库或内存数据库。
+  - [Keyv](https://github.com/lukechilds/keyv) - 支持多个后端的简单键值(KV)存储。
+  - [pg-mem](https://github.com/oguimbal/pg-mem) - 内存 PostgreSQL 实例。
+  - [Mongo Seeding](https://github.com/pkosiec/mongo-seeding) - 使用 JavaScript 和 JSON 文件填充 MongoDB 数据库。
+  - [@databases](https://github.com/ForbesLindesay/atdatabases) - 使用普通 SQL 查询 PostgreSQL、MySQL 和 SQLite3，而不会导致 SQL注入 的风险。
+  - [Finale](https://github.com/tommybananas/finale) - 基于 Sequelize 模型生成 RESTful接口。
+  - [database-js](https://github.com/mlaanderson/database-js) - 类似 JDBC连接 的多个数据库连接封装。
+
 ### 缓存
 
 - [lru-cache](https://github.com/isaacs/node-lru-cache) - 最近最少使用的缓存（LRU）实现。
