@@ -825,6 +825,7 @@ English | [简体中文](./README-zh-CN.md)
 - [phantomjs](https://github.com/ariya/phantomjs) - Scriptable Headless Browser.
 - [appium](https://github.com/appium/appium) - Automation for iOS, Android, and Windows Apps.
 - [robotjs](https://github.com/octalmage/robotjs) - Node.js Desktop Automation.
+- [nut.js](https://github.com/nut-tree/nut.js) - Native UI testing / controlling with node.
 
 ### Testing
 

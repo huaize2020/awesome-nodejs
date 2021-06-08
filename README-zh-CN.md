@@ -833,6 +833,7 @@
 - [phantomjs](https://github.com/ariya/phantomjs) - 脚本化无头浏览器。
 - [appium](https://github.com/appium/appium) - iOS, Android, and Windows Apps自动化。
 - [robotjs](https://github.com/octalmage/robotjs) - Node.js桌面自动化。
+- [nut.js](https://github.com/nut-tree/nut.js) - 使用Node.js进行原生 UI 测试/控制
 
 ### 测试相关
 
