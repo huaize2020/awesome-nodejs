@@ -954,6 +954,7 @@ English | [简体中文](./README-zh-CN.md)
   - [node-fetch](https://github.com/bitinn/node-fetch) - `window.fetch` for Node.js.
   - [needle](https://github.com/tomas/needle) - Nimble, streamable HTTP client for Node.js. With proxy, iconv, cookie, deflate & multipart support.
   - [urllib](https://github.com/node-modules/urllib) - Request HTTP(s) URLs in a complex world.
+  - [phin](https://github.com/ethanent/phin) - Node HTTP client.
   - [gotql](https://github.com/khaosdoctor/gotql) - GraphQL request library built on [got](https://github.com/sindresorhus/got).
   - [wreck](https://github.com/hapijs/wreck) - HTTP Client Utilities.
   - [cacheable-request](https://github.com/lukechilds/cacheable-request) - Wrap native HTTP requests with RFC compliant cache support.

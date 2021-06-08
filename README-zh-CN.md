@@ -964,6 +964,7 @@
   - [node-fetch](https://github.com/bitinn/node-fetch) - Node.js的 `window.fetch` 实现。
   - [needle](https://github.com/tomas/needle) - 灵活，基于流的HTTP Node.js客户端请求库。支持proxy，iconv，cookie，deflate和multipart。
   - [urllib](https://github.com/node-modules/urllib) - 在复杂世界中请求HTTP/HTTPS的URL。
+  - [phin](https://github.com/ethanent/phin) - Node HTTP client.
   - [gotql](https://github.com/khaosdoctor/gotql) - 基于[got](https://github.com/sindresorhus/got)构建的GraphQL请求库。
   - [wreck](https://github.com/hapijs/wreck) - HTTP 客户端工具。
   - [cacheable-request](https://github.com/lukechilds/cacheable-request) - 使用符合RFC的缓存封装的本机HTTP请求库。
@@ -982,7 +983,6 @@
   - [global-agent](https://github.com/gajus/global-agent) - 可以使用环境变量配置的全局 HTTP/HTTPS 代理。
   - [fast-proxy](https://github.com/fastify/fast-proxy) - Node.js框架，使您可以将http请求转发到另一个HTTP服务器。 支持的协议：HTTP，HTTPS，HTTP2。
   - [argo](https://github.com/argo/argo) - 一个可扩展的异步 HTTP 反向代理和源服务器。
-
 
 - 中间件
   - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - ⚡用于connect，express和browser-sync的单线Node.js Http代理中间件。
