@@ -51,6 +51,7 @@
   - [任务队列](#任务队列)
   - [定时任务](#定时任务)
   - [调试和剖析](#调试和剖析)
+  - [应用性能监控](#应用性能监控)
   - [论坛](#论坛)
   - [数据库](#数据库)
   - [缓存](#缓存)
@@ -761,8 +762,8 @@
 - [leakage](https://github.com/andywer/leakage) - 内存写入泄漏测试。
 - [why-is-node-running](https://github.com/mafintosh/why-is-node-running) - 当不明Node原因继续运行时，使用的分析工具。
 - [llnode](https://github.com/nodejs/llnode) - 事后分析工具，使您可以检查对象并从崩溃的Node.js进程中获取信息。
-- [swagger-stats](https://github.com/slanatech/swagger-stats) - 跟踪API调用并监视API性能，运行状况和使用情况指标。
-- [njsTrace](https://github.com/valyouw/njstrace) - 跟踪API调用并监视API性能，运行状况和使用情况指标。
+- [swagger-stats](https://github.com/slanatech/swagger-stats) - API 可观察性。 在 Node.js 微服务中跟踪 API 调用并监控 API 性能、运行状况和使用统计信息。
+- [njsTrace](https://github.com/valyouw/njstrace) - 检测和跟踪您的代码，查看所有函数调用、参数、返回值以及在每个函数中花费的时间。
 - [locus](https://github.com/alidavut/locus) - 检测并跟踪代码，查看所有函数调用、参数、返回值以及在每个函数中花费的时间。
 - [stackman](https://github.com/watson/stackman) - 使用代码摘录和其他优点增强错误堆栈跟踪。
 - [NiM](https://github.com/june07/nim) - 管理DevTools调试工具流。
@@ -770,6 +771,11 @@
 - [ctrace](https://github.com/automation-stack/ctrace) - 格式正确且经过改进的跟踪系统调用和信号。
 - [v8-profiler-next](https://github.com/hyj1991/v8-profiler-next) - V8性能探测器。
 - [vstream](https://github.com/joyent/node-vstream) - 可检测的流混入以检查流的管道。
+
+### 应用性能监控
+
+- [easy-monitor](https://github.com/hyj1991/easy-monitor) - Enterprise-level Node.js application performance monitoring and online fault location solutions.
+- [swagger-stats](https://github.com/slanatech/swagger-stats) - Trace API calls and monitor API performance, health, and usage metrics.
 
 ### 论坛
 

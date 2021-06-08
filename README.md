@@ -45,6 +45,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Job Queues](#job-queues)
   - [Job Scheduling](#job-scheduling)
   - [Debugging / Profiling](#debugging--profiling)
+  - [Application Performance Monitoring (APM)](#application-performance-monitoring-apm)
   - [Forum](#forum)
   - [Database](#database)
   - [Cache](#cache)
@@ -753,7 +754,6 @@ English | [简体中文](./README-zh-CN.md)
 - [leakage](https://github.com/andywer/leakage) - Write memory leak tests.
 - [why-is-node-running](https://github.com/mafintosh/why-is-node-running) - Node.js is running but you don't know why?
 - [llnode](https://github.com/nodejs/llnode) - Post-mortem analysis tool which allows you to inspect objects and get insights from a crashed Node.js process.
-- [swagger-stats](https://github.com/slanatech/swagger-stats) - Trace API calls and monitor API performance, health, and usage metrics.
 - [njsTrace](https://github.com/valyouw/njstrace) - Instrument and trace your code, see all function calls, arguments, return values, as well as the time spent in each function.
 - [locus](https://github.com/alidavut/locus) - Starts a REPL at runtime that has access to all variables.
 - [stackman](https://github.com/watson/stackman) - Enhance an error stacktrace with code excerpts and other goodies.
@@ -762,6 +762,11 @@ English | [简体中文](./README-zh-CN.md)
 - [ctrace](https://github.com/automation-stack/ctrace) - Well-formatted and improved trace system calls and signals.
 - [v8-profiler-next](https://github.com/hyj1991/v8-profiler-next) - Node bindings for the v8 profiler.
 - [vstream](https://github.com/joyent/node-vstream) - Instrumentable streams mix-ins to inspect a pipeline of streams.
+
+### Application Performance Monitoring (APM)
+
+- [easy-monitor](https://github.com/hyj1991/easy-monitor) - Enterprise-level Node.js application performance monitoring and online fault location solutions.
+- [swagger-stats](https://github.com/slanatech/swagger-stats) - Trace API calls and monitor API performance, health, and usage metrics.
 
 ### Forum
 
