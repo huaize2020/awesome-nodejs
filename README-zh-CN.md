@@ -17,6 +17,7 @@
   - [数字](#数字)
   - [数学运算](#数学运算)
   - [日期 和 时间](#日期-和-时间)
+  - [正则/通配符匹配](#正则通配符匹配)
   - [URL](#url)
   - [JSON](#json)
   - [图像处理](#图像处理)
@@ -126,19 +127,9 @@
   - [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - 转换字符编码。
   - [jschardet](https://github.com/aadsm/jschardet) - JavaScript编码自动识别 (Python版chardet的实现)。
 
-- 正则/通配符匹配
-  - [path-to-regexp](https://github.com/pillarjs/path-to-regexp) - 将路径字符串（如`/user/:name`）转化为正则。
-  - [minimatch](https://github.com/isaacs/minimatch) - 最小匹配工具。
-  - [micromatch](https://github.com/micromatch/micromatch) - 高度优化的通配符和全局匹配库。更快，直接替换到 minimatch 和 multimatch。由webpack、babel core、yarn、jest、browser-sync、documentation.js、stylelint、nyc、ava以及许多其他资源使用！
-  - [matcher](https://github.com/sindresorhus/matcher) - 简单通配符匹配。
-  - [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - 转义特殊正则字符。
-  - [multimatch](https://github.com/sindresorhus/multimatch) - 扩展 minimatch.match() 以支持多种模式。
-  - [execall](https://github.com/sindresorhus/execall) - 在字符串中查找多个RegExp匹配项。
-
 - 差异对比
   - [jsdiff](https://github.com/kpdecker/jsdiff) - 一种JavaScript文本差异实现。
   - [recursive-diff](https://github.com/cosmicanant/recursive-diff) - 查找两个JavaScript对象的差异，支持数组、数字、日期和其他原始数据类型。
-
 
 - 其他
   - [StegCloak](https://github.com/kurolabs/stegcloak) - 基于纯JavaScript开发的隐写功能模块，StegCloak可以对文本中的机密信息进行压缩和加密，然后再使用特殊的Unicode不可见字符来隐藏它。
@@ -170,10 +161,22 @@
 - [timeago.js](https://github.com/hustcc/timeago.js) - timeago.js是一个很小的（2.0 kb）库，用于使用 *** time ago 语句格式化日期。
 - [ms](https://github.com/vercel/ms) - 毫秒转换工具。
 - [dateformat](https://github.com/felixge/node-dateformat) - 日期格式化。
-- [pretty-ms](https://github.com/sindresorhus/pretty-ms) - 将毫秒转换为人类可读的字符串，如: `1337000000` → `15d 11h 23m 20s`
-- [strftime](https://github.com/samsonjs/strftime) - JavaScript版时间格式化Strftime.
+- [pretty-ms](https://github.com/sindresorhus/pretty-ms) - 将毫秒转换为人类可读的字符串，如: `1337000000` → `15d 11h 23m 20s`。
+- [strftime](https://github.com/samsonjs/strftime) - JavaScript版时间格式化Strftime。
+- [node-microtime](https://github.com/wadey/node-microtime) - 以微秒为单位获取当前时间。
 - [date-utils](https://github.com/JerrySievert/date-utils) - 用于Node.js和浏览器的日期垫片（Polyfills）。
 - [pretty-hrtime](https://github.com/robrich/pretty-hrtime) - 将process.hrtime()的结果转换为人可读性的字符串。
+
+### 正则/通配符匹配
+
+- [path-to-regexp](https://github.com/pillarjs/path-to-regexp) - 将路径字符串（如`/user/:name`）转化为正则。
+- [minimatch](https://github.com/isaacs/minimatch) - 最小匹配工具。
+- [micromatch](https://github.com/micromatch/micromatch) - 高度优化的通配符和全局匹配库。更快，直接替换到 minimatch 和 multimatch。由webpack、babel core、yarn、jest、browser-sync、documentation.js、stylelint、nyc、ava以及许多其他资源使用！
+- [randexp.js](https://github.com/fent/randexp.js) - 根据给定的正则表达式，生成随机字符串。
+- [matcher](https://github.com/sindresorhus/matcher) - 简单通配符匹配。
+- [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - 转义特殊正则字符。
+- [multimatch](https://github.com/sindresorhus/multimatch) - 扩展 minimatch.match() 以支持多种模式。
+- [execall](https://github.com/sindresorhus/execall) - 在字符串中查找多个RegExp匹配项。
 
 ### URL
 

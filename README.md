@@ -11,6 +11,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Number](#number)
   - [Math](#math)
   - [Date & Time](#date--time)
+  - [RegExp/Glob](#regexpglob)
   - [URL](#url)
   - [JSON](#json)
   - [Image](#image)
@@ -119,15 +120,6 @@ English | [简体中文](./README-zh-CN.md)
   - [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - Convert character encodings.
   - [jschardet](https://github.com/aadsm/jschardet) - Character encoding auto-detection in JavaScript (port of python's chardet)
 
-- RegExp/Glob
-  - [path-to-regexp](https://github.com/pillarjs/path-to-regexp) - Turn a path string such as `/user/:name` into a regular expression.
-  - [minimatch](https://github.com/isaacs/minimatch) - A minimal matching utility.
-  - [micromatch](https://github.com/micromatch/micromatch) - Highly optimized wildcard and glob matching library. Faster, drop-in replacement to minimatch and multimatch. Used by webpack, babel core, yarn, jest, browser-sync, documentation.js, stylelint, nyc, ava, and many others!
-  - [matcher](https://github.com/sindresorhus/matcher) - Simple wildcard matching.
-  - [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - Escape RegExp special characters.
-  - [multimatch](https://github.com/sindresorhus/multimatch) - Extends minimatch.match() with support for multiple patterns.
-  - [execall](https://github.com/sindresorhus/execall) - Find multiple RegExp matches in a string.
-
 - Comparison
   - [jsdiff](https://github.com/kpdecker/jsdiff) - A javascript text differencing implementation.
   - [recursive-diff](https://github.com/cosmicanant/recursive-diff) - A JavaScript library to find diff between two JavaScript Objects. Support for Array, Number, Date and other primitive data types.
@@ -164,8 +156,20 @@ English | [简体中文](./README-zh-CN.md)
 - [dateformat](https://github.com/felixge/node-dateformat) - A node.js package for Steven Levithan's excellent dateFormat() function.
 - [pretty-ms](https://github.com/sindresorhus/pretty-ms) - Convert milliseconds to a human readable string: `1337000000` → `15d 11h 23m 20s`
 - [strftime](https://github.com/samsonjs/strftime) - Strftime for JavaScript.
+- [node-microtime](https://github.com/wadey/node-microtime) - Get the current time in microseconds.
 - [date-utils](https://github.com/JerrySievert/date-utils) - Date Pollyfills for Node.js and Browser.
 - [pretty-hrtime](https://github.com/robrich/pretty-hrtime) - process.hrtime() to words.
+
+### RegExp/Glob
+
+- [path-to-regexp](https://github.com/pillarjs/path-to-regexp) - Turn a path string such as `/user/:name` into a regular expression.
+- [minimatch](https://github.com/isaacs/minimatch) - A minimal matching utility.
+- [micromatch](https://github.com/micromatch/micromatch) - Highly optimized wildcard and glob matching library. Faster, drop-in replacement to minimatch and multimatch. Used by webpack, babel core, yarn, jest, browser-sync, documentation.js, stylelint, nyc, ava, and many others!
+- [randexp.js](https://github.com/fent/randexp.js) - Create random strings that match a given regular expression.
+- [matcher](https://github.com/sindresorhus/matcher) - Simple wildcard matching.
+- [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - Escape RegExp special characters.
+- [multimatch](https://github.com/sindresorhus/multimatch) - Extends minimatch.match() with support for multiple patterns.
+- [execall](https://github.com/sindresorhus/execall) - Find multiple RegExp matches in a string.
 
 ### URL
 
