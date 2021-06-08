@@ -33,6 +33,7 @@
   - [命令行工具](#命令行工具)
   - [Node.js管理工具](#nodejs管理工具)
   - [NPM](#npm)
+  - [Monorepo](#monorepo)
   - [文件系统](#文件系统)
   - [解析工具](#解析工具)
   - [Git](#git)
@@ -452,6 +453,7 @@
 - package.json
   - [read-pkg-up](https://github.com/sindresorhus/read-pkg-up) - 读取最近的package.json文件。
   - [node-pkginfo](https://github.com/indexzero/node-pkginfo) - 从package.json读取属性的简单方法。
+  - [pkg-dir](https://github.com/sindresorhus/pkg-dir) - 查找npm包的根目录。
   - [read-pkg](https://github.com/sindresorhus/read-pkg) - 读取package.json文件。
   - [write-pkg](https://github.com/sindresorhus/write-pkg) - 写入package.json文件。
 
@@ -471,6 +473,11 @@
   - [npm-registry-fetch](https://github.com/npm/npm-registry-fetch) - 类型fetch()函数，但用于npm仓库。
   - [npm-updater](https://github.com/node-modules/npm-updater) - 检查npm包的更新。
 
+### Monorepo
+*(你也许喜欢 [awesome-monorepo](https://github.com/korfuri/awesome-monorepo))*
+
+- [lerna](https://github.com/lerna/lerna) - 用于管理具有多个包的JavaScript项目的工具。
+
 ### 文件系统
 
 - 通用
@@ -485,7 +492,6 @@
   - [copyfiles](https://github.com/calvinmetcalf/copyfiles) - 在命令行中复制文件。
   - [filehound](https://github.com/nspragg/filehound) - 灵活流畅的文件系统搜索接口。
   - [move-file](https://github.com/sindresorhus/move-file) - 移动文件，甚至可以跨设备工作。
-  - [pkg-dir](https://github.com/sindresorhus/pkg-dir) - 查找npm包的根目录。
   - [proper-lockfile](https://github.com/IndigoUnited/node-proper-lockfile) - 进程间和机器间文件锁实用工具。
   - [istextorbinary](https://github.com/bevry/istextorbinary) - 检查文件是文本文件还是二进制文件。
   - [mkdirp](https://github.com/isaacs/node-mkdirp) - 递归创建文件夹，类似 `mkdir -p`。
@@ -857,6 +863,7 @@
 - 基准测试
   - [Benchmark.js](https://github.com/bestiejs/benchmark.js) - 基准测试库，支持高分辨率计时器并返回具有统计意义的结果。
   - [matcha](https://github.com/logicalparadox/matcha) - 基准测试的简化方法。
+  - [benny](https://github.com/caderek/benny) - 一个非常简单的 JS/TS 库基准测试框架。
   - [node-wrk](https://github.com/sidorares/node-wrk) - Wrk负载测试工具Node.js版封装。
 
 - 解决方案

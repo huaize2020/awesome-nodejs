@@ -27,6 +27,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Command-line Utilities](#command-line-utilities)
   - [Node.js Management](#nodejs-management)
   - [NPM](#npm)
+  - [Monorepo](#monorepo)
   - [Filesystem](#filesystem)
   - [Parsing](#parsing)
   - [Git](#git)
@@ -443,6 +444,7 @@ English | [简体中文](./README-zh-CN.md)
 - package.json
   - [read-pkg-up](https://github.com/sindresorhus/read-pkg-up) - Read the closest package.json file.
   - [node-pkginfo](https://github.com/indexzero/node-pkginfo) - An easy way to expose properties on a module from a package.json.
+  - [pkg-dir](https://github.com/sindresorhus/pkg-dir) - Find the root directory of an npm package.
   - [read-pkg](https://github.com/sindresorhus/read-pkg) - Read a package.json file.
   - [write-pkg](https://github.com/sindresorhus/write-pkg) - Write a package.json file.
 
@@ -462,6 +464,11 @@ English | [简体中文](./README-zh-CN.md)
   - [npm-registry-fetch](https://github.com/npm/npm-registry-fetch) - Like fetch() but for the npm registry
   - [npm-updater](https://github.com/node-modules/npm-updater) - Check update of npm package.
 
+### Monorepo
+*(You might like [awesome-monorepo](https://github.com/korfuri/awesome-monorepo))*
+
+- [lerna](https://github.com/lerna/lerna) - A tool for managing JavaScript projects with multiple packages.
+
 ### Filesystem
 
 - Common
@@ -476,7 +483,6 @@ English | [简体中文](./README-zh-CN.md)
   - [copyfiles](https://github.com/calvinmetcalf/copyfiles) - Copy files on the command line.
   - [filehound](https://github.com/nspragg/filehound) - Flexible and fluent interface for searching the file system.
   - [move-file](https://github.com/sindresorhus/move-file) - Move a file, even works across devices.
-  - [pkg-dir](https://github.com/sindresorhus/pkg-dir) - Find the root directory of an npm package.
   - [proper-lockfile](https://github.com/IndigoUnited/node-proper-lockfile) - Inter-process and inter-machine lockfile utility.
   - [istextorbinary](https://github.com/bevry/istextorbinary) - Check if a file is text or binary.
   - [mkdirp](https://github.com/isaacs/node-mkdirp) - Recursively mkdir, like `mkdir -p`.
@@ -848,6 +854,7 @@ English | [简体中文](./README-zh-CN.md)
 - Benchmarking
   - [Benchmark.js](https://github.com/bestiejs/benchmark.js) - Benchmarking library that supports high-resolution timers and returns statistically significant results.
   - [matcha](https://github.com/logicalparadox/matcha) - Simplistic approach to benchmarking.
+  - [benny](https://github.com/caderek/benny) - A dead simple benchmarking framework for JS/TS libs.
   - [node-wrk](https://github.com/sidorares/node-wrk) - Wrk load testing tool node wrapper.
 
 - Solution
