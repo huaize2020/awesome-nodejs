@@ -423,6 +423,7 @@
   - [log-symbols](https://github.com/sindresorhus/log-symbols) - 为不同日志级别添加色彩图标。
   - [gradient-string](https://github.com/bokub/gradient-string) - 终端输出中漂亮的颜色渐变。
   - [terminal-link](https://github.com/sindresorhus/terminal-link) - 在终端中创建可点击的链接。
+  - [snazzy](https://github.com/standard/snazzy) - 将 JavaScript 标准样式格式化为时尚（即时髦）输出。
   - [cli-table3](https://github.com/cli-table/cli-table3) - 命令行的漂亮unicode表。
   - [easy-table](https://github.com/eldargab/easy-table) - 漂亮的文本表格。
   - [treeify](https://github.com/notatestuser/treeify) - 将javascript对象漂亮地打印为树。
@@ -534,6 +535,7 @@
   - [turndown](https://www.npmjs.com/package/turndown) - 用 JavaScript 编写的 HTML 到 Markdown 转换器。
 
 - CSV
+  - [PapaParse](https://github.com/mholt/PapaParse) - 快速而强大的 CSV（分隔文本）解析器，可以优雅地处理大文件和格式错误的输入。
   - [node-csv](https://github.com/adaltas/node-csv) - 具有简单api的全功能CSV解析器，并针对大型数据集进行了测试。
   - [csv-parser](https://github.com/mafintosh/csv-parser) - 旨在比其他任何人都快的流式CSV解析器。
   - [neat-csv](https://github.com/sindresorhus/neat-csv) - 快速的CSV解析器。
@@ -933,7 +935,6 @@
 - [clean-css](https://github.com/jakubpawlowicz/clean-css) - CSS压缩工具。
 - [minimize](https://github.com/Swaagie/minimize) - HTML压缩工具。
 - [strip-css-comments](https://github.com/sindresorhus/strip-css-comments) - CSS注释剔除工具。
-
 
 ### 邮箱
 

@@ -415,6 +415,7 @@ English | [简体中文](./README-zh-CN.md)
   - [log-symbols](https://github.com/sindresorhus/log-symbols) - Colored symbols for various log levels.
   - [gradient-string](https://github.com/bokub/gradient-string) - Beautiful color gradients in terminal output.
   - [terminal-link](https://github.com/sindresorhus/terminal-link) - Create clickable links in the terminal.
+  - [snazzy](https://github.com/standard/snazzy) - Format JavaScript Standard Style as Stylish (i.e. snazzy) output.
   - [cli-table3](https://github.com/cli-table/cli-table3) - Pretty unicode tables for the command line.
   - [easy-table](https://github.com/eldargab/easy-table) - Nice text table for Node.js.
   - [treeify](https://github.com/notatestuser/treeify) - Pretty-print a javascript object as a tree.
@@ -526,6 +527,7 @@ English | [简体中文](./README-zh-CN.md)
   - [turndown](https://www.npmjs.com/package/turndown) - An HTML to Markdown converter written in JavaScript.
 
 - CSV
+  - [PapaParse](https://github.com/mholt/PapaParse) - Fast and powerful CSV (delimited text) parser that gracefully handles large files and malformed input.
   - [node-csv](https://github.com/adaltas/node-csv) - Full featured CSV parser with simple api and tested against large datasets.
   - [csv-parser](https://github.com/mafintosh/csv-parser) - Streaming CSV parser that aims to be faster than everyone else.
   - [neat-csv](https://github.com/sindresorhus/neat-csv) - Fast CSV parser. Callback interface for the above.
