@@ -1047,6 +1047,7 @@ English | [简体中文](./README-zh-CN.md)
   - [acorn](https://github.com/acornjs/acorn/tree/master/acorn) - Small, fast, JavaScript-based JavaScript parser.
   - [esprima](https://github.com/jquery/esprima) - High performance, standard-compliant ECMAScript parser.
   - [recast](https://github.com/benjamn/recast) - JavaScript syntax tree transformer, nondestructive pretty-printer, and automatic source map generator.
+  - [nearley](https://github.com/kach/nearley) - Simple, fast, powerful parser toolkit for JavaScript.
   - [espree](https://github.com/eslint/espree) - Esprima-compatible JavaScript parser.
   - [csstree](https://github.com/csstree/csstree) - Tool set for CSS including fast detailed parser, walker, generator and lexer based on W3C specs and browser implementations.
   - [es-module-lexer](https://github.com/guybedford/es-module-lexer) - Low-overhead lexer dedicated to ES module parsing for fast analysis.
