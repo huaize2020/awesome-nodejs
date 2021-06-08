@@ -50,8 +50,9 @@
   - [实时通信](#实时通信)
   - [任务队列](#任务队列)
   - [定时任务](#定时任务)
-  - [调试和剖析](#调试和剖析)
-  - [应用性能监控](#应用性能监控)
+  - [调试](#调试)
+  - [剖析/分析](#剖析分析)
+  - [应用性能监控 (APM)](#应用性能监控-apm)
   - [论坛](#论坛)
   - [数据库](#数据库)
   - [缓存](#缓存)
@@ -749,31 +750,45 @@
 - [node-cron](https://github.com/kelektiv/node-cron) - 允许执行定时任务的工具。
 - [cron-parser](https://github.com/harrisiirak/cron-parser) - 用于解析crontab指令的Node.js库。
 
-### 调试和剖析
+### 调试
 
 - [node-inspector](https://github.com/node-inspector/node-inspector) - 基于Blink开发者工具的调试器。
 - [ndb](https://github.com/GoogleChromeLabs/ndb) - Chrome DevTools调试体验改进工具。
 - [debug](https://github.com/visionmedia/debug) - 轻量调试工具。
-- [Clinic.js](https://github.com/clinicjs/node-clinic) - Clinic.js诊断Node.js性能问题。
 - [ironNode](https://github.com/s-a/iron-node) - 支持ES2015的Node.js开箱即用的调试器。
-- [node-heapdump](https://github.com/bnoordhuis/node-heapdump) - 存储V8内存堆使用情况，以供以后诊断。
-- [0x](https://github.com/davidmarkclements/0x) - 火焰图分析。
-- [leakage](https://github.com/andywer/leakage) - 内存写入泄漏测试。
-- [why-is-node-running](https://github.com/mafintosh/why-is-node-running) - 当不明Node原因继续运行时，使用的分析工具。
+- [why-is-node-running](https://github.com/mafintosh/why-is-node-running) - 当Node因不明原因继续运行时，使用的分析工具。
 - [llnode](https://github.com/nodejs/llnode) - 事后分析工具，使您可以检查对象并从崩溃的Node.js进程中获取信息。
 - [njsTrace](https://github.com/valyouw/njstrace) - 检测和跟踪您的代码，查看所有函数调用、参数、返回值以及在每个函数中花费的时间。
-- [locus](https://github.com/alidavut/locus) - 检测并跟踪代码，查看所有函数调用、参数、返回值以及在每个函数中花费的时间。
+- [locus](https://github.com/alidavut/locus) - Locus 是一个调试模块，它允许您通过 REPL 在运行时执行命令。
 - [stackman](https://github.com/watson/stackman) - 使用代码摘录和其他优点增强错误堆栈跟踪。
 - [NiM](https://github.com/june07/nim) - 管理DevTools调试工具流。
+- [ctrace](https://github.com/automation-stack/ctrace) - 将系统调用信息和信号，以更良好的格式显示和扩展。
+- [vstream](https://github.com/joyent/node-vstream) - 检测流。
+
+### 剖析/分析
+
+- [Clinic.js](https://github.com/clinicjs/node-clinic) - Clinic.js诊断Node.js性能问题。
+- [0x](https://github.com/davidmarkclements/0x) - 火焰图分析。
+- [node-heapdump](https://github.com/bnoordhuis/node-heapdump) - 存储V8内存堆使用情况，以供以后诊断。
+- [leakage](https://github.com/andywer/leakage) - 内存写入泄漏测试。
+- [v8-profiler](https://github.com/node-inspector/v8-profiler) - V8性能探测器。
+- [node-memwatch](https://github.com/marcominetti/node-memwatch) - 一个 NodeJS 库，用于监视您的内存使用情况，并发现和隔离泄漏。
 - [thetool](https://github.com/sfninja/thetool) - 以Chrome DevTools友好格式为您的应用捕获不同的CPU，内存和其他配置文件。
-- [ctrace](https://github.com/automation-stack/ctrace) - 格式正确且经过改进的跟踪系统调用和信号。
 - [v8-profiler-next](https://github.com/hyj1991/v8-profiler-next) - V8性能探测器。
-- [vstream](https://github.com/joyent/node-vstream) - 可检测的流混入以检查流的管道。
+- [cpu-memory-monitor](https://github.com/nswbmw/cpu-memory-monitor) - CPU 和内存监视器，自动转储。
 
-### 应用性能监控
+### 应用性能监控 (APM)
 
-- [easy-monitor](https://github.com/hyj1991/easy-monitor) - Enterprise-level Node.js application performance monitoring and online fault location solutions.
-- [swagger-stats](https://github.com/slanatech/swagger-stats) - Trace API calls and monitor API performance, health, and usage metrics.
+- 解决方案
+  - [easy-monitor](https://github.com/hyj1991/easy-monitor) - 企业级 Node.js 应用性能监控和在线故障定位解决方案。
+
+- 中间件
+  - [swagger-stats](https://github.com/slanatech/swagger-stats) - 跟踪 API 调用并监控 API 性能、运行状况和使用指标。
+
+- 代理
+  - [prom-client](https://github.com/siimon/prom-client) - Prometheus代理。
+  - [apm-agent-nodejs](https://github.com/elastic/apm-agent-nodejs) - Elastic APM Node.js代理。
+  - [skywalking-nodejs](https://github.com/apache/skywalking-nodejs) - Apache SkyWalking Node.js代理
 
 ### 论坛
 

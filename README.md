@@ -44,7 +44,8 @@ English | [简体中文](./README-zh-CN.md)
   - [Real-time](#real-time)
   - [Job Queues](#job-queues)
   - [Job Scheduling](#job-scheduling)
-  - [Debugging / Profiling](#debugging--profiling)
+  - [Debugging](#debugging)
+  - [Profiling/Analysis](#profilinganalysis)
   - [Application Performance Monitoring (APM)](#application-performance-monitoring-apm)
   - [Forum](#forum)
   - [Database](#database)
@@ -741,31 +742,45 @@ English | [简体中文](./README-zh-CN.md)
 - [node-cron](https://github.com/kelektiv/node-cron) - A tool that allows you to execute something on a schedule.
 - [cron-parser](https://github.com/harrisiirak/cron-parser) - Node.js library for parsing crontab instructions.
 
-### Debugging / Profiling
+### Debugging
 
 - [node-inspector](https://github.com/node-inspector/node-inspector) - Debugger based on Blink Developer Tools.
 - [ndb](https://github.com/GoogleChromeLabs/ndb) - Improved debugging experience, enabled by Chrome DevTools.
 - [debug](https://github.com/visionmedia/debug) - Tiny debugging utility.
-- [Clinic.js](https://github.com/clinicjs/node-clinic) - Clinic.js diagnoses your Node.js performance issues.
 - [ironNode](https://github.com/s-a/iron-node) - Node.js debugger supporting ES2015 out of the box.
-- [node-heapdump](https://github.com/bnoordhuis/node-heapdump) - Make a dump of the V8 heap for later inspection.
-- [0x](https://github.com/davidmarkclements/0x) - Flamegraph profiling.
-- [leakage](https://github.com/andywer/leakage) - Write memory leak tests.
 - [why-is-node-running](https://github.com/mafintosh/why-is-node-running) - Node.js is running but you don't know why?
 - [llnode](https://github.com/nodejs/llnode) - Post-mortem analysis tool which allows you to inspect objects and get insights from a crashed Node.js process.
 - [njsTrace](https://github.com/valyouw/njstrace) - Instrument and trace your code, see all function calls, arguments, return values, as well as the time spent in each function.
 - [locus](https://github.com/alidavut/locus) - Starts a REPL at runtime that has access to all variables.
 - [stackman](https://github.com/watson/stackman) - Enhance an error stacktrace with code excerpts and other goodies.
 - [NiM](https://github.com/june07/nim) - Manages DevTools debugging workflow.
-- [thetool](https://github.com/sfninja/thetool) - Capture different CPU, memory, and other profiles for your app in Chrome DevTools friendly format.
 - [ctrace](https://github.com/automation-stack/ctrace) - Well-formatted and improved trace system calls and signals.
-- [v8-profiler-next](https://github.com/hyj1991/v8-profiler-next) - Node bindings for the v8 profiler.
 - [vstream](https://github.com/joyent/node-vstream) - Instrumentable streams mix-ins to inspect a pipeline of streams.
+
+### Profiling/Analysis
+
+- [Clinic.js](https://github.com/clinicjs/node-clinic) - Clinic.js diagnoses your Node.js performance issues.
+- [0x](https://github.com/davidmarkclements/0x) - Flamegraph profiling.
+- [node-heapdump](https://github.com/bnoordhuis/node-heapdump) - Make a dump of the V8 heap for later inspection.
+- [leakage](https://github.com/andywer/leakage) - Write memory leak tests.
+- [v8-profiler](https://github.com/node-inspector/v8-profiler) - Node bindings for the v8 profiler.
+- [node-memwatch](https://github.com/marcominetti/node-memwatch) - A NodeJS library to keep an eye on your memory usage, and discover and isolate leaks.
+- [thetool](https://github.com/sfninja/thetool) - Capture different CPU, memory, and other profiles for your app in Chrome DevTools friendly format.
+- [v8-profiler-next](https://github.com/hyj1991/v8-profiler-next) - Node bindings for the v8 profiler.
+- [cpu-memory-monitor](https://github.com/nswbmw/cpu-memory-monitor) - CPU & Memory Monitor, auto dump.
 
 ### Application Performance Monitoring (APM)
 
-- [easy-monitor](https://github.com/hyj1991/easy-monitor) - Enterprise-level Node.js application performance monitoring and online fault location solutions.
-- [swagger-stats](https://github.com/slanatech/swagger-stats) - Trace API calls and monitor API performance, health, and usage metrics.
+- Solution
+  - [easy-monitor](https://github.com/hyj1991/easy-monitor) - Enterprise-level Node.js application performance monitoring and online fault location solutions.
+
+- Middleware
+  - [swagger-stats](https://github.com/slanatech/swagger-stats) - Trace API calls and monitor API performance, health, and usage metrics.
+
+- Agent
+  - [prom-client](https://github.com/siimon/prom-client) - Prometheus client for node.js.
+  - [apm-agent-nodejs](https://github.com/elastic/apm-agent-nodejs) - Elastic APM Node.js Agent.
+  - [skywalking-nodejs](https://github.com/apache/skywalking-nodejs) - The NodeJS agent for Apache SkyWalking.
 
 ### Forum
 
