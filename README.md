@@ -748,7 +748,6 @@ English | [简体中文](./README-zh-CN.md)
 - [debug](https://github.com/visionmedia/debug) - Tiny debugging utility.
 - [Clinic.js](https://github.com/clinicjs/node-clinic) - Clinic.js diagnoses your Node.js performance issues.
 - [ironNode](https://github.com/s-a/iron-node) - Node.js debugger supporting ES2015 out of the box.
-- [easy-monitor](https://github.com/hyj1991/easy-monitor) - Enterprise-level Node.js application performance monitoring and online fault location solutions.
 - [node-heapdump](https://github.com/bnoordhuis/node-heapdump) - Make a dump of the V8 heap for later inspection.
 - [0x](https://github.com/davidmarkclements/0x) - Flamegraph profiling.
 - [leakage](https://github.com/andywer/leakage) - Write memory leak tests.
