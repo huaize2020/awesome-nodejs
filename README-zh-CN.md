@@ -552,6 +552,7 @@
   - [less](https://github.com/less/less.js) - Less动态样式表语言。
 
 - SQL
+  - [pgsql-ast-parser](https://github.com/oguimbal/pgsql-ast-parser) - 简单的Postgres SQL解析器。
   - [dt-sql-parser](https://github.com/DTStack/dt-sql-parser) - 大数据的SQL解析器，用antlr4构建。
 
 - Plist

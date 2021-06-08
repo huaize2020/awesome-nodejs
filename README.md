@@ -543,6 +543,7 @@ English | [简体中文](./README-zh-CN.md)
   - [less](https://github.com/less/less.js) - Less. The dynamic stylesheet language.
 
 - SQL
+  - [pgsql-ast-parser](https://github.com/oguimbal/pgsql-ast-parser) - Yet another simple Postgres SQL parser.
   - [dt-sql-parser](https://github.com/DTStack/dt-sql-parser) - SQL Parsers for BigData, built with antlr4.
 
 - Plist
