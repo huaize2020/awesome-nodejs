@@ -38,6 +38,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Build Tools](#build-tools)
   - [Templating](#templating)
   - [Web Frameworks](#web-frameworks)
+  - [Content management systems (CMS)](#content-management-systems-cms)
   - [Static Site Generator & Blogging](#static-site-generator--blogging)
   - [Documentation](#documentation)
   - [Desktop Apps](#desktop-apps)
@@ -678,6 +679,15 @@ English | [简体中文](./README-zh-CN.md)
 - [Hemera](https://github.com/hemerajs/hemera) - Write reliable and fault-tolerant microservices with [NATS](https://nats.io).
 - [restana](https://github.com/BackendStack21/restana) - Super fast and minimalist framework for building REST micro-services.
 - [Zeronode](https://github.com/sfast/zeronode) - Minimal building block for reliable and fault-tolerant microservices.
+
+### Content management systems (CMS)
+
+- [Strapi](https://github.com/strapi/strapi) - Content Management Framework (headless-CMS) to build powerful APIs.
+- [KeystoneJS](https://github.com/keystonejs/keystone) - CMS and web application platform built on Express and MongoDB.
+- [AdminBro](https://github.com/SoftwareBrothers/admin-bro) - Auto-generated admin panel with CRUD for all your resources.
+- [ApostropheCMS](https://github.com/apostrophecms/apostrophe) - Content management system with an emphasis on intuitive front end content editing and administration built on Express and MongoDB.
+- [Tipe](https://github.com/tipeio/tipe) - Next Generation API-first CMS for developers. Generate an API-first CMS from a GraphQL schema with offline prototyping and an inline editor.
+- [Factor](https://github.com/fiction-com/factor) - Vue.js dashboard framework and headless CMS.
 
 ### Static Site Generator & Blogging
 
