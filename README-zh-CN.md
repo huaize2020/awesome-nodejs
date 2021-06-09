@@ -365,7 +365,6 @@
 - [clipboardy](https://github.com/sindresorhus/clipboardy) - 跨平台的复制/粘贴。
 - [cross-spawn](https://github.com/IndigoUnited/node-cross-spawn) - 跨平台实现 `child_process.spawn()`。
 - [parallelshell](https://github.com/darkguy2008/parallelshell) - 并行运行多个 shell 命令。
-- [figures](https://github.com/sindresorhus/figures) - Windows兜底的Unicode符号。
 - [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - 跨平台的复制/粘贴。
 - [gulp-execa](https://github.com/ehmicky/gulp-execa) - 在Gulp中跨平台命令执行。
 - [runscript](https://github.com/node-modules/runscript) - 更容易的运行脚本命令。
@@ -425,6 +424,7 @@
   - [terminal-image](https://github.com/sindresorhus/terminal-image) - 在终端中展示图片。
   - [log-symbols](https://github.com/sindresorhus/log-symbols) - 为不同日志级别添加色彩图标。
   - [gradient-string](https://github.com/bokub/gradient-string) - 终端输出中漂亮的颜色渐变。
+  - [figures](https://github.com/sindresorhus/figures) - Windows兜底的Unicode符号。
   - [terminal-link](https://github.com/sindresorhus/terminal-link) - 在终端中创建可点击的链接。
   - [snazzy](https://github.com/standard/snazzy) - 将 JavaScript 标准样式格式化为时尚（即时髦）输出。
   - [cli-table3](https://github.com/cli-table/cli-table3) - 命令行的漂亮unicode表。

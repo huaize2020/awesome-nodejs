@@ -357,7 +357,6 @@ English | [简体中文](./README-zh-CN.md)
 - [clipboardy](https://github.com/sindresorhus/clipboardy) - Cross-platform copy/paste.
 - [cross-spawn](https://github.com/IndigoUnited/node-cross-spawn) - Cross-platform implementation of `child_process.spawn()`.
 - [parallelshell](https://github.com/darkguy2008/parallelshell) - Run multiple shell commands in parallel.
-- [figures](https://github.com/sindresorhus/figures) - Unicode symbols with Windows fallbacks.
 - [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - Cross-platform copy/paste.
 - [gulp-execa](https://github.com/ehmicky/gulp-execa) - Cross-platform command execution in Gulp.js.
 - [runscript](https://github.com/node-modules/runscript) - Run script easy!
@@ -417,6 +416,7 @@ English | [简体中文](./README-zh-CN.md)
   - [terminal-image](https://github.com/sindresorhus/terminal-image) - Display images in the terminal.
   - [log-symbols](https://github.com/sindresorhus/log-symbols) - Colored symbols for various log levels.
   - [gradient-string](https://github.com/bokub/gradient-string) - Beautiful color gradients in terminal output.
+  - [figures](https://github.com/sindresorhus/figures) - Unicode symbols with Windows fallbacks.
   - [terminal-link](https://github.com/sindresorhus/terminal-link) - Create clickable links in the terminal.
   - [snazzy](https://github.com/standard/snazzy) - Format JavaScript Standard Style as Stylish (i.e. snazzy) output.
   - [cli-table3](https://github.com/cli-table/cli-table3) - Pretty unicode tables for the command line.
