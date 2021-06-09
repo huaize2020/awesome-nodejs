@@ -407,6 +407,7 @@
   - [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - 通用可交互命令行工具集合。
   - [prompts](https://github.com/terkelg/prompts) - 轻量、美观、用户友好的交互式命令行提示。
   - [Enquirer](https://github.com/enquirer/enquirer) - 用户友好、直观且易于创建的时尚CLI提示。
+  - [node-promptly](https://github.com/moxystudio/node-promptly) - 简单命令行提示实用程序。
 
 - 进度条
   - [progress](https://github.com/visionmedia/node-progress) - Node.js的灵活ascii进度条。
@@ -773,7 +774,9 @@
 - [leakage](https://github.com/andywer/leakage) - 内存写入泄漏测试。
 - [v8-profiler](https://github.com/node-inspector/v8-profiler) - V8性能探测器。
 - [node-memwatch](https://github.com/marcominetti/node-memwatch) - 一个 NodeJS 库，用于监视您的内存使用情况，并发现和隔离泄漏。
+- [v8-analytics](https://github.com/hyj1991/v8-analytics) - V8引擎CPU 和 堆内存分析。
 - [thetool](https://github.com/sfninja/thetool) - 以Chrome DevTools友好格式为您的应用捕获不同的CPU，内存和其他配置文件。
+- [flamegraph](https://github.com/thlorenz/flamegraph) - 在Node.js或浏览器中生成火焰图。
 - [v8-profiler-next](https://github.com/hyj1991/v8-profiler-next) - V8性能探测器。
 - [cpu-memory-monitor](https://github.com/nswbmw/cpu-memory-monitor) - CPU 和内存监视器，自动转储。
 

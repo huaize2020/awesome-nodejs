@@ -399,6 +399,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - Collection of common interactive command line user interfaces.
   - [prompts](https://github.com/terkelg/prompts) - Lightweight, beautiful and user-friendly interactive prompts.
   - [Enquirer](https://github.com/enquirer/enquirer) - Stylish CLI prompts that are user-friendly, intuitive and easy to create.
+  - [node-promptly](https://github.com/moxystudio/node-promptly) - Simple command line prompting utility for nodejs.
 
 - Progress
   - [progress](https://github.com/visionmedia/node-progress) - Flexible ascii progress bar for nodejs.
@@ -765,7 +766,9 @@ English | [简体中文](./README-zh-CN.md)
 - [leakage](https://github.com/andywer/leakage) - Write memory leak tests.
 - [v8-profiler](https://github.com/node-inspector/v8-profiler) - Node bindings for the v8 profiler.
 - [node-memwatch](https://github.com/marcominetti/node-memwatch) - A NodeJS library to keep an eye on your memory usage, and discover and isolate leaks.
+- [v8-analytics](https://github.com/hyj1991/v8-analytics) - V8 engine's cpu & heap-memory analytics.
 - [thetool](https://github.com/sfninja/thetool) - Capture different CPU, memory, and other profiles for your app in Chrome DevTools friendly format.
+- [flamegraph](https://github.com/thlorenz/flamegraph) - Generates flamegraphs with Node.js or in the browser.
 - [v8-profiler-next](https://github.com/hyj1991/v8-profiler-next) - Node bindings for the v8 profiler.
 - [cpu-memory-monitor](https://github.com/nswbmw/cpu-memory-monitor) - CPU & Memory Monitor, auto dump.
 
