@@ -70,6 +70,7 @@
   - [验证](#验证)
   - [授权](#授权)
   - [分布式](#分布式)
+  - [序列化](#序列化)
   - [RPC](#rpc)
   - [服务端DOM](#服务端dom)
   - [爬虫](#爬虫)
@@ -1060,6 +1061,12 @@
 ### 分布式
 
 - [node-zookeeper-client](https://github.com/alexguan/node-zookeeper-client) - 纯JavaScript ZooKeeper客户端。
+
+### 序列化
+
+- [protobuf](https://github.com/protobufjs/protobuf.js) - Protocol Buffers实现。
+- [snappy](https://github.com/kesla/node-snappy) - Google 的 Snappy 压缩库的原生绑定（Native bindings）。
+- [compactr](https://github.com/compactr/compactr.js) - Compactr协议的实现。
 
 ### RPC
 

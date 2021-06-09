@@ -64,6 +64,7 @@ English | [简体中文](./README-zh-CN.md)
   - [Authentication](#authentication)
   - [Authorization](#authorization)
   - [Distribute](#distribute)
+  - [Serialization](#serialization)
   - [RPC](#rpc)
   - [Server-side DOM](#server-side-dom)
   - [Crawler](#crawler)
@@ -1052,6 +1053,12 @@ English | [简体中文](./README-zh-CN.md)
 ### Distribute
 
 - [node-zookeeper-client](https://github.com/alexguan/node-zookeeper-client) - A pure Javascript ZooKeeper client for Node.js.
+
+### Serialization
+
+- [protobuf](https://github.com/protobufjs/protobuf.js) - Implementation of Protocol Buffers.
+- [snappy](https://github.com/kesla/node-snappy) - Native bindings for Google's Snappy compression library.
+- [compactr](https://github.com/compactr/compactr.js) - Implementation of the Compactr protocol.
 
 ### RPC
 
