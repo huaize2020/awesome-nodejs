@@ -123,6 +123,7 @@
   - [uuid](https://github.com/uuidjs/uuid) - 在JavaScript中生成符合RFC规范的UUID。
   - [shortid](https://github.com/dylang/shortid) - 短ID生成器。 网址友好。 不可预测的。 集群兼容。
   - [ulid](https://github.com/ulid/javascript) - 通用唯一词典分类排序标识符。
+  - [uuid-js](https://github.com/pnegri/uuid-js) - 用于生成和解析 UUID、TimeUUID 并根据日期生成 TimeUUID 以供范围选择。
   - [pure-uuid](https://github.com/rse/pure-uuid) - 基于纯JavaScript全局唯一ID(UUID)。
 
 - 编码/解码
@@ -169,6 +170,7 @@
 - [node-microtime](https://github.com/wadey/node-microtime) - 以微秒为单位获取当前时间。
 - [date-utils](https://github.com/JerrySievert/date-utils) - 用于Node.js和浏览器的日期垫片（Polyfills）。
 - [pretty-hrtime](https://github.com/robrich/pretty-hrtime) - 将process.hrtime()的结果转换为人可读性的字符串。
+- [humanize-ms](https://github.com/node-modules/humanize-ms) - 将人类可读的时间转换为毫秒。
 
 ### 正则/通配符匹配
 
@@ -567,7 +569,10 @@
 - Plist
   - [node-bplist-parser](https://github.com/joeferner/node-bplist-parser) - 二进制plist文件解析。
 
-- Other
+- ini
+  - [ini](https://github.com/npm/ini) - ini文件解析和序列化。
+
+- 其他
   - [readability](https://github.com/mozilla/readability) - 可读内容提取库，用于Firefox Reader View的独立提取版本。
 
 ### Git

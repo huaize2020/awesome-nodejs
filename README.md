@@ -116,6 +116,7 @@ English | [简体中文](./README-zh-CN.md)
   - [uuid](https://github.com/uuidjs/uuid) - Generate RFC-compliant UUIDs in JavaScript.
   - [shortid](https://github.com/dylang/shortid) - Short id generator. Url-friendly. Non-predictable. Cluster-compatible.
   - [ulid](https://github.com/ulid/javascript) - Universally Unique Lexicographically Sortable Identifier.
+  - [uuid-js](https://github.com/pnegri/uuid-js) - A js library to generate and parse UUIDs,TimeUUIDs and generate TimeUUID based on Date for range selections.
   - [pure-uuid](https://github.com/rse/pure-uuid) - Pure JavaScript Based Universally Unique Identifiers (UUID).
 
 - Encode/Decode
@@ -162,6 +163,7 @@ English | [简体中文](./README-zh-CN.md)
 - [node-microtime](https://github.com/wadey/node-microtime) - Get the current time in microseconds.
 - [date-utils](https://github.com/JerrySievert/date-utils) - Date Pollyfills for Node.js and Browser.
 - [pretty-hrtime](https://github.com/robrich/pretty-hrtime) - process.hrtime() to words.
+- [humanize-ms](https://github.com/node-modules/humanize-ms) - Transform humanize time to ms.
 
 ### RegExp/Glob
 
@@ -558,6 +560,9 @@ English | [简体中文](./README-zh-CN.md)
 
 - Plist
   - [node-bplist-parser](https://github.com/joeferner/node-bplist-parser) - Binary plist parser.
+
+- ini
+  - [ini](https://github.com/npm/ini) - An ini parser/serializer in JavaScript.
 
 - Other
   - [readability](https://github.com/mozilla/readability) - A standalone version of the readability library used for Firefox Reader View.
