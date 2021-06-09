@@ -691,6 +691,7 @@
 
 ### 内容管理系统 (CMS)
 
+- [Ghost](https://github.com/TryGhost/Ghost) - 用于专业发布的无头 Node.js CMS。
 - [Strapi](https://github.com/strapi/strapi) - 用于构建强大 API 的内容管理框架 (headless-CMS)。
 - [KeystoneJS](https://github.com/keystonejs/keystone) - 基于 Express 和 MongoDB 的 CMS 和 Web应用程序平台。
 - [AdminBro](https://github.com/SoftwareBrothers/admin-bro) - 为您的所有模型自动生成带有 增删查改(CRUD) 的管理面板。

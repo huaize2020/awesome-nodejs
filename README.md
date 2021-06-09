@@ -682,6 +682,7 @@ English | [简体中文](./README-zh-CN.md)
 
 ### Content management systems (CMS)
 
+- [Ghost](https://github.com/TryGhost/Ghost) - The headless Node.js CMS for professional publishing.
 - [Strapi](https://github.com/strapi/strapi) - Content Management Framework (headless-CMS) to build powerful APIs.
 - [KeystoneJS](https://github.com/keystonejs/keystone) - CMS and web application platform built on Express and MongoDB.
 - [AdminBro](https://github.com/SoftwareBrothers/admin-bro) - Auto-generated admin panel with CRUD for all your resources.
