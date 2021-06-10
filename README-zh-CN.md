@@ -415,7 +415,7 @@
 
 - 进度条
   - [progress](https://github.com/visionmedia/node-progress) - Node.js的灵活ascii进度条。
-  - [progress-estimator](https://github.com/bvaughn/progress-estimator) - 记录进度条并估计完成承诺所需的时间。
+  - [progress-estimator](https://github.com/bvaughn/progress-estimator) - 打印进度条并估计完成Promise所需的时间。
   - [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - 在命令行/终端应用中轻松的使用进度条。
 
 - 样式
