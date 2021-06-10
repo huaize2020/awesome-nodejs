@@ -452,6 +452,7 @@ English | [简体中文](./README-zh-CN.md)
 ### NPM
 
 - NPM Management
+  - [pnpm](https://github.com/pnpm/pnpm) - Fast, disk space efficient package manager.
   - [npm](https://github.com/npm/cli) - The package manager for JavaScript.
   - [yarn](https://github.com/yarnpkg/berry) - A modern package manager split into various packages.
   - [nrm](https://github.com/Pana/nrm) - About NPM registry manager, fast switch between different registries: npm, cnpm, nj, taobao.

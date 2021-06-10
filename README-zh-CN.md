@@ -460,6 +460,7 @@
 ### NPM
 
 - NPM管理工具
+  - [pnpm](https://github.com/pnpm/pnpm) - 快速、节省磁盘空间高效的包管理器。
   - [npm](https://github.com/npm/cli) - JavaScript包管理工具。
   - [yarn](https://github.com/yarnpkg/berry) - 现代包管理工具，拆分成多个不同的包。
   - [nrm](https://github.com/Pana/nrm) - 快速切换npm注册服务商，如npm、cnpm、nj、taobao。
