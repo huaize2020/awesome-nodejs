@@ -1069,6 +1069,7 @@
 ### 序列化
 
 - [protobuf](https://github.com/protobufjs/protobuf.js) - Protocol Buffers实现。
+- [hessian.js](https://github.com/node-modules/hessian.js) - JavaScript hessian 二进制web服务协议实现，支持与 java 通信。
 - [snappy](https://github.com/kesla/node-snappy) - Google 的 Snappy 压缩库的原生绑定（Native bindings）。
 - [compactr](https://github.com/compactr/compactr.js) - Compactr协议的实现。
 

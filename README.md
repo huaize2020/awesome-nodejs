@@ -1062,6 +1062,7 @@ English | [简体中文](./README-zh-CN.md)
 
 - [protobuf](https://github.com/protobufjs/protobuf.js) - Implementation of Protocol Buffers.
 - [snappy](https://github.com/kesla/node-snappy) - Native bindings for Google's Snappy compression library.
+- [hessian.js](https://github.com/node-modules/hessian.js) - JavaScript hessian binary web service protocol, support communicate with java.
 - [compactr](https://github.com/compactr/compactr.js) - Implementation of the Compactr protocol.
 
 ### RPC
