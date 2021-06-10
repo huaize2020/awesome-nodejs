@@ -435,7 +435,6 @@ English | [简体中文](./README-zh-CN.md)
 
 - Other
   - [commitizen](https://github.com/commitizen/cz-cli) - The commitizen command line utility.
-  - [concurrently](https://github.com/kimmobrunfeldt/concurrently) - Run commands concurrently. Like `npm run watch-js & npm run watch-less` but better.
   - [update-notifier](https://github.com/yeoman/update-notifier) - Update notifications for your CLI app.
   - [console-clear](https://github.com/lukeed/console-clear) - Clear the console, cross-platform.
 
@@ -471,6 +470,7 @@ English | [简体中文](./README-zh-CN.md)
 
 - Utilities
   - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - Find newer versions of package dependencies than what your package.json allows.
+  - [concurrently](https://github.com/kimmobrunfeldt/concurrently) - Run commands concurrently. Like `npm run watch-js & npm run watch-less` but better.
   - [npm-run-all](https://github.com/mysticatea/npm-run-all) - A CLI tool to run multiple npm-scripts in parallel or sequential.
   - [depcheck](https://github.com/depcheck/depcheck) - Check your npm module for unused dependencies.
   - [npminstall](https://github.com/cnpm/npminstall) - Make `npm install` fast and easy.
