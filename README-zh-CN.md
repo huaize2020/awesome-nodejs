@@ -437,6 +437,9 @@
   - [kolorist](https://github.com/marvinhagemeister/kolorist) - 使用输入和输出色彩化的小工具。
   - [console-png](https://github.com/aantthony/console-png) - 在命令行输出中打印PNG图片。
 
+- 编辑器
+  - [slap](https://github.com/slap-editor/slap) - 基于命令行终端的类Sublime文本编辑器。
+
 - 其他
   - [commitizen](https://github.com/commitizen/cz-cli) - Commitizen命令行实用程序。
   - [concurrently](https://github.com/kimmobrunfeldt/concurrently) - 并行执行命令，类似 `npm run watch-js & npm run watch-less`但更优。

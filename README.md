@@ -429,6 +429,9 @@ English | [简体中文](./README-zh-CN.md)
   - [kolorist](https://github.com/marvinhagemeister/kolorist) - A tiny utility to colorize stdin/stdout.
   - [console-png](https://github.com/aantthony/console-png) - Print PNG images to terminal output.
 
+- Editor
+  - [slap](https://github.com/slap-editor/slap) - Sublime-like terminal-based text editor.
+
 - Other
   - [commitizen](https://github.com/commitizen/cz-cli) - The commitizen command line utility.
   - [concurrently](https://github.com/kimmobrunfeldt/concurrently) - Run commands concurrently. Like `npm run watch-js & npm run watch-less` but better.
