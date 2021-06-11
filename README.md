@@ -250,6 +250,7 @@ English | [简体中文](./README-zh-CN.md)
 - [sha.js](https://github.com/crypto-browserify/sha.js) - Streamable SHA hashes in pure javascript.
 - [hash.js](https://github.com/indutny/hash.js) - Hash functions in pure javascript.
 - [pbkdf2](https://github.com/crypto-browserify/pbkdf2) - PBKDF2 with any supported hashing algorithm in Node.
+- [bcrypt-pbkdf](https://github.com/joyent/node-bcrypt-pbkdf) - Port of the OpenBSD `bcrypt_pbkdf` function to pure Javascript.
 
 ### Streams
 
