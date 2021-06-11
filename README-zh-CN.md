@@ -77,12 +77,14 @@
   - [服务端DOM](#服务端dom)
   - [爬虫](#爬虫)
   - [AST](#ast)
+  - [WebAssembly](#webassembly)
   - [设计稿转代码（D2C）](#设计稿转代码d2c)
   - [沙箱](#沙箱)
   - [硬件](#硬件)
   - [物联网IoT](#物联网iot)
   - [机器学习 和 神经网络](#机器学习-和-神经网络)
   - [自然语言处理](#自然语言处理)
+  - [OCR](#ocr)
 
 ## 官方资源
 
@@ -1136,6 +1138,10 @@
   - [estree-walker](https://github.com/Rich-Harris/estree-walker) - 用于遍历ESTree兼容树的AST。
   - [periscopic](https://github.com/Rich-Harris/periscopic) - 用于分析符合ESTree的AST的作用域的工具。
 
+### WebAssembly
+
+- [webassembly](https://github.com/dcodeIO/webassembly) - 用于生成和运行 WebAssembly 模块的最小工具包和运行时。
+
 ### 设计稿转代码（D2C）
 - [psd.js](https://github.com/meltingice/psd.js) - 在Node.js和浏览器中解析Photoshop PSD文件。
 
@@ -1179,3 +1185,8 @@
 - [sentiment](https://github.com/thisandagain/sentiment) - 基于AFINN的Node.js情感判断库。
 - [retext](https://github.com/wooorm/retext) - 一个可扩展的自然语言系统。
 - [leven](https://github.com/sindresorhus/leven) - 使用Levenshtein距离算法测量两个字符串之间的差异。
+
+### OCR
+
+- [tesseract.js](https://github.com/naptha/tesseract.js) - 100 多种语言的纯 Javascript OCR。
+- [Parsr](https://github.com/axa-group/Parsr) - 将 PDF、文档和图像转换为丰富的结构化数据。

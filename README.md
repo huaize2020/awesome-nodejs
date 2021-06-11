@@ -71,12 +71,14 @@ English | [简体中文](./README-zh-CN.md)
   - [Server-side DOM](#server-side-dom)
   - [Crawler](#crawler)
   - [AST](#ast)
+  - [WebAssembly](#webassembly)
   - [Design To Code（D2C）](#design-to-coded2c)
   - [Sandbox](#sandbox)
   - [Hardware](#hardware)
   - [IoT](#iot)
   - [Machine learning & Neural networks](#machine-learning--neural-networks)
   - [Natural language processing](#natural-language-processing)
+  - [OCR](#ocr)
 
 ## Official
 - [Website](https://nodejs.org)
@@ -1128,6 +1130,10 @@ English | [简体中文](./README-zh-CN.md)
   - [periscopic](https://github.com/Rich-Harris/periscopic) - Utility for analyzing scopes belonging to an ESTree-compliant AST.
   - [estree-walker](https://github.com/Rich-Harris/estree-walker) - Traverse an ESTree-compliant AST.
 
+### WebAssembly
+
+- [webassembly](https://github.com/dcodeIO/webassembly) - A minimal toolkit and runtime to produce and run WebAssembly modules.
+
 ### Design To Code（D2C）
 - [psd.js](https://github.com/meltingice/psd.js) - A Photoshop PSD file parser for NodeJS and browsers.
 
@@ -1171,3 +1177,8 @@ English | [简体中文](./README-zh-CN.md)
 - [sentiment](https://github.com/thisandagain/sentiment) - AFINN-based sentiment analysis for Node.js.
 - [retext](https://github.com/wooorm/retext) - An extensible natural language system.
 - [leven](https://github.com/sindresorhus/leven) - Measure the difference between two strings using the Levenshtein distance algorithm.
+
+### OCR
+
+- [tesseract.js](https://github.com/naptha/tesseract.js) - Pure Javascript OCR for more than 100 Languages.
+- [Parsr](https://github.com/axa-group/Parsr) - Transforms PDF, Documents and Images into Enriched Structured Data.
