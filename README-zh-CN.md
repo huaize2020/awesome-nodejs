@@ -482,6 +482,7 @@
   - [npm-run-all](https://github.com/mysticatea/npm-run-all) - 命令行工具，同时运行多个npm脚本（并行或串行）。
   - [depcheck](https://github.com/depcheck/depcheck) - 检查你的NPM模块未使用的依赖。
   - [npminstall](https://github.com/cnpm/npminstall) - 使 `npm install` 更快更容易。
+  - [validate-npm-package-name](https://github.com/npm/validate-npm-package-name) - 校验给定的字符串 是否为 可接受的 npm 包名称。
   - [npm-home](https://github.com/sindresorhus/npm-home) - 打开npm包页面。
   - [npm-name](https://github.com/sindresorhus/npm-name) - 在npm上检查软件包名称的可用性。
   - [pacote](https://github.com/npm/pacote) - 从npm注册商下载tar压缩文件，并获取包的资源信息。

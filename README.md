@@ -474,6 +474,7 @@ English | [简体中文](./README-zh-CN.md)
   - [npm-run-all](https://github.com/mysticatea/npm-run-all) - A CLI tool to run multiple npm-scripts in parallel or sequential.
   - [depcheck](https://github.com/depcheck/depcheck) - Check your npm module for unused dependencies.
   - [npminstall](https://github.com/cnpm/npminstall) - Make `npm install` fast and easy.
+  - [validate-npm-package-name](https://github.com/npm/validate-npm-package-name) - Is the given string an acceptable npm package name?
   - [npm-home](https://github.com/sindresorhus/npm-home) - Open the npm page of a package.
   - [npm-name](https://github.com/sindresorhus/npm-name) - Check a package name's availability on npm.
   - [pacote](https://github.com/npm/pacote) - Fetches package manifests and tarballs from the npm registry.
