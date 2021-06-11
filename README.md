@@ -1,5 +1,7 @@
 English | [简体中文](./README-zh-CN.md)
 
+> You can also see [awesome-frontend](https://github.com/huaize2020/awesome-frontend)!
+
 ## Table of contents
 
 - [Table of contents](#table-of-contents)
