@@ -328,6 +328,7 @@
 - [is-ip](https://github.com/sindresorhus/is-ip) - 检查字符串是否为IP地址。
 - [isstream](https://github.com/rvagg/isstream) - 判断对象是否为流对象。
 - [is-class](https://github.com/miguelmota/is-class) - 判断函数是否为 ES6类(class) 类型。
+- [isexe](https://github.com/isaacs/isexe) - 检查文件是否可执行文件。
 - [is-type](https://github.com/juliangruber/is-type) - Node.js核心类型判断。
 - [is-md5](https://github.com/imanhodjaev/is-md5) - JavaScript实用程序，用于检查字符串是否为md5加密。
 - [is-core-module](https://github.com/inspect-js/is-core-module) - 判断一个说明符 是否为 Node.js 核心模块。

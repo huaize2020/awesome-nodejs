@@ -321,6 +321,7 @@ English | [简体中文](./README-zh-CN.md)
 - [is-ip](https://github.com/sindresorhus/is-ip) - Check if a string is an IP address.
 - [isstream](https://github.com/rvagg/isstream) - Determine if an object is a Node.js Stream.
 - [is-class](https://github.com/miguelmota/is-class) - Check if function is an ES6 class.
+- [isexe](https://github.com/isaacs/isexe) - Minimal module to check if a file is executable.
 - [is-type](https://github.com/juliangruber/is-type) - Type checking from node core.
 - [is-md5](https://github.com/imanhodjaev/is-md5) - JavaScript utility to check if string is md5 encrypted.
 - [is-core-module](https://github.com/inspect-js/is-core-module) - Is this specifier a node.js core module?
