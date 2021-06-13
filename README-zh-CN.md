@@ -23,6 +23,7 @@
   - [URL](#url)
   - [JSON](#json)
   - [图像处理](#图像处理)
+  - [字体](#字体)
   - [颜色](#颜色)
   - [加解密](#加解密)
   - [流](#流)
@@ -234,7 +235,11 @@
 - [pngjs](https://github.com/lukeapage/pngjs) - 简单的PNG编码解码器。
 - [get-pixels](https://github.com/scijs/get-pixels) - 将图像读入ndarray。
 - [image-type](https://github.com/sindresorhus/image-type) - 检测Buffer / Uint8Array的图像类型.
-- [node-bitmap](https://github.com/nowelium/node-bitmap) - Pure javascript Bitmap library.
+- [node-bitmap](https://github.com/nowelium/node-bitmap) - 纯JavaScript Bitmap库。
+
+### 字体
+
+- [font-spider](https://github.com/aui/font-spider) - 字蛛是一个智能 WebFont 压缩工具，它能自动分析出页面使用的 WebFont 并进行按需压缩。
 
 ### 颜色
 

@@ -17,6 +17,7 @@ English | [简体中文](./README-zh-CN.md)
   - [URL](#url)
   - [JSON](#json)
   - [Image](#image)
+  - [Font](#font)
   - [Color](#color)
   - [Crypto](#crypto)
   - [Streams](#streams)
@@ -228,6 +229,10 @@ English | [简体中文](./README-zh-CN.md)
 - [get-pixels](https://github.com/scijs/get-pixels) - Reads an image into an ndarray.
 - [image-type](https://github.com/sindresorhus/image-type) - Detect the image type of a Buffer/Uint8Array.
 - [node-bitmap](https://github.com/nowelium/node-bitmap) - Pure javascript Bitmap library.
+
+### Font
+
+- [font-spider](https://github.com/aui/font-spider) - Smart webfont compression and format conversion tool.
 
 ### Color
 
