@@ -811,6 +811,7 @@ English | [简体中文](./README-zh-CN.md)
 
 - Solution
   - [easy-monitor](https://github.com/hyj1991/easy-monitor) - Enterprise-level Node.js application performance monitoring and online fault location solutions.
+  - [webfunny_monitor](https://github.com/a597873885/webfunny_monitor) - Webfunny is a lightweight front-end monitoring system and webfunny is also a front-end performance monitoring system. It monitors front-end logs and analyzes front-end health status in real time.
 
 - Middleware
   - [swagger-stats](https://github.com/slanatech/swagger-stats) - Trace API calls and monitor API performance, health, and usage metrics.

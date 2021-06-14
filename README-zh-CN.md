@@ -819,6 +819,7 @@
 
 - 解决方案
   - [easy-monitor](https://github.com/hyj1991/easy-monitor) - 企业级 Node.js 应用性能监控和在线故障定位解决方案。
+  - [webfunny_monitor](https://github.com/a597873885/webfunny_monitor) - Webfunny是一款轻量级的前端监控系统，也是一款前端性能监控系统，无埋点监控前端日志，实时分析前端健康状态。
 
 - 中间件
   - [swagger-stats](https://github.com/slanatech/swagger-stats) - 跟踪 API 调用并监控 API 性能、运行状况和使用指标。
