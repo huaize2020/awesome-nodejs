@@ -435,6 +435,7 @@ English | [简体中文](./README-zh-CN.md)
   - [figures](https://github.com/sindresorhus/figures) - Unicode symbols with Windows fallbacks.
   - [terminal-link](https://github.com/sindresorhus/terminal-link) - Create clickable links in the terminal.
   - [snazzy](https://github.com/standard/snazzy) - Format JavaScript Standard Style as Stylish (i.e. snazzy) output.
+  - [columnify](https://github.com/timoxley/columnify) - Create text-based columns suitable for console output. Supports cell wrapping.
   - [cli-table3](https://github.com/cli-table/cli-table3) - Pretty unicode tables for the command line.
   - [easy-table](https://github.com/eldargab/easy-table) - Nice text table for Node.js.
   - [treeify](https://github.com/notatestuser/treeify) - Pretty-print a javascript object as a tree.

@@ -443,6 +443,7 @@
   - [figures](https://github.com/sindresorhus/figures) - Windows兜底的Unicode符号。
   - [terminal-link](https://github.com/sindresorhus/terminal-link) - 在终端中创建可点击的链接。
   - [snazzy](https://github.com/standard/snazzy) - 将 JavaScript 标准样式格式化为时尚（即时髦）输出。
+  - [columnify](https://github.com/timoxley/columnify) - 创建适合控制台输出的基于文本的列。 支持单元格。
   - [cli-table3](https://github.com/cli-table/cli-table3) - 命令行的漂亮unicode表。
   - [easy-table](https://github.com/eldargab/easy-table) - 漂亮的文本表格。
   - [treeify](https://github.com/notatestuser/treeify) - 将javascript对象漂亮地打印为树。
