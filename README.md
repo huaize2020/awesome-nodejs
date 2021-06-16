@@ -564,6 +564,7 @@ English | [简体中文](./README-zh-CN.md)
 
 - YAML
   - [js-yaml](https://github.com/nodeca/js-yaml) - Very fast YAML parser.
+  - [yaml](https://github.com/eemeli/yaml) - JavaScript parser and stringifier for YAML.
 
 - XML
   - [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) - XML to JavaScript object converter.

@@ -572,6 +572,7 @@
 
 - YAML
   - [js-yaml](https://github.com/nodeca/js-yaml) - 快速的YAML解析器。
+  - [yaml](https://github.com/eemeli/yaml) - YAML 的 JavaScript 解析器和字符串化。
 
 - XML
   - [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) - 将XML转换为JavaScript对象的转换器。
