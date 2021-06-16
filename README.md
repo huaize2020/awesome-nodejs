@@ -431,6 +431,7 @@ English | [简体中文](./README-zh-CN.md)
   - [colors.js](https://github.com/Marak/colors.js) - Get colors in your node.js console.
   - [listr](https://github.com/SamVerschueren/listr) - Terminal task list.
   - [kleur](https://github.com/lukeed/kleur) - The fastest Node.js library for formatting terminal text with ANSI colors~!
+  - [colorette](https://github.com/jorgebucaran/colorette) - Easily set the color and style of text in the terminal.
   - [qrcode-terminal](https://github.com/gtanner/qrcode-terminal) - QRCodes in your terminal.
   - [boxen](https://github.com/sindresorhus/boxen) - Create boxes in the terminal.
   - [terminal-image](https://github.com/sindresorhus/terminal-image) - Display images in the terminal.
@@ -568,6 +569,7 @@ English | [简体中文](./README-zh-CN.md)
   - [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) - XML to JavaScript object converter.
   - [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser) - Validate and parse XML.
   - [xmlbuilder](https://github.com/oozcitak/xmlbuilder-js) - An XML builder for node.js.
+  - [js2xmlparser](https://github.com/michaelkourlas/node-js2xmlparser) - Popular Node.js module for parsing JavaScript objects into XML.
 
 - HTML
   - [htmlparser2](https://github.com/fb55/htmlparser2) - Forgiving HTML and XML parser.

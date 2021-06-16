@@ -439,6 +439,7 @@
   - [colors.js](https://github.com/Marak/colors.js) - 获取Node.js控制台的颜色。
   - [listr](https://github.com/SamVerschueren/listr) - 命令行任务列表。
   - [kleur](https://github.com/lukeed/kleur) - 最快的Node.js库，使用ANSI颜色格式化命令行文本。
+  - [colorette](https://github.com/jorgebucaran/colorette) - 在终端中轻松设置文本的颜色和样式。
   - [qrcode-terminal](https://github.com/gtanner/qrcode-terminal) - 命令行中显示二维码。
   - [boxen](https://github.com/sindresorhus/boxen) - 控制台中创建盒子。
   - [terminal-image](https://github.com/sindresorhus/terminal-image) - 在终端中展示图片。
@@ -576,6 +577,7 @@
   - [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) - 将XML转换为JavaScript对象的转换器。
   - [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser) - 验证&解析 XML。
   - [xmlbuilder](https://github.com/oozcitak/xmlbuilder-js) - XML构建器。
+  - [js2xmlparser](https://github.com/michaelkourlas/node-js2xmlparser) - 用于将 JavaScript 对象解析为 XML 的流行 Node.js 模块。
 
 - HTML
   - [htmlparser2](https://github.com/fb55/htmlparser2) - 宽容的 HTML 和 XML 解析器。
