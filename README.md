@@ -143,6 +143,7 @@ English | [简体中文](./README-zh-CN.md)
 ### Number
 
 - [Numeral.js](https://github.com/adamwdraper/Numeral-js) - A javascript library for formatting and manipulating numbers.
+- [bignumber.js](https://github.com/MikeMcl/bignumber.js) - A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic.
 - [decimal.js](https://github.com/MikeMcl/decimal.js) - An arbitrary-precision Decimal type for JavaScript.
 - [big.js](https://github.com/MikeMcl/big.js) - A small, fast JavaScript library for arbitrary-precision decimal arithmetic.
 - [round-to](https://github.com/sindresorhus/round-to) - Round a number to a specific number of decimal places: `1.234` → `1.2`.
@@ -410,6 +411,7 @@ English | [简体中文](./README-zh-CN.md)
   - [minimist](https://github.com/substack/minimist) - Guts of optimist's argument parser without all the fanciful decoration.
   - [arg](https://github.com/vercel/arg) - Simple argument parsing.
   - [nopt](https://github.com/npm/nopt) - Node/npm Option Parsing.
+  - [argparse](https://github.com/nodeca/argparse) - CLI arguments parser for node.js.
   - [yargs-parser](https://github.com/yargs/yargs-parser) - 💪 the mighty option parser used by yargs.
 
 - Prompt

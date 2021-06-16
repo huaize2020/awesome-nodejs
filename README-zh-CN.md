@@ -150,6 +150,7 @@
 ### 数字
 
 - [Numeral.js](https://github.com/adamwdraper/Numeral-js) - 格式化和操作数字。
+- [bignumber.js](https://github.com/MikeMcl/bignumber.js) - 用于任意精度十进制和非十进制算术的 JavaScript 库。
 - [decimal.js](https://github.com/MikeMcl/decimal.js) - JavaScript的任意精度的十进制类型。
 - [big.js](https://github.com/MikeMcl/big.js) - 一个小型，快速的JavaScript库，用于任意精度的十进制算术运算。
 - [round-to](https://github.com/sindresorhus/round-to) - 将数字四舍五入到指定的小数位数：`1.234`→1.2`。
@@ -418,6 +419,7 @@
   - [minimist](https://github.com/substack/minimist) - 命令行参数解析引擎。
   - [arg](https://github.com/vercel/arg) - 简单的参数解析。
   - [nopt](https://github.com/npm/nopt) - Node/npm参数解析。
+  - [argparse](https://github.com/nodeca/argparse) - Node.js CLI参数解析。
   - [yargs-parser](https://github.com/yargs/yargs-parser) - yargs在使用，优雅参数解析库.
 
 - Prompt提示
