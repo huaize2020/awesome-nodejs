@@ -599,6 +599,7 @@ English | [简体中文](./README-zh-CN.md)
 - [git-url-parse](https://github.com/IonicaBizau/git-url-parse) - A high level git url parser for common git providers.
 - [git-promise](https://github.com/piuccio/git-promise) - Simple wrapper to run any git command and process it's output using promises.
 - [gittar](https://github.com/lukeed/gittar) - Download and/or Extract git repositories (GitHub, GitLab, BitBucket). Cross-platform and Offline-first.
+- [parse-git-config](https://github.com/jonschlinkert/parse-git-config) - Parse `.git/config` into a JavaScript object. sync or async.
 - [remote-git-tags](https://github.com/sindresorhus/remote-git-tags) - Get tags from a remote git repo. Using only JS.
 - [giturl](https://github.com/repo-utils/giturl) - Transfer git url to web url.
 - [download-git-repo](https://gitlab.com/flippidippi/download-git-repo) - Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.
@@ -740,7 +741,6 @@ English | [简体中文](./README-zh-CN.md)
 
 - [Electron](https://github.com/atom/electron) - Build cross platform desktop apps with web technologies. *(You might like [awesome-electron](https://github.com/sindresorhus/awesome-electron))*
 - [nw.js](https://github.com/nwjs/nw.js) - Call all Node.js modules directly from DOM/WebWorker and enable a new way of writing applications with all Web technologies.
-
 
 ### Real-time
 

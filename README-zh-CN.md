@@ -607,6 +607,7 @@
 - [git-url-parse](https://github.com/IonicaBizau/git-url-parse) - 高级别git解析。
 - [git-promise](https://github.com/piuccio/git-promise) - 简单的封装，可运行任何git命令，并使用promise处理其输出。
 - [gittar](https://github.com/lukeed/gittar) - 下载/提取git仓库 (GitHub, GitLab, BitBucket)，跨平台和优先离线。
+- [parse-git-config](https://github.com/jonschlinkert/parse-git-config) - 将 `.git/config` 解析为 JavaScript 对象。 同步或异步。
 - [remote-git-tags](https://github.com/sindresorhus/remote-git-tags) - 从远程仓库中获取标签。
 - [giturl](https://github.com/repo-utils/giturl) - 将Git链接转化成Web链接。
 - [download-git-repo](https://gitlab.com/flippidippi/download-git-repo) - 下载和提取Git仓库 (支持GitHub, GitLab, Bitbucket)。
