@@ -858,6 +858,9 @@ English | [简体中文](./README-zh-CN.md)
 - Query builder
   - [Knex](https://github.com/tgriesser/knex) - Query builder for PostgreSQL, MySQL and SQLite3, designed to be flexible, portable, and fun to use.
 
+- SQL
+  - [sqlstring](https://github.com/mysqljs/sqlstring) - Simple SQL escape and format for MySQL.
+
 - Other
   - [Lowdb](https://github.com/typicode/lowdb) - Tiny local JSON database for small projects (supports Node, Electron and the browser).
   - [NeDB](https://github.com/louischatriot/nedb) - Embedded persistent or in memory database for Node.js, nw.js, Electron and browsers.

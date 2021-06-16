@@ -867,6 +867,9 @@
 - Query builder
   - [Knex](https://github.com/tgriesser/knex) - PostgreSQL，MySQL和SQLite3的查询构建器，旨在灵活，可移植且易于使用。
 
+- SQL
+  - [sqlstring](https://github.com/mysqljs/sqlstring) - 简单 SQL 转义和格式，用于MySQL。
+
 - 其他
   - [Lowdb](https://github.com/typicode/lowdb) - 用于小型项目的微型本地 JSON 数据库（支持 Node、Electron 和浏览器）。
   - [NeDB](https://github.com/louischatriot/nedb) - 用于 Node.js、nw.js、Electron和浏览器的嵌入式持久数据库或内存数据库。
