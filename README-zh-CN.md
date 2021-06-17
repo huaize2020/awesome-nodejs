@@ -88,6 +88,7 @@
   - [OCR](#ocr)
 - [项目](#项目)
   - [低代码（Lowcode）](#低代码lowcode)
+  - [逻辑编排](#逻辑编排)
 
 ## 官方资源
 
@@ -740,6 +741,7 @@
 - [react-static](https://github.com/react-static/react-static) - 渐进式的React静态网站生成工具。
 - [gridsome](https://github.com/gridsome/gridsome) - Vue.js静态网站生成工具。
 - [vitepress](https://github.com/vuejs/vitepress) - Vite & Vue.js静态网站生成工具。
+- [scully](https://github.com/scullyio/scully) - Angular 应用程序的静态站点生成器。
 
 ### 文档生成
 
@@ -1219,3 +1221,7 @@
 - [h5-Dooring](https://github.com/MrXujiang/h5-Dooring) - 让H5制作像搭积木一样简单, 轻松搭建H5页面, H5网站, PC端网站, 可视化设计,LowCode平台。
 - [luban-h5](https://github.com/ly525/luban-h5) - 类似易企秀的H5制作、建站工具、可视化搭建系统。
 - [gods-pen](https://github.com/ymm-tech/gods-pen) - 基于vue的高扩展在线网页制作平台，可自定义组件，可添加脚本，可数据统计。
+
+### 逻辑编排
+
+- [imove](https://github.com/ykfe/imove) - iMove 是一个逻辑可复用的，面向函数的，流程可视化的 JavaScript 工具库。

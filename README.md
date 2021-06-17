@@ -82,6 +82,7 @@ English | [简体中文](./README-zh-CN.md)
   - [OCR](#ocr)
 - [Project](#project)
   - [Lowcode](#lowcode)
+  - [Logical Arrangement](#logical-arrangement)
 
 ## Official
 - [Website](https://nodejs.org)
@@ -731,6 +732,7 @@ English | [简体中文](./README-zh-CN.md)
 - [react-static](https://github.com/react-static/react-static) - A progressive static site generator for React.
 - [gridsome](https://github.com/gridsome/gridsome) - The Jamstack framework for Vue.js.
 - [vitepress](https://github.com/vuejs/vitepress) - Vite & Vue powered static site generator.
+- [scully](https://github.com/scullyio/scully) - The Static Site Generator for Angular apps.
 
 ### Documentation
 
@@ -1209,3 +1211,7 @@ English | [简体中文](./README-zh-CN.md)
 - [h5-Dooring](https://github.com/MrXujiang/h5-Dooring) - H5 Page Maker, H5 Editor, LowCode. Make H5 as easy as building blocks.
 - [luban-h5](https://github.com/ly525/luban-h5) - Web design tool || mobile page builder/editor || mini webflow for mobile page.
 - [gods-pen](https://github.com/ymm-tech/gods-pen) - A mobile page builder/editor, similar with amolink.
+
+### Logical Arrangement
+
+- [imove](https://github.com/ykfe/imove) - Move your mouse, generate code from flow chart.
