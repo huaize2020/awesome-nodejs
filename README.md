@@ -888,6 +888,7 @@ English | [简体中文](./README-zh-CN.md)
 - [memcached](https://github.com/3rd-Eden/memcached) - A fully featured Memcached client build on top of Node.js. Build with scaling in mind so it will support Memcached clusters and consistent hashing.
 - [node-cache-manager](https://github.com/BryanDonovan/node-cache-manager) - Cache module for Node.JS.
 - [hashlru](https://github.com/dominictarr/hashlru) - Simpler, faster LRU cache algorithm.
+- [flat-cache](https://github.com/royriojas/flat-cache) - A stupidly simple key/value storage using files to persist the data.
 - [ylru](https://github.com/node-modules/ylru) - Add "expire", "allow set empty value" extends on hashlru.
 
 ### Serverless
