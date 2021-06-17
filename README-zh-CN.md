@@ -250,6 +250,7 @@
 
 - [chroma](https://github.com/gka/chroma.js) - JavaScript库，用于各种颜色处理。
 - [rgbaster](https://github.com/briangonzalez/rgbaster.js) - 🎨一个简单的库，用于从图像中提取主色。
+- [TinyColor](https://github.com/bgrins/TinyColor) - 快速、小型的颜色操作和转换库。
 - [onecolor](https://github.com/One-com/one-color) - 面向对象的JavaScript颜色解析器/计算工具包，支持RGB，HSV，HSL，CMYK和alpha通道。 颜色空间之间的转换是隐式进行的，并且所有方法都返回新对象，而不是对现有实例进行突变。 可在浏览器和Node.js中使用。
 
 ### 加解密
