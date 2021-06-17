@@ -863,6 +863,7 @@
   - [Sequelize](https://github.com/sequelize/sequelize) - 多方ORM。 支持PostgreSQL，SQLite，MySQL。
   - [TypeORM](https://github.com/typeorm/typeorm) - PostgreSQL，MariaDB，MySQL，SQLite等的ORM。
   - [Mongoose](https://github.com/Automattic/mongoose) - 优雅的MongoDB对象建模。
+    - [typegoose](https://github.com/typegoose/typegoose) - Typegoose - 使用 TypeScript 类定义 Mongoose 模型。
   - [Prisma](https://github.com/prisma/prisma) - 支持PostgreSQL, MySQL & SQLite，自动生成、类型安全的query builder。
   - [Bookshelf](https://github.com/bookshelf/bookshelf) - Backbone.js风格的PostgreSQL，MySQL和SQLite3的ORM。
   - [Objection.js](https://github.com/Vincit/objection.js) - 基于SQL查询生成器Knex的轻量级ORM。
