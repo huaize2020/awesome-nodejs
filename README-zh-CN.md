@@ -694,6 +694,7 @@
 
 - [Express](https://github.com/expressjs/express) - Web应用程序框架，为构建单页和多页以及混合Web应用程序提供了一组强大的功能。
 - [Next.js](https://github.com/zeit/next.js) - React服务端渲染框架。
+  - [blitz](https://github.com/blitz-js/blitz) - 全栈 React 框架——建立在 Next.js 之上。
 - [Meteor](https://github.com/meteor/meteor) - 超简单，无处不在的数据库，在线数据，纯Javascript Web框架。 *（你也许会喜欢 [awesome-meteor](https://github.com/Urigo/awesome-meteor))*
 - [Nuxt.js](https://github.com/nuxt/nuxt.js) - Vue服务端渲染框架。
 - [Nest](https://github.com/nestjs/nest) -受Angular启发的框架，用于构建高效且可扩展的服务器端应用程序。*(你也许会喜欢 [awesome-nestjs](https://github.com/juliandavidmr/awesome-nestjs))*

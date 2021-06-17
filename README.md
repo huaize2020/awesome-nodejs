@@ -685,6 +685,7 @@ English | [简体中文](./README-zh-CN.md)
 
 - [Express](https://github.com/expressjs/express) - Web application framework, providing a robust set of features for building single and multi-page, and hybrid web applications.
 - [Next.js](https://github.com/zeit/next.js) - Minimalistic framework for server-rendered universal JavaScript web apps.
+  - [blitz](https://github.com/blitz-js/blitz) - ⚡️The Fullstack React Framework — built on Next.js.
 - [Meteor](https://github.com/meteor/meteor) - An ultra-simple, database-everywhere, data-on-the-wire, pure-Javascript web framework. *(You might like [awesome-meteor](https://github.com/Urigo/awesome-meteor))*
 - [Nuxt.js](https://github.com/nuxt/nuxt.js) - Minimalistic framework for server-rendered Vue.js apps.
 - [Nest](https://github.com/nestjs/nest) - Angular-inspired framework for building efficient and scalable server-side apps. *(You might like [awesome-nestjs](https://github.com/juliandavidmr/awesome-nestjs))*
