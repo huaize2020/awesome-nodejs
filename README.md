@@ -710,6 +710,7 @@ English | [简体中文](./README-zh-CN.md)
 - [ActionHero](https://github.com/actionhero/actionhero) - Framework for making reusable & scalable APIs for TCP sockets, WebSockets, and HTTP clients.
 - [lad](https://github.com/ladjs/lad) - The best Node.js framework. Made by a former Express TC and Koa team member.
 - [Tinyhttp](https://github.com/talentlessguy/tinyhttp) - Modern and fast Express-like web framework.
+- [daruk](https://github.com/darukjs/daruk) - A node.js web framework based on typescript.
 - [Hemera](https://github.com/hemerajs/hemera) - Write reliable and fault-tolerant microservices with [NATS](https://nats.io).
 - [restana](https://github.com/BackendStack21/restana) - Super fast and minimalist framework for building REST micro-services.
 - [Zeronode](https://github.com/sfast/zeronode) - Minimal building block for reliable and fault-tolerant microservices.
