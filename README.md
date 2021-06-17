@@ -431,6 +431,7 @@ English | [简体中文](./README-zh-CN.md)
   - [ora](https://github.com/sindresorhus/ora) - Elegant terminal spinner.
   - [colors.js](https://github.com/Marak/colors.js) - Get colors in your node.js console.
   - [listr](https://github.com/SamVerschueren/listr) - Terminal task list.
+  - [figlet.js](https://github.com/patorjk/figlet.js) - A FIG Driver written in JavaScript which aims to fully implement the FIGfont spec.
   - [kleur](https://github.com/lukeed/kleur) - The fastest Node.js library for formatting terminal text with ANSI colors~!
   - [colorette](https://github.com/jorgebucaran/colorette) - Easily set the color and style of text in the terminal.
   - [qrcode-terminal](https://github.com/gtanner/qrcode-terminal) - QRCodes in your terminal.
