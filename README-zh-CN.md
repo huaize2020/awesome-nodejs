@@ -6,7 +6,7 @@
 
 > 同时推荐你查看我另一个仓库 [awesome-frontend](https://github.com/huaize2020/awesome-frontend)!
 
-[English](./README.md) | 简体中文
+[English](./README-en.md) | 简体中文
 
 ## 目录
 
