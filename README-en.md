@@ -242,6 +242,7 @@ English | [简体中文](./README.md)
 ### Color
 
 - [chroma](https://github.com/gka/chroma.js) - JavaScript library for all kinds of color manipulations.
+- [randomColor](https://github.com/davidmerfield/randomColor) - A tiny script for generating attractive colors.
 - [rgbaster](https://github.com/briangonzalez/rgbaster.js) - 🎨 A simple library for extracting dominant colors from images.
 - [TinyColor](https://github.com/bgrins/TinyColor) - Fast, small color manipulation and conversion for JavaScript.
 - [onecolor](https://github.com/One-com/one-color) - An OO-based JavaScript color parser/computation toolkit with support for RGB, HSV, HSL, CMYK, and alpha channels. Conversion between color spaces occurs implicitly, and all methods return new objects rather than mutating existing instances. Works in the browser and node.js.
