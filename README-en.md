@@ -1192,6 +1192,7 @@ English | [简体中文](./README.md)
 ### Machine learning & Neural networks
 
 - [tfjs](https://github.com/tensorflow/tfjs) - A WebGL accelerated JavaScript library for training and deploying ML models.
+- [netron](https://github.com/lutzroeder/netron) - Visualizer for neural network, deep learning, and machine learning models.
 - [brain.js](https://github.com/BrainJS/brain.js) - GPU accelerated Neural networks in JavaScript for Browsers and Node.js.
 - [pipcook](https://github.com/alibaba/pipcook) - Machine learning platform for Web developers.
 - [onnxjs](https://github.com/microsoft/onnxjs) - ONNX.js: run ONNX models using JavaScript.
