@@ -979,6 +979,7 @@
   - [docx](https://github.com/dolanmiu/docx) - 通过良好定义的API,在NodeJS和浏览器中，使用JS/TS轻松的生成docx文件。
 
 - PDF
+  - [jsPDF](https://github.com/MrRio/jsPDF) - 使用JavaScript生成PDF文件的库。
   - [PDFKit](https://github.com/foliojs/pdfkit) - 在Node.js和浏览器中生成PDF的库。
   - [percollate](https://github.com/danburzo/percollate) - 一个命令行工具，可将网页转换为漂亮的，可读的PDF，EPUB或HTML文档。
   - [pdf-lib](https://github.com/Hopding/pdf-lib) - 在任意JavaScript环境中创建和修改PDF文档。
@@ -1201,6 +1202,7 @@
 ### 机器学习 和 神经网络
 
 - [tfjs](https://github.com/tensorflow/tfjs) - 一个WebGL加速的JavaScript库，用于训练和部署ML模型（Tensorflow官方）。
+- [netron](https://github.com/lutzroeder/netron) - 神经网络、深度学习和机器学习模型的可视化工具。
 - [brain.js](https://github.com/BrainJS/brain.js) - 基于模型训练的神经网络 JS 库，支持浏览器和 Node.js。
 - [pipcook](https://github.com/alibaba/pipcook) - 为Web开发者提供的机器学习平台。
 - [onnxjs](https://github.com/microsoft/onnxjs) - 使用JavaScript运行ONNX模型。

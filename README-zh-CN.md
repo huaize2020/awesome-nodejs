@@ -979,6 +979,7 @@
   - [docx](https://github.com/dolanmiu/docx) - 通过良好定义的API,在NodeJS和浏览器中，使用JS/TS轻松的生成docx文件。
 
 - PDF
+  - [jsPDF](https://github.com/MrRio/jsPDF) - 使用JavaScript生成PDF文件的库。
   - [PDFKit](https://github.com/foliojs/pdfkit) - 在Node.js和浏览器中生成PDF的库。
   - [percollate](https://github.com/danburzo/percollate) - 一个命令行工具，可将网页转换为漂亮的，可读的PDF，EPUB或HTML文档。
   - [pdf-lib](https://github.com/Hopding/pdf-lib) - 在任意JavaScript环境中创建和修改PDF文档。
