@@ -659,6 +659,7 @@
 - [stylelint](https://github.com/stylelint/stylelint) - 功能强大现代风格检查工具，帮助你避免错误和强制约定样式风格。
 - [lint-staged](https://github.com/okonet/lint-staged) - 在Git暂存文件上运行风格检查工具。
 - [commitlint](https://github.com/conventional-changelog/commitlint) - Git提交信息风格检查工具。
+- [js-beautify](https://github.com/beautify-web/js-beautify) - Javascript美化工具。
 - [xo](https://github.com/xojs/xo) - 带出色默认配置的JavaScript/TypeScript代码校验 (基于ESLint封装)
 - [markdownlint](https://github.com/DavidAnson/markdownlint) - Markdown/CommonMark风格检查工具。
 - [textlint](https://github.com/textlint/textlint) - Text 和 Markdown 校验和格式化。

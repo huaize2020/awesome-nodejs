@@ -651,6 +651,7 @@ English | [简体中文](./README.md)
 - [stylelint](https://github.com/stylelint/stylelint) - Mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
 - [lint-staged](https://github.com/okonet/lint-staged) - Run linters on git staged files.
 - [commitlint](https://github.com/conventional-changelog/commitlint) - Lint commit messages.
+- [js-beautify](https://github.com/beautify-web/js-beautify) - Beautifier for javascript.
 - [xo](https://github.com/xojs/xo) - JavaScript/TypeScript linter (ESLint wrapper) with great defaults
 - [markdownlint](https://github.com/DavidAnson/markdownlint) - A Node.js style checker and lint tool for Markdown/CommonMark files.
 - [textlint](https://github.com/textlint/textlint) - The pluggable natural language linter for text and markdown.
