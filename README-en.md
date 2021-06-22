@@ -625,6 +625,7 @@ English | [简体中文](./README.md)
 - [winston](https://github.com/winstonjs/winston) - Multi-transport async logging library.
 - [pino](https://github.com/pinojs/pino) - Extremely fast logger inspired by Bunyan.
 - [signale](https://github.com/klauscfhq/signale) - Highly configurable logging utility.
+- [bunyan](https://github.com/trentm/node-bunyan) - A simple and fast JSON logging module for node.js services.
 - [log4js-node](https://github.com/log4js-node/log4js-node) - A logging library which different from Java log4j.
 - [consola](https://github.com/nuxt/consola) - Elegant Console Logger for Node.js and Browser.
 - [storyboard](https://github.com/guigrpa/storyboard) - A library, plus a Chrome DevTools extension.

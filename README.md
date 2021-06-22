@@ -633,6 +633,7 @@
 - [winston](https://github.com/winstonjs/winston) - 多传输异步日志记录库。
 - [pino](https://github.com/pinojs/pino) - 受Bunyan启发的超快日志记录库。
 - [signale](https://github.com/klauscfhq/signale) - 高度可配置的日志工具。
+- [bunyan](https://github.com/trentm/node-bunyan) - 一个用于 Node.js 服务的简单快速的 JSON 日志模块。
 - [log4js-node](https://github.com/log4js-node/log4js-node) - 不同于Java log4j的日志记录库。
 - [consola](https://github.com/nuxt/consola) - 优雅的Node.js和浏览器日志记录库。
 - [storyboard](https://github.com/guigrpa/storyboard) - 一个Chrome浏览器插件，用于查看日志。
