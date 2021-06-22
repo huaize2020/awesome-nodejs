@@ -8,6 +8,7 @@ English | [简体中文](./README.md)
 - [Official](#official)
 - [Resources](#resources)
   - [Tools](#tools)
+  - [Tutorials](#tutorials)
 - [Repository](#repository)
   - [Text](#text)
   - [Number](#number)
@@ -94,6 +95,10 @@ English | [简体中文](./README.md)
 ### Tools
 
 - [npm.devtool](https://npm.devtool.tech/) - Find the best package for you, Analyze tech stack for your project.
+
+### Tutorials
+
+- [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) - The Node.js best practices list.
 
 ## Repository
 
