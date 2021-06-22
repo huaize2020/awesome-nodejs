@@ -45,6 +45,7 @@
   - [日志](#日志)
   - [进程管理](#进程管理)
   - [代码校验 和 格式化工具](#代码校验-和-格式化工具)
+  - [配置工具](#配置工具)
   - [构建工具](#构建工具)
   - [模板引擎](#模板引擎)
   - [Web框架](#web框架)
@@ -662,6 +663,13 @@
 - [markdownlint](https://github.com/DavidAnson/markdownlint) - Markdown/CommonMark风格检查工具。
 - [textlint](https://github.com/textlint/textlint) - Text 和 Markdown 校验和格式化。
 - [pretty-quick](https://github.com/azz/pretty-quick) - 快速美化。
+
+### 配置工具
+
+- [node-config](https://github.com/lorenwest/node-config) - Node.js 应用程序配置。
+- [nconf](https://github.com/indexzero/nconf) - 可通过文件、环境变量、命令行参数和对象 合并的分层 Node.js 配置。
+- [convict](https://github.com/mozilla/node-convict/tree/master/packages/convict) - Convict 扩展了配置 node.js 应用程序的标准模式，提供了更健壮且易于访问。
+- [rc](https://github.com/dominictarr/rc) - 懒人的配置加载器。
 
 ### 构建工具
 

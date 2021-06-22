@@ -39,6 +39,7 @@ English | [简体中文](./README.md)
   - [Logging](#logging)
   - [Process management](#process-management)
   - [Linter & Formatter](#linter--formatter)
+  - [Configuration Tools](#configuration-tools)
   - [Build Tools](#build-tools)
   - [Templating](#templating)
   - [Web Frameworks](#web-frameworks)
@@ -654,6 +655,13 @@ English | [简体中文](./README.md)
 - [markdownlint](https://github.com/DavidAnson/markdownlint) - A Node.js style checker and lint tool for Markdown/CommonMark files.
 - [textlint](https://github.com/textlint/textlint) - The pluggable natural language linter for text and markdown.
 - [pretty-quick](https://github.com/azz/pretty-quick) - ⚡ Get Pretty Quick.
+
+### Configuration Tools
+
+- [node-config](https://github.com/lorenwest/node-config) - Node.js Application Configuration.
+- [nconf](https://github.com/indexzero/nconf) - Hierarchical node.js configuration with files, environment variables, command-line arguments, and atomic object merging.
+- [convict](https://github.com/mozilla/node-convict/tree/master/packages/convict) - Convict expands on the standard pattern of configuring node.js applications in a way that is more robust and accessible to collaborators.
+- [rc](https://github.com/dominictarr/rc) - The non-configurable configuration loader for lazy people.
 
 ### Build Tools
 
