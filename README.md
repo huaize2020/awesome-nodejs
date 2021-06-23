@@ -499,6 +499,7 @@
   - [pkg-dir](https://github.com/sindresorhus/pkg-dir) - 查找npm包的根目录。
   - [read-pkg](https://github.com/sindresorhus/read-pkg) - 读取package.json文件。
   - [write-pkg](https://github.com/sindresorhus/write-pkg) - 写入package.json文件。
+  - [read-package-json-fast](https://github.com/npm/read-package-json-fast) - 类似 read-package-json, 但更快。
 
 - 语义化版本
   - [semver](https://github.com/npm/node-semver) - NPM使用的JavaScript语义化版本号解析器。

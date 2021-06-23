@@ -491,6 +491,7 @@ English | [简体中文](./README.md)
   - [pkg-dir](https://github.com/sindresorhus/pkg-dir) - Find the root directory of an npm package.
   - [read-pkg](https://github.com/sindresorhus/read-pkg) - Read a package.json file.
   - [write-pkg](https://github.com/sindresorhus/write-pkg) - Write a package.json file.
+  - [read-package-json-fast](https://github.com/npm/read-package-json-fast) - Like read-package-json, but faster.
 
 - Semantic Version
   - [semver](https://github.com/npm/node-semver) - The semver parser for node (the one npm uses).
