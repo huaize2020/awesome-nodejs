@@ -193,6 +193,7 @@
 - [minimatch](https://github.com/isaacs/minimatch) - 最小匹配工具。
 - [micromatch](https://github.com/micromatch/micromatch) - 高度优化的通配符和全局匹配库。更快，直接替换到 minimatch 和 multimatch。由webpack、babel core、yarn、jest、browser-sync、documentation.js、stylelint、nyc、ava以及许多其他资源使用！
 - [randexp.js](https://github.com/fent/randexp.js) - 根据给定的正则表达式，生成随机字符串。
+- [safe-regex](https://github.com/substack/safe-regex) - 检测可能是灾难性的、指数时间的正则表达式。
 - [matcher](https://github.com/sindresorhus/matcher) - 简单通配符匹配。
 - [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - 转义特殊正则字符。
 - [multimatch](https://github.com/sindresorhus/multimatch) - 扩展 minimatch.match() 以支持多种模式。
