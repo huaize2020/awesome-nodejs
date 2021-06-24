@@ -274,6 +274,7 @@
 - [hash.js](https://github.com/indutny/hash.js) - 使用纯JavaScript的哈希实现。
 - [sm-crypto](https://github.com/JuneAndGreen/sm-crypto) - sm2, sm3, sm4的JavaScript实现。
 - [sha.js](https://github.com/crypto-browserify/sha.js) - 使用纯JavaScript中的流式SHA哈希。
+- [cryptr](https://github.com/MauriceButler/cryptr) - 非常基础的加密和解密Node.js模块。
 - [pbkdf2](https://github.com/crypto-browserify/pbkdf2) - 在Node中具有任何受支持的哈希算法PBKDF2。
 - [bcrypt-pbkdf](https://github.com/joyent/node-bcrypt-pbkdf) - POpenBSD `bcrypt_pbkdf` Javascript实现。
 
