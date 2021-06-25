@@ -1245,6 +1245,9 @@
 ### 低代码（Lowcode）
 *(你也许会喜欢 [awesome-lowcode](https://github.com/taowen/awesome-lowcode))*
 
+- H5/PC
+  - [amis](https://github.com/baidu/amis) - 前端低代码框架，通过 JSON 配置就能生成各种页面。
+
 - H5
   - [h5-Dooring](https://github.com/MrXujiang/h5-Dooring) - 让H5制作像搭积木一样简单, 轻松搭建H5页面, H5网站, PC端网站, 可视化设计,LowCode平台。
   - [luban-h5](https://github.com/ly525/luban-h5) - 类似易企秀的H5制作、建站工具、可视化搭建系统。

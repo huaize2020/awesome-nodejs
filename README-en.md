@@ -1235,6 +1235,9 @@ English | [简体中文](./README.md)
 
 ### Lowcode
 
+- H5/PC
+  - [amis](https://github.com/baidu/amis) - LowCode Framework, Generate various pages through JSON configuration.
+
 - H5
   - [h5-Dooring](https://github.com/MrXujiang/h5-Dooring) - H5 Page Maker, H5 Editor, LowCode. Make H5 as easy as building blocks.
   - [luban-h5](https://github.com/ly525/luban-h5) - Web design tool || mobile page builder/editor || mini webflow for mobile page.
