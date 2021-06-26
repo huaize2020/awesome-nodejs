@@ -355,6 +355,7 @@ English | [简体中文](./README.md)
 - [Superstruct](https://github.com/ianstormtaylor/superstruct) - Simple and composable way to validate data in JavaScript (and TypeScript).
 - [v8n](https://github.com/imbrn/v8n) - JavaScript fluent validation library
 - [forgJs](https://github.com/oussamahamdaoui/forgJs) - Javascript lightweight object validator.
+- [jsonschema](https://github.com/tdegrunt/jsonschema) - JSON Schema validation.
 - [validatorjs](https://github.com/mikeerickson/validatorjs) - Data validation library in JavaScript for the browser and Node.js, inspired by Laravel's Validator.
 - [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) - JSON Schema validator that uses code generation to be extremely fast.
 - [property-validator](https://github.com/nettofarah/property-validator) - Easy property validation for JavaScript, Node and Express.
