@@ -248,6 +248,11 @@
 - [image-type](https://github.com/sindresorhus/image-type) - 检测Buffer / Uint8Array的图像类型.
 - [node-bitmap](https://github.com/nowelium/node-bitmap) - 纯JavaScript Bitmap库。
 
+### 视频处理
+
+- [FFCreator](https://github.com/tnfe/FFCreator) - 一个基于node.js的高速短视频加工库。
+- [node-ffmpeg](https://github.com/damianociarla/node-ffmpeg) - Nodejs版Ffmpeg模块。
+
 ### 字体
 
 - [font-spider](https://github.com/aui/font-spider) - 字蛛是一个智能 WebFont 压缩工具，它能自动分析出页面使用的 WebFont 并进行按需压缩。
@@ -744,6 +749,7 @@
 - [daruk](https://github.com/darukjs/daruk) - 基于 typescript 的 Node.js web 框架。
 - [Hemera](https://github.com/hemerajs/hemera) - 使用以下工具编写可靠且容错的微服务 [NATS](https://nats.io)。
 - [restana](https://github.com/BackendStack21/restana) - 用于构建REST微服务的超快速和简约的框架。
+- [malagu](https://github.com/alibaba/malagu) - Malagu 是基于 TypeScript 的 Serverless First、可扩展和组件化的应用框架。
 - [Zeronode](https://github.com/sfast/zeronode) - 最小的构建块，可实现可靠且容错的微服务。
 
 ### 内容管理系统 (CMS)
