@@ -244,6 +244,7 @@ English | [简体中文](./README.md)
 
 ### Video
 
+- [fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg) - A fluent API to FFMPEG (http://www.ffmpeg.org)
 - [FFCreator](https://github.com/tnfe/FFCreator) - A fast short video processing library based on node.js.
 - [node-ffmpeg](https://github.com/damianociarla/node-ffmpeg) - Ffmpeg module for nodejs.
 

@@ -251,6 +251,7 @@
 
 ### 视频处理
 
+- [fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg) - FFMPEG的流畅API (http://www.ffmpeg.org)
 - [FFCreator](https://github.com/tnfe/FFCreator) - 一个基于node.js的高速短视频加工库。
 - [node-ffmpeg](https://github.com/damianociarla/node-ffmpeg) - Nodejs版Ffmpeg模块。
 
