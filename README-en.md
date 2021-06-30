@@ -83,6 +83,7 @@ English | [简体中文](./README.md)
   - [Machine learning & Neural networks](#machine-learning--neural-networks)
   - [Natural language processing](#natural-language-processing)
   - [OCR](#ocr)
+  - [Bitcoin](#bitcoin)
 - [Project](#project)
   - [Lowcode](#lowcode)
 
@@ -95,6 +96,7 @@ English | [简体中文](./README.md)
 
 ### Tools
 
+- [openbase](https://openbase.com/) - Choose the right package every time. JavaScript supported, more languages coming soon.
 - [npm.devtool](https://npm.devtool.tech/) - Find the best package for you, Analyze tech stack for your project.
 
 ### Tutorials
