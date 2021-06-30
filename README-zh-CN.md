@@ -1250,6 +1250,12 @@
 - [tesseract.js](https://github.com/naptha/tesseract.js) - 100 多种语言的纯 Javascript OCR。
 - [Parsr](https://github.com/axa-group/Parsr) - 将 PDF、文档和图像转换为丰富的结构化数据。
 
+### 比特币
+
+- [GitTorrent](https://github.com/cjb/GitTorrent) - 使用 BitTorrent 和比特币的 GitHub 去中心化。
+- [bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib) - 一个用于 node.js 和浏览器的 javascript 比特币库。
+- [bitcore](https://github.com/bitpay/bitcore) - 比特币和基于区块链的应用程序的全栈。
+
 ## 项目
 
 ### 低代码（Lowcode）
