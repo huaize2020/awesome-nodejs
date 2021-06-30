@@ -238,6 +238,7 @@
 - [gm](https://github.com/aheckmann/gm) - GraphicsMagick 和 ImageMagick 封装。
 - [qrcode](https://github.com/soldair/node-qrcode) - 二维码和条形码生成器。
 - [pixelmatch](https://github.com/mapbox/pixelmatch) - 最小、最简单、最快的 JavaScript 像素级图像比较库。
+- [Resemble.js](https://github.com/rsmbl/Resemble.js) - 图像分析和比较。
 - [pica](https://github.com/nodeca/pica) - 使用纯JS中的高质量和快速调整大小（lanczos3）。 当不允许像素化时替代canvas drawImage()。
 - [jsQR](https://github.com/cozmo/jsQR) - 一个纯javascript的二维码读取库。 该库接收原始图像，并将定位、提取和解析其中发现的任何二维码。
 - [lwip](https://github.com/EyalAr/lwip) - 不需要ImageMagick的轻量级图像处理器.
