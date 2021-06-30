@@ -1241,6 +1241,12 @@ English | [简体中文](./README.md)
 - [tesseract.js](https://github.com/naptha/tesseract.js) - Pure Javascript OCR for more than 100 Languages.
 - [Parsr](https://github.com/axa-group/Parsr) - Transforms PDF, Documents and Images into Enriched Structured Data.
 
+### Bitcoin
+
+- [GitTorrent](https://github.com/cjb/GitTorrent) - A decentralization of GitHub using BitTorrent and Bitcoin.
+- [bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib) - A javascript Bitcoin library for node.js and browsers.
+- [bitcore](https://github.com/bitpay/bitcore) - A full stack for bitcoin and blockchain-based applications.
+
 ## Project
 
 ### Lowcode
