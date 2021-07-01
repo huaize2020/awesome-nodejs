@@ -745,7 +745,7 @@ English | [简体中文](./README.md)
 - [daruk](https://github.com/darukjs/daruk) - A node.js web framework based on typescript.
 - [Hemera](https://github.com/hemerajs/hemera) - Write reliable and fault-tolerant microservices with [NATS](https://nats.io).
 - [restana](https://github.com/BackendStack21/restana) - Super fast and minimalist framework for building REST micro-services.
-- [malagu](https://github.com/alibaba/malagu) - Malagu is a serverless First, scalable and componentized application framework developed by TypeScript.
+- [malagu](https://github.com/cellbang/malagu) - Malagu is a serverless First, scalable and componentized application framework developed by TypeScript.
 - [Zeronode](https://github.com/sfast/zeronode) - Minimal building block for reliable and fault-tolerant microservices.
 
 ### Content management systems (CMS)
