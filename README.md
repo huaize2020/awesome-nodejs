@@ -754,6 +754,7 @@
 - [daruk](https://github.com/darukjs/daruk) - 基于 typescript 的 Node.js web 框架。
 - [Hemera](https://github.com/hemerajs/hemera) - 使用以下工具编写可靠且容错的微服务 [NATS](https://nats.io)。
 - [restana](https://github.com/BackendStack21/restana) - 用于构建REST微服务的超快速和简约的框架。
+- [CabloyJS](https://github.com/zhennann/Cabloy) - 一款自带工作流引擎的Node.js全栈框架。
 - [malagu](https://github.com/cellbang/malagu) - Malagu 是基于 TypeScript 的 Serverless First、可扩展和组件化的应用框架。
 - [Zeronode](https://github.com/sfast/zeronode) - 最小的构建块，可实现可靠且容错的微服务。
 
