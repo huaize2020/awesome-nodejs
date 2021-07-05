@@ -1097,13 +1097,11 @@ English | [简体中文](./README.md)
 
 - Proxy
   - [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP proxy.
+  - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - ⚡ The one-liner node.js http-proxy middleware for connect, express and browser-sync.
   - [https-proxy-agent](https://github.com/TooTallNate/node-https-proxy-agent) - An HTTP(s) proxy `http.Agent` implementation for HTTPS endpoints.
   - [global-agent](https://github.com/gajus/global-agent) - Global HTTP/HTTPS proxy agent that is configurable using environment variables.
   - [fast-proxy](https://github.com/fastify/fast-proxy) - Node.js framework agnostic library that enables you to forward an http request to another HTTP server. Supported protocols: HTTP, HTTPS, HTTP2.
   - [argo](https://github.com/argo/argo) - An extensible, asynchronous HTTP reverse proxy and origin server.
-
-- Middleware
-  - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - ⚡ The one-liner node.js http-proxy middleware for connect, express and browser-sync.
 
 - Download
   - [download](https://github.com/kevva/download) - Download and extract files effortlessly.
