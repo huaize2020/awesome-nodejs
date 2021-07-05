@@ -1106,13 +1106,11 @@
 
 - 代理
   - [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP代理。
+  - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - ⚡用于connect，express和browser-sync的单线Node.js Http代理中间件。
   - [https-proxy-agent](https://github.com/TooTallNate/node-https-proxy-agent) - HTTP(S) 代理 `http.Agent`实现。
   - [global-agent](https://github.com/gajus/global-agent) - 可以使用环境变量配置的全局 HTTP/HTTPS 代理。
   - [fast-proxy](https://github.com/fastify/fast-proxy) - Node.js框架，使您可以将http请求转发到另一个HTTP服务器。 支持的协议：HTTP，HTTPS，HTTP2。
   - [argo](https://github.com/argo/argo) - 一个可扩展的异步 HTTP 反向代理和源服务器。
-
-- 中间件
-  - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - ⚡用于connect，express和browser-sync的单线Node.js Http代理中间件。
 
 - 下载
   - [download](https://github.com/kevva/download) - 轻松下载和提取文件。
