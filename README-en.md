@@ -484,8 +484,9 @@ English | [简体中文](./README.md)
 - [nvm for Windows](https://github.com/coreybutler/nvm-windows) - Version management for Windows.
 - [n](https://github.com/tj/n) - Node.js version management.
 - [fnm](https://github.com/Schniz/fnm) - 🚀 Fast and simple Node.js version manager, built in Rust.
-- [nave](https://github.com/isaacs/nave) - Virtual Environments for Node.js.
 - [nodenv](https://github.com/nodenv/nodenv) - Version manager that is similar to Ruby's rbenv. It supports auto version switching.
+- [nave](https://github.com/isaacs/nave) - Virtual Environments for Node.js.
+- [nvs](https://github.com/jasongin/nvs) - Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js
 - [nodeenv](https://github.com/ekalinin/nodeenv) - Node.js virtual environment compatible to Python's virtualenv.
 
 ### NPM
