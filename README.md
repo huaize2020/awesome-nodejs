@@ -492,8 +492,9 @@
 - [nvm for Windows](https://github.com/coreybutler/nvm-windows) -  Node.js版本管理工具Windows版。
 - [n](https://github.com/tj/n) - Node.js版本管理工具。
 - [fnm](https://github.com/Schniz/fnm) - 🚀 快速、轻量的Node.js版本管理工具，由Rust构建。
-- [nave](https://github.com/isaacs/nave) - Node.js虚拟环境。
 - [nodenv](https://github.com/nodenv/nodenv) - 版本管理工具（类似Ruby的 rbenv ），它支持自动切换。
+- [nave](https://github.com/isaacs/nave) - Node.js虚拟环境。
+- [nvs](https://github.com/jasongin/nvs) - Node Version Switcher - 一个跨平台的工具，用于在 Node.js 的版本之间切换。
 - [nodeenv](https://github.com/ekalinin/nodeenv) - 与Python的 virtualenv 兼容的Node.js虚拟环境。
 
 ### NPM
