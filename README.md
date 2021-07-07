@@ -399,6 +399,7 @@
 
 ### Shell
 
+- [zx](https://github.com/google/zx) - 用于编写更好脚本的工具。
 - [shelljs](https://github.com/shelljs/shelljs) - 跨平台Unix shell命令。
 - [execa](https://github.com/sindresorhus/execa) - 跨平台实现子进程执行 `child_process.{execFile,exec}`。
 - [node-windows](https://github.com/coreybutler/node-windows) - Node.js上支持的Windows脚本。如(daemons, eventlog, UAC等)。
