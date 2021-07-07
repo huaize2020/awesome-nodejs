@@ -1025,6 +1025,7 @@ English | [简体中文](./README.md)
 - [adm-zip](https://github.com/cthackers/adm-zip) - Create, read and edit .zip files with Javascript.
 - [node-tar](https://github.com/npm/node-tar) - Fast and full-featured Tar for Node.js.
 - [yauzl](https://github.com/thejoshwolfe/yauzl) - Yet another unzip library for node.
+- [unzipper](https://github.com/ZJONSSON/node-unzipper) - Node.js cross-platform unzip using streams.
 - [tar-fs](https://github.com/mafintosh/tar-fs) - Tar-fs allows you to pack directories into tarballs and extract tarballs into directories.
 - [compressing](https://github.com/node-modules/compressing) - Everything you need for compressing and uncompressing.
 - [yazl](https://github.com/thejoshwolfe/yazl) - Yet another zip library for node.
