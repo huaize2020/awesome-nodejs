@@ -391,6 +391,7 @@ English | [简体中文](./README.md)
 
 ### Shell
 
+- [zx](https://github.com/google/zx) - A tool for writing better scripts.
 - [shelljs](https://github.com/shelljs/shelljs) - Cross-platform Unix shell commands.
 - [execa](https://github.com/sindresorhus/execa) - Cross-platform implementation of `child_process.{execFile,exec}`.
 - [node-windows](https://github.com/coreybutler/node-windows) - Windows support for Node.js scripts (daemons, eventlog, UAC, etc).
