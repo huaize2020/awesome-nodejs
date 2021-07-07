@@ -1034,6 +1034,7 @@
 - [adm-zip](https://github.com/cthackers/adm-zip) - 使用JavaScript创建、读取、编辑.zip文件。
 - [node-tar](https://github.com/npm/node-tar) - 快速且功能齐全的Tar。
 - [yauzl](https://github.com/thejoshwolfe/yauzl) - Node.js unzip解压库。
+- [unzipper](https://github.com/ZJONSSON/node-unzipper) - 使用流的Node.js跨平台解压缩。
 - [tar-fs](https://github.com/mafintosh/tar-fs) - tar-fs允许您将目录打包到tar格式压缩包中，并将tar格式压缩包提取到目录中。
 - [compressing](https://github.com/node-modules/compressing) - 压缩和解压缩你所需的一切。
 - [yazl](https://github.com/thejoshwolfe/yazl) - Node.js zip压缩库。
