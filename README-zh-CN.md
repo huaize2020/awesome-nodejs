@@ -519,6 +519,10 @@
   - [semver](https://github.com/npm/node-semver) - NPM使用的JavaScript语义化版本号解析器。
   - [compare-versions](https://github.com/omichelsen/compare-versions) - 比较semver版本字符串，找出哪个更大，哪个相等，哪个更小。
 
+- NPM私有部署
+  - [verdaccio](https://github.com/verdaccio/verdaccio) - 私有轻量级的NPM镜像。
+  - [cnpmjs.org](https://github.com/cnpm/cnpmjs.org) - 企业级私有NPM镜像和Web界面。
+
 - 工具
   - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - 查找当前package.json依赖允许的更新的版本。
   - [concurrently](https://github.com/kimmobrunfeldt/concurrently) - 并行执行命令，类似 `npm run watch-js & npm run watch-less`但更优。
