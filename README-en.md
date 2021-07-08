@@ -511,6 +511,10 @@ English | [简体中文](./README.md)
   - [semver](https://github.com/npm/node-semver) - The semver parser for node (the one npm uses).
   - [compare-versions](https://github.com/omichelsen/compare-versions) - Compare semver version strings to find which is greater, equal or lesser.
 
+- Private Npm Registry
+  - [verdaccio](https://github.com/verdaccio/verdaccio) - A lightweight private proxy registry build in Node.js.
+  - [cnpmjs.org](https://github.com/cnpm/cnpmjs.org) - Private npm registry and web for Enterprise.
+
 - Utilities
   - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - Find newer versions of package dependencies than what your package.json allows.
   - [concurrently](https://github.com/kimmobrunfeldt/concurrently) - Run commands concurrently. Like `npm run watch-js & npm run watch-less` but better.
