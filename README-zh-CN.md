@@ -1215,6 +1215,7 @@
 
 - [vm2](https://github.com/patriksimek/vm2) - Node.js高级虚拟机/沙箱。
 - [sandbox](https://github.com/gf3/sandbox) - 用于Node.js漂亮的JavaScript沙箱。
+- [safeify](https://github.com/Houfeng/safeify) - Safeify 可让 Node 应用安全的隔离执行非信任的用户自定义代码。
 
 ### 硬件
 
