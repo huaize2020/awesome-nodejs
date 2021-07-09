@@ -934,6 +934,8 @@ English | [简体中文](./README.md)
 ### Serverless
 
 - [serverless](https://github.com/serverless/serverless) - Serverless Framework – Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more!
+- [@midway/faas](https://github.com/midwayjs/midway/tree/2.x/packages/faas) - Midway FaaS is the Serverless framework used to build Node.js cloud functions.
+- [malagu](https://github.com/cellbang/malagu) - Malagu is a Serverless First, componentized, platform-independent progressive application framework based on TypeScript.
 
 ### Automation & RPA
 
