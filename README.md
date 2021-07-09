@@ -943,6 +943,8 @@
 ### Serverless
 
 - [serverless](https://github.com/serverless/serverless) - 无服务器框架 – 使用 AWS Lambda、Azure Functions、Google CloudFunctions 等无服务器架构构建 Web、移动和 IoT 应用程序。
+- [@midway/faas](https://github.com/midwayjs/midway/tree/2.x/packages/faas) - Midway FaaS 是用于构建 Node.js 云功能的 Serverless 框架。
+- [malagu](https://github.com/cellbang/malagu) - Malagu 是基于 TypeScript 的 Serverless First、可扩展和组件化的应用框架。
 
 ### 自动化 & 机器人流程自动化 - RPA
 
