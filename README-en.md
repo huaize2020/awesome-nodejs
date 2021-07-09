@@ -1206,6 +1206,7 @@ English | [简体中文](./README.md)
 
 - [vm2](https://github.com/patriksimek/vm2) - Advanced vm/sandbox for Node.js.
 - [sandbox](https://github.com/gf3/sandbox) - A nifty javascript sandbox for node.js.
+- [safeify](https://github.com/Houfeng/safeify) - Safe sandbox that can be used to execute untrusted code.
 
 ### Hardware
 
