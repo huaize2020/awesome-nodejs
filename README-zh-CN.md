@@ -504,6 +504,7 @@
   - [pnpm](https://github.com/pnpm/pnpm) - 快速、节省磁盘空间高效的包管理器。
   - [npm](https://github.com/npm/cli) - JavaScript包管理工具。
   - [yarn](https://github.com/yarnpkg/berry) - 现代包管理工具，拆分成多个不同的包。
+  - [yalc](https://github.com/wclr/yalc) - 更适用的前端link工具。
   - [nrm](https://github.com/Pana/nrm) - 快速切换npm注册服务商，如npm、cnpm、nj、taobao。
   - [cnpm](https://github.com/cnpm/cnpm) - NPM中国区镜像客户端。
 
@@ -518,10 +519,6 @@
 - 语义化版本
   - [semver](https://github.com/npm/node-semver) - NPM使用的JavaScript语义化版本号解析器。
   - [compare-versions](https://github.com/omichelsen/compare-versions) - 比较semver版本字符串，找出哪个更大，哪个相等，哪个更小。
-
-- NPM私有部署
-  - [verdaccio](https://github.com/verdaccio/verdaccio) - 私有轻量级的NPM镜像。
-  - [cnpmjs.org](https://github.com/cnpm/cnpmjs.org) - 企业级私有NPM镜像和Web界面。
 
 - 工具
   - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - 查找当前package.json依赖允许的更新的版本。
@@ -943,8 +940,6 @@
 ### Serverless
 
 - [serverless](https://github.com/serverless/serverless) - 无服务器框架 – 使用 AWS Lambda、Azure Functions、Google CloudFunctions 等无服务器架构构建 Web、移动和 IoT 应用程序。
-- [@midway/faas](https://github.com/midwayjs/midway/tree/2.x/packages/faas) - Midway FaaS 是用于构建 Node.js 云功能的 Serverless 框架。
-- [malagu](https://github.com/cellbang/malagu) - Malagu 是基于 TypeScript 的 Serverless First、可扩展和组件化的应用框架。
 
 ### 自动化 & 机器人流程自动化 - RPA
 
@@ -1217,7 +1212,6 @@
 
 - [vm2](https://github.com/patriksimek/vm2) - Node.js高级虚拟机/沙箱。
 - [sandbox](https://github.com/gf3/sandbox) - 用于Node.js漂亮的JavaScript沙箱。
-- [safeify](https://github.com/Houfeng/safeify) - Safeify 可让 Node 应用安全的隔离执行非信任的用户自定义代码。
 
 ### 硬件
 
