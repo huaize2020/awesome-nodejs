@@ -496,6 +496,7 @@ English | [简体中文](./README.md)
   - [pnpm](https://github.com/pnpm/pnpm) - Fast, disk space efficient package manager.
   - [npm](https://github.com/npm/cli) - The package manager for JavaScript.
   - [yarn](https://github.com/yarnpkg/berry) - A modern package manager split into various packages.
+  - [yalc](https://github.com/wclr/yalc) - Work with yarn/npm packages locally like a boss.
   - [nrm](https://github.com/Pana/nrm) - About NPM registry manager, fast switch between different registries: npm, cnpm, nj, taobao.
   - [cnpm](https://github.com/cnpm/cnpm) - Npm client for China mirror of npm.
 
@@ -510,10 +511,6 @@ English | [简体中文](./README.md)
 - Semantic Version
   - [semver](https://github.com/npm/node-semver) - The semver parser for node (the one npm uses).
   - [compare-versions](https://github.com/omichelsen/compare-versions) - Compare semver version strings to find which is greater, equal or lesser.
-
-- Private Npm Registry
-  - [verdaccio](https://github.com/verdaccio/verdaccio) - A lightweight private proxy registry build in Node.js.
-  - [cnpmjs.org](https://github.com/cnpm/cnpmjs.org) - Private npm registry and web for Enterprise.
 
 - Utilities
   - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - Find newer versions of package dependencies than what your package.json allows.
@@ -934,8 +931,6 @@ English | [简体中文](./README.md)
 ### Serverless
 
 - [serverless](https://github.com/serverless/serverless) - Serverless Framework – Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more!
-- [@midway/faas](https://github.com/midwayjs/midway/tree/2.x/packages/faas) - Midway FaaS is the Serverless framework used to build Node.js cloud functions.
-- [malagu](https://github.com/cellbang/malagu) - Malagu is a Serverless First, componentized, platform-independent progressive application framework based on TypeScript.
 
 ### Automation & RPA
 
@@ -1208,7 +1203,6 @@ English | [简体中文](./README.md)
 
 - [vm2](https://github.com/patriksimek/vm2) - Advanced vm/sandbox for Node.js.
 - [sandbox](https://github.com/gf3/sandbox) - A nifty javascript sandbox for node.js.
-- [safeify](https://github.com/Houfeng/safeify) - Safe sandbox that can be used to execute untrusted code.
 
 ### Hardware
 
