@@ -237,11 +237,13 @@ English | [简体中文](./README.md)
 - [pica](https://github.com/nodeca/pica) - High quality & fast resize (lanczos3) in pure JS. Alternative to canvas drawImage(), when no pixelation allowed.
 - [jsQR](https://github.com/cozmo/jsQR) - A pure javascript QR code reading library. This library takes in raw images and will locate, extract and parse any QR code found within.
 - [lwip](https://github.com/EyalAr/lwip) - Lightweight image processor which does not require ImageMagick.
+- [gifski](https://github.com/ImageOptim/gifski) - GIF encoder based on libimagequant (pngquant). Squeezes maximum possible quality from the awful GIF format.
 - [probe-image-size](https://github.com/nodeca/probe-image-size) - Get the size of most image formats without a full download.
 - [omggif](https://github.com/deanm/omggif) - JavaScript implementation of a GIF 89a encoder and decoder.
 - [jpeg-js](https://github.com/jpeg-js/jpeg-js) - A pure javascript JPEG encoder and decoder for node.js.
 - [pngjs](https://github.com/lukeapage/pngjs) - Simple PNG encoder/decoder.
 - [get-pixels](https://github.com/scijs/get-pixels) - Reads an image into an ndarray.
+- [gifencoder](https://github.com/eugeneware/gifencoder) - Server side animated gif generation for node.js.
 - [image-type](https://github.com/sindresorhus/image-type) - Detect the image type of a Buffer/Uint8Array.
 - [node-bitmap](https://github.com/nowelium/node-bitmap) - Pure javascript Bitmap library.
 
@@ -511,6 +513,10 @@ English | [简体中文](./README.md)
 - Semantic Version
   - [semver](https://github.com/npm/node-semver) - The semver parser for node (the one npm uses).
   - [compare-versions](https://github.com/omichelsen/compare-versions) - Compare semver version strings to find which is greater, equal or lesser.
+
+- Private Npm Registry
+  - [verdaccio](https://github.com/verdaccio/verdaccio) - A lightweight private proxy registry build in Node.js.
+  - [cnpmjs.org](https://github.com/cnpm/cnpmjs.org) - Private npm registry and web for Enterprise.
 
 - Utilities
   - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - Find newer versions of package dependencies than what your package.json allows.
@@ -931,6 +937,8 @@ English | [简体中文](./README.md)
 ### Serverless
 
 - [serverless](https://github.com/serverless/serverless) - Serverless Framework – Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more!
+- [@midway/faas](https://github.com/midwayjs/midway/tree/2.x/packages/faas) - Midway FaaS is the Serverless framework used to build Node.js cloud functions.
+- [malagu](https://github.com/cellbang/malagu) - Malagu is a Serverless First, componentized, platform-independent progressive application framework based on TypeScript.
 
 ### Automation & RPA
 
@@ -1203,6 +1211,7 @@ English | [简体中文](./README.md)
 
 - [vm2](https://github.com/patriksimek/vm2) - Advanced vm/sandbox for Node.js.
 - [sandbox](https://github.com/gf3/sandbox) - A nifty javascript sandbox for node.js.
+- [safeify](https://github.com/Houfeng/safeify) - Safe sandbox that can be used to execute untrusted code.
 
 ### Hardware
 
