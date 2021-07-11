@@ -243,12 +243,14 @@
 - [Resemble.js](https://github.com/rsmbl/Resemble.js) - 图像分析和比较。
 - [pica](https://github.com/nodeca/pica) - 使用纯JS中的高质量和快速调整大小（lanczos3）。 当不允许像素化时替代canvas drawImage()。
 - [jsQR](https://github.com/cozmo/jsQR) - 一个纯javascript的二维码读取库。 该库接收原始图像，并将定位、提取和解析其中发现的任何二维码。
-- [lwip](https://github.com/EyalAr/lwip) - 不需要ImageMagick的轻量级图像处理器.
+- [lwip](https://github.com/EyalAr/lwip) - 不需要ImageMagick的轻量级图像处理器。
+- [gifski](https://github.com/ImageOptim/gifski) - 基于 libimagequant (pngquant) 的 GIF 编码器。 从糟糕的 GIF 格式中挤出最大可能的质量。
 - [probe-image-size](https://github.com/nodeca/probe-image-size) - 无需完全下载即可获取大多数图像格式的大小.
 - [omggif](https://github.com/deanm/omggif) - GIF 89a编码解码器。
 - [jpeg-js](https://github.com/jpeg-js/jpeg-js) - 使用纯JavaScript的JPEG编码和解码器。
 - [pngjs](https://github.com/lukeapage/pngjs) - 简单的PNG编码解码器。
 - [get-pixels](https://github.com/scijs/get-pixels) - 将图像读入ndarray。
+- [gifencoder](https://github.com/eugeneware/gifencoder) - Node.js 服务器端动画 gif 生成。
 - [image-type](https://github.com/sindresorhus/image-type) - 检测Buffer / Uint8Array的图像类型.
 - [node-bitmap](https://github.com/nowelium/node-bitmap) - 纯JavaScript Bitmap库。
 
@@ -519,6 +521,10 @@
 - 语义化版本
   - [semver](https://github.com/npm/node-semver) - NPM使用的JavaScript语义化版本号解析器。
   - [compare-versions](https://github.com/omichelsen/compare-versions) - 比较semver版本字符串，找出哪个更大，哪个相等，哪个更小。
+
+- NPM私有部署
+  - [verdaccio](https://github.com/verdaccio/verdaccio) - 私有轻量级的NPM镜像。
+  - [cnpmjs.org](https://github.com/cnpm/cnpmjs.org) - 企业级私有NPM镜像和Web界面。
 
 - 工具
   - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - 查找当前package.json依赖允许的更新的版本。
@@ -940,6 +946,8 @@
 ### Serverless
 
 - [serverless](https://github.com/serverless/serverless) - 无服务器框架 – 使用 AWS Lambda、Azure Functions、Google CloudFunctions 等无服务器架构构建 Web、移动和 IoT 应用程序。
+- [@midway/faas](https://github.com/midwayjs/midway/tree/2.x/packages/faas) - Midway FaaS 是用于构建 Node.js 云功能的 Serverless 框架。
+- [malagu](https://github.com/cellbang/malagu) - Malagu 是基于 TypeScript 的 Serverless First、可扩展和组件化的应用框架。
 
 ### 自动化 & 机器人流程自动化 - RPA
 
@@ -1212,6 +1220,7 @@
 
 - [vm2](https://github.com/patriksimek/vm2) - Node.js高级虚拟机/沙箱。
 - [sandbox](https://github.com/gf3/sandbox) - 用于Node.js漂亮的JavaScript沙箱。
+- [safeify](https://github.com/Houfeng/safeify) - Safeify 可让 Node 应用安全的隔离执行非信任的用户自定义代码。
 
 ### 硬件
 
