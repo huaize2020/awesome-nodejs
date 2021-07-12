@@ -162,6 +162,7 @@
 - [bignumber.js](https://github.com/MikeMcl/bignumber.js) - 用于任意精度十进制和非十进制算术的 JavaScript 库。
 - [decimal.js](https://github.com/MikeMcl/decimal.js) - JavaScript的任意精度的十进制类型。
 - [big.js](https://github.com/MikeMcl/big.js) - 一个小型，快速的JavaScript库，用于任意精度的十进制算术运算。
+- [random-js](https://github.com/ckknight/random-js) - 一个 JavaScript 随机数生成库。
 - [round-to](https://github.com/sindresorhus/round-to) - 将数字四舍五入到指定的小数位数：`1.234`→1.2`。
 - [unique-random](https://github.com/sindresorhus/unique-random) - 生成连续唯一的随机数。
 - [random-int](https://github.com/sindresorhus/random-int) - 生成随机整数。
@@ -1045,6 +1046,7 @@
 - [yauzl](https://github.com/thejoshwolfe/yauzl) - Node.js unzip解压库。
 - [unzipper](https://github.com/ZJONSSON/node-unzipper) - 使用流的Node.js跨平台解压缩。
 - [tar-fs](https://github.com/mafintosh/tar-fs) - tar-fs允许您将目录打包到tar格式压缩包中，并将tar格式压缩包提取到目录中。
+- [extract-zip](https://github.com/maxogden/extract-zip) - 用纯 JavaScript 编写的 Zip 提取。 将 zip 解压缩到目录中。
 - [compressing](https://github.com/node-modules/compressing) - 压缩和解压缩你所需的一切。
 - [yazl](https://github.com/thejoshwolfe/yazl) - Node.js zip压缩库。
 - [7zip](https://github.com/fritx/win-7zip) - Windows包压缩/解压 - 7zip。
