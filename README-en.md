@@ -155,6 +155,7 @@ English | [简体中文](./README.md)
 - [bignumber.js](https://github.com/MikeMcl/bignumber.js) - A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic.
 - [decimal.js](https://github.com/MikeMcl/decimal.js) - An arbitrary-precision Decimal type for JavaScript.
 - [big.js](https://github.com/MikeMcl/big.js) - A small, fast JavaScript library for arbitrary-precision decimal arithmetic.
+- [random-js](https://github.com/ckknight/random-js) - A mathematically correct random number generator library for JavaScript.
 - [round-to](https://github.com/sindresorhus/round-to) - Round a number to a specific number of decimal places: `1.234` → `1.2`.
 - [unique-random](https://github.com/sindresorhus/unique-random) - Generate random numbers that are consecutively unique.
 - [random-int](https://github.com/sindresorhus/random-int) - Generate a random integer.
@@ -1036,6 +1037,7 @@ English | [简体中文](./README.md)
 - [yauzl](https://github.com/thejoshwolfe/yauzl) - Yet another unzip library for node.
 - [unzipper](https://github.com/ZJONSSON/node-unzipper) - Node.js cross-platform unzip using streams.
 - [tar-fs](https://github.com/mafintosh/tar-fs) - Tar-fs allows you to pack directories into tarballs and extract tarballs into directories.
+- [extract-zip](https://github.com/maxogden/extract-zip) - Zip extraction written in pure JavaScript. Extracts a zip into a directory.
 - [compressing](https://github.com/node-modules/compressing) - Everything you need for compressing and uncompressing.
 - [yazl](https://github.com/thejoshwolfe/yazl) - Yet another zip library for node.
 - [7zip](https://github.com/fritx/win-7zip) - 7zip Windows Package via Node.js.
