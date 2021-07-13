@@ -737,7 +737,7 @@ English | [简体中文](./README.md)
 - [Hapi](https://github.com/hapijs/hapi) - Framework for building applications and services.
 - [Egg](https://github.com/eggjs/egg) - Born to build better enterprise frameworks and apps with Node.js & Koa.
 - [Feathers](https://github.com/feathersjs/feathers) - Microservice framework built in the spirit of Express.
-- [LoopBack](https://github.com/strongloop/loopback) - Powerful framework for creating REST APIs and easily connecting to backend data sources.
+- [LoopBack](https://github.com/strongloop/loopback-next) - Powerful framework for creating REST APIs and easily connecting to backend data sources.
 - [Restify](https://github.com/restify/node-restify) - Enables you to build correct REST web services.
 - [ThinkJS](https://github.com/thinkjs/thinkjs) - Framework with ES2015+ support, WebSockets, REST API.
 - [Midway](https://github.com/midwayjs/midway) - A Node.js framework for building Serverless services, traditional server-side applications, microservices, and small programs.
@@ -1090,10 +1090,10 @@ English | [简体中文](./README.md)
 
 - Request Client
   - [axios](https://github.com/mzabriskie/axios) - Promise based HTTP client (works in the browser too).
-  - [request](https://github.com/request/request) - 🏊🏾 Simplified HTTP request client.
   - [superagent](https://github.com/visionmedia/superagent) - HTTP request library.
   - [got](https://github.com/sindresorhus/got) - Nicer interface to the built-in `http` module.
   - [node-fetch](https://github.com/bitinn/node-fetch) - `window.fetch` for Node.js.
+  - [undici](https://github.com/nodejs/undici) - An HTTP/1.1 client, written from scratch for Node.js.
   - [needle](https://github.com/tomas/needle) - Nimble, streamable HTTP client for Node.js. With proxy, iconv, cookie, deflate & multipart support.
   - [urllib](https://github.com/node-modules/urllib) - Request HTTP(s) URLs in a complex world.
   - [phin](https://github.com/ethanent/phin) - Node HTTP client.
