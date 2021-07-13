@@ -746,7 +746,7 @@
 - [Hapi](https://github.com/hapijs/hapi) - 用于创建应用和服务的框架。
 - [Egg](https://github.com/eggjs/egg) - 为企业级框架和应用而生。
 - [Feathers](https://github.com/feathersjs/feathers) - 基于Express精神构建的微服务框架。
-- [LoopBack](https://github.com/strongloop/loopback) - 用于创建REST API并轻松连接到后端数据源的强大框架。
+- [LoopBack](https://github.com/strongloop/loopback-next) - 用于创建REST API并轻松连接到后端数据源的强大框架。
 - [Restify](https://github.com/restify/node-restify) - 使你能够构建正确的REST Web服务。
 - [ThinkJS](https://github.com/thinkjs/thinkjs) - 支持ES2015 +的框架，WebSockets，REST API。
 - [Midway](https://github.com/midwayjs/midway) - 一个面向未来的云端一体 Node.js 框架。
@@ -1099,10 +1099,10 @@
 
 - 请求库
   - [axios](https://github.com/mzabriskie/axios) - 基于Promise 的HTTP客户端（也可以在浏览器中工作）。
-  - [request](https://github.com/request/request) - 🏊🏾 简单的 HTTP 请求客户端。
   - [superagent](https://github.com/visionmedia/superagent) - HTTP请求库。
   - [got](https://github.com/sindresorhus/got) - 更好的基于内建“http”模块接口实现。
   - [node-fetch](https://github.com/bitinn/node-fetch) - Node.js的 `window.fetch` 实现。
+  - [undici](https://github.com/nodejs/undici) - 一个 HTTP/1.1 客户端，从头开始为 Node.js 编写。
   - [needle](https://github.com/tomas/needle) - 灵活，基于流的HTTP Node.js客户端请求库。支持proxy，iconv，cookie，deflate和multipart。
   - [urllib](https://github.com/node-modules/urllib) - 在复杂世界中请求HTTP/HTTPS的URL。
   - [phin](https://github.com/ethanent/phin) - Node HTTP client.
