@@ -659,6 +659,7 @@
 - [bunyan](https://github.com/trentm/node-bunyan) - 一个用于 Node.js 服务的简单快速的 JSON 日志模块。
 - [log4js-node](https://github.com/log4js-node/log4js-node) - 不同于Java log4j的日志记录库。
 - [consola](https://github.com/nuxt/consola) - 优雅的Node.js和浏览器日志记录库。
+- [loglevel](https://github.com/pimterry/loglevel) - 小巧的轻量级日志记录，添加可靠的日志级别方法来封装任何可用的 console.log 方法。
 - [storyboard](https://github.com/guigrpa/storyboard) - 一个Chrome浏览器插件，用于查看日志。
 - [cabin](https://github.com/cabinjs/cabin) - 提供日志服务和NPM包。
 - [fancy-log](https://github.com/gulpjs/fancy-log) - 带上时间前缀的日志记录库。
