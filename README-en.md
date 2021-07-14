@@ -651,6 +651,7 @@ English | [简体中文](./README.md)
 - [bunyan](https://github.com/trentm/node-bunyan) - A simple and fast JSON logging module for node.js services.
 - [log4js-node](https://github.com/log4js-node/log4js-node) - A logging library which different from Java log4j.
 - [consola](https://github.com/nuxt/consola) - Elegant Console Logger for Node.js and Browser.
+- [loglevel](https://github.com/pimterry/loglevel) - Minimal lightweight logging for JavaScript, adding reliable log level methods to wrap any available console.log methods.
 - [storyboard](https://github.com/guigrpa/storyboard) - A library, plus a Chrome DevTools extension.
 - [cabin](https://github.com/cabinjs/cabin) - Best JavaScript and Node.js logging service and logging npm package.
 - [fancy-log](https://github.com/gulpjs/fancy-log) - Log things, prefixed with a timestamp.
