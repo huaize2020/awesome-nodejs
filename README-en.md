@@ -470,6 +470,7 @@ English | [简体中文](./README.md)
   - [columnify](https://github.com/timoxley/columnify) - Create text-based columns suitable for console output. Supports cell wrapping.
   - [cli-table3](https://github.com/cli-table/cli-table3) - Pretty unicode tables for the command line.
   - [easy-table](https://github.com/eldargab/easy-table) - Nice text table for Node.js.
+  - [cli-highlight](https://github.com/felixfbecker/cli-highlight) - Syntax highlighting for your terminal 💻✨.
   - [treeify](https://github.com/notatestuser/treeify) - Pretty-print a javascript object as a tree.
   - [kolorist](https://github.com/marvinhagemeister/kolorist) - A tiny utility to colorize stdin/stdout.
   - [console-png](https://github.com/aantthony/console-png) - Print PNG images to terminal output.
