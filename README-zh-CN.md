@@ -478,6 +478,7 @@
   - [columnify](https://github.com/timoxley/columnify) - 创建适合控制台输出的基于文本的列。 支持单元格。
   - [cli-table3](https://github.com/cli-table/cli-table3) - 命令行的漂亮unicode表。
   - [easy-table](https://github.com/eldargab/easy-table) - 漂亮的文本表格。
+  - [cli-highlight](https://github.com/felixfbecker/cli-highlight) - 终端的语法高亮显示💻✨
   - [treeify](https://github.com/notatestuser/treeify) - 将javascript对象漂亮地打印为树。
   - [kolorist](https://github.com/marvinhagemeister/kolorist) - 使用输入和输出色彩化的小工具。
   - [console-png](https://github.com/aantthony/console-png) - 在命令行输出中打印PNG图片。
