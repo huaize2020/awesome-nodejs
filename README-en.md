@@ -246,6 +246,7 @@ English | [简体中文](./README.md)
 - [get-pixels](https://github.com/scijs/get-pixels) - Reads an image into an ndarray.
 - [gifencoder](https://github.com/eugeneware/gifencoder) - Server side animated gif generation for node.js.
 - [image-type](https://github.com/sindresorhus/image-type) - Detect the image type of a Buffer/Uint8Array.
+- [node-pngquant](https://github.com/papandreou/node-pngquant) - The pngquant utility as a readable/writable stream.
 - [node-bitmap](https://github.com/nowelium/node-bitmap) - Pure javascript Bitmap library.
 
 ### Video
