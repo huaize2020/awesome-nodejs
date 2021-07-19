@@ -252,7 +252,8 @@
 - [pngjs](https://github.com/lukeapage/pngjs) - 简单的PNG编码解码器。
 - [get-pixels](https://github.com/scijs/get-pixels) - 将图像读入ndarray。
 - [gifencoder](https://github.com/eugeneware/gifencoder) - Node.js 服务器端动画 gif 生成。
-- [image-type](https://github.com/sindresorhus/image-type) - 检测Buffer / Uint8Array的图像类型.
+- [image-type](https://github.com/sindresorhus/image-type) - 检测Buffer / Uint8Array的图像类型。
+- [node-pngquant](https://github.com/papandreou/node-pngquant) - pngquant 作为可读/可写流操作png。
 - [node-bitmap](https://github.com/nowelium/node-bitmap) - 纯JavaScript Bitmap库。
 
 ### 视频处理
