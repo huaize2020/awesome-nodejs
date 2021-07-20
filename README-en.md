@@ -1134,6 +1134,7 @@ English | [简体中文](./README.md)
 
 - [CASL](https://github.com/stalniy/casl) - Isomorphic authorization for UI and API.
 - [node-casbin](https://github.com/casbin/node-casbin) - Authorization library that supports access control models like ACL, RBAC and ABAC.
+- [jose](https://github.com/panva/jose) - Universal "JSON Web Almost Everything" - JWA, JWS, JWE, JWT, JWK with no dependencies.
 - [basic-auth](https://github.com/jshttp/basic-auth) - Generic basic auth Authorization header field parser.
 
 ### Distribute
