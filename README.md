@@ -1143,6 +1143,7 @@
 
 - [CASL](https://github.com/stalniy/casl) - 同构授权用于可视化界面和API。
 - [node-casbin](https://github.com/casbin/node-casbin) - 支持访问控制模型（如ACL，RBAC和ABAC）的授权库。
+- [jose](https://github.com/panva/jose) - 通用的“JSON Web 几乎所有东西” —— JWA、JWS、JWE、JWT、JWK，0依赖
 - [basic-auth](https://github.com/jshttp/basic-auth) - 通用基础身份验证授权头字段解析器。
 
 ### 分布式
