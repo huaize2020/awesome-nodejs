@@ -53,6 +53,7 @@
   - [内容管理系统 (CMS)](#内容管理系统-cms)
   - [静态网站生成 & 博客](#静态网站生成--博客)
   - [文档生成](#文档生成)
+  - [接口管理](#接口管理)
   - [桌面应用程序](#桌面应用程序)
   - [实时通信](#实时通信)
   - [任务队列](#任务队列)
@@ -801,6 +802,12 @@
 - [Docco](https://github.com/jashkenas/docco) - 文档生成器，该生成器生成一个HTML文档，该文档显示与代码混合的注释。
 - [docute](https://github.com/egoist/docute) - 毫不费力的文档，做就对了。
 - [ESDoc](https://github.com/esdoc/esdoc) - 针对ES2015的文档生成器，附加测试代码并衡量文档覆盖范围。
+
+### 接口管理
+
+- [yapi](https://github.com/YMFE/yapi) - YApi 是一个可本地部署的、打通前后端及QA的、可视化的接口管理平台。
+- [swagger](https://github.com/swagger-api/swagger-node) - Swagger NodeJS版。将符合 Swagger规范 的 API 动态生成精美的文档。
+- [rap2](https://github.com/thx/rap2-delos) - 阿里妈妈前端团队出品的开源接口管理工具RAP第二代。
 
 ### 桌面应用程序
 
