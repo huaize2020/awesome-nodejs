@@ -902,6 +902,7 @@
   - [MongoDB](https://github.com/mongodb/node-mongodb-native) - 官方MongoDB驱动。
   - [ioredis](https://github.com/luin/ioredis) - Redis客户端。
   - [LevelUP](https://github.com/Level/levelup) - LevelDB客户端。
+  - [mysql2](https://github.com/sidorares/node-mysql2) - 快速 兼容mysqljs/mysql库 的 mysql 驱动程序。
   - [couchdb-nano](https://github.com/apache/couchdb-nano) - 官方CouchDB客户端。
   - [Couchbase](https://github.com/couchbase/couchnode) - Couchbase客户端（官方）。
   - [Aerospike](https://github.com/aerospike/aerospike-client-nodejs) - Aerospike客户端。
