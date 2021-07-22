@@ -893,6 +893,7 @@ English | [简体中文](./README.md)
   - [MongoDB](https://github.com/mongodb/node-mongodb-native) - The Official MongoDB Node.js Driver.
   - [ioredis](https://github.com/luin/ioredis) - A robust, performance-focused and full-featured Redis client for Node.js.
   - [LevelUP](https://github.com/Level/levelup) - A wrapper for abstract-leveldown compliant stores, for Node.js and browsers.
+  - [mysql2](https://github.com/sidorares/node-mysql2) - ⚡ Fast mysqljs/mysql compatible mysql driver for node.js.
   - [couchdb-nano](https://github.com/apache/couchdb-nano) - Nano: The official Apache CouchDB library for Node.js.
   - [Couchbase](https://github.com/couchbase/couchnode) - Couchbase Node.js Client Library (Official).
   - [Aerospike](https://github.com/aerospike/aerospike-client-nodejs) - Node.js client for the Aerospike database.
