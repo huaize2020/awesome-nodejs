@@ -47,6 +47,7 @@ English | [简体中文](./README.md)
   - [Content management systems (CMS)](#content-management-systems-cms)
   - [Static Site Generator & Blogging](#static-site-generator--blogging)
   - [Documentation](#documentation)
+  - [API Management](#api-management)
   - [Desktop Apps](#desktop-apps)
   - [Real-time](#real-time)
   - [Job Queues](#job-queues)
@@ -792,6 +793,12 @@ English | [简体中文](./README.md)
 - [Docco](https://github.com/jashkenas/docco) - Documentation generator which produces an HTML document that displays your comments intermingled with your code.
 - [docute](https://github.com/egoist/docute) - Effortless documentation, done right.
 - [ESDoc](https://github.com/esdoc/esdoc) - Documentation generator targeting ES2015, attaching test code and measuring documentation coverage.
+
+### API Management
+
+- [yapi](https://github.com/YMFE/yapi) - YApi is a visual interface management platform that can be deployed locally, open up front and back ends, and QA.
+- [swagger](https://github.com/swagger-api/swagger-node) - Swagger module for node.js。Swagger UI is a collection of HTML, JavaScript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.
+- [rap2](https://github.com/thx/rap2-delos) - The second generation of RAP, an open source interface management tool produced by Alimama's front-end team.
 
 ### Desktop Apps
 
