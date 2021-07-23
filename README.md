@@ -69,7 +69,7 @@
   - [测试相关](#测试相关)
   - [办公软件](#办公软件)
   - [操作系统识别](#操作系统识别)
-  - [文件压缩解压](#文件压缩解压)
+  - [压缩解压](#压缩解压)
   - [最小化](#最小化)
   - [邮箱](#邮箱)
   - [网络](#网络)
@@ -1049,13 +1049,14 @@
 - [getos](https://github.com/retrohacker/getos) - 获取当前操作系统名称，包括Linux的发行版名称。
 - [is-windows](https://github.com/jonschlinkert/is-windows) - 判断当前系统是否为Windows。
 
-### 文件压缩解压
+### 压缩解压
 
 - [jszip](https://github.com/Stuk/jszip) - 使用JavaScript创建、读取、编辑.zip文件。
+- [pako](https://github.com/nodeca/pako) - 高速 zlib 实现，适用于浏览器和 Node.js。
 - [adm-zip](https://github.com/cthackers/adm-zip) - 使用JavaScript创建、读取、编辑.zip文件。
 - [node-tar](https://github.com/npm/node-tar) - 快速且功能齐全的Tar。
 - [yauzl](https://github.com/thejoshwolfe/yauzl) - Node.js unzip解压库。
-- [unzipper](https://github.com/ZJONSSON/node-unzipper) - 使用流的Node.js跨平台解压缩。
+- [unzipper](https://github.com/ZJONSSON/node-unzipper) - 使用流的 Node.js 跨平台解压缩。
 - [tar-fs](https://github.com/mafintosh/tar-fs) - tar-fs允许您将目录打包到tar格式压缩包中，并将tar格式压缩包提取到目录中。
 - [extract-zip](https://github.com/maxogden/extract-zip) - 用纯 JavaScript 编写的 Zip 提取。 将 zip 解压缩到目录中。
 - [compressing](https://github.com/node-modules/compressing) - 压缩和解压缩你所需的一切。
