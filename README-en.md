@@ -1043,6 +1043,7 @@ English | [简体中文](./README.md)
 ### Compression / Decompression
 
 - [jszip](https://github.com/Stuk/jszip) - Create, read and edit .zip files with Javascript.
+- [pako](https://github.com/nodeca/pako) - High speed zlib port to javascript, works in browser & node.js.
 - [adm-zip](https://github.com/cthackers/adm-zip) - Create, read and edit .zip files with Javascript.
 - [node-tar](https://github.com/npm/node-tar) - Fast and full-featured Tar for Node.js.
 - [yauzl](https://github.com/thejoshwolfe/yauzl) - Yet another unzip library for node.
