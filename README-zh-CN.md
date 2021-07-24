@@ -599,7 +599,8 @@
   - [marked](https://github.com/markedjs/marked) - Markdown解析器和编译器，专为提高速度而设计。
   - [remark](https://github.com/wooorm/remark) - Markdown处理工具。
   - [markdown-it](https://github.com/markdown-it/markdown-it) - 支持100%通用Markdown标签解析的扩展&语法插件。
-  - [turndown](https://www.npmjs.com/package/turndown) - 用 JavaScript 编写的 HTML 到 Markdown 转换器。
+  - [turndown](https://github.com/mixmark-io/turndown) - 用 JavaScript 编写的 HTML 到 Markdown 转换器。
+  - [remove-markdown](https://github.com/stiang/remove-markdown) - 从文本中删除Markdown内容。
 
 - CSV
   - [PapaParse](https://github.com/mholt/PapaParse) - 快速而强大的 CSV（分隔文本）解析器，可以优雅地处理大文件和格式错误的输入。
