@@ -591,7 +591,8 @@ English | [简体中文](./README.md)
   - [marked](https://github.com/markedjs/marked) - A markdown parser and compiler. Built for speed.
   - [remark](https://github.com/wooorm/remark) - Markdown processor powered by plugins.
   - [markdown-it](https://github.com/markdown-it/markdown-it) - Markdown parser with 100% CommonMark support, extensions and syntax plugins.
-  - [turndown](https://www.npmjs.com/package/turndown) - An HTML to Markdown converter written in JavaScript.
+  - [turndown](https://github.com/mixmark-io/turndown) - An HTML to Markdown converter written in JavaScript.
+  - [remove-markdown](https://github.com/stiang/remove-markdown) - Strip Markdown stuff from text.
 
 - CSV
   - [PapaParse](https://github.com/mholt/PapaParse) - Fast and powerful CSV (delimited text) parser that gracefully handles large files and malformed input.
