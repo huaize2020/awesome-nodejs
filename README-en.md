@@ -483,6 +483,7 @@ English | [简体中文](./README.md)
 - Other
   - [commitizen](https://github.com/commitizen/cz-cli) - The commitizen command line utility.
   - [update-notifier](https://github.com/yeoman/update-notifier) - Update notifications for your CLI app.
+  - [didyoumean](https://github.com/dcporter/didyoumean.js) - A simple, optimized JS library & node.js module for matching short, human-quality input to a list of possibilities.
   - [console-clear](https://github.com/lukeed/console-clear) - Clear the console, cross-platform.
 
 ### Node.js Management
