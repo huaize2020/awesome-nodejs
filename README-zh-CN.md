@@ -491,6 +491,7 @@
 - 其他
   - [commitizen](https://github.com/commitizen/cz-cli) - Commitizen命令行实用程序。
   - [update-notifier](https://github.com/yeoman/update-notifier) - 为你的CLI应用提供的更新提示。
+  - [didyoumean](https://github.com/dcporter/didyoumean.js) - 简单、优化的JS库 和 Node.JS模块，用于将简短的人为的输入匹配到一个可能性列表中。
   - [console-clear](https://github.com/lukeed/console-clear) - 跨平台清空控制台。
 
 ### Node.js管理工具
