@@ -921,6 +921,7 @@ English | [简体中文](./README.md)
   - [Massive](https://github.com/robconery/massive-js) - PostgreSQL data access tool.
   - [slonik](https://github.com/gajus/slonik) - PostgreSQL client with strict types, detailed logging and assertions.
   - [OpenRecord](https://github.com/PhilWaldmann/openrecord) - ORM for PostgreSQL, MySQL, SQLite3 and RESTful datastores. Similar to ActiveRecord.
+  - [leoric](https://github.com/cyjake/leoric) - JavaScript ORM for MySQL, PostgreSQL, and SQLite.
 
 - Query builder
   - [Knex](https://github.com/tgriesser/knex) - Query builder for PostgreSQL, MySQL and SQLite3, designed to be flexible, portable, and fun to use.
