@@ -164,7 +164,7 @@
 - [decimal.js](https://github.com/MikeMcl/decimal.js) - JavaScript的任意精度的十进制类型。
 - [big.js](https://github.com/MikeMcl/big.js) - 一个小型，快速的JavaScript库，用于任意精度的十进制算术运算。
 - [random-js](https://github.com/ckknight/random-js) - 一个 JavaScript 随机数生成库。
-- [round-to](https://github.com/sindresorhus/round-to) - 将数字四舍五入到指定的小数位数：`1.234`→1.2`。
+- [round-to](https://github.com/sindresorhus/round-to) - 将数字四舍五入到指定的小数位数：`1.234`→`1.2`。
 - [unique-random](https://github.com/sindresorhus/unique-random) - 生成连续唯一的随机数。
 - [random-int](https://github.com/sindresorhus/random-int) - 生成随机整数。
 - [random-float](https://github.com/sindresorhus/random-float) - 生成随机浮点数。
