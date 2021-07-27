@@ -613,6 +613,7 @@ English | [简体中文](./README.md)
 
 - HTML
   - [htmlparser2](https://github.com/fb55/htmlparser2) - Forgiving HTML and XML parser.
+  - [sanitize-html](https://github.com/apostrophecms/sanitize-html) - Clean up user-submitted HTML, preserving whitelisted elements and whitelisted attributes on a per-element basis. Built on htmlparser2 for speed and tolerance.
   - [himalaya](https://github.com/andrejewski/himalaya) - JavaScript HTML to JSON Parser.
 
 - CSS
