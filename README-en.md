@@ -16,9 +16,9 @@ English | [简体中文](./README.md)
   - [Date & Time](#date--time)
   - [RegExp/Glob](#regexpglob)
   - [URL](#url)
-  - [JSON](#json)
+  - [JSON / JSON Schema](#json--json-schema)
   - [Image](#image)
-  - [Video](#video)
+  - [Audio / Video](#audio--video)
   - [Font](#font)
   - [Color](#color)
   - [Crypto](#crypto)
@@ -58,6 +58,7 @@ English | [简体中文](./README.md)
   - [Forum](#forum)
   - [Database](#database)
   - [Cache](#cache)
+  - [Search Engine](#search-engine)
   - [Serverless](#serverless)
   - [Automation & RPA](#automation--rpa)
   - [Testing](#testing)
@@ -212,7 +213,7 @@ English | [简体中文](./README.md)
 - [file-url](https://github.com/sindresorhus/file-url) - Convert a file path to a file URL: `unicorn.jpg` → `file:///Users/sindresorhus/unicorn.jpg`
 - [encodeurl](https://github.com/pillarjs/encodeurl) - Encode a URL to a percent-encoded form, excluding already-encoded sequences.
 
-### JSON
+### JSON / JSON Schema
 
 - [json5](https://github.com/json5/json5) - JSON5 — JSON for humans.
 - [jsondiffpatch](https://github.com/benjamine/jsondiffpatch) - Diff & patch JavaScript objects.
@@ -240,6 +241,7 @@ English | [简体中文](./README.md)
 - [jsQR](https://github.com/cozmo/jsQR) - A pure javascript QR code reading library. This library takes in raw images and will locate, extract and parse any QR code found within.
 - [lwip](https://github.com/EyalAr/lwip) - Lightweight image processor which does not require ImageMagick.
 - [gifski](https://github.com/ImageOptim/gifski) - GIF encoder based on libimagequant (pngquant). Squeezes maximum possible quality from the awful GIF format.
+- [svg-captcha](https://github.com/produck/svg-captcha) - Generate svg captcha in node.
 - [probe-image-size](https://github.com/nodeca/probe-image-size) - Get the size of most image formats without a full download.
 - [omggif](https://github.com/deanm/omggif) - JavaScript implementation of a GIF 89a encoder and decoder.
 - [jpeg-js](https://github.com/jpeg-js/jpeg-js) - A pure javascript JPEG encoder and decoder for node.js.
@@ -250,7 +252,7 @@ English | [简体中文](./README.md)
 - [node-pngquant](https://github.com/papandreou/node-pngquant) - The pngquant utility as a readable/writable stream.
 - [node-bitmap](https://github.com/nowelium/node-bitmap) - Pure javascript Bitmap library.
 
-### Video
+### Audio / Video
 
 - [fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg) - A fluent API to FFMPEG (http://www.ffmpeg.org)
 - [FFCreator](https://github.com/tnfe/FFCreator) - A fast short video processing library based on node.js.
@@ -906,10 +908,12 @@ English | [简体中文](./README.md)
   - [mysql2](https://github.com/sidorares/node-mysql2) - ⚡ Fast mysqljs/mysql compatible mysql driver for node.js.
   - [couchdb-nano](https://github.com/apache/couchdb-nano) - Nano: The official Apache CouchDB library for Node.js.
   - [Couchbase](https://github.com/couchbase/couchnode) - Couchbase Node.js Client Library (Official).
+  - [mariadb](https://github.com/mariadb-corporation/mariadb-connector-nodejs) - MariaDB Connector/Node.js is used to connect applications developed on Node.js to MariaDB and MySQL databases.
   - [Aerospike](https://github.com/aerospike/aerospike-client-nodejs) - Node.js client for the Aerospike database.
 
 - ODM / ORM
   - [Sequelize](https://github.com/sequelize/sequelize) - Multi-dialect ORM. Supports PostgreSQL, SQLite, MySQL, and more.
+    - [sequelize-typescript](https://github.com/RobinBuschmann/sequelize-typescript) - Decorators and some other features for sequelize.
   - [TypeORM](https://github.com/typeorm/typeorm) - ORM for PostgreSQL, MariaDB, MySQL, SQLite, and more.
   - [Mongoose](https://github.com/Automattic/mongoose) - Elegant MongoDB object modeling.
     - [typegoose](https://github.com/typegoose/typegoose) - Typegoose - Define Mongoose models using TypeScript classes.
@@ -949,6 +953,11 @@ English | [简体中文](./README.md)
 - [hashlru](https://github.com/dominictarr/hashlru) - Simpler, faster LRU cache algorithm.
 - [flat-cache](https://github.com/royriojas/flat-cache) - A stupidly simple key/value storage using files to persist the data.
 - [ylru](https://github.com/node-modules/ylru) - Add "expire", "allow set empty value" extends on hashlru.
+
+### Search Engine
+
+- [elasticsearch-js](https://github.com/elastic/elasticsearch-js) - Official Elasticsearch client library for Node.js.
+- [elasticsearch-js-legacy](https://github.com/elastic/elasticsearch-js-legacy) - Legacy Elasticsearch client library for Node.js and the browser.
 
 ### Serverless
 
@@ -1213,6 +1222,7 @@ English | [简体中文](./README.md)
   - [JS-Interpreter](https://github.com/NeilFraser/JS-Interpreter) - A sandboxed JavaScript interpreter in JavaScript.
   - [jsjs](https://github.com/bramblex/jsjs) - A simple JavaScript interpreter.
   - [sval](https://github.com/Siubaak/sval) - A javascript interpreter written in javascript.
+  - [notevil](https://github.com/mmckegg/notevil) - Evalulate javascript like the built-in javascript eval() method but safely.
 
 - Other
   - [astexplorer](https://github.com/fkling/astexplorer) - Web tool to explore the ASTs generated by various parsers.
