@@ -1012,7 +1012,7 @@ English | [简体中文](./README.md)
   - [node-wrk](https://github.com/sidorares/node-wrk) - Wrk load testing tool node wrapper.
 
 - Solution
-  - [macaca](https://github.com/alibaba/macaca) - Automation solution for multi-platform.
+  - [macaca](https://github.com/alibaba/macaca) - Automation solution for multi-platform. *(You might like [awesome-macaca](https://github.com/macacajs/awesome-macaca))*
 
 ### Office
 
