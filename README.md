@@ -1021,7 +1021,7 @@
   - [node-wrk](https://github.com/sidorares/node-wrk) - Wrk负载测试工具Node.js版封装。
 
 - 解决方案
-  - [macaca](https://github.com/alibaba/macaca) - 多端自动化解决方案。
+  - [macaca](https://github.com/alibaba/macaca) - 多端自动化解决方案。*（你也许会喜欢 [awesome-macaca](https://github.com/macacajs/awesome-macaca))*
 
 ### 办公软件
 
