@@ -22,9 +22,9 @@
   - [日期 和 时间](#日期-和-时间)
   - [正则/通配符匹配](#正则通配符匹配)
   - [URL](#url)
-  - [JSON](#json)
+  - [JSON / JSON Schema](#json--json-schema)
   - [图像处理](#图像处理)
-  - [视频处理](#视频处理)
+  - [音频 / 视频处理](#音频--视频处理)
   - [字体](#字体)
   - [颜色](#颜色)
   - [加解密](#加解密)
@@ -64,6 +64,7 @@
   - [论坛](#论坛)
   - [数据库](#数据库)
   - [缓存](#缓存)
+  - [搜索引擎](#搜索引擎)
   - [Serverless](#serverless)
   - [自动化 & 机器人流程自动化 - RPA](#自动化--机器人流程自动化---rpa)
   - [测试相关](#测试相关)
@@ -219,7 +220,7 @@
 - [file-url](https://github.com/sindresorhus/file-url) - 将文件路径转化为文件URL: `unicorn.jpg` → `file:///Users/sindresorhus/unicorn.jpg`
 - [encodeurl](https://github.com/pillarjs/encodeurl) - 将URL编码为"百分比"形式，不编码已编码部分。
 
-### JSON
+### JSON / JSON Schema
 
 - [json5](https://github.com/json5/json5) - JSON5是对JSON的扩展，其目的是能够更加容易的阅读和编写。
 - [jsondiffpatch](https://github.com/benjamine/jsondiffpatch) - 对比JSON对象，并生成差异和Patch信息。
@@ -247,6 +248,7 @@
 - [jsQR](https://github.com/cozmo/jsQR) - 一个纯javascript的二维码读取库。 该库接收原始图像，并将定位、提取和解析其中发现的任何二维码。
 - [lwip](https://github.com/EyalAr/lwip) - 不需要ImageMagick的轻量级图像处理器。
 - [gifski](https://github.com/ImageOptim/gifski) - 基于 libimagequant (pngquant) 的 GIF 编码器。 从糟糕的 GIF 格式中挤出最大可能的质量。
+- [svg-captcha](https://github.com/produck/svg-captcha) - Node.js中生成SVG验证码。
 - [probe-image-size](https://github.com/nodeca/probe-image-size) - 无需完全下载即可获取大多数图像格式的大小.
 - [omggif](https://github.com/deanm/omggif) - GIF 89a编码解码器。
 - [jpeg-js](https://github.com/jpeg-js/jpeg-js) - 使用纯JavaScript的JPEG编码和解码器。
@@ -257,7 +259,7 @@
 - [node-pngquant](https://github.com/papandreou/node-pngquant) - pngquant 作为可读/可写流操作png。
 - [node-bitmap](https://github.com/nowelium/node-bitmap) - 纯JavaScript Bitmap库。
 
-### 视频处理
+### 音频 / 视频处理
 
 - [fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg) - FFMPEG的流畅API (http://www.ffmpeg.org)
 - [FFCreator](https://github.com/tnfe/FFCreator) - 一个基于node.js的高速短视频加工库。
@@ -915,10 +917,12 @@
   - [mysql2](https://github.com/sidorares/node-mysql2) - 快速 兼容mysqljs/mysql库 的 mysql 驱动程序。
   - [couchdb-nano](https://github.com/apache/couchdb-nano) - 官方CouchDB客户端。
   - [Couchbase](https://github.com/couchbase/couchnode) - Couchbase客户端（官方）。
+  - [mariadb](https://github.com/mariadb-corporation/mariadb-connector-nodejs) - MariaDB Connector/Node.js 用于将在 Node.js 上开发的应用程序连接到 MariaDB 和 MySQL 数据库。
   - [Aerospike](https://github.com/aerospike/aerospike-client-nodejs) - Aerospike客户端。
 
 - ODM / ORM
   - [Sequelize](https://github.com/sequelize/sequelize) - 多方ORM。 支持PostgreSQL，SQLite，MySQL。
+    - [sequelize-typescript](https://github.com/RobinBuschmann/sequelize-typescript) - Sequelize 装饰器和一些其他功能。
   - [TypeORM](https://github.com/typeorm/typeorm) - PostgreSQL，MariaDB，MySQL，SQLite等的ORM。
   - [Mongoose](https://github.com/Automattic/mongoose) - 优雅的MongoDB对象建模。
     - [typegoose](https://github.com/typegoose/typegoose) - Typegoose - 使用 TypeScript 类定义 Mongoose 模型。
@@ -958,6 +962,11 @@
 - [hashlru](https://github.com/dominictarr/hashlru) - 更轻量更快的LRU算法。
 - [flat-cache](https://github.com/royriojas/flat-cache) - 一个傻瓜般简单的键/值存储使用文件来持久化数据。
 - [ylru](https://github.com/node-modules/ylru) - 基于hashlru添加过期时间，允许空值。
+
+### 搜索引擎
+
+- [elasticsearch-js](https://github.com/elastic/elasticsearch-js) - 官方Elasticsearch客户端库。
+- [elasticsearch-js-legacy](https://github.com/elastic/elasticsearch-js-legacy) -  适用于 Node.js 和浏览器的旧版 Elasticsearch 客户端库。
 
 ### Serverless
 
@@ -1222,6 +1231,7 @@
   - [JS-Interpreter](https://github.com/NeilFraser/JS-Interpreter) - JavaScript中沙箱解释器。
   - [jsjs](https://github.com/bramblex/jsjs) - 简易的 JavaScript 元循环解释器。
   - [sval](https://github.com/Siubaak/sval) - 使用JavaScript编写的JavaScript解释器。
+  - [notevil](https://github.com/mmckegg/notevil) - 像内置的 javascript eval() 方法一样执行 javascript，但安全。
 
 - 其他
   - [astexplorer](https://github.com/fkling/astexplorer) - 使用多种解析器的AST Web可视化工具。
