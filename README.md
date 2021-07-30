@@ -76,7 +76,7 @@
   - [网络](#网络)
   - [HTTP](#http)
   - [验证](#验证)
-  - [授权](#授权)
+  - [授权 / 鉴权](#授权--鉴权)
   - [分布式](#分布式)
   - [序列化](#序列化)
   - [RPC](#rpc)
@@ -1161,8 +1161,9 @@
 - [Grant](https://github.com/simov/grant) - 适用于Express，Koa，Hapi，Fastify，AWS Lambda，Azure，Google Cloud，Vercel等的OAuth程序。
 - [permit](https://github.com/ianstormtaylor/permit) - 用于构建Node.js API的非标准认证库。
 
-### 授权
+### 授权 / 鉴权
 
+- [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) - JsonWebToken Node.JS实现
 - [CASL](https://github.com/stalniy/casl) - 同构授权用于可视化界面和API。
 - [node-casbin](https://github.com/casbin/node-casbin) - 支持访问控制模型（如ACL，RBAC和ABAC）的授权库。
 - [jose](https://github.com/panva/jose) - 通用的“JSON Web 几乎所有东西” —— JWA、JWS、JWE、JWT、JWK，0依赖
