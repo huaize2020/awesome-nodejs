@@ -663,7 +663,8 @@ English | [简体中文](./README.md)
 - [storyboard](https://github.com/guigrpa/storyboard) - A library, plus a Chrome DevTools extension.
 - [cabin](https://github.com/cabinjs/cabin) - Best JavaScript and Node.js logging service and logging npm package.
 - [fancy-log](https://github.com/gulpjs/fancy-log) - Log things, prefixed with a timestamp.
-- [captains-log](https://www.npmjs.com/package/captains-log) - Lightweight logger with a simple pass-through configuration for use with fancier logging librarie.
+- [caterpillar](https://github.com/bevry/caterpillar) - Caterpillar is the ultimate logging system for Deno, Node.js, and Web Browsers. Log levels are implemented to the RFC standard. Log entries can be filtered and piped to various streams, including coloured output to the terminal, the browser's console, and debug files. You can even write your own transforms.
+- [captains-log](https://github.com/balderdashy/captains-log) - Lightweight logger with a simple pass-through configuration for use with fancier logging librarie.
 
 ### Process management
 
@@ -798,6 +799,7 @@ English | [简体中文](./README.md)
 - [Docco](https://github.com/jashkenas/docco) - Documentation generator which produces an HTML document that displays your comments intermingled with your code.
 - [docute](https://github.com/egoist/docute) - Effortless documentation, done right.
 - [ESDoc](https://github.com/esdoc/esdoc) - Documentation generator targeting ES2015, attaching test code and measuring documentation coverage.
+- [groc](https://github.com/nevir/groc) - Documentation generation, in the spirit of literate programming.
 
 ### API Management
 
@@ -901,11 +903,13 @@ English | [简体中文](./README.md)
 
 - Drivers
   - [MySQL](https://github.com/mysqljs/mysql) - A pure node.js JavaScript Client implementing the MySQL protocol.
+  - [redis](https://github.com/NodeRedis/node-redis) - A high performance Node.js Redis client.
   - [PostgreSQL](https://github.com/brianc/node-postgres) - PostgreSQL client for node.js.
   - [MongoDB](https://github.com/mongodb/node-mongodb-native) - The Official MongoDB Node.js Driver.
   - [ioredis](https://github.com/luin/ioredis) - A robust, performance-focused and full-featured Redis client for Node.js.
   - [LevelUP](https://github.com/Level/levelup) - A wrapper for abstract-leveldown compliant stores, for Node.js and browsers.
   - [mysql2](https://github.com/sidorares/node-mysql2) - ⚡ Fast mysqljs/mysql compatible mysql driver for node.js.
+  - [rethinkdbdash](https://github.com/neumino/rethinkdbdash) - An advanced Node.js driver for RethinkDB with a connection pool, support for streams etc.
   - [couchdb-nano](https://github.com/apache/couchdb-nano) - Nano: The official Apache CouchDB library for Node.js.
   - [Couchbase](https://github.com/couchbase/couchnode) - Couchbase Node.js Client Library (Official).
   - [mariadb](https://github.com/mariadb-corporation/mariadb-connector-nodejs) - MariaDB Connector/Node.js is used to connect applications developed on Node.js to MariaDB and MySQL databases.
