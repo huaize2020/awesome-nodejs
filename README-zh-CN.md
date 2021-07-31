@@ -671,6 +671,7 @@
 - [storyboard](https://github.com/guigrpa/storyboard) - 一个Chrome浏览器插件，用于查看日志。
 - [cabin](https://github.com/cabinjs/cabin) - 提供日志服务和NPM包。
 - [fancy-log](https://github.com/gulpjs/fancy-log) - 带上时间前缀的日志记录库。
+- [caterpillar](https://github.com/bevry/caterpillar) - Caterpillar 是 Deno、Node.js 和 Web 浏览器的终极日志系统。日志级别实现了RFC标准。日志条目可以过滤并通过管道传输到各种流，包括多色输出到终端、浏览器的控制台和调试文件。你甚至可以编写自己的转换。
 - [captains-log](https://github.com/balderdashy/captains-log) - 通过简单的配置就可以使用的轻量日志记录库。
 
 ### 进程管理
@@ -807,6 +808,7 @@
 - [Docco](https://github.com/jashkenas/docco) - 文档生成器，该生成器生成一个HTML文档，该文档显示与代码混合的注释。
 - [docute](https://github.com/egoist/docute) - 毫不费力的文档，做就对了。
 - [ESDoc](https://github.com/esdoc/esdoc) - 针对ES2015的文档生成器，附加测试代码并衡量文档覆盖范围。
+- [groc](https://github.com/nevir/groc) - 文档生成，本着文学编程的精神。
 
 ### 接口管理
 
@@ -910,11 +912,13 @@
 
 - 驱动
   - [MySQL](https://github.com/mysqljs/mysql) - MySQL 客户端。
+  - [redis](https://github.com/NodeRedis/node-redis) - 高性能的 Node.js Redis客户端。
   - [PostgreSQL](https://github.com/brianc/node-postgres) - PostgreSQL客户端。
   - [MongoDB](https://github.com/mongodb/node-mongodb-native) - 官方MongoDB驱动。
   - [ioredis](https://github.com/luin/ioredis) - Redis客户端。
   - [LevelUP](https://github.com/Level/levelup) - LevelDB客户端。
   - [mysql2](https://github.com/sidorares/node-mysql2) - 快速 兼容mysqljs/mysql库 的 mysql 驱动程序。
+  - [rethinkdbdash](https://github.com/neumino/rethinkdbdash) - RethinkDB 的高级 Node.js 驱动程序，带有连接池、支持流等。
   - [couchdb-nano](https://github.com/apache/couchdb-nano) - 官方CouchDB客户端。
   - [Couchbase](https://github.com/couchbase/couchnode) - Couchbase客户端（官方）。
   - [mariadb](https://github.com/mariadb-corporation/mariadb-connector-nodejs) - MariaDB Connector/Node.js 用于将在 Node.js 上开发的应用程序连接到 MariaDB 和 MySQL 数据库。
