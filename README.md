@@ -1006,8 +1006,13 @@
   - [Mock.js](https://github.com/nuysoft/Mock) - 浏览器和 Node 均可用，支持自定义 schema 和 随机数据。
   - [Nock](https://github.com/pgte/nock) - HTTP mock和期望。
   - [Sinon.JS](https://github.com/sinonjs/sinon) - 通过间谍函数(spies), 目标函数替换（stubs）和mocks功能提供的Mock库。
-  - [easy-mock](https://github.com/easy-mock/easy-mock) - 可视化，并且能快速生成模拟数据的持久化服务。
   - [mm](https://github.com/node-modules/mm) - 简单但灵活的 mock(或者叫stub) 包, mock伴侣。
+
+- Mock服务
+  - [json-server](https://github.com/typicode/json-server) - 在不到30秒的时间内获得具有零编码的完整伪造的REST API。
+  - [easy-mock](https://github.com/easy-mock/easy-mock) - 可视化，并且能快速生成模拟数据的持久化服务。
+  - [miragejs](https://github.com/miragejs/miragejs) - 用于构建、测试和共享您的 JavaScript 应用程序的客户端服务。
+  - [http-fake-backend](https://github.com/micromata/http-fake-backend) - 通过可配置的路由，提供JSON文件或JavaScript对象来构建伪造的后端。
   - [smoke](https://github.com/sinedied/smoke) - 具有记录功能的，简单但功能强大的基于文件的Mock服务器。
 
 - 端到端的测试(E2E) / 自动化UI
@@ -1144,8 +1149,13 @@
 - 服务端库
   - [http-server](https://github.com/http-party/http-server) - 零配置的命令行Http服务端。
   - [anywhere](https://github.com/JacksonTian/anywhere) - 随启随用的静态文件服务器。
-  - [http-fake-backend](https://github.com/micromata/http-fake-backend) - 通过可配置的路由，提供JSON文件或JavaScript对象来构建伪造的后端。
+
+- Mock服务
   - [json-server](https://github.com/typicode/json-server) - 在不到30秒的时间内获得具有零编码的完整伪造的REST API。
+  - [easy-mock](https://github.com/easy-mock/easy-mock) - 可视化，并且能快速生成模拟数据的持久化服务。
+  - [miragejs](https://github.com/miragejs/miragejs) - 用于构建、测试和共享您的 JavaScript 应用程序的客户端服务。
+  - [http-fake-backend](https://github.com/micromata/http-fake-backend) - 通过可配置的路由，提供JSON文件或JavaScript对象来构建伪造的后端。
+  - [smoke](https://github.com/sinedied/smoke) - 具有记录功能的，简单但功能强大的基于文件的Mock服务器。
 
 - 代理
   - [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP代理。
