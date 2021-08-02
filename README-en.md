@@ -997,8 +997,13 @@ English | [简体中文](./README.md)
   - [Mock.js](https://github.com/nuysoft/Mock) - A simulation data generator.
   - [Nock](https://github.com/pgte/nock) - HTTP mocking and expectations.
   - [Sinon.JS](https://github.com/sinonjs/sinon) - Test spies, stubs and mocks.
-  - [easy-mock](https://github.com/easy-mock/easy-mock) - A persistent service that generates mock data quickly and provids visualization view.
   - [mm](https://github.com/node-modules/mm) - An simple but flexible mock(or say stub) package, mock mate.
+
+- Mock Server
+  - [json-server](https://github.com/typicode/json-server) - Get a full fake REST API with zero coding in less than 30 seconds.
+  - [easy-mock](https://github.com/easy-mock/easy-mock) - A persistent service that generates mock data quickly and provids visualization view.
+  - [miragejs](https://github.com/miragejs/miragejs) - A client-side server to build, test and share your JavaScript app.
+  - [http-fake-backend](https://github.com/micromata/http-fake-backend) - Build a fake backend by providing the content of JSON files or JavaScript objects through configurable routes.
   - [smoke](https://github.com/sinedied/smoke) - 💨 Simple yet powerful file-based mock server with recording abilities.
 
 - End-to-end Testing / Automated UI
@@ -1135,8 +1140,13 @@ English | [简体中文](./README.md)
 - HTTP Server
   - [http-server](https://github.com/http-party/http-server) - A simple zero-configuration command-line http server.
   - [anywhere](https://github.com/JacksonTian/anywhere) - Running static file server anywhere.
-  - [http-fake-backend](https://github.com/micromata/http-fake-backend) - Build a fake backend by providing the content of JSON files or JavaScript objects through configurable routes.
+
+- Mock Server
   - [json-server](https://github.com/typicode/json-server) - Get a full fake REST API with zero coding in less than 30 seconds.
+  - [easy-mock](https://github.com/easy-mock/easy-mock) - A persistent service that generates mock data quickly and provids visualization view.
+  - [miragejs](https://github.com/miragejs/miragejs) - A client-side server to build, test and share your JavaScript app.
+  - [http-fake-backend](https://github.com/micromata/http-fake-backend) - Build a fake backend by providing the content of JSON files or JavaScript objects through configurable routes.
+  - [smoke](https://github.com/sinedied/smoke) - 💨 Simple yet powerful file-based mock server with recording abilities.
 
 - Proxy
   - [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP proxy.
