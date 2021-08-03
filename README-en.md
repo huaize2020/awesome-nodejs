@@ -54,6 +54,7 @@ English | [简体中文](./README.md)
   - [Job Scheduling](#job-scheduling)
   - [Debugging](#debugging)
   - [Profiling/Analysis](#profilinganalysis)
+  - [Performance Optimization](#performance-optimization)
   - [Application Performance Monitoring (APM)](#application-performance-monitoring-apm)
   - [Forum](#forum)
   - [Database](#database)
@@ -879,6 +880,10 @@ English | [简体中文](./README.md)
 - [flamegraph](https://github.com/thlorenz/flamegraph) - Generates flamegraphs with Node.js or in the browser.
 - [v8-profiler-next](https://github.com/hyj1991/v8-profiler-next) - Node bindings for the v8 profiler.
 - [cpu-memory-monitor](https://github.com/nswbmw/cpu-memory-monitor) - CPU & Memory Monitor, auto dump.
+
+### Performance Optimization
+
+- [v8-compile-cache](https://github.com/zertosh/v8-compile-cache) - Require hook for automatic V8 compile cache persistence
 
 ### Application Performance Monitoring (APM)
 
