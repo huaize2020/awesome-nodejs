@@ -60,6 +60,7 @@
   - [定时任务](#定时任务)
   - [调试](#调试)
   - [剖析/分析](#剖析分析)
+  - [性能优化](#性能优化)
   - [应用性能监控 (APM)](#应用性能监控-apm)
   - [论坛](#论坛)
   - [数据库](#数据库)
@@ -888,6 +889,10 @@
 - [flamegraph](https://github.com/thlorenz/flamegraph) - 在Node.js或浏览器中生成火焰图。
 - [v8-profiler-next](https://github.com/hyj1991/v8-profiler-next) - V8性能探测器。
 - [cpu-memory-monitor](https://github.com/nswbmw/cpu-memory-monitor) - CPU 和内存监视器，自动转储。
+
+### 性能优化
+
+- [v8-compile-cache](https://github.com/zertosh/v8-compile-cache) - 将require的V8编译的结果自动持久缓存化。
 
 ### 应用性能监控 (APM)
 
