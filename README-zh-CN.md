@@ -269,6 +269,8 @@
 ### 字体
 
 - [font-spider](https://github.com/aui/font-spider) - 字蛛是一个智能 WebFont 压缩工具，它能自动分析出页面使用的 WebFont 并进行按需压缩。
+- [ttf2woff](https://github.com/fontello/ttf2woff) - 字体转换器, TTF格式转化为WOFF。
+- [webfont](https://github.com/itgalaxy/webfont) - 很棒的网页字体生成器。
 
 ### 颜色
 
@@ -470,7 +472,7 @@
   - [colors.js](https://github.com/Marak/colors.js) - 获取Node.js控制台的颜色。
   - [listr](https://github.com/SamVerschueren/listr) - 命令行任务列表。
   - [figlet.js](https://github.com/patorjk/figlet.js) - 用 JavaScript 编写的 FIG，旨在完全实现 FIGfont 规范。
-  - [kleur](https://github.com/lukeed/kleur) - 最快的Node.js库，使用ANSI颜色格式化命令行文本。
+  - [kleur](https://github.com/lukeed/kleur) -  使用ANSI颜色格式化命令行文本的最快的Node.js库。
   - [colorette](https://github.com/jorgebucaran/colorette) - 在终端中轻松设置文本的颜色和样式。
   - [qrcode-terminal](https://github.com/gtanner/qrcode-terminal) - 命令行中显示二维码。
   - [boxen](https://github.com/sindresorhus/boxen) - 控制台中创建盒子。
