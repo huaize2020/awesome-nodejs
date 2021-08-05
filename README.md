@@ -269,8 +269,12 @@
 ### 字体
 
 - [font-spider](https://github.com/aui/font-spider) - 字蛛是一个智能 WebFont 压缩工具，它能自动分析出页面使用的 WebFont 并进行按需压缩。
+- [svg2ttf](https://github.com/fontello/svg2ttf) - 字体转换器, SVG格式转化为TTF。
 - [ttf2woff](https://github.com/fontello/ttf2woff) - 字体转换器, TTF格式转化为WOFF。
+- [svgicons2svgfont](https://github.com/nfroidure/svgicons2svgfont) - 连接 SVG 图标并输出 SVG 字体。
 - [webfont](https://github.com/itgalaxy/webfont) - 很棒的网页字体生成器。
+- [ttf2eot](https://github.com/fontello/ttf2eot) - 字体转换器, TTF格式转化为EOT。
+- [wawoff2](https://github.com/fontello/wawoff2) - 使用 WebAssembly 构建 Google 的 woff2。
 
 ### 颜色
 
