@@ -496,6 +496,7 @@
 - 其他
   - [commitizen](https://github.com/commitizen/cz-cli) - Commitizen命令行实用程序。
   - [update-notifier](https://github.com/yeoman/update-notifier) - 为你的CLI应用提供的更新提示。
+  - [console-stamp](https://github.com/starak/node-console-stamp) - 为NodeJS console方法添加布丁，使其按模式添加时间戳信息。
   - [didyoumean](https://github.com/dcporter/didyoumean.js) - 简单、优化的JS库 和 Node.JS模块，用于将简短的人为的输入匹配到一个可能性列表中。
   - [console-clear](https://github.com/lukeed/console-clear) - 跨平台清空控制台。
 
@@ -701,6 +702,7 @@
 - [markdownlint](https://github.com/DavidAnson/markdownlint) - Markdown/CommonMark风格检查工具。
 - [textlint](https://github.com/textlint/textlint) - Text 和 Markdown 校验和格式化。
 - [pretty-quick](https://github.com/azz/pretty-quick) - 快速美化。
+- [dtslint](https://github.com/Microsoft/dtslint) - 基于 TSLint 构建的实用程序，用于对 TypeScript 声明 (.d.ts) 文件进行 linting。
 
 ### 配置工具
 
@@ -1019,6 +1021,7 @@
   - [json-server](https://github.com/typicode/json-server) - 在不到30秒的时间内获得具有零编码的完整伪造的REST API。
   - [easy-mock](https://github.com/easy-mock/easy-mock) - 可视化，并且能快速生成模拟数据的持久化服务。
   - [miragejs](https://github.com/miragejs/miragejs) - 用于构建、测试和共享您的 JavaScript 应用程序的客户端服务。
+  - [pretender](https://github.com/pretenderjs/pretender) - 具有良好路由 DSL 的Mock服务器库。
   - [http-fake-backend](https://github.com/micromata/http-fake-backend) - 通过可配置的路由，提供JSON文件或JavaScript对象来构建伪造的后端。
   - [smoke](https://github.com/sinedied/smoke) - 具有记录功能的，简单但功能强大的基于文件的Mock服务器。
 
