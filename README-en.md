@@ -262,8 +262,12 @@ English | [简体中文](./README.md)
 ### Font
 
 - [font-spider](https://github.com/aui/font-spider) - Smart webfont compression and format conversion tool.
+- [svg2ttf](https://github.com/fontello/svg2ttf) - SVG -> TTF font convertor.
 - [ttf2woff](https://github.com/fontello/ttf2woff) - Font convertor, TTF to WOFF, for node.js.
+- [svgicons2svgfont](https://github.com/nfroidure/svgicons2svgfont) - Concatenate SVG icons and ouput an SVG font.
 - [webfont](https://github.com/itgalaxy/webfont) - Awesome generator of webfont.
+- [ttf2eot](https://github.com/fontello/ttf2eot) - Font convertor, TTF to EOT, for node.js.
+- [wawoff2](https://github.com/fontello/wawoff2) - WebAssembly build of Google's woff2.
 
 ### Color
 
@@ -984,6 +988,7 @@ English | [简体中文](./README.md)
 - [playwright](https://github.com/microsoft/playwright) - Automate Chromium, Firefox and WebKit with a single API.
 - [phantomjs](https://github.com/ariya/phantomjs) - Scriptable Headless Browser.
 - [appium](https://github.com/appium/appium) - Automation for iOS, Android, and Windows Apps.
+- [wechaty](https://github.com/wechaty/wechaty) - Conversational RPA SDK.
 - [robotjs](https://github.com/octalmage/robotjs) - Node.js Desktop Automation.
 - [nut.js](https://github.com/nut-tree/nut.js) - Native UI testing / controlling with node.
 
