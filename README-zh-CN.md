@@ -997,6 +997,7 @@
 - [playwright](https://github.com/microsoft/playwright) - 使用单一API自动操作Chromium, Firefox and WebKi。
 - [phantomjs](https://github.com/ariya/phantomjs) - 脚本化无头浏览器。
 - [appium](https://github.com/appium/appium) - iOS, Android, and Windows Apps自动化。
+- [wechaty](https://github.com/wechaty/wechaty) - 会话 RPA SDK。
 - [robotjs](https://github.com/octalmage/robotjs) - Node.js桌面自动化。
 - [nut.js](https://github.com/nut-tree/nut.js) - 使用Node.js进行原生 UI 测试/控制
 
