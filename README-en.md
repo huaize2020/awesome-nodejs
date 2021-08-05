@@ -488,6 +488,7 @@ English | [简体中文](./README.md)
 - Other
   - [commitizen](https://github.com/commitizen/cz-cli) - The commitizen command line utility.
   - [update-notifier](https://github.com/yeoman/update-notifier) - Update notifications for your CLI app.
+  - [console-stamp](https://github.com/starak/node-console-stamp) - Patch NodeJS console methods in order to add timestamp information by pattern.
   - [didyoumean](https://github.com/dcporter/didyoumean.js) - A simple, optimized JS library & node.js module for matching short, human-quality input to a list of possibilities.
   - [console-clear](https://github.com/lukeed/console-clear) - Clear the console, cross-platform.
 
@@ -693,6 +694,7 @@ English | [简体中文](./README.md)
 - [markdownlint](https://github.com/DavidAnson/markdownlint) - A Node.js style checker and lint tool for Markdown/CommonMark files.
 - [textlint](https://github.com/textlint/textlint) - The pluggable natural language linter for text and markdown.
 - [pretty-quick](https://github.com/azz/pretty-quick) - ⚡ Get Pretty Quick.
+- [dtslint](https://github.com/Microsoft/dtslint) - A utility built on TSLint for linting TypeScript declaration (.d.ts) files.
 
 ### Configuration Tools
 
@@ -1010,6 +1012,7 @@ English | [简体中文](./README.md)
   - [json-server](https://github.com/typicode/json-server) - Get a full fake REST API with zero coding in less than 30 seconds.
   - [easy-mock](https://github.com/easy-mock/easy-mock) - A persistent service that generates mock data quickly and provids visualization view.
   - [miragejs](https://github.com/miragejs/miragejs) - A client-side server to build, test and share your JavaScript app.
+  - [pretender](https://github.com/pretenderjs/pretender) - A mock server library with a nice routing DSL.
   - [http-fake-backend](https://github.com/micromata/http-fake-backend) - Build a fake backend by providing the content of JSON files or JavaScript objects through configurable routes.
   - [smoke](https://github.com/sinedied/smoke) - 💨 Simple yet powerful file-based mock server with recording abilities.
 
