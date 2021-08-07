@@ -842,6 +842,7 @@
 - [engine.io](https://github.com/socketio/engine.io) - 基于传输的跨浏览器/跨设备双向通信层的实现Socket.IO。
 - [SockJS-node](https://github.com/sockjs/sockjs-node) - WebSocket Node.js服务端实现。
 - [Aedes](https://github.com/mcollina/aedes) - 可以在任何流服务器上运行的准系统MQTT服务器。
+- [nodejs-websocket](https://github.com/sitegui/nodejs-websocket) - 一个Websocket服务端和客户端模块。
 - [rpc-websockets](https://github.com/elpheria/rpc-websockets) - 通过WebSocket实现JSON-RPC 2.0。
 - [deepstream.io](https://github.com/deepstreamIO/deepstream.io-client-js) - 可扩展的实时通信微服务框架。
 - [isomorphic-ws](https://github.com/heineiuo/isomorphic-ws) - WebSocket 的同构实现。
