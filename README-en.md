@@ -833,6 +833,7 @@ English | [简体中文](./README.md)
 - [engine.io](https://github.com/socketio/engine.io) - The implementation of transport-based cross-browser/cross-device bi-directional communication layer for Socket.IO.
 - [SockJS-node](https://github.com/sockjs/sockjs-node) - WebSocket emulation - Node.js server.
 - [Aedes](https://github.com/mcollina/aedes) - Barebone MQTT server that can run on any stream server.
+- [nodejs-websocket](https://github.com/sitegui/nodejs-websocket) - A node.js module for websocket server and client.
 - [rpc-websockets](https://github.com/elpheria/rpc-websockets) - JSON-RPC 2.0 implementation over WebSockets.
 - [deepstream.io](https://github.com/deepstreamIO/deepstream.io-client-js) - Scalable real-time microservice framework.
 - [isomorphic-ws](https://github.com/heineiuo/isomorphic-ws) - Isomorphic implementation of WebSocket.
