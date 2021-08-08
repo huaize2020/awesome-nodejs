@@ -135,6 +135,7 @@ English | [简体中文](./README.md)
   - [nanoid](https://github.com/ai/nanoid) - Tiny, secure, URL-friendly, unique string ID generator.
   - [uuid](https://github.com/uuidjs/uuid) - Generate RFC-compliant UUIDs in JavaScript.
   - [shortid](https://github.com/dylang/shortid) - Short id generator. Url-friendly. Non-predictable. Cluster-compatible.
+  - [cuid](https://github.com/ericelliott/cuid) - Collision-resistant ids optimized for horizontal scaling and performance.
   - [ulid](https://github.com/ulid/javascript) - Universally Unique Lexicographically Sortable Identifier.
   - [uuid-js](https://github.com/pnegri/uuid-js) - A js library to generate and parse UUIDs,TimeUUIDs and generate TimeUUID based on Date for range selections.
   - [pure-uuid](https://github.com/rse/pure-uuid) - Pure JavaScript Based Universally Unique Identifiers (UUID).
