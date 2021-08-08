@@ -142,6 +142,7 @@
   - [nanoid](https://github.com/ai/nanoid) - 小巧、安全、URL友好、唯一的字符串ID生成器。
   - [uuid](https://github.com/uuidjs/uuid) - 在JavaScript中生成符合RFC规范的UUID。
   - [shortid](https://github.com/dylang/shortid) - 短ID生成器。 网址友好。 不可预测的。 集群兼容。
+  - [cuid](https://github.com/ericelliott/cuid) - 针对水平扩展和性能优化的抗冲突ids。
   - [ulid](https://github.com/ulid/javascript) - 通用唯一词典分类排序标识符。
   - [uuid-js](https://github.com/pnegri/uuid-js) - 用于生成和解析 UUID、TimeUUID 并根据日期生成 TimeUUID 以供范围选择。
   - [pure-uuid](https://github.com/rse/pure-uuid) - 基于纯JavaScript全局唯一ID(UUID)。
