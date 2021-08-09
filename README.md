@@ -978,6 +978,7 @@
 - [node-cache](https://github.com/node-cache/node-cache) - Node.js内存缓存模块。
 - [memcached](https://github.com/3rd-Eden/memcached) - 功能齐全的Memcached Node.js客户端库。 考虑到扩展性，因此它将支持Memcached群集和一致的哈希。
 - [node-cache-manager](https://github.com/BryanDonovan/node-cache-manager) - Node.js Cache模块。
+- [quick-lru](https://github.com/sindresorhus/quick-lru) - 简单的 “最近最少使用” (LRU) 缓存.
 - [hashlru](https://github.com/dominictarr/hashlru) - 更轻量更快的LRU算法。
 - [flat-cache](https://github.com/royriojas/flat-cache) - 一个傻瓜般简单的键/值存储使用文件来持久化数据。
 - [ylru](https://github.com/node-modules/ylru) - 基于hashlru添加过期时间，允许空值。
