@@ -291,6 +291,7 @@ English | [简体中文](./README.md)
 - [crypto-hash](https://github.com/sindresorhus/crypto-hash) - Tiny hashing module that uses the native crypto API in Node.js and the browser.
 - [sm-crypto](https://github.com/JuneAndGreen/sm-crypto) - JavaScript library of sm2, sm3, sm4.
 - [sha.js](https://github.com/crypto-browserify/sha.js) - Streamable SHA hashes in pure javascript.
+- [hash-sum](https://github.com/bevacqua/hash-sum) - Blazing fast unique hash generator.
 - [cryptr](https://github.com/MauriceButler/cryptr) - Very basic encrypt and decrypt node module.
 - [hash.js](https://github.com/indutny/hash.js) - Hash functions in pure javascript.
 - [pbkdf2](https://github.com/crypto-browserify/pbkdf2) - PBKDF2 with any supported hashing algorithm in Node.
