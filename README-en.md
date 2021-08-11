@@ -1192,6 +1192,7 @@ English | [简体中文](./README.md)
 - [node-casbin](https://github.com/casbin/node-casbin) - Authorization library that supports access control models like ACL, RBAC and ABAC.
 - [jose](https://github.com/panva/jose) - Universal "JSON Web Almost Everything" - JWA, JWS, JWE, JWT, JWK with no dependencies.
 - [basic-auth](https://github.com/jshttp/basic-auth) - Generic basic auth Authorization header field parser.
+- [selfsigned](https://github.com/jfromaniello/selfsigned) - Generate self-signed certificates from node.js.
 
 ### Distribute
 
