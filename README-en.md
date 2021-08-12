@@ -1028,6 +1028,7 @@ English | [简体中文](./README.md)
 - End-to-end Testing / Automated UI
   - [nightwatch](https://github.com/nightwatchjs/nightwatch) - End-to-end testing framework written in Node.js and using the Webdriver API.
   - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - End 2 End Testing Framework for NodeJS.
+  - [uirecorder](https://github.com/alibaba/uirecorder) - UI Recorder is a multi-platform UI test recorder.
 
 - Testing Framework
   - [jest](https://github.com/facebook/jest) - Delightful JavaScript Testing.
