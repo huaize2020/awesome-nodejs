@@ -1037,6 +1037,7 @@
 - 端到端的测试(E2E) / 自动化UI
   - [nightwatch](https://github.com/nightwatchjs/nightwatch) - 用 Node.js 编写，并使用 Webdriver API 的端到端测试框架。
   - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - Node.js端到端测试框架。
+  - [uirecorder](https://github.com/alibaba/uirecorder) - UI Recorder 是一款面向多端的 UI 自动化录制工具。
 
 - 测试框架
   - [jest](https://github.com/facebook/jest) - 愉悦的JavaScript测试。
