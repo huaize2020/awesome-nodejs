@@ -1025,8 +1025,9 @@ English | [简体中文](./README.md)
   - [http-fake-backend](https://github.com/micromata/http-fake-backend) - Build a fake backend by providing the content of JSON files or JavaScript objects through configurable routes.
   - [smoke](https://github.com/sinedied/smoke) - 💨 Simple yet powerful file-based mock server with recording abilities.
 
-- End-to-end Testing / Automated UI
+- End-to-end Testing / UI Recoder / UI Replay
   - [nightwatch](https://github.com/nightwatchjs/nightwatch) - End-to-end testing framework written in Node.js and using the Webdriver API.
+  - [rrweb](https://github.com/rrweb-io/rrweb) - Record and replay the web.
   - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - End 2 End Testing Framework for NodeJS.
   - [uirecorder](https://github.com/alibaba/uirecorder) - UI Recorder is a multi-platform UI test recorder.
 
