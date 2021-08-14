@@ -1034,8 +1034,9 @@
   - [http-fake-backend](https://github.com/micromata/http-fake-backend) - 通过可配置的路由，提供JSON文件或JavaScript对象来构建伪造的后端。
   - [smoke](https://github.com/sinedied/smoke) - 具有记录功能的，简单但功能强大的基于文件的Mock服务器。
 
-- 端到端的测试(E2E) / 自动化UI
+- 端到端的测试(E2E) / UI录制和播放
   - [nightwatch](https://github.com/nightwatchjs/nightwatch) - 用 Node.js 编写，并使用 Webdriver API 的端到端测试框架。
+  - [rrweb](https://github.com/rrweb-io/rrweb) - 记录和播放Web操作。
   - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - Node.js端到端测试框架。
   - [uirecorder](https://github.com/alibaba/uirecorder) - UI Recorder 是一款面向多端的 UI 自动化录制工具。
 
