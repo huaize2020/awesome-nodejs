@@ -648,6 +648,7 @@ English | [简体中文](./README.md)
 ### Git
 
 - [husky](https://github.com/typicode/husky) - Modern native Git hooks made easy 🐶 woof!
+- [isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) - A pure JavaScript implementation of git for node and browsers!
 - [nodegit](https://github.com/nodegit/nodegit) - Node bindings to the libgit2 project.
 - [simple-git](https://github.com/steveukx/git-js) - A light weight interface for running git commands in any node.js application.
 - [gitgraph-node](https://github.com/nicoespeon/gitgraph.js/tree/master/packages/gitgraph-node) - Draw pretty git graphs in your terminal.
