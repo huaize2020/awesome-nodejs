@@ -658,6 +658,7 @@
 - [husky](https://github.com/typicode/husky) - 现代化的本地Git钩子使操作更加轻松！
 - [isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) - 用于Node.js和浏览器的 纯 JavaScript git实现！
 - [nodegit](https://github.com/nodegit/nodegit) - [libgit2](https://libgit2.org/) 的 Node.js 绑定版本。
+- [js-git](https://github.com/creationix/js-git) - Git的JavaScript实现。
 - [simple-git](https://github.com/steveukx/git-js) - 一个轻量级的接口，用于在任何 node.js 应用程序中运行 git 命令。
 - [gitgraph-node](https://github.com/nicoespeon/gitgraph.js/tree/master/packages/gitgraph-node) - 在 Terminal 绘制 git 流程图（支持浏览器、React）。
 - [pre-commit](https://github.com/observing/pre-commit) - 自动在您的git储存库中安装git pre-commit脚本，该脚本在pre-commit上运行您的`npm test`。
@@ -1035,11 +1036,14 @@
   - [http-fake-backend](https://github.com/micromata/http-fake-backend) - 通过可配置的路由，提供JSON文件或JavaScript对象来构建伪造的后端。
   - [smoke](https://github.com/sinedied/smoke) - 具有记录功能的，简单但功能强大的基于文件的Mock服务器。
 
-- 端到端的测试(E2E) / UI录制和播放
-  - [nightwatch](https://github.com/nightwatchjs/nightwatch) - 用 Node.js 编写，并使用 Webdriver API 的端到端测试框架。
+- UI录制和播放
   - [rrweb](https://github.com/rrweb-io/rrweb) - 记录和播放Web操作。
-  - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - Node.js端到端测试框架。
   - [uirecorder](https://github.com/alibaba/uirecorder) - UI Recorder 是一款面向多端的 UI 自动化录制工具。
+
+- 端到端的测试(E2E)
+  - [cypress](https://github.com/cypress-io/cypress) - 对浏览器中运行的任何东西进行快速、简单和可靠的测试。
+  - [nightwatch](https://github.com/nightwatchjs/nightwatch) - 用 Node.js 编写，并使用 Webdriver API 的端到端测试框架。
+  - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - Node.js端到端测试框架。
 
 - 测试框架
   - [jest](https://github.com/facebook/jest) - 愉悦的JavaScript测试。
