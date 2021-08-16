@@ -650,6 +650,7 @@ English | [简体中文](./README.md)
 - [husky](https://github.com/typicode/husky) - Modern native Git hooks made easy 🐶 woof!
 - [isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) - A pure JavaScript implementation of git for node and browsers!
 - [nodegit](https://github.com/nodegit/nodegit) - Node bindings to the libgit2 project.
+- [js-git](https://github.com/creationix/js-git) - A JavaScript implementation of Git.
 - [simple-git](https://github.com/steveukx/git-js) - A light weight interface for running git commands in any node.js application.
 - [gitgraph-node](https://github.com/nicoespeon/gitgraph.js/tree/master/packages/gitgraph-node) - Draw pretty git graphs in your terminal.
 - [pre-commit](https://github.com/observing/pre-commit) - Automatically installs a git pre-commit script in your git repository which runs your `npm test` on pre-commit.
@@ -1026,11 +1027,14 @@ English | [简体中文](./README.md)
   - [http-fake-backend](https://github.com/micromata/http-fake-backend) - Build a fake backend by providing the content of JSON files or JavaScript objects through configurable routes.
   - [smoke](https://github.com/sinedied/smoke) - 💨 Simple yet powerful file-based mock server with recording abilities.
 
-- End-to-end Testing / UI Recoder / UI Replay
-  - [nightwatch](https://github.com/nightwatchjs/nightwatch) - End-to-end testing framework written in Node.js and using the Webdriver API.
+- UI Recoder / Replay
   - [rrweb](https://github.com/rrweb-io/rrweb) - Record and replay the web.
-  - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - End 2 End Testing Framework for NodeJS.
   - [uirecorder](https://github.com/alibaba/uirecorder) - UI Recorder is a multi-platform UI test recorder.
+
+- End-to-end Testing
+  - [cypress](https://github.com/cypress-io/cypress) - Fast, easy and reliable testing for anything that runs in a browser.
+  - [nightwatch](https://github.com/nightwatchjs/nightwatch) - End-to-end testing framework written in Node.js and using the Webdriver API.
+  - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - End 2 End Testing Framework for NodeJS.
 
 - Testing Framework
   - [jest](https://github.com/facebook/jest) - Delightful JavaScript Testing.
