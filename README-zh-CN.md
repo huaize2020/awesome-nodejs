@@ -656,6 +656,7 @@
 ### Git
 
 - [husky](https://github.com/typicode/husky) - 现代化的本地Git钩子使操作更加轻松！
+- [isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) - 用于Node.js和浏览器的 纯 JavaScript git实现！
 - [nodegit](https://github.com/nodegit/nodegit) - [libgit2](https://libgit2.org/) 的 Node.js 绑定版本。
 - [simple-git](https://github.com/steveukx/git-js) - 一个轻量级的接口，用于在任何 node.js 应用程序中运行 git 命令。
 - [gitgraph-node](https://github.com/nicoespeon/gitgraph.js/tree/master/packages/gitgraph-node) - 在 Terminal 绘制 git 流程图（支持浏览器、React）。
