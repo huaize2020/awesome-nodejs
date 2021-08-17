@@ -633,6 +633,7 @@
 
 - HTML
   - [htmlparser2](https://github.com/fb55/htmlparser2) - 宽容的 HTML 和 XML 解析器。
+  - [parse5](https://github.com/inikulin/parse5) - 用于 Node.js 的 HTML 解析/序列化工具集。 WHATWG HTML 标准（又名 HTML5）兼容。
   - [sanitize-html](https://github.com/apostrophecms/sanitize-html) - 清理用户提交的 HTML，在每个元素的基础上保留列入白名单的元素和属性。 建立在 htmlparser2 上，以提高速度和容忍度。
   - [himalaya](https://github.com/andrejewski/himalaya) - 将HTML转化为JSON的解析器。
 
