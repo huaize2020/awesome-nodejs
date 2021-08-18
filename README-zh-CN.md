@@ -1147,6 +1147,7 @@
   - [detect-port](https://github.com/node-modules/detect-port) - 端口探测的Node.JS实现。
 
 - 隧道代理
+  - [localtunnel](https://github.com/localtunnel/localtunnel) - Localtunnel 将您的本地主机公开给全世界，以便于测试和共享！
   - [node-tunnel](https://github.com/koichik/node-tunnel) - 用于隧道代理的 HTTP/HTTPS代理。
   - [tunnel-agent](https://github.com/request/tunnel-agent) - HTTP 隧道代理。以前是 mikeal/request 的一部分，现在是一个独立的模块。
 
