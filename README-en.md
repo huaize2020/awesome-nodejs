@@ -1137,7 +1137,8 @@ English | [简体中文](./README.md)
   - [get-port](https://github.com/sindresorhus/get-port) - Get an available port.
   - [detect-port](https://github.com/node-modules/detect-port) - Node.js implementation of port detector.
 
-- Tunnel Agent
+- Tunnel
+  - [localtunnel](https://github.com/localtunnel/localtunnel) - Localtunnel exposes your localhost to the world for easy testing and sharing!
   - [node-tunnel](https://github.com/koichik/node-tunnel) - Node HTTP/HTTPS Agents for tunneling proxies.
   - [tunnel-agent](https://github.com/request/tunnel-agent) - HTTP proxy tunneling agent. Formerly part of mikeal/request, now a standalone module.
 
