@@ -1007,6 +1007,7 @@ English | [简体中文](./README.md)
   - [power-assert](https://github.com/power-assert-js/power-assert) - Provides descriptive assertion messages through the standard assert interface.
   - [expect.js](https://github.com/Automattic/expect.js) - Minimalistic BDD-style assertions for Node.JS and the browser.
   - [should.js](https://github.com/shouldjs/should.js) - BDD style assertions for node.js.
+  - [unexpected](https://github.com/unexpectedjs/unexpected) - Unexpected - the extensible BDD assertion toolkit.
   - [better-assert](https://github.com/tj/better-assert) - C-style assert() for nodejs, reporting the expression string as the error message.
   - [http-assert](https://github.com/jshttp/http-assert) - Assert with status codes.
 
