@@ -26,6 +26,7 @@ English | [简体中文](./README.md)
   - [Check/Detect](#checkdetect)
   - [Data Validation](#data-validation)
   - [Functional programming](#functional-programming)
+  - [Control flow](#control-flow)
   - [Inversion of control / Dependency Injection (Ioc/DI)](#inversion-of-control--dependency-injection-iocdi)
   - [Shell](#shell)
   - [Environment](#environment)
@@ -398,6 +399,28 @@ English | [简体中文](./README.md)
 - [Folktale](https://github.com/origamitower/folktale) - Suite of libraries for generic functional programming in JavaScript that allows you to write elegant, modular applications with fewer bugs, and more reuse.
 - [Kefir.js](https://github.com/kefirjs/kefir) - Reactive library with focus on high performance and low memory usage.
 - [Mout](https://github.com/mout/mout) - Utility library with the biggest difference between other existing solutions is that you can choose to load only the modules/functions that you need, no extra overhead.
+
+### Control flow
+
+- Promises
+  - [Bluebird](https://github.com/petkaantonov/bluebird) - Bluebird is a fully featured promise library with focus on innovative features and performance.
+  - [co](https://github.com/tj/co) - The ultimate generator based flow-control goodness for nodejs (supports thunks, promises, etc).
+  - [pify](https://github.com/sindresorhus/pify) - Promisify a callback-style function.
+  - [p-map](https://github.com/sindresorhus/p-map) - Map over promises concurrently.
+  - [delay](https://github.com/sindresorhus/delay) - Delay a promise a specified amount of time.
+  - [promise-memoize](https://github.com/nodeca/promise-memoize) - Memoize promise-returning functions, with expire and prefetch.
+  - [valvelet](https://github.com/lpinca/valvelet) - Limit the execution rate of a promise-returning function.
+
+- Observables
+  - [RxJS](https://github.com/ReactiveX/RxJS) - Reactive programming.
+  - [zen-observable](https://github.com/zenparsing/zen-observable) - Implementation of Observables.
+  - [observable-to-promise](https://github.com/sindresorhus/awesome-observables) - Convert an Observable to a Promise.
+
+- Callbacks
+  - [async](https://github.com/caolan/async) - Provides straight-forward, powerful functions for working with asynchronicity.
+
+- Channels
+  - [js-csp](https://github.com/ubolonton/js-csp) - Communicating sequential processes for JavaScript (like Clojurescript core.async, or Go).
 
 ### Inversion of control / Dependency Injection (Ioc/DI)
 
