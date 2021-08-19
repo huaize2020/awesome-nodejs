@@ -32,6 +32,7 @@
   - [检测/判断](#检测判断)
   - [数据校验](#数据校验)
   - [函数式编程](#函数式编程)
+  - [流程控制](#流程控制)
   - [控制反转/依赖注入](#控制反转依赖注入)
   - [Shell](#shell)
   - [环境](#环境)
@@ -406,6 +407,28 @@
 - [Folktale](https://github.com/origamitower/folktale) - 一套用于JavaScript中的通用函数编程的库，它允许您编写优雅的、模块化的应用程序，并且bug更少及更强的重用性。
 - [Kefir.js](https://github.com/kefirjs/kefir) - 响应式库，专注于高性能和低内存使用。
 - [Mout](https://github.com/mout/mout) - 该库与其他现有解决方案之间最大的区别是，您可以选择只加载需要的模块/函数，而不需要额外开销。.
+
+### 流程控制
+
+- Promises
+  - [Bluebird](https://github.com/petkaantonov/bluebird) - Bluebird 是一个功能齐全的Promise库，专注于创新功能和性能。
+  - [co](https://github.com/tj/co) - 拥有流程控制优势的Nodejs终极生成器（支持 thunks、promises 等）。
+  - [pify](https://github.com/sindresorhus/pify) - 将回调式的函数 Promisify 化。
+  - [p-map](https://github.com/sindresorhus/p-map) - 并发的Map执行 Promise 。
+  - [delay](https://github.com/sindresorhus/delay) - 将 Promise 延迟指定的时间。
+  - [promise-memoize](https://github.com/nodeca/promise-memoize) - 记忆化Promise返回函数，带过期和prefetch预取功能。
+  - [valvelet](https://github.com/lpinca/valvelet) - 限制Promise返回函数的执行率(限流)。
+
+- 可观察对象
+  - [RxJS](https://github.com/ReactiveX/RxJS) - 响应式编程。
+  - [zen-observable](https://github.com/zenparsing/zen-observable) - 可观察对象的实现。
+  - [observable-to-promise](https://github.com/sindresorhus/observable-to-promise) - 将可观察对象转化为 Promise.
+
+- 回调函数
+  - [async](https://github.com/caolan/async) - 提供直接、强大的函数们来处理异步问题。
+
+- 管道
+  - [js-csp](https://github.com/ubolonton/js-csp) - 用于JavaScript的顺序通信进程CSP（如 ClojureScript core.async 或 Go）。
 
 ### 控制反转/依赖注入
 
