@@ -553,6 +553,7 @@ English | [简体中文](./README.md)
 *(You might like [awesome-monorepo](https://github.com/korfuri/awesome-monorepo))*
 
 - [lerna](https://github.com/lerna/lerna) - A tool for managing JavaScript projects with multiple packages.
+- [rush](https://rushjs.io/) - The scalable monorepo build orchestrator。
 
 ### Filesystem
 

@@ -561,7 +561,7 @@
 *(你也许喜欢 [awesome-monorepo](https://github.com/korfuri/awesome-monorepo))*
 
 - [lerna](https://github.com/lerna/lerna) - 用于管理具有多个包的JavaScript项目的工具。
-
+- [rush](https://rushjs.io/) - 可伸缩的monorepo构建管理工具。
 ### 文件系统
 
 - 通用
