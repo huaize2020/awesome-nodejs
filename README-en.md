@@ -45,6 +45,7 @@ English | [简体中文](./README.md)
   - [Build Tools](#build-tools)
   - [Templating](#templating)
   - [Web Frameworks](#web-frameworks)
+  - [GraphQL](#graphql)
   - [Content management systems (CMS)](#content-management-systems-cms)
   - [Static Site Generator & Blogging](#static-site-generator--blogging)
   - [Documentation](#documentation)
@@ -676,6 +677,7 @@ English | [简体中文](./README.md)
 - [isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) - A pure JavaScript implementation of git for node and browsers!
 - [nodegit](https://github.com/nodegit/nodegit) - Node bindings to the libgit2 project.
 - [js-git](https://github.com/creationix/js-git) - A JavaScript implementation of Git.
+- [degit](https://github.com/Rich-Harris/degit) - Degit makes copies of git repositories. Straightforward project scaffolding.
 - [simple-git](https://github.com/steveukx/git-js) - A light weight interface for running git commands in any node.js application.
 - [gitgraph-node](https://github.com/nicoespeon/gitgraph.js/tree/master/packages/gitgraph-node) - Draw pretty git graphs in your terminal.
 - [pre-commit](https://github.com/observing/pre-commit) - Automatically installs a git pre-commit script in your git repository which runs your `npm test` on pre-commit.
@@ -788,13 +790,13 @@ English | [简体中文](./README.md)
 - [LoopBack](https://github.com/strongloop/loopback-next) - Powerful framework for creating REST APIs and easily connecting to backend data sources.
 - [Restify](https://github.com/restify/node-restify) - Enables you to build correct REST web services.
 - [ThinkJS](https://github.com/thinkjs/thinkjs) - Framework with ES2015+ support, WebSockets, REST API.
-- [Midway](https://github.com/midwayjs/midway) - A Node.js framework for building Serverless services, traditional server-side applications, microservices, and small programs.
 - [total.js](https://github.com/totaljs/framework) - A framework for Node.js platfrom written in pure JavaScript similar to PHP's Laravel or Python's Django or ASP.NET MVC
 - [AdonisJs](http://adonisjs.com) - A true MVC framework for Node.js built on solid foundations of Dependency Injection and IoC container.
 - [Micro](https://github.com/zeit/micro) - Minimalistic microservice framework with an async approach.
 - [Moleculer](https://moleculer.services) - Fast & powerful microservices framework.
-- [TypeGraphQL](https://github.com/19majkel94/type-graphql) - Modern framework for creating GraphQL APIs with TypeScript, using classes and decorators.
+- [Midway](https://github.com/midwayjs/midway) - A Node.js framework for building Serverless services, traditional server-side applications, microservices, and small programs.
 - [seneca](https://github.com/senecajs/seneca) - Toolkit for writing microservices.
+- [server](https://github.com/franciscop/server) - Simple and powerful server for Node.js.
 - [beidou](https://github.com/alibaba/beidou) - Isomorphic framework for server-rendered React apps.
 - [Marble.js](https://github.com/marblejs/marble) - Functional reactive framework for building server-side apps, based on TypeScript and RxJS.
 - [ActionHero](https://github.com/actionhero/actionhero) - Framework for making reusable & scalable APIs for TCP sockets, WebSockets, and HTTP clients.
@@ -806,6 +808,10 @@ English | [简体中文](./README.md)
 - [CabloyJS](https://github.com/zhennann/Cabloy) - A Node.js full-stack framework with workflow engine, based on koa + egg + vue + framework7.
 - [malagu](https://github.com/cellbang/malagu) - Malagu is a serverless First, scalable and componentized application framework developed by TypeScript.
 - [Zeronode](https://github.com/sfast/zeronode) - Minimal building block for reliable and fault-tolerant microservices.
+
+### GraphQL
+
+- *(You might like [awesome-graphql](https://github.com/chentsulin/awesome-graphql#javascript-libraries))*
 
 ### Content management systems (CMS)
 
@@ -1333,6 +1339,7 @@ English | [简体中文](./README.md)
 
 - [tfjs](https://github.com/tensorflow/tfjs) - A WebGL accelerated JavaScript library for training and deploying ML models.
 - [netron](https://github.com/lutzroeder/netron) - Visualizer for neural network, deep learning, and machine learning models.
+- [face-api.js](https://github.com/justadudewhohacks/face-api.js) - JavaScript API for face detection and face recognition in the browser and nodejs with tensorflow.js.
 - [brain.js](https://github.com/BrainJS/brain.js) - GPU accelerated Neural networks in JavaScript for Browsers and Node.js.
 - [pipcook](https://github.com/alibaba/pipcook) - Machine learning platform for Web developers.
 - [onnxjs](https://github.com/microsoft/onnxjs) - ONNX.js: run ONNX models using JavaScript.
