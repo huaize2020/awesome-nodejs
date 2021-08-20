@@ -51,6 +51,7 @@
   - [构建工具](#构建工具)
   - [模板引擎](#模板引擎)
   - [Web框架](#web框架)
+  - [GraphQL](#graphql)
   - [内容管理系统 (CMS)](#内容管理系统-cms)
   - [静态网站生成 & 博客](#静态网站生成--博客)
   - [文档生成](#文档生成)
@@ -684,6 +685,7 @@
 - [isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) - 用于Node.js和浏览器的 纯 JavaScript git实现！
 - [nodegit](https://github.com/nodegit/nodegit) - [libgit2](https://libgit2.org/) 的 Node.js 绑定版本。
 - [js-git](https://github.com/creationix/js-git) - Git的JavaScript实现。
+- [degit](https://github.com/Rich-Harris/degit) - Degit 制作 git 存储库的副本。用于构建简单的项目脚手架。
 - [simple-git](https://github.com/steveukx/git-js) - 一个轻量级的接口，用于在任何 node.js 应用程序中运行 git 命令。
 - [gitgraph-node](https://github.com/nicoespeon/gitgraph.js/tree/master/packages/gitgraph-node) - 在 Terminal 绘制 git 流程图（支持浏览器、React）。
 - [pre-commit](https://github.com/observing/pre-commit) - 自动在您的git储存库中安装git pre-commit脚本，该脚本在pre-commit上运行您的`npm test`。
@@ -797,13 +799,13 @@
 - [LoopBack](https://github.com/strongloop/loopback-next) - 用于创建REST API并轻松连接到后端数据源的强大框架。
 - [Restify](https://github.com/restify/node-restify) - 使你能够构建正确的REST Web服务。
 - [ThinkJS](https://github.com/thinkjs/thinkjs) - 支持ES2015 +的框架，WebSockets，REST API。
-- [Midway](https://github.com/midwayjs/midway) - 一个面向未来的云端一体 Node.js 框架。
 - [total.js](https://github.com/totaljs/framework) - 使用纯JavaScript编写的Node.js框架，类似PHP's Laravel或Python's Django或ASP.NET MVC
 - [AdonisJs](http://adonisjs.com) - 基于依赖注入和IoC容器的坚实基础构建的Node.js的真正MVC框架。
 - [Micro](https://github.com/zeit/micro) - 具有异步方法的简约微服务框架。
 - [Moleculer](https://moleculer.services) - 快速而强大的微服务框架。
-- [TypeGraphQL](https://github.com/19majkel94/type-graphql) - 使用类和装饰器使用TypeScript创建GraphQL API的现代框架。
+- [Midway](https://github.com/midwayjs/midway) - 一个面向未来的云端一体 Node.js 框架。
 - [seneca](https://github.com/senecajs/seneca) - 编写微服务的工具包。
+- [server](https://github.com/franciscop/server) - 简单而强大的 Node.js 服务器。
 - [beidou](https://github.com/alibaba/beidou) - NodeJS & React 同构框架，基于Egg.js开发。
 - [Marble.js](https://github.com/marblejs/marble) - 基于TypeScript和RxJS，用于构建服务端应用的函数响应式框架。
 - [ActionHero](https://github.com/actionhero/actionhero) - 用于为TCP套接字，WebSocket和HTTP客户端制作可重用和可扩展的API的框架。
@@ -815,6 +817,10 @@
 - [CabloyJS](https://github.com/zhennann/Cabloy) - 一款自带工作流引擎的Node.js全栈框架。
 - [malagu](https://github.com/cellbang/malagu) - Malagu 是基于 TypeScript 的 Serverless First、可扩展和组件化的应用框架。
 - [Zeronode](https://github.com/sfast/zeronode) - 最小的构建块，可实现可靠且容错的微服务。
+
+### GraphQL
+
+- *(你也许喜欢 [awesome-graphql](https://github.com/chentsulin/awesome-graphql#javascript-libraries))*
 
 ### 内容管理系统 (CMS)
 
@@ -1342,6 +1348,7 @@
 
 - [tfjs](https://github.com/tensorflow/tfjs) - 一个WebGL加速的JavaScript库，用于训练和部署ML模型（Tensorflow官方）。
 - [netron](https://github.com/lutzroeder/netron) - 神经网络、深度学习和机器学习模型的可视化工具。
+- [face-api.js](https://github.com/justadudewhohacks/face-api.js) - 可在浏览器和 nodejs 中，使用 tensorflow.js 进行人脸检测和人脸识别的 JavaScript API。
 - [brain.js](https://github.com/BrainJS/brain.js) - 基于模型训练的神经网络 JS 库，支持浏览器和 Node.js。
 - [pipcook](https://github.com/alibaba/pipcook) - 为Web开发者提供的机器学习平台。
 - [onnxjs](https://github.com/microsoft/onnxjs) - 使用JavaScript运行ONNX模型。
