@@ -283,6 +283,7 @@ English | [简体中文](./README.md)
 ### Crypto
 
 - [crypto-js](https://github.com/brix/crypto-js) - JavaScript library of crypto standards.
+- [sjcl](https://github.com/bitwiseshiftleft/sjcl) - Stanford Javascript Crypto Library.
 - [bcrypt](https://github.com/kelektiv/node.bcrypt.js) - Bcrypt for NodeJs.
 - [jsencrypt](https://github.com/travist/jsencrypt) - A Javascript library to perform OpenSSL RSA Encryption, Decryption, and Key Generation.
 - [bcrypt.js](https://github.com/dcodeIO/bcrypt.js) - Optimized bcrypt in plain JavaScript with zero dependencies.
