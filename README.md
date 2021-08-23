@@ -290,6 +290,7 @@
 ### 加解密
 
 - [crypto-js](https://github.com/brix/crypto-js) - JavaScript加密标准库。
+- [sjcl](https://github.com/bitwiseshiftleft/sjcl) - Stanford Javascript Crypto Library.
 - [bcrypt](https://github.com/kelektiv/node.bcrypt.js) - Node.js版Bcrypt。
 - [jsencrypt](https://github.com/travist/jsencrypt) - 用于执行OpenSSL RSA加密、解密和密钥生成的Javascript库。
 - [bcrypt.js](https://github.com/dcodeIO/bcrypt.js) - 经过优化bcrypt库，使用纯JavaScript且零依赖。
