@@ -290,7 +290,7 @@
 ### 加解密
 
 - [crypto-js](https://github.com/brix/crypto-js) - JavaScript加密标准库。
-- [sjcl](https://github.com/bitwiseshiftleft/sjcl) - Stanford Javascript Crypto Library.
+- [sjcl](https://github.com/bitwiseshiftleft/sjcl) - 斯坦福 Javascript 加密库。
 - [bcrypt](https://github.com/kelektiv/node.bcrypt.js) - Node.js版Bcrypt。
 - [jsencrypt](https://github.com/travist/jsencrypt) - 用于执行OpenSSL RSA加密、解密和密钥生成的Javascript库。
 - [bcrypt.js](https://github.com/dcodeIO/bcrypt.js) - 经过优化bcrypt库，使用纯JavaScript且零依赖。
@@ -597,10 +597,7 @@
   - [memfs](https://github.com/streamich/memfs) - Node.js API内存文件系统。
   - [fs-jetpack](https://github.com/szwacz/fs-jetpack) - 完全重新设计的文件系统API，方便日常使用。
   - [make-dir](https://github.com/sindresorhus/make-dir) - 递归创建文件夹，类似 `mkdir -p`。
-  - [find-up](https://github.com/sindresorhus/find-up) - 通过上级父目录查找文件或目录。
   - [filenamify](https://github.com/sindresorhus/filenamify) - 将字符串转换为有效的文件名。
-  - [copyfiles](https://github.com/calvinmetcalf/copyfiles) - 在命令行中复制文件。
-  - [filehound](https://github.com/nspragg/filehound) - 灵活流畅的文件系统搜索接口。
   - [move-file](https://github.com/sindresorhus/move-file) - 移动文件，甚至可以跨设备工作。
   - [proper-lockfile](https://github.com/IndigoUnited/node-proper-lockfile) - 进程间和机器间文件锁实用工具。
   - [istextorbinary](https://github.com/bevry/istextorbinary) - 检查文件是文本文件还是二进制文件。
@@ -612,6 +609,7 @@
 - 复制
   - [ncp](https://github.com/AvianFlu/ncp) - 使用Node.js进行异步递归文件复制。
   - [cpy](https://github.com/sindresorhus/cpy) - 文件拷贝。
+  - [copyfiles](https://github.com/calvinmetcalf/copyfiles) - 在命令行中复制文件。
 
 - 删除
   - [rimraf](https://github.com/isaacs/rimraf) - 递归删除文件，类似 `rm -rf`。
@@ -626,10 +624,12 @@
   - [chokidar](https://github.com/paulmillr/chokidar) - 最小且高效的跨平台Watch库。
   - [watchpack](https://github.com/webpack/watchpack) - Watch文件和文件夹。
 
-- 遍历查找
+- 查找
   - [glob](https://github.com/isaacs/node-glob) - Node.js版glob功能。
   - [globby](https://github.com/sindresorhus/globby) - 基于fast-glob，但添加了很多有用的特性。
   - [fast-glob](https://github.com/mrmlnc/fast-glob) - 非常快速且高效的Node.js glob库。
+  - [find-up](https://github.com/sindresorhus/find-up) - 通过上级父目录查找文件或目录。
+  - [filehound](https://github.com/nspragg/filehound) - 灵活流畅的文件系统搜索接口。
   - [node-sync-glob](https://github.com/AndyOGo/node-sync-glob) - 通过glob模式在本地同步文件和文件夹，包括watch选项。
 
 ### 解析工具
