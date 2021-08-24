@@ -589,10 +589,7 @@ English | [简体中文](./README.md)
   - [memfs](https://github.com/streamich/memfs) - In-memory filesystem with Node's API.
   - [fs-jetpack](https://github.com/szwacz/fs-jetpack) - Completely redesigned file system API for convenience in everyday use.
   - [make-dir](https://github.com/sindresorhus/make-dir) - Recursively create directories like mkdir -p.
-  - [find-up](https://github.com/sindresorhus/find-up) - Find a file or directory by walking up parent directories.
   - [filenamify](https://github.com/sindresorhus/filenamify) - Convert a string to a valid filename.
-  - [copyfiles](https://github.com/calvinmetcalf/copyfiles) - Copy files on the command line.
-  - [filehound](https://github.com/nspragg/filehound) - Flexible and fluent interface for searching the file system.
   - [move-file](https://github.com/sindresorhus/move-file) - Move a file, even works across devices.
   - [proper-lockfile](https://github.com/IndigoUnited/node-proper-lockfile) - Inter-process and inter-machine lockfile utility.
   - [istextorbinary](https://github.com/bevry/istextorbinary) - Check if a file is text or binary.
@@ -604,6 +601,7 @@ English | [简体中文](./README.md)
 - Copy
   - [ncp](https://github.com/AvianFlu/ncp) - Asynchronous recursive file copying with Node.js.
   - [cpy](https://github.com/sindresorhus/cpy) - Copy files.
+  - [copyfiles](https://github.com/calvinmetcalf/copyfiles) - Copy files on the command line.
 
 - Delete
   - [rimraf](https://github.com/isaacs/rimraf) - Recursively delete files like rm -rf.
@@ -618,10 +616,12 @@ English | [简体中文](./README.md)
   - [chokidar](https://github.com/paulmillr/chokidar) - Minimal and efficient cross-platform file watching library.
   - [watchpack](https://github.com/webpack/watchpack) - Wrapper library for directory and file watching.
 
-- Glob
+- Find
   - [glob](https://github.com/isaacs/node-glob) - Glob functionality for node.js.
   - [globby](https://github.com/sindresorhus/globby) - Based on fast-glob but adds a bunch of useful features.
   - [fast-glob](https://github.com/mrmlnc/fast-glob) - Very fast and efficient glob library for Node.js.
+  - [find-up](https://github.com/sindresorhus/find-up) - Find a file or directory by walking up parent directories.
+  - [filehound](https://github.com/nspragg/filehound) - Flexible and fluent interface for searching the file system.
   - [node-sync-glob](https://github.com/AndyOGo/node-sync-glob) - Synchronize files and folders locally by glob patterns, watch option included.
 
 ### Parsing
