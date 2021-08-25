@@ -526,6 +526,7 @@
 
 - 其他
   - [commitizen](https://github.com/commitizen/cz-cli) - Commitizen命令行实用程序。
+  - [plop](https://github.com/plopjs/plop) - 微型代码模板生成工具，可让整个团队轻松创建具有统一的文件。
   - [update-notifier](https://github.com/yeoman/update-notifier) - 为你的CLI应用提供的更新提示。
   - [console-stamp](https://github.com/starak/node-console-stamp) - 为NodeJS console方法添加布丁，使其按模式添加时间戳信息。
   - [didyoumean](https://github.com/dcporter/didyoumean.js) - 简单、优化的JS库 和 Node.JS模块，用于将简短的人为的输入匹配到一个可能性列表中。
