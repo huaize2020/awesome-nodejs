@@ -518,6 +518,7 @@ English | [简体中文](./README.md)
 
 - Other
   - [commitizen](https://github.com/commitizen/cz-cli) - The commitizen command line utility.
+  - [plop](https://github.com/plopjs/plop) - Micro-generator framework that makes it easy for an entire team to create files with a level of uniformity.
   - [update-notifier](https://github.com/yeoman/update-notifier) - Update notifications for your CLI app.
   - [console-stamp](https://github.com/starak/node-console-stamp) - Patch NodeJS console methods in order to add timestamp information by pattern.
   - [didyoumean](https://github.com/dcporter/didyoumean.js) - A simple, optimized JS library & node.js module for matching short, human-quality input to a list of possibilities.
