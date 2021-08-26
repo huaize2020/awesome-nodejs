@@ -571,7 +571,7 @@
 
 - 工具
   - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - 查找当前package.json依赖允许的更新的版本。 ![](https://img.shields.io/github/stars/raineorshine/npm-check-updates.svg?style=social&label=Star)
-  - [concurrently](https://github.com/kimmobrunfeldt/concurrently) - 并行执行命令，类似 `npm run watch-js & npm run watch-less`但更优。 ![](https://img.shields.io/github/stars/kimmobrunfeldt/concurrently.svg?style=social&label=Star)
+  - [concurrently](https://github.com/open-cli-tools/concurrently) - 并行执行命令，类似 `npm run watch-js & npm run watch-less`但更优。 ![](https://img.shields.io/github/stars/open-cli-tools/concurrently.svg?style=social&label=Star)
   - [npm-run-all](https://github.com/mysticatea/npm-run-all) - 命令行工具，同时运行多个npm脚本（并行或串行）。 ![](https://img.shields.io/github/stars/mysticatea/npm-run-all.svg?style=social&label=Star)
   - [depcheck](https://github.com/depcheck/depcheck) - 检查你的NPM模块未使用的依赖。 ![](https://img.shields.io/github/stars/depcheck/depcheck.svg?style=social&label=Star)
   - [npminstall](https://github.com/cnpm/npminstall) - 使 `npm install` 更快更容易。 ![](https://img.shields.io/github/stars/cnpm/npminstall.svg?style=social&label=Star)
