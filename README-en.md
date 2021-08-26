@@ -563,7 +563,7 @@ English | [简体中文](./README.md)
 
 - Utilities
   - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - Find newer versions of package dependencies than what your package.json allows. ![](https://img.shields.io/github/stars/raineorshine/npm-check-updates.svg?style=social&label=Star)
-  - [concurrently](https://github.com/kimmobrunfeldt/concurrently) - Run commands concurrently. Like `npm run watch-js & npm run watch-less` but better. ![](https://img.shields.io/github/stars/kimmobrunfeldt/concurrently.svg?style=social&label=Star)
+  - [concurrently](https://github.com/open-cli-tools/concurrently) - Run commands concurrently. Like `npm run watch-js & npm run watch-less` but better. ![](https://img.shields.io/github/stars/open-cli-tools/concurrently.svg?style=social&label=Star)
   - [npm-run-all](https://github.com/mysticatea/npm-run-all) - A CLI tool to run multiple npm-scripts in parallel or sequential. ![](https://img.shields.io/github/stars/mysticatea/npm-run-all.svg?style=social&label=Star)
   - [depcheck](https://github.com/depcheck/depcheck) - Check your npm module for unused dependencies. ![](https://img.shields.io/github/stars/depcheck/depcheck.svg?style=social&label=Star)
   - [npminstall](https://github.com/cnpm/npminstall) - Make `npm install` fast and easy. ![](https://img.shields.io/github/stars/cnpm/npminstall.svg?style=social&label=Star)
