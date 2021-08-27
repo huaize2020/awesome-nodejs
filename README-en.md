@@ -784,6 +784,7 @@ English | [简体中文](./README.md)
 - [Nuxt.js](https://github.com/nuxt/nuxt.js) - Minimalistic framework for server-rendered Vue.js apps. ![](https://img.shields.io/github/stars/nuxt/nuxt.js.svg?style=social&label=Star)
 - [Nest](https://github.com/nestjs/nest) - Angular-inspired framework for building efficient and scalable server-side apps. *(You might like [awesome-nestjs](https://github.com/juliandavidmr/awesome-nestjs))* ![](https://img.shields.io/github/stars/nestjs/nest.svg?style=social&label=Star)
 - [Koa](https://github.com/koajs/koa) - Framework designed by the team behind Express, which aims to be a smaller, more expressive, and more robust foundation for web applications and APIs. ![](https://img.shields.io/github/stars/koajs/koa.svg?style=social&label=Star)
+  - *(You might like [awesome-koa](https://github.com/huaize2020/awesome-koa/blob/main/README-en.md))*
 - [sails](https://github.com/balderdashy/sails) - Realtime MVC Framework for Node.js. ![](https://img.shields.io/github/stars/balderdashy/sails.svg?style=social&label=Star)
 - [Fastify](https://github.com/fastify/fastify) - Fast and low overhead web framework. ![](https://img.shields.io/github/stars/fastify/fastify.svg?style=social&label=Star)
 - [Hapi](https://github.com/hapijs/hapi) - Framework for building applications and services. ![](https://img.shields.io/github/stars/hapijs/hapi.svg?style=social&label=Star)
@@ -880,7 +881,7 @@ English | [简体中文](./README.md)
 
 - [bull](https://github.com/OptimalBits/bull) - Persistent job and message queue. ![](https://img.shields.io/github/stars/OptimalBits/bull.svg?style=social&label=Star)
 - [amqp](https://github.com/squaremo/amqp.node)- AMQP 0-9-1 library and client for Node.JS. ![](https://img.shields.io/github/stars/squaremo/amqp.node.svg?style=social&label=Star)
-- [kafka-node]( https://github.com/SOHU-Co/kafka-node)- Node.js client for Apache Kafka 0.8 and later.
+- [kafka-node](https://github.com/SOHU-Co/kafka-node)- Node.js client for Apache Kafka 0.8 and later. ![](https://img.shields.io/github/stars/SOHU-Co/kafka-node.svg?style=social&label=Star)
 - [bee-queue](https://github.com/bee-queue/bee-queue) - High-performance Redis-backed job queue. ![](https://img.shields.io/github/stars/bee-queue/bee-queue.svg?style=social&label=Star)
   - [arena](https://github.com/bee-queue/arena) - An interactive UI dashboard for Bee Queue. ![](https://img.shields.io/github/stars/bee-queue/arena.svg?style=social&label=Star)
 - [kafkajs](https://github.com/tulios/kafkajs) - A modern Apache Kafka client for node.js. ![](https://img.shields.io/github/stars/tulios/kafkajs.svg?style=social&label=Star)
