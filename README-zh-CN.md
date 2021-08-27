@@ -793,6 +793,7 @@
 - [Nuxt.js](https://github.com/nuxt/nuxt.js) - Vue服务端渲染框架。 ![](https://img.shields.io/github/stars/nuxt/nuxt.js.svg?style=social&label=Star)
 - [Nest](https://github.com/nestjs/nest) -受Angular启发的框架，用于构建高效且可扩展的服务器端应用程序。*(你也许会喜欢 [awesome-nestjs](https://github.com/juliandavidmr/awesome-nestjs))* ![](https://img.shields.io/github/stars/nestjs/nest.svg?style=social&label=Star)
 - [Koa](https://github.com/koajs/koa) - 由Express背后的团队设计的框架，旨在为Web应用程序和API提供更小，更富表现力和更强大的基础。 ![](https://img.shields.io/github/stars/koajs/koa.svg?style=social&label=Star)
+  - *(你也许喜欢 [awesome-koa](https://github.com/huaize2020/awesome-koa))*
 - [sails](https://github.com/balderdashy/sails) - Node.js实时MVC框架。 ![](https://img.shields.io/github/stars/balderdashy/sails.svg?style=social&label=Star)
 - [Fastify](https://github.com/fastify/fastify) - 快速和低开销的Web框架。 ![](https://img.shields.io/github/stars/fastify/fastify.svg?style=social&label=Star)
 - [Hapi](https://github.com/hapijs/hapi) - 用于创建应用和服务的框架。 ![](https://img.shields.io/github/stars/hapijs/hapi.svg?style=social&label=Star)
@@ -889,7 +890,7 @@
 
 - [bull](https://github.com/OptimalBits/bull) - 持久作业和消息队列。 ![](https://img.shields.io/github/stars/OptimalBits/bull.svg?style=social&label=Star)
 - [amqp](https://github.com/squaremo/amqp.node)- AMQP 0-9-1 rabbit消息队列连接库。 ![](https://img.shields.io/github/stars/squaremo/amqp.node.svg?style=social&label=Star)
-- [kafka-node]( https://github.com/SOHU-Co/kafka-node)-  Apache Kafka 0.8 kafka客户端。
+- [kafka-node](https://github.com/SOHU-Co/kafka-node)-  Apache Kafka 0.8 kafka客户端。![](https://img.shields.io/github/stars/SOHU-Co/kafka-node.svg?style=social&label=Star)
 - [bee-queue](https://github.com/bee-queue/bee-queue) - 高性能的 基于Redis的任务队列。 ![](https://img.shields.io/github/stars/bee-queue/bee-queue.svg?style=social&label=Star)
   - [arena](https://github.com/bee-queue/arena) - bee-queue的交互式UI仪表盘。 ![](https://img.shields.io/github/stars/bee-queue/arena.svg?style=social&label=Star)
 - [kafkajs](https://github.com/tulios/kafkajs) - A modern Apache Kafka client for node.js. ![](https://img.shields.io/github/stars/tulios/kafkajs.svg?style=social&label=Star)
