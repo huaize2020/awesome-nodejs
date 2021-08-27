@@ -1,1399 +1,1389 @@
-> 该项目受 [awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) 启发
->
-> 原本是希望在原仓库中提供中文版，但跟该作者沟通，作者不希望添加本地化翻译增加维护工作量；且该库有很多国内用户常见的库并未收录，分类体系也不符合我的预期
->
-> 故此另开仓库，希望可以更好的满足国内开发者的需求。
+English | [简体中文](./README.md)
 
-> 同时推荐你查看我另一个仓库 [awesome-frontend](https://github.com/huaize2020/awesome-frontend)!
+> You can also see [awesome-frontend](https://github.com/huaize2020/awesome-frontend)!
 
-[English](./README-en.md) | 简体中文
+## Table of contents
 
-## 目录
-
-- [目录](#目录)
-- [官方资源](#官方资源)
-- [资源](#资源)
-  - [工具](#工具)
-  - [教程](#教程)
-- [GIT仓库](#git仓库)
-  - [文本](#文本)
-  - [数字](#数字)
-  - [数学运算](#数学运算)
-  - [日期 和 时间](#日期-和-时间)
-  - [正则/通配符匹配](#正则通配符匹配)
+- [Table of contents](#table-of-contents)
+- [Official](#official)
+- [Resources](#resources)
+  - [Tools](#tools)
+  - [Tutorials](#tutorials)
+- [Repository](#repository)
+  - [Text](#text)
+  - [Number](#number)
+  - [Math](#math)
+  - [Date & Time](#date--time)
+  - [RegExp/Glob](#regexpglob)
   - [URL](#url)
   - [JSON / JSON Schema](#json--json-schema)
-  - [图像处理](#图像处理)
-  - [音频 / 视频处理](#音频--视频处理)
-  - [字体](#字体)
-  - [颜色](#颜色)
-  - [加解密](#加解密)
-  - [流](#流)
-  - [检测/判断](#检测判断)
-  - [数据校验](#数据校验)
-  - [函数式编程](#函数式编程)
-  - [流程控制](#流程控制)
-  - [控制反转/依赖注入](#控制反转依赖注入)
+  - [Image](#image)
+  - [Audio / Video](#audio--video)
+  - [Font](#font)
+  - [Color](#color)
+  - [Crypto](#crypto)
+  - [Streams](#streams)
+  - [Check/Detect](#checkdetect)
+  - [Data Validation](#data-validation)
+  - [Functional programming](#functional-programming)
+  - [Control flow](#control-flow)
+  - [Inversion of control / Dependency Injection (Ioc/DI)](#inversion-of-control--dependency-injection-iocdi)
   - [Shell](#shell)
-  - [环境](#环境)
-  - [事件](#事件)
-  - [命令行工具](#命令行工具)
-  - [Node.js管理工具](#nodejs管理工具)
+  - [Environment](#environment)
+  - [Event](#event)
+  - [Command-line Utilities](#command-line-utilities)
+  - [Node.js Management](#nodejs-management)
   - [NPM](#npm)
   - [Monorepo](#monorepo)
-  - [文件系统](#文件系统)
-  - [解析工具](#解析工具)
+  - [Filesystem](#filesystem)
+  - [Parsing](#parsing)
   - [Git](#git)
-  - [日志](#日志)
-  - [进程管理](#进程管理)
-  - [代码校验 和 格式化工具](#代码校验-和-格式化工具)
-  - [配置工具](#配置工具)
-  - [构建工具](#构建工具)
-  - [模板引擎](#模板引擎)
-  - [Web框架](#web框架)
+  - [Logging](#logging)
+  - [Process management](#process-management)
+  - [Linter & Formatter](#linter--formatter)
+  - [Configuration Tools](#configuration-tools)
+  - [Build Tools](#build-tools)
+  - [Templating](#templating)
+  - [Web Frameworks](#web-frameworks)
   - [GraphQL](#graphql)
-  - [内容管理系统 (CMS)](#内容管理系统-cms)
-  - [静态网站生成 & 博客](#静态网站生成--博客)
-  - [文档生成](#文档生成)
-  - [接口管理](#接口管理)
-  - [桌面应用程序](#桌面应用程序)
-  - [实时通信](#实时通信)
-  - [任务队列](#任务队列)
-  - [定时任务](#定时任务)
-  - [调试](#调试)
-  - [剖析/分析](#剖析分析)
-  - [性能优化](#性能优化)
-  - [应用性能监控 (APM)](#应用性能监控-apm)
-  - [论坛](#论坛)
-  - [数据库](#数据库)
-  - [缓存](#缓存)
-  - [搜索引擎](#搜索引擎)
+  - [Content management systems (CMS)](#content-management-systems-cms)
+  - [Static Site Generator & Blogging](#static-site-generator--blogging)
+  - [Documentation](#documentation)
+  - [API Management](#api-management)
+  - [Desktop Apps](#desktop-apps)
+  - [Real-time](#real-time)
+  - [Job Queues](#job-queues)
+  - [Job Scheduling](#job-scheduling)
+  - [Debugging](#debugging)
+  - [Profiling/Analysis](#profilinganalysis)
+  - [Performance Optimization](#performance-optimization)
+  - [Application Performance Monitoring (APM)](#application-performance-monitoring-apm)
+  - [Forum](#forum)
+  - [Database](#database)
+  - [Cache](#cache)
+  - [Search Engine](#search-engine)
   - [Serverless](#serverless)
-  - [自动化 & 机器人流程自动化 - RPA](#自动化--机器人流程自动化---rpa)
-  - [测试相关](#测试相关)
-  - [办公软件](#办公软件)
-  - [操作系统识别](#操作系统识别)
-  - [压缩解压](#压缩解压)
-  - [最小化](#最小化)
-  - [邮箱](#邮箱)
-  - [网络](#网络)
+  - [Automation & RPA](#automation--rpa)
+  - [Testing](#testing)
+  - [Office](#office)
+  - [OS Identification](#os-identification)
+  - [Compression / Decompression](#compression--decompression)
+  - [Minifiers](#minifiers)
+  - [Email](#email)
+  - [Network](#network)
   - [HTTP](#http)
-  - [验证](#验证)
-  - [授权 / 鉴权](#授权--鉴权)
-  - [分布式](#分布式)
-  - [序列化](#序列化)
+  - [Authentication](#authentication)
+  - [Authorization](#authorization)
+  - [Distribute](#distribute)
+  - [Serialization](#serialization)
   - [RPC](#rpc)
-  - [服务端DOM](#服务端dom)
-  - [爬虫](#爬虫)
+  - [Server-side DOM](#server-side-dom)
+  - [Crawler](#crawler)
   - [AST](#ast)
   - [WebAssembly](#webassembly)
-  - [设计稿转代码（D2C）](#设计稿转代码d2c)
-  - [沙箱](#沙箱)
-  - [硬件](#硬件)
-  - [物联网IoT](#物联网iot)
-  - [机器学习 和 神经网络](#机器学习-和-神经网络)
-  - [自然语言处理](#自然语言处理)
+  - [Design To Code（D2C）](#design-to-coded2c)
+  - [Sandbox](#sandbox)
+  - [Hardware](#hardware)
+  - [IoT](#iot)
+  - [Machine learning & Neural networks](#machine-learning--neural-networks)
+  - [Natural language processing](#natural-language-processing)
   - [OCR](#ocr)
-  - [比特币](#比特币)
-- [项目](#项目)
-  - [低代码（Lowcode）](#低代码lowcode)
+  - [Bitcoin](#bitcoin)
+- [Project](#project)
+  - [Lowcode](#lowcode)
 
-## 官方资源
+## Official
+- [Website](https://nodejs.org)
+- [Documentation](https://nodejs.org/dist/latest/docs/api/)
+- [Repository](https://github.com/nodejs/node)
 
-- [官网](https://nodejs.org)
-- [文档](https://nodejs.org/dist/latest/docs/api/)
-- [仓库](https://github.com/nodejs/node)
+## Resources
 
-## 资源
+### Tools
 
-### 工具
+- [openbase](https://openbase.com/) - Choose the right package every time. JavaScript supported, more languages coming soon.
+- [npm.devtool](https://npm.devtool.tech/) - Find the best package for you, Analyze tech stack for your project.
 
-- [openbase](https://openbase.com/) - 让你每次都要找到合适的包。目前支持JavaScript，即将推出更多语言。
-- [npm.devtool](https://npm.devtool.tech/) - 找到最适合您的包，分析您的项目技术栈。
+### Tutorials
 
-### 教程
+- [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) - The Node.js best practices list.
 
-- [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md) - Node.js最佳体验列表。
+## Repository
 
-## GIT仓库
+### Text
 
-### 文本
-
-- 通用
-  - [dedent](https://github.com/dmnd/dedent) - ES6模板字符串函数，用于去除多行字符串的缩进。 ![](https://img.shields.io/github/stars/dmnd/dedent.svg?style=social&label=Star)
-  - [camelcase](https://github.com/sindresorhus/camelcase) - 将破折号/点号/下划线/空格分隔的字符串转换为驼峰式, 案例：foo-bar→fooBar。 ![](https://img.shields.io/github/stars/sindresorhus/camelcase.svg?style=social&label=Star)
-  - [string-width](https://github.com/sindresorhus/string-width) - 获取字符串的可视宽度-显示字符串所需的列数。 ![](https://img.shields.io/github/stars/sindresorhus/string-width.svg?style=social&label=Star)
-  - [decamelize](https://github.com/sindresorhus/decamelize) - 将驼峰式字符串转化成小写带分隔符带字符串, 案例：unicornRainbow → unicorn_rainbow ![](https://img.shields.io/github/stars/sindresorhus/decamelize.svg?style=social&label=Star)
-  - [detect-indent](https://github.com/sindresorhus/detect-indent) - 检查代码缩进。 ![](https://img.shields.io/github/stars/sindresorhus/detect-indent.svg?style=social&label=Star)
-  - [string-length](https://github.com/sindresorhus/string-length) - 获取字符串的真实长度 - 通过正确计算星号并忽略ansi转义码。 ![](https://img.shields.io/github/stars/sindresorhus/string-length.svg?style=social&label=Star)
-  - [strip-indent](https://github.com/sindresorhus/strip-indent) - 将字符串每一行中前置的空格删除。 ![](https://img.shields.io/github/stars/sindresorhus/strip-indent.svg?style=social&label=Star)
-  - [strip-bom](https://github.com/sindresorhus/strip-bom) - 从字符串中删除UTF-8字节顺序标记（BOM）。 ![](https://img.shields.io/github/stars/sindresorhus/strip-bom.svg?style=social&label=Star)
-  - [indent-string](https://github.com/sindresorhus/indent-string) - 将字符串每一行缩进。 ![](https://img.shields.io/github/stars/sindresorhus/indent-string.svg?style=social&label=Star)
-  - [redent](https://github.com/sindresorhus/redent) - 去除多余的缩进并缩进字符串。 ![](https://img.shields.io/github/stars/sindresorhus/redent.svg?style=social&label=Star)
+- Common
+  - [dedent](https://github.com/dmnd/dedent) - ES6 string tag that strips indentation from multi-line strings. ![](https://img.shields.io/github/stars/dmnd/dedent.svg?style=social&label=Star)
+  - [camelcase](https://github.com/sindresorhus/camelcase) - Convert a dash/dot/underscore/space separated string to camelCase: foo-bar → fooBar. ![](https://img.shields.io/github/stars/sindresorhus/camelcase.svg?style=social&label=Star)
+  - [string-width](https://github.com/sindresorhus/string-width) - Get the visual width of a string - the number of columns required to display it. ![](https://img.shields.io/github/stars/sindresorhus/string-width.svg?style=social&label=Star)
+  - [decamelize](https://github.com/sindresorhus/decamelize) - Convert a camelized string into a lowercased one with a custom separator: unicornRainbow → unicorn_rainbow ![](https://img.shields.io/github/stars/sindresorhus/decamelize.svg?style=social&label=Star)
+  - [detect-indent](https://github.com/sindresorhus/detect-indent) - Detect the indentation of code. ![](https://img.shields.io/github/stars/sindresorhus/detect-indent.svg?style=social&label=Star)
+  - [string-length](https://github.com/sindresorhus/string-length) - Get the real length of a string - by correctly counting astral symbols and ignoring ansi escape codes. ![](https://img.shields.io/github/stars/sindresorhus/string-length.svg?style=social&label=Star)
+  - [strip-indent](https://github.com/sindresorhus/strip-indent) - Strip leading whitespace from every line in a string. ![](https://img.shields.io/github/stars/sindresorhus/strip-indent.svg?style=social&label=Star)
+  - [strip-bom](https://github.com/sindresorhus/strip-bom) - Strip UTF-8 byte order mark (BOM) from a string. ![](https://img.shields.io/github/stars/sindresorhus/strip-bom.svg?style=social&label=Star)
+  - [indent-string](https://github.com/sindresorhus/indent-string) - Indent each line in a string. ![](https://img.shields.io/github/stars/sindresorhus/indent-string.svg?style=social&label=Star)
+  - [redent](https://github.com/sindresorhus/redent) - Strip redundant indentation and indent the string. ![](https://img.shields.io/github/stars/sindresorhus/redent.svg?style=social&label=Star)
   - [normalize-newline](https://github.com/sindresorhus/normalize-newline) - Normalize the newline characters in a string to `\n`. ![](https://img.shields.io/github/stars/sindresorhus/normalize-newline.svg?style=social&label=Star)
-  - [min-indent](https://github.com/jamiebuilds/min-indent) - 取每一行最少前置空格数。 ![](https://img.shields.io/github/stars/jamiebuilds/min-indent.svg?style=social&label=Star)
-  - [trim-right](https://github.com/sindresorhus/trim-right) - 与 String#trim() 类似，但仅删除右侧的空格。 ![](https://img.shields.io/github/stars/sindresorhus/trim-right.svg?style=social&label=Star)
-  - [splice-string](https://github.com/sindresorhus/splice-string) - 移除或替换字符串的一部分。类似`Array#splice`. ![](https://img.shields.io/github/stars/sindresorhus/splice-string.svg?style=social&label=Star)
+  - [min-indent](https://github.com/jamiebuilds/min-indent) - Get the shortest leading whitespace from lines in a string. ![](https://img.shields.io/github/stars/jamiebuilds/min-indent.svg?style=social&label=Star)
+  - [trim-right](https://github.com/sindresorhus/trim-right) - Similar to String#trim() but removes only whitespace on the right. ![](https://img.shields.io/github/stars/sindresorhus/trim-right.svg?style=social&label=Star)
+  - [splice-string](https://github.com/sindresorhus/splice-string) - Remove or replace part of a string like `Array#splice`. ![](https://img.shields.io/github/stars/sindresorhus/splice-string.svg?style=social&label=Star)
 
-- 国际化
-  - [i18next](https://github.com/i18next/i18next) - 国际化框架。 ![](https://img.shields.io/github/stars/i18next/i18next.svg?style=social&label=Star)
-  - [i18n-node](https://github.com/mashpie/i18n-node) - 具有动态JSON存储的简单翻译模块。 ![](https://img.shields.io/github/stars/mashpie/i18n-node.svg?style=social&label=Star)
-  - [babelfish](https://github.com/nodeca/babelfish) - 适用于JavaScript的人性化i18n（node.js +浏览器）。 ![](https://img.shields.io/github/stars/nodeca/babelfish.svg?style=social&label=Star)
+- i18n
+  - [i18next](https://github.com/i18next/i18next) - Internationalization framework. ![](https://img.shields.io/github/stars/i18next/i18next.svg?style=social&label=Star)
+  - [i18n-node](https://github.com/mashpie/i18n-node) - Simple translation module with dynamic JSON storage. ![](https://img.shields.io/github/stars/mashpie/i18n-node.svg?style=social&label=Star)
+  - [babelfish](https://github.com/nodeca/babelfish) - human friendly i18n for javascript (node.js + browser). ![](https://img.shields.io/github/stars/nodeca/babelfish.svg?style=social&label=Star)
 
-- 唯一ID
-  - [nanoid](https://github.com/ai/nanoid) - 小巧、安全、URL友好、唯一的字符串ID生成器。 ![](https://img.shields.io/github/stars/ai/nanoid.svg?style=social&label=Star)
-  - [uuid](https://github.com/uuidjs/uuid) - 在JavaScript中生成符合RFC规范的UUID。 ![](https://img.shields.io/github/stars/uuidjs/uuid.svg?style=social&label=Star)
-  - [shortid](https://github.com/dylang/shortid) - 短ID生成器。 网址友好。 不可预测的。 集群兼容。 ![](https://img.shields.io/github/stars/dylang/shortid.svg?style=social&label=Star)
-  - [cuid](https://github.com/ericelliott/cuid) - 针对水平扩展和性能优化的抗冲突ids。 ![](https://img.shields.io/github/stars/ericelliott/cuid.svg?style=social&label=Star)
-  - [ulid](https://github.com/ulid/javascript) - 通用唯一词典分类排序标识符。 ![](https://img.shields.io/github/stars/ulid/javascript.svg?style=social&label=Star)
-  - [uuid-js](https://github.com/pnegri/uuid-js) - 用于生成和解析 UUID、TimeUUID 并根据日期生成 TimeUUID 以供范围选择。 ![](https://img.shields.io/github/stars/pnegri/uuid-js.svg?style=social&label=Star)
-  - [pure-uuid](https://github.com/rse/pure-uuid) - 基于纯JavaScript全局唯一ID(UUID)。 ![](https://img.shields.io/github/stars/rse/pure-uuid.svg?style=social&label=Star)
+- Unique Id
+  - [nanoid](https://github.com/ai/nanoid) - Tiny, secure, URL-friendly, unique string ID generator. ![](https://img.shields.io/github/stars/ai/nanoid.svg?style=social&label=Star)
+  - [uuid](https://github.com/uuidjs/uuid) - Generate RFC-compliant UUIDs in JavaScript. ![](https://img.shields.io/github/stars/uuidjs/uuid.svg?style=social&label=Star)
+  - [shortid](https://github.com/dylang/shortid) - Short id generator. Url-friendly. Non-predictable. Cluster-compatible. ![](https://img.shields.io/github/stars/dylang/shortid.svg?style=social&label=Star)
+  - [cuid](https://github.com/ericelliott/cuid) - Collision-resistant ids optimized for horizontal scaling and performance. ![](https://img.shields.io/github/stars/ericelliott/cuid.svg?style=social&label=Star)
+  - [ulid](https://github.com/ulid/javascript) - Universally Unique Lexicographically Sortable Identifier. ![](https://img.shields.io/github/stars/ulid/javascript.svg?style=social&label=Star)
+  - [uuid-js](https://github.com/pnegri/uuid-js) - A js library to generate and parse UUIDs,TimeUUIDs and generate TimeUUID based on Date for range selections. ![](https://img.shields.io/github/stars/pnegri/uuid-js.svg?style=social&label=Star)
+  - [pure-uuid](https://github.com/rse/pure-uuid) - Pure JavaScript Based Universally Unique Identifiers (UUID). ![](https://img.shields.io/github/stars/rse/pure-uuid.svg?style=social&label=Star)
 
-- 编码/解码
-  - [he](https://github.com/mathiasbynens/he) - HTML实体编码器/解码器。 ![](https://img.shields.io/github/stars/mathiasbynens/he.svg?style=social&label=Star)
-  - [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - 转换字符编码。 ![](https://img.shields.io/github/stars/ashtuchkin/iconv-lite.svg?style=social&label=Star)
-  - [jschardet](https://github.com/aadsm/jschardet) - JavaScript编码自动识别 (Python版chardet的实现)。 ![](https://img.shields.io/github/stars/aadsm/jschardet.svg?style=social&label=Star)
+- Encode/Decode
+  - [he](https://github.com/mathiasbynens/he) - HTML entity encoder/decoder. ![](https://img.shields.io/github/stars/mathiasbynens/he.svg?style=social&label=Star)
+  - [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - Convert character encodings. ![](https://img.shields.io/github/stars/ashtuchkin/iconv-lite.svg?style=social&label=Star)
+  - [jschardet](https://github.com/aadsm/jschardet) - Character encoding auto-detection in JavaScript (port of python's chardet) ![](https://img.shields.io/github/stars/aadsm/jschardet.svg?style=social&label=Star)
 
-- 差异对比
-  - [jsdiff](https://github.com/kpdecker/jsdiff) - 一种JavaScript文本差异实现。 ![](https://img.shields.io/github/stars/kpdecker/jsdiff.svg?style=social&label=Star)
-  - [recursive-diff](https://github.com/cosmicanant/recursive-diff) - 查找两个JavaScript对象的差异，支持数组、数字、日期和其他原始数据类型。 ![](https://img.shields.io/github/stars/cosmicanant/recursive-diff.svg?style=social&label=Star)
+- Comparison
+  - [jsdiff](https://github.com/kpdecker/jsdiff) - A javascript text differencing implementation. ![](https://img.shields.io/github/stars/kpdecker/jsdiff.svg?style=social&label=Star)
+  - [recursive-diff](https://github.com/cosmicanant/recursive-diff) - A JavaScript library to find diff between two JavaScript Objects. Support for Array, Number, Date and other primitive data types. ![](https://img.shields.io/github/stars/cosmicanant/recursive-diff.svg?style=social&label=Star)
 
-- 其他
-  - [StegCloak](https://github.com/kurolabs/stegcloak) - 基于纯JavaScript开发的隐写功能模块，StegCloak可以对文本中的机密信息进行压缩和加密，然后再使用特殊的Unicode不可见字符来隐藏它。 ![](https://img.shields.io/github/stars/kurolabs/stegcloak.svg?style=social&label=Star)
-  - [unhomoglyph](https://github.com/nodeca/unhomoglyph) - 规范视觉上相似的unicode字符。 ![](https://img.shields.io/github/stars/nodeca/unhomoglyph.svg?style=social&label=Star)
+- Other
+  - [StegCloak](https://github.com/kurolabs/stegcloak) - Conceal secrets within strings, in plain sight. ![](https://img.shields.io/github/stars/kurolabs/stegcloak.svg?style=social&label=Star)
+  - [unhomoglyph](https://github.com/nodeca/unhomoglyph) - Normalize visually similar unicode characters. ![](https://img.shields.io/github/stars/nodeca/unhomoglyph.svg?style=social&label=Star)
 
-### 数字
+### Number
 
-- [Numeral.js](https://github.com/adamwdraper/Numeral-js) - 格式化和操作数字。 ![](https://img.shields.io/github/stars/adamwdraper/Numeral-js.svg?style=social&label=Star)
-- [bignumber.js](https://github.com/MikeMcl/bignumber.js) - 用于任意精度十进制和非十进制算术的 JavaScript 库。 ![](https://img.shields.io/github/stars/MikeMcl/bignumber.js.svg?style=social&label=Star)
-- [decimal.js](https://github.com/MikeMcl/decimal.js) - JavaScript的任意精度的十进制类型。 ![](https://img.shields.io/github/stars/MikeMcl/decimal.js.svg?style=social&label=Star)
-- [big.js](https://github.com/MikeMcl/big.js) - 一个小型，快速的JavaScript库，用于任意精度的十进制算术运算。 ![](https://img.shields.io/github/stars/MikeMcl/big.js.svg?style=social&label=Star)
-- [random-js](https://github.com/ckknight/random-js) - 一个 JavaScript 随机数生成库。 ![](https://img.shields.io/github/stars/ckknight/random-js.svg?style=social&label=Star)
-- [round-to](https://github.com/sindresorhus/round-to) - 将数字四舍五入到指定的小数位数：`1.234`→`1.2`。 ![](https://img.shields.io/github/stars/sindresorhus/round-to.svg?style=social&label=Star)
-- [unique-random](https://github.com/sindresorhus/unique-random) - 生成连续唯一的随机数。 ![](https://img.shields.io/github/stars/sindresorhus/unique-random.svg?style=social&label=Star)
-- [random-int](https://github.com/sindresorhus/random-int) - 生成随机整数。 ![](https://img.shields.io/github/stars/sindresorhus/random-int.svg?style=social&label=Star)
-- [random-float](https://github.com/sindresorhus/random-float) - 生成随机浮点数。 ![](https://img.shields.io/github/stars/sindresorhus/random-float.svg?style=social&label=Star)
+- [Numeral.js](https://github.com/adamwdraper/Numeral-js) - A javascript library for formatting and manipulating numbers. ![](https://img.shields.io/github/stars/adamwdraper/Numeral-js.svg?style=social&label=Star)
+- [bignumber.js](https://github.com/MikeMcl/bignumber.js) - A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic. ![](https://img.shields.io/github/stars/MikeMcl/bignumber.js.svg?style=social&label=Star)
+- [decimal.js](https://github.com/MikeMcl/decimal.js) - An arbitrary-precision Decimal type for JavaScript. ![](https://img.shields.io/github/stars/MikeMcl/decimal.js.svg?style=social&label=Star)
+- [big.js](https://github.com/MikeMcl/big.js) - A small, fast JavaScript library for arbitrary-precision decimal arithmetic. ![](https://img.shields.io/github/stars/MikeMcl/big.js.svg?style=social&label=Star)
+- [random-js](https://github.com/ckknight/random-js) - A mathematically correct random number generator library for JavaScript. ![](https://img.shields.io/github/stars/ckknight/random-js.svg?style=social&label=Star)
+- [round-to](https://github.com/sindresorhus/round-to) - Round a number to a specific number of decimal places: `1.234` → `1.2`. ![](https://img.shields.io/github/stars/sindresorhus/round-to.svg?style=social&label=Star)
+- [unique-random](https://github.com/sindresorhus/unique-random) - Generate random numbers that are consecutively unique. ![](https://img.shields.io/github/stars/sindresorhus/unique-random.svg?style=social&label=Star)
+- [random-int](https://github.com/sindresorhus/random-int) - Generate a random integer. ![](https://img.shields.io/github/stars/sindresorhus/random-int.svg?style=social&label=Star)
+- [random-float](https://github.com/sindresorhus/random-float) - Generate a random float. ![](https://img.shields.io/github/stars/sindresorhus/random-float.svg?style=social&label=Star)
 
-### 数学运算
+### Math
 
-- [mathjs](https://github.com/josdejong/mathjs) - 广泛的数学运算库。 ![](https://img.shields.io/github/stars/josdejong/mathjs.svg?style=social&label=Star)
-- [ndarray](https://github.com/scijs/ndarray) - 多维数组。 ![](https://img.shields.io/github/stars/scijs/ndarray.svg?style=social&label=Star)
-- [algebra](https://github.com/fibo/algebra) - 代数结构。 ![](https://img.shields.io/github/stars/fibo/algebra.svg?style=social&label=Star)
-- [multimath](https://github.com/nodeca/multimath) - 在WebAssembly和JS中进行快速图像数学运算。 ![](https://img.shields.io/github/stars/nodeca/multimath.svg?style=social&label=Star)
+- [mathjs](https://github.com/josdejong/mathjs) - An extensive math library. ![](https://img.shields.io/github/stars/josdejong/mathjs.svg?style=social&label=Star)
+- [ndarray](https://github.com/scijs/ndarray) - Multidimensional arrays. ![](https://img.shields.io/github/stars/scijs/ndarray.svg?style=social&label=Star)
+- [algebra](https://github.com/fibo/algebra) - Algebraic structures. ![](https://img.shields.io/github/stars/fibo/algebra.svg?style=social&label=Star)
+- [multimath](https://github.com/nodeca/multimath) - Core to create fast image math in WebAssembly and JS. ![](https://img.shields.io/github/stars/nodeca/multimath.svg?style=social&label=Star)
 
-### 日期 和 时间
+### Date & Time
 
-- [moment](https://github.com/moment/moment) - 解析、校验、操作和显示日期。 ![](https://img.shields.io/github/stars/moment/moment.svg?style=social&label=Star)
-- [dayjs](https://github.com/iamkun/dayjs) - 仅2KB，不可变的日期时间库。使用与Moment.js同样的API，Moment.js的替代库。 ![](https://img.shields.io/github/stars/iamkun/dayjs.svg?style=social&label=Star)
-- [date-fns](https://github.com/date-fns/date-fns) - 现代JavaScript日期工具库。 ![](https://img.shields.io/github/stars/date-fns/date-fns.svg?style=social&label=Star)
-- [luxon](https://github.com/moment/luxon) - 用于处理日期和时间的库。 ![](https://img.shields.io/github/stars/moment/luxon.svg?style=social&label=Star)
-- [timeago.js](https://github.com/hustcc/timeago.js) - timeago.js是一个很小的（2.0 kb）库，用于使用 *** time ago 语句格式化日期。 ![](https://img.shields.io/github/stars/hustcc/timeago.js.svg?style=social&label=Star)
-- [ms](https://github.com/vercel/ms) - 毫秒转换工具。 ![](https://img.shields.io/github/stars/vercel/ms.svg?style=social&label=Star)
-- [dateformat](https://github.com/felixge/node-dateformat) - 日期格式化。 ![](https://img.shields.io/github/stars/felixge/node-dateformat.svg?style=social&label=Star)
-- [pretty-ms](https://github.com/sindresorhus/pretty-ms) - 将毫秒转换为人类可读的字符串，如: `1337000000` → `15d 11h 23m 20s`。 ![](https://img.shields.io/github/stars/sindresorhus/pretty-ms.svg?style=social&label=Star)
-- [strftime](https://github.com/samsonjs/strftime) - JavaScript版时间格式化Strftime。 ![](https://img.shields.io/github/stars/samsonjs/strftime.svg?style=social&label=Star)
-- [node-microtime](https://github.com/wadey/node-microtime) - 以微秒为单位获取当前时间。 ![](https://img.shields.io/github/stars/wadey/node-microtime.svg?style=social&label=Star)
-- [date-utils](https://github.com/JerrySievert/date-utils) - 用于Node.js和浏览器的日期垫片（Polyfills）。 ![](https://img.shields.io/github/stars/JerrySievert/date-utils.svg?style=social&label=Star)
-- [pretty-hrtime](https://github.com/robrich/pretty-hrtime) - 将process.hrtime()的结果转换为人可读性的字符串。 ![](https://img.shields.io/github/stars/robrich/pretty-hrtime.svg?style=social&label=Star)
-- [humanize-ms](https://github.com/node-modules/humanize-ms) - 将人类可读的时间转换为毫秒。 ![](https://img.shields.io/github/stars/node-modules/humanize-ms.svg?style=social&label=Star)
+- [moment](https://github.com/moment/moment) - Parse, validate, manipulate, and display dates in javascript. ![](https://img.shields.io/github/stars/moment/moment.svg?style=social&label=Star)
+- [dayjs](https://github.com/iamkun/dayjs) - Day.js 2KB immutable date-time library alternative to Moment.js with the same modern API. ![](https://img.shields.io/github/stars/iamkun/dayjs.svg?style=social&label=Star)
+- [date-fns](https://github.com/date-fns/date-fns) - Modern JavaScript date utility library. ![](https://img.shields.io/github/stars/date-fns/date-fns.svg?style=social&label=Star)
+- [luxon](https://github.com/moment/luxon) - Library for working with dates and times. ![](https://img.shields.io/github/stars/moment/luxon.svg?style=social&label=Star)
+- [timeago.js](https://github.com/hustcc/timeago.js) - 🕗 ⌛ timeago.js is a tiny(2.0 kb) library used to format date with `*** time ago` statement. ![](https://img.shields.io/github/stars/hustcc/timeago.js.svg?style=social&label=Star)
+- [ms](https://github.com/vercel/ms) - Tiny millisecond conversion utility. ![](https://img.shields.io/github/stars/vercel/ms.svg?style=social&label=Star)
+- [dateformat](https://github.com/felixge/node-dateformat) - A node.js package for Steven Levithan's excellent dateFormat() function. ![](https://img.shields.io/github/stars/felixge/node-dateformat.svg?style=social&label=Star)
+- [pretty-ms](https://github.com/sindresorhus/pretty-ms) - Convert milliseconds to a human readable string: `1337000000` → `15d 11h 23m 20s` ![](https://img.shields.io/github/stars/sindresorhus/pretty-ms.svg?style=social&label=Star)
+- [strftime](https://github.com/samsonjs/strftime) - Strftime for JavaScript. ![](https://img.shields.io/github/stars/samsonjs/strftime.svg?style=social&label=Star)
+- [node-microtime](https://github.com/wadey/node-microtime) - Get the current time in microseconds. ![](https://img.shields.io/github/stars/wadey/node-microtime.svg?style=social&label=Star)
+- [date-utils](https://github.com/JerrySievert/date-utils) - Date Pollyfills for Node.js and Browser. ![](https://img.shields.io/github/stars/JerrySievert/date-utils.svg?style=social&label=Star)
+- [pretty-hrtime](https://github.com/robrich/pretty-hrtime) - process.hrtime() to words. ![](https://img.shields.io/github/stars/robrich/pretty-hrtime.svg?style=social&label=Star)
+- [humanize-ms](https://github.com/node-modules/humanize-ms) - Transform humanize time to ms. ![](https://img.shields.io/github/stars/node-modules/humanize-ms.svg?style=social&label=Star)
 
-### 正则/通配符匹配
+### RegExp/Glob
 
-- [path-to-regexp](https://github.com/pillarjs/path-to-regexp) - 将路径字符串（如`/user/:name`）转化为正则。 ![](https://img.shields.io/github/stars/pillarjs/path-to-regexp.svg?style=social&label=Star)
-- [minimatch](https://github.com/isaacs/minimatch) - 最小匹配工具。 ![](https://img.shields.io/github/stars/isaacs/minimatch.svg?style=social&label=Star)
-- [micromatch](https://github.com/micromatch/micromatch) - 高度优化的通配符和全局匹配库。更快，直接替换到 minimatch 和 multimatch。由webpack、babel core、yarn、jest、browser-sync、documentation.js、stylelint、nyc、ava以及许多其他资源使用！ ![](https://img.shields.io/github/stars/micromatch/micromatch.svg?style=social&label=Star)
-- [randexp.js](https://github.com/fent/randexp.js) - 根据给定的正则表达式，生成随机字符串。 ![](https://img.shields.io/github/stars/fent/randexp.js.svg?style=social&label=Star)
-- [safe-regex](https://github.com/substack/safe-regex) - 检测可能是灾难性的、指数时间的正则表达式。 ![](https://img.shields.io/github/stars/substack/safe-regex.svg?style=social&label=Star)
-- [matcher](https://github.com/sindresorhus/matcher) - 简单通配符匹配。 ![](https://img.shields.io/github/stars/sindresorhus/matcher.svg?style=social&label=Star)
-- [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - 转义特殊正则字符。 ![](https://img.shields.io/github/stars/sindresorhus/escape-string-regexp.svg?style=social&label=Star)
-- [multimatch](https://github.com/sindresorhus/multimatch) - 扩展 minimatch.match() 以支持多种模式。 ![](https://img.shields.io/github/stars/sindresorhus/multimatch.svg?style=social&label=Star)
-- [execall](https://github.com/sindresorhus/execall) - 在字符串中查找多个RegExp匹配项。 ![](https://img.shields.io/github/stars/sindresorhus/execall.svg?style=social&label=Star)
+- [path-to-regexp](https://github.com/pillarjs/path-to-regexp) - Turn a path string such as `/user/:name` into a regular expression. ![](https://img.shields.io/github/stars/pillarjs/path-to-regexp.svg?style=social&label=Star)
+- [minimatch](https://github.com/isaacs/minimatch) - A minimal matching utility. ![](https://img.shields.io/github/stars/isaacs/minimatch.svg?style=social&label=Star)
+- [micromatch](https://github.com/micromatch/micromatch) - Highly optimized wildcard and glob matching library. Faster, drop-in replacement to minimatch and multimatch. Used by webpack, babel core, yarn, jest, browser-sync, documentation.js, stylelint, nyc, ava, and many others! ![](https://img.shields.io/github/stars/micromatch/micromatch.svg?style=social&label=Star)
+- [randexp.js](https://github.com/fent/randexp.js) - Create random strings that match a given regular expression. ![](https://img.shields.io/github/stars/fent/randexp.js.svg?style=social&label=Star)
+- [safe-regex](https://github.com/substack/safe-regex) - Detect possibly catastrophic, exponential-time regular expressions. ![](https://img.shields.io/github/stars/substack/safe-regex.svg?style=social&label=Star)
+- [matcher](https://github.com/sindresorhus/matcher) - Simple wildcard matching. ![](https://img.shields.io/github/stars/sindresorhus/matcher.svg?style=social&label=Star)
+- [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - Escape RegExp special characters. ![](https://img.shields.io/github/stars/sindresorhus/escape-string-regexp.svg?style=social&label=Star)
+- [multimatch](https://github.com/sindresorhus/multimatch) - Extends minimatch.match() with support for multiple patterns. ![](https://img.shields.io/github/stars/sindresorhus/multimatch.svg?style=social&label=Star)
+- [execall](https://github.com/sindresorhus/execall) - Find multiple RegExp matches in a string. ![](https://img.shields.io/github/stars/sindresorhus/execall.svg?style=social&label=Star)
 
 ### URL
 
-- [URI.js](https://github.com/medialize/URI.js) - URL转换库。 ![](https://img.shields.io/github/stars/medialize/URI.js.svg?style=social&label=Star)
-- [qs](https://github.com/ljharb/qs) - 请求字符串解析器。 ![](https://img.shields.io/github/stars/ljharb/qs.svg?style=social&label=Star)
-- [query-string](https://github.com/sindresorhus/query-string) - 解析和字符串化URL查询字符串。 ![](https://img.shields.io/github/stars/sindresorhus/query-string.svg?style=social&label=Star)
-- [url-parse](https://github.com/unshiftio/url-parse) - 轻量URL解析器，可跨Node.js和浏览器环境无缝运行。 ![](https://img.shields.io/github/stars/unshiftio/url-parse.svg?style=social&label=Star)
-- [normalize-url](https://github.com/sindresorhus/normalize-url) - 规范化URL. ![](https://img.shields.io/github/stars/sindresorhus/normalize-url.svg?style=social&label=Star)
-- [url-pattern](https://github.com/snd/url-pattern) - 比正则表达式更易匹配URL和其他字符串，将字符串转化成数据 或 将数据转换成字符串。 ![](https://img.shields.io/github/stars/snd/url-pattern.svg?style=social&label=Star)
-- [native-url](https://github.com/GoogleChromeLabs/native-url) - 使用内建URL API实现的NodeJS URL模块。 ![](https://img.shields.io/github/stars/GoogleChromeLabs/native-url.svg?style=social&label=Star)
-- [url-join](https://github.com/jfromaniello/url-join) - 将所有参数连接在一起，并将结果url规范化。 ![](https://img.shields.io/github/stars/jfromaniello/url-join.svg?style=social&label=Star)
-- [humanize-url](https://github.com/sindresorhus/humanize-url) - 使URL更可读: http://sindresorhus.com → sindresorhus.com。 ![](https://img.shields.io/github/stars/sindresorhus/humanize-url.svg?style=social&label=Star)
-- [parseurl](https://github.com/pillarjs/parseurl) - 使用记忆化方式解析URL. ![](https://img.shields.io/github/stars/pillarjs/parseurl.svg?style=social&label=Star)
-- [file-url](https://github.com/sindresorhus/file-url) - 将文件路径转化为文件URL: `unicorn.jpg` → `file:///Users/sindresorhus/unicorn.jpg` ![](https://img.shields.io/github/stars/sindresorhus/file-url.svg?style=social&label=Star)
-- [encodeurl](https://github.com/pillarjs/encodeurl) - 将URL编码为"百分比"形式，不编码已编码部分。 ![](https://img.shields.io/github/stars/pillarjs/encodeurl.svg?style=social&label=Star)
+- [URI.js](https://github.com/medialize/URI.js) - Javascript URL mutation library. ![](https://img.shields.io/github/stars/medialize/URI.js.svg?style=social&label=Star)
+- [qs](https://github.com/ljharb/qs) - Querystring parser with nesting support. ![](https://img.shields.io/github/stars/ljharb/qs.svg?style=social&label=Star)
+- [query-string](https://github.com/sindresorhus/query-string) - Parse and stringify URL query strings. ![](https://img.shields.io/github/stars/sindresorhus/query-string.svg?style=social&label=Star)
+- [url-parse](https://github.com/unshiftio/url-parse) - Small footprint URL parser that works seamlessly across Node.js and browser environments. ![](https://img.shields.io/github/stars/unshiftio/url-parse.svg?style=social&label=Star)
+- [normalize-url](https://github.com/sindresorhus/normalize-url) - Normalize a URL. ![](https://img.shields.io/github/stars/sindresorhus/normalize-url.svg?style=social&label=Star)
+- [url-pattern](https://github.com/snd/url-pattern) - Easier than regex string matching patterns for urls and other strings. turn strings into data or data into strings. ![](https://img.shields.io/github/stars/snd/url-pattern.svg?style=social&label=Star)
+- [native-url](https://github.com/GoogleChromeLabs/native-url) - Node's url module implemented using the built-in URL API. ![](https://img.shields.io/github/stars/GoogleChromeLabs/native-url.svg?style=social&label=Star)
+- [url-join](https://github.com/jfromaniello/url-join) - Join all arguments together and normalize the resulting url. ![](https://img.shields.io/github/stars/jfromaniello/url-join.svg?style=social&label=Star)
+- [humanize-url](https://github.com/sindresorhus/humanize-url) - Humanize a URL: https://sindresorhus.com → sindresorhus.com. ![](https://img.shields.io/github/stars/sindresorhus/humanize-url.svg?style=social&label=Star)
+- [parseurl](https://github.com/pillarjs/parseurl) - Parse a url with memoization. ![](https://img.shields.io/github/stars/pillarjs/parseurl.svg?style=social&label=Star)
+- [file-url](https://github.com/sindresorhus/file-url) - Convert a file path to a file URL: `unicorn.jpg` → `file:///Users/sindresorhus/unicorn.jpg` ![](https://img.shields.io/github/stars/sindresorhus/file-url.svg?style=social&label=Star)
+- [encodeurl](https://github.com/pillarjs/encodeurl) - Encode a URL to a percent-encoded form, excluding already-encoded sequences. ![](https://img.shields.io/github/stars/pillarjs/encodeurl.svg?style=social&label=Star)
 
 ### JSON / JSON Schema
 
-- [json5](https://github.com/json5/json5) - JSON5是对JSON的扩展，其目的是能够更加容易的阅读和编写。 ![](https://img.shields.io/github/stars/json5/json5.svg?style=social&label=Star)
-- [jsondiffpatch](https://github.com/benjamine/jsondiffpatch) - 对比JSON对象，并生成差异和Patch信息。 ![](https://img.shields.io/github/stars/benjamine/jsondiffpatch.svg?style=social&label=Star)
-- [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker) - JSON-Schema + 假数据生成器。 ![](https://img.shields.io/github/stars/json-schema-faker/json-schema-faker.svg?style=social&label=Star)
-- [fast-json-stringify](https://github.com/fastify/fast-json-stringify) - 比JSON.stringify()快2倍。 ![](https://img.shields.io/github/stars/fastify/fast-json-stringify.svg?style=social&label=Star)
-- [jsonfile](https://github.com/jprichardson/node-jsonfile) - 轻松读写JSON文件。 ![](https://img.shields.io/github/stars/jprichardson/node-jsonfile.svg?style=social&label=Star)
-- [jsonata](https://github.com/jsonata-js/jsonata) - JSONata 查询和转换语言 - http://jsonata.org ![](https://img.shields.io/github/stars/jsonata-js/jsonata.svg?style=social&label=Star)
-- [json-stable-stringify](https://github.com/substack/json-stable-stringify) - 具有自定义排序功能的确定性JSON.stringify(), 可以从字符串化结果中获取确定性哈希值。 ![](https://img.shields.io/github/stars/substack/json-stable-stringify.svg?style=social&label=Star)
-- [strip-json-comments](https://github.com/sindresorhus/strip-json-comments) - 去除JSON文件中的注释。让你可以在JSON中使用注释。 ![](https://img.shields.io/github/stars/sindresorhus/strip-json-comments.svg?style=social&label=Star)
-- [json-stringify-safe](https://github.com/moll/json-stringify-safe) - 类似于JSON.stringify，但不会引发循环引用。 ![](https://img.shields.io/github/stars/moll/json-stringify-safe.svg?style=social&label=Star)
-- [load-json-file](https://github.com/sindresorhus/load-json-file) - 读取并解析JSON文件。 ![](https://img.shields.io/github/stars/sindresorhus/load-json-file.svg?style=social&label=Star)
-- [write-json-file](https://github.com/sindresorhus/write-json-file) - 序列化并写入JSON文件。 ![](https://img.shields.io/github/stars/sindresorhus/write-json-file.svg?style=social&label=Star)
-- [fast-json-stable-stringify](https://github.com/epoberezkin/fast-json-stable-stringify) - 确定性JSON.stringify() - 比 @substack 的 json-stable-stringify 更快的版本，不带jsonify。 ![](https://img.shields.io/github/stars/epoberezkin/fast-json-stable-stringify.svg?style=social&label=Star)
-- [jsonuri](https://github.com/aligay/jsonuri) - 使用”URI样式“的方法来操作数据。 ![](https://img.shields.io/github/stars/aligay/jsonuri.svg?style=social&label=Star)
+- [json5](https://github.com/json5/json5) - JSON5 — JSON for humans. ![](https://img.shields.io/github/stars/json5/json5.svg?style=social&label=Star)
+- [jsondiffpatch](https://github.com/benjamine/jsondiffpatch) - Diff & patch JavaScript objects. ![](https://img.shields.io/github/stars/benjamine/jsondiffpatch.svg?style=social&label=Star)
+- [fast-json-stringify](https://github.com/fastify/fast-json-stringify) - 2x faster than JSON.stringify() ![](https://img.shields.io/github/stars/fastify/fast-json-stringify.svg?style=social&label=Star)
+- [jsonfile](https://github.com/jprichardson/node-jsonfile) - Easily read/write JSON files. ![](https://img.shields.io/github/stars/jprichardson/node-jsonfile.svg?style=social&label=Star)
+- [jsonata](https://github.com/jsonata-js/jsonata) - JSONata query and transformation language - http://jsonata.org ![](https://img.shields.io/github/stars/jsonata-js/jsonata.svg?style=social&label=Star)
+- [json-stable-stringify](https://github.com/substack/json-stable-stringify) - Deterministic JSON.stringify() with custom sorting to get deterministic hashes from stringified results. ![](https://img.shields.io/github/stars/substack/json-stable-stringify.svg?style=social&label=Star)
+- [strip-json-comments](https://github.com/sindresorhus/strip-json-comments) - Strip comments from JSON. Lets you use comments in your JSON files. ![](https://img.shields.io/github/stars/sindresorhus/strip-json-comments.svg?style=social&label=Star)
+- [json-stringify-safe](https://github.com/moll/json-stringify-safe) - Like JSON.stringify, but doesn't throw on circular references. ![](https://img.shields.io/github/stars/moll/json-stringify-safe.svg?style=social&label=Star)
+- [parse-json](https://github.com/sindresorhus/parse-json) - Parse JSON with more helpful errors. ![](https://img.shields.io/github/stars/sindresorhus/parse-json.svg?style=social&label=Star)
+- [load-json-file](https://github.com/sindresorhus/load-json-file) - Read and parse a JSON file. ![](https://img.shields.io/github/stars/sindresorhus/load-json-file.svg?style=social&label=Star)
+- [write-json-file](https://github.com/sindresorhus/write-json-file) - Stringify and write JSON to a file atomically. ![](https://img.shields.io/github/stars/sindresorhus/write-json-file.svg?style=social&label=Star)
+- [fast-json-stable-stringify](https://github.com/epoberezkin/fast-json-stable-stringify) - Deterministic JSON.stringify() - a faster version of @substack's json-stable-strigify without jsonify. ![](https://img.shields.io/github/stars/epoberezkin/fast-json-stable-stringify.svg?style=social&label=Star)
+- [jsonuri](https://github.com/aligay/jsonuri) - Use URI style methods to operate data. ![](https://img.shields.io/github/stars/aligay/jsonuri.svg?style=social&label=Star)
 
-### 图像处理
+### Image
 
-- [sharp](https://github.com/lovell/sharp) - 调整JPEG，PNG，WebP和TIFF格式图像大小的最快模块。 ![](https://img.shields.io/github/stars/lovell/sharp.svg?style=social&label=Star)
-- [jimp](https://github.com/oliver-moran/jimp) - 纯JavaScript中的图像处理。 ![](https://img.shields.io/github/stars/oliver-moran/jimp.svg?style=social&label=Star)
-- [gm](https://github.com/aheckmann/gm) - GraphicsMagick 和 ImageMagick 封装。 ![](https://img.shields.io/github/stars/aheckmann/gm.svg?style=social&label=Star)
-- [qrcode](https://github.com/soldair/node-qrcode) - 二维码和条形码生成器。 ![](https://img.shields.io/github/stars/soldair/node-qrcode.svg?style=social&label=Star)
-- [pixelmatch](https://github.com/mapbox/pixelmatch) - 最小、最简单、最快的 JavaScript 像素级图像比较库。 ![](https://img.shields.io/github/stars/mapbox/pixelmatch.svg?style=social&label=Star)
-- [Resemble.js](https://github.com/rsmbl/Resemble.js) - 图像分析和比较。 ![](https://img.shields.io/github/stars/rsmbl/Resemble.js.svg?style=social&label=Star)
-- [pica](https://github.com/nodeca/pica) - 使用纯JS中的高质量和快速调整大小（lanczos3）。 当不允许像素化时替代canvas drawImage()。 ![](https://img.shields.io/github/stars/nodeca/pica.svg?style=social&label=Star)
-- [jsQR](https://github.com/cozmo/jsQR) - 一个纯javascript的二维码读取库。 该库接收原始图像，并将定位、提取和解析其中发现的任何二维码。 ![](https://img.shields.io/github/stars/cozmo/jsQR.svg?style=social&label=Star)
-- [lwip](https://github.com/EyalAr/lwip) - 不需要ImageMagick的轻量级图像处理器。 ![](https://img.shields.io/github/stars/EyalAr/lwip.svg?style=social&label=Star)
-- [gifski](https://github.com/ImageOptim/gifski) - 基于 libimagequant (pngquant) 的 GIF 编码器。 从糟糕的 GIF 格式中挤出最大可能的质量。 ![](https://img.shields.io/github/stars/ImageOptim/gifski.svg?style=social&label=Star)
-- [svg-captcha](https://github.com/produck/svg-captcha) - Node.js中生成SVG验证码。 ![](https://img.shields.io/github/stars/produck/svg-captcha.svg?style=social&label=Star)
-- [probe-image-size](https://github.com/nodeca/probe-image-size) - 无需完全下载即可获取大多数图像格式的大小. ![](https://img.shields.io/github/stars/nodeca/probe-image-size.svg?style=social&label=Star)
-- [omggif](https://github.com/deanm/omggif) - GIF 89a编码解码器。 ![](https://img.shields.io/github/stars/deanm/omggif.svg?style=social&label=Star)
-- [jpeg-js](https://github.com/jpeg-js/jpeg-js) - 使用纯JavaScript的JPEG编码和解码器。 ![](https://img.shields.io/github/stars/jpeg-js/jpeg-js.svg?style=social&label=Star)
-- [pngjs](https://github.com/lukeapage/pngjs) - 简单的PNG编码解码器。 ![](https://img.shields.io/github/stars/lukeapage/pngjs.svg?style=social&label=Star)
-- [get-pixels](https://github.com/scijs/get-pixels) - 将图像读入ndarray。 ![](https://img.shields.io/github/stars/scijs/get-pixels.svg?style=social&label=Star)
-- [gifencoder](https://github.com/eugeneware/gifencoder) - Node.js 服务器端动画 gif 生成。 ![](https://img.shields.io/github/stars/eugeneware/gifencoder.svg?style=social&label=Star)
-- [image-type](https://github.com/sindresorhus/image-type) - 检测Buffer / Uint8Array的图像类型。 ![](https://img.shields.io/github/stars/sindresorhus/image-type.svg?style=social&label=Star)
-- [node-pngquant](https://github.com/papandreou/node-pngquant) - pngquant 作为可读/可写流操作png。 ![](https://img.shields.io/github/stars/papandreou/node-pngquant.svg?style=social&label=Star)
-- [node-bitmap](https://github.com/nowelium/node-bitmap) - 纯JavaScript Bitmap库。 ![](https://img.shields.io/github/stars/nowelium/node-bitmap.svg?style=social&label=Star)
+- [sharp](https://github.com/lovell/sharp) - The fastest module for resizing JPEG, PNG, WebP and TIFF images. ![](https://img.shields.io/github/stars/lovell/sharp.svg?style=social&label=Star)
+- [jimp](https://github.com/oliver-moran/jimp) - Image processing in pure JavaScript. ![](https://img.shields.io/github/stars/oliver-moran/jimp.svg?style=social&label=Star)
+- [gm](https://github.com/aheckmann/gm) - GraphicsMagick and ImageMagick wrapper. ![](https://img.shields.io/github/stars/aheckmann/gm.svg?style=social&label=Star)
+- [qrcode](https://github.com/soldair/node-qrcode) - QR code and bar code generator. ![](https://img.shields.io/github/stars/soldair/node-qrcode.svg?style=social&label=Star)
+- [pixelmatch](https://github.com/mapbox/pixelmatch) - The smallest, simplest and fastest JavaScript pixel-level image comparison library. ![](https://img.shields.io/github/stars/mapbox/pixelmatch.svg?style=social&label=Star)
+- [Resemble.js](https://github.com/rsmbl/Resemble.js) - Image analysis and comparison. ![](https://img.shields.io/github/stars/rsmbl/Resemble.js.svg?style=social&label=Star)
+- [pica](https://github.com/nodeca/pica) - High quality & fast resize (lanczos3) in pure JS. Alternative to canvas drawImage(), when no pixelation allowed. ![](https://img.shields.io/github/stars/nodeca/pica.svg?style=social&label=Star)
+- [jsQR](https://github.com/cozmo/jsQR) - A pure javascript QR code reading library. This library takes in raw images and will locate, extract and parse any QR code found within. ![](https://img.shields.io/github/stars/cozmo/jsQR.svg?style=social&label=Star)
+- [lwip](https://github.com/EyalAr/lwip) - Lightweight image processor which does not require ImageMagick. ![](https://img.shields.io/github/stars/EyalAr/lwip.svg?style=social&label=Star)
+- [gifski](https://github.com/ImageOptim/gifski) - GIF encoder based on libimagequant (pngquant). Squeezes maximum possible quality from the awful GIF format. ![](https://img.shields.io/github/stars/ImageOptim/gifski.svg?style=social&label=Star)
+- [svg-captcha](https://github.com/produck/svg-captcha) - Generate svg captcha in node. ![](https://img.shields.io/github/stars/produck/svg-captcha.svg?style=social&label=Star)
+- [probe-image-size](https://github.com/nodeca/probe-image-size) - Get the size of most image formats without a full download. ![](https://img.shields.io/github/stars/nodeca/probe-image-size.svg?style=social&label=Star)
+- [omggif](https://github.com/deanm/omggif) - JavaScript implementation of a GIF 89a encoder and decoder. ![](https://img.shields.io/github/stars/deanm/omggif.svg?style=social&label=Star)
+- [jpeg-js](https://github.com/jpeg-js/jpeg-js) - A pure javascript JPEG encoder and decoder for node.js. ![](https://img.shields.io/github/stars/jpeg-js/jpeg-js.svg?style=social&label=Star)
+- [pngjs](https://github.com/lukeapage/pngjs) - Simple PNG encoder/decoder. ![](https://img.shields.io/github/stars/lukeapage/pngjs.svg?style=social&label=Star)
+- [get-pixels](https://github.com/scijs/get-pixels) - Reads an image into an ndarray. ![](https://img.shields.io/github/stars/scijs/get-pixels.svg?style=social&label=Star)
+- [gifencoder](https://github.com/eugeneware/gifencoder) - Server side animated gif generation for node.js. ![](https://img.shields.io/github/stars/eugeneware/gifencoder.svg?style=social&label=Star)
+- [image-type](https://github.com/sindresorhus/image-type) - Detect the image type of a Buffer/Uint8Array. ![](https://img.shields.io/github/stars/sindresorhus/image-type.svg?style=social&label=Star)
+- [node-pngquant](https://github.com/papandreou/node-pngquant) - The pngquant utility as a readable/writable stream. ![](https://img.shields.io/github/stars/papandreou/node-pngquant.svg?style=social&label=Star)
+- [node-bitmap](https://github.com/nowelium/node-bitmap) - Pure javascript Bitmap library. ![](https://img.shields.io/github/stars/nowelium/node-bitmap.svg?style=social&label=Star)
 
-### 音频 / 视频处理
+### Audio / Video
 
-- [fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg) - FFMPEG的流畅API (http://www.ffmpeg.org) ![](https://img.shields.io/github/stars/fluent-ffmpeg/node-fluent-ffmpeg.svg?style=social&label=Star)
-- [FFCreator](https://github.com/tnfe/FFCreator) - 一个基于node.js的高速短视频加工库。 ![](https://img.shields.io/github/stars/tnfe/FFCreator.svg?style=social&label=Star)
-- [node-ffmpeg](https://github.com/damianociarla/node-ffmpeg) - Nodejs版Ffmpeg模块。 ![](https://img.shields.io/github/stars/damianociarla/node-ffmpeg.svg?style=social&label=Star)
+- [fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg) - A fluent API to FFMPEG (http://www.ffmpeg.org) ![](https://img.shields.io/github/stars/fluent-ffmpeg/node-fluent-ffmpeg.svg?style=social&label=Star)
+- [FFCreator](https://github.com/tnfe/FFCreator) - A fast short video processing library based on node.js. ![](https://img.shields.io/github/stars/tnfe/FFCreator.svg?style=social&label=Star)
+- [node-ffmpeg](https://github.com/damianociarla/node-ffmpeg) - Ffmpeg module for nodejs. ![](https://img.shields.io/github/stars/damianociarla/node-ffmpeg.svg?style=social&label=Star)
 
-### 字体
+### Font
 
-- [font-spider](https://github.com/aui/font-spider) - 字蛛是一个智能 WebFont 压缩工具，它能自动分析出页面使用的 WebFont 并进行按需压缩。 ![](https://img.shields.io/github/stars/aui/font-spider.svg?style=social&label=Star)
-- [svg2ttf](https://github.com/fontello/svg2ttf) - 字体转换器, SVG格式转化为TTF。 ![](https://img.shields.io/github/stars/fontello/svg2ttf.svg?style=social&label=Star)
-- [ttf2woff](https://github.com/fontello/ttf2woff) - 字体转换器, TTF格式转化为WOFF。 ![](https://img.shields.io/github/stars/fontello/ttf2woff.svg?style=social&label=Star)
-- [svgicons2svgfont](https://github.com/nfroidure/svgicons2svgfont) - 连接 SVG 图标并输出 SVG 字体。 ![](https://img.shields.io/github/stars/nfroidure/svgicons2svgfont.svg?style=social&label=Star)
-- [webfont](https://github.com/itgalaxy/webfont) - 很棒的网页字体生成器。 ![](https://img.shields.io/github/stars/itgalaxy/webfont.svg?style=social&label=Star)
-- [ttf2eot](https://github.com/fontello/ttf2eot) - 字体转换器, TTF格式转化为EOT。 ![](https://img.shields.io/github/stars/fontello/ttf2eot.svg?style=social&label=Star)
-- [wawoff2](https://github.com/fontello/wawoff2) - 使用 WebAssembly 构建 Google 的 woff2。 ![](https://img.shields.io/github/stars/fontello/wawoff2.svg?style=social&label=Star)
+- [font-spider](https://github.com/aui/font-spider) - Smart webfont compression and format conversion tool. ![](https://img.shields.io/github/stars/aui/font-spider.svg?style=social&label=Star)
+- [svg2ttf](https://github.com/fontello/svg2ttf) - SVG -> TTF font convertor. ![](https://img.shields.io/github/stars/fontello/svg2ttf.svg?style=social&label=Star)
+- [ttf2woff](https://github.com/fontello/ttf2woff) - Font convertor, TTF to WOFF, for node.js. ![](https://img.shields.io/github/stars/fontello/ttf2woff.svg?style=social&label=Star)
+- [svgicons2svgfont](https://github.com/nfroidure/svgicons2svgfont) - Concatenate SVG icons and ouput an SVG font. ![](https://img.shields.io/github/stars/nfroidure/svgicons2svgfont.svg?style=social&label=Star)
+- [webfont](https://github.com/itgalaxy/webfont) - Awesome generator of webfont. ![](https://img.shields.io/github/stars/itgalaxy/webfont.svg?style=social&label=Star)
+- [ttf2eot](https://github.com/fontello/ttf2eot) - Font convertor, TTF to EOT, for node.js. ![](https://img.shields.io/github/stars/fontello/ttf2eot.svg?style=social&label=Star)
+- [wawoff2](https://github.com/fontello/wawoff2) - WebAssembly build of Google's woff2. ![](https://img.shields.io/github/stars/fontello/wawoff2.svg?style=social&label=Star)
 
-### 颜色
+### Color
 
-- [chroma](https://github.com/gka/chroma.js) - JavaScript库，用于各种颜色处理。 ![](https://img.shields.io/github/stars/gka/chroma.js.svg?style=social&label=Star)
-- [randomColor](https://github.com/davidmerfield/randomColor) - 一个小型脚本，用于优雅的生成颜色。 ![](https://img.shields.io/github/stars/davidmerfield/randomColor.svg?style=social&label=Star)
-- [rgbaster](https://github.com/briangonzalez/rgbaster.js) - 🎨一个简单的库，用于从图像中提取主色。 ![](https://img.shields.io/github/stars/briangonzalez/rgbaster.js.svg?style=social&label=Star)
-- [TinyColor](https://github.com/bgrins/TinyColor) - 快速、小型的颜色操作和转换库。 ![](https://img.shields.io/github/stars/bgrins/TinyColor.svg?style=social&label=Star)
-- [onecolor](https://github.com/One-com/one-color) - 面向对象的JavaScript颜色解析器/计算工具包，支持RGB，HSV，HSL，CMYK和alpha通道。 颜色空间之间的转换是隐式进行的，并且所有方法都返回新对象，而不是对现有实例进行突变。 可在浏览器和Node.js中使用。 ![](https://img.shields.io/github/stars/One-com/one-color.svg?style=social&label=Star)
+- [chroma](https://github.com/gka/chroma.js) - JavaScript library for all kinds of color manipulations. ![](https://img.shields.io/github/stars/gka/chroma.js.svg?style=social&label=Star)
+- [randomColor](https://github.com/davidmerfield/randomColor) - A tiny script for generating attractive colors. ![](https://img.shields.io/github/stars/davidmerfield/randomColor.svg?style=social&label=Star)
+- [rgbaster](https://github.com/briangonzalez/rgbaster.js) - 🎨 A simple library for extracting dominant colors from images. ![](https://img.shields.io/github/stars/briangonzalez/rgbaster.js.svg?style=social&label=Star)
+- [TinyColor](https://github.com/bgrins/TinyColor) - Fast, small color manipulation and conversion for JavaScript. ![](https://img.shields.io/github/stars/bgrins/TinyColor.svg?style=social&label=Star)
+- [onecolor](https://github.com/One-com/one-color) - An OO-based JavaScript color parser/computation toolkit with support for RGB, HSV, HSL, CMYK, and alpha channels. Conversion between color spaces occurs implicitly, and all methods return new objects rather than mutating existing instances. Works in the browser and node.js. ![](https://img.shields.io/github/stars/One-com/one-color.svg?style=social&label=Star)
 
-### 加解密
+### Crypto
 
-- [crypto-js](https://github.com/brix/crypto-js) - JavaScript加密标准库。 ![](https://img.shields.io/github/stars/brix/crypto-js.svg?style=social&label=Star)
-- [sjcl](https://github.com/bitwiseshiftleft/sjcl) - 斯坦福 Javascript 加密库。 ![](https://img.shields.io/github/stars/bitwiseshiftleft/sjcl.svg?style=social&label=Star)
-- [bcrypt](https://github.com/kelektiv/node.bcrypt.js) - Node.js版Bcrypt。 ![](https://img.shields.io/github/stars/kelektiv/node.bcrypt.js.svg?style=social&label=Star)
-- [jsencrypt](https://github.com/travist/jsencrypt) - 用于执行OpenSSL RSA加密、解密和密钥生成的Javascript库。 ![](https://img.shields.io/github/stars/travist/jsencrypt.svg?style=social&label=Star)
-- [bcrypt.js](https://github.com/dcodeIO/bcrypt.js) - 经过优化bcrypt库，使用纯JavaScript且零依赖。 ![](https://img.shields.io/github/stars/dcodeIO/bcrypt.js.svg?style=social&label=Star)
-- [jsrsasign](https://github.com/kjur/jsrsasign) - "jsrsasign"（RSA Sign JavaScript库）是一个开源的免费加密库，支持纯JavaScript中的RSA/RSAPSS/ECDSA/DSA签名/验证、ASN.1、PKCS#1/5/8私钥/公钥、X.509证书、CRL、OCSP、CMS SignedData、TimeStamp、CAdES JSON Web签名/令牌。 ![](https://img.shields.io/github/stars/kjur/jsrsasign.svg?style=social&label=Star)
-- [node-rsa](https://github.com/rzcoder/node-rsa) - Node.js RSA库。 ![](https://img.shields.io/github/stars/rzcoder/node-rsa.svg?style=social&label=Star)
-- [aes-js](https://github.com/ricmoo/aes-js) - AES的纯JavaScript实现。 ![](https://img.shields.io/github/stars/ricmoo/aes-js.svg?style=social&label=Star)
-- [node-md5](https://github.com/pvorb/node-md5) - 一个JavaScript函数，用于使用MD5对消息进行哈希处理。 ![](https://img.shields.io/github/stars/pvorb/node-md5.svg?style=social&label=Star)
-- [crypto-hash](https://github.com/sindresorhus/crypto-hash) - 微型哈希模块，在Node.js和浏览器中使用原生crypto API。 ![](https://img.shields.io/github/stars/sindresorhus/crypto-hash.svg?style=social&label=Star)
-- [hash.js](https://github.com/indutny/hash.js) - 使用纯JavaScript的哈希实现。 ![](https://img.shields.io/github/stars/indutny/hash.js.svg?style=social&label=Star)
-- [sm-crypto](https://github.com/JuneAndGreen/sm-crypto) - sm2, sm3, sm4的JavaScript实现。 ![](https://img.shields.io/github/stars/JuneAndGreen/sm-crypto.svg?style=social&label=Star)
-- [sha.js](https://github.com/crypto-browserify/sha.js) - 使用纯JavaScript中的流式SHA哈希。 ![](https://img.shields.io/github/stars/crypto-browserify/sha.js.svg?style=social&label=Star)
-- [hash-sum](https://github.com/bevacqua/hash-sum) - 极快的唯一哈希生成器。 ![](https://img.shields.io/github/stars/bevacqua/hash-sum.svg?style=social&label=Star)
-- [cryptr](https://github.com/MauriceButler/cryptr) - 非常基础的加密和解密Node.js模块。 ![](https://img.shields.io/github/stars/MauriceButler/cryptr.svg?style=social&label=Star)
-- [pbkdf2](https://github.com/crypto-browserify/pbkdf2) - 在Node中具有任何受支持的哈希算法PBKDF2。 ![](https://img.shields.io/github/stars/crypto-browserify/pbkdf2.svg?style=social&label=Star)
-- [bcrypt-pbkdf](https://github.com/joyent/node-bcrypt-pbkdf) - POpenBSD `bcrypt_pbkdf` Javascript实现。 ![](https://img.shields.io/github/stars/joyent/node-bcrypt-pbkdf.svg?style=social&label=Star)
+- [crypto-js](https://github.com/brix/crypto-js) - JavaScript library of crypto standards. ![](https://img.shields.io/github/stars/brix/crypto-js.svg?style=social&label=Star)
+- [sjcl](https://github.com/bitwiseshiftleft/sjcl) - Stanford Javascript Crypto Library. ![](https://img.shields.io/github/stars/bitwiseshiftleft/sjcl.svg?style=social&label=Star)
+- [bcrypt](https://github.com/kelektiv/node.bcrypt.js) - Bcrypt for NodeJs. ![](https://img.shields.io/github/stars/kelektiv/node.bcrypt.js.svg?style=social&label=Star)
+- [jsencrypt](https://github.com/travist/jsencrypt) - A Javascript library to perform OpenSSL RSA Encryption, Decryption, and Key Generation. ![](https://img.shields.io/github/stars/travist/jsencrypt.svg?style=social&label=Star)
+- [bcrypt.js](https://github.com/dcodeIO/bcrypt.js) - Optimized bcrypt in plain JavaScript with zero dependencies. ![](https://img.shields.io/github/stars/dcodeIO/bcrypt.js.svg?style=social&label=Star)
+- [jsrsasign](https://github.com/kjur/jsrsasign) - The 'jsrsasign' (RSA-Sign JavaScript Library) is an opensource free cryptography library supporting RSA/RSAPSS/ECDSA/DSA signing/validation, ASN.1, PKCS#1/5/8 private/public key, X.509 certificate, CRL, OCSP, CMS SignedData, TimeStamp, CAdES JSON Web Signature/Token in pure JavaScript. ![](https://img.shields.io/github/stars/kjur/jsrsasign.svg?style=social&label=Star)
+- [node-rsa](https://github.com/rzcoder/node-rsa) - Node.js RSA library. ![](https://img.shields.io/github/stars/rzcoder/node-rsa.svg?style=social&label=Star)
+- [aes-js](https://github.com/ricmoo/aes-js) - A pure JavaScript implementation of the AES block cipher and all common modes of operation for node.js or web browsers. ![](https://img.shields.io/github/stars/ricmoo/aes-js.svg?style=social&label=Star)
+- [node-md5](https://github.com/pvorb/node-md5) - A JavaScript function for hashing messages with MD5. ![](https://img.shields.io/github/stars/pvorb/node-md5.svg?style=social&label=Star)
+- [crypto-hash](https://github.com/sindresorhus/crypto-hash) - Tiny hashing module that uses the native crypto API in Node.js and the browser. ![](https://img.shields.io/github/stars/sindresorhus/crypto-hash.svg?style=social&label=Star)
+- [sm-crypto](https://github.com/JuneAndGreen/sm-crypto) - JavaScript library of sm2, sm3, sm4. ![](https://img.shields.io/github/stars/JuneAndGreen/sm-crypto.svg?style=social&label=Star)
+- [sha.js](https://github.com/crypto-browserify/sha.js) - Streamable SHA hashes in pure javascript. ![](https://img.shields.io/github/stars/crypto-browserify/sha.js.svg?style=social&label=Star)
+- [hash-sum](https://github.com/bevacqua/hash-sum) - Blazing fast unique hash generator. ![](https://img.shields.io/github/stars/bevacqua/hash-sum.svg?style=social&label=Star)
+- [cryptr](https://github.com/MauriceButler/cryptr) - Very basic encrypt and decrypt node module. ![](https://img.shields.io/github/stars/MauriceButler/cryptr.svg?style=social&label=Star)
+- [hash.js](https://github.com/indutny/hash.js) - Hash functions in pure javascript. ![](https://img.shields.io/github/stars/indutny/hash.js.svg?style=social&label=Star)
+- [pbkdf2](https://github.com/crypto-browserify/pbkdf2) - PBKDF2 with any supported hashing algorithm in Node. ![](https://img.shields.io/github/stars/crypto-browserify/pbkdf2.svg?style=social&label=Star)
+- [bcrypt-pbkdf](https://github.com/joyent/node-bcrypt-pbkdf) - Port of the OpenBSD `bcrypt_pbkdf` function to pure Javascript. ![](https://img.shields.io/github/stars/joyent/node-bcrypt-pbkdf.svg?style=social&label=Star)
 
-### 流
+### Streams
 
-- [event-stream](https://github.com/dominictarr/event-stream) - EventStream就像函数式编程遇到IO。 ![](https://img.shields.io/github/stars/dominictarr/event-stream.svg?style=social&label=Star)
-- [through2](https://github.com/rvagg/through2) - 基于Node stream2 的封装进行转换以避免显式的子类化噪声。 ![](https://img.shields.io/github/stars/rvagg/through2.svg?style=social&label=Star)
-- [JSONStream](https://github.com/dominictarr/JSONStream) - 流JSON.parse和stringify。 ![](https://img.shields.io/github/stars/dominictarr/JSONStream.svg?style=social&label=Star)
-- [mississippi](https://github.com/maxogden/mississippi) - 有用的流实用程序模块的集合，用于更好编写的使用流的代码。 ![](https://img.shields.io/github/stars/maxogden/mississippi.svg?style=social&label=Star)
-- [readable-stream](https://github.com/nodejs/readable-stream) - 可读流。 ![](https://img.shields.io/github/stars/nodejs/readable-stream.svg?style=social&label=Star)
-- [pump](https://github.com/mafintosh/pump) - 将流连接在一起，如果其中一个关闭，则关闭所有流。 ![](https://img.shields.io/github/stars/mafintosh/pump.svg?style=social&label=Star)
-- [concat-stream](https://github.com/maxogden/concat-stream) - 可写流，它将字符串或数据连接起来并执行回调。 ![](https://img.shields.io/github/stars/maxogden/concat-stream.svg?style=social&label=Star)
-- [stream-json](https://github.com/uhop/stream-json) - stream-json是用于创建自定义标准兼容JSON处理器的nod​​e.js流组件的集合，该组件所需的内存占用最少。它可以解析远远超出可用内存的JSON文件。甚至单个原始数据项（键，字符串和数字）也可以分段流式传输。还包括流式SAX启发式的基于事件的API。 ![](https://img.shields.io/github/stars/uhop/stream-json.svg?style=social&label=Star)
-- [split](https://github.com/dominictarr/split) - 分解流并重新组装它，以便每一行都是一块。匹配器可以是字符串，也可以是正则表达式。 ![](https://img.shields.io/github/stars/dominictarr/split.svg?style=social&label=Star)
-- [tar-stream](https://github.com/mafintosh/tar-stream) - tar-stream是一个流式tar解析器和生成器。 ![](https://img.shields.io/github/stars/mafintosh/tar-stream.svg?style=social&label=Star)
-- [node-byline](https://github.com/jahewson/node-byline) - 逐行流阅读器。 ![](https://img.shields.io/github/stars/jahewson/node-byline.svg?style=social&label=Star)
-- [ndjson](https://github.com/maxogden/ndjson) - 流逐行分隔的json解析器 + 序列化器。 ![](https://img.shields.io/github/stars/maxogden/ndjson.svg?style=social&label=Star)
-- [oppressor](https://github.com/substack/oppressor) - 流HTTP压缩响应协商程序。 ![](https://img.shields.io/github/stars/substack/oppressor.svg?style=social&label=Star)
-- [multistream](https://github.com/feross/multistream) - 一种流，一个接一个地发出多个其他流（streams2）。 ![](https://img.shields.io/github/stars/feross/multistream.svg?style=social&label=Star)
-- [get-stream](https://github.com/sindresorhus/get-stream) - 以字符串，缓冲区或数组的形式获取流。 ![](https://img.shields.io/github/stars/sindresorhus/get-stream.svg?style=social&label=Star)
-- [node-stream-buffer](https://github.com/samcday/node-stream-buffer) - 使用缓存的可读和可写流。 ![](https://img.shields.io/github/stars/samcday/node-stream-buffer.svg?style=social&label=Star)
-- [split2](https://github.com/mcollina/split2) - 拆分stream3样式。 ![](https://img.shields.io/github/stars/mcollina/split2.svg?style=social&label=Star)
-- [fstream](https://github.com/npm/fstream) - 高级的Node.js文件操作流。 ![](https://img.shields.io/github/stars/npm/fstream.svg?style=social&label=Star)
-- [pumpify](https://github.com/mafintosh/pumpify) - 使用泵和全双工，将一系列流合并为单个双工流。 ![](https://img.shields.io/github/stars/mafintosh/pumpify.svg?style=social&label=Star)
-- [progress-stream](https://github.com/freeall/progress-stream) - 读取流的进度。 ![](https://img.shields.io/github/stars/freeall/progress-stream.svg?style=social&label=Star)
-- [merge-stream](https://github.com/grncdr/merge-stream) - 将多个流合并为一个交错流。 ![](https://img.shields.io/github/stars/grncdr/merge-stream.svg?style=social&label=Star)
-- [duplexify](https://github.com/mafintosh/duplexify) - 将可写和可读流转换为具有异步初始化和stream1/streams2输入支持的stream2双工流。 ![](https://img.shields.io/github/stars/mafintosh/duplexify.svg?style=social&label=Star)
-- [into-stream](https://github.com/sindresorhus/into-stream) - 将缓存/字符串/数组/对象转换为流。 ![](https://img.shields.io/github/stars/sindresorhus/into-stream.svg?style=social&label=Star)
-- [merge2](https://github.com/teambition/merge2) - 按顺序或并行的方式将多个流合并为一个流。 ![](https://img.shields.io/github/stars/teambition/merge2.svg?style=social&label=Star)
-- [end-of-stream](https://github.com/mafintosh/end-of-stream) - 当可读/可写/双工流已完成或失败时，调用回调。 ![](https://img.shields.io/github/stars/mafintosh/end-of-stream.svg?style=social&label=Star)
-- [stream-to-promise](https://github.com/bendrucker/stream-to-promise) - 将流（可读或可写流）转换为Promise。 ![](https://img.shields.io/github/stars/bendrucker/stream-to-promise.svg?style=social&label=Star)
-- [node-streamifier](https://github.com/gagle/node-streamifier) - 将 Buffer/String 转换为可读流。 ![](https://img.shields.io/github/stars/gagle/node-streamifier.svg?style=social&label=Star)
-- [stream-spec](https://github.com/dominictarr/stream-spec) - Stream的可执行规范（让测试流变得更容易）。 ![](https://img.shields.io/github/stars/dominictarr/stream-spec.svg?style=social&label=Star)
-- [from2](https://github.com/hughsk/from2) - ReadableStream的便捷封装，其灵感来自through2。 ![](https://img.shields.io/github/stars/hughsk/from2.svg?style=social&label=Star)
-- [dmap-stream](https://github.com/dominictarr/map-stream) - 基于Event-stream事件流重构。 ![](https://img.shields.io/github/stars/dominictarr/map-stream.svg?style=social&label=Star)
-- [emit-stream](https://github.com/substack/emit-stream) - 将event-emiiters转换为流 和 将流转换为event-emiiters。 ![](https://img.shields.io/github/stars/substack/emit-stream.svg?style=social&label=Star)
-- [stream-combiner](https://github.com/dominictarr/stream-combiner) - 将管道变成单个流。合并返回的流，写入第一个流并从最后一个流读取的流。 ![](https://img.shields.io/github/stars/dominictarr/stream-combiner.svg?style=social&label=Star)
-- [duplexer](https://github.com/raynos/duplexer) - 创建一个双工流。 ![](https://img.shields.io/github/stars/raynos/duplexer.svg?style=social&label=Star)
-- [promise-streams](https://github.com/spion/promise-streams) - Node.js流的集合，可以很好地与Promises (through, map, reduce等）一起使用。 ![](https://img.shields.io/github/stars/spion/promise-streams.svg?style=social&label=Star)
-- [binary-split](https://github.com/maxogden/binary-split) - 快速的换行符（或任何分隔符）分隔符流。 ![](https://img.shields.io/github/stars/maxogden/binary-split.svg?style=social&label=Star)
-- [stream-combiner2](https://github.com/substack/stream-combiner2) - stream3的stream-combiner。 ![](https://img.shields.io/github/stars/substack/stream-combiner2.svg?style=social&label=Star)
-- [through2-concurrent](https://github.com/almost/through2-concurrent) - 简单的Node.JS流（streams2）转换，可并行执行转换功能（可设置的最大并发数）。 ![](https://img.shields.io/github/stars/almost/through2-concurrent.svg?style=social&label=Star)
-- [cloneable-readable](https://github.com/mcollina/cloneable-readable) - 安全地克隆可读流。 ![](https://img.shields.io/github/stars/mcollina/cloneable-readable.svg?style=social&label=Star)
-- [destroy](https://github.com/stream-utils/destroy) - 如果可能，销毁流。 ![](https://img.shields.io/github/stars/stream-utils/destroy.svg?style=social&label=Star)
-- [peek-stream](https://github.com/mafintosh/peek-stream) - 转换流，可让您在决定如何解析前先窥视第一行。 ![](https://img.shields.io/github/stars/mafintosh/peek-stream.svg?style=social&label=Star)
-- [resumer](https://github.com/substack/resumer) - 通过流开始暂停，并在下一个tick恢复。 ![](https://img.shields.io/github/stars/substack/resumer.svg?style=social&label=Star)
-- [stream-each](https://github.com/mafintosh/stream-each) - 迭代流中的所有数据。 ![](https://img.shields.io/github/stars/mafintosh/stream-each.svg?style=social&label=Star)
-- [flush-write-stream](https://github.com/mafintosh/flush-write-stream) - 一种写入流构造函数，支持流完成之前调用的flush函数。 ![](https://img.shields.io/github/stars/mafintosh/flush-write-stream.svg?style=social&label=Star)
-- [multi-write-stream](https://github.com/mafintosh/multi-write-stream) - 创建一个可写流，其可写入多个其他可写流。 ![](https://img.shields.io/github/stars/mafintosh/multi-write-stream.svg?style=social&label=Star)
-- [first-chunk-stream](https://github.com/sindresorhus/first-chunk-stream) - 缓冲并转换流的前n个字节。 ![](https://img.shields.io/github/stars/sindresorhus/first-chunk-stream.svg?style=social&label=Star)
-- [multi-read-stream](https://github.com/mafintosh/multi-read-stream) - 可读流，它同时从多个可读流中读取。 ![](https://img.shields.io/github/stars/mafintosh/multi-read-stream.svg?style=social&label=Star)
-- [node-stream-reduce](https://github.com/parshap/node-stream-reduce) - 将流数据减少为单个值。 ![](https://img.shields.io/github/stars/parshap/node-stream-reduce.svg?style=social&label=Star)
-- [stream-shift](https://github.com/mafintosh/stream-shift) - 返回流可读队列中的下一个缓冲区/对象。 ![](https://img.shields.io/github/stars/mafintosh/stream-shift.svg?style=social&label=Star)
-- [stream-assert](https://github.com/floatdrop/stream-assert) - 流的断言库。 ![](https://img.shields.io/github/stars/floatdrop/stream-assert.svg?style=social&label=Star)
-- [stream-from-promise](https://github.com/schnittstabil/stream-from-promise) - 根据Promise创建流。 ![](https://img.shields.io/github/stars/schnittstabil/stream-from-promise.svg?style=social&label=Star)
-- [stromjs](https://github.com/lewisdiamond/stromjs) - 无依赖的流实用程序。流的Lodash。 ![](https://img.shields.io/github/stars/lewisdiamond/stromjs.svg?style=social&label=Star)
-- [exec-stream](https://github.com/suarasaur/exec-stream) - 将流传入到子进程。 ![](https://img.shields.io/github/stars/suarasaur/exec-stream.svg?style=social&label=Star)
-- [stream-callback](https://github.com/kikobeats/stream-callback) – 将流转换为一个回调函数。 ![](https://img.shields.io/github/stars/kikobeats/stream-callback.svg?style=social&label=Star)
+- [event-stream](https://github.com/dominictarr/event-stream) - EventStream is like functional programming meets IO. ![](https://img.shields.io/github/stars/dominictarr/event-stream.svg?style=social&label=Star)
+- [through2](https://github.com/rvagg/through2) - Tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise. ![](https://img.shields.io/github/stars/rvagg/through2.svg?style=social&label=Star)
+- [JSONStream](https://github.com/dominictarr/JSONStream) - streaming JSON.parse and stringify. ![](https://img.shields.io/github/stars/dominictarr/JSONStream.svg?style=social&label=Star)
+- [mississippi](https://github.com/maxogden/mississippi) - A collection of useful stream utility modules for writing better code using streams. ![](https://img.shields.io/github/stars/maxogden/mississippi.svg?style=social&label=Star)
+- [readable-stream](https://github.com/nodejs/readable-stream) - Node-core streams for userland. ![](https://img.shields.io/github/stars/nodejs/readable-stream.svg?style=social&label=Star)
+- [pump](https://github.com/mafintosh/pump) - pipe streams together and close all of them if one of them closes. ![](https://img.shields.io/github/stars/mafintosh/pump.svg?style=social&label=Star)
+- [concat-stream](https://github.com/maxogden/concat-stream) - writable stream that concatenates strings or data and calls a callback with the result. ![](https://img.shields.io/github/stars/maxogden/concat-stream.svg?style=social&label=Star)
+- [stream-json](https://github.com/uhop/stream-json) - stream-json is a collection of node.js stream components for creating custom standard-compliant JSON processors, which requires a minimal memory footprint. It can parse JSON files far exceeding available memory. Even individual primitive data items (keys, strings, and numbers) can be streamed piece-wise. Streaming SAX-inspired event-based API is included as well. ![](https://img.shields.io/github/stars/uhop/stream-json.svg?style=social&label=Star)
+- [split](https://github.com/dominictarr/split) - Break up a stream and reassemble it so that each line is a chunk. matcher may be a String, or a RegExp. ![](https://img.shields.io/github/stars/dominictarr/split.svg?style=social&label=Star)
+- [tar-stream](https://github.com/mafintosh/tar-stream) - tar-stream is a streaming tar parser and generator. ![](https://img.shields.io/github/stars/mafintosh/tar-stream.svg?style=social&label=Star)
+- [node-byline](https://github.com/jahewson/node-byline) - Line-by-line Stream reader. ![](https://img.shields.io/github/stars/jahewson/node-byline.svg?style=social&label=Star)
+- [ndjson](https://github.com/maxogden/ndjson) - streaming line delimited json parser + serializer](https://github.com/mcollina/cloneable-readable). ![](https://img.shields.io/github/stars/maxogden/ndjson.svg?style=social&label=Star)
+- [oppressor](https://github.com/substack/oppressor) - streaming http compression response negotiator. ![](https://img.shields.io/github/stars/substack/oppressor.svg?style=social&label=Star)
+- [multistream](https://github.com/feross/multistream) - A stream that emits multiple other streams one after another (streams2). ![](https://img.shields.io/github/stars/feross/multistream.svg?style=social&label=Star)
+- [get-stream](https://github.com/sindresorhus/get-stream) - Get a stream as a string, buffer, or array. ![](https://img.shields.io/github/stars/sindresorhus/get-stream.svg?style=social&label=Star)
+- [node-stream-buffer](https://github.com/samcday/node-stream-buffer) - Readable and Writable Streams that use backing Buffers. ![](https://img.shields.io/github/stars/samcday/node-stream-buffer.svg?style=social&label=Star)
+- [split2](https://github.com/mcollina/split2) - Split streams3 style. ![](https://img.shields.io/github/stars/mcollina/split2.svg?style=social&label=Star)
+- [fstream](https://github.com/npm/fstream) - Advanced FS Streaming for Node. ![](https://img.shields.io/github/stars/npm/fstream.svg?style=social&label=Star)
+- [pumpify](https://github.com/mafintosh/pumpify) - Combine an array of streams into a single duplex stream using pump and duplexify. ![](https://img.shields.io/github/stars/mafintosh/pumpify.svg?style=social&label=Star)
+- [progress-stream](https://github.com/freeall/progress-stream) - Read the progress of a stream. ![](https://img.shields.io/github/stars/freeall/progress-stream.svg?style=social&label=Star)
+- [merge-stream](https://github.com/grncdr/merge-stream) - Merge multiple streams into one interleaved stream. ![](https://img.shields.io/github/stars/grncdr/merge-stream.svg?style=social&label=Star)
+- [duplexify](https://github.com/mafintosh/duplexify) - Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input. ![](https://img.shields.io/github/stars/mafintosh/duplexify.svg?style=social&label=Star)
+- [into-stream](https://github.com/sindresorhus/into-stream) - Convert a buffer/string/array/object into a stream. ![](https://img.shields.io/github/stars/sindresorhus/into-stream.svg?style=social&label=Star)
+- [merge2](https://github.com/teambition/merge2) - Merge multiple streams into one stream in sequence or parallel. ![](https://img.shields.io/github/stars/teambition/merge2.svg?style=social&label=Star)
+- [end-of-stream](https://github.com/mafintosh/end-of-stream) - Call a callback when a readable/writable/duplex stream has completed or failed. ![](https://img.shields.io/github/stars/mafintosh/end-of-stream.svg?style=social&label=Star)
+- [stream-to-promise](https://github.com/bendrucker/stream-to-promise) - Convert streams (readable or writable) to promises. ![](https://img.shields.io/github/stars/bendrucker/stream-to-promise.svg?style=social&label=Star)
+- [node-streamifier](https://github.com/gagle/node-streamifier) - Converts a Buffer/String to a readable stream. ![](https://img.shields.io/github/stars/gagle/node-streamifier.svg?style=social&label=Star)
+- [stream-spec](https://github.com/dominictarr/stream-spec) - executable specification for Stream (make testing streams easy). ![](https://img.shields.io/github/stars/dominictarr/stream-spec.svg?style=social&label=Star)
+- [from2](https://github.com/hughsk/from2) - Convenience wrapper for ReadableStream, inspired by through2. ![](https://img.shields.io/github/stars/hughsk/from2.svg?style=social&label=Star)
+- [dmap-stream](https://github.com/dominictarr/map-stream) - refactored out of event-stream. ![](https://img.shields.io/github/stars/dominictarr/map-stream.svg?style=social&label=Star)
+- [emit-stream](https://github.com/substack/emit-stream) - turn event emitters into streams and streams into event emitters. ![](https://img.shields.io/github/stars/substack/emit-stream.svg?style=social&label=Star)
+- [stream-combiner](https://github.com/dominictarr/stream-combiner) - Turn a pipeline into a single stream. Combine returns a stream that writes to the first stream and reads from the last stream. ![](https://img.shields.io/github/stars/dominictarr/stream-combiner.svg?style=social&label=Star)
+- [duplexer](https://github.com/raynos/duplexer) - Creates a duplex stream. ![](https://img.shields.io/github/stars/raynos/duplexer.svg?style=social&label=Star)
+- [promise-streams](https://github.com/spion/promise-streams) - A collection of node.js streams that work well with promises (through, map, reduce, etc...). ![](https://img.shields.io/github/stars/spion/promise-streams.svg?style=social&label=Star)
+- [binary-split](https://github.com/maxogden/binary-split) - A fast newline (or any delimiter) splitter stream. ![](https://img.shields.io/github/stars/maxogden/binary-split.svg?style=social&label=Star)
+- [stream-combiner2](https://github.com/substack/stream-combiner2) - stream-combiner for streams3. ![](https://img.shields.io/github/stars/substack/stream-combiner2.svg?style=social&label=Star)
+- [through2-concurrent](https://github.com/almost/through2-concurrent) - Simple Node.JS stream (streams2) Transform that runs the transform functions concurrently (with a set max concurrency). ![](https://img.shields.io/github/stars/almost/through2-concurrent.svg?style=social&label=Star)
+- [cloneable-readable](https://github.com/mcollina/cloneable-readable) - Clone a Readable stream, safely. ![](https://img.shields.io/github/stars/mcollina/cloneable-readable.svg?style=social&label=Star)
+- [destroy](https://github.com/stream-utils/destroy) - destroy a stream if possible. ![](https://img.shields.io/github/stars/stream-utils/destroy.svg?style=social&label=Star)
+- [peek-stream](https://github.com/mafintosh/peek-stream) - Transform stream that lets you peek the first line before deciding how to parse it. ![](https://img.shields.io/github/stars/mafintosh/peek-stream.svg?style=social&label=Star)
+- [resumer](https://github.com/substack/resumer) - a through stream that starts paused and resumes on the next tick. ![](https://img.shields.io/github/stars/substack/resumer.svg?style=social&label=Star)
+- [stream-each](https://github.com/mafintosh/stream-each) - Iterate all the data in a stream. ![](https://img.shields.io/github/stars/mafintosh/stream-each.svg?style=social&label=Star)
+- [flush-write-stream](https://github.com/mafintosh/flush-write-stream) - A write stream constructor that supports a flush function that is called before finish is emitted. ![](https://img.shields.io/github/stars/mafintosh/flush-write-stream.svg?style=social&label=Star)
+- [multi-write-stream](https://github.com/mafintosh/multi-write-stream) - Create a writable stream that writes to multiple other writeable streams. ![](https://img.shields.io/github/stars/mafintosh/multi-write-stream.svg?style=social&label=Star)
+- [first-chunk-stream](https://github.com/sindresorhus/first-chunk-stream) - Buffer and transform the n first bytes of a stream. ![](https://img.shields.io/github/stars/sindresorhus/first-chunk-stream.svg?style=social&label=Star)
+- [multi-read-stream](https://github.com/mafintosh/multi-read-stream) - Readable stream that reads from multiple readable streams at the same time. ![](https://img.shields.io/github/stars/mafintosh/multi-read-stream.svg?style=social&label=Star)
+- [node-stream-reduce](https://github.com/parshap/node-stream-reduce) - Reduce stream data to a single value. ![](https://img.shields.io/github/stars/parshap/node-stream-reduce.svg?style=social&label=Star)
+- [stream-shift](https://github.com/mafintosh/stream-shift) - Returns the next buffer/object in a stream's readable queue. ![](https://img.shields.io/github/stars/mafintosh/stream-shift.svg?style=social&label=Star)
+- [stream-assert](https://github.com/floatdrop/stream-assert) - Assertion library for streams. ![](https://img.shields.io/github/stars/floatdrop/stream-assert.svg?style=social&label=Star)
+- [stream-from-promise](https://github.com/schnittstabil/stream-from-promise) - Create streams from promises. ![](https://img.shields.io/github/stars/schnittstabil/stream-from-promise.svg?style=social&label=Star)
+- [stromjs](https://github.com/lewisdiamond/stromjs) - Dependency-free stream utils. The Lodash of streams. ![](https://img.shields.io/github/stars/lewisdiamond/stromjs.svg?style=social&label=Star)
+- [exec-stream](https://github.com/suarasaur/exec-stream) - stream to a child process. ![](https://img.shields.io/github/stars/suarasaur/exec-stream.svg?style=social&label=Star)
+- [stream-callback](https://github.com/kikobeats/stream-callback) – Turns a stream into a callback. ![](https://img.shields.io/github/stars/kikobeats/stream-callback.svg?style=social&label=Star)
 
-### 检测/判断
+### Check/Detect
 
-- [is.js](https://github.com/arasatasaygin/is.js) - 微型检查库。 ![](https://img.shields.io/github/stars/arasatasaygin/is.js.svg?style=social&label=Star)
-- [is-promise](https://github.com/then/is-promise) - 测试对象是否看起来像一个 Promises-a+ promise。 ![](https://img.shields.io/github/stars/then/is-promise.svg?style=social&label=Star)
-- [is-ci](https://github.com/watson/is-ci) - 判断当前环境是否为CI服务器。 ![](https://img.shields.io/github/stars/watson/is-ci.svg?style=social&label=Star)
-- [is](https://github.com/enricomarino/is) - JavaScript类型测试库。 ![](https://img.shields.io/github/stars/enricomarino/is.svg?style=social&label=Star)
-- [is-type-of](https://github.com/node-modules/is-type-of) - Node.js完整类型判断。 ![](https://img.shields.io/github/stars/node-modules/is-type-of.svg?style=social&label=Star)
-- [is-stream](https://github.com/sindresorhus/is-stream) - 判断对象是否为流对象。 ![](https://img.shields.io/github/stars/sindresorhus/is-stream.svg?style=social&label=Star)
-- [is-utf8](https://github.com/wayfind/is-utf8) - 判断Buffer对象是否UTF8编码。 ![](https://img.shields.io/github/stars/wayfind/is-utf8.svg?style=social&label=Star)
-- [core-util-is](https://github.com/isaacs/core-util-is) - Node.js核心工具 util.is* 函数。 ![](https://img.shields.io/github/stars/isaacs/core-util-is.svg?style=social&label=Star)
-- [is-ip](https://github.com/sindresorhus/is-ip) - 检查字符串是否为IP地址。 ![](https://img.shields.io/github/stars/sindresorhus/is-ip.svg?style=social&label=Star)
-- [isstream](https://github.com/rvagg/isstream) - 判断对象是否为流对象。 ![](https://img.shields.io/github/stars/rvagg/isstream.svg?style=social&label=Star)
-- [is-class](https://github.com/miguelmota/is-class) - 判断函数是否为 ES6类(class) 类型。 ![](https://img.shields.io/github/stars/miguelmota/is-class.svg?style=social&label=Star)
-- [isexe](https://github.com/isaacs/isexe) - 检查文件是否可执行文件。 ![](https://img.shields.io/github/stars/isaacs/isexe.svg?style=social&label=Star)
-- [is-type](https://github.com/juliangruber/is-type) - Node.js核心类型判断。 ![](https://img.shields.io/github/stars/juliangruber/is-type.svg?style=social&label=Star)
-- [is-md5](https://github.com/imanhodjaev/is-md5) - JavaScript实用程序，用于检查字符串是否为md5加密。 ![](https://img.shields.io/github/stars/imanhodjaev/is-md5.svg?style=social&label=Star)
-- [is-core-module](https://github.com/inspect-js/is-core-module) - 判断一个说明符 是否为 Node.js 核心模块。 ![](https://img.shields.io/github/stars/inspect-js/is-core-module.svg?style=social&label=Star)
+- [is.js](https://github.com/arasatasaygin/is.js) - Micro check library. ![](https://img.shields.io/github/stars/arasatasaygin/is.js.svg?style=social&label=Star)
+- [is-promise](https://github.com/then/is-promise) - Test whether an object looks like a promises-a+ promise. ![](https://img.shields.io/github/stars/then/is-promise.svg?style=social&label=Star)
+- [is-ci](https://github.com/watson/is-ci) - Detect if the current environment is a CI server. ![](https://img.shields.io/github/stars/watson/is-ci.svg?style=social&label=Star)
+- [is](https://github.com/enricomarino/is) - The definitive JavaScript type testing library. ![](https://img.shields.io/github/stars/enricomarino/is.svg?style=social&label=Star)
+- [is-type-of](https://github.com/node-modules/is-type-of) - Complete type checking for node. ![](https://img.shields.io/github/stars/node-modules/is-type-of.svg?style=social&label=Star)
+- [is-stream](https://github.com/sindresorhus/is-stream) - Check if something is a Node.js stream. ![](https://img.shields.io/github/stars/sindresorhus/is-stream.svg?style=social&label=Star)
+- [is-utf8](https://github.com/wayfind/is-utf8) - Detect if a buffer is utf8 encoded. ![](https://img.shields.io/github/stars/wayfind/is-utf8.svg?style=social&label=Star)
+- [core-util-is](https://github.com/isaacs/core-util-is) - The util.is* functions from Node core. ![](https://img.shields.io/github/stars/isaacs/core-util-is.svg?style=social&label=Star)
+- [is-ip](https://github.com/sindresorhus/is-ip) - Check if a string is an IP address. ![](https://img.shields.io/github/stars/sindresorhus/is-ip.svg?style=social&label=Star)
+- [isstream](https://github.com/rvagg/isstream) - Determine if an object is a Node.js Stream. ![](https://img.shields.io/github/stars/rvagg/isstream.svg?style=social&label=Star)
+- [is-class](https://github.com/miguelmota/is-class) - Check if function is an ES6 class. ![](https://img.shields.io/github/stars/miguelmota/is-class.svg?style=social&label=Star)
+- [isexe](https://github.com/isaacs/isexe) - Minimal module to check if a file is executable. ![](https://img.shields.io/github/stars/isaacs/isexe.svg?style=social&label=Star)
+- [is-type](https://github.com/juliangruber/is-type) - Type checking from node core. ![](https://img.shields.io/github/stars/juliangruber/is-type.svg?style=social&label=Star)
+- [is-md5](https://github.com/imanhodjaev/is-md5) - JavaScript utility to check if string is md5 encrypted. ![](https://img.shields.io/github/stars/imanhodjaev/is-md5.svg?style=social&label=Star)
+- [is-core-module](https://github.com/inspect-js/is-core-module) - Is this specifier a node.js core module? ![](https://img.shields.io/github/stars/inspect-js/is-core-module.svg?style=social&label=Star)
 
-### 数据校验
+### Data Validation
 
-- [validator.js](https://github.com/validatorjs/validator.js) - 字符串校验库。 ![](https://img.shields.io/github/stars/validatorjs/validator.js.svg?style=social&label=Star)
-- [joi](https://github.com/hapijs/joi) - 基于JavaScript对象的对象模式描述语言和验证器。 ![](https://img.shields.io/github/stars/hapijs/joi.svg?style=social&label=Star)
-- [async-validator](https://github.com/yiminghe/async-validator) - 异步校验。 ![](https://img.shields.io/github/stars/yiminghe/async-validator.svg?style=social&label=Star)
-- [class-validator](https://github.com/typestack/class-validator) - 基于装饰器属性校验的类校验器。 ![](https://img.shields.io/github/stars/typestack/class-validator.svg?style=social&label=Star)
-- [ajv](https://github.com/epoberezkin/ajv) - 最快的JSON Schema验证器。支持JSON Schema draft-04/06/07/2019-09/2020-12 and JSON类型定义(RFC8927)。 ![](https://img.shields.io/github/stars/epoberezkin/ajv.svg?style=social&label=Star)
-- [Superstruct](https://github.com/ianstormtaylor/superstruct) - 用简单和可组合的方式在JavaScript和TypeScript中校验数据。 ![](https://img.shields.io/github/stars/ianstormtaylor/superstruct.svg?style=social&label=Star)
-- [v8n](https://github.com/imbrn/v8n) - 流畅的JavaScript校验库。 ![](https://img.shields.io/github/stars/imbrn/v8n.svg?style=social&label=Star)
-- [forgJs](https://github.com/oussamahamdaoui/forgJs) - 轻量的JavaScript对象校验器。 ![](https://img.shields.io/github/stars/oussamahamdaoui/forgJs.svg?style=social&label=Star)
-- [jsonschema](https://github.com/tdegrunt/jsonschema) - JSON Schema校验器. ![](https://img.shields.io/github/stars/tdegrunt/jsonschema.svg?style=social&label=Star)
-- [validatorjs](https://github.com/mikeerickson/validatorjs) - 受Laravel的校验器启发，在浏览器和Node.JS上的数据校验库。 ![](https://img.shields.io/github/stars/mikeerickson/validatorjs.svg?style=social&label=Star)
-- [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) - 极快的JSON Schema校验工具。 ![](https://img.shields.io/github/stars/mafintosh/is-my-json-valid.svg?style=social&label=Star)
-- [property-validator](https://github.com/nettofarah/property-validator) - 用于JavaScript、Node和Express的易用的属性校验工具。 ![](https://img.shields.io/github/stars/nettofarah/property-validator.svg?style=social&label=Star)
-- [schema-inspector](https://github.com/Atinux/schema-inspector) - 用于净化和验证JS对象的强大工具。 ![](https://img.shields.io/github/stars/Atinux/schema-inspector.svg?style=social&label=Star)
+- [validator.js](https://github.com/validatorjs/validator.js) - A library of string validators and sanitizers. ![](https://img.shields.io/github/stars/validatorjs/validator.js.svg?style=social&label=Star)
+- [joi](https://github.com/hapijs/joi) - Object schema description language and validator for JavaScript objects. ![](https://img.shields.io/github/stars/hapijs/joi.svg?style=social&label=Star)
+- [async-validator](https://github.com/yiminghe/async-validator) - Validate form asynchronous. ![](https://img.shields.io/github/stars/yiminghe/async-validator.svg?style=social&label=Star)
+- [class-validator](https://github.com/typestack/class-validator) - Decorator-based property validation for classes. ![](https://img.shields.io/github/stars/typestack/class-validator.svg?style=social&label=Star)
+- [ajv](https://github.com/epoberezkin/ajv) - The fastest JSON schema Validator. Supports JSON Schema draft-04/06/07/2019-09/2020-12 and JSON Type Definition (RFC8927). ![](https://img.shields.io/github/stars/epoberezkin/ajv.svg?style=social&label=Star)
+- [Superstruct](https://github.com/ianstormtaylor/superstruct) - Simple and composable way to validate data in JavaScript (and TypeScript). ![](https://img.shields.io/github/stars/ianstormtaylor/superstruct.svg?style=social&label=Star)
+- [v8n](https://github.com/imbrn/v8n) - JavaScript fluent validation library ![](https://img.shields.io/github/stars/imbrn/v8n.svg?style=social&label=Star)
+- [forgJs](https://github.com/oussamahamdaoui/forgJs) - Javascript lightweight object validator. ![](https://img.shields.io/github/stars/oussamahamdaoui/forgJs.svg?style=social&label=Star)
+- [jsonschema](https://github.com/tdegrunt/jsonschema) - JSON Schema validation. ![](https://img.shields.io/github/stars/tdegrunt/jsonschema.svg?style=social&label=Star)
+- [validatorjs](https://github.com/mikeerickson/validatorjs) - Data validation library in JavaScript for the browser and Node.js, inspired by Laravel's Validator. ![](https://img.shields.io/github/stars/mikeerickson/validatorjs.svg?style=social&label=Star)
+- [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) - JSON Schema validator that uses code generation to be extremely fast. ![](https://img.shields.io/github/stars/mafintosh/is-my-json-valid.svg?style=social&label=Star)
+- [property-validator](https://github.com/nettofarah/property-validator) - Easy property validation for JavaScript, Node and Express. ![](https://img.shields.io/github/stars/nettofarah/property-validator.svg?style=social&label=Star)
+- [schema-inspector](https://github.com/Atinux/schema-inspector) - JSON API sanitization and validation. ![](https://img.shields.io/github/stars/Atinux/schema-inspector.svg?style=social&label=Star)
 
-### 函数式编程
+### Functional programming
 
-- [lodash](https://github.com/lodash/lodash) - 可提供一致性、自定义、性能和其他功能的实用程序库，比Underscore.js更好更快。 ![](https://img.shields.io/github/stars/lodash/lodash.svg?style=social&label=Star)
-- [immutable](https://github.com/facebook/immutable-js) - 不可变的数据集合。 ![](https://img.shields.io/github/stars/facebook/immutable-js.svg?style=social&label=Star)
-- [RxJS](https://github.com/reactivex/rxjs) - 用于转换、组合和查询各种数据的函数式响应式库。 ![](https://img.shields.io/github/stars/reactivex/rxjs.svg?style=social&label=Star)
-- [Ramda](https://github.com/ramda/ramda) - 实用程序库着重于通过自动计算和相反的参数顺序实现的灵活功能组合，避免数据变化。 ![](https://img.shields.io/github/stars/ramda/ramda.svg?style=social&label=Star)
-- [immer](https://github.com/immerjs/immer) - 函数式响应式编程。 ![](https://img.shields.io/github/stars/immerjs/immer.svg?style=social&label=Star)
-- [Bacon.js](https://github.com/baconjs/bacon.js) - 函数式响应式编程。 ![](https://img.shields.io/github/stars/baconjs/bacon.js.svg?style=social&label=Star)
-- [Lazy.js](https://github.com/dtao/lazy.js) - 类似于lodash/underline的工具库，但具有惰性计算，在许多情况下可以转换为卓越的性能. ![](https://img.shields.io/github/stars/dtao/lazy.js.svg?style=social&label=Star)
-- [Folktale](https://github.com/origamitower/folktale) - 一套用于JavaScript中的通用函数编程的库，它允许您编写优雅的、模块化的应用程序，并且bug更少及更强的重用性。 ![](https://img.shields.io/github/stars/origamitower/folktale.svg?style=social&label=Star)
-- [Kefir.js](https://github.com/kefirjs/kefir) - 响应式库，专注于高性能和低内存使用。 ![](https://img.shields.io/github/stars/kefirjs/kefir.svg?style=social&label=Star)
-- [Mout](https://github.com/mout/mout) - 该库与其他现有解决方案之间最大的区别是，您可以选择只加载需要的模块/函数，而不需要额外开销。. ![](https://img.shields.io/github/stars/mout/mout.svg?style=social&label=Star)
+- [lodash](https://github.com/lodash/lodash) - Utility library delivering consistency, customization, performance, & extras. A better and faster Underscore.js. ![](https://img.shields.io/github/stars/lodash/lodash.svg?style=social&label=Star)
+- [immutable](https://github.com/facebook/immutable-js) - Immutable data collections. ![](https://img.shields.io/github/stars/facebook/immutable-js.svg?style=social&label=Star)
+- [RxJS](https://github.com/reactivex/rxjs) - Functional reactive library for transforming, composing, and querying various kinds of data. ![](https://img.shields.io/github/stars/reactivex/rxjs.svg?style=social&label=Star)
+- [Ramda](https://github.com/ramda/ramda) - Utility library with a focus on flexible functional composition enabled by automatic currying and reversed argument order. Avoids mutating data. ![](https://img.shields.io/github/stars/ramda/ramda.svg?style=social&label=Star)
+- [Bacon.js](https://github.com/baconjs/bacon.js) - Functional reactive programming. ![](https://img.shields.io/github/stars/baconjs/bacon.js.svg?style=social&label=Star)
+- [Lazy.js](https://github.com/dtao/lazy.js) - Utility library similar to lodash/Underscore but with lazy evaluation, which can translate to superior performance in many cases. ![](https://img.shields.io/github/stars/dtao/lazy.js.svg?style=social&label=Star)
+- [Folktale](https://github.com/origamitower/folktale) - Suite of libraries for generic functional programming in JavaScript that allows you to write elegant, modular applications with fewer bugs, and more reuse. ![](https://img.shields.io/github/stars/origamitower/folktale.svg?style=social&label=Star)
+- [Kefir.js](https://github.com/kefirjs/kefir) - Reactive library with focus on high performance and low memory usage. ![](https://img.shields.io/github/stars/kefirjs/kefir.svg?style=social&label=Star)
+- [Mout](https://github.com/mout/mout) - Utility library with the biggest difference between other existing solutions is that you can choose to load only the modules/functions that you need, no extra overhead. ![](https://img.shields.io/github/stars/mout/mout.svg?style=social&label=Star)
 
-### 流程控制
+### Control flow
 
 - Promises
-  - [Bluebird](https://github.com/petkaantonov/bluebird) - Bluebird 是一个功能齐全的Promise库，专注于创新功能和性能。 ![](https://img.shields.io/github/stars/petkaantonov/bluebird.svg?style=social&label=Star)
-  - [co](https://github.com/tj/co) - 拥有流程控制优势的Nodejs终极生成器（支持 thunks、promises 等）。 ![](https://img.shields.io/github/stars/tj/co.svg?style=social&label=Star)
-  - [pify](https://github.com/sindresorhus/pify) - 将回调式的函数 Promisify 化。 ![](https://img.shields.io/github/stars/sindresorhus/pify.svg?style=social&label=Star)
-  - [p-map](https://github.com/sindresorhus/p-map) - 并发的Map执行 Promise 。 ![](https://img.shields.io/github/stars/sindresorhus/p-map.svg?style=social&label=Star)
-  - [delay](https://github.com/sindresorhus/delay) - 将 Promise 延迟指定的时间。 ![](https://img.shields.io/github/stars/sindresorhus/delay.svg?style=social&label=Star)
-  - [promise-memoize](https://github.com/nodeca/promise-memoize) - 记忆化Promise返回函数，带过期和prefetch预取功能。 ![](https://img.shields.io/github/stars/nodeca/promise-memoize.svg?style=social&label=Star)
-  - [valvelet](https://github.com/lpinca/valvelet) - 限制Promise返回函数的执行率(限流)。 ![](https://img.shields.io/github/stars/lpinca/valvelet.svg?style=social&label=Star)
+  - [Bluebird](https://github.com/petkaantonov/bluebird) - Bluebird is a fully featured promise library with focus on innovative features and performance. ![](https://img.shields.io/github/stars/petkaantonov/bluebird.svg?style=social&label=Star)
+  - [co](https://github.com/tj/co) - The ultimate generator based flow-control goodness for nodejs (supports thunks, promises, etc). ![](https://img.shields.io/github/stars/tj/co.svg?style=social&label=Star)
+  - [pify](https://github.com/sindresorhus/pify) - Promisify a callback-style function. ![](https://img.shields.io/github/stars/sindresorhus/pify.svg?style=social&label=Star)
+  - [p-map](https://github.com/sindresorhus/p-map) - Map over promises concurrently. ![](https://img.shields.io/github/stars/sindresorhus/p-map.svg?style=social&label=Star)
+  - [delay](https://github.com/sindresorhus/delay) - Delay a promise a specified amount of time. ![](https://img.shields.io/github/stars/sindresorhus/delay.svg?style=social&label=Star)
+  - [promise-memoize](https://github.com/nodeca/promise-memoize) - Memoize promise-returning functions, with expire and prefetch. ![](https://img.shields.io/github/stars/nodeca/promise-memoize.svg?style=social&label=Star)
+  - [valvelet](https://github.com/lpinca/valvelet) - Limit the execution rate of a promise-returning function. ![](https://img.shields.io/github/stars/lpinca/valvelet.svg?style=social&label=Star)
 
-- 可观察对象
-  - [RxJS](https://github.com/ReactiveX/RxJS) - 响应式编程。 ![](https://img.shields.io/github/stars/ReactiveX/RxJS.svg?style=social&label=Star)
-  - [zen-observable](https://github.com/zenparsing/zen-observable) - 可观察对象的实现。 ![](https://img.shields.io/github/stars/zenparsing/zen-observable.svg?style=social&label=Star)
-  - [observable-to-promise](https://github.com/sindresorhus/observable-to-promise) - 将可观察对象转化为 Promise. ![](https://img.shields.io/github/stars/sindresorhus/observable-to-promise.svg?style=social&label=Star)
+- Observables
+  - [RxJS](https://github.com/ReactiveX/RxJS) - Reactive programming. ![](https://img.shields.io/github/stars/ReactiveX/RxJS.svg?style=social&label=Star)
+  - [zen-observable](https://github.com/zenparsing/zen-observable) - Implementation of Observables. ![](https://img.shields.io/github/stars/zenparsing/zen-observable.svg?style=social&label=Star)
+  - [observable-to-promise](https://github.com/sindresorhus/awesome-observables) - Convert an Observable to a Promise. ![](https://img.shields.io/github/stars/sindresorhus/awesome-observables.svg?style=social&label=Star)
 
-- 回调函数
-  - [async](https://github.com/caolan/async) - 提供直接、强大的函数们来处理异步问题。 ![](https://img.shields.io/github/stars/caolan/async.svg?style=social&label=Star)
+- Callbacks
+  - [async](https://github.com/caolan/async) - Provides straight-forward, powerful functions for working with asynchronicity. ![](https://img.shields.io/github/stars/caolan/async.svg?style=social&label=Star)
 
-- 管道
-  - [js-csp](https://github.com/ubolonton/js-csp) - 用于JavaScript的顺序通信进程CSP（如 ClojureScript core.async 或 Go）。 ![](https://img.shields.io/github/stars/ubolonton/js-csp.svg?style=social&label=Star)
+- Channels
+  - [js-csp](https://github.com/ubolonton/js-csp) - Communicating sequential processes for JavaScript (like Clojurescript core.async, or Go). ![](https://img.shields.io/github/stars/ubolonton/js-csp.svg?style=social&label=Star)
 
-### 控制反转/依赖注入
+### Inversion of control / Dependency Injection (Ioc/DI)
 
-- [InversifyJS](https://github.com/inversify/InversifyJS) - 功能强大且轻便的控制反转容器。 ![](https://img.shields.io/github/stars/inversify/InversifyJS.svg?style=social&label=Star)
-- [injection-js](https://github.com/mgechev/injection-js) - 5.1K中的JavaScript和TypeScript的依赖注入库。它提取自Angular的ReflectiveInjector，这意味着它设计合理，功能完整、快速、可靠且经过良好测试。 ![](https://img.shields.io/github/stars/mgechev/injection-js.svg?style=social&label=Star)
-- [power-di](https://github.com/zhang740/power-di) - 轻量的依赖注入库。 ![](https://img.shields.io/github/stars/zhang740/power-di.svg?style=social&label=Star)
+- [InversifyJS](https://github.com/inversify/InversifyJS) - A powerful and lightweight inversion of control container for JavaScript & Node.js apps powered by TypeScript. ![](https://img.shields.io/github/stars/inversify/InversifyJS.svg?style=social&label=Star)
+- [injection-js](https://github.com/mgechev/injection-js) - Dependency injection library for JavaScript and TypeScript in 5.1K. It is an extraction of the Angular's ReflectiveInjector which means that it's well designed, feature complete, fast, reliable and well tested. ![](https://img.shields.io/github/stars/mgechev/injection-js.svg?style=social&label=Star)
+- [power-di](https://github.com/zhang740/power-di) - A lightweight Dependency Injection library. ![](https://img.shields.io/github/stars/zhang740/power-di.svg?style=social&label=Star)
 
 ### Shell
 
-- [zx](https://github.com/google/zx) - 用于编写更好脚本的工具。 ![](https://img.shields.io/github/stars/google/zx.svg?style=social&label=Star)
-- [shelljs](https://github.com/shelljs/shelljs) - 跨平台Unix shell命令。 ![](https://img.shields.io/github/stars/shelljs/shelljs.svg?style=social&label=Star)
-- [execa](https://github.com/sindresorhus/execa) - 跨平台实现子进程执行 `child_process.{execFile,exec}`。 ![](https://img.shields.io/github/stars/sindresorhus/execa.svg?style=social&label=Star)
-- [node-windows](https://github.com/coreybutler/node-windows) - Node.js上支持的Windows脚本。如(daemons, eventlog, UAC等)。 ![](https://img.shields.io/github/stars/coreybutler/node-windows.svg?style=social&label=Star)
-- [shx](https://github.com/shelljs/shx) - Node的可移植Shell命令。 ![](https://img.shields.io/github/stars/shelljs/shx.svg?style=social&label=Star)
-- [clipboardy](https://github.com/sindresorhus/clipboardy) - 跨平台的复制/粘贴。 ![](https://img.shields.io/github/stars/sindresorhus/clipboardy.svg?style=social&label=Star)
-- [cross-spawn](https://github.com/IndigoUnited/node-cross-spawn) - 跨平台实现 `child_process.spawn()`。 ![](https://img.shields.io/github/stars/IndigoUnited/node-cross-spawn.svg?style=social&label=Star)
-- [parallelshell](https://github.com/darkguy2008/parallelshell) - 并行运行多个 shell 命令。 ![](https://img.shields.io/github/stars/darkguy2008/parallelshell.svg?style=social&label=Star)
-- [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - 跨平台的复制/粘贴。 ![](https://img.shields.io/github/stars/sindresorhus/clipboard-cli.svg?style=social&label=Star)
-- [gulp-execa](https://github.com/ehmicky/gulp-execa) - 在Gulp中跨平台命令执行。 ![](https://img.shields.io/github/stars/ehmicky/gulp-execa.svg?style=social&label=Star)
-- [runscript](https://github.com/node-modules/runscript) - 更容易的运行脚本命令。 ![](https://img.shields.io/github/stars/node-modules/runscript.svg?style=social&label=Star)
-- [cross-spawn-promise](https://github.com/zentrick/cross-spawn-promise) - Promise化的cross-spawn。 ![](https://img.shields.io/github/stars/zentrick/cross-spawn-promise.svg?style=social&label=Star)
-- [shell-exec](https://github.com/tiaanduplessis/shell-exec) - 通过系统Shell执行命令。 ![](https://img.shields.io/github/stars/tiaanduplessis/shell-exec.svg?style=social&label=Star)
+- [zx](https://github.com/google/zx) - A tool for writing better scripts. ![](https://img.shields.io/github/stars/google/zx.svg?style=social&label=Star)
+- [shelljs](https://github.com/shelljs/shelljs) - Cross-platform Unix shell commands. ![](https://img.shields.io/github/stars/shelljs/shelljs.svg?style=social&label=Star)
+- [execa](https://github.com/sindresorhus/execa) - Cross-platform implementation of `child_process.{execFile,exec}`. ![](https://img.shields.io/github/stars/sindresorhus/execa.svg?style=social&label=Star)
+- [node-windows](https://github.com/coreybutler/node-windows) - Windows support for Node.js scripts (daemons, eventlog, UAC, etc). ![](https://img.shields.io/github/stars/coreybutler/node-windows.svg?style=social&label=Star)
+- [shx](https://github.com/shelljs/shx) - Portable Shell Commands for Node. ![](https://img.shields.io/github/stars/shelljs/shx.svg?style=social&label=Star)
+- [clipboardy](https://github.com/sindresorhus/clipboardy) - Cross-platform copy/paste. ![](https://img.shields.io/github/stars/sindresorhus/clipboardy.svg?style=social&label=Star)
+- [cross-spawn](https://github.com/IndigoUnited/node-cross-spawn) - Cross-platform implementation of `child_process.spawn()`. ![](https://img.shields.io/github/stars/IndigoUnited/node-cross-spawn.svg?style=social&label=Star)
+- [parallelshell](https://github.com/darkguy2008/parallelshell) - Run multiple shell commands in parallel. ![](https://img.shields.io/github/stars/darkguy2008/parallelshell.svg?style=social&label=Star)
+- [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - Cross-platform copy/paste. ![](https://img.shields.io/github/stars/sindresorhus/clipboard-cli.svg?style=social&label=Star)
+- [gulp-execa](https://github.com/ehmicky/gulp-execa) - Cross-platform command execution in Gulp.js. ![](https://img.shields.io/github/stars/ehmicky/gulp-execa.svg?style=social&label=Star)
+- [runscript](https://github.com/node-modules/runscript) - Run script easy! ![](https://img.shields.io/github/stars/node-modules/runscript.svg?style=social&label=Star)
+- [cross-spawn-promise](https://github.com/zentrick/cross-spawn-promise) - Promisified cross-spawn. ![](https://img.shields.io/github/stars/zentrick/cross-spawn-promise.svg?style=social&label=Star)
+- [shell-exec](https://github.com/tiaanduplessis/shell-exec) - Execute a command through the system shell. ![](https://img.shields.io/github/stars/tiaanduplessis/shell-exec.svg?style=social&label=Star)
 
-### 环境
+### Environment
 
-- [dotenv](https://github.com/motdotla/dotenv) - 从 .env文件 加载用于nodejs项目的环境变量。 ![](https://img.shields.io/github/stars/motdotla/dotenv.svg?style=social&label=Star)
-- [cross-env](https://github.com/kentcdodds/cross-env) - 跨平台设置环境变量。 ![](https://img.shields.io/github/stars/kentcdodds/cross-env.svg?style=social&label=Star)
-- [envinfo](https://github.com/tabrindle/envinfo) - 生成关于您的开发环境的报告，用于调试和问题报告。 ![](https://img.shields.io/github/stars/tabrindle/envinfo.svg?style=social&label=Star)
-- [which](https://github.com/npm/node-which) - 跨平台实现的Unix `which`. ![](https://img.shields.io/github/stars/npm/node-which.svg?style=social&label=Star)
-- [user-home](https://github.com/sindresorhus/user-home) - 跨平台获取用户home目录路径。 ![](https://img.shields.io/github/stars/sindresorhus/user-home.svg?style=social&label=Star)
-- [username](https://github.com/sindresorhus/username) - 获取当前用户名。 ![](https://img.shields.io/github/stars/sindresorhus/username.svg?style=social&label=Star)
-- [osenv](https://github.com/npm/osenv) - 跨平台环境变量。 ![](https://img.shields.io/github/stars/npm/osenv.svg?style=social&label=Star)
-- [is-elevated](https://github.com/sindresorhus/is-elevated) - 检查进程是否以提升的权限运行。 ![](https://img.shields.io/github/stars/sindresorhus/is-elevated.svg?style=social&label=Star)
+- [dotenv](https://github.com/motdotla/dotenv) - Loads environment variables from .env for nodejs projects. ![](https://img.shields.io/github/stars/motdotla/dotenv.svg?style=social&label=Star)
+- [cross-env](https://github.com/kentcdodds/cross-env) - Set environment variables cross-platform. ![](https://img.shields.io/github/stars/kentcdodds/cross-env.svg?style=social&label=Star)
+- [envinfo](https://github.com/tabrindle/envinfo) - Generate a report about your development environment for debugging and issue reporting. ![](https://img.shields.io/github/stars/tabrindle/envinfo.svg?style=social&label=Star)
+- [which](https://github.com/npm/node-which) - Cross-platform implementation of Unix's `which`. ![](https://img.shields.io/github/stars/npm/node-which.svg?style=social&label=Star)
+- [user-home](https://github.com/sindresorhus/user-home) - Get the path to the user home directory. Cross-platform. ![](https://img.shields.io/github/stars/sindresorhus/user-home.svg?style=social&label=Star)
+- [username](https://github.com/sindresorhus/username) - Get the current username. ![](https://img.shields.io/github/stars/sindresorhus/username.svg?style=social&label=Star)
+- [osenv](https://github.com/npm/osenv) - Cross-platform environment variables. ![](https://img.shields.io/github/stars/npm/osenv.svg?style=social&label=Star)
+- [is-elevated](https://github.com/sindresorhus/is-elevated) - Check if the process is running with elevated privileges. ![](https://img.shields.io/github/stars/sindresorhus/is-elevated.svg?style=social&label=Star)
 
-### 事件
-- [ee-first](https://github.com/jonathanong/ee-first) - 获取一组EventEmitter和Event对中的第一个事件，然后对其进行清理。 ![](https://img.shields.io/github/stars/jonathanong/ee-first.svg?style=social&label=Star)
+### Event
+- [ee-first](https://github.com/jonathanong/ee-first) - Get the first event in a set of event emitters and event pairs, then clean up after itself. ![](https://img.shields.io/github/stars/jonathanong/ee-first.svg?style=social&label=Star)
 
-### 命令行工具
+### Command-line Utilities
 
-- 框架/解决方案
-  - [Commander.js](https://github.com/tj/commander.js) - Node.JS命令行界面完整解决方案。 ![](https://img.shields.io/github/stars/tj/commander.js.svg?style=social&label=Star)
-  - [yargs](https://github.com/yargs/yargs) - 通用可交互命令行工具集合。 ![](https://img.shields.io/github/stars/yargs/yargs.svg?style=social&label=Star)
-  - [oclif](https://github.com/oclif/oclif) - 基于Heroku开源Node.js CLI框架。 ![](https://img.shields.io/github/stars/oclif/oclif.svg?style=social&label=Star)
-  - [meow](https://github.com/sindresorhus/meow) - CLI应用助手。 ![](https://img.shields.io/github/stars/sindresorhus/meow.svg?style=social&label=Star)
-  - [cac](https://github.com/cacjs/cac) - 用于构建命令行应用的强大框架。 ![](https://img.shields.io/github/stars/cacjs/cac.svg?style=social&label=Star)
-  - [Cliffy](https://github.com/drew-y/cliffy) - 可交互命令行框架。 ![](https://img.shields.io/github/stars/drew-y/cliffy.svg?style=social&label=Star)
-  - [common-bin](https://github.com/node-modules/common-bin) - 基于yargs的命令行工具抽象，提供更方便的使用，支持async/generator。 ![](https://img.shields.io/github/stars/node-modules/common-bin.svg?style=social&label=Star)
+- Framework/Solution
+  - [Commander.js](https://github.com/tj/commander.js) - The complete solution for node.js command-line interfaces. ![](https://img.shields.io/github/stars/tj/commander.js.svg?style=social&label=Star)
+  - [yargs](https://github.com/yargs/yargs) - Collection of common interactive command line user interfaces. ![](https://img.shields.io/github/stars/yargs/yargs.svg?style=social&label=Star)
+  - [oclif](https://github.com/oclif/oclif) - Node.js Open CLI Framework. Built with 💜 by Heroku. ![](https://img.shields.io/github/stars/oclif/oclif.svg?style=social&label=Star)
+  - [meow](https://github.com/sindresorhus/meow) - CLI app helper. ![](https://img.shields.io/github/stars/sindresorhus/meow.svg?style=social&label=Star)
+  - [cac](https://github.com/cacjs/cac) - Simple yet powerful framework for building command-line apps. ![](https://img.shields.io/github/stars/cacjs/cac.svg?style=social&label=Star)
+  - [Cliffy](https://github.com/drew-y/cliffy) - Framework for interactive CLIs. ![](https://img.shields.io/github/stars/drew-y/cliffy.svg?style=social&label=Star)
+  - [common-bin](https://github.com/node-modules/common-bin) - Abstraction bin tool wrap yargs, to provide more convenient usage, support async / generator. ![](https://img.shields.io/github/stars/node-modules/common-bin.svg?style=social&label=Star)
 
-- 命令行参数解析
-  - [minimist](https://github.com/substack/minimist) - 命令行参数解析引擎。 ![](https://img.shields.io/github/stars/substack/minimist.svg?style=social&label=Star)
-  - [arg](https://github.com/vercel/arg) - 简单的参数解析。 ![](https://img.shields.io/github/stars/vercel/arg.svg?style=social&label=Star)
-  - [nopt](https://github.com/npm/nopt) - Node/npm参数解析。 ![](https://img.shields.io/github/stars/npm/nopt.svg?style=social&label=Star)
-  - [argparse](https://github.com/nodeca/argparse) - Node.js CLI参数解析。 ![](https://img.shields.io/github/stars/nodeca/argparse.svg?style=social&label=Star)
-  - [yargs-parser](https://github.com/yargs/yargs-parser) - yargs在使用，优雅参数解析库. ![](https://img.shields.io/github/stars/yargs/yargs-parser.svg?style=social&label=Star)
+- Option/Argument parser
+  - [minimist](https://github.com/substack/minimist) - Guts of optimist's argument parser without all the fanciful decoration. ![](https://img.shields.io/github/stars/substack/minimist.svg?style=social&label=Star)
+  - [arg](https://github.com/vercel/arg) - Simple argument parsing. ![](https://img.shields.io/github/stars/vercel/arg.svg?style=social&label=Star)
+  - [nopt](https://github.com/npm/nopt) - Node/npm Option Parsing. ![](https://img.shields.io/github/stars/npm/nopt.svg?style=social&label=Star)
+  - [argparse](https://github.com/nodeca/argparse) - CLI arguments parser for node.js. ![](https://img.shields.io/github/stars/nodeca/argparse.svg?style=social&label=Star)
+  - [yargs-parser](https://github.com/yargs/yargs-parser) - 💪 the mighty option parser used by yargs. ![](https://img.shields.io/github/stars/yargs/yargs-parser.svg?style=social&label=Star)
 
-- Prompt提示
-  - [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - 通用可交互命令行工具集合。 ![](https://img.shields.io/github/stars/SBoudrias/Inquirer.js.svg?style=social&label=Star)
-  - [prompts](https://github.com/terkelg/prompts) - 轻量、美观、用户友好的交互式命令行提示。 ![](https://img.shields.io/github/stars/terkelg/prompts.svg?style=social&label=Star)
-  - [Enquirer](https://github.com/enquirer/enquirer) - 用户友好、直观且易于创建的时尚CLI提示。 ![](https://img.shields.io/github/stars/enquirer/enquirer.svg?style=social&label=Star)
-  - [node-promptly](https://github.com/moxystudio/node-promptly) - 简单命令行提示实用程序。 ![](https://img.shields.io/github/stars/moxystudio/node-promptly.svg?style=social&label=Star)
+- Prompt
+  - [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - Collection of common interactive command line user interfaces. ![](https://img.shields.io/github/stars/SBoudrias/Inquirer.js.svg?style=social&label=Star)
+  - [prompts](https://github.com/terkelg/prompts) - Lightweight, beautiful and user-friendly interactive prompts. ![](https://img.shields.io/github/stars/terkelg/prompts.svg?style=social&label=Star)
+  - [Enquirer](https://github.com/enquirer/enquirer) - Stylish CLI prompts that are user-friendly, intuitive and easy to create. ![](https://img.shields.io/github/stars/enquirer/enquirer.svg?style=social&label=Star)
+  - [node-promptly](https://github.com/moxystudio/node-promptly) - Simple command line prompting utility for nodejs. ![](https://img.shields.io/github/stars/moxystudio/node-promptly.svg?style=social&label=Star)
 
-- 进度条
-  - [progress](https://github.com/visionmedia/node-progress) - Node.js的灵活ascii进度条。 ![](https://img.shields.io/github/stars/visionmedia/node-progress.svg?style=social&label=Star)
-  - [progress-estimator](https://github.com/bvaughn/progress-estimator) - 打印进度条并估计完成Promise所需的时间。 ![](https://img.shields.io/github/stars/bvaughn/progress-estimator.svg?style=social&label=Star)
-  - [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - 在命令行/终端应用中轻松的使用进度条。 ![](https://img.shields.io/github/stars/AndiDittrich/Node.CLI-Progress.svg?style=social&label=Star)
+- Progress
+  - [progress](https://github.com/visionmedia/node-progress) - Flexible ascii progress bar for nodejs. ![](https://img.shields.io/github/stars/visionmedia/node-progress.svg?style=social&label=Star)
+  - [progress-estimator](https://github.com/bvaughn/progress-estimator) - Logs a progress bar and estimation for how long a Promise will take to complete. ![](https://img.shields.io/github/stars/bvaughn/progress-estimator.svg?style=social&label=Star)
+  - [cli-progress](https://github.com/AndiDittrich/Node.CLI-Progress) - Easy to use progress-bar for command-line/terminal applications. ![](https://img.shields.io/github/stars/AndiDittrich/Node.CLI-Progress.svg?style=social&label=Star)
 
-- 样式
-  - [chalk](https://github.com/chalk/chalk) - 命令行字符串样式美化工具。 ![](https://img.shields.io/github/stars/chalk/chalk.svg?style=social&label=Star)
-  - [ora](https://github.com/sindresorhus/ora) - 优雅的命令行loading效果。 ![](https://img.shields.io/github/stars/sindresorhus/ora.svg?style=social&label=Star)
-  - [colors.js](https://github.com/Marak/colors.js) - 获取Node.js控制台的颜色。 ![](https://img.shields.io/github/stars/Marak/colors.js.svg?style=social&label=Star)
-  - [listr](https://github.com/SamVerschueren/listr) - 命令行任务列表。 ![](https://img.shields.io/github/stars/SamVerschueren/listr.svg?style=social&label=Star)
-  - [figlet.js](https://github.com/patorjk/figlet.js) - 用 JavaScript 编写的 FIG，旨在完全实现 FIGfont 规范。 ![](https://img.shields.io/github/stars/patorjk/figlet.js.svg?style=social&label=Star)
-  - [kleur](https://github.com/lukeed/kleur) -  使用ANSI颜色格式化命令行文本的最快的Node.js库。 ![](https://img.shields.io/github/stars/lukeed/kleur.svg?style=social&label=Star)
-  - [colorette](https://github.com/jorgebucaran/colorette) - 在终端中轻松设置文本的颜色和样式。 ![](https://img.shields.io/github/stars/jorgebucaran/colorette.svg?style=social&label=Star)
-  - [qrcode-terminal](https://github.com/gtanner/qrcode-terminal) - 命令行中显示二维码。 ![](https://img.shields.io/github/stars/gtanner/qrcode-terminal.svg?style=social&label=Star)
-  - [boxen](https://github.com/sindresorhus/boxen) - 控制台中创建盒子。 ![](https://img.shields.io/github/stars/sindresorhus/boxen.svg?style=social&label=Star)
-  - [terminal-image](https://github.com/sindresorhus/terminal-image) - 在终端中展示图片。 ![](https://img.shields.io/github/stars/sindresorhus/terminal-image.svg?style=social&label=Star)
-  - [log-symbols](https://github.com/sindresorhus/log-symbols) - 为不同日志级别添加色彩图标。 ![](https://img.shields.io/github/stars/sindresorhus/log-symbols.svg?style=social&label=Star)
-  - [gradient-string](https://github.com/bokub/gradient-string) - 终端输出中漂亮的颜色渐变。 ![](https://img.shields.io/github/stars/bokub/gradient-string.svg?style=social&label=Star)
-  - [figures](https://github.com/sindresorhus/figures) - Windows兜底的Unicode符号。 ![](https://img.shields.io/github/stars/sindresorhus/figures.svg?style=social&label=Star)
-  - [terminal-link](https://github.com/sindresorhus/terminal-link) - 在终端中创建可点击的链接。 ![](https://img.shields.io/github/stars/sindresorhus/terminal-link.svg?style=social&label=Star)
-  - [snazzy](https://github.com/standard/snazzy) - 将 JavaScript 标准样式格式化为时尚（即时髦）输出。 ![](https://img.shields.io/github/stars/standard/snazzy.svg?style=social&label=Star)
-  - [columnify](https://github.com/timoxley/columnify) - 创建适合控制台输出的基于文本的列。 支持单元格。 ![](https://img.shields.io/github/stars/timoxley/columnify.svg?style=social&label=Star)
-  - [cli-table3](https://github.com/cli-table/cli-table3) - 命令行的漂亮unicode表。 ![](https://img.shields.io/github/stars/cli-table/cli-table3.svg?style=social&label=Star)
-  - [easy-table](https://github.com/eldargab/easy-table) - 漂亮的文本表格。 ![](https://img.shields.io/github/stars/eldargab/easy-table.svg?style=social&label=Star)
-  - [cli-highlight](https://github.com/felixfbecker/cli-highlight) - 终端的语法高亮显示💻✨ ![](https://img.shields.io/github/stars/felixfbecker/cli-highlight.svg?style=social&label=Star)
-  - [treeify](https://github.com/notatestuser/treeify) - 将javascript对象漂亮地打印为树。 ![](https://img.shields.io/github/stars/notatestuser/treeify.svg?style=social&label=Star)
-  - [kolorist](https://github.com/marvinhagemeister/kolorist) - 使用输入和输出色彩化的小工具。 ![](https://img.shields.io/github/stars/marvinhagemeister/kolorist.svg?style=social&label=Star)
-  - [console-png](https://github.com/aantthony/console-png) - 在命令行输出中打印PNG图片。 ![](https://img.shields.io/github/stars/aantthony/console-png.svg?style=social&label=Star)
+- Style
+  - [chalk](https://github.com/chalk/chalk) - Terminal string styling done right. ![](https://img.shields.io/github/stars/chalk/chalk.svg?style=social&label=Star)
+  - [ora](https://github.com/sindresorhus/ora) - Elegant terminal spinner. ![](https://img.shields.io/github/stars/sindresorhus/ora.svg?style=social&label=Star)
+  - [colors.js](https://github.com/Marak/colors.js) - Get colors in your node.js console. ![](https://img.shields.io/github/stars/Marak/colors.js.svg?style=social&label=Star)
+  - [listr](https://github.com/SamVerschueren/listr) - Terminal task list. ![](https://img.shields.io/github/stars/SamVerschueren/listr.svg?style=social&label=Star)
+  - [figlet.js](https://github.com/patorjk/figlet.js) - A FIG Driver written in JavaScript which aims to fully implement the FIGfont spec. ![](https://img.shields.io/github/stars/patorjk/figlet.js.svg?style=social&label=Star)
+  - [kleur](https://github.com/lukeed/kleur) - The fastest Node.js library for formatting terminal text with ANSI colors~! ![](https://img.shields.io/github/stars/lukeed/kleur.svg?style=social&label=Star)
+  - [colorette](https://github.com/jorgebucaran/colorette) - Easily set the color and style of text in the terminal. ![](https://img.shields.io/github/stars/jorgebucaran/colorette.svg?style=social&label=Star)
+  - [qrcode-terminal](https://github.com/gtanner/qrcode-terminal) - QRCodes in your terminal. ![](https://img.shields.io/github/stars/gtanner/qrcode-terminal.svg?style=social&label=Star)
+  - [boxen](https://github.com/sindresorhus/boxen) - Create boxes in the terminal. ![](https://img.shields.io/github/stars/sindresorhus/boxen.svg?style=social&label=Star)
+  - [terminal-image](https://github.com/sindresorhus/terminal-image) - Display images in the terminal. ![](https://img.shields.io/github/stars/sindresorhus/terminal-image.svg?style=social&label=Star)
+  - [log-symbols](https://github.com/sindresorhus/log-symbols) - Colored symbols for various log levels. ![](https://img.shields.io/github/stars/sindresorhus/log-symbols.svg?style=social&label=Star)
+  - [gradient-string](https://github.com/bokub/gradient-string) - Beautiful color gradients in terminal output. ![](https://img.shields.io/github/stars/bokub/gradient-string.svg?style=social&label=Star)
+  - [figures](https://github.com/sindresorhus/figures) - Unicode symbols with Windows fallbacks. ![](https://img.shields.io/github/stars/sindresorhus/figures.svg?style=social&label=Star)
+  - [terminal-link](https://github.com/sindresorhus/terminal-link) - Create clickable links in the terminal. ![](https://img.shields.io/github/stars/sindresorhus/terminal-link.svg?style=social&label=Star)
+  - [snazzy](https://github.com/standard/snazzy) - Format JavaScript Standard Style as Stylish (i.e. snazzy) output. ![](https://img.shields.io/github/stars/standard/snazzy.svg?style=social&label=Star)
+  - [columnify](https://github.com/timoxley/columnify) - Create text-based columns suitable for console output. Supports cell wrapping. ![](https://img.shields.io/github/stars/timoxley/columnify.svg?style=social&label=Star)
+  - [cli-table3](https://github.com/cli-table/cli-table3) - Pretty unicode tables for the command line. ![](https://img.shields.io/github/stars/cli-table/cli-table3.svg?style=social&label=Star)
+  - [easy-table](https://github.com/eldargab/easy-table) - Nice text table for Node.js. ![](https://img.shields.io/github/stars/eldargab/easy-table.svg?style=social&label=Star)
+  - [cli-highlight](https://github.com/felixfbecker/cli-highlight) - Syntax highlighting for your terminal 💻✨. ![](https://img.shields.io/github/stars/felixfbecker/cli-highlight.svg?style=social&label=Star)
+  - [treeify](https://github.com/notatestuser/treeify) - Pretty-print a javascript object as a tree. ![](https://img.shields.io/github/stars/notatestuser/treeify.svg?style=social&label=Star)
+  - [kolorist](https://github.com/marvinhagemeister/kolorist) - A tiny utility to colorize stdin/stdout. ![](https://img.shields.io/github/stars/marvinhagemeister/kolorist.svg?style=social&label=Star)
+  - [console-png](https://github.com/aantthony/console-png) - Print PNG images to terminal output. ![](https://img.shields.io/github/stars/aantthony/console-png.svg?style=social&label=Star)
 
-- 编辑器
-  - [slap](https://github.com/slap-editor/slap) - 基于命令行终端的类Sublime文本编辑器。 ![](https://img.shields.io/github/stars/slap-editor/slap.svg?style=social&label=Star)
+- Editor
+  - [slap](https://github.com/slap-editor/slap) - Sublime-like terminal-based text editor. ![](https://img.shields.io/github/stars/slap-editor/slap.svg?style=social&label=Star)
 
-- 其他
-  - [commitizen](https://github.com/commitizen/cz-cli) - Commitizen命令行实用程序。 ![](https://img.shields.io/github/stars/commitizen/cz-cli.svg?style=social&label=Star)
-  - [plop](https://github.com/plopjs/plop) - 微型代码模板生成工具，可让整个团队轻松创建具有统一的文件。 ![](https://img.shields.io/github/stars/plopjs/plop.svg?style=social&label=Star)
-  - [update-notifier](https://github.com/yeoman/update-notifier) - 为你的CLI应用提供的更新提示。 ![](https://img.shields.io/github/stars/yeoman/update-notifier.svg?style=social&label=Star)
-  - [console-stamp](https://github.com/starak/node-console-stamp) - 为NodeJS console方法添加布丁，使其按模式添加时间戳信息。 ![](https://img.shields.io/github/stars/starak/node-console-stamp.svg?style=social&label=Star)
-  - [didyoumean](https://github.com/dcporter/didyoumean.js) - 简单、优化的JS库 和 Node.JS模块，用于将简短的人为的输入匹配到一个可能性列表中。 ![](https://img.shields.io/github/stars/dcporter/didyoumean.js.svg?style=social&label=Star)
-  - [console-clear](https://github.com/lukeed/console-clear) - 跨平台清空控制台。 ![](https://img.shields.io/github/stars/lukeed/console-clear.svg?style=social&label=Star)
+- Other
+  - [commitizen](https://github.com/commitizen/cz-cli) - The commitizen command line utility. ![](https://img.shields.io/github/stars/commitizen/cz-cli.svg?style=social&label=Star)
+  - [plop](https://github.com/plopjs/plop) - Micro-generator framework that makes it easy for an entire team to create files with a level of uniformity. ![](https://img.shields.io/github/stars/plopjs/plop.svg?style=social&label=Star)
+  - [update-notifier](https://github.com/yeoman/update-notifier) - Update notifications for your CLI app. ![](https://img.shields.io/github/stars/yeoman/update-notifier.svg?style=social&label=Star)
+  - [console-stamp](https://github.com/starak/node-console-stamp) - Patch NodeJS console methods in order to add timestamp information by pattern. ![](https://img.shields.io/github/stars/starak/node-console-stamp.svg?style=social&label=Star)
+  - [didyoumean](https://github.com/dcporter/didyoumean.js) - A simple, optimized JS library & node.js module for matching short, human-quality input to a list of possibilities. ![](https://img.shields.io/github/stars/dcporter/didyoumean.js.svg?style=social&label=Star)
+  - [console-clear](https://github.com/lukeed/console-clear) - Clear the console, cross-platform. ![](https://img.shields.io/github/stars/lukeed/console-clear.svg?style=social&label=Star)
 
-### Node.js管理工具
+### Node.js Management
 
-- [nvm](https://github.com/nvm-sh/nvm) - Node.js版本管理工具。 ![](https://img.shields.io/github/stars/nvm-sh/nvm.svg?style=social&label=Star)
-- [nvm for Windows](https://github.com/coreybutler/nvm-windows) -  Node.js版本管理工具Windows版。 ![](https://img.shields.io/github/stars/coreybutler/nvm-windows.svg?style=social&label=Star)
-- [n](https://github.com/tj/n) - Node.js版本管理工具。 ![](https://img.shields.io/github/stars/tj/n.svg?style=social&label=Star)
-- [fnm](https://github.com/Schniz/fnm) - 🚀 快速、轻量的Node.js版本管理工具，由Rust构建。 ![](https://img.shields.io/github/stars/Schniz/fnm.svg?style=social&label=Star)
-- [nodenv](https://github.com/nodenv/nodenv) - 版本管理工具（类似Ruby的 rbenv ），它支持自动切换。 ![](https://img.shields.io/github/stars/nodenv/nodenv.svg?style=social&label=Star)
-- [nave](https://github.com/isaacs/nave) - Node.js虚拟环境。 ![](https://img.shields.io/github/stars/isaacs/nave.svg?style=social&label=Star)
-- [nvs](https://github.com/jasongin/nvs) - Node Version Switcher - 一个跨平台的工具，用于在 Node.js 的版本之间切换。 ![](https://img.shields.io/github/stars/jasongin/nvs.svg?style=social&label=Star)
-- [nodeenv](https://github.com/ekalinin/nodeenv) - 与Python的 virtualenv 兼容的Node.js虚拟环境。 ![](https://img.shields.io/github/stars/ekalinin/nodeenv.svg?style=social&label=Star)
+- [nvm](https://github.com/nvm-sh/nvm) - Node Version Manager。 ![](https://img.shields.io/github/stars/nvm-sh/nvm.svg?style=social&label=Star)
+- [nvm for Windows](https://github.com/coreybutler/nvm-windows) - Version management for Windows. ![](https://img.shields.io/github/stars/coreybutler/nvm-windows.svg?style=social&label=Star)
+- [n](https://github.com/tj/n) - Node.js version management. ![](https://img.shields.io/github/stars/tj/n.svg?style=social&label=Star)
+- [fnm](https://github.com/Schniz/fnm) - 🚀 Fast and simple Node.js version manager, built in Rust. ![](https://img.shields.io/github/stars/Schniz/fnm.svg?style=social&label=Star)
+- [nodenv](https://github.com/nodenv/nodenv) - Version manager that is similar to Ruby's rbenv. It supports auto version switching. ![](https://img.shields.io/github/stars/nodenv/nodenv.svg?style=social&label=Star)
+- [nave](https://github.com/isaacs/nave) - Virtual Environments for Node.js. ![](https://img.shields.io/github/stars/isaacs/nave.svg?style=social&label=Star)
+- [nvs](https://github.com/jasongin/nvs) - Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js ![](https://img.shields.io/github/stars/jasongin/nvs.svg?style=social&label=Star)
+- [nodeenv](https://github.com/ekalinin/nodeenv) - Node.js virtual environment compatible to Python's virtualenv. ![](https://img.shields.io/github/stars/ekalinin/nodeenv.svg?style=social&label=Star)
 
 ### NPM
 
-- NPM管理工具
-  - [pnpm](https://github.com/pnpm/pnpm) - 快速、节省磁盘空间高效的包管理器。 ![](https://img.shields.io/github/stars/pnpm/pnpm.svg?style=social&label=Star)
-  - [npm](https://github.com/npm/cli) - JavaScript包管理工具。 ![](https://img.shields.io/github/stars/npm/cli.svg?style=social&label=Star)
-  - [yarn](https://github.com/yarnpkg/berry) - 现代包管理工具，拆分成多个不同的包。 ![](https://img.shields.io/github/stars/yarnpkg/berry.svg?style=social&label=Star)
-  - [yalc](https://github.com/wclr/yalc) - 更适用的前端link工具。 ![](https://img.shields.io/github/stars/wclr/yalc.svg?style=social&label=Star)
-  - [nrm](https://github.com/Pana/nrm) - 快速切换npm注册服务商，如npm、cnpm、nj、taobao。 ![](https://img.shields.io/github/stars/Pana/nrm.svg?style=social&label=Star)
-  - [cnpm](https://github.com/cnpm/cnpm) - NPM中国区镜像客户端。 ![](https://img.shields.io/github/stars/cnpm/cnpm.svg?style=social&label=Star)
+- NPM Management
+  - [pnpm](https://github.com/pnpm/pnpm) - Fast, disk space efficient package manager. ![](https://img.shields.io/github/stars/pnpm/pnpm.svg?style=social&label=Star)
+  - [npm](https://github.com/npm/cli) - The package manager for JavaScript. ![](https://img.shields.io/github/stars/npm/cli.svg?style=social&label=Star)
+  - [yarn](https://github.com/yarnpkg/berry) - A modern package manager split into various packages. ![](https://img.shields.io/github/stars/yarnpkg/berry.svg?style=social&label=Star)
+  - [yalc](https://github.com/wclr/yalc) - Work with yarn/npm packages locally like a boss. ![](https://img.shields.io/github/stars/wclr/yalc.svg?style=social&label=Star)
+  - [nrm](https://github.com/Pana/nrm) - About NPM registry manager, fast switch between different registries: npm, cnpm, nj, taobao. ![](https://img.shields.io/github/stars/Pana/nrm.svg?style=social&label=Star)
+  - [cnpm](https://github.com/cnpm/cnpm) - Npm client for China mirror of npm. ![](https://img.shields.io/github/stars/cnpm/cnpm.svg?style=social&label=Star)
 
 - package.json
-  - [read-pkg-up](https://github.com/sindresorhus/read-pkg-up) - 读取最近的package.json文件。 ![](https://img.shields.io/github/stars/sindresorhus/read-pkg-up.svg?style=social&label=Star)
-  - [node-pkginfo](https://github.com/indexzero/node-pkginfo) - 从package.json读取属性的简单方法。 ![](https://img.shields.io/github/stars/indexzero/node-pkginfo.svg?style=social&label=Star)
-  - [pkg-dir](https://github.com/sindresorhus/pkg-dir) - 查找npm包的根目录。 ![](https://img.shields.io/github/stars/sindresorhus/pkg-dir.svg?style=social&label=Star)
-  - [read-pkg](https://github.com/sindresorhus/read-pkg) - 读取package.json文件。 ![](https://img.shields.io/github/stars/sindresorhus/read-pkg.svg?style=social&label=Star)
-  - [write-pkg](https://github.com/sindresorhus/write-pkg) - 写入package.json文件。 ![](https://img.shields.io/github/stars/sindresorhus/write-pkg.svg?style=social&label=Star)
-  - [read-package-json-fast](https://github.com/npm/read-package-json-fast) - 类似 read-package-json, 但更快。 ![](https://img.shields.io/github/stars/npm/read-package-json-fast.svg?style=social&label=Star)
+  - [read-pkg-up](https://github.com/sindresorhus/read-pkg-up) - Read the closest package.json file. ![](https://img.shields.io/github/stars/sindresorhus/read-pkg-up.svg?style=social&label=Star)
+  - [node-pkginfo](https://github.com/indexzero/node-pkginfo) - An easy way to expose properties on a module from a package.json. ![](https://img.shields.io/github/stars/indexzero/node-pkginfo.svg?style=social&label=Star)
+  - [pkg-dir](https://github.com/sindresorhus/pkg-dir) - Find the root directory of an npm package. ![](https://img.shields.io/github/stars/sindresorhus/pkg-dir.svg?style=social&label=Star)
+  - [read-pkg](https://github.com/sindresorhus/read-pkg) - Read a package.json file. ![](https://img.shields.io/github/stars/sindresorhus/read-pkg.svg?style=social&label=Star)
+  - [write-pkg](https://github.com/sindresorhus/write-pkg) - Write a package.json file. ![](https://img.shields.io/github/stars/sindresorhus/write-pkg.svg?style=social&label=Star)
+  - [read-package-json-fast](https://github.com/npm/read-package-json-fast) - Like read-package-json, but faster. ![](https://img.shields.io/github/stars/npm/read-package-json-fast.svg?style=social&label=Star)
 
-- 语义化版本
-  - [semver](https://github.com/npm/node-semver) - NPM使用的JavaScript语义化版本号解析器。 ![](https://img.shields.io/github/stars/npm/node-semver.svg?style=social&label=Star)
-  - [compare-versions](https://github.com/omichelsen/compare-versions) - 比较semver版本字符串，找出哪个更大，哪个相等，哪个更小。 ![](https://img.shields.io/github/stars/omichelsen/compare-versions.svg?style=social&label=Star)
+- Semantic Version
+  - [semver](https://github.com/npm/node-semver) - The semver parser for node (the one npm uses). ![](https://img.shields.io/github/stars/npm/node-semver.svg?style=social&label=Star)
+  - [compare-versions](https://github.com/omichelsen/compare-versions) - Compare semver version strings to find which is greater, equal or lesser. ![](https://img.shields.io/github/stars/omichelsen/compare-versions.svg?style=social&label=Star)
 
-- NPM私有部署
-  - [verdaccio](https://github.com/verdaccio/verdaccio) - 私有轻量级的NPM镜像。 ![](https://img.shields.io/github/stars/verdaccio/verdaccio.svg?style=social&label=Star)
-  - [cnpmjs.org](https://github.com/cnpm/cnpmjs.org) - 企业级私有NPM镜像和Web界面。 ![](https://img.shields.io/github/stars/cnpm/cnpmjs.org.svg?style=social&label=Star)
+- Private Npm Registry
+  - [verdaccio](https://github.com/verdaccio/verdaccio) - A lightweight private proxy registry build in Node.js. ![](https://img.shields.io/github/stars/verdaccio/verdaccio.svg?style=social&label=Star)
+  - [cnpmjs.org](https://github.com/cnpm/cnpmjs.org) - Private npm registry and web for Enterprise. ![](https://img.shields.io/github/stars/cnpm/cnpmjs.org.svg?style=social&label=Star)
 
-- 工具
-  - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - 查找当前package.json依赖允许的更新的版本。 ![](https://img.shields.io/github/stars/raineorshine/npm-check-updates.svg?style=social&label=Star)
-  - [concurrently](https://github.com/open-cli-tools/concurrently) - 并行执行命令，类似 `npm run watch-js & npm run watch-less`但更优。 ![](https://img.shields.io/github/stars/open-cli-tools/concurrently.svg?style=social&label=Star)
-  - [npm-run-all](https://github.com/mysticatea/npm-run-all) - 命令行工具，同时运行多个npm脚本（并行或串行）。 ![](https://img.shields.io/github/stars/mysticatea/npm-run-all.svg?style=social&label=Star)
-  - [depcheck](https://github.com/depcheck/depcheck) - 检查你的NPM模块未使用的依赖。 ![](https://img.shields.io/github/stars/depcheck/depcheck.svg?style=social&label=Star)
-  - [npminstall](https://github.com/cnpm/npminstall) - 使 `npm install` 更快更容易。 ![](https://img.shields.io/github/stars/cnpm/npminstall.svg?style=social&label=Star)
-  - [validate-npm-package-name](https://github.com/npm/validate-npm-package-name) - 校验给定的字符串 是否为 可接受的 npm 包名称。 ![](https://img.shields.io/github/stars/npm/validate-npm-package-name.svg?style=social&label=Star)
-  - [npm-home](https://github.com/sindresorhus/npm-home) - 打开npm包页面。 ![](https://img.shields.io/github/stars/sindresorhus/npm-home.svg?style=social&label=Star)
-  - [npm-name](https://github.com/sindresorhus/npm-name) - 在npm上检查软件包名称的可用性。 ![](https://img.shields.io/github/stars/sindresorhus/npm-name.svg?style=social&label=Star)
-  - [pacote](https://github.com/npm/pacote) - 从npm注册商下载tar压缩文件，并获取包的资源信息。 ![](https://img.shields.io/github/stars/npm/pacote.svg?style=social&label=Star)
-  - [npm-package-arg](https://github.com/npm/npm-package-arg) - 根据包名解析信息。 ![](https://img.shields.io/github/stars/npm/npm-package-arg.svg?style=social&label=Star)
-  - [npm-registry-fetch](https://github.com/npm/npm-registry-fetch) - 类型fetch()函数，但用于npm仓库。 ![](https://img.shields.io/github/stars/npm/npm-registry-fetch.svg?style=social&label=Star)
-  - [npm-updater](https://github.com/node-modules/npm-updater) - 检查npm包的更新。 ![](https://img.shields.io/github/stars/node-modules/npm-updater.svg?style=social&label=Star)
+- Utilities
+  - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) - Find newer versions of package dependencies than what your package.json allows. ![](https://img.shields.io/github/stars/raineorshine/npm-check-updates.svg?style=social&label=Star)
+  - [concurrently](https://github.com/open-cli-tools/concurrently) - Run commands concurrently. Like `npm run watch-js & npm run watch-less` but better. ![](https://img.shields.io/github/stars/open-cli-tools/concurrently.svg?style=social&label=Star)
+  - [npm-run-all](https://github.com/mysticatea/npm-run-all) - A CLI tool to run multiple npm-scripts in parallel or sequential. ![](https://img.shields.io/github/stars/mysticatea/npm-run-all.svg?style=social&label=Star)
+  - [depcheck](https://github.com/depcheck/depcheck) - Check your npm module for unused dependencies. ![](https://img.shields.io/github/stars/depcheck/depcheck.svg?style=social&label=Star)
+  - [npminstall](https://github.com/cnpm/npminstall) - Make `npm install` fast and easy. ![](https://img.shields.io/github/stars/cnpm/npminstall.svg?style=social&label=Star)
+  - [validate-npm-package-name](https://github.com/npm/validate-npm-package-name) - Is the given string an acceptable npm package name? ![](https://img.shields.io/github/stars/npm/validate-npm-package-name.svg?style=social&label=Star)
+  - [npm-home](https://github.com/sindresorhus/npm-home) - Open the npm page of a package. ![](https://img.shields.io/github/stars/sindresorhus/npm-home.svg?style=social&label=Star)
+  - [npm-name](https://github.com/sindresorhus/npm-name) - Check a package name's availability on npm. ![](https://img.shields.io/github/stars/sindresorhus/npm-name.svg?style=social&label=Star)
+  - [pacote](https://github.com/npm/pacote) - Fetches package manifests and tarballs from the npm registry. ![](https://img.shields.io/github/stars/npm/pacote.svg?style=social&label=Star)
+  - [npm-package-arg](https://github.com/npm/npm-package-arg) - Parse the things that can be arguments to `npm install`. ![](https://img.shields.io/github/stars/npm/npm-package-arg.svg?style=social&label=Star)
+  - [npm-registry-fetch](https://github.com/npm/npm-registry-fetch) - Like fetch() but for the npm registry ![](https://img.shields.io/github/stars/npm/npm-registry-fetch.svg?style=social&label=Star)
+  - [npm-updater](https://github.com/node-modules/npm-updater) - Check update of npm package. ![](https://img.shields.io/github/stars/node-modules/npm-updater.svg?style=social&label=Star)
 
 ### Monorepo
-*(你也许喜欢 [awesome-monorepo](https://github.com/korfuri/awesome-monorepo))*
+*(You might like [awesome-monorepo](https://github.com/korfuri/awesome-monorepo))*
 
-- [lerna](https://github.com/lerna/lerna) - 用于管理具有多个包的JavaScript项目的工具。 ![](https://img.shields.io/github/stars/lerna/lerna.svg?style=social&label=Star)
-- [rush](https://rushjs.io/) - 可伸缩的monorepo构建管理工具。
+- [lerna](https://github.com/lerna/lerna) - A tool for managing JavaScript projects with multiple packages. ![](https://img.shields.io/github/stars/lerna/lerna.svg?style=social&label=Star)
+- [rush](https://rushjs.io/) - The scalable monorepo build orchestrator。
 
-### 文件系统
+### Filesystem
 
-- 通用
-  - [fs-extra](https://github.com/jprichardson/node-fs-extra) - 为 `fs` 模块提供额外方法。 ![](https://img.shields.io/github/stars/jprichardson/node-fs-extra.svg?style=social&label=Star)
-  - [graceful-fs](https://github.com/isaacs/node-graceful-fs) - graceful-fs可以替代fs模块，并做了各种改进。 ![](https://img.shields.io/github/stars/isaacs/node-graceful-fs.svg?style=social&label=Star)
-  - [filesize.js](https://github.com/avoidwork/filesize.js) - 生成人类可读的文件大小字符串。 ![](https://img.shields.io/github/stars/avoidwork/filesize.js.svg?style=social&label=Star)
-  - [memfs](https://github.com/streamich/memfs) - Node.js API内存文件系统。 ![](https://img.shields.io/github/stars/streamich/memfs.svg?style=social&label=Star)
-  - [fs-jetpack](https://github.com/szwacz/fs-jetpack) - 完全重新设计的文件系统API，方便日常使用。 ![](https://img.shields.io/github/stars/szwacz/fs-jetpack.svg?style=social&label=Star)
-  - [make-dir](https://github.com/sindresorhus/make-dir) - 递归创建文件夹，类似 `mkdir -p`。 ![](https://img.shields.io/github/stars/sindresorhus/make-dir.svg?style=social&label=Star)
-  - [filenamify](https://github.com/sindresorhus/filenamify) - 将字符串转换为有效的文件名。 ![](https://img.shields.io/github/stars/sindresorhus/filenamify.svg?style=social&label=Star)
-  - [move-file](https://github.com/sindresorhus/move-file) - 移动文件，甚至可以跨设备工作。 ![](https://img.shields.io/github/stars/sindresorhus/move-file.svg?style=social&label=Star)
-  - [proper-lockfile](https://github.com/IndigoUnited/node-proper-lockfile) - 进程间和机器间文件锁实用工具。 ![](https://img.shields.io/github/stars/IndigoUnited/node-proper-lockfile.svg?style=social&label=Star)
-  - [istextorbinary](https://github.com/bevry/istextorbinary) - 检查文件是文本文件还是二进制文件。 ![](https://img.shields.io/github/stars/bevry/istextorbinary.svg?style=social&label=Star)
-  - [mkdirp](https://github.com/isaacs/node-mkdirp) - 递归创建文件夹，类似 `mkdir -p`。 ![](https://img.shields.io/github/stars/isaacs/node-mkdirp.svg?style=social&label=Star)
-  - [dir-compare](https://github.com/gliviu/dir-compare) - Node JS文件夹对比。 ![](https://img.shields.io/github/stars/gliviu/dir-compare.svg?style=social&label=Star)
-  - [folder-hash](https://github.com/marc136/node-folder-hash) - 为 文件夹或文件 上创建哈希检验码。 ![](https://img.shields.io/github/stars/marc136/node-folder-hash.svg?style=social&label=Star)
-  - [lnfs](https://github.com/kevva/lnfs) - 强制创建符号链接。类似`ln -fs`. ![](https://img.shields.io/github/stars/kevva/lnfs.svg?style=social&label=Star)
+- Common
+  - [fs-extra](https://github.com/jprichardson/node-fs-extra) - Extra methods for the `fs` module. ![](https://img.shields.io/github/stars/jprichardson/node-fs-extra.svg?style=social&label=Star)
+  - [graceful-fs](https://github.com/isaacs/node-graceful-fs) - Graceful-fs functions as a drop-in replacement for the fs module, making various improvements. ![](https://img.shields.io/github/stars/isaacs/node-graceful-fs.svg?style=social&label=Star)
+  - [filesize.js](https://github.com/avoidwork/filesize.js) - Generate a human readable String describing the file size. ![](https://img.shields.io/github/stars/avoidwork/filesize.js.svg?style=social&label=Star)
+  - [memfs](https://github.com/streamich/memfs) - In-memory filesystem with Node's API. ![](https://img.shields.io/github/stars/streamich/memfs.svg?style=social&label=Star)
+  - [fs-jetpack](https://github.com/szwacz/fs-jetpack) - Completely redesigned file system API for convenience in everyday use. ![](https://img.shields.io/github/stars/szwacz/fs-jetpack.svg?style=social&label=Star)
+  - [make-dir](https://github.com/sindresorhus/make-dir) - Recursively create directories like mkdir -p. ![](https://img.shields.io/github/stars/sindresorhus/make-dir.svg?style=social&label=Star)
+  - [filenamify](https://github.com/sindresorhus/filenamify) - Convert a string to a valid filename. ![](https://img.shields.io/github/stars/sindresorhus/filenamify.svg?style=social&label=Star)
+  - [move-file](https://github.com/sindresorhus/move-file) - Move a file, even works across devices. ![](https://img.shields.io/github/stars/sindresorhus/move-file.svg?style=social&label=Star)
+  - [proper-lockfile](https://github.com/IndigoUnited/node-proper-lockfile) - Inter-process and inter-machine lockfile utility. ![](https://img.shields.io/github/stars/IndigoUnited/node-proper-lockfile.svg?style=social&label=Star)
+  - [istextorbinary](https://github.com/bevry/istextorbinary) - Check if a file is text or binary. ![](https://img.shields.io/github/stars/bevry/istextorbinary.svg?style=social&label=Star)
+  - [mkdirp](https://github.com/isaacs/node-mkdirp) - Recursively mkdir, like `mkdir -p`. ![](https://img.shields.io/github/stars/isaacs/node-mkdirp.svg?style=social&label=Star)
+  - [dir-compare](https://github.com/gliviu/dir-compare) - Node JS directory compare. ![](https://img.shields.io/github/stars/gliviu/dir-compare.svg?style=social&label=Star)
+  - [folder-hash](https://github.com/marc136/node-folder-hash) - Create a hash checksum over a folder or a file. ![](https://img.shields.io/github/stars/marc136/node-folder-hash.svg?style=social&label=Star)
+  - [lnfs](https://github.com/kevva/lnfs) - Force create symlinks like `ln -fs`. ![](https://img.shields.io/github/stars/kevva/lnfs.svg?style=social&label=Star)
 
-- 复制
-  - [ncp](https://github.com/AvianFlu/ncp) - 使用Node.js进行异步递归文件复制。 ![](https://img.shields.io/github/stars/AvianFlu/ncp.svg?style=social&label=Star)
-  - [cpy](https://github.com/sindresorhus/cpy) - 文件拷贝。 ![](https://img.shields.io/github/stars/sindresorhus/cpy.svg?style=social&label=Star)
-  - [copyfiles](https://github.com/calvinmetcalf/copyfiles) - 在命令行中复制文件。 ![](https://img.shields.io/github/stars/calvinmetcalf/copyfiles.svg?style=social&label=Star)
+- Copy
+  - [ncp](https://github.com/AvianFlu/ncp) - Asynchronous recursive file copying with Node.js. ![](https://img.shields.io/github/stars/AvianFlu/ncp.svg?style=social&label=Star)
+  - [cpy](https://github.com/sindresorhus/cpy) - Copy files. ![](https://img.shields.io/github/stars/sindresorhus/cpy.svg?style=social&label=Star)
+  - [copyfiles](https://github.com/calvinmetcalf/copyfiles) - Copy files on the command line. ![](https://img.shields.io/github/stars/calvinmetcalf/copyfiles.svg?style=social&label=Star)
 
-- 删除
-  - [rimraf](https://github.com/isaacs/rimraf) - 递归删除文件，类似 `rm -rf`。 ![](https://img.shields.io/github/stars/isaacs/rimraf.svg?style=social&label=Star)
-  - [del](https://github.com/sindresorhus/del) - 删除文件/文件夹。 ![](https://img.shields.io/github/stars/sindresorhus/del.svg?style=social&label=Star)
+- Delete
+  - [rimraf](https://github.com/isaacs/rimraf) - Recursively delete files like rm -rf. ![](https://img.shields.io/github/stars/isaacs/rimraf.svg?style=social&label=Star)
+  - [del](https://github.com/sindresorhus/del) - Delete files and directories. ![](https://img.shields.io/github/stars/sindresorhus/del.svg?style=social&label=Star)
 
-- 临时
-  - [temp](https://github.com/bruce/node-temp) - Node.js临时文件、文件夹、流。 ![](https://img.shields.io/github/stars/bruce/node-temp.svg?style=social&label=Star)
-  - [tempy](https://github.com/sindresorhus/tempy) - 获取随机的临时文件或目录路径。 ![](https://img.shields.io/github/stars/sindresorhus/tempy.svg?style=social&label=Star)
-  - [temp-dir](https://github.com/sindresorhus/temp-dir) - 获取系统临时文件夹的真实路径。 ![](https://img.shields.io/github/stars/sindresorhus/temp-dir.svg?style=social&label=Star)
+- Temporary
+  - [temp](https://github.com/bruce/node-temp) - Temporary File, Directory, and Stream support for Node.js. ![](https://img.shields.io/github/stars/bruce/node-temp.svg?style=social&label=Star)
+  - [tempy](https://github.com/sindresorhus/tempy) - Get a random temporary file or directory path. 302 ![](https://img.shields.io/github/stars/sindresorhus/tempy.svg?style=social&label=Star)
+  - [temp-dir](https://github.com/sindresorhus/temp-dir) - Get the real path of the system temp directory. ![](https://img.shields.io/github/stars/sindresorhus/temp-dir.svg?style=social&label=Star)
 
-- 监控
-  - [chokidar](https://github.com/paulmillr/chokidar) - 最小且高效的跨平台Watch库。 ![](https://img.shields.io/github/stars/paulmillr/chokidar.svg?style=social&label=Star)
-  - [watchpack](https://github.com/webpack/watchpack) - Watch文件和文件夹。 ![](https://img.shields.io/github/stars/webpack/watchpack.svg?style=social&label=Star)
+- Watch
+  - [chokidar](https://github.com/paulmillr/chokidar) - Minimal and efficient cross-platform file watching library. ![](https://img.shields.io/github/stars/paulmillr/chokidar.svg?style=social&label=Star)
+  - [watchpack](https://github.com/webpack/watchpack) - Wrapper library for directory and file watching. ![](https://img.shields.io/github/stars/webpack/watchpack.svg?style=social&label=Star)
 
-- 查找
-  - [glob](https://github.com/isaacs/node-glob) - Node.js版glob功能。 ![](https://img.shields.io/github/stars/isaacs/node-glob.svg?style=social&label=Star)
-  - [globby](https://github.com/sindresorhus/globby) - 基于fast-glob，但添加了很多有用的特性。 ![](https://img.shields.io/github/stars/sindresorhus/globby.svg?style=social&label=Star)
-  - [fast-glob](https://github.com/mrmlnc/fast-glob) - 非常快速且高效的Node.js glob库。 ![](https://img.shields.io/github/stars/mrmlnc/fast-glob.svg?style=social&label=Star)
-  - [find-up](https://github.com/sindresorhus/find-up) - 通过上级父目录查找文件或目录。 ![](https://img.shields.io/github/stars/sindresorhus/find-up.svg?style=social&label=Star)
-  - [filehound](https://github.com/nspragg/filehound) - 灵活流畅的文件系统搜索接口。 ![](https://img.shields.io/github/stars/nspragg/filehound.svg?style=social&label=Star)
-  - [node-sync-glob](https://github.com/AndyOGo/node-sync-glob) - 通过glob模式在本地同步文件和文件夹，包括watch选项。 ![](https://img.shields.io/github/stars/AndyOGo/node-sync-glob.svg?style=social&label=Star)
+- Find
+  - [glob](https://github.com/isaacs/node-glob) - Glob functionality for node.js. ![](https://img.shields.io/github/stars/isaacs/node-glob.svg?style=social&label=Star)
+  - [globby](https://github.com/sindresorhus/globby) - Based on fast-glob but adds a bunch of useful features. ![](https://img.shields.io/github/stars/sindresorhus/globby.svg?style=social&label=Star)
+  - [fast-glob](https://github.com/mrmlnc/fast-glob) - Very fast and efficient glob library for Node.js. ![](https://img.shields.io/github/stars/mrmlnc/fast-glob.svg?style=social&label=Star)
+  - [find-up](https://github.com/sindresorhus/find-up) - Find a file or directory by walking up parent directories. ![](https://img.shields.io/github/stars/sindresorhus/find-up.svg?style=social&label=Star)
+  - [filehound](https://github.com/nspragg/filehound) - Flexible and fluent interface for searching the file system. ![](https://img.shields.io/github/stars/nspragg/filehound.svg?style=social&label=Star)
+  - [node-sync-glob](https://github.com/AndyOGo/node-sync-glob) - Synchronize files and folders locally by glob patterns, watch option included. ![](https://img.shields.io/github/stars/AndyOGo/node-sync-glob.svg?style=social&label=Star)
 
-### 解析工具
+### Parsing
 
 - Markdown
-  - [marked](https://github.com/markedjs/marked) - Markdown解析器和编译器，专为提高速度而设计。 ![](https://img.shields.io/github/stars/markedjs/marked.svg?style=social&label=Star)
-  - [remark](https://github.com/wooorm/remark) - Markdown处理工具。 ![](https://img.shields.io/github/stars/wooorm/remark.svg?style=social&label=Star)
-  - [markdown-it](https://github.com/markdown-it/markdown-it) - 支持100%通用Markdown标签解析的扩展&语法插件。 ![](https://img.shields.io/github/stars/markdown-it/markdown-it.svg?style=social&label=Star)
-  - [turndown](https://github.com/mixmark-io/turndown) - 用 JavaScript 编写的 HTML 到 Markdown 转换器。 ![](https://img.shields.io/github/stars/mixmark-io/turndown.svg?style=social&label=Star)
-  - [remove-markdown](https://github.com/stiang/remove-markdown) - 从文本中删除Markdown内容。 ![](https://img.shields.io/github/stars/stiang/remove-markdown.svg?style=social&label=Star)
+  - [marked](https://github.com/markedjs/marked) - A markdown parser and compiler. Built for speed. ![](https://img.shields.io/github/stars/markedjs/marked.svg?style=social&label=Star)
+  - [remark](https://github.com/wooorm/remark) - Markdown processor powered by plugins. ![](https://img.shields.io/github/stars/wooorm/remark.svg?style=social&label=Star)
+  - [markdown-it](https://github.com/markdown-it/markdown-it) - Markdown parser with 100% CommonMark support, extensions and syntax plugins. ![](https://img.shields.io/github/stars/markdown-it/markdown-it.svg?style=social&label=Star)
+  - [turndown](https://github.com/mixmark-io/turndown) - An HTML to Markdown converter written in JavaScript. ![](https://img.shields.io/github/stars/mixmark-io/turndown.svg?style=social&label=Star)
+  - [remove-markdown](https://github.com/stiang/remove-markdown) - Strip Markdown stuff from text. ![](https://img.shields.io/github/stars/stiang/remove-markdown.svg?style=social&label=Star)
 
 - CSV
-  - [PapaParse](https://github.com/mholt/PapaParse) - 快速而强大的 CSV（分隔文本）解析器，可以优雅地处理大文件和格式错误的输入。 ![](https://img.shields.io/github/stars/mholt/PapaParse.svg?style=social&label=Star)
-  - [node-csv](https://github.com/adaltas/node-csv) - 具有简单api的全功能CSV解析器，并针对大型数据集进行了测试。 ![](https://img.shields.io/github/stars/adaltas/node-csv.svg?style=social&label=Star)
-  - [csv-parser](https://github.com/mafintosh/csv-parser) - 旨在比其他任何人都快的流式CSV解析器。 ![](https://img.shields.io/github/stars/mafintosh/csv-parser.svg?style=social&label=Star)
-  - [neat-csv](https://github.com/sindresorhus/neat-csv) - 快速的CSV解析器。 ![](https://img.shields.io/github/stars/sindresorhus/neat-csv.svg?style=social&label=Star)
+  - [PapaParse](https://github.com/mholt/PapaParse) - Fast and powerful CSV (delimited text) parser that gracefully handles large files and malformed input. ![](https://img.shields.io/github/stars/mholt/PapaParse.svg?style=social&label=Star)
+  - [node-csv](https://github.com/adaltas/node-csv) - Full featured CSV parser with simple api and tested against large datasets. ![](https://img.shields.io/github/stars/adaltas/node-csv.svg?style=social&label=Star)
+  - [csv-parser](https://github.com/mafintosh/csv-parser) - Streaming CSV parser that aims to be faster than everyone else. ![](https://img.shields.io/github/stars/mafintosh/csv-parser.svg?style=social&label=Star)
+  - [neat-csv](https://github.com/sindresorhus/neat-csv) - Fast CSV parser. Callback interface for the above. ![](https://img.shields.io/github/stars/sindresorhus/neat-csv.svg?style=social&label=Star)
 
 - YAML
-  - [js-yaml](https://github.com/nodeca/js-yaml) - 快速的YAML解析器。 ![](https://img.shields.io/github/stars/nodeca/js-yaml.svg?style=social&label=Star)
-  - [yaml](https://github.com/eemeli/yaml) - YAML 的 JavaScript 解析器和字符串化。 ![](https://img.shields.io/github/stars/eemeli/yaml.svg?style=social&label=Star)
+  - [js-yaml](https://github.com/nodeca/js-yaml) - Very fast YAML parser. ![](https://img.shields.io/github/stars/nodeca/js-yaml.svg?style=social&label=Star)
+  - [yaml](https://github.com/eemeli/yaml) - JavaScript parser and stringifier for YAML. ![](https://img.shields.io/github/stars/eemeli/yaml.svg?style=social&label=Star)
 
 - XML
-  - [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) - 将XML转换为JavaScript对象的转换器。 ![](https://img.shields.io/github/stars/Leonidas-from-XIV/node-xml2js.svg?style=social&label=Star)
-  - [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser) - 验证&解析 XML。 ![](https://img.shields.io/github/stars/NaturalIntelligence/fast-xml-parser.svg?style=social&label=Star)
-  - [xmlbuilder](https://github.com/oozcitak/xmlbuilder-js) - XML构建器。 ![](https://img.shields.io/github/stars/oozcitak/xmlbuilder-js.svg?style=social&label=Star)
-  - [js2xmlparser](https://github.com/michaelkourlas/node-js2xmlparser) - 用于将 JavaScript 对象解析为 XML 的流行 Node.js 模块。 ![](https://img.shields.io/github/stars/michaelkourlas/node-js2xmlparser.svg?style=social&label=Star)
+  - [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) - XML to JavaScript object converter. ![](https://img.shields.io/github/stars/Leonidas-from-XIV/node-xml2js.svg?style=social&label=Star)
+  - [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser) - Validate and parse XML. ![](https://img.shields.io/github/stars/NaturalIntelligence/fast-xml-parser.svg?style=social&label=Star)
+  - [xmlbuilder](https://github.com/oozcitak/xmlbuilder-js) - An XML builder for node.js. ![](https://img.shields.io/github/stars/oozcitak/xmlbuilder-js.svg?style=social&label=Star)
+  - [js2xmlparser](https://github.com/michaelkourlas/node-js2xmlparser) - Popular Node.js module for parsing JavaScript objects into XML. ![](https://img.shields.io/github/stars/michaelkourlas/node-js2xmlparser.svg?style=social&label=Star)
 
 - HTML
-  - [htmlparser2](https://github.com/fb55/htmlparser2) - 宽容的 HTML 和 XML 解析器。 ![](https://img.shields.io/github/stars/fb55/htmlparser2.svg?style=social&label=Star)
-  - [parse5](https://github.com/inikulin/parse5) - 用于 Node.js 的 HTML 解析/序列化工具集。 WHATWG HTML 标准（又名 HTML5）兼容。 ![](https://img.shields.io/github/stars/inikulin/parse5.svg?style=social&label=Star)
-  - [sanitize-html](https://github.com/apostrophecms/sanitize-html) - 清理用户提交的 HTML，在每个元素的基础上保留列入白名单的元素和属性。 建立在 htmlparser2 上，以提高速度和容忍度。 ![](https://img.shields.io/github/stars/apostrophecms/sanitize-html.svg?style=social&label=Star)
-  - [himalaya](https://github.com/andrejewski/himalaya) - 将HTML转化为JSON的解析器。 ![](https://img.shields.io/github/stars/andrejewski/himalaya.svg?style=social&label=Star)
+  - [htmlparser2](https://github.com/fb55/htmlparser2) - Forgiving HTML and XML parser. ![](https://img.shields.io/github/stars/fb55/htmlparser2.svg?style=social&label=Star)
+  - [parse5](https://github.com/inikulin/parse5) - HTML parsing/serialization toolset for Node.js. WHATWG HTML Living Standard (aka HTML5)-compliant. ![](https://img.shields.io/github/stars/inikulin/parse5.svg?style=social&label=Star)
+  - [sanitize-html](https://github.com/apostrophecms/sanitize-html) - Clean up user-submitted HTML, preserving whitelisted elements and whitelisted attributes on a per-element basis. Built on htmlparser2 for speed and tolerance. ![](https://img.shields.io/github/stars/apostrophecms/sanitize-html.svg?style=social&label=Star)
+  - [himalaya](https://github.com/andrejewski/himalaya) - JavaScript HTML to JSON Parser. ![](https://img.shields.io/github/stars/andrejewski/himalaya.svg?style=social&label=Star)
 
 - CSS
-  - [PostCSS](https://github.com/postcss/postcss) - CSS解析工具。 ![](https://img.shields.io/github/stars/postcss/postcss.svg?style=social&label=Star)
-  - [less](https://github.com/less/less.js) - Less动态样式表语言。 ![](https://img.shields.io/github/stars/less/less.js.svg?style=social&label=Star)
+  - [PostCSS](https://github.com/postcss/postcss) - CSS parser / stringifier. ![](https://img.shields.io/github/stars/postcss/postcss.svg?style=social&label=Star)
+  - [less](https://github.com/less/less.js) - Less. The dynamic stylesheet language. ![](https://img.shields.io/github/stars/less/less.js.svg?style=social&label=Star)
 
 - SQL
-  - [pgsql-ast-parser](https://github.com/oguimbal/pgsql-ast-parser) - 简单的Postgres SQL解析器。 ![](https://img.shields.io/github/stars/oguimbal/pgsql-ast-parser.svg?style=social&label=Star)
-  - [dt-sql-parser](https://github.com/DTStack/dt-sql-parser) - 大数据的SQL解析器，用antlr4构建。 ![](https://img.shields.io/github/stars/DTStack/dt-sql-parser.svg?style=social&label=Star)
+  - [pgsql-ast-parser](https://github.com/oguimbal/pgsql-ast-parser) - Yet another simple Postgres SQL parser. ![](https://img.shields.io/github/stars/oguimbal/pgsql-ast-parser.svg?style=social&label=Star)
+  - [dt-sql-parser](https://github.com/DTStack/dt-sql-parser) - SQL Parsers for BigData, built with antlr4. ![](https://img.shields.io/github/stars/DTStack/dt-sql-parser.svg?style=social&label=Star)
 
 - Plist
-  - [node-bplist-parser](https://github.com/joeferner/node-bplist-parser) - 二进制plist文件解析。 ![](https://img.shields.io/github/stars/joeferner/node-bplist-parser.svg?style=social&label=Star)
+  - [node-bplist-parser](https://github.com/joeferner/node-bplist-parser) - Binary plist parser. ![](https://img.shields.io/github/stars/joeferner/node-bplist-parser.svg?style=social&label=Star)
 
 - ini
-  - [ini](https://github.com/npm/ini) - ini文件解析和序列化。 ![](https://img.shields.io/github/stars/npm/ini.svg?style=social&label=Star)
+  - [ini](https://github.com/npm/ini) - An ini parser/serializer in JavaScript. ![](https://img.shields.io/github/stars/npm/ini.svg?style=social&label=Star)
 
-- 其他
-  - [readability](https://github.com/mozilla/readability) - 可读内容提取库，用于Firefox Reader View的独立提取版本。 ![](https://img.shields.io/github/stars/mozilla/readability.svg?style=social&label=Star)
+- Other
+  - [readability](https://github.com/mozilla/readability) - A standalone version of the readability library used for Firefox Reader View. ![](https://img.shields.io/github/stars/mozilla/readability.svg?style=social&label=Star)
 
 ### Git
 
-- [husky](https://github.com/typicode/husky) - 现代化的本地Git钩子使操作更加轻松！ ![](https://img.shields.io/github/stars/typicode/husky.svg?style=social&label=Star)
-- [isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) - 用于Node.js和浏览器的 纯 JavaScript git实现！ ![](https://img.shields.io/github/stars/isomorphic-git/isomorphic-git.svg?style=social&label=Star)
-- [nodegit](https://github.com/nodegit/nodegit) - [libgit2](https://libgit2.org/) 的 Node.js 绑定版本。 ![](https://img.shields.io/github/stars/nodegit/nodegit.svg?style=social&label=Star)
-- [js-git](https://github.com/creationix/js-git) - Git的JavaScript实现。 ![](https://img.shields.io/github/stars/creationix/js-git.svg?style=social&label=Star)
-- [degit](https://github.com/Rich-Harris/degit) - Degit 制作 git 存储库的副本。用于构建简单的项目脚手架。 ![](https://img.shields.io/github/stars/Rich-Harris/degit.svg?style=social&label=Star)
-- [simple-git](https://github.com/steveukx/git-js) - 一个轻量级的接口，用于在任何 node.js 应用程序中运行 git 命令。 ![](https://img.shields.io/github/stars/steveukx/git-js.svg?style=social&label=Star)
-- [gitgraph-node](https://github.com/nicoespeon/gitgraph.js/tree/master/packages/gitgraph-node) - 在 Terminal 绘制 git 流程图（支持浏览器、React）。 ![](https://img.shields.io/github/stars/nicoespeon/gitgraph.js.svg?style=social&label=Star)
-- [pre-commit](https://github.com/observing/pre-commit) - 自动在您的git储存库中安装git pre-commit脚本，该脚本在pre-commit上运行您的`npm test`。 ![](https://img.shields.io/github/stars/observing/pre-commit.svg?style=social&label=Star)
-- [yorkie](https://github.com/yyx990803/yorkie) -  husky的Fork，让 Git 钩子变得简单(在 vue3 中使用) ![](https://img.shields.io/github/stars/yyx990803/yorkie.svg?style=social&label=Star)
-- [git-url-parse](https://github.com/IonicaBizau/git-url-parse) - 高级别git解析。 ![](https://img.shields.io/github/stars/IonicaBizau/git-url-parse.svg?style=social&label=Star)
-- [git-promise](https://github.com/piuccio/git-promise) - 简单的封装，可运行任何git命令，并使用promise处理其输出。 ![](https://img.shields.io/github/stars/piuccio/git-promise.svg?style=social&label=Star)
-- [gittar](https://github.com/lukeed/gittar) - 下载/提取git仓库 (GitHub, GitLab, BitBucket)，跨平台和优先离线。 ![](https://img.shields.io/github/stars/lukeed/gittar.svg?style=social&label=Star)
-- [parse-git-config](https://github.com/jonschlinkert/parse-git-config) - 将 `.git/config` 解析为 JavaScript 对象。 同步或异步。 ![](https://img.shields.io/github/stars/jonschlinkert/parse-git-config.svg?style=social&label=Star)
-- [remote-git-tags](https://github.com/sindresorhus/remote-git-tags) - 从远程仓库中获取标签。 ![](https://img.shields.io/github/stars/sindresorhus/remote-git-tags.svg?style=social&label=Star)
-- [giturl](https://github.com/repo-utils/giturl) - 将Git链接转化成Web链接。 ![](https://img.shields.io/github/stars/repo-utils/giturl.svg?style=social&label=Star)
-- [download-git-repo](https://gitlab.com/flippidippi/download-git-repo) - 下载和提取Git仓库 (支持GitHub, GitLab, Bitbucket)。
+- [husky](https://github.com/typicode/husky) - Modern native Git hooks made easy 🐶 woof! ![](https://img.shields.io/github/stars/typicode/husky.svg?style=social&label=Star)
+- [isomorphic-git](https://github.com/isomorphic-git/isomorphic-git) - A pure JavaScript implementation of git for node and browsers! ![](https://img.shields.io/github/stars/isomorphic-git/isomorphic-git.svg?style=social&label=Star)
+- [nodegit](https://github.com/nodegit/nodegit) - Node bindings to the libgit2 project. ![](https://img.shields.io/github/stars/nodegit/nodegit.svg?style=social&label=Star)
+- [js-git](https://github.com/creationix/js-git) - A JavaScript implementation of Git. ![](https://img.shields.io/github/stars/creationix/js-git.svg?style=social&label=Star)
+- [degit](https://github.com/Rich-Harris/degit) - Degit makes copies of git repositories. Straightforward project scaffolding. ![](https://img.shields.io/github/stars/Rich-Harris/degit.svg?style=social&label=Star)
+- [simple-git](https://github.com/steveukx/git-js) - A light weight interface for running git commands in any node.js application. ![](https://img.shields.io/github/stars/steveukx/git-js.svg?style=social&label=Star)
+- [gitgraph-node](https://github.com/nicoespeon/gitgraph.js/tree/master/packages/gitgraph-node) - Draw pretty git graphs in your terminal. ![](https://img.shields.io/github/stars/nicoespeon/gitgraph.js.svg?style=social&label=Star)
+- [pre-commit](https://github.com/observing/pre-commit) - Automatically installs a git pre-commit script in your git repository which runs your `npm test` on pre-commit. ![](https://img.shields.io/github/stars/observing/pre-commit.svg?style=social&label=Star)
+- [yorkie](https://github.com/yyx990803/yorkie) -  A fork of husky, 🐶 Git hooks made easy, used in vue3. ![](https://img.shields.io/github/stars/yyx990803/yorkie.svg?style=social&label=Star)
+- [git-url-parse](https://github.com/IonicaBizau/git-url-parse) - A high level git url parser for common git providers. ![](https://img.shields.io/github/stars/IonicaBizau/git-url-parse.svg?style=social&label=Star)
+- [git-promise](https://github.com/piuccio/git-promise) - Simple wrapper to run any git command and process it's output using promises. ![](https://img.shields.io/github/stars/piuccio/git-promise.svg?style=social&label=Star)
+- [gittar](https://github.com/lukeed/gittar) - Download and/or Extract git repositories (GitHub, GitLab, BitBucket). Cross-platform and Offline-first. ![](https://img.shields.io/github/stars/lukeed/gittar.svg?style=social&label=Star)
+- [parse-git-config](https://github.com/jonschlinkert/parse-git-config) - Parse `.git/config` into a JavaScript object. sync or async. ![](https://img.shields.io/github/stars/jonschlinkert/parse-git-config.svg?style=social&label=Star)
+- [remote-git-tags](https://github.com/sindresorhus/remote-git-tags) - Get tags from a remote git repo. Using only JS. ![](https://img.shields.io/github/stars/sindresorhus/remote-git-tags.svg?style=social&label=Star)
+- [giturl](https://github.com/repo-utils/giturl) - Transfer git url to web url. ![](https://img.shields.io/github/stars/repo-utils/giturl.svg?style=social&label=Star)
+- [download-git-repo](https://gitlab.com/flippidippi/download-git-repo) - Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.
 
-### 日志
+### Logging
 
-- [winston](https://github.com/winstonjs/winston) - 多传输异步日志记录库。 ![](https://img.shields.io/github/stars/winstonjs/winston.svg?style=social&label=Star)
-- [pino](https://github.com/pinojs/pino) - 受Bunyan启发的超快日志记录库。 ![](https://img.shields.io/github/stars/pinojs/pino.svg?style=social&label=Star)
-- [signale](https://github.com/klauscfhq/signale) - 高度可配置的日志工具。 ![](https://img.shields.io/github/stars/klauscfhq/signale.svg?style=social&label=Star)
-- [bunyan](https://github.com/trentm/node-bunyan) - 一个用于 Node.js 服务的简单快速的 JSON 日志模块。 ![](https://img.shields.io/github/stars/trentm/node-bunyan.svg?style=social&label=Star)
-- [log4js-node](https://github.com/log4js-node/log4js-node) - 不同于Java log4j的日志记录库。 ![](https://img.shields.io/github/stars/log4js-node/log4js-node.svg?style=social&label=Star)
-- [consola](https://github.com/nuxt/consola) - 优雅的Node.js和浏览器日志记录库。 ![](https://img.shields.io/github/stars/nuxt/consola.svg?style=social&label=Star)
-- [loglevel](https://github.com/pimterry/loglevel) - 小巧的轻量级日志记录，添加可靠的日志级别方法来封装任何可用的 console.log 方法。 ![](https://img.shields.io/github/stars/pimterry/loglevel.svg?style=social&label=Star)
-- [storyboard](https://github.com/guigrpa/storyboard) - 一个Chrome浏览器插件，用于查看日志。 ![](https://img.shields.io/github/stars/guigrpa/storyboard.svg?style=social&label=Star)
-- [cabin](https://github.com/cabinjs/cabin) - 提供日志服务和NPM包。 ![](https://img.shields.io/github/stars/cabinjs/cabin.svg?style=social&label=Star)
-- [fancy-log](https://github.com/gulpjs/fancy-log) - 带上时间前缀的日志记录库。 ![](https://img.shields.io/github/stars/gulpjs/fancy-log.svg?style=social&label=Star)
-- [caterpillar](https://github.com/bevry/caterpillar) - Caterpillar 是 Deno、Node.js 和 Web 浏览器的终极日志系统。日志级别实现了RFC标准。日志条目可以过滤并通过管道传输到各种流，包括多色输出到终端、浏览器的控制台和调试文件。你甚至可以编写自己的转换。 ![](https://img.shields.io/github/stars/bevry/caterpillar.svg?style=social&label=Star)
-- [captains-log](https://github.com/balderdashy/captains-log) - 通过简单的配置就可以使用的轻量日志记录库。 ![](https://img.shields.io/github/stars/balderdashy/captains-log.svg?style=social&label=Star)
+- [winston](https://github.com/winstonjs/winston) - Multi-transport async logging library. ![](https://img.shields.io/github/stars/winstonjs/winston.svg?style=social&label=Star)
+- [pino](https://github.com/pinojs/pino) - Extremely fast logger inspired by Bunyan. ![](https://img.shields.io/github/stars/pinojs/pino.svg?style=social&label=Star)
+- [signale](https://github.com/klauscfhq/signale) - Highly configurable logging utility. ![](https://img.shields.io/github/stars/klauscfhq/signale.svg?style=social&label=Star)
+- [bunyan](https://github.com/trentm/node-bunyan) - A simple and fast JSON logging module for node.js services. ![](https://img.shields.io/github/stars/trentm/node-bunyan.svg?style=social&label=Star)
+- [log4js-node](https://github.com/log4js-node/log4js-node) - A logging library which different from Java log4j. ![](https://img.shields.io/github/stars/log4js-node/log4js-node.svg?style=social&label=Star)
+- [consola](https://github.com/nuxt/consola) - Elegant Console Logger for Node.js and Browser. ![](https://img.shields.io/github/stars/nuxt/consola.svg?style=social&label=Star)
+- [loglevel](https://github.com/pimterry/loglevel) - Minimal lightweight logging for JavaScript, adding reliable log level methods to wrap any available console.log methods. ![](https://img.shields.io/github/stars/pimterry/loglevel.svg?style=social&label=Star)
+- [storyboard](https://github.com/guigrpa/storyboard) - A library, plus a Chrome DevTools extension. ![](https://img.shields.io/github/stars/guigrpa/storyboard.svg?style=social&label=Star)
+- [cabin](https://github.com/cabinjs/cabin) - Best JavaScript and Node.js logging service and logging npm package. ![](https://img.shields.io/github/stars/cabinjs/cabin.svg?style=social&label=Star)
+- [fancy-log](https://github.com/gulpjs/fancy-log) - Log things, prefixed with a timestamp. ![](https://img.shields.io/github/stars/gulpjs/fancy-log.svg?style=social&label=Star)
+- [caterpillar](https://github.com/bevry/caterpillar) - Caterpillar is the ultimate logging system for Deno, Node.js, and Web Browsers. Log levels are implemented to the RFC standard. Log entries can be filtered and piped to various streams, including coloured output to the terminal, the browser's console, and debug files. You can even write your own transforms. ![](https://img.shields.io/github/stars/bevry/caterpillar.svg?style=social&label=Star)
+- [captains-log](https://github.com/balderdashy/captains-log) - Lightweight logger with a simple pass-through configuration for use with fancier logging librarie. ![](https://img.shields.io/github/stars/balderdashy/captains-log.svg?style=social&label=Star)
 
-### 进程管理
+### Process management
 
-- [PM2](https://github.com/Unitech/pm2) - 高级进程管理工具。 ![](https://img.shields.io/github/stars/Unitech/pm2.svg?style=social&label=Star)
-- [nodemon](https://github.com/remy/nodemon) - 监视应用程序中的更改并自动重新启动服务器。 ![](https://img.shields.io/github/stars/remy/nodemon.svg?style=social&label=Star)
-- [forever](https://github.com/foreversd/forever) - 简单的CLI工具，用于确认提供的代码持续运行。 ![](https://img.shields.io/github/stars/foreversd/forever.svg?style=social&label=Star)
-- [supervisor](https://github.com/petruisfan/node-supervisor) - 当脚本崩溃时重新启动脚本，或者当`*.js'文件更改时重新启动脚本。 ![](https://img.shields.io/github/stars/petruisfan/node-supervisor.svg?style=social&label=Star)
-- [node-windows](https://github.com/coreybutler/node-windows) - 将脚本作为本机Windows服务运行，并登录到事件查看器。 ![](https://img.shields.io/github/stars/coreybutler/node-windows.svg?style=social&label=Star)
-- [node-mac](https://github.com/coreybutler/node-mac) - 将脚本作为本机Mac守护进程运行，并登录到控制台应用程序。 ![](https://img.shields.io/github/stars/coreybutler/node-mac.svg?style=social&label=Star)
-- [node-linux](https://github.com/coreybutler/node-linux) - 将脚本作为本机系统服务运行，并登录到syslog。 ![](https://img.shields.io/github/stars/coreybutler/node-linux.svg?style=social&label=Star)
-- [current-processes](https://github.com/branneman/current-processes) - 可获取当前正在运行的进程快照（操作系统无关）。 ![](https://img.shields.io/github/stars/branneman/current-processes.svg?style=social&label=Star)
+- [PM2](https://github.com/Unitech/pm2) - Advanced Process Manager. ![](https://img.shields.io/github/stars/Unitech/pm2.svg?style=social&label=Star)
+- [nodemon](https://github.com/remy/nodemon) - Monitor for changes in your app and automatically restart the server. ![](https://img.shields.io/github/stars/remy/nodemon.svg?style=social&label=Star)
+- [forever](https://github.com/foreversd/forever) - A simple CLI tool for ensuring that a given script runs continuously. ![](https://img.shields.io/github/stars/foreversd/forever.svg?style=social&label=Star)
+- [supervisor](https://github.com/petruisfan/node-supervisor) - Restart scripts when they crash or restart when a `*.js` file changes. ![](https://img.shields.io/github/stars/petruisfan/node-supervisor.svg?style=social&label=Star)
+- [node-windows](https://github.com/coreybutler/node-windows) - Run scripts as a native Windows service and log to the Event viewer. ![](https://img.shields.io/github/stars/coreybutler/node-windows.svg?style=social&label=Star)
+- [node-mac](https://github.com/coreybutler/node-mac) - Run scripts as a native Mac daemon and log to the console app. ![](https://img.shields.io/github/stars/coreybutler/node-mac.svg?style=social&label=Star)
+- [node-linux](https://github.com/coreybutler/node-linux) - Run scripts as native system service and log to syslog. ![](https://img.shields.io/github/stars/coreybutler/node-linux.svg?style=social&label=Star)
+- [current-processes](https://github.com/branneman/current-processes) - Node.js library to get a snapshot of the currently running processes, OS-agnostic. ![](https://img.shields.io/github/stars/branneman/current-processes.svg?style=social&label=Star)
 
-### 代码校验 和 格式化工具
+### Linter & Formatter
 
-- [prettier](https://github.com/prettier/prettier) - ❤"有主见"的多语言代码格式化程序。 ![](https://img.shields.io/github/stars/prettier/prettier.svg?style=social&label=Star)
-- [standard](https://github.com/standard/standard) - JavaScript 代码规范，自带 linter & 代码自动修正。 ![](https://img.shields.io/github/stars/standard/standard.svg?style=social&label=Star)
-- [eslint](https://github.com/eslint/eslint) - 插件化并且可配置的 JavaScript 语法规则和代码风格的检查工具。 ![](https://img.shields.io/github/stars/eslint/eslint.svg?style=social&label=Star)
-- [stylelint](https://github.com/stylelint/stylelint) - 功能强大现代风格检查工具，帮助你避免错误和强制约定样式风格。 ![](https://img.shields.io/github/stars/stylelint/stylelint.svg?style=social&label=Star)
-- [lint-staged](https://github.com/okonet/lint-staged) - 在Git暂存文件上运行风格检查工具。 ![](https://img.shields.io/github/stars/okonet/lint-staged.svg?style=social&label=Star)
-- [commitlint](https://github.com/conventional-changelog/commitlint) - Git提交信息风格检查工具。 ![](https://img.shields.io/github/stars/conventional-changelog/commitlint.svg?style=social&label=Star)
-- [js-beautify](https://github.com/beautify-web/js-beautify) - Javascript美化工具。 ![](https://img.shields.io/github/stars/beautify-web/js-beautify.svg?style=social&label=Star)
-- [xo](https://github.com/xojs/xo) - 带出色默认配置的JavaScript/TypeScript代码校验 (基于ESLint封装) ![](https://img.shields.io/github/stars/xojs/xo.svg?style=social&label=Star)
-- [markdownlint](https://github.com/DavidAnson/markdownlint) - Markdown/CommonMark风格检查工具。 ![](https://img.shields.io/github/stars/DavidAnson/markdownlint.svg?style=social&label=Star)
-- [textlint](https://github.com/textlint/textlint) - Text 和 Markdown 校验和格式化。 ![](https://img.shields.io/github/stars/textlint/textlint.svg?style=social&label=Star)
-- [pretty-quick](https://github.com/azz/pretty-quick) - 快速美化。 ![](https://img.shields.io/github/stars/azz/pretty-quick.svg?style=social&label=Star)
-- [dtslint](https://github.com/Microsoft/dtslint) - 基于 TSLint 构建的实用程序，用于对 TypeScript 声明 (.d.ts) 文件进行 linting。 ![](https://img.shields.io/github/stars/Microsoft/dtslint.svg?style=social&label=Star)
+- [prettier](https://github.com/prettier/prettier) - ❤Prettier is an opinionated code formatter. ![](https://img.shields.io/github/stars/prettier/prettier.svg?style=social&label=Star)
+- [standard](https://github.com/standard/standard) - JavaScript Style Guide, with linter & automatic code fixer. ![](https://img.shields.io/github/stars/standard/standard.svg?style=social&label=Star)
+- [eslint](https://github.com/eslint/eslint) - Find and fix problems in your JavaScript code. ![](https://img.shields.io/github/stars/eslint/eslint.svg?style=social&label=Star)
+- [stylelint](https://github.com/stylelint/stylelint) - Mighty, modern linter that helps you avoid errors and enforce conventions in your styles. ![](https://img.shields.io/github/stars/stylelint/stylelint.svg?style=social&label=Star)
+- [lint-staged](https://github.com/okonet/lint-staged) - Run linters on git staged files. ![](https://img.shields.io/github/stars/okonet/lint-staged.svg?style=social&label=Star)
+- [commitlint](https://github.com/conventional-changelog/commitlint) - Lint commit messages. ![](https://img.shields.io/github/stars/conventional-changelog/commitlint.svg?style=social&label=Star)
+- [js-beautify](https://github.com/beautify-web/js-beautify) - Beautifier for javascript. ![](https://img.shields.io/github/stars/beautify-web/js-beautify.svg?style=social&label=Star)
+- [xo](https://github.com/xojs/xo) - JavaScript/TypeScript linter (ESLint wrapper) with great defaults ![](https://img.shields.io/github/stars/xojs/xo.svg?style=social&label=Star)
+- [markdownlint](https://github.com/DavidAnson/markdownlint) - A Node.js style checker and lint tool for Markdown/CommonMark files. ![](https://img.shields.io/github/stars/DavidAnson/markdownlint.svg?style=social&label=Star)
+- [textlint](https://github.com/textlint/textlint) - The pluggable natural language linter for text and markdown. ![](https://img.shields.io/github/stars/textlint/textlint.svg?style=social&label=Star)
+- [pretty-quick](https://github.com/azz/pretty-quick) - ⚡ Get Pretty Quick. ![](https://img.shields.io/github/stars/azz/pretty-quick.svg?style=social&label=Star)
+- [dtslint](https://github.com/Microsoft/dtslint) - A utility built on TSLint for linting TypeScript declaration (.d.ts) files. ![](https://img.shields.io/github/stars/Microsoft/dtslint.svg?style=social&label=Star)
 
-### 配置工具
+### Configuration Tools
 
-- [node-config](https://github.com/lorenwest/node-config) - Node.js 应用程序配置。 ![](https://img.shields.io/github/stars/lorenwest/node-config.svg?style=social&label=Star)
-- [nconf](https://github.com/indexzero/nconf) - 可通过文件、环境变量、命令行参数和对象 合并的分层 Node.js 配置。 ![](https://img.shields.io/github/stars/indexzero/nconf.svg?style=social&label=Star)
-- [convict](https://github.com/mozilla/node-convict/tree/master/packages/convict) - Convict 扩展了配置 node.js 应用程序的标准模式，提供了更健壮且易于访问。 ![](https://img.shields.io/github/stars/mozilla/node-convict.svg?style=social&label=Star)
-- [rc](https://github.com/dominictarr/rc) - 懒人的配置加载器。 ![](https://img.shields.io/github/stars/dominictarr/rc.svg?style=social&label=Star)
+- [node-config](https://github.com/lorenwest/node-config) - Node.js Application Configuration. ![](https://img.shields.io/github/stars/lorenwest/node-config.svg?style=social&label=Star)
+- [nconf](https://github.com/indexzero/nconf) - Hierarchical node.js configuration with files, environment variables, command-line arguments, and atomic object merging. ![](https://img.shields.io/github/stars/indexzero/nconf.svg?style=social&label=Star)
+- [convict](https://github.com/mozilla/node-convict/tree/master/packages/convict) - Convict expands on the standard pattern of configuring node.js applications in a way that is more robust and accessible to collaborators. ![](https://img.shields.io/github/stars/mozilla/node-convict.svg?style=social&label=Star)
+- [rc](https://github.com/dominictarr/rc) - The non-configurable configuration loader for lazy people. ![](https://img.shields.io/github/stars/dominictarr/rc.svg?style=social&label=Star)
 
-### 构建工具
+### Build Tools
 
-- [webpack](https://github.com/webpack/webpack) - 打包浏览器的模块和资产。 ![](https://img.shields.io/github/stars/webpack/webpack.svg?style=social&label=Star)
-- [parcel](https://github.com/parcel-bundler/parcel) - 快速，零配置的Web应用构建工具。 ![](https://img.shields.io/github/stars/parcel-bundler/parcel.svg?style=social&label=Star)
-- [gulp](https://github.com/gulpjs/gulp) - 流式快速构建系统，支持代码而不是配置。 ![](https://img.shields.io/github/stars/gulpjs/gulp.svg?style=social&label=Star)
-- [esbuild](https://github.com/evanw/esbuild) - 极快的JavaScript打包压缩工具。 ![](https://img.shields.io/github/stars/evanw/esbuild.svg?style=social&label=Star)
-- [rollup](https://github.com/rollup/rollup) - 新一代的 ES2015 打包构建工具。 ![](https://img.shields.io/github/stars/rollup/rollup.svg?style=social&label=Star)
-- [pkg](https://github.com/zeit/pkg) - 将Node.js项目打包成可执行文件。 ![](https://img.shields.io/github/stars/zeit/pkg.svg?style=social&label=Star)
-- [Grunt](https://github.com/gruntjs/grunt) - JavaScript任务执行器。 ![](https://img.shields.io/github/stars/gruntjs/grunt.svg?style=social&label=Star)
-- [Brunch](https://github.com/brunch/brunch) - 前端web应用程序构建工具，具有简单的声明性配置、快速的增量编译和自定的工作流。 ![](https://img.shields.io/github/stars/brunch/brunch.svg?style=social&label=Star)
-- [FuseBox](https://github.com/fuse-box/fuse-box) - 快速构建系统，结合了webpack，JSPM和SystemJS的强大功能，并具有一流的TypeScript支持。 ![](https://img.shields.io/github/stars/fuse-box/fuse-box.svg?style=social&label=Star)
-- [Broccoli](https://github.com/broccolijs/broccoli) - 快速、可靠的资产管道，支持固定时间重建和紧凑的构建定义。 ![](https://img.shields.io/github/stars/broccolijs/broccoli.svg?style=social&label=Star)
+- [webpack](https://github.com/webpack/webpack) - Packs modules and assets for the browser. ![](https://img.shields.io/github/stars/webpack/webpack.svg?style=social&label=Star)
+- [parcel](https://github.com/parcel-bundler/parcel) - Blazing fast, zero config web app bundler. ![](https://img.shields.io/github/stars/parcel-bundler/parcel.svg?style=social&label=Star)
+- [gulp](https://github.com/gulpjs/gulp) - Streaming and fast build system that favors code over config. ![](https://img.shields.io/github/stars/gulpjs/gulp.svg?style=social&label=Star)
+- [esbuild](https://github.com/evanw/esbuild) - An extremely fast JavaScript bundler and minifier. ![](https://img.shields.io/github/stars/evanw/esbuild.svg?style=social&label=Star)
+- [rollup](https://github.com/rollup/rollup) - Next-generation ES2015 module bundler. ![](https://img.shields.io/github/stars/rollup/rollup.svg?style=social&label=Star)
+- [pkg](https://github.com/zeit/pkg) - Package your Node.js project into an executable. ![](https://img.shields.io/github/stars/zeit/pkg.svg?style=social&label=Star)
+- [Grunt](https://github.com/gruntjs/grunt) - JavaScript Task Runner ![](https://img.shields.io/github/stars/gruntjs/grunt.svg?style=social&label=Star)
+- [Brunch](https://github.com/brunch/brunch) - Front-end web app build tool with simple declarative config, fast incremental compilation, and an opinionated workflow. ![](https://img.shields.io/github/stars/brunch/brunch.svg?style=social&label=Star)
+- [FuseBox](https://github.com/fuse-box/fuse-box) - Fast build system that combines the power of webpack, JSPM and SystemJS, with first-class TypeScript support. ![](https://img.shields.io/github/stars/fuse-box/fuse-box.svg?style=social&label=Star)
+- [Broccoli](https://github.com/broccolijs/broccoli) - Fast, reliable asset pipeline, supporting constant-time rebuilds and compact build definitions. ![](https://img.shields.io/github/stars/broccolijs/broccoli.svg?style=social&label=Star)
 
 - ESM
-  - [Vite](https://github.com/vitejs/vite) - 新一代前端构建工具。 ![](https://img.shields.io/github/stars/vitejs/vite.svg?style=social&label=Star)
-  - [snowpack](https://github.com/snowpackjs/snowpack) - 由ESM支持的前端构建工具。 即时，轻量级，无捆绑开发。 ![](https://img.shields.io/github/stars/snowpackjs/snowpack.svg?style=social&label=Star)
+  - [Vite](https://github.com/vitejs/vite) - Next Generation Frontend Tooling. ![](https://img.shields.io/github/stars/vitejs/vite.svg?style=social&label=Star)
+  - [snowpack](https://github.com/snowpackjs/snowpack) - ESM-powered frontend build tool. Instant, lightweight, unbundled development. ![](https://img.shields.io/github/stars/snowpackjs/snowpack.svg?style=social&label=Star)
 
-### 模板引擎
+### Templating
 
-- [Pug](https://github.com/pugjs/pug) - 受Haml启发的高性能模板引擎。 ![](https://img.shields.io/github/stars/pugjs/pug.svg?style=social&label=Star)
-- [handlebars.js](https://github.com/wycats/handlebars.js) - Mustache 模板的超集，添加了强大的功能，如helper和更高级的block。 ![](https://img.shields.io/github/stars/wycats/handlebars.js.svg?style=social&label=Star)
-- [mustache.js](https://github.com/janl/mustache.js) - 轻量的JavaScript模板引擎{{八字须}}。 ![](https://img.shields.io/github/stars/janl/mustache.js.svg?style=social&label=Star)
-- [marko](https://github.com/marko-js/marko) - 基于HTML的模板引擎，编译成CommonJS模块，支持流、异步渲染和自定义标签。 ![](https://img.shields.io/github/stars/marko-js/marko.svg?style=social&label=Star)
-- [art-template](https://github.com/aui/art-template) - 高性能JavaScript模板引擎。 ![](https://img.shields.io/github/stars/aui/art-template.svg?style=social&label=Star)
-- [nunjucks](https://github.com/mozilla/nunjucks) - 具有继承，异步控制等功能的模板引擎（受Jinja2启发）。 ![](https://img.shields.io/github/stars/mozilla/nunjucks.svg?style=social&label=Star)
-- [EJS](https://github.com/mde/ejs) - 超级简单的模板语言。 ![](https://img.shields.io/github/stars/mde/ejs.svg?style=social&label=Star)
-- [hogan.js](https://github.com/twitter/hogan.js) - {{八字须}} 样式的模板语言。 ![](https://img.shields.io/github/stars/twitter/hogan.js.svg?style=social&label=Star)
-- [doT](https://github.com/olado/doT) - 最快简洁的JavaScript模板引擎。 ![](https://img.shields.io/github/stars/olado/doT.svg?style=social&label=Star)
-- [dustjs](https://github.com/linkedin/dustjs) - 用于浏览器和服务器的异步Javascript模板。 ![](https://img.shields.io/github/stars/linkedin/dustjs.svg?style=social&label=Star)
-- [jsrender](https://github.com/BorisMoore/jsrender) -  轻巧，功能强大且高度可扩展的模板引擎。 ![](https://img.shields.io/github/stars/BorisMoore/jsrender.svg?style=social&label=Star)
-- [Twig.js](https://github.com/twigjs/twig.js) - Twig模板语言的JavaScript实现。 ![](https://img.shields.io/github/stars/twigjs/twig.js.svg?style=social&label=Star)
-- [hbs](https://github.com/pillarjs/hbs) - Handlebars的Express版本封装。 ![](https://img.shields.io/github/stars/pillarjs/hbs.svg?style=social&label=Star)
-- [Juicer](https://github.com/PaulGuo/Juicer) - 轻量级JavaScript模板引擎。 ![](https://img.shields.io/github/stars/PaulGuo/Juicer.svg?style=social&label=Star)
-- [tempo](https://github.com/twigkit/tempo) - Tempo是一个简单，直观的JavaScript渲染引擎，使您能够以纯HTML格式制作数据模板。 ![](https://img.shields.io/github/stars/twigkit/tempo.svg?style=social&label=Star)
-- [xtemplate](https://github.com/xtemplate/xtemplate) - 用于浏览器和Node.js上的高速，可扩展模板引擎库。支持异步控制，继承，包含，逻辑表达式，自定义函数等。 ![](https://img.shields.io/github/stars/xtemplate/xtemplate.svg?style=social&label=Star)
+- [Pug](https://github.com/pugjs/pug) - High-performance template engine heavily influenced by Haml. ![](https://img.shields.io/github/stars/pugjs/pug.svg?style=social&label=Star)
+- [handlebars.js](https://github.com/wycats/handlebars.js) - Superset of Mustache templates which adds powerful features like helpers and more advanced blocks. ![](https://img.shields.io/github/stars/wycats/handlebars.js.svg?style=social&label=Star)
+- [mustache.js](https://github.com/janl/mustache.js) - Minimal templating with {{mustaches}} in JavaScript. ![](https://img.shields.io/github/stars/janl/mustache.js.svg?style=social&label=Star)
+- [marko](https://github.com/marko-js/marko) - HTML-based templating engine that compiles templates to CommonJS modules and supports streaming, async rendering and custom tags. ![](https://img.shields.io/github/stars/marko-js/marko.svg?style=social&label=Star)
+- [art-template](https://github.com/aui/art-template) - High performance JavaScript templating engine. ![](https://img.shields.io/github/stars/aui/art-template.svg?style=social&label=Star)
+- [nunjucks](https://github.com/mozilla/nunjucks) - Templating engine with inheritance, asynchronous control, and more (jinja2 inspired). ![](https://img.shields.io/github/stars/mozilla/nunjucks.svg?style=social&label=Star)
+- [EJS](https://github.com/mde/ejs) - Simple unopinionated templating language. ![](https://img.shields.io/github/stars/mde/ejs.svg?style=social&label=Star)
+- [hogan.js](https://github.com/twitter/hogan.js) - A compiler for the Mustache templating language. ![](https://img.shields.io/github/stars/twitter/hogan.js.svg?style=social&label=Star)
+- [doT](https://github.com/olado/doT) - Fastest + concise javascript template engine for nodejs and browsers. Partials, custom delimiters and more. ![](https://img.shields.io/github/stars/olado/doT.svg?style=social&label=Star)
+- [jsrender](https://github.com/BorisMoore/jsrender) - A lightweight, powerful and highly extensible templating engine. In the browser or on Node.js, with or without jQuery. ![](https://img.shields.io/github/stars/BorisMoore/jsrender.svg?style=social&label=Star)
+- [Twig.js](https://github.com/twigjs/twig.js) - JS implementation of the Twig Templating Language. ![](https://img.shields.io/github/stars/twigjs/twig.js.svg?style=social&label=Star)
+- [hbs](https://github.com/pillarjs/hbs) - Express view engine wrapper for Handlebars. ![](https://img.shields.io/github/stars/pillarjs/hbs.svg?style=social&label=Star)
+- [Juicer](https://github.com/PaulGuo/Juicer) - A Lightweight JavaScript Template Engine. ![](https://img.shields.io/github/stars/PaulGuo/Juicer.svg?style=social&label=Star)
+- [tempo](https://github.com/twigkit/tempo) - Tempo is an easy, intuitive JavaScript rendering engine that enables you to craft data templates in pure HTML. ![](https://img.shields.io/github/stars/twigkit/tempo.svg?style=social&label=Star)
+- [xtemplate](https://github.com/xtemplate/xtemplate) - High Speed, eXtensible Template Engine lib on browser and nodejs. support async control, inheritance, include, logic expression, custom function and more. ![](https://img.shields.io/github/stars/xtemplate/xtemplate.svg?style=social&label=Star)
 
-### Web框架
+### Web Frameworks
 
-- [Express](https://github.com/expressjs/express) - Web应用程序框架，为构建单页和多页以及混合Web应用程序提供了一组强大的功能。 ![](https://img.shields.io/github/stars/expressjs/express.svg?style=social&label=Star)
-- [Next.js](https://github.com/zeit/next.js) - React服务端渲染框架。 ![](https://img.shields.io/github/stars/zeit/next.js.svg?style=social&label=Star)
-  - [blitz](https://github.com/blitz-js/blitz) - 全栈 React 框架——建立在 Next.js 之上。 ![](https://img.shields.io/github/stars/blitz-js/blitz.svg?style=social&label=Star)
-- [Meteor](https://github.com/meteor/meteor) - 超简单，无处不在的数据库，在线数据，纯Javascript Web框架。 *（你也许会喜欢 [awesome-meteor](https://github.com/Urigo/awesome-meteor))* ![](https://img.shields.io/github/stars/meteor/meteor.svg?style=social&label=Star)
-- [Nuxt.js](https://github.com/nuxt/nuxt.js) - Vue服务端渲染框架。 ![](https://img.shields.io/github/stars/nuxt/nuxt.js.svg?style=social&label=Star)
-- [Nest](https://github.com/nestjs/nest) -受Angular启发的框架，用于构建高效且可扩展的服务器端应用程序。*(你也许会喜欢 [awesome-nestjs](https://github.com/juliandavidmr/awesome-nestjs))* ![](https://img.shields.io/github/stars/nestjs/nest.svg?style=social&label=Star)
-- [Koa](https://github.com/koajs/koa) - 由Express背后的团队设计的框架，旨在为Web应用程序和API提供更小，更富表现力和更强大的基础。 ![](https://img.shields.io/github/stars/koajs/koa.svg?style=social&label=Star)
-  - *(你也许喜欢 [awesome-koa](https://github.com/huaize2020/awesome-koa))*
-- [sails](https://github.com/balderdashy/sails) - Node.js实时MVC框架。 ![](https://img.shields.io/github/stars/balderdashy/sails.svg?style=social&label=Star)
-- [Fastify](https://github.com/fastify/fastify) - 快速和低开销的Web框架。 ![](https://img.shields.io/github/stars/fastify/fastify.svg?style=social&label=Star)
-- [Hapi](https://github.com/hapijs/hapi) - 用于创建应用和服务的框架。 ![](https://img.shields.io/github/stars/hapijs/hapi.svg?style=social&label=Star)
-- [Egg](https://github.com/eggjs/egg) - 为企业级框架和应用而生。 ![](https://img.shields.io/github/stars/eggjs/egg.svg?style=social&label=Star)
-- [Feathers](https://github.com/feathersjs/feathers) - 基于Express精神构建的微服务框架。 ![](https://img.shields.io/github/stars/feathersjs/feathers.svg?style=social&label=Star)
-- [LoopBack](https://github.com/strongloop/loopback-next) - 用于创建REST API并轻松连接到后端数据源的强大框架。 ![](https://img.shields.io/github/stars/strongloop/loopback-next.svg?style=social&label=Star)
-- [Restify](https://github.com/restify/node-restify) - 使你能够构建正确的REST Web服务。 ![](https://img.shields.io/github/stars/restify/node-restify.svg?style=social&label=Star)
-- [ThinkJS](https://github.com/thinkjs/thinkjs) - 支持ES2015 +的框架，WebSockets，REST API。 ![](https://img.shields.io/github/stars/thinkjs/thinkjs.svg?style=social&label=Star)
-- [total.js](https://github.com/totaljs/framework) - 使用纯JavaScript编写的Node.js框架，类似PHP's Laravel或Python's Django或ASP.NET MVC ![](https://img.shields.io/github/stars/totaljs/framework.svg?style=social&label=Star)
-- [AdonisJs](http://adonisjs.com) - 基于依赖注入和IoC容器的坚实基础构建的Node.js的真正MVC框架。
-- [Micro](https://github.com/zeit/micro) - 具有异步方法的简约微服务框架。 ![](https://img.shields.io/github/stars/zeit/micro.svg?style=social&label=Star)
-- [Moleculer](https://moleculer.services) - 快速而强大的微服务框架。
-- [Midway](https://github.com/midwayjs/midway) - 一个面向未来的云端一体 Node.js 框架。 ![](https://img.shields.io/github/stars/midwayjs/midway.svg?style=social&label=Star)
-- [seneca](https://github.com/senecajs/seneca) - 编写微服务的工具包。 ![](https://img.shields.io/github/stars/senecajs/seneca.svg?style=social&label=Star)
-- [server](https://github.com/franciscop/server) - 简单而强大的 Node.js 服务器。 ![](https://img.shields.io/github/stars/franciscop/server.svg?style=social&label=Star)
-- [beidou](https://github.com/alibaba/beidou) - NodeJS & React 同构框架，基于Egg.js开发。 ![](https://img.shields.io/github/stars/alibaba/beidou.svg?style=social&label=Star)
-- [Marble.js](https://github.com/marblejs/marble) - 基于TypeScript和RxJS，用于构建服务端应用的函数响应式框架。 ![](https://img.shields.io/github/stars/marblejs/marble.svg?style=social&label=Star)
-- [ActionHero](https://github.com/actionhero/actionhero) - 用于为TCP套接字，WebSocket和HTTP客户端制作可重用和可扩展的API的框架。 ![](https://img.shields.io/github/stars/actionhero/actionhero.svg?style=social&label=Star)
-- [lad](https://github.com/ladjs/lad) - 最好的Node.js框架，由前Express和Koa团队成员创建。 ![](https://img.shields.io/github/stars/ladjs/lad.svg?style=social&label=Star)
-- [Tinyhttp](https://github.com/talentlessguy/tinyhttp) - 类Express更现代更快的Web框架。 ![](https://img.shields.io/github/stars/talentlessguy/tinyhttp.svg?style=social&label=Star)
-- [daruk](https://github.com/darukjs/daruk) - 基于 typescript 的 Node.js web 框架。 ![](https://img.shields.io/github/stars/darukjs/daruk.svg?style=social&label=Star)
-- [Hemera](https://github.com/hemerajs/hemera) - 使用以下工具编写可靠且容错的微服务 [NATS](https://nats.io)。 ![](https://img.shields.io/github/stars/hemerajs/hemera.svg?style=social&label=Star)
-- [restana](https://github.com/BackendStack21/restana) - 用于构建REST微服务的超快速和简约的框架。 ![](https://img.shields.io/github/stars/BackendStack21/restana.svg?style=social&label=Star)
-- [CabloyJS](https://github.com/zhennann/Cabloy) - 一款自带工作流引擎的Node.js全栈框架。 ![](https://img.shields.io/github/stars/zhennann/Cabloy.svg?style=social&label=Star)
-- [malagu](https://github.com/cellbang/malagu) - Malagu 是基于 TypeScript 的 Serverless First、可扩展和组件化的应用框架。 ![](https://img.shields.io/github/stars/cellbang/malagu.svg?style=social&label=Star)
-- [Zeronode](https://github.com/sfast/zeronode) - 最小的构建块，可实现可靠且容错的微服务。 ![](https://img.shields.io/github/stars/sfast/zeronode.svg?style=social&label=Star)
+- [Express](https://github.com/expressjs/express) - Web application framework, providing a robust set of features for building single and multi-page, and hybrid web applications. ![](https://img.shields.io/github/stars/expressjs/express.svg?style=social&label=Star)
+- [Next.js](https://github.com/zeit/next.js) - Minimalistic framework for server-rendered universal JavaScript web apps. ![](https://img.shields.io/github/stars/zeit/next.js.svg?style=social&label=Star)
+  - [blitz](https://github.com/blitz-js/blitz) - ⚡️The Fullstack React Framework — built on Next.js. ![](https://img.shields.io/github/stars/blitz-js/blitz.svg?style=social&label=Star)
+- [Meteor](https://github.com/meteor/meteor) - An ultra-simple, database-everywhere, data-on-the-wire, pure-Javascript web framework. *(You might like [awesome-meteor](https://github.com/Urigo/awesome-meteor))* ![](https://img.shields.io/github/stars/meteor/meteor.svg?style=social&label=Star)
+- [Nuxt.js](https://github.com/nuxt/nuxt.js) - Minimalistic framework for server-rendered Vue.js apps. ![](https://img.shields.io/github/stars/nuxt/nuxt.js.svg?style=social&label=Star)
+- [Nest](https://github.com/nestjs/nest) - Angular-inspired framework for building efficient and scalable server-side apps. *(You might like [awesome-nestjs](https://github.com/juliandavidmr/awesome-nestjs))* ![](https://img.shields.io/github/stars/nestjs/nest.svg?style=social&label=Star)
+- [Koa](https://github.com/koajs/koa) - Framework designed by the team behind Express, which aims to be a smaller, more expressive, and more robust foundation for web applications and APIs. ![](https://img.shields.io/github/stars/koajs/koa.svg?style=social&label=Star)
+  - *(You might like [awesome-koa](https://github.com/huaize2020/awesome-koa/blob/main/README-en.md))*
+- [sails](https://github.com/balderdashy/sails) - Realtime MVC Framework for Node.js. ![](https://img.shields.io/github/stars/balderdashy/sails.svg?style=social&label=Star)
+- [Fastify](https://github.com/fastify/fastify) - Fast and low overhead web framework. ![](https://img.shields.io/github/stars/fastify/fastify.svg?style=social&label=Star)
+- [Hapi](https://github.com/hapijs/hapi) - Framework for building applications and services. ![](https://img.shields.io/github/stars/hapijs/hapi.svg?style=social&label=Star)
+- [Egg](https://github.com/eggjs/egg) - Born to build better enterprise frameworks and apps with Node.js & Koa. ![](https://img.shields.io/github/stars/eggjs/egg.svg?style=social&label=Star)
+- [Feathers](https://github.com/feathersjs/feathers) - Microservice framework built in the spirit of Express. ![](https://img.shields.io/github/stars/feathersjs/feathers.svg?style=social&label=Star)
+- [LoopBack](https://github.com/strongloop/loopback-next) - Powerful framework for creating REST APIs and easily connecting to backend data sources. ![](https://img.shields.io/github/stars/strongloop/loopback-next.svg?style=social&label=Star)
+- [Restify](https://github.com/restify/node-restify) - Enables you to build correct REST web services. ![](https://img.shields.io/github/stars/restify/node-restify.svg?style=social&label=Star)
+- [ThinkJS](https://github.com/thinkjs/thinkjs) - Framework with ES2015+ support, WebSockets, REST API. ![](https://img.shields.io/github/stars/thinkjs/thinkjs.svg?style=social&label=Star)
+- [total.js](https://github.com/totaljs/framework) - A framework for Node.js platfrom written in pure JavaScript similar to PHP's Laravel or Python's Django or ASP.NET MVC ![](https://img.shields.io/github/stars/totaljs/framework.svg?style=social&label=Star)
+- [AdonisJs](http://adonisjs.com) - A true MVC framework for Node.js built on solid foundations of Dependency Injection and IoC container.
+- [Micro](https://github.com/zeit/micro) - Minimalistic microservice framework with an async approach. ![](https://img.shields.io/github/stars/zeit/micro.svg?style=social&label=Star)
+- [Moleculer](https://moleculer.services) - Fast & powerful microservices framework.
+- [Midway](https://github.com/midwayjs/midway) - A Node.js framework for building Serverless services, traditional server-side applications, microservices, and small programs. ![](https://img.shields.io/github/stars/midwayjs/midway.svg?style=social&label=Star)
+- [seneca](https://github.com/senecajs/seneca) - Toolkit for writing microservices. ![](https://img.shields.io/github/stars/senecajs/seneca.svg?style=social&label=Star)
+- [server](https://github.com/franciscop/server) - Simple and powerful server for Node.js. ![](https://img.shields.io/github/stars/franciscop/server.svg?style=social&label=Star)
+- [beidou](https://github.com/alibaba/beidou) - Isomorphic framework for server-rendered React apps. ![](https://img.shields.io/github/stars/alibaba/beidou.svg?style=social&label=Star)
+- [Marble.js](https://github.com/marblejs/marble) - Functional reactive framework for building server-side apps, based on TypeScript and RxJS. ![](https://img.shields.io/github/stars/marblejs/marble.svg?style=social&label=Star)
+- [ActionHero](https://github.com/actionhero/actionhero) - Framework for making reusable & scalable APIs for TCP sockets, WebSockets, and HTTP clients. ![](https://img.shields.io/github/stars/actionhero/actionhero.svg?style=social&label=Star)
+- [lad](https://github.com/ladjs/lad) - The best Node.js framework. Made by a former Express TC and Koa team member. ![](https://img.shields.io/github/stars/ladjs/lad.svg?style=social&label=Star)
+- [Tinyhttp](https://github.com/talentlessguy/tinyhttp) - Modern and fast Express-like web framework. ![](https://img.shields.io/github/stars/talentlessguy/tinyhttp.svg?style=social&label=Star)
+- [daruk](https://github.com/darukjs/daruk) - A node.js web framework based on typescript. ![](https://img.shields.io/github/stars/darukjs/daruk.svg?style=social&label=Star)
+- [Hemera](https://github.com/hemerajs/hemera) - Write reliable and fault-tolerant microservices with [NATS](https://nats.io). ![](https://img.shields.io/github/stars/hemerajs/hemera.svg?style=social&label=Star)
+- [restana](https://github.com/BackendStack21/restana) - Super fast and minimalist framework for building REST micro-services. ![](https://img.shields.io/github/stars/BackendStack21/restana.svg?style=social&label=Star)
+- [CabloyJS](https://github.com/zhennann/Cabloy) - A Node.js full-stack framework with workflow engine, based on koa + egg + vue + framework7. ![](https://img.shields.io/github/stars/zhennann/Cabloy.svg?style=social&label=Star)
+- [malagu](https://github.com/cellbang/malagu) - Malagu is a serverless First, scalable and componentized application framework developed by TypeScript. ![](https://img.shields.io/github/stars/cellbang/malagu.svg?style=social&label=Star)
+- [Zeronode](https://github.com/sfast/zeronode) - Minimal building block for reliable and fault-tolerant microservices. ![](https://img.shields.io/github/stars/sfast/zeronode.svg?style=social&label=Star)
 
 ### GraphQL
 
-- *(你也许喜欢 [awesome-graphql](https://github.com/chentsulin/awesome-graphql#javascript-libraries))*
+- *(You might like [awesome-graphql](https://github.com/chentsulin/awesome-graphql#javascript-libraries))*
 
-### 内容管理系统 (CMS)
+### Content management systems (CMS)
 
-- [Ghost](https://github.com/TryGhost/Ghost) - 用于专业发布的无头 Node.js CMS。 ![](https://img.shields.io/github/stars/TryGhost/Ghost.svg?style=social&label=Star)
-- [Strapi](https://github.com/strapi/strapi) - 用于构建强大 API 的内容管理框架 (headless-CMS)。 ![](https://img.shields.io/github/stars/strapi/strapi.svg?style=social&label=Star)
-- [KeystoneJS](https://github.com/keystonejs/keystone) - 基于 Express 和 MongoDB 的 CMS 和 Web应用程序平台。 ![](https://img.shields.io/github/stars/keystonejs/keystone.svg?style=social&label=Star)
-- [AdminBro](https://github.com/SoftwareBrothers/admin-bro) - 为您的所有模型自动生成带有 增删查改(CRUD) 的管理面板。 ![](https://img.shields.io/github/stars/SoftwareBrothers/admin-bro.svg?style=social&label=Star)
-- [ApostropheCMS](https://github.com/apostrophecms/apostrophe) - 基于 Express 和 MongoDB，拥有直观的内容编辑和管理的内容管理系统。 ![](https://img.shields.io/github/stars/apostrophecms/apostrophe.svg?style=social&label=Star)
-- [Tipe](https://github.com/tipeio/tipe) - 面向开发人员的下一代 API优先 CMS。使用离线原型和内置编辑器从 GraphQL Schema 中 生成 API优先 的 CMS。 ![](https://img.shields.io/github/stars/tipeio/tipe.svg?style=social&label=Star)
-- [Factor](https://github.com/fiction-com/factor) - Vue.js 仪表板框架 和 无头CMS。 ![](https://img.shields.io/github/stars/fiction-com/factor.svg?style=social&label=Star)
+- [Ghost](https://github.com/TryGhost/Ghost) - The headless Node.js CMS for professional publishing. ![](https://img.shields.io/github/stars/TryGhost/Ghost.svg?style=social&label=Star)
+- [Strapi](https://github.com/strapi/strapi) - Content Management Framework (headless-CMS) to build powerful APIs. ![](https://img.shields.io/github/stars/strapi/strapi.svg?style=social&label=Star)
+- [KeystoneJS](https://github.com/keystonejs/keystone) - CMS and web application platform built on Express and MongoDB. ![](https://img.shields.io/github/stars/keystonejs/keystone.svg?style=social&label=Star)
+- [AdminBro](https://github.com/SoftwareBrothers/admin-bro) - Auto-generated admin panel with CRUD for all your resources. ![](https://img.shields.io/github/stars/SoftwareBrothers/admin-bro.svg?style=social&label=Star)
+- [ApostropheCMS](https://github.com/apostrophecms/apostrophe) - Content management system with an emphasis on intuitive front end content editing and administration built on Express and MongoDB. ![](https://img.shields.io/github/stars/apostrophecms/apostrophe.svg?style=social&label=Star)
+- [Tipe](https://github.com/tipeio/tipe) - Next Generation API-first CMS for developers. Generate an API-first CMS from a GraphQL schema with offline prototyping and an inline editor. ![](https://img.shields.io/github/stars/tipeio/tipe.svg?style=social&label=Star)
+- [Factor](https://github.com/fiction-com/factor) - Vue.js dashboard framework and headless CMS. ![](https://img.shields.io/github/stars/fiction-com/factor.svg?style=social&label=Star)
 
-### 静态网站生成 & 博客
+### Static Site Generator & Blogging
 
-- [gatsby](https://github.com/gatsbyjs/gatsby) - 使用React构建快速、现代的应用程序和网站。 ![](https://img.shields.io/github/stars/gatsbyjs/gatsby.svg?style=social&label=Star)
-- [hexo](https://github.com/hexojs/hexo) - 使用Node.js的快速，简单，强大的博客框架。 ![](https://img.shields.io/github/stars/hexojs/hexo.svg?style=social&label=Star)
-- [vuepress](https://github.com/vuejs/vuepress) - 极简的Vue静态网站生成工具。 ![](https://img.shields.io/github/stars/vuejs/vuepress.svg?style=social&label=Star)
-- [netlify-cms](https://github.com/netlify/netlify-cms) - 基于Git的静态网站生成工具。 ![](https://img.shields.io/github/stars/netlify/netlify-cms.svg?style=social&label=Star)
-- [react-static](https://github.com/react-static/react-static) - 渐进式的React静态网站生成工具。 ![](https://img.shields.io/github/stars/react-static/react-static.svg?style=social&label=Star)
-- [gridsome](https://github.com/gridsome/gridsome) - Vue.js静态网站生成工具。 ![](https://img.shields.io/github/stars/gridsome/gridsome.svg?style=social&label=Star)
-- [vitepress](https://github.com/vuejs/vitepress) - Vite & Vue.js静态网站生成工具。 ![](https://img.shields.io/github/stars/vuejs/vitepress.svg?style=social&label=Star)
-- [scully](https://github.com/scullyio/scully) - Angular 应用程序的静态站点生成器。 ![](https://img.shields.io/github/stars/scullyio/scully.svg?style=social&label=Star)
+- [gatsby](https://github.com/gatsbyjs/gatsby) - Build blazing fast, modern apps and websites with React. ![](https://img.shields.io/github/stars/gatsbyjs/gatsby.svg?style=social&label=Star)
+- [hexo](https://github.com/hexojs/hexo) - A fast, simple & powerful blog framework, powered by Node.js. ![](https://img.shields.io/github/stars/hexojs/hexo.svg?style=social&label=Star)
+- [vuepress](https://github.com/vuejs/vuepress) - Minimalistic Vue-powered static site generator. ![](https://img.shields.io/github/stars/vuejs/vuepress.svg?style=social&label=Star)
+- [netlify-cms](https://github.com/netlify/netlify-cms) - A Git-based CMS for Static Site Generators. ![](https://img.shields.io/github/stars/netlify/netlify-cms.svg?style=social&label=Star)
+- [react-static](https://github.com/react-static/react-static) - A progressive static site generator for React. ![](https://img.shields.io/github/stars/react-static/react-static.svg?style=social&label=Star)
+- [gridsome](https://github.com/gridsome/gridsome) - The Jamstack framework for Vue.js. ![](https://img.shields.io/github/stars/gridsome/gridsome.svg?style=social&label=Star)
+- [vitepress](https://github.com/vuejs/vitepress) - Vite & Vue powered static site generator. ![](https://img.shields.io/github/stars/vuejs/vitepress.svg?style=social&label=Star)
+- [scully](https://github.com/scullyio/scully) - The Static Site Generator for Angular apps. ![](https://img.shields.io/github/stars/scullyio/scully.svg?style=social&label=Star)
 
-### 文档生成
+### Documentation
 
-- [Docusaurus](https://github.com/facebook/docusaurus) - 使用React和Markdown并具有翻译和版本控制功能的文档站点生成器。 ![](https://img.shields.io/github/stars/facebook/docusaurus.svg?style=social&label=Star)
-- [docsify](https://github.com/docsifyjs/docsify) - API文档生成器。 ![](https://img.shields.io/github/stars/docsifyjs/docsify.svg?style=social&label=Star)
-- [JSDoc](https://github.com/jsdoc3/jsdoc) - API文档生成器，类似于JavaDoc或PHPDoc。 ![](https://img.shields.io/github/stars/jsdoc3/jsdoc.svg?style=social&label=Star)
-- [documentation.js](https://github.com/documentationjs/documentation) - API文档生成器，支持ES2015+和流程注释。 ![](https://img.shields.io/github/stars/documentationjs/documentation.svg?style=social&label=Star)
-- [Docco](https://github.com/jashkenas/docco) - 文档生成器，该生成器生成一个HTML文档，该文档显示与代码混合的注释。 ![](https://img.shields.io/github/stars/jashkenas/docco.svg?style=social&label=Star)
-- [docute](https://github.com/egoist/docute) - 毫不费力的文档，做就对了。 ![](https://img.shields.io/github/stars/egoist/docute.svg?style=social&label=Star)
-- [ESDoc](https://github.com/esdoc/esdoc) - 针对ES2015的文档生成器，附加测试代码并衡量文档覆盖范围。 ![](https://img.shields.io/github/stars/esdoc/esdoc.svg?style=social&label=Star)
-- [groc](https://github.com/nevir/groc) - 文档生成，本着文学编程的精神。 ![](https://img.shields.io/github/stars/nevir/groc.svg?style=social&label=Star)
+- [Docusaurus](https://github.com/facebook/docusaurus) - Documentation website generator that leverages React and Markdown, and comes with translation and versioning features. ![](https://img.shields.io/github/stars/facebook/docusaurus.svg?style=social&label=Star)
+- [docsify](https://github.com/docsifyjs/docsify) - 🃏 A magical documentation site generator. ![](https://img.shields.io/github/stars/docsifyjs/docsify.svg?style=social&label=Star)
+- [JSDoc](https://github.com/jsdoc3/jsdoc) - API documentation generator similar to JavaDoc or PHPDoc. ![](https://img.shields.io/github/stars/jsdoc3/jsdoc.svg?style=social&label=Star)
+- [documentation.js](https://github.com/documentationjs/documentation) - API documentation generator with support for ES2015+ and flow annotation. ![](https://img.shields.io/github/stars/documentationjs/documentation.svg?style=social&label=Star)
+- [Docco](https://github.com/jashkenas/docco) - Documentation generator which produces an HTML document that displays your comments intermingled with your code. ![](https://img.shields.io/github/stars/jashkenas/docco.svg?style=social&label=Star)
+- [docute](https://github.com/egoist/docute) - Effortless documentation, done right. ![](https://img.shields.io/github/stars/egoist/docute.svg?style=social&label=Star)
+- [ESDoc](https://github.com/esdoc/esdoc) - Documentation generator targeting ES2015, attaching test code and measuring documentation coverage. ![](https://img.shields.io/github/stars/esdoc/esdoc.svg?style=social&label=Star)
+- [groc](https://github.com/nevir/groc) - Documentation generation, in the spirit of literate programming. ![](https://img.shields.io/github/stars/nevir/groc.svg?style=social&label=Star)
 
-### 接口管理
+### API Management
 
-- [yapi](https://github.com/YMFE/yapi) - YApi 是一个可本地部署的、打通前后端及QA的、可视化的接口管理平台。 ![](https://img.shields.io/github/stars/YMFE/yapi.svg?style=social&label=Star)
-- [swagger](https://github.com/swagger-api/swagger-node) - Swagger NodeJS版。将符合 Swagger规范 的 API 动态生成精美的文档。 ![](https://img.shields.io/github/stars/swagger-api/swagger-node.svg?style=social&label=Star)
-- [rap2](https://github.com/thx/rap2-delos) - 阿里妈妈前端团队出品的开源接口管理工具RAP第二代。 ![](https://img.shields.io/github/stars/thx/rap2-delos.svg?style=social&label=Star)
+- [yapi](https://github.com/YMFE/yapi) - YApi is a visual interface management platform that can be deployed locally, open up front and back ends, and QA. ![](https://img.shields.io/github/stars/YMFE/yapi.svg?style=social&label=Star)
+- [swagger](https://github.com/swagger-api/swagger-node) - Swagger module for node.js。Swagger UI is a collection of HTML, JavaScript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API. ![](https://img.shields.io/github/stars/swagger-api/swagger-node.svg?style=social&label=Star)
+- [rap2](https://github.com/thx/rap2-delos) - The second generation of RAP, an open source interface management tool produced by Alimama's front-end team. ![](https://img.shields.io/github/stars/thx/rap2-delos.svg?style=social&label=Star)
 
-### 桌面应用程序
+### Desktop Apps
 
-- [Electron](https://github.com/atom/electron) - 使用Web技术构建跨平台的桌面应用程序。 *(你也许喜欢 [awesome-electron](https://github.com/sindresorhus/awesome-electron))* ![](https://img.shields.io/github/stars/atom/electron.svg?style=social&label=Star)
-- [nw.js](https://github.com/nwjs/nw.js) - 使用 Web 技术编写应用程序的新方法，并直接从 DOM/WebWorker 调用所有 Node.js 模块。 ![](https://img.shields.io/github/stars/nwjs/nw.js.svg?style=social&label=Star)
+- [Electron](https://github.com/atom/electron) - Build cross platform desktop apps with web technologies. *(You might like [awesome-electron](https://github.com/sindresorhus/awesome-electron))* ![](https://img.shields.io/github/stars/atom/electron.svg?style=social&label=Star)
+- [nw.js](https://github.com/nwjs/nw.js) - Call all Node.js modules directly from DOM/WebWorker and enable a new way of writing applications with all Web technologies. ![](https://img.shields.io/github/stars/nwjs/nw.js.svg?style=social&label=Star)
 
-### 实时通信
+### Real-time
 
-- [Socket.io](https://github.com/socketio/socket.io) - 实现基于事件的实时双向通信。 ![](https://img.shields.io/github/stars/socketio/socket.io.svg?style=social&label=Star)
-- [ws](https://github.com/websockets/ws) - 简单易用，速度极快，经过全面测试的WebSocket客户端和服务器Node.js通信库。 ![](https://img.shields.io/github/stars/websockets/ws.svg?style=social&label=Star)
-- [µWebSockets](https://github.com/uWebSockets/uWebSockets) - 高度可扩展的WebSocket服务器和客户端库。 ![](https://img.shields.io/github/stars/uWebSockets/uWebSockets.svg?style=social&label=Star)
-- [MQTT.js](https://github.com/mqttjs/MQTT.js) - MQTT客户端-基于Pub-sub的消息协议，用于TCP / IP。 ![](https://img.shields.io/github/stars/mqttjs/MQTT.js.svg?style=social&label=Star)
-- [SocketCluster](https://github.com/SocketCluster/socketcluster) -  可扩展的HTTP + WebSocket引擎，可以在多个CPU内核上运行。 ![](https://img.shields.io/github/stars/SocketCluster/socketcluster.svg?style=social&label=Star)
-- [Faye](https://github.com/faye/faye) - 基于Bayeux协议的实时客户端-服务器消息总线。 ![](https://img.shields.io/github/stars/faye/faye.svg?style=social&label=Star)
-- [Primus](https://github.com/primus/primus) - 实时框架的抽象层，以防止模块锁定。 ![](https://img.shields.io/github/stars/primus/primus.svg?style=social&label=Star)
-- [engine.io](https://github.com/socketio/engine.io) - 基于传输的跨浏览器/跨设备双向通信层的实现Socket.IO。 ![](https://img.shields.io/github/stars/socketio/engine.io.svg?style=social&label=Star)
-- [SockJS-node](https://github.com/sockjs/sockjs-node) - WebSocket Node.js服务端实现。 ![](https://img.shields.io/github/stars/sockjs/sockjs-node.svg?style=social&label=Star)
-- [Aedes](https://github.com/mcollina/aedes) - 可以在任何流服务器上运行的准系统MQTT服务器。 ![](https://img.shields.io/github/stars/mcollina/aedes.svg?style=social&label=Star)
-- [nodejs-websocket](https://github.com/sitegui/nodejs-websocket) - 一个Websocket服务端和客户端模块。 ![](https://img.shields.io/github/stars/sitegui/nodejs-websocket.svg?style=social&label=Star)
-- [rpc-websockets](https://github.com/elpheria/rpc-websockets) - 通过WebSocket实现JSON-RPC 2.0。 ![](https://img.shields.io/github/stars/elpheria/rpc-websockets.svg?style=social&label=Star)
-- [deepstream.io](https://github.com/deepstreamIO/deepstream.io-client-js) - 可扩展的实时通信微服务框架。 ![](https://img.shields.io/github/stars/deepstreamIO/deepstream.io-client-js.svg?style=social&label=Star)
-- [isomorphic-ws](https://github.com/heineiuo/isomorphic-ws) - WebSocket 的同构实现。 ![](https://img.shields.io/github/stars/heineiuo/isomorphic-ws.svg?style=social&label=Star)
-- [Kalm](https://github.com/kalm/kalm.js) - 低级套接字路由器和中间件框架。 ![](https://img.shields.io/github/stars/kalm/kalm.js.svg?style=social&label=Star)
+- [Socket.io](https://github.com/socketio/socket.io) - Enables real-time bidirectional event-based communication. ![](https://img.shields.io/github/stars/socketio/socket.io.svg?style=social&label=Star)
+- [ws](https://github.com/websockets/ws) - Simple to use, blazing fast and thoroughly tested WebSocket client and server for Node.js. ![](https://img.shields.io/github/stars/websockets/ws.svg?style=social&label=Star)
+- [µWebSockets](https://github.com/uWebSockets/uWebSockets) - Highly scalable WebSocket server & client library. ![](https://img.shields.io/github/stars/uWebSockets/uWebSockets.svg?style=social&label=Star)
+- [MQTT.js](https://github.com/mqttjs/MQTT.js) - Client for MQTT - Pub-sub based messaging protocol for use on top of TCP/IP. ![](https://img.shields.io/github/stars/mqttjs/MQTT.js.svg?style=social&label=Star)
+- [SocketCluster](https://github.com/SocketCluster/socketcluster) - Scalable HTTP + WebSocket engine which can run on multiple CPU cores. ![](https://img.shields.io/github/stars/SocketCluster/socketcluster.svg?style=social&label=Star)
+- [Faye](https://github.com/faye/faye) - Real-time client-server message bus, based on Bayeux protocol. ![](https://img.shields.io/github/stars/faye/faye.svg?style=social&label=Star)
+- [Primus](https://github.com/primus/primus) - An abstraction layer for real-time frameworks to prevent module lock-in. ![](https://img.shields.io/github/stars/primus/primus.svg?style=social&label=Star)
+- [engine.io](https://github.com/socketio/engine.io) - The implementation of transport-based cross-browser/cross-device bi-directional communication layer for Socket.IO. ![](https://img.shields.io/github/stars/socketio/engine.io.svg?style=social&label=Star)
+- [SockJS-node](https://github.com/sockjs/sockjs-node) - WebSocket emulation - Node.js server. ![](https://img.shields.io/github/stars/sockjs/sockjs-node.svg?style=social&label=Star)
+- [Aedes](https://github.com/mcollina/aedes) - Barebone MQTT server that can run on any stream server. ![](https://img.shields.io/github/stars/mcollina/aedes.svg?style=social&label=Star)
+- [nodejs-websocket](https://github.com/sitegui/nodejs-websocket) - A node.js module for websocket server and client. ![](https://img.shields.io/github/stars/sitegui/nodejs-websocket.svg?style=social&label=Star)
+- [rpc-websockets](https://github.com/elpheria/rpc-websockets) - JSON-RPC 2.0 implementation over WebSockets. ![](https://img.shields.io/github/stars/elpheria/rpc-websockets.svg?style=social&label=Star)
+- [deepstream.io](https://github.com/deepstreamIO/deepstream.io-client-js) - Scalable real-time microservice framework. ![](https://img.shields.io/github/stars/deepstreamIO/deepstream.io-client-js.svg?style=social&label=Star)
+- [isomorphic-ws](https://github.com/heineiuo/isomorphic-ws) - Isomorphic implementation of WebSocket. ![](https://img.shields.io/github/stars/heineiuo/isomorphic-ws.svg?style=social&label=Star)
+- [Kalm](https://github.com/kalm/kalm.js) - Low-level socket router and middleware framework. ![](https://img.shields.io/github/stars/kalm/kalm.js.svg?style=social&label=Star)
 
-### 任务队列
+### Job Queues
 
-- [bull](https://github.com/OptimalBits/bull) - 持久作业和消息队列。 ![](https://img.shields.io/github/stars/OptimalBits/bull.svg?style=social&label=Star)
-- [amqp](https://github.com/squaremo/amqp.node)- AMQP 0-9-1 rabbit消息队列连接库。 ![](https://img.shields.io/github/stars/squaremo/amqp.node.svg?style=social&label=Star)
-- [kafka-node](https://github.com/SOHU-Co/kafka-node)-  Apache Kafka 0.8 kafka客户端。![](https://img.shields.io/github/stars/SOHU-Co/kafka-node.svg?style=social&label=Star)
-- [bee-queue](https://github.com/bee-queue/bee-queue) - 高性能的 基于Redis的任务队列。 ![](https://img.shields.io/github/stars/bee-queue/bee-queue.svg?style=social&label=Star)
-  - [arena](https://github.com/bee-queue/arena) - bee-queue的交互式UI仪表盘。 ![](https://img.shields.io/github/stars/bee-queue/arena.svg?style=social&label=Star)
+- [bull](https://github.com/OptimalBits/bull) - Persistent job and message queue. ![](https://img.shields.io/github/stars/OptimalBits/bull.svg?style=social&label=Star)
+- [amqp](https://github.com/squaremo/amqp.node)- AMQP 0-9-1 library and client for Node.JS. ![](https://img.shields.io/github/stars/squaremo/amqp.node.svg?style=social&label=Star)
+- [kafka-node](https://github.com/SOHU-Co/kafka-node)- Node.js client for Apache Kafka 0.8 and later. ![](https://img.shields.io/github/stars/SOHU-Co/kafka-node.svg?style=social&label=Star)
+- [bee-queue](https://github.com/bee-queue/bee-queue) - High-performance Redis-backed job queue. ![](https://img.shields.io/github/stars/bee-queue/bee-queue.svg?style=social&label=Star)
+  - [arena](https://github.com/bee-queue/arena) - An interactive UI dashboard for Bee Queue. ![](https://img.shields.io/github/stars/bee-queue/arena.svg?style=social&label=Star)
 - [kafkajs](https://github.com/tulios/kafkajs) - A modern Apache Kafka client for node.js. ![](https://img.shields.io/github/stars/tulios/kafkajs.svg?style=social&label=Star)
-- [rsmq](https://github.com/smrchy/rsmq) - 基于Redis的消息队列. ![](https://img.shields.io/github/stars/smrchy/rsmq.svg?style=social&label=Star)
-- [sqs-consumer](https://github.com/bbc/sqs-consumer) - 在没有样板文件的情况下构建基于Amazon简单队列服务（SQS）的应用程序. ![](https://img.shields.io/github/stars/bbc/sqs-consumer.svg?style=social&label=Star)
-- [node-resque](https://github.com/taskrabbit/node-resque) - Redis支持的作业队列. ![](https://img.shields.io/github/stars/taskrabbit/node-resque.svg?style=social&label=Star)
-- [better-queue](https://github.com/diamondio/better-queue) - 当你无法使用Redis时，简单高效的作业队列. ![](https://img.shields.io/github/stars/diamondio/better-queue.svg?style=social&label=Star)
-- [RedisSMQ](https://github.com/weyoss/redis-smq) - 具有实时监控功能的简单高性能Redis消息队列. ![](https://img.shields.io/github/stars/weyoss/redis-smq.svg?style=social&label=Star)
-- [idoit](https://github.com/nodeca/idoit) - 具有高级作业控制的Redis支持的作业队列引擎. ![](https://img.shields.io/github/stars/nodeca/idoit.svg?style=social&label=Star)
+- [rsmq](https://github.com/smrchy/rsmq) - Redis-backed message queue. ![](https://img.shields.io/github/stars/smrchy/rsmq.svg?style=social&label=Star)
+- [sqs-consumer](https://github.com/bbc/sqs-consumer) - Build Amazon Simple Queue Service (SQS) based apps without the boilerplate. ![](https://img.shields.io/github/stars/bbc/sqs-consumer.svg?style=social&label=Star)
+- [node-resque](https://github.com/taskrabbit/node-resque) - Redis-backed job queue. ![](https://img.shields.io/github/stars/taskrabbit/node-resque.svg?style=social&label=Star)
+- [better-queue](https://github.com/diamondio/better-queue) - Simple and efficient job queue when you cannot use Redis. ![](https://img.shields.io/github/stars/diamondio/better-queue.svg?style=social&label=Star)
+- [RedisSMQ](https://github.com/weyoss/redis-smq) - Simple high-performance Redis message queue with real-time monitoring. ![](https://img.shields.io/github/stars/weyoss/redis-smq.svg?style=social&label=Star)
+- [idoit](https://github.com/nodeca/idoit) - Redis-backed job queue engine with advanced job control. ![](https://img.shields.io/github/stars/nodeca/idoit.svg?style=social&label=Star)
 
-### 定时任务
+### Job Scheduling
 
-- [node-schedule](https://github.com/node-schedule/node-schedule) - 类Cron和不类似Cron的Node.js定时任务。 ![](https://img.shields.io/github/stars/node-schedule/node-schedule.svg?style=social&label=Star)
-- [agenda](https://github.com/agenda/agenda) - Node.js轻量级定时任务。 ![](https://img.shields.io/github/stars/agenda/agenda.svg?style=social&label=Star)
-- [node-cron](https://github.com/kelektiv/node-cron) - 允许执行定时任务的工具。 ![](https://img.shields.io/github/stars/kelektiv/node-cron.svg?style=social&label=Star)
-- [cron-parser](https://github.com/harrisiirak/cron-parser) - 用于解析crontab指令的Node.js库。 ![](https://img.shields.io/github/stars/harrisiirak/cron-parser.svg?style=social&label=Star)
+- [node-schedule](https://github.com/node-schedule/node-schedule) - A cron-like and not-cron-like job scheduler for Node. ![](https://img.shields.io/github/stars/node-schedule/node-schedule.svg?style=social&label=Star)
+- [agenda](https://github.com/agenda/agenda) - Lightweight job scheduling for Node.js. ![](https://img.shields.io/github/stars/agenda/agenda.svg?style=social&label=Star)
+- [node-cron](https://github.com/kelektiv/node-cron) - A tool that allows you to execute something on a schedule. ![](https://img.shields.io/github/stars/kelektiv/node-cron.svg?style=social&label=Star)
+- [cron-parser](https://github.com/harrisiirak/cron-parser) - Node.js library for parsing crontab instructions. ![](https://img.shields.io/github/stars/harrisiirak/cron-parser.svg?style=social&label=Star)
 
-### 调试
+### Debugging
 
-- [node-inspector](https://github.com/node-inspector/node-inspector) - 基于Blink开发者工具的调试器。 ![](https://img.shields.io/github/stars/node-inspector/node-inspector.svg?style=social&label=Star)
-- [ndb](https://github.com/GoogleChromeLabs/ndb) - Chrome DevTools调试体验改进工具。 ![](https://img.shields.io/github/stars/GoogleChromeLabs/ndb.svg?style=social&label=Star)
-- [debug](https://github.com/visionmedia/debug) - 轻量调试工具。 ![](https://img.shields.io/github/stars/visionmedia/debug.svg?style=social&label=Star)
-- [ironNode](https://github.com/s-a/iron-node) - 支持ES2015的Node.js开箱即用的调试器。 ![](https://img.shields.io/github/stars/s-a/iron-node.svg?style=social&label=Star)
-- [why-is-node-running](https://github.com/mafintosh/why-is-node-running) - 当Node因不明原因继续运行时，使用的分析工具。 ![](https://img.shields.io/github/stars/mafintosh/why-is-node-running.svg?style=social&label=Star)
-- [llnode](https://github.com/nodejs/llnode) - 事后分析工具，使您可以检查对象并从崩溃的Node.js进程中获取信息。 ![](https://img.shields.io/github/stars/nodejs/llnode.svg?style=social&label=Star)
-- [njsTrace](https://github.com/valyouw/njstrace) - 检测和跟踪您的代码，查看所有函数调用、参数、返回值以及在每个函数中花费的时间。 ![](https://img.shields.io/github/stars/valyouw/njstrace.svg?style=social&label=Star)
-- [locus](https://github.com/alidavut/locus) - Locus 是一个调试模块，它允许您通过 REPL 在运行时执行命令。 ![](https://img.shields.io/github/stars/alidavut/locus.svg?style=social&label=Star)
-- [stackman](https://github.com/watson/stackman) - 使用代码摘录和其他优点增强错误堆栈跟踪。 ![](https://img.shields.io/github/stars/watson/stackman.svg?style=social&label=Star)
-- [NiM](https://github.com/june07/nim) - 管理DevTools调试工具流。 ![](https://img.shields.io/github/stars/june07/nim.svg?style=social&label=Star)
-- [ctrace](https://github.com/automation-stack/ctrace) - 将系统调用信息和信号，以更良好的格式显示和扩展。 ![](https://img.shields.io/github/stars/automation-stack/ctrace.svg?style=social&label=Star)
-- [vstream](https://github.com/joyent/node-vstream) - 检测流。 ![](https://img.shields.io/github/stars/joyent/node-vstream.svg?style=social&label=Star)
+- [node-inspector](https://github.com/node-inspector/node-inspector) - Debugger based on Blink Developer Tools. ![](https://img.shields.io/github/stars/node-inspector/node-inspector.svg?style=social&label=Star)
+- [ndb](https://github.com/GoogleChromeLabs/ndb) - Improved debugging experience, enabled by Chrome DevTools. ![](https://img.shields.io/github/stars/GoogleChromeLabs/ndb.svg?style=social&label=Star)
+- [debug](https://github.com/visionmedia/debug) - Tiny debugging utility. ![](https://img.shields.io/github/stars/visionmedia/debug.svg?style=social&label=Star)
+- [ironNode](https://github.com/s-a/iron-node) - Node.js debugger supporting ES2015 out of the box. ![](https://img.shields.io/github/stars/s-a/iron-node.svg?style=social&label=Star)
+- [why-is-node-running](https://github.com/mafintosh/why-is-node-running) - Node.js is running but you don't know why? ![](https://img.shields.io/github/stars/mafintosh/why-is-node-running.svg?style=social&label=Star)
+- [llnode](https://github.com/nodejs/llnode) - Post-mortem analysis tool which allows you to inspect objects and get insights from a crashed Node.js process. ![](https://img.shields.io/github/stars/nodejs/llnode.svg?style=social&label=Star)
+- [njsTrace](https://github.com/valyouw/njstrace) - Instrument and trace your code, see all function calls, arguments, return values, as well as the time spent in each function. ![](https://img.shields.io/github/stars/valyouw/njstrace.svg?style=social&label=Star)
+- [locus](https://github.com/alidavut/locus) - Starts a REPL at runtime that has access to all variables. ![](https://img.shields.io/github/stars/alidavut/locus.svg?style=social&label=Star)
+- [stackman](https://github.com/watson/stackman) - Enhance an error stacktrace with code excerpts and other goodies. ![](https://img.shields.io/github/stars/watson/stackman.svg?style=social&label=Star)
+- [NiM](https://github.com/june07/nim) - Manages DevTools debugging workflow. ![](https://img.shields.io/github/stars/june07/nim.svg?style=social&label=Star)
+- [ctrace](https://github.com/automation-stack/ctrace) - Well-formatted and improved trace system calls and signals. ![](https://img.shields.io/github/stars/automation-stack/ctrace.svg?style=social&label=Star)
+- [vstream](https://github.com/joyent/node-vstream) - Instrumentable streams mix-ins to inspect a pipeline of streams. ![](https://img.shields.io/github/stars/joyent/node-vstream.svg?style=social&label=Star)
 
-### 剖析/分析
+### Profiling/Analysis
 
-- [Clinic.js](https://github.com/clinicjs/node-clinic) - Clinic.js诊断Node.js性能问题。 ![](https://img.shields.io/github/stars/clinicjs/node-clinic.svg?style=social&label=Star)
-- [0x](https://github.com/davidmarkclements/0x) - 火焰图分析。 ![](https://img.shields.io/github/stars/davidmarkclements/0x.svg?style=social&label=Star)
-- [node-heapdump](https://github.com/bnoordhuis/node-heapdump) - 存储V8内存堆使用情况，以供以后诊断。 ![](https://img.shields.io/github/stars/bnoordhuis/node-heapdump.svg?style=social&label=Star)
-- [leakage](https://github.com/andywer/leakage) - 内存写入泄漏测试。 ![](https://img.shields.io/github/stars/andywer/leakage.svg?style=social&label=Star)
-- [v8-profiler](https://github.com/node-inspector/v8-profiler) - V8性能探测器。 ![](https://img.shields.io/github/stars/node-inspector/v8-profiler.svg?style=social&label=Star)
-- [node-memwatch](https://github.com/marcominetti/node-memwatch) - 一个 NodeJS 库，用于监视您的内存使用情况，并发现和隔离泄漏。 ![](https://img.shields.io/github/stars/marcominetti/node-memwatch.svg?style=social&label=Star)
-- [v8-analytics](https://github.com/hyj1991/v8-analytics) - V8引擎CPU 和 堆内存分析。 ![](https://img.shields.io/github/stars/hyj1991/v8-analytics.svg?style=social&label=Star)
-- [thetool](https://github.com/sfninja/thetool) - 以Chrome DevTools友好格式为您的应用捕获不同的CPU，内存和其他配置文件。 ![](https://img.shields.io/github/stars/sfninja/thetool.svg?style=social&label=Star)
-- [flamegraph](https://github.com/thlorenz/flamegraph) - 在Node.js或浏览器中生成火焰图。 ![](https://img.shields.io/github/stars/thlorenz/flamegraph.svg?style=social&label=Star)
-- [v8-profiler-next](https://github.com/hyj1991/v8-profiler-next) - V8性能探测器。 ![](https://img.shields.io/github/stars/hyj1991/v8-profiler-next.svg?style=social&label=Star)
-- [cpu-memory-monitor](https://github.com/nswbmw/cpu-memory-monitor) - CPU 和内存监视器，自动转储。 ![](https://img.shields.io/github/stars/nswbmw/cpu-memory-monitor.svg?style=social&label=Star)
+- [Clinic.js](https://github.com/clinicjs/node-clinic) - Clinic.js diagnoses your Node.js performance issues. ![](https://img.shields.io/github/stars/clinicjs/node-clinic.svg?style=social&label=Star)
+- [0x](https://github.com/davidmarkclements/0x) - Flamegraph profiling. ![](https://img.shields.io/github/stars/davidmarkclements/0x.svg?style=social&label=Star)
+- [node-heapdump](https://github.com/bnoordhuis/node-heapdump) - Make a dump of the V8 heap for later inspection. ![](https://img.shields.io/github/stars/bnoordhuis/node-heapdump.svg?style=social&label=Star)
+- [leakage](https://github.com/andywer/leakage) - Write memory leak tests. ![](https://img.shields.io/github/stars/andywer/leakage.svg?style=social&label=Star)
+- [v8-profiler](https://github.com/node-inspector/v8-profiler) - Node bindings for the v8 profiler. ![](https://img.shields.io/github/stars/node-inspector/v8-profiler.svg?style=social&label=Star)
+- [node-memwatch](https://github.com/marcominetti/node-memwatch) - A NodeJS library to keep an eye on your memory usage, and discover and isolate leaks. ![](https://img.shields.io/github/stars/marcominetti/node-memwatch.svg?style=social&label=Star)
+- [v8-analytics](https://github.com/hyj1991/v8-analytics) - V8 engine's cpu & heap-memory analytics. ![](https://img.shields.io/github/stars/hyj1991/v8-analytics.svg?style=social&label=Star)
+- [thetool](https://github.com/sfninja/thetool) - Capture different CPU, memory, and other profiles for your app in Chrome DevTools friendly format. ![](https://img.shields.io/github/stars/sfninja/thetool.svg?style=social&label=Star)
+- [flamegraph](https://github.com/thlorenz/flamegraph) - Generates flamegraphs with Node.js or in the browser. ![](https://img.shields.io/github/stars/thlorenz/flamegraph.svg?style=social&label=Star)
+- [v8-profiler-next](https://github.com/hyj1991/v8-profiler-next) - Node bindings for the v8 profiler. ![](https://img.shields.io/github/stars/hyj1991/v8-profiler-next.svg?style=social&label=Star)
+- [cpu-memory-monitor](https://github.com/nswbmw/cpu-memory-monitor) - CPU & Memory Monitor, auto dump. ![](https://img.shields.io/github/stars/nswbmw/cpu-memory-monitor.svg?style=social&label=Star)
 
-### 性能优化
+### Performance Optimization
 
-- [v8-compile-cache](https://github.com/zertosh/v8-compile-cache) - 将require的V8编译的结果自动持久缓存化。 ![](https://img.shields.io/github/stars/zertosh/v8-compile-cache.svg?style=social&label=Star)
+- [v8-compile-cache](https://github.com/zertosh/v8-compile-cache) - Require hook for automatic V8 compile cache persistence ![](https://img.shields.io/github/stars/zertosh/v8-compile-cache.svg?style=social&label=Star)
 
-### 应用性能监控 (APM)
+### Application Performance Monitoring (APM)
 
-- 解决方案
-  - [easy-monitor](https://github.com/hyj1991/easy-monitor) - 企业级 Node.js 应用性能监控和在线故障定位解决方案。 ![](https://img.shields.io/github/stars/hyj1991/easy-monitor.svg?style=social&label=Star)
-  - [webfunny_monitor](https://github.com/a597873885/webfunny_monitor) - Webfunny是一款轻量级的前端监控系统，也是一款前端性能监控系统，无埋点监控前端日志，实时分析前端健康状态。 ![](https://img.shields.io/github/stars/a597873885/webfunny_monitor.svg?style=social&label=Star)
+- Solution
+  - [easy-monitor](https://github.com/hyj1991/easy-monitor) - Enterprise-level Node.js application performance monitoring and online fault location solutions. ![](https://img.shields.io/github/stars/hyj1991/easy-monitor.svg?style=social&label=Star)
+  - [webfunny_monitor](https://github.com/a597873885/webfunny_monitor) - Webfunny is a lightweight front-end monitoring system and webfunny is also a front-end performance monitoring system. It monitors front-end logs and analyzes front-end health status in real time. ![](https://img.shields.io/github/stars/a597873885/webfunny_monitor.svg?style=social&label=Star)
 
-- 中间件
-  - [swagger-stats](https://github.com/slanatech/swagger-stats) - 跟踪 API 调用并监控 API 性能、运行状况和使用指标。 ![](https://img.shields.io/github/stars/slanatech/swagger-stats.svg?style=social&label=Star)
+- Middleware
+  - [swagger-stats](https://github.com/slanatech/swagger-stats) - Trace API calls and monitor API performance, health, and usage metrics. ![](https://img.shields.io/github/stars/slanatech/swagger-stats.svg?style=social&label=Star)
 
-- 代理
-  - [prom-client](https://github.com/siimon/prom-client) - Prometheus代理。 ![](https://img.shields.io/github/stars/siimon/prom-client.svg?style=social&label=Star)
-  - [apm-agent-nodejs](https://github.com/elastic/apm-agent-nodejs) - Elastic APM Node.js代理。 ![](https://img.shields.io/github/stars/elastic/apm-agent-nodejs.svg?style=social&label=Star)
-  - [skywalking-nodejs](https://github.com/apache/skywalking-nodejs) - Apache SkyWalking Node.js代理 ![](https://img.shields.io/github/stars/apache/skywalking-nodejs.svg?style=social&label=Star)
+- Agent
+  - [prom-client](https://github.com/siimon/prom-client) - Prometheus client for node.js. ![](https://img.shields.io/github/stars/siimon/prom-client.svg?style=social&label=Star)
+  - [apm-agent-nodejs](https://github.com/elastic/apm-agent-nodejs) - Elastic APM Node.js Agent. ![](https://img.shields.io/github/stars/elastic/apm-agent-nodejs.svg?style=social&label=Star)
+  - [skywalking-nodejs](https://github.com/apache/skywalking-nodejs) - The NodeJS agent for Apache SkyWalking. ![](https://img.shields.io/github/stars/apache/skywalking-nodejs.svg?style=social&label=Star)
 
-### 论坛
+### Forum
 
-- [NodeBB](https://github.com/NodeBB/NodeBB) - 基于Node.js的现代Web论坛。 ![](https://img.shields.io/github/stars/NodeBB/NodeBB.svg?style=social&label=Star)
-- [nodeclub](https://github.com/cnodejs/nodeclub/) -  Nodeclub 是使用 Node.js 和 MongoDB 开发的社区系统 ![](https://img.shields.io/github/stars/cnodejs/nodeclub.svg?style=social&label=Star)
+- [NodeBB](https://github.com/NodeBB/NodeBB) - Node.js based forum software built for the modern web ![](https://img.shields.io/github/stars/NodeBB/NodeBB.svg?style=social&label=Star)
+- [nodeclub](https://github.com/cnodejs/nodeclub/) - A forum software based on Node.js and MongoDB. ![](https://img.shields.io/github/stars/cnodejs/nodeclub.svg?style=social&label=Star)
 
-### 数据库
+### Database
 
-- 驱动
-  - [MySQL](https://github.com/mysqljs/mysql) - MySQL 客户端。 ![](https://img.shields.io/github/stars/mysqljs/mysql.svg?style=social&label=Star)
-  - [redis](https://github.com/NodeRedis/node-redis) - 高性能的 Node.js Redis客户端。 ![](https://img.shields.io/github/stars/NodeRedis/node-redis.svg?style=social&label=Star)
-  - [PostgreSQL](https://github.com/brianc/node-postgres) - PostgreSQL客户端。 ![](https://img.shields.io/github/stars/brianc/node-postgres.svg?style=social&label=Star)
-  - [MongoDB](https://github.com/mongodb/node-mongodb-native) - 官方MongoDB驱动。 ![](https://img.shields.io/github/stars/mongodb/node-mongodb-native.svg?style=social&label=Star)
-  - [ioredis](https://github.com/luin/ioredis) - Redis客户端。 ![](https://img.shields.io/github/stars/luin/ioredis.svg?style=social&label=Star)
-  - [LevelUP](https://github.com/Level/levelup) - LevelDB客户端。 ![](https://img.shields.io/github/stars/Level/levelup.svg?style=social&label=Star)
-  - [mysql2](https://github.com/sidorares/node-mysql2) - 快速 兼容mysqljs/mysql库 的 mysql 驱动程序。 ![](https://img.shields.io/github/stars/sidorares/node-mysql2.svg?style=social&label=Star)
-  - [rethinkdbdash](https://github.com/neumino/rethinkdbdash) - RethinkDB 的高级 Node.js 驱动程序，带有连接池、支持流等。 ![](https://img.shields.io/github/stars/neumino/rethinkdbdash.svg?style=social&label=Star)
-  - [couchdb-nano](https://github.com/apache/couchdb-nano) - 官方CouchDB客户端。 ![](https://img.shields.io/github/stars/apache/couchdb-nano.svg?style=social&label=Star)
-  - [Couchbase](https://github.com/couchbase/couchnode) - Couchbase客户端（官方）。 ![](https://img.shields.io/github/stars/couchbase/couchnode.svg?style=social&label=Star)
-  - [mariadb](https://github.com/mariadb-corporation/mariadb-connector-nodejs) - MariaDB Connector/Node.js 用于将在 Node.js 上开发的应用程序连接到 MariaDB 和 MySQL 数据库。 ![](https://img.shields.io/github/stars/mariadb-corporation/mariadb-connector-nodejs.svg?style=social&label=Star)
-  - [Aerospike](https://github.com/aerospike/aerospike-client-nodejs) - Aerospike客户端。 ![](https://img.shields.io/github/stars/aerospike/aerospike-client-nodejs.svg?style=social&label=Star)
+- Drivers
+  - [MySQL](https://github.com/mysqljs/mysql) - A pure node.js JavaScript Client implementing the MySQL protocol. ![](https://img.shields.io/github/stars/mysqljs/mysql.svg?style=social&label=Star)
+  - [redis](https://github.com/NodeRedis/node-redis) - A high performance Node.js Redis client. ![](https://img.shields.io/github/stars/NodeRedis/node-redis.svg?style=social&label=Star)
+  - [PostgreSQL](https://github.com/brianc/node-postgres) - PostgreSQL client for node.js. ![](https://img.shields.io/github/stars/brianc/node-postgres.svg?style=social&label=Star)
+  - [MongoDB](https://github.com/mongodb/node-mongodb-native) - The Official MongoDB Node.js Driver. ![](https://img.shields.io/github/stars/mongodb/node-mongodb-native.svg?style=social&label=Star)
+  - [ioredis](https://github.com/luin/ioredis) - A robust, performance-focused and full-featured Redis client for Node.js. ![](https://img.shields.io/github/stars/luin/ioredis.svg?style=social&label=Star)
+  - [LevelUP](https://github.com/Level/levelup) - A wrapper for abstract-leveldown compliant stores, for Node.js and browsers. ![](https://img.shields.io/github/stars/Level/levelup.svg?style=social&label=Star)
+  - [mysql2](https://github.com/sidorares/node-mysql2) - ⚡ Fast mysqljs/mysql compatible mysql driver for node.js. ![](https://img.shields.io/github/stars/sidorares/node-mysql2.svg?style=social&label=Star)
+  - [rethinkdbdash](https://github.com/neumino/rethinkdbdash) - An advanced Node.js driver for RethinkDB with a connection pool, support for streams etc. ![](https://img.shields.io/github/stars/neumino/rethinkdbdash.svg?style=social&label=Star)
+  - [couchdb-nano](https://github.com/apache/couchdb-nano) - Nano: The official Apache CouchDB library for Node.js. ![](https://img.shields.io/github/stars/apache/couchdb-nano.svg?style=social&label=Star)
+  - [Couchbase](https://github.com/couchbase/couchnode) - Couchbase Node.js Client Library (Official). ![](https://img.shields.io/github/stars/couchbase/couchnode.svg?style=social&label=Star)
+  - [mariadb](https://github.com/mariadb-corporation/mariadb-connector-nodejs) - MariaDB Connector/Node.js is used to connect applications developed on Node.js to MariaDB and MySQL databases. ![](https://img.shields.io/github/stars/mariadb-corporation/mariadb-connector-nodejs.svg?style=social&label=Star)
+  - [Aerospike](https://github.com/aerospike/aerospike-client-nodejs) - Node.js client for the Aerospike database. ![](https://img.shields.io/github/stars/aerospike/aerospike-client-nodejs.svg?style=social&label=Star)
 
 - ODM / ORM
-  - [Sequelize](https://github.com/sequelize/sequelize) - 多方ORM。 支持PostgreSQL，SQLite，MySQL。 ![](https://img.shields.io/github/stars/sequelize/sequelize.svg?style=social&label=Star)
-    - [sequelize-typescript](https://github.com/RobinBuschmann/sequelize-typescript) - Sequelize 装饰器和一些其他功能。 ![](https://img.shields.io/github/stars/RobinBuschmann/sequelize-typescript.svg?style=social&label=Star)
-  - [TypeORM](https://github.com/typeorm/typeorm) - PostgreSQL，MariaDB，MySQL，SQLite等的ORM。 ![](https://img.shields.io/github/stars/typeorm/typeorm.svg?style=social&label=Star)
-  - [Mongoose](https://github.com/Automattic/mongoose) - 优雅的MongoDB对象建模。 ![](https://img.shields.io/github/stars/Automattic/mongoose.svg?style=social&label=Star)
-    - [typegoose](https://github.com/typegoose/typegoose) - Typegoose - 使用 TypeScript 类定义 Mongoose 模型。 ![](https://img.shields.io/github/stars/typegoose/typegoose.svg?style=social&label=Star)
-  - [Prisma](https://github.com/prisma/prisma) - 支持PostgreSQL, MySQL & SQLite，自动生成、类型安全的query builder。 ![](https://img.shields.io/github/stars/prisma/prisma.svg?style=social&label=Star)
-  - [Bookshelf](https://github.com/bookshelf/bookshelf) - Backbone.js风格的PostgreSQL，MySQL和SQLite3的ORM。 ![](https://img.shields.io/github/stars/bookshelf/bookshelf.svg?style=social&label=Star)
-  - [Objection.js](https://github.com/Vincit/objection.js) - 基于SQL查询生成器Knex的轻量级ORM。 ![](https://img.shields.io/github/stars/Vincit/objection.js.svg?style=social&label=Star)
-  - [Waterline](https://github.com/balderdashy/waterline) - 与数据存储区无关的工具，可大大简化与一个或多个数据库的交互。 ![](https://img.shields.io/github/stars/balderdashy/waterline.svg?style=social&label=Star)
-  - [Massive](https://github.com/robconery/massive-js) - PostgreSQL数据访问工具。 ![](https://img.shields.io/github/stars/robconery/massive-js.svg?style=social&label=Star)
-  - [pg-promise](https://github.com/vitaly-t/pg-promise) - 用于使用Promise的本机SQL的PostgreSQL框架。 ![](https://img.shields.io/github/stars/vitaly-t/pg-promise.svg?style=social&label=Star)
-  - [MikroORM](https://github.com/mikro-orm/mikro-orm) - 基于数据映射器，工作单元和身份映射模式的TypeScript ORM。 支持MongoDB，PostgreSQL，MySQL和SQLite。 ![](https://img.shields.io/github/stars/mikro-orm/mikro-orm.svg?style=social&label=Star)
-  - [slonik](https://github.com/gajus/slonik) - 具有严格类型，详细日志记录和断言的PostgreSQL客户端。 ![](https://img.shields.io/github/stars/gajus/slonik.svg?style=social&label=Star)
-  - [OpenRecord](https://github.com/PhilWaldmann/openrecord) - PostgreSQL，MySQL，SQLite3和RESTful数据存储的ORM。 类似于ActiveRecord。 ![](https://img.shields.io/github/stars/PhilWaldmann/openrecord.svg?style=social&label=Star)
-  - [leoric](https://github.com/cyjake/leoric) - 用于MySQL, PostgreSQL, and SQLite的ORM。 ![](https://img.shields.io/github/stars/cyjake/leoric.svg?style=social&label=Star)
+  - [Sequelize](https://github.com/sequelize/sequelize) - Multi-dialect ORM. Supports PostgreSQL, SQLite, MySQL, and more. ![](https://img.shields.io/github/stars/sequelize/sequelize.svg?style=social&label=Star)
+    - [sequelize-typescript](https://github.com/RobinBuschmann/sequelize-typescript) - Decorators and some other features for sequelize. ![](https://img.shields.io/github/stars/RobinBuschmann/sequelize-typescript.svg?style=social&label=Star)
+  - [TypeORM](https://github.com/typeorm/typeorm) - ORM for PostgreSQL, MariaDB, MySQL, SQLite, and more. ![](https://img.shields.io/github/stars/typeorm/typeorm.svg?style=social&label=Star)
+  - [Mongoose](https://github.com/Automattic/mongoose) - Elegant MongoDB object modeling. ![](https://img.shields.io/github/stars/Automattic/mongoose.svg?style=social&label=Star)
+    - [typegoose](https://github.com/typegoose/typegoose) - Typegoose - Define Mongoose models using TypeScript classes. ![](https://img.shields.io/github/stars/typegoose/typegoose.svg?style=social&label=Star)
+  - [Prisma](https://github.com/prisma/prisma) - Modern database access (ORM alternative). Auto-generated and type-safe query builder in TypeScript. Supports PostgreSQL, MySQL & SQLite. ![](https://img.shields.io/github/stars/prisma/prisma.svg?style=social&label=Star)
+  - [Bookshelf](https://github.com/bookshelf/bookshelf) - ORM for PostgreSQL, MySQL and SQLite3 in the style of Backbone.js. ![](https://img.shields.io/github/stars/bookshelf/bookshelf.svg?style=social&label=Star)
+  - [Objection.js](https://github.com/Vincit/objection.js) - Lightweight ORM built on the SQL query builder Knex. ![](https://img.shields.io/github/stars/Vincit/objection.js.svg?style=social&label=Star)
+  - [Waterline](https://github.com/balderdashy/waterline) - Datastore-agnostic tool that dramatically simplifies interaction with one or more databases. ![](https://img.shields.io/github/stars/balderdashy/waterline.svg?style=social&label=Star)
+  - [pg-promise](https://github.com/vitaly-t/pg-promise) - PostgreSQL framework for native SQL using promises. ![](https://img.shields.io/github/stars/vitaly-t/pg-promise.svg?style=social&label=Star)
+  - [MikroORM](https://github.com/mikro-orm/mikro-orm) - TypeScript ORM based on Data Mapper, Unit of Work and Identity Map patterns. Supports MongoDB, PostgreSQL, MySQL and SQLite. ![](https://img.shields.io/github/stars/mikro-orm/mikro-orm.svg?style=social&label=Star)
+  - [Massive](https://github.com/robconery/massive-js) - PostgreSQL data access tool. ![](https://img.shields.io/github/stars/robconery/massive-js.svg?style=social&label=Star)
+  - [slonik](https://github.com/gajus/slonik) - PostgreSQL client with strict types, detailed logging and assertions. ![](https://img.shields.io/github/stars/gajus/slonik.svg?style=social&label=Star)
+  - [OpenRecord](https://github.com/PhilWaldmann/openrecord) - ORM for PostgreSQL, MySQL, SQLite3 and RESTful datastores. Similar to ActiveRecord. ![](https://img.shields.io/github/stars/PhilWaldmann/openrecord.svg?style=social&label=Star)
+  - [leoric](https://github.com/cyjake/leoric) - JavaScript ORM for MySQL, PostgreSQL, and SQLite. ![](https://img.shields.io/github/stars/cyjake/leoric.svg?style=social&label=Star)
 
 - Query builder
-  - [Knex](https://github.com/tgriesser/knex) - PostgreSQL，MySQL和SQLite3的查询构建器，旨在灵活，可移植且易于使用。 ![](https://img.shields.io/github/stars/tgriesser/knex.svg?style=social&label=Star)
+  - [Knex](https://github.com/tgriesser/knex) - Query builder for PostgreSQL, MySQL and SQLite3, designed to be flexible, portable, and fun to use. ![](https://img.shields.io/github/stars/tgriesser/knex.svg?style=social&label=Star)
 
 - SQL
-  - [sqlstring](https://github.com/mysqljs/sqlstring) - 简单 SQL 转义和格式，用于MySQL。 ![](https://img.shields.io/github/stars/mysqljs/sqlstring.svg?style=social&label=Star)
+  - [sqlstring](https://github.com/mysqljs/sqlstring) - Simple SQL escape and format for MySQL. ![](https://img.shields.io/github/stars/mysqljs/sqlstring.svg?style=social&label=Star)
 
-- 其他
-  - [Lowdb](https://github.com/typicode/lowdb) - 用于小型项目的微型本地 JSON 数据库（支持 Node、Electron 和浏览器）。 ![](https://img.shields.io/github/stars/typicode/lowdb.svg?style=social&label=Star)
-  - [NeDB](https://github.com/louischatriot/nedb) - 用于 Node.js、nw.js、Electron和浏览器的嵌入式持久数据库或内存数据库。 ![](https://img.shields.io/github/stars/louischatriot/nedb.svg?style=social&label=Star)
-  - [Keyv](https://github.com/lukechilds/keyv) - 支持多个后端的简单键值(KV)存储。 ![](https://img.shields.io/github/stars/lukechilds/keyv.svg?style=social&label=Star)
-  - [pg-mem](https://github.com/oguimbal/pg-mem) - 内存 PostgreSQL 实例。 ![](https://img.shields.io/github/stars/oguimbal/pg-mem.svg?style=social&label=Star)
-  - [Mongo Seeding](https://github.com/pkosiec/mongo-seeding) - 使用 JavaScript 和 JSON 文件填充 MongoDB 数据库。 ![](https://img.shields.io/github/stars/pkosiec/mongo-seeding.svg?style=social&label=Star)
-  - [@databases](https://github.com/ForbesLindesay/atdatabases) - 使用普通 SQL 查询 PostgreSQL、MySQL 和 SQLite3，而不会导致 SQL注入 的风险。 ![](https://img.shields.io/github/stars/ForbesLindesay/atdatabases.svg?style=social&label=Star)
-  - [Finale](https://github.com/tommybananas/finale) - 基于 Sequelize 模型生成 RESTful接口。 ![](https://img.shields.io/github/stars/tommybananas/finale.svg?style=social&label=Star)
-  - [database-js](https://github.com/mlaanderson/database-js) - 类似 JDBC连接 的多个数据库连接封装。 ![](https://img.shields.io/github/stars/mlaanderson/database-js.svg?style=social&label=Star)
+- Other
+  - [Lowdb](https://github.com/typicode/lowdb) - Tiny local JSON database for small projects (supports Node, Electron and the browser). ![](https://img.shields.io/github/stars/typicode/lowdb.svg?style=social&label=Star)
+  - [NeDB](https://github.com/louischatriot/nedb) - Embedded persistent or in memory database for Node.js, nw.js, Electron and browsers. ![](https://img.shields.io/github/stars/louischatriot/nedb.svg?style=social&label=Star)
+  - [Keyv](https://github.com/lukechilds/keyv) - Simple key-value storage with support for multiple backends. ![](https://img.shields.io/github/stars/lukechilds/keyv.svg?style=social&label=Star)
+  - [pg-mem](https://github.com/oguimbal/pg-mem) - In-memory PostgreSQL instance. ![](https://img.shields.io/github/stars/oguimbal/pg-mem.svg?style=social&label=Star)
+  - [Mongo Seeding](https://github.com/pkosiec/mongo-seeding) - Populate MongoDB databases with JavaScript and JSON files. ![](https://img.shields.io/github/stars/pkosiec/mongo-seeding.svg?style=social&label=Star)
+  - [@databases](https://github.com/ForbesLindesay/atdatabases) - Query PostgreSQL, MySQL and SQLite3 with plain SQL without risking SQL injection. ![](https://img.shields.io/github/stars/ForbesLindesay/atdatabases.svg?style=social&label=Star)
+  - [Finale](https://github.com/tommybananas/finale) - RESTful endpoint generator for your Sequelize models. ![](https://img.shields.io/github/stars/tommybananas/finale.svg?style=social&label=Star)
+  - [database-js](https://github.com/mlaanderson/database-js) - Wrapper for multiple databases with a JDBC-like connection. ![](https://img.shields.io/github/stars/mlaanderson/database-js.svg?style=social&label=Star)
 
-### 缓存
+### Cache
 
-- [lru-cache](https://github.com/isaacs/node-lru-cache) - 最近最少使用的缓存（LRU）实现。 ![](https://img.shields.io/github/stars/isaacs/node-lru-cache.svg?style=social&label=Star)
-- [node-cache](https://github.com/node-cache/node-cache) - Node.js内存缓存模块。 ![](https://img.shields.io/github/stars/node-cache/node-cache.svg?style=social&label=Star)
-- [memcached](https://github.com/3rd-Eden/memcached) - 功能齐全的Memcached Node.js客户端库。 考虑到扩展性，因此它将支持Memcached群集和一致的哈希。 ![](https://img.shields.io/github/stars/3rd-Eden/memcached.svg?style=social&label=Star)
-- [node-cache-manager](https://github.com/BryanDonovan/node-cache-manager) - Node.js Cache模块。 ![](https://img.shields.io/github/stars/BryanDonovan/node-cache-manager.svg?style=social&label=Star)
-- [quick-lru](https://github.com/sindresorhus/quick-lru) - 简单的 “最近最少使用” (LRU) 缓存. ![](https://img.shields.io/github/stars/sindresorhus/quick-lru.svg?style=social&label=Star)
-- [hashlru](https://github.com/dominictarr/hashlru) - 更轻量更快的LRU算法。 ![](https://img.shields.io/github/stars/dominictarr/hashlru.svg?style=social&label=Star)
-- [flat-cache](https://github.com/royriojas/flat-cache) - 一个傻瓜般简单的键/值存储使用文件来持久化数据。 ![](https://img.shields.io/github/stars/royriojas/flat-cache.svg?style=social&label=Star)
-- [ylru](https://github.com/node-modules/ylru) - 基于hashlru添加过期时间，允许空值。 ![](https://img.shields.io/github/stars/node-modules/ylru.svg?style=social&label=Star)
+- [lru-cache](https://github.com/isaacs/node-lru-cache) - A cache object that deletes the least-recently-used items. ![](https://img.shields.io/github/stars/isaacs/node-lru-cache.svg?style=social&label=Star)
+- [node-cache](https://github.com/node-cache/node-cache) - A node internal (in-memory) caching module. ![](https://img.shields.io/github/stars/node-cache/node-cache.svg?style=social&label=Star)
+- [memcached](https://github.com/3rd-Eden/memcached) - A fully featured Memcached client build on top of Node.js. Build with scaling in mind so it will support Memcached clusters and consistent hashing. ![](https://img.shields.io/github/stars/3rd-Eden/memcached.svg?style=social&label=Star)
+- [node-cache-manager](https://github.com/BryanDonovan/node-cache-manager) - Cache module for Node.JS. ![](https://img.shields.io/github/stars/BryanDonovan/node-cache-manager.svg?style=social&label=Star)
+- [quick-lru](https://github.com/sindresorhus/quick-lru) - Simple “Least Recently Used” (LRU) cache. ![](https://img.shields.io/github/stars/sindresorhus/quick-lru.svg?style=social&label=Star)
+- [hashlru](https://github.com/dominictarr/hashlru) - Simpler, faster LRU cache algorithm. ![](https://img.shields.io/github/stars/dominictarr/hashlru.svg?style=social&label=Star)
+- [flat-cache](https://github.com/royriojas/flat-cache) - A stupidly simple key/value storage using files to persist the data. ![](https://img.shields.io/github/stars/royriojas/flat-cache.svg?style=social&label=Star)
+- [ylru](https://github.com/node-modules/ylru) - Add "expire", "allow set empty value" extends on hashlru. ![](https://img.shields.io/github/stars/node-modules/ylru.svg?style=social&label=Star)
 
-### 搜索引擎
+### Search Engine
 
-- [elasticsearch-js](https://github.com/elastic/elasticsearch-js) - 官方Elasticsearch客户端库。 ![](https://img.shields.io/github/stars/elastic/elasticsearch-js.svg?style=social&label=Star)
-- [elasticsearch-js-legacy](https://github.com/elastic/elasticsearch-js-legacy) -  适用于 Node.js 和浏览器的旧版 Elasticsearch 客户端库。 ![](https://img.shields.io/github/stars/elastic/elasticsearch-js-legacy.svg?style=social&label=Star)
+- [elasticsearch-js](https://github.com/elastic/elasticsearch-js) - Official Elasticsearch client library for Node.js. ![](https://img.shields.io/github/stars/elastic/elasticsearch-js.svg?style=social&label=Star)
+- [elasticsearch-js-legacy](https://github.com/elastic/elasticsearch-js-legacy) - Legacy Elasticsearch client library for Node.js and the browser. ![](https://img.shields.io/github/stars/elastic/elasticsearch-js-legacy.svg?style=social&label=Star)
 
 ### Serverless
 
-- [serverless](https://github.com/serverless/serverless) - 无服务器框架 – 使用 AWS Lambda、Azure Functions、Google CloudFunctions 等无服务器架构构建 Web、移动和 IoT 应用程序。 ![](https://img.shields.io/github/stars/serverless/serverless.svg?style=social&label=Star)
-- [@midway/faas](https://github.com/midwayjs/midway/tree/2.x/packages/faas) - Midway FaaS 是用于构建 Node.js 云功能的 Serverless 框架。 ![](https://img.shields.io/github/stars/midwayjs/midway.svg?style=social&label=Star)
-- [malagu](https://github.com/cellbang/malagu) - Malagu 是基于 TypeScript 的 Serverless First、可扩展和组件化的应用框架。 ![](https://img.shields.io/github/stars/cellbang/malagu.svg?style=social&label=Star)
+- [serverless](https://github.com/serverless/serverless) - Serverless Framework – Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more! ![](https://img.shields.io/github/stars/serverless/serverless.svg?style=social&label=Star)
+- [@midway/faas](https://github.com/midwayjs/midway/tree/2.x/packages/faas) - Midway FaaS is the Serverless framework used to build Node.js cloud functions. ![](https://img.shields.io/github/stars/midwayjs/midway.svg?style=social&label=Star)
+- [malagu](https://github.com/cellbang/malagu) - Malagu is a Serverless First, componentized, platform-independent progressive application framework based on TypeScript. ![](https://img.shields.io/github/stars/cellbang/malagu.svg?style=social&label=Star)
 
-### 自动化 & 机器人流程自动化 - RPA
+### Automation & RPA
 
-- [puppeteer](https://github.com/puppeteer/puppeteer) - 无头Chrome Node.js API。 ![](https://img.shields.io/github/stars/puppeteer/puppeteer.svg?style=social&label=Star)
-- [playwright](https://github.com/microsoft/playwright) - 使用单一API自动操作Chromium, Firefox and WebKi。 ![](https://img.shields.io/github/stars/microsoft/playwright.svg?style=social&label=Star)
-- [phantomjs](https://github.com/ariya/phantomjs) - 脚本化无头浏览器。 ![](https://img.shields.io/github/stars/ariya/phantomjs.svg?style=social&label=Star)
-- [appium](https://github.com/appium/appium) - iOS, Android, and Windows Apps自动化。 ![](https://img.shields.io/github/stars/appium/appium.svg?style=social&label=Star)
-- [wechaty](https://github.com/wechaty/wechaty) - 会话 RPA SDK。 ![](https://img.shields.io/github/stars/wechaty/wechaty.svg?style=social&label=Star)
-- [robotjs](https://github.com/octalmage/robotjs) - Node.js桌面自动化。 ![](https://img.shields.io/github/stars/octalmage/robotjs.svg?style=social&label=Star)
-- [nut.js](https://github.com/nut-tree/nut.js) - 使用Node.js进行原生 UI 测试/控制 ![](https://img.shields.io/github/stars/nut-tree/nut.js.svg?style=social&label=Star)
+- [puppeteer](https://github.com/puppeteer/puppeteer) - Headless Chrome Node.js API. ![](https://img.shields.io/github/stars/puppeteer/puppeteer.svg?style=social&label=Star)
+- [playwright](https://github.com/microsoft/playwright) - Automate Chromium, Firefox and WebKit with a single API. ![](https://img.shields.io/github/stars/microsoft/playwright.svg?style=social&label=Star)
+- [phantomjs](https://github.com/ariya/phantomjs) - Scriptable Headless Browser. ![](https://img.shields.io/github/stars/ariya/phantomjs.svg?style=social&label=Star)
+- [appium](https://github.com/appium/appium) - Automation for iOS, Android, and Windows Apps. ![](https://img.shields.io/github/stars/appium/appium.svg?style=social&label=Star)
+- [wechaty](https://github.com/wechaty/wechaty) - Conversational RPA SDK. ![](https://img.shields.io/github/stars/wechaty/wechaty.svg?style=social&label=Star)
+- [robotjs](https://github.com/octalmage/robotjs) - Node.js Desktop Automation. ![](https://img.shields.io/github/stars/octalmage/robotjs.svg?style=social&label=Star)
+- [nut.js](https://github.com/nut-tree/nut.js) - Native UI testing / controlling with node. ![](https://img.shields.io/github/stars/nut-tree/nut.js.svg?style=social&label=Star)
 
-### 测试相关
+### Testing
 
-- 断言库
-  - [chai](https://github.com/chaijs/chai) - 基于行为驱动开发(BDD)和测试驱动开发(TDD)理念的Node.js和浏览器断言库，可与任何 JavaScript 测试框架集成。 ![](https://img.shields.io/github/stars/chaijs/chai.svg?style=social&label=Star)
-  - [power-assert](https://github.com/power-assert-js/power-assert) - 使用标准assert接口提供的描述型断言消息。 ![](https://img.shields.io/github/stars/power-assert-js/power-assert.svg?style=social&label=Star)
-  - [expect.js](https://github.com/Automattic/expect.js) - 适用于Node.JS和浏览器的简约BDD风格的断言库。 ![](https://img.shields.io/github/stars/Automattic/expect.js.svg?style=social&label=Star)
-  - [should.js](https://github.com/shouldjs/should.js) - Node.JS的行为驱动开发(BDD)风格断言库。 ![](https://img.shields.io/github/stars/shouldjs/should.js.svg?style=social&label=Star)
-  - [unexpected](https://github.com/unexpectedjs/unexpected) - Unexpected - 可扩展的 BDD 断言工具包。 ![](https://img.shields.io/github/stars/unexpectedjs/unexpected.svg?style=social&label=Star)
-  - [better-assert](https://github.com/tj/better-assert) - C语言风格的Node.js断言，将表达式字符串报告为错误消息。 ![](https://img.shields.io/github/stars/tj/better-assert.svg?style=social&label=Star)
-  - [http-assert](https://github.com/jshttp/http-assert) - 带状态码的断言。 ![](https://img.shields.io/github/stars/jshttp/http-assert.svg?style=social&label=Star)
+- Assertion
+  - [chai](https://github.com/chaijs/chai) - BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework. ![](https://img.shields.io/github/stars/chaijs/chai.svg?style=social&label=Star)
+  - [power-assert](https://github.com/power-assert-js/power-assert) - Provides descriptive assertion messages through the standard assert interface. ![](https://img.shields.io/github/stars/power-assert-js/power-assert.svg?style=social&label=Star)
+  - [expect.js](https://github.com/Automattic/expect.js) - Minimalistic BDD-style assertions for Node.JS and the browser. ![](https://img.shields.io/github/stars/Automattic/expect.js.svg?style=social&label=Star)
+  - [should.js](https://github.com/shouldjs/should.js) - BDD style assertions for node.js. ![](https://img.shields.io/github/stars/shouldjs/should.js.svg?style=social&label=Star)
+  - [unexpected](https://github.com/unexpectedjs/unexpected) - Unexpected - the extensible BDD assertion toolkit. ![](https://img.shields.io/github/stars/unexpectedjs/unexpected.svg?style=social&label=Star)
+  - [better-assert](https://github.com/tj/better-assert) - C-style assert() for nodejs, reporting the expression string as the error message. ![](https://img.shields.io/github/stars/tj/better-assert.svg?style=social&label=Star)
+  - [http-assert](https://github.com/jshttp/http-assert) - Assert with status codes. ![](https://img.shields.io/github/stars/jshttp/http-assert.svg?style=social&label=Star)
 
-- 假数据生成
-  - [faker.js](https://github.com/marak/Faker.js/) - 在Node.js和浏览器中生成大量逼真的假数据。 ![](https://img.shields.io/github/stars/marak/Faker.js.svg?style=social&label=Star)
-  - [casual](https://github.com/boo1ean/casual) - JavaScript假数据生成。 ![](https://img.shields.io/github/stars/boo1ean/casual.svg?style=social&label=Star)
-  - [fony](https://github.com/captainsafia/fony) - 一个简单的命令行工具，从字符串模板中生成假数据。 ![](https://img.shields.io/github/stars/captainsafia/fony.svg?style=social&label=Star)
+- Faker Generator
+  - [faker.js](https://github.com/marak/Faker.js/) - Generate massive amounts of realistic fake data in Node.js and the browser. ![](https://img.shields.io/github/stars/marak/Faker.js.svg?style=social&label=Star)
+  - [casual](https://github.com/boo1ean/casual) - Fake data generator for javascript. ![](https://img.shields.io/github/stars/boo1ean/casual.svg?style=social&label=Star)
+  - [fony](https://github.com/captainsafia/fony) - A simple command line tool for generating fake data from a template string. ![](https://img.shields.io/github/stars/captainsafia/fony.svg?style=social&label=Star)
 
 - Mock
-  - [Mock.js](https://github.com/nuysoft/Mock) - 浏览器和 Node 均可用，支持自定义 schema 和 随机数据。 ![](https://img.shields.io/github/stars/nuysoft/Mock.svg?style=social&label=Star)
-  - [Nock](https://github.com/pgte/nock) - HTTP mock和期望。 ![](https://img.shields.io/github/stars/pgte/nock.svg?style=social&label=Star)
-  - [Sinon.JS](https://github.com/sinonjs/sinon) - 通过间谍函数(spies), 目标函数替换（stubs）和mocks功能提供的Mock库。 ![](https://img.shields.io/github/stars/sinonjs/sinon.svg?style=social&label=Star)
-  - [mm](https://github.com/node-modules/mm) - 简单但灵活的 mock(或者叫stub) 包, mock伴侣。 ![](https://img.shields.io/github/stars/node-modules/mm.svg?style=social&label=Star)
+  - [Mock.js](https://github.com/nuysoft/Mock) - A simulation data generator. ![](https://img.shields.io/github/stars/nuysoft/Mock.svg?style=social&label=Star)
+  - [Nock](https://github.com/pgte/nock) - HTTP mocking and expectations. ![](https://img.shields.io/github/stars/pgte/nock.svg?style=social&label=Star)
+  - [Sinon.JS](https://github.com/sinonjs/sinon) - Test spies, stubs and mocks. ![](https://img.shields.io/github/stars/sinonjs/sinon.svg?style=social&label=Star)
+  - [mm](https://github.com/node-modules/mm) - An simple but flexible mock(or say stub) package, mock mate. ![](https://img.shields.io/github/stars/node-modules/mm.svg?style=social&label=Star)
 
-- Mock服务
-  - [json-server](https://github.com/typicode/json-server) - 在不到30秒的时间内获得具有零编码的完整伪造的REST API。 ![](https://img.shields.io/github/stars/typicode/json-server.svg?style=social&label=Star)
-  - [easy-mock](https://github.com/easy-mock/easy-mock) - 可视化，并且能快速生成模拟数据的持久化服务。 ![](https://img.shields.io/github/stars/easy-mock/easy-mock.svg?style=social&label=Star)
-  - [miragejs](https://github.com/miragejs/miragejs) - 用于构建、测试和共享您的 JavaScript 应用程序的客户端服务。 ![](https://img.shields.io/github/stars/miragejs/miragejs.svg?style=social&label=Star)
-  - [pretender](https://github.com/pretenderjs/pretender) - 具有良好路由 DSL 的Mock服务器库。 ![](https://img.shields.io/github/stars/pretenderjs/pretender.svg?style=social&label=Star)
-  - [http-fake-backend](https://github.com/micromata/http-fake-backend) - 通过可配置的路由，提供JSON文件或JavaScript对象来构建伪造的后端。 ![](https://img.shields.io/github/stars/micromata/http-fake-backend.svg?style=social&label=Star)
-  - [smoke](https://github.com/sinedied/smoke) - 具有记录功能的，简单但功能强大的基于文件的Mock服务器。 ![](https://img.shields.io/github/stars/sinedied/smoke.svg?style=social&label=Star)
+- Mock Server
+  - [json-server](https://github.com/typicode/json-server) - Get a full fake REST API with zero coding in less than 30 seconds. ![](https://img.shields.io/github/stars/typicode/json-server.svg?style=social&label=Star)
+  - [easy-mock](https://github.com/easy-mock/easy-mock) - A persistent service that generates mock data quickly and provids visualization view. ![](https://img.shields.io/github/stars/easy-mock/easy-mock.svg?style=social&label=Star)
+  - [miragejs](https://github.com/miragejs/miragejs) - A client-side server to build, test and share your JavaScript app. ![](https://img.shields.io/github/stars/miragejs/miragejs.svg?style=social&label=Star)
+  - [pretender](https://github.com/pretenderjs/pretender) - A mock server library with a nice routing DSL. ![](https://img.shields.io/github/stars/pretenderjs/pretender.svg?style=social&label=Star)
+  - [http-fake-backend](https://github.com/micromata/http-fake-backend) - Build a fake backend by providing the content of JSON files or JavaScript objects through configurable routes. ![](https://img.shields.io/github/stars/micromata/http-fake-backend.svg?style=social&label=Star)
+  - [smoke](https://github.com/sinedied/smoke) - 💨 Simple yet powerful file-based mock server with recording abilities. ![](https://img.shields.io/github/stars/sinedied/smoke.svg?style=social&label=Star)
 
-- UI录制和播放
-  - [rrweb](https://github.com/rrweb-io/rrweb) - 记录和播放Web操作。 ![](https://img.shields.io/github/stars/rrweb-io/rrweb.svg?style=social&label=Star)
-  - [uirecorder](https://github.com/alibaba/uirecorder) - UI Recorder 是一款面向多端的 UI 自动化录制工具。 ![](https://img.shields.io/github/stars/alibaba/uirecorder.svg?style=social&label=Star)
+- UI Recoder / Replay
+  - [rrweb](https://github.com/rrweb-io/rrweb) - Record and replay the web. ![](https://img.shields.io/github/stars/rrweb-io/rrweb.svg?style=social&label=Star)
+  - [uirecorder](https://github.com/alibaba/uirecorder) - UI Recorder is a multi-platform UI test recorder. ![](https://img.shields.io/github/stars/alibaba/uirecorder.svg?style=social&label=Star)
 
-- 端到端的测试(E2E)
-  - [cypress](https://github.com/cypress-io/cypress) - 对浏览器中运行的任何东西进行快速、简单和可靠的测试。 ![](https://img.shields.io/github/stars/cypress-io/cypress.svg?style=social&label=Star)
-  - [nightwatch](https://github.com/nightwatchjs/nightwatch) - 用 Node.js 编写，并使用 Webdriver API 的端到端测试框架。 ![](https://img.shields.io/github/stars/nightwatchjs/nightwatch.svg?style=social&label=Star)
-  - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - Node.js端到端测试框架。 ![](https://img.shields.io/github/stars/codeceptjs/CodeceptJS.svg?style=social&label=Star)
+- End-to-end Testing
+  - [cypress](https://github.com/cypress-io/cypress) - Fast, easy and reliable testing for anything that runs in a browser. ![](https://img.shields.io/github/stars/cypress-io/cypress.svg?style=social&label=Star)
+  - [nightwatch](https://github.com/nightwatchjs/nightwatch) - End-to-end testing framework written in Node.js and using the Webdriver API. ![](https://img.shields.io/github/stars/nightwatchjs/nightwatch.svg?style=social&label=Star)
+  - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - End 2 End Testing Framework for NodeJS. ![](https://img.shields.io/github/stars/codeceptjs/CodeceptJS.svg?style=social&label=Star)
 
-- 测试框架
-  - [jest](https://github.com/facebook/jest) - 愉悦的JavaScript测试。 ![](https://img.shields.io/github/stars/facebook/jest.svg?style=social&label=Star)
-  - [mocha](https://github.com/mochajs/mocha) - 简单、灵活、有趣的功能丰富的Node.js和浏览器测试框架。 ![](https://img.shields.io/github/stars/mochajs/mocha.svg?style=social&label=Star)
-  - [ava](https://github.com/avajs/ava) - 面向未来的测试运行程序。 ![](https://img.shields.io/github/stars/avajs/ava.svg?style=social&label=Star)
-  - [jasmine](https://github.com/jasmine/jasmine) - 简单的Node.js和浏览器测试框架。 ![](https://img.shields.io/github/stars/jasmine/jasmine.svg?style=social&label=Star)
-  - [supertest](https://github.com/visionmedia/supertest) - 使用流畅的API，基于Super-agent库测试Node.js HTTP服务器。 ![](https://img.shields.io/github/stars/visionmedia/supertest.svg?style=social&label=Star)
-  - [node-tap](https://github.com/tapjs/node-tap) - 用于Node.js测试任何协议的工具。 ![](https://img.shields.io/github/stars/tapjs/node-tap.svg?style=social&label=Star)
+- Testing Framework
+  - [jest](https://github.com/facebook/jest) - Delightful JavaScript Testing. ![](https://img.shields.io/github/stars/facebook/jest.svg?style=social&label=Star)
+  - [mocha](https://github.com/mochajs/mocha) - Simple, flexible, fun javascript test framework for node.js & the browser. ![](https://img.shields.io/github/stars/mochajs/mocha.svg?style=social&label=Star)
+  - [ava](https://github.com/avajs/ava) - Node.js test runner that lets you develop with confidence 🚀. ![](https://img.shields.io/github/stars/avajs/ava.svg?style=social&label=Star)
+  - [jasmine](https://github.com/jasmine/jasmine) - Simple JavaScript testing framework for browsers and node.js. ![](https://img.shields.io/github/stars/jasmine/jasmine.svg?style=social&label=Star)
+  - [supertest](https://github.com/visionmedia/supertest) - Super-agent driven library for testing node.js HTTP servers using a fluent API. ![](https://img.shields.io/github/stars/visionmedia/supertest.svg?style=social&label=Star)
+  - [node-tap](https://github.com/tapjs/node-tap) - Test Anything Protocol tools for node. ![](https://img.shields.io/github/stars/tapjs/node-tap.svg?style=social&label=Star)
 
-- 覆盖率
-  - [nyc](https://github.com/istanbuljs/nyc) - Istanbul的命令行工具。 ![](https://img.shields.io/github/stars/istanbuljs/nyc.svg?style=social&label=Star)
-  - [node-coveralls](https://github.com/nickmerwin/node-coveralls) - 借助持续集成服务(Travis CI 或 Jenkins) 向用户报告自动测试的测试覆盖率；为README添加一个很酷的覆盖率按钮。 ![](https://img.shields.io/github/stars/nickmerwin/node-coveralls.svg?style=social&label=Star)
-  - [codecov](https://github.com/codecov/codecov-node) - NodeJS中代码覆盖率报告上载器。 ![](https://img.shields.io/github/stars/codecov/codecov-node.svg?style=social&label=Star)
+- Coverage
+  - [nyc](https://github.com/istanbuljs/nyc) - The Istanbul command line interface. ![](https://img.shields.io/github/stars/istanbuljs/nyc.svg?style=social&label=Star)
+  - [node-coveralls](https://github.com/nickmerwin/node-coveralls) - Coveralls.io support for Node.js. Get the great coverage reporting of coveralls.io and add a cool coverage button (like the one above) to your README. ![](https://img.shields.io/github/stars/nickmerwin/node-coveralls.svg?style=social&label=Star)
+  - [codecov](https://github.com/codecov/codecov-node) - Global coverage report uploader for Codecov in NodeJS. ![](https://img.shields.io/github/stars/codecov/codecov-node.svg?style=social&label=Star)
 
-- 基准测试
-  - [Benchmark.js](https://github.com/bestiejs/benchmark.js) - 基准测试库，支持高分辨率计时器并返回具有统计意义的结果。 ![](https://img.shields.io/github/stars/bestiejs/benchmark.js.svg?style=social&label=Star)
-  - [matcha](https://github.com/logicalparadox/matcha) - 基准测试的简化方法。 ![](https://img.shields.io/github/stars/logicalparadox/matcha.svg?style=social&label=Star)
-  - [benny](https://github.com/caderek/benny) - 一个非常简单的 JS/TS 库基准测试框架。 ![](https://img.shields.io/github/stars/caderek/benny.svg?style=social&label=Star)
-  - [node-wrk](https://github.com/sidorares/node-wrk) - Wrk负载测试工具Node.js版封装。 ![](https://img.shields.io/github/stars/sidorares/node-wrk.svg?style=social&label=Star)
+- Benchmarking
+  - [Benchmark.js](https://github.com/bestiejs/benchmark.js) - Benchmarking library that supports high-resolution timers and returns statistically significant results. ![](https://img.shields.io/github/stars/bestiejs/benchmark.js.svg?style=social&label=Star)
+  - [matcha](https://github.com/logicalparadox/matcha) - Simplistic approach to benchmarking. ![](https://img.shields.io/github/stars/logicalparadox/matcha.svg?style=social&label=Star)
+  - [benny](https://github.com/caderek/benny) - A dead simple benchmarking framework for JS/TS libs. ![](https://img.shields.io/github/stars/caderek/benny.svg?style=social&label=Star)
+  - [node-wrk](https://github.com/sidorares/node-wrk) - Wrk load testing tool node wrapper. ![](https://img.shields.io/github/stars/sidorares/node-wrk.svg?style=social&label=Star)
 
-- 解决方案
-  - [macaca](https://github.com/alibaba/macaca) - 多端自动化解决方案。*（你也许会喜欢 [awesome-macaca](https://github.com/macacajs/awesome-macaca))* ![](https://img.shields.io/github/stars/alibaba/macaca.svg?style=social&label=Star)
+- Solution
+  - [macaca](https://github.com/alibaba/macaca) - Automation solution for multi-platform. *(You might like [awesome-macaca](https://github.com/macacajs/awesome-macaca))* ![](https://img.shields.io/github/stars/alibaba/macaca.svg?style=social&label=Star)
 
-### 办公软件
+### Office
 
 - Excel
-  - [sheetjs](https://github.com/SheetJS/sheetjs) - 电子表格数据工具箱。 ![](https://img.shields.io/github/stars/SheetJS/sheetjs.svg?style=social&label=Star)
-  - [exceljs](https://github.com/exceljs/exceljs) - Excel工作表管理工具。 ![](https://img.shields.io/github/stars/exceljs/exceljs.svg?style=social&label=Star)
-  - [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) - Excel XLSX生成和解析工具，可运行在Node和浏览器。 ![](https://img.shields.io/github/stars/dtjohnson/xlsx-populate.svg?style=social&label=Star)
+  - [sheetjs](https://github.com/SheetJS/sheetjs) - Spreadsheet Data Toolkit. ![](https://img.shields.io/github/stars/SheetJS/sheetjs.svg?style=social&label=Star)
+  - [exceljs](https://github.com/exceljs/exceljs) - Excel Workbook Manager. ![](https://img.shields.io/github/stars/exceljs/exceljs.svg?style=social&label=Star)
+  - [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) - Excel XLSX parser/generator written in JavaScript with Node.js and browser support. ![](https://img.shields.io/github/stars/dtjohnson/xlsx-populate.svg?style=social&label=Star)
 
 - Word
-  - [officegen](https://github.com/Ziv-Barber/officegen) - 使用Javascript，生成可打开Word（docx）、PowerPoint（pptx）和Excel（xlsx）的XML文件（需Microsoft Office 2007及更高版本），输出是一个stream。 ![](https://img.shields.io/github/stars/Ziv-Barber/officegen.svg?style=social&label=Star)
-  - [Mammoth](https://github.com/mwilliamson/mammoth.js) - 将Word文档(.docx文件)转化为HTML。 ![](https://img.shields.io/github/stars/mwilliamson/mammoth.js.svg?style=social&label=Star)
-  - [docx](https://github.com/dolanmiu/docx) - 通过良好定义的API,在NodeJS和浏览器中，使用JS/TS轻松的生成docx文件。 ![](https://img.shields.io/github/stars/dolanmiu/docx.svg?style=social&label=Star)
+  - [officegen](https://github.com/Ziv-Barber/officegen) - Standalone Office Open XML files (Microsoft Office 2007 and later) generator for Word (docx), PowerPoint (pptx) and Excell (xlsx) in javascript. The output is a stream. ![](https://img.shields.io/github/stars/Ziv-Barber/officegen.svg?style=social&label=Star)
+  - [Mammoth](https://github.com/mwilliamson/mammoth.js) - Convert Word documents (.docx files) to HTML. ![](https://img.shields.io/github/stars/mwilliamson/mammoth.js.svg?style=social&label=Star)
+  - [docx](https://github.com/dolanmiu/docx) - Easily generate .docx files with JS/TS with a nice declarative API. Works for Node and on the Browser. ![](https://img.shields.io/github/stars/dolanmiu/docx.svg?style=social&label=Star)
 
 - PDF
-  - [jsPDF](https://github.com/MrRio/jsPDF) - 使用JavaScript生成PDF文件的库。 ![](https://img.shields.io/github/stars/MrRio/jsPDF.svg?style=social&label=Star)
-  - [PDFKit](https://github.com/foliojs/pdfkit) - 在Node.js和浏览器中生成PDF的库。 ![](https://img.shields.io/github/stars/foliojs/pdfkit.svg?style=social&label=Star)
-  - [percollate](https://github.com/danburzo/percollate) - 一个命令行工具，可将网页转换为漂亮的，可读的PDF，EPUB或HTML文档。 ![](https://img.shields.io/github/stars/danburzo/percollate.svg?style=social&label=Star)
-  - [pdf-lib](https://github.com/Hopding/pdf-lib) - 在任意JavaScript环境中创建和修改PDF文档。 ![](https://img.shields.io/github/stars/Hopding/pdf-lib.svg?style=social&label=Star)
-  - [pdf2json](https://github.com/modesty/pdf2json) - PDF文件解析器，它将PDF二进制文件转换为基于文本的JSON。 ![](https://img.shields.io/github/stars/modesty/pdf2json.svg?style=social&label=Star)
+  - [jsPDF](https://github.com/MrRio/jsPDF) - A library to generate PDFs in JavaScript. ![](https://img.shields.io/github/stars/MrRio/jsPDF.svg?style=social&label=Star)
+  - [PDFKit](https://github.com/foliojs/pdfkit) - JavaScript PDF generation library for Node and the browser. ![](https://img.shields.io/github/stars/foliojs/pdfkit.svg?style=social&label=Star)
+  - [percollate](https://github.com/danburzo/percollate) - A command-line tool to turn web pages into beautiful, readable PDF, EPUB, or HTML docs. ![](https://img.shields.io/github/stars/danburzo/percollate.svg?style=social&label=Star)
+  - [pdf-lib](https://github.com/Hopding/pdf-lib) - Create and modify PDF documents in any JavaScript environment. ![](https://img.shields.io/github/stars/Hopding/pdf-lib.svg?style=social&label=Star)
+  - [pdf2json](https://github.com/modesty/pdf2json) - A PDF file parser that converts PDF binaries to text based JSON. ![](https://img.shields.io/github/stars/modesty/pdf2json.svg?style=social&label=Star)
 
 - PPT
-  - [nodeppt](https://github.com/ksky521/nodeppt) - Web端展示端PPT工具。 ![](https://img.shields.io/github/stars/ksky521/nodeppt.svg?style=social&label=Star)
+  - [nodeppt](https://github.com/ksky521/nodeppt) - This is probably the best web presentation tool so far! ![](https://img.shields.io/github/stars/ksky521/nodeppt.svg?style=social&label=Star)
 
-### 操作系统识别
+### OS Identification
 
-- [systeminformation](https://github.com/sebhildebrandt/systeminformation) - 获取硬件和软件系统信息。 ![](https://img.shields.io/github/stars/sebhildebrandt/systeminformation.svg?style=social&label=Star)
-- [is-wsl](https://github.com/sindresorhus/is-wsl) - 判断当前是否是否为WSL (适用于Linux的Windows子系统)。 ![](https://img.shields.io/github/stars/sindresorhus/is-wsl.svg?style=social&label=Star)
-- [os-name](https://github.com/sindresorhus/os-name) - 获取当前操作系统的名字。 ![](https://img.shields.io/github/stars/sindresorhus/os-name.svg?style=social&label=Star)
-- [getos](https://github.com/retrohacker/getos) - 获取当前操作系统名称，包括Linux的发行版名称。 ![](https://img.shields.io/github/stars/retrohacker/getos.svg?style=social&label=Star)
-- [is-windows](https://github.com/jonschlinkert/is-windows) - 判断当前系统是否为Windows。 ![](https://img.shields.io/github/stars/jonschlinkert/is-windows.svg?style=social&label=Star)
+- [systeminformation](https://github.com/sebhildebrandt/systeminformation) - Hardware/software system information. ![](https://img.shields.io/github/stars/sebhildebrandt/systeminformation.svg?style=social&label=Star)
+- [is-wsl](https://github.com/sindresorhus/is-wsl) - Detect whether current platform is WSL (Windows Subsystem for Linux). ![](https://img.shields.io/github/stars/sindresorhus/is-wsl.svg?style=social&label=Star)
+- [os-name](https://github.com/sindresorhus/os-name) - Get the name of the current operating system. ![](https://img.shields.io/github/stars/sindresorhus/os-name.svg?style=social&label=Star)
+- [getos](https://github.com/retrohacker/getos) - Retrieve the current OS, including Linux distribution. ![](https://img.shields.io/github/stars/retrohacker/getos.svg?style=social&label=Star)
+- [is-windows](https://github.com/jonschlinkert/is-windows) - Detect whether the current platform is Windows. ![](https://img.shields.io/github/stars/jonschlinkert/is-windows.svg?style=social&label=Star)
 
-### 压缩解压
+### Compression / Decompression
 
-- [jszip](https://github.com/Stuk/jszip) - 使用JavaScript创建、读取、编辑.zip文件。 ![](https://img.shields.io/github/stars/Stuk/jszip.svg?style=social&label=Star)
-- [pako](https://github.com/nodeca/pako) - 高速 zlib 实现，适用于浏览器和 Node.js。 ![](https://img.shields.io/github/stars/nodeca/pako.svg?style=social&label=Star)
-- [adm-zip](https://github.com/cthackers/adm-zip) - 使用JavaScript创建、读取、编辑.zip文件。 ![](https://img.shields.io/github/stars/cthackers/adm-zip.svg?style=social&label=Star)
-- [node-tar](https://github.com/npm/node-tar) - 快速且功能齐全的Tar。 ![](https://img.shields.io/github/stars/npm/node-tar.svg?style=social&label=Star)
-- [yauzl](https://github.com/thejoshwolfe/yauzl) - Node.js unzip解压库。 ![](https://img.shields.io/github/stars/thejoshwolfe/yauzl.svg?style=social&label=Star)
-- [unzipper](https://github.com/ZJONSSON/node-unzipper) - 使用流的 Node.js 跨平台解压缩。 ![](https://img.shields.io/github/stars/ZJONSSON/node-unzipper.svg?style=social&label=Star)
-- [tar-fs](https://github.com/mafintosh/tar-fs) - tar-fs允许您将目录打包到tar格式压缩包中，并将tar格式压缩包提取到目录中。 ![](https://img.shields.io/github/stars/mafintosh/tar-fs.svg?style=social&label=Star)
-- [extract-zip](https://github.com/maxogden/extract-zip) - 用纯 JavaScript 编写的 Zip 提取。 将 zip 解压缩到目录中。 ![](https://img.shields.io/github/stars/maxogden/extract-zip.svg?style=social&label=Star)
-- [compressing](https://github.com/node-modules/compressing) - 压缩和解压缩你所需的一切。 ![](https://img.shields.io/github/stars/node-modules/compressing.svg?style=social&label=Star)
-- [yazl](https://github.com/thejoshwolfe/yazl) - Node.js zip压缩库。 ![](https://img.shields.io/github/stars/thejoshwolfe/yazl.svg?style=social&label=Star)
-- [7zip](https://github.com/fritx/win-7zip) - Windows包压缩/解压 - 7zip。 ![](https://img.shields.io/github/stars/fritx/win-7zip.svg?style=social&label=Star)
+- [jszip](https://github.com/Stuk/jszip) - Create, read and edit .zip files with Javascript. ![](https://img.shields.io/github/stars/Stuk/jszip.svg?style=social&label=Star)
+- [pako](https://github.com/nodeca/pako) - High speed zlib port to javascript, works in browser & node.js. ![](https://img.shields.io/github/stars/nodeca/pako.svg?style=social&label=Star)
+- [adm-zip](https://github.com/cthackers/adm-zip) - Create, read and edit .zip files with Javascript. ![](https://img.shields.io/github/stars/cthackers/adm-zip.svg?style=social&label=Star)
+- [node-tar](https://github.com/npm/node-tar) - Fast and full-featured Tar for Node.js. ![](https://img.shields.io/github/stars/npm/node-tar.svg?style=social&label=Star)
+- [yauzl](https://github.com/thejoshwolfe/yauzl) - Yet another unzip library for node. ![](https://img.shields.io/github/stars/thejoshwolfe/yauzl.svg?style=social&label=Star)
+- [unzipper](https://github.com/ZJONSSON/node-unzipper) - Node.js cross-platform unzip using streams. ![](https://img.shields.io/github/stars/ZJONSSON/node-unzipper.svg?style=social&label=Star)
+- [tar-fs](https://github.com/mafintosh/tar-fs) - Tar-fs allows you to pack directories into tarballs and extract tarballs into directories. ![](https://img.shields.io/github/stars/mafintosh/tar-fs.svg?style=social&label=Star)
+- [extract-zip](https://github.com/maxogden/extract-zip) - Zip extraction written in pure JavaScript. Extracts a zip into a directory. ![](https://img.shields.io/github/stars/maxogden/extract-zip.svg?style=social&label=Star)
+- [compressing](https://github.com/node-modules/compressing) - Everything you need for compressing and uncompressing. ![](https://img.shields.io/github/stars/node-modules/compressing.svg?style=social&label=Star)
+- [yazl](https://github.com/thejoshwolfe/yazl) - Yet another zip library for node. ![](https://img.shields.io/github/stars/thejoshwolfe/yazl.svg?style=social&label=Star)
+- [7zip](https://github.com/fritx/win-7zip) - 7zip Windows Package via Node.js. ![](https://img.shields.io/github/stars/fritx/win-7zip.svg?style=social&label=Star)
 
-### 最小化
+###  Minifiers
 
-- [UglifyJS](https://github.com/mishoo/UglifyJS) - JavaScript压缩工具。 ![](https://img.shields.io/github/stars/mishoo/UglifyJS.svg?style=social&label=Star)
-- [imagemin](https://github.com/imagemin/imagemin) - Image压缩工具。 ![](https://img.shields.io/github/stars/imagemin/imagemin.svg?style=social&label=Star)
-- [babel-minify](https://github.com/babel/minify) - 基于Babel工具链的 ES6+ 压缩库。 ![](https://img.shields.io/github/stars/babel/minify.svg?style=social&label=Star)
-- [cssnano](https://github.com/cssnano/cssnano) - 建立在PostCSS生态系统之上模块化的压缩工具。 ![](https://img.shields.io/github/stars/cssnano/cssnano.svg?style=social&label=Star)
-- [clean-css](https://github.com/jakubpawlowicz/clean-css) - CSS压缩工具。 ![](https://img.shields.io/github/stars/jakubpawlowicz/clean-css.svg?style=social&label=Star)
-- [minimize](https://github.com/Swaagie/minimize) - HTML压缩工具。 ![](https://img.shields.io/github/stars/Swaagie/minimize.svg?style=social&label=Star)
-- [strip-css-comments](https://github.com/sindresorhus/strip-css-comments) - CSS注释剔除工具。 ![](https://img.shields.io/github/stars/sindresorhus/strip-css-comments.svg?style=social&label=Star)
+- [UglifyJS](https://github.com/mishoo/UglifyJS) - JavaScript minifier. ![](https://img.shields.io/github/stars/mishoo/UglifyJS.svg?style=social&label=Star)
+- [imagemin](https://github.com/imagemin/imagemin) - Image minifier. ![](https://img.shields.io/github/stars/imagemin/imagemin.svg?style=social&label=Star)
+- [babel-minify](https://github.com/babel/minify) - ES6+ aware minifier based on the Babel toolchain. ![](https://img.shields.io/github/stars/babel/minify.svg?style=social&label=Star)
+- [cssnano](https://github.com/cssnano/cssnano) - A modular minifier, built on top of the PostCSS ecosystem. ![](https://img.shields.io/github/stars/cssnano/cssnano.svg?style=social&label=Star)
+- [clean-css](https://github.com/jakubpawlowicz/clean-css) - CSS minifier. ![](https://img.shields.io/github/stars/jakubpawlowicz/clean-css.svg?style=social&label=Star)
+- [minimize](https://github.com/Swaagie/minimize) - HTML minifier. ![](https://img.shields.io/github/stars/Swaagie/minimize.svg?style=social&label=Star)
+- [strip-css-comments](https://github.com/sindresorhus/strip-css-comments) - Strip comments from CSS. ![](https://img.shields.io/github/stars/sindresorhus/strip-css-comments.svg?style=social&label=Star)
 
-### 邮箱
+### Email
 
-- [Nylas Mail](https://github.com/nylas/nylas-mail) - 构建在现代Web技术的高扩展性邮件客户端程序。 ![](https://img.shields.io/github/stars/nylas/nylas-mail.svg?style=social&label=Star)
-- [Nodemailer](https://github.com/nodemailer/nodemailer) - 使用Node.js轻松发送电子邮件。 ![](https://img.shields.io/github/stars/nodemailer/nodemailer.svg?style=social&label=Star)
-- [Email Templates](https://github.com/forwardemail/email-templates) - 创建、预览和发送自定义电子邮件模板。 ![](https://img.shields.io/github/stars/forwardemail/email-templates.svg?style=social&label=Star)
-- [emailjs](https://github.com/eleith/emailjs) - 向任何SMTP服务器发送带有附件的文本/HTML电子邮件。 ![](https://img.shields.io/github/stars/eleith/emailjs.svg?style=social&label=Star)
-- [mjml](https://github.com/mjmlio/mjml) - 旨在减少创建响应电子邮件的痛苦的标记语言。 ![](https://img.shields.io/github/stars/mjmlio/mjml.svg?style=social&label=Star)
+- [Nylas Mail](https://github.com/nylas/nylas-mail) - An extensible desktop mail app built on the modern web. ![](https://img.shields.io/github/stars/nylas/nylas-mail.svg?style=social&label=Star)
+- [Nodemailer](https://github.com/nodemailer/nodemailer) - Send e-mails with Node.JS – easy as cake! ![](https://img.shields.io/github/stars/nodemailer/nodemailer.svg?style=social&label=Star)
+- [Email Templates](https://github.com/forwardemail/email-templates) - Create, preview, and send custom email templates for Node.js. ![](https://img.shields.io/github/stars/forwardemail/email-templates.svg?style=social&label=Star)
+- [emailjs](https://github.com/eleith/emailjs) - Html emails and attachments to any smtp server with nodejs. ![](https://img.shields.io/github/stars/eleith/emailjs.svg?style=social&label=Star)
+- [mjml](https://github.com/mjmlio/mjml) - Makes responsive-email easy. ![](https://img.shields.io/github/stars/mjmlio/mjml.svg?style=social&label=Star)
 
-### 网络
+### Network
 
 - IP
-  - [node-ip](https://github.com/indutny/node-ip) - NodeJS IP地址工具。 ![](https://img.shields.io/github/stars/indutny/node-ip.svg?style=social&label=Star)
-  - [public-ip](https://github.com/sindresorhus/public-ip) - 非常快的获取你的公网IP地址。 ![](https://img.shields.io/github/stars/sindresorhus/public-ip.svg?style=social&label=Star)
-  - [request-ip](https://github.com/pbojinov/request-ip) - 在服务器中获取请求的IP地址。 ![](https://img.shields.io/github/stars/pbojinov/request-ip.svg?style=social&label=Star)
-  - [ipaddr.js](https://github.com/whitequark/ipaddr.js) - JavaScript 中的 IP 地址操作库。 ![](https://img.shields.io/github/stars/whitequark/ipaddr.js.svg?style=social&label=Star)
-  - [internal-ip](https://github.com/sindresorhus/internal-ip) - 获取您的内网IP地址。 ![](https://img.shields.io/github/stars/sindresorhus/internal-ip.svg?style=social&label=Star)
-  - [ipify](https://github.com/sindresorhus/ipify) - 获取你的公网IP地址。 ![](https://img.shields.io/github/stars/sindresorhus/ipify.svg?style=social&label=Star)
-  - [address](https://github.com/node-modules/address) - 获取当前机器IP地址和MAC地址。 ![](https://img.shields.io/github/stars/node-modules/address.svg?style=social&label=Star)
+  - [node-ip](https://github.com/indutny/node-ip) - IP address tools for node.js. ![](https://img.shields.io/github/stars/indutny/node-ip.svg?style=social&label=Star)
+  - [public-ip](https://github.com/sindresorhus/public-ip) - Get your public IP address - very fast! ![](https://img.shields.io/github/stars/sindresorhus/public-ip.svg?style=social&label=Star)
+  - [request-ip](https://github.com/pbojinov/request-ip) - A Node.js module for retrieving a request's IP address on the server. ![](https://img.shields.io/github/stars/pbojinov/request-ip.svg?style=social&label=Star)
+  - [ipaddr.js](https://github.com/whitequark/ipaddr.js) - IP address manipulation library in JavaScript. ![](https://img.shields.io/github/stars/whitequark/ipaddr.js.svg?style=social&label=Star)
+  - [internal-ip](https://github.com/sindresorhus/internal-ip) - Get your internal IP address. ![](https://img.shields.io/github/stars/sindresorhus/internal-ip.svg?style=social&label=Star)
+  - [ipify](https://github.com/sindresorhus/ipify) - Get your public IP address. ![](https://img.shields.io/github/stars/sindresorhus/ipify.svg?style=social&label=Star)
+  - [address](https://github.com/node-modules/address) - Get current machine IP and MAC address. ![](https://img.shields.io/github/stars/node-modules/address.svg?style=social&label=Star)
 
-- 端口
-  - [node-portfinder](https://github.com/http-party/node-portfinder) - 在当前机器上查找开放端口 或 域套接字的简单工具。 ![](https://img.shields.io/github/stars/http-party/node-portfinder.svg?style=social&label=Star)
-  - [get-port](https://github.com/sindresorhus/get-port) - 获取一个可用的端口。 ![](https://img.shields.io/github/stars/sindresorhus/get-port.svg?style=social&label=Star)
-  - [detect-port](https://github.com/node-modules/detect-port) - 端口探测的Node.JS实现。 ![](https://img.shields.io/github/stars/node-modules/detect-port.svg?style=social&label=Star)
+- Port
+  - [node-portfinder](https://github.com/http-party/node-portfinder) - A simple tool to find an open port or domain socket on the current machine. ![](https://img.shields.io/github/stars/http-party/node-portfinder.svg?style=social&label=Star)
+  - [get-port](https://github.com/sindresorhus/get-port) - Get an available port. ![](https://img.shields.io/github/stars/sindresorhus/get-port.svg?style=social&label=Star)
+  - [detect-port](https://github.com/node-modules/detect-port) - Node.js implementation of port detector. ![](https://img.shields.io/github/stars/node-modules/detect-port.svg?style=social&label=Star)
 
-- 隧道代理
-  - [localtunnel](https://github.com/localtunnel/localtunnel) - Localtunnel 将您的本地主机公开给全世界，以便于测试和共享！ ![](https://img.shields.io/github/stars/localtunnel/localtunnel.svg?style=social&label=Star)
-  - [node-tunnel](https://github.com/koichik/node-tunnel) - 用于隧道代理的 HTTP/HTTPS代理。 ![](https://img.shields.io/github/stars/koichik/node-tunnel.svg?style=social&label=Star)
-  - [tunnel-agent](https://github.com/request/tunnel-agent) - HTTP 隧道代理。以前是 mikeal/request 的一部分，现在是一个独立的模块。 ![](https://img.shields.io/github/stars/request/tunnel-agent.svg?style=social&label=Star)
+- Tunnel
+  - [localtunnel](https://github.com/localtunnel/localtunnel) - Localtunnel exposes your localhost to the world for easy testing and sharing! ![](https://img.shields.io/github/stars/localtunnel/localtunnel.svg?style=social&label=Star)
+  - [node-tunnel](https://github.com/koichik/node-tunnel) - Node HTTP/HTTPS Agents for tunneling proxies. ![](https://img.shields.io/github/stars/koichik/node-tunnel.svg?style=social&label=Star)
+  - [tunnel-agent](https://github.com/request/tunnel-agent) - HTTP proxy tunneling agent. Formerly part of mikeal/request, now a standalone module. ![](https://img.shields.io/github/stars/request/tunnel-agent.svg?style=social&label=Star)
 
-- 其他
-  - [netcat](https://github.com/roccomuso/netcat) - 纯JS中的Netcat端口。 ![](https://img.shields.io/github/stars/roccomuso/netcat.svg?style=social&label=Star)
-  - [getmac](https://github.com/bevry/getmac) -  获取电脑的MAC地址。 ![](https://img.shields.io/github/stars/bevry/getmac.svg?style=social&label=Star)
-  - [DHCP](https://github.com/infusion/node-dhcp) - DHCP客户端和服务器。 ![](https://img.shields.io/github/stars/infusion/node-dhcp.svg?style=social&label=Star)
-  - [default-gateway](https://github.com/silverwind/default-gateway) - 获取默认网络网关(跨平台)。 ![](https://img.shields.io/github/stars/silverwind/default-gateway.svg?style=social&label=Star)
+- Other
+  - [netcat](https://github.com/roccomuso/netcat) - Netcat port in pure JS. ![](https://img.shields.io/github/stars/roccomuso/netcat.svg?style=social&label=Star)
+  - [getmac](https://github.com/bevry/getmac) - Get the computer MAC address. ![](https://img.shields.io/github/stars/bevry/getmac.svg?style=social&label=Star)
+  - [DHCP](https://github.com/infusion/node-dhcp) - DHCP client and server. ![](https://img.shields.io/github/stars/infusion/node-dhcp.svg?style=social&label=Star)
+  - [default-gateway](https://github.com/silverwind/default-gateway) - Get the default network gateway, cross-platform. ![](https://img.shields.io/github/stars/silverwind/default-gateway.svg?style=social&label=Star)
 
 ### HTTP
 
-- 请求库
-  - [axios](https://github.com/mzabriskie/axios) - 基于Promise 的HTTP客户端（也可以在浏览器中工作）。 ![](https://img.shields.io/github/stars/mzabriskie/axios.svg?style=social&label=Star)
-  - [superagent](https://github.com/visionmedia/superagent) - HTTP请求库。 ![](https://img.shields.io/github/stars/visionmedia/superagent.svg?style=social&label=Star)
-  - [got](https://github.com/sindresorhus/got) - 更好的基于内建“http”模块接口实现。 ![](https://img.shields.io/github/stars/sindresorhus/got.svg?style=social&label=Star)
-  - [node-fetch](https://github.com/bitinn/node-fetch) - Node.js的 `window.fetch` 实现。 ![](https://img.shields.io/github/stars/bitinn/node-fetch.svg?style=social&label=Star)
-  - [undici](https://github.com/nodejs/undici) - 一个 HTTP/1.1 客户端，从头开始为 Node.js 编写。 ![](https://img.shields.io/github/stars/nodejs/undici.svg?style=social&label=Star)
-  - [needle](https://github.com/tomas/needle) - 灵活，基于流的HTTP Node.js客户端请求库。支持proxy，iconv，cookie，deflate和multipart。 ![](https://img.shields.io/github/stars/tomas/needle.svg?style=social&label=Star)
-  - [urllib](https://github.com/node-modules/urllib) - 在复杂世界中请求HTTP/HTTPS的URL。 ![](https://img.shields.io/github/stars/node-modules/urllib.svg?style=social&label=Star)
+- Request Client
+  - [axios](https://github.com/mzabriskie/axios) - Promise based HTTP client (works in the browser too). ![](https://img.shields.io/github/stars/mzabriskie/axios.svg?style=social&label=Star)
+  - [superagent](https://github.com/visionmedia/superagent) - HTTP request library. ![](https://img.shields.io/github/stars/visionmedia/superagent.svg?style=social&label=Star)
+  - [got](https://github.com/sindresorhus/got) - Nicer interface to the built-in `http` module. ![](https://img.shields.io/github/stars/sindresorhus/got.svg?style=social&label=Star)
+  - [node-fetch](https://github.com/bitinn/node-fetch) - `window.fetch` for Node.js. ![](https://img.shields.io/github/stars/bitinn/node-fetch.svg?style=social&label=Star)
+  - [undici](https://github.com/nodejs/undici) - An HTTP/1.1 client, written from scratch for Node.js. ![](https://img.shields.io/github/stars/nodejs/undici.svg?style=social&label=Star)
+  - [needle](https://github.com/tomas/needle) - Nimble, streamable HTTP client for Node.js. With proxy, iconv, cookie, deflate & multipart support. ![](https://img.shields.io/github/stars/tomas/needle.svg?style=social&label=Star)
+  - [urllib](https://github.com/node-modules/urllib) - Request HTTP(s) URLs in a complex world. ![](https://img.shields.io/github/stars/node-modules/urllib.svg?style=social&label=Star)
   - [phin](https://github.com/ethanent/phin) - Node HTTP client. ![](https://img.shields.io/github/stars/ethanent/phin.svg?style=social&label=Star)
-  - [gotql](https://github.com/khaosdoctor/gotql) - 基于[got](https://github.com/sindresorhus/got)构建的GraphQL请求库。 ![](https://img.shields.io/github/stars/khaosdoctor/gotql.svg?style=social&label=Star)
-  - [wreck](https://github.com/hapijs/wreck) - HTTP 客户端工具。 ![](https://img.shields.io/github/stars/hapijs/wreck.svg?style=social&label=Star)
-  - [cacheable-request](https://github.com/lukechilds/cacheable-request) - 使用符合RFC的缓存封装的本机HTTP请求库。 ![](https://img.shields.io/github/stars/lukechilds/cacheable-request.svg?style=social&label=Star)
-  - [gh-got](https://github.com/sindresorhus/gh-got) - 基于"got"封装，与GitHub API更方便的交互。 ![](https://img.shields.io/github/stars/sindresorhus/gh-got.svg?style=social&label=Star)
-  - [flashheart](https://github.com/bbc/flashheart) - REST 客户端。 ![](https://img.shields.io/github/stars/bbc/flashheart.svg?style=social&label=Star)
+  - [gotql](https://github.com/khaosdoctor/gotql) - GraphQL request library built on [got](https://github.com/sindresorhus/got). ![](https://img.shields.io/github/stars/khaosdoctor/gotql.svg?style=social&label=Star)
+  - [wreck](https://github.com/hapijs/wreck) - HTTP Client Utilities. ![](https://img.shields.io/github/stars/hapijs/wreck.svg?style=social&label=Star)
+  - [cacheable-request](https://github.com/lukechilds/cacheable-request) - Wrap native HTTP requests with RFC compliant cache support. ![](https://img.shields.io/github/stars/lukechilds/cacheable-request.svg?style=social&label=Star)
+  - [gh-got](https://github.com/sindresorhus/gh-got) - Convenience wrapper for `got` to interact with the GitHub API. ![](https://img.shields.io/github/stars/sindresorhus/gh-got.svg?style=social&label=Star)
+  - [flashheart](https://github.com/bbc/flashheart) - REST client. ![](https://img.shields.io/github/stars/bbc/flashheart.svg?style=social&label=Star)
 
-- 服务端库
-  - [http-server](https://github.com/http-party/http-server) - 零配置的命令行Http服务端。 ![](https://img.shields.io/github/stars/http-party/http-server.svg?style=social&label=Star)
-  - [anywhere](https://github.com/JacksonTian/anywhere) - 随启随用的静态文件服务器。 ![](https://img.shields.io/github/stars/JacksonTian/anywhere.svg?style=social&label=Star)
+- HTTP Server
+  - [http-server](https://github.com/http-party/http-server) - A simple zero-configuration command-line http server. ![](https://img.shields.io/github/stars/http-party/http-server.svg?style=social&label=Star)
+  - [anywhere](https://github.com/JacksonTian/anywhere) - Running static file server anywhere. ![](https://img.shields.io/github/stars/JacksonTian/anywhere.svg?style=social&label=Star)
 
-- Mock服务
-  - [json-server](https://github.com/typicode/json-server) - 在不到30秒的时间内获得具有零编码的完整伪造的REST API。 ![](https://img.shields.io/github/stars/typicode/json-server.svg?style=social&label=Star)
-  - [easy-mock](https://github.com/easy-mock/easy-mock) - 可视化，并且能快速生成模拟数据的持久化服务。 ![](https://img.shields.io/github/stars/easy-mock/easy-mock.svg?style=social&label=Star)
-  - [miragejs](https://github.com/miragejs/miragejs) - 用于构建、测试和共享您的 JavaScript 应用程序的客户端服务。 ![](https://img.shields.io/github/stars/miragejs/miragejs.svg?style=social&label=Star)
-  - [http-fake-backend](https://github.com/micromata/http-fake-backend) - 通过可配置的路由，提供JSON文件或JavaScript对象来构建伪造的后端。 ![](https://img.shields.io/github/stars/micromata/http-fake-backend.svg?style=social&label=Star)
-  - [smoke](https://github.com/sinedied/smoke) - 具有记录功能的，简单但功能强大的基于文件的Mock服务器。 ![](https://img.shields.io/github/stars/sinedied/smoke.svg?style=social&label=Star)
+- Mock Server
+  - [json-server](https://github.com/typicode/json-server) - Get a full fake REST API with zero coding in less than 30 seconds. ![](https://img.shields.io/github/stars/typicode/json-server.svg?style=social&label=Star)
+  - [easy-mock](https://github.com/easy-mock/easy-mock) - A persistent service that generates mock data quickly and provids visualization view. ![](https://img.shields.io/github/stars/easy-mock/easy-mock.svg?style=social&label=Star)
+  - [miragejs](https://github.com/miragejs/miragejs) - A client-side server to build, test and share your JavaScript app. ![](https://img.shields.io/github/stars/miragejs/miragejs.svg?style=social&label=Star)
+  - [http-fake-backend](https://github.com/micromata/http-fake-backend) - Build a fake backend by providing the content of JSON files or JavaScript objects through configurable routes. ![](https://img.shields.io/github/stars/micromata/http-fake-backend.svg?style=social&label=Star)
+  - [smoke](https://github.com/sinedied/smoke) - 💨 Simple yet powerful file-based mock server with recording abilities. ![](https://img.shields.io/github/stars/sinedied/smoke.svg?style=social&label=Star)
 
-- 代理
-  - [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP代理。 ![](https://img.shields.io/github/stars/nodejitsu/node-http-proxy.svg?style=social&label=Star)
-  - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - ⚡用于connect，express和browser-sync的单线Node.js Http代理中间件。 ![](https://img.shields.io/github/stars/chimurai/http-proxy-middleware.svg?style=social&label=Star)
-  - [https-proxy-agent](https://github.com/TooTallNate/node-https-proxy-agent) - HTTP(S) 代理 `http.Agent`实现。 ![](https://img.shields.io/github/stars/TooTallNate/node-https-proxy-agent.svg?style=social&label=Star)
-  - [global-agent](https://github.com/gajus/global-agent) - 可以使用环境变量配置的全局 HTTP/HTTPS 代理。 ![](https://img.shields.io/github/stars/gajus/global-agent.svg?style=social&label=Star)
-  - [fast-proxy](https://github.com/fastify/fast-proxy) - Node.js框架，使您可以将http请求转发到另一个HTTP服务器。 支持的协议：HTTP，HTTPS，HTTP2。 ![](https://img.shields.io/github/stars/fastify/fast-proxy.svg?style=social&label=Star)
-  - [argo](https://github.com/argo/argo) - 一个可扩展的异步 HTTP 反向代理和源服务器。 ![](https://img.shields.io/github/stars/argo/argo.svg?style=social&label=Star)
+- Proxy
+  - [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP proxy. ![](https://img.shields.io/github/stars/nodejitsu/node-http-proxy.svg?style=social&label=Star)
+  - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - ⚡ The one-liner node.js http-proxy middleware for connect, express and browser-sync. ![](https://img.shields.io/github/stars/chimurai/http-proxy-middleware.svg?style=social&label=Star)
+  - [https-proxy-agent](https://github.com/TooTallNate/node-https-proxy-agent) - An HTTP(s) proxy `http.Agent` implementation for HTTPS endpoints. ![](https://img.shields.io/github/stars/TooTallNate/node-https-proxy-agent.svg?style=social&label=Star)
+  - [global-agent](https://github.com/gajus/global-agent) - Global HTTP/HTTPS proxy agent that is configurable using environment variables. ![](https://img.shields.io/github/stars/gajus/global-agent.svg?style=social&label=Star)
+  - [fast-proxy](https://github.com/fastify/fast-proxy) - Node.js framework agnostic library that enables you to forward an http request to another HTTP server. Supported protocols: HTTP, HTTPS, HTTP2. ![](https://img.shields.io/github/stars/fastify/fast-proxy.svg?style=social&label=Star)
+  - [argo](https://github.com/argo/argo) - An extensible, asynchronous HTTP reverse proxy and origin server. ![](https://img.shields.io/github/stars/argo/argo.svg?style=social&label=Star)
 
-- 下载
-  - [download](https://github.com/kevva/download) - 轻松下载和提取文件。 ![](https://img.shields.io/github/stars/kevva/download.svg?style=social&label=Star)
-  - [nugget](https://github.com/maxogden/nugget) - 使用Node.js编写的极简主义wget clone。 HTTP GET文件并将其下载到当前目录。 ![](https://img.shields.io/github/stars/maxogden/nugget.svg?style=social&label=Star)
+- Download
+  - [download](https://github.com/kevva/download) - Download and extract files effortlessly. ![](https://img.shields.io/github/stars/kevva/download.svg?style=social&label=Star)
+  - [nugget](https://github.com/maxogden/nugget) - Minimalist wget clone written in node. HTTP GET files and downloads them into the current directory. ![](https://img.shields.io/github/stars/maxogden/nugget.svg?style=social&label=Star)
 
-### 验证
+### Authentication
 
-- [Passport](https://github.com/jaredhanson/passport) - 简单的身份验证。 ![](https://img.shields.io/github/stars/jaredhanson/passport.svg?style=social&label=Star)
-- [Grant](https://github.com/simov/grant) - 适用于Express，Koa，Hapi，Fastify，AWS Lambda，Azure，Google Cloud，Vercel等的OAuth程序。 ![](https://img.shields.io/github/stars/simov/grant.svg?style=social&label=Star)
-- [permit](https://github.com/ianstormtaylor/permit) - 用于构建Node.js API的非标准认证库。 ![](https://img.shields.io/github/stars/ianstormtaylor/permit.svg?style=social&label=Star)
+- [Passport](https://github.com/jaredhanson/passport) - Simple, unobtrusive authentication. ![](https://img.shields.io/github/stars/jaredhanson/passport.svg?style=social&label=Star)
+- [Grant](https://github.com/simov/grant) - OAuth providers for Express, Koa, Hapi, Fastify, AWS Lambda, Azure, Google Cloud, Vercel, and many more. ![](https://img.shields.io/github/stars/simov/grant.svg?style=social&label=Star)
+- [permit](https://github.com/ianstormtaylor/permit) - An unopinionated authentication library for building Node.js APIs. ![](https://img.shields.io/github/stars/ianstormtaylor/permit.svg?style=social&label=Star)
 
-### 授权 / 鉴权
+### Authorization
 
-- [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) - JsonWebToken Node.JS实现 ![](https://img.shields.io/github/stars/auth0/node-jsonwebtoken.svg?style=social&label=Star)
-- [CASL](https://github.com/stalniy/casl) - 同构授权用于可视化界面和API。 ![](https://img.shields.io/github/stars/stalniy/casl.svg?style=social&label=Star)
-- [node-casbin](https://github.com/casbin/node-casbin) - 支持访问控制模型（如ACL，RBAC和ABAC）的授权库。 ![](https://img.shields.io/github/stars/casbin/node-casbin.svg?style=social&label=Star)
-- [jose](https://github.com/panva/jose) - 通用的“JSON Web 几乎所有东西” —— JWA、JWS、JWE、JWT、JWK，0依赖 ![](https://img.shields.io/github/stars/panva/jose.svg?style=social&label=Star)
-- [basic-auth](https://github.com/jshttp/basic-auth) - 通用基础身份验证授权头字段解析器。 ![](https://img.shields.io/github/stars/jshttp/basic-auth.svg?style=social&label=Star)
-- [selfsigned](https://github.com/jfromaniello/selfsigned) - 使用 Node.js 生成自签名证书。 ![](https://img.shields.io/github/stars/jfromaniello/selfsigned.svg?style=social&label=Star)
+- [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) - JsonWebToken implementation for node.js ![](https://img.shields.io/github/stars/auth0/node-jsonwebtoken.svg?style=social&label=Star)
+- [CASL](https://github.com/stalniy/casl) - Isomorphic authorization for UI and API. ![](https://img.shields.io/github/stars/stalniy/casl.svg?style=social&label=Star)
+- [node-casbin](https://github.com/casbin/node-casbin) - Authorization library that supports access control models like ACL, RBAC and ABAC. ![](https://img.shields.io/github/stars/casbin/node-casbin.svg?style=social&label=Star)
+- [jose](https://github.com/panva/jose) - Universal "JSON Web Almost Everything" - JWA, JWS, JWE, JWT, JWK with no dependencies. ![](https://img.shields.io/github/stars/panva/jose.svg?style=social&label=Star)
+- [basic-auth](https://github.com/jshttp/basic-auth) - Generic basic auth Authorization header field parser. ![](https://img.shields.io/github/stars/jshttp/basic-auth.svg?style=social&label=Star)
+- [selfsigned](https://github.com/jfromaniello/selfsigned) - Generate self-signed certificates from node.js. ![](https://img.shields.io/github/stars/jfromaniello/selfsigned.svg?style=social&label=Star)
 
-### 分布式
+### Distribute
 
-- [node-zookeeper-client](https://github.com/alexguan/node-zookeeper-client) - 纯JavaScript ZooKeeper客户端。 ![](https://img.shields.io/github/stars/alexguan/node-zookeeper-client.svg?style=social&label=Star)
+- [node-zookeeper-client](https://github.com/alexguan/node-zookeeper-client) - A pure Javascript ZooKeeper client for Node.js. ![](https://img.shields.io/github/stars/alexguan/node-zookeeper-client.svg?style=social&label=Star)
 
-### 序列化
+### Serialization
 
-- [protobuf](https://github.com/protobufjs/protobuf.js) - Protocol Buffers实现。 ![](https://img.shields.io/github/stars/protobufjs/protobuf.js.svg?style=social&label=Star)
-- [hessian.js](https://github.com/node-modules/hessian.js) - JavaScript hessian 二进制web服务协议实现，支持与 java 通信。 ![](https://img.shields.io/github/stars/node-modules/hessian.js.svg?style=social&label=Star)
-- [snappy](https://github.com/kesla/node-snappy) - Google 的 Snappy 压缩库的原生绑定（Native bindings）。 ![](https://img.shields.io/github/stars/kesla/node-snappy.svg?style=social&label=Star)
-- [compactr](https://github.com/compactr/compactr.js) - Compactr协议的实现。 ![](https://img.shields.io/github/stars/compactr/compactr.js.svg?style=social&label=Star)
+- [protobuf](https://github.com/protobufjs/protobuf.js) - Implementation of Protocol Buffers. ![](https://img.shields.io/github/stars/protobufjs/protobuf.js.svg?style=social&label=Star)
+- [snappy](https://github.com/kesla/node-snappy) - Native bindings for Google's Snappy compression library. ![](https://img.shields.io/github/stars/kesla/node-snappy.svg?style=social&label=Star)
+- [hessian.js](https://github.com/node-modules/hessian.js) - JavaScript hessian binary web service protocol, support communicate with java. ![](https://img.shields.io/github/stars/node-modules/hessian.js.svg?style=social&label=Star)
+- [compactr](https://github.com/compactr/compactr.js) - Implementation of the Compactr protocol. ![](https://img.shields.io/github/stars/compactr/compactr.js.svg?style=social&label=Star)
 
 ### RPC
 
-- [grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js) - 纯JavaScript gRPC客户端。 ![](https://img.shields.io/github/stars/grpc/grpc-node.svg?style=social&label=Star)
-- [jayson](https://github.com/tedeh/jayson) - Jayson是用于Node.js的简单但功能强大的JSON-RPC 2.0 / 1.0客户端和服务器。 ![](https://img.shields.io/github/stars/tedeh/jayson.svg?style=social&label=Star)
-- [sofa-rpc-node](https://github.com/sofastack/sofa-rpc-node) - SOFARPC Node是高性能、高可扩展性、产品级Node.js RPC框架。 ![](https://img.shields.io/github/stars/sofastack/sofa-rpc-node.svg?style=social&label=Star)
+- [grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js) - Pure JavaScript gRPC Client. ![](https://img.shields.io/github/stars/grpc/grpc-node.svg?style=social&label=Star)
+- [jayson](https://github.com/tedeh/jayson) - Jayson is a simple but featureful JSON-RPC 2.0/1.0 client and server for node.js. ![](https://img.shields.io/github/stars/tedeh/jayson.svg?style=social&label=Star)
+- [sofa-rpc-node](https://github.com/sofastack/sofa-rpc-node) - SOFARPC Node is a high-performance, high-extensibility, production-level Nodejs RPC framework. ![](https://img.shields.io/github/stars/sofastack/sofa-rpc-node.svg?style=social&label=Star)
 
-### 服务端DOM
+### Server-side DOM
 
-- [cheerio](https://github.com/cheeriojs/cheerio) - 运行在服务器端，快速、灵活和精益的jQuery核心功能实现。 ![](https://img.shields.io/github/stars/cheeriojs/cheerio.svg?style=social&label=Star)
-- [jsdom](https://github.com/jsdom/jsdom) - Node.js版Web标准实现。 ![](https://img.shields.io/github/stars/jsdom/jsdom.svg?style=social&label=Star)
-- [domino](https://github.com/fgnass/domino) - 基于 Mozilla的dom.js的服务器端DOM实现。 ![](https://img.shields.io/github/stars/fgnass/domino.svg?style=social&label=Star)
+- [cheerio](https://github.com/cheeriojs/cheerio) - Fast, flexible, and lean implementation of core jQuery designed specifically for the server. ![](https://img.shields.io/github/stars/cheeriojs/cheerio.svg?style=social&label=Star)
+- [jsdom](https://github.com/jsdom/jsdom) - A JavaScript implementation of various web standards, for use with Node.js. ![](https://img.shields.io/github/stars/jsdom/jsdom.svg?style=social&label=Star)
+- [domino](https://github.com/fgnass/domino) - Server-side DOM implementation based on Mozilla's dom.js. ![](https://img.shields.io/github/stars/fgnass/domino.svg?style=social&label=Star)
 
-### 爬虫
+### Crawler
 
-- [node-crawler](https://github.com/bda-research/node-crawler) - NodeJS Web爬虫 + 服务端jQuery。 ![](https://img.shields.io/github/stars/bda-research/node-crawler.svg?style=social&label=Star)
-- [x-ray](https://github.com/lapwinglabs/x-ray) - 具有分页的Web抓取爬虫。 ![](https://img.shields.io/github/stars/lapwinglabs/x-ray.svg?style=social&label=Star)
-- [headless-chrome-crawler](https://github.com/yujiosaka/headless-chrome-crawler) - 使用Chrome无头浏览器的分布式爬虫。 ![](https://img.shields.io/github/stars/yujiosaka/headless-chrome-crawler.svg?style=social&label=Star)
-- [node-osmosis](https://github.com/rchipka/node-osmosis) - Node.js的HTML / XML解析器和Web抓取工具。 ![](https://img.shields.io/github/stars/rchipka/node-osmosis.svg?style=social&label=Star)
-- [scrape-it](https://github.com/IonicaBizau/scrape-it) - 适用于人类的Node.js抓取工具。 ![](https://img.shields.io/github/stars/IonicaBizau/scrape-it.svg?style=social&label=Star)
-- [scraperjs](https://github.com/ruipgil/scraperjs) - 完整而多功能的Web抓取器。 ![](https://img.shields.io/github/stars/ruipgil/scraperjs.svg?style=social&label=Star)
-- [simplecrawler](https://github.com/cgiffard/node-simplecrawler) - 事件驱动的Web爬虫。 ![](https://img.shields.io/github/stars/cgiffard/node-simplecrawler.svg?style=social&label=Star)
-- [web-scraper-chrome-extension](https://github.com/martinsbalodis/web-scraper-chrome-extension) -实现为Chrome插件的Web数据抽取工具。 ![](https://img.shields.io/github/stars/martinsbalodis/web-scraper-chrome-extension.svg?style=social&label=Star)
-- [webster](https://github.com/zhuyingda/webster) - 一个可靠的Web爬虫框架，可以在网页中抓取Ajax和js呈现的内容。 ![](https://img.shields.io/github/stars/zhuyingda/webster.svg?style=social&label=Star)
-- [supercrawler](https://github.com/brendonboshell/supercrawler) - 定义自定义处理程序以解析内容。 遵守robots.txt，速率限制和并发限制。 ![](https://img.shields.io/github/stars/brendonboshell/supercrawler.svg?style=social&label=Star)
-- [Squidwarc](https://github.com/n0tan3rd/squidwarc) - 高保真度，用户可编写脚本的归档爬虫程序，使用带头或不带头的Chrome或Chromium。 ![](https://img.shields.io/github/stars/n0tan3rd/squidwarc.svg?style=social&label=Star)
-- [js-crawler](https://github.com/antivanov/js-crawler) - 适用于Node.JS的Web爬虫，同时支持HTTP和HTTPS。 ![](https://img.shields.io/github/stars/antivanov/js-crawler.svg?style=social&label=Star)
+- [node-crawler](https://github.com/bda-research/node-crawler) - Web Crawler/Spider for NodeJS + server-side jQuery. ![](https://img.shields.io/github/stars/bda-research/node-crawler.svg?style=social&label=Star)
+- [x-ray](https://github.com/lapwinglabs/x-ray) - Web scraper with pagination and crawler support. ![](https://img.shields.io/github/stars/lapwinglabs/x-ray.svg?style=social&label=Star)
+- [headless-chrome-crawler](https://github.com/yujiosaka/headless-chrome-crawler) - Headless Chrome crawls with jQuery support. ![](https://img.shields.io/github/stars/yujiosaka/headless-chrome-crawler.svg?style=social&label=Star)
+- [node-osmosis](https://github.com/rchipka/node-osmosis) - HTML/XML parser and web scraper for Node.js. ![](https://img.shields.io/github/stars/rchipka/node-osmosis.svg?style=social&label=Star)
+- [scrape-it](https://github.com/IonicaBizau/scrape-it) - A Node.js scraper for humans. ![](https://img.shields.io/github/stars/IonicaBizau/scrape-it.svg?style=social&label=Star)
+- [scraperjs](https://github.com/ruipgil/scraperjs) - A complete and versatile web scraper. ![](https://img.shields.io/github/stars/ruipgil/scraperjs.svg?style=social&label=Star)
+- [simplecrawler](https://github.com/cgiffard/node-simplecrawler) - Event driven web crawler. ![](https://img.shields.io/github/stars/cgiffard/node-simplecrawler.svg?style=social&label=Star)
+- [web-scraper-chrome-extension](https://github.com/martinsbalodis/web-scraper-chrome-extension) - Web data extraction tool implemented as chrome extension. ![](https://img.shields.io/github/stars/martinsbalodis/web-scraper-chrome-extension.svg?style=social&label=Star)
+- [webster](https://github.com/zhuyingda/webster) - A reliable web crawling framework which can scrape ajax and js rendered content in a web page. ![](https://img.shields.io/github/stars/zhuyingda/webster.svg?style=social&label=Star)
+- [supercrawler](https://github.com/brendonboshell/supercrawler) - Define custom handlers to parse content. Obeys robots.txt, rate limits and concurrency limits. ![](https://img.shields.io/github/stars/brendonboshell/supercrawler.svg?style=social&label=Star)
+- [Squidwarc](https://github.com/n0tan3rd/squidwarc) - High fidelity, user scriptable, archival crawler that uses Chrome or Chromium with or without a head. ![](https://img.shields.io/github/stars/n0tan3rd/squidwarc.svg?style=social&label=Star)
+- [js-crawler](https://github.com/antivanov/js-crawler) - Web crawler for Node.JS, both HTTP and HTTPS are supported. ![](https://img.shields.io/github/stars/antivanov/js-crawler.svg?style=social&label=Star)
 
 ### AST
 
-- 解析器
-  - [babel-parser](https://github.com/babel/babel/tree/master/packages/babel-parser) - JavaScript解析器。 ![](https://img.shields.io/github/stars/babel/babel.svg?style=social&label=Star)
-  - [antlr](https://github.com/antlr/antlr4) - ANTLR (ANother Tool for Language Recognition)是一个用于阅读、处理、执行和翻译结构化文本或二进制文件的强大的解析生成器。 ![](https://img.shields.io/github/stars/antlr/antlr4.svg?style=social&label=Star)
-  - [acorn](https://github.com/acornjs/acorn/tree/master/acorn) - 小巧、快速的JavaScript解析器。 ![](https://img.shields.io/github/stars/acornjs/acorn.svg?style=social&label=Star)
-  - [esprima](https://github.com/jquery/esprima) - 高性能、符合ECMASCRIPT标准的解析器。 ![](https://img.shields.io/github/stars/jquery/esprima.svg?style=social&label=Star)
-  - [recast](https://github.com/benjamn/recast) - JavaScript语法树转换器，非破坏性漂亮print和自动source map生成器。 ![](https://img.shields.io/github/stars/benjamn/recast.svg?style=social&label=Star)
-  - [nearley](https://github.com/kach/nearley) - JavaScript的简单、快速、功能强大的解析工具集。 ![](https://img.shields.io/github/stars/kach/nearley.svg?style=social&label=Star)
-  - [espree](https://github.com/eslint/espree) - 与Esprima兼容的JavaScript解析器。 ![](https://img.shields.io/github/stars/eslint/espree.svg?style=social&label=Star)
-  - [csstree](https://github.com/csstree/csstree) - 基于W3C标准和浏览器标准实现，包含快速详细的解析器、遍历器、生成器、词法解析的CSS工具集。 ![](https://img.shields.io/github/stars/csstree/csstree.svg?style=social&label=Star)
-  - [es-module-lexer](https://github.com/guybedford/es-module-lexer) - 低开销的词法分析器，专门用于ES模块快速分析解析。 ![](https://img.shields.io/github/stars/guybedford/es-module-lexer.svg?style=social&label=Star)
+- Parser
+  - [babel-parser](https://github.com/babel/babel/tree/master/packages/babel-parser) - JavaScript parser. ![](https://img.shields.io/github/stars/babel/babel.svg?style=social&label=Star)
+  - [antlr](https://github.com/antlr/antlr4) - ANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files. ![](https://img.shields.io/github/stars/antlr/antlr4.svg?style=social&label=Star)
+  - [acorn](https://github.com/acornjs/acorn/tree/master/acorn) - Small, fast, JavaScript-based JavaScript parser. ![](https://img.shields.io/github/stars/acornjs/acorn.svg?style=social&label=Star)
+  - [esprima](https://github.com/jquery/esprima) - High performance, standard-compliant ECMAScript parser. ![](https://img.shields.io/github/stars/jquery/esprima.svg?style=social&label=Star)
+  - [recast](https://github.com/benjamn/recast) - JavaScript syntax tree transformer, nondestructive pretty-printer, and automatic source map generator. ![](https://img.shields.io/github/stars/benjamn/recast.svg?style=social&label=Star)
+  - [nearley](https://github.com/kach/nearley) - Simple, fast, powerful parser toolkit for JavaScript. ![](https://img.shields.io/github/stars/kach/nearley.svg?style=social&label=Star)
+  - [espree](https://github.com/eslint/espree) - Esprima-compatible JavaScript parser. ![](https://img.shields.io/github/stars/eslint/espree.svg?style=social&label=Star)
+  - [csstree](https://github.com/csstree/csstree) - Tool set for CSS including fast detailed parser, walker, generator and lexer based on W3C specs and browser implementations. ![](https://img.shields.io/github/stars/csstree/csstree.svg?style=social&label=Star)
+  - [es-module-lexer](https://github.com/guybedford/es-module-lexer) - Low-overhead lexer dedicated to ES module parsing for fast analysis. ![](https://img.shields.io/github/stars/guybedford/es-module-lexer.svg?style=social&label=Star)
 
-- 遍历
-  - [acorn-walker](https://github.com/acornjs/acorn/tree/master/acorn-walk) - 小巧、快速的JavaScript解析器。 ![](https://img.shields.io/github/stars/acornjs/acorn.svg?style=social&label=Star)
-  - [estraverse](https://github.com/estools/estraverse) - ECMAScript JS AST遍历功能。 ![](https://img.shields.io/github/stars/estools/estraverse.svg?style=social&label=Star)
+- Traversal
+  - [acorn-walker](https://github.com/acornjs/acorn/tree/master/acorn-walk) - Small, fast, JavaScript-based JavaScript parser. ![](https://img.shields.io/github/stars/acornjs/acorn.svg?style=social&label=Star)
+  - [estraverse](https://github.com/estools/estraverse) - ECMAScript JS AST traversal functions. ![](https://img.shields.io/github/stars/estools/estraverse.svg?style=social&label=Star)
 
-- 代码生成
-  - [escodegen](https://github.com/estools/escodegen) - ECMAScript代码生成。 ![](https://img.shields.io/github/stars/estools/escodegen.svg?style=social&label=Star)
-  - [astring](https://github.com/davidbonnet/astring) - 🌳 小巧快速的JavaScript代码生成器（通过ESTree兼容的AST）。 ![](https://img.shields.io/github/stars/davidbonnet/astring.svg?style=social&label=Star)
+- Codegen
+  - [escodegen](https://github.com/estools/escodegen) - ECMAScript code generator. ![](https://img.shields.io/github/stars/estools/escodegen.svg?style=social&label=Star)
+  - [astring](https://github.com/davidbonnet/astring) - 🌳 Tiny and fast JavaScript code generator from an ESTree-compliant AST. ![](https://img.shields.io/github/stars/davidbonnet/astring.svg?style=social&label=Star)
 
-- JavaScript解释器
-  - [JS-Interpreter](https://github.com/NeilFraser/JS-Interpreter) - JavaScript中沙箱解释器。 ![](https://img.shields.io/github/stars/NeilFraser/JS-Interpreter.svg?style=social&label=Star)
-  - [jsjs](https://github.com/bramblex/jsjs) - 简易的 JavaScript 元循环解释器。 ![](https://img.shields.io/github/stars/bramblex/jsjs.svg?style=social&label=Star)
-  - [sval](https://github.com/Siubaak/sval) - 使用JavaScript编写的JavaScript解释器。 ![](https://img.shields.io/github/stars/Siubaak/sval.svg?style=social&label=Star)
-  - [notevil](https://github.com/mmckegg/notevil) - 像内置的 javascript eval() 方法一样执行 javascript，但安全。 ![](https://img.shields.io/github/stars/mmckegg/notevil.svg?style=social&label=Star)
+- JavaScript interpreter
+  - [JS-Interpreter](https://github.com/NeilFraser/JS-Interpreter) - A sandboxed JavaScript interpreter in JavaScript. ![](https://img.shields.io/github/stars/NeilFraser/JS-Interpreter.svg?style=social&label=Star)
+  - [jsjs](https://github.com/bramblex/jsjs) - A simple JavaScript interpreter. ![](https://img.shields.io/github/stars/bramblex/jsjs.svg?style=social&label=Star)
+  - [sval](https://github.com/Siubaak/sval) - A javascript interpreter written in javascript. ![](https://img.shields.io/github/stars/Siubaak/sval.svg?style=social&label=Star)
+  - [notevil](https://github.com/mmckegg/notevil) - Evalulate javascript like the built-in javascript eval() method but safely. ![](https://img.shields.io/github/stars/mmckegg/notevil.svg?style=social&label=Star)
 
-- 其他
-  - [astexplorer](https://github.com/fkling/astexplorer) - 使用多种解析器的AST Web可视化工具。 ![](https://img.shields.io/github/stars/fkling/astexplorer.svg?style=social&label=Star)
-  - [estree-walker](https://github.com/Rich-Harris/estree-walker) - 用于遍历ESTree兼容树的AST。 ![](https://img.shields.io/github/stars/Rich-Harris/estree-walker.svg?style=social&label=Star)
-  - [periscopic](https://github.com/Rich-Harris/periscopic) - 用于分析符合ESTree的AST的作用域的工具。 ![](https://img.shields.io/github/stars/Rich-Harris/periscopic.svg?style=social&label=Star)
+- Other
+  - [astexplorer](https://github.com/fkling/astexplorer) - Web tool to explore the ASTs generated by various parsers. ![](https://img.shields.io/github/stars/fkling/astexplorer.svg?style=social&label=Star)
+  - [periscopic](https://github.com/Rich-Harris/periscopic) - Utility for analyzing scopes belonging to an ESTree-compliant AST. ![](https://img.shields.io/github/stars/Rich-Harris/periscopic.svg?style=social&label=Star)
+  - [estree-walker](https://github.com/Rich-Harris/estree-walker) - Traverse an ESTree-compliant AST. ![](https://img.shields.io/github/stars/Rich-Harris/estree-walker.svg?style=social&label=Star)
 
 ### WebAssembly
 
-- [webassembly](https://github.com/dcodeIO/webassembly) - 用于生成和运行 WebAssembly 模块的最小工具包和运行时。 ![](https://img.shields.io/github/stars/dcodeIO/webassembly.svg?style=social&label=Star)
+- [webassembly](https://github.com/dcodeIO/webassembly) - A minimal toolkit and runtime to produce and run WebAssembly modules. ![](https://img.shields.io/github/stars/dcodeIO/webassembly.svg?style=social&label=Star)
 
-### 设计稿转代码（D2C）
-- [psd.js](https://github.com/meltingice/psd.js) - 在Node.js和浏览器中解析Photoshop PSD文件。 ![](https://img.shields.io/github/stars/meltingice/psd.js.svg?style=social&label=Star)
+### Design To Code（D2C）
+- [psd.js](https://github.com/meltingice/psd.js) - A Photoshop PSD file parser for NodeJS and browsers. ![](https://img.shields.io/github/stars/meltingice/psd.js.svg?style=social&label=Star)
 
-### 沙箱
+### Sandbox
 
-- [vm2](https://github.com/patriksimek/vm2) - Node.js高级虚拟机/沙箱。 ![](https://img.shields.io/github/stars/patriksimek/vm2.svg?style=social&label=Star)
-- [sandbox](https://github.com/gf3/sandbox) - 用于Node.js漂亮的JavaScript沙箱。 ![](https://img.shields.io/github/stars/gf3/sandbox.svg?style=social&label=Star)
-- [safeify](https://github.com/Houfeng/safeify) - Safeify 可让 Node 应用安全的隔离执行非信任的用户自定义代码。 ![](https://img.shields.io/github/stars/Houfeng/safeify.svg?style=social&label=Star)
+- [vm2](https://github.com/patriksimek/vm2) - Advanced vm/sandbox for Node.js. ![](https://img.shields.io/github/stars/patriksimek/vm2.svg?style=social&label=Star)
+- [sandbox](https://github.com/gf3/sandbox) - A nifty javascript sandbox for node.js. ![](https://img.shields.io/github/stars/gf3/sandbox.svg?style=social&label=Star)
+- [safeify](https://github.com/Houfeng/safeify) - Safe sandbox that can be used to execute untrusted code. ![](https://img.shields.io/github/stars/Houfeng/safeify.svg?style=social&label=Star)
 
-### 硬件
+### Hardware
 
-- [johnny-five](https://github.com/rwaldron/johnny-five) - 基于Firmata的Arduino框架。 ![](https://img.shields.io/github/stars/rwaldron/johnny-five.svg?style=social&label=Star)
-- [serialport](https://github.com/voodootikigod/node-serialport) - 访问串行端口以进行读写。 ![](https://img.shields.io/github/stars/voodootikigod/node-serialport.svg?style=social&label=Star)
-- [usb](https://github.com/nonolith/node-usb) - USB 库。 ![](https://img.shields.io/github/stars/nonolith/node-usb.svg?style=social&label=Star)
-- [onoff](https://github.com/fivdi/onoff) - GPIO访问和中断检测. ![](https://img.shields.io/github/stars/fivdi/onoff.svg?style=social&label=Star)
-- [pigpio](https://github.com/fivdi/pigpio) - 树莓派（Raspberry Pi）上的快速GPIO，PWM，伺服控制，状态更改通知和中断处理。 ![](https://img.shields.io/github/stars/fivdi/pigpio.svg?style=social&label=Star)
-- [node-escpos](https://github.com/song940/node-escpos) - ESC/POS打印机驱动程序。 ![](https://img.shields.io/github/stars/song940/node-escpos.svg?style=social&label=Star)
-- [i2c-bus](https://github.com/fivdi/i2c-bus) - I2C串行总线访问。 ![](https://img.shields.io/github/stars/fivdi/i2c-bus.svg?style=social&label=Star)
-- [gps](https://github.com/infusion/GPS.js) - NMEA解析器，用于处理GPS接收器。 ![](https://img.shields.io/github/stars/infusion/GPS.js.svg?style=social&label=Star)
-- [node-bluetooth](https://github.com/song940/node-bluetooth) - Node.js 的蓝牙串口通信。 ![](https://img.shields.io/github/stars/song940/node-bluetooth.svg?style=social&label=Star)
-- [spi-device](https://github.com/fivdi/spi-device) - SPI串行总线访问。 ![](https://img.shields.io/github/stars/fivdi/spi-device.svg?style=social&label=Star)
+- [johnny-five](https://github.com/rwaldron/johnny-five) - Firmata based Arduino Framework. ![](https://img.shields.io/github/stars/rwaldron/johnny-five.svg?style=social&label=Star)
+- [serialport](https://github.com/voodootikigod/node-serialport) - Access serial ports for reading and writing. ![](https://img.shields.io/github/stars/voodootikigod/node-serialport.svg?style=social&label=Star)
+- [usb](https://github.com/nonolith/node-usb) - USB library. ![](https://img.shields.io/github/stars/nonolith/node-usb.svg?style=social&label=Star)
+- [onoff](https://github.com/fivdi/onoff) - GPIO access and interrupt detection. ![](https://img.shields.io/github/stars/fivdi/onoff.svg?style=social&label=Star)
+- [pigpio](https://github.com/fivdi/pigpio) - Fast GPIO, PWM, servo control, state change notification, and interrupt handling on the Raspberry Pi. ![](https://img.shields.io/github/stars/fivdi/pigpio.svg?style=social&label=Star)
+- [node-escpos](https://github.com/song940/node-escpos) - ESC/POS Printer driver for node. ![](https://img.shields.io/github/stars/song940/node-escpos.svg?style=social&label=Star)
+- [i2c-bus](https://github.com/fivdi/i2c-bus) - I2C serial bus access. ![](https://img.shields.io/github/stars/fivdi/i2c-bus.svg?style=social&label=Star)
+- [gps](https://github.com/infusion/GPS.js) - NMEA parser for handling GPS receivers. ![](https://img.shields.io/github/stars/infusion/GPS.js.svg?style=social&label=Star)
+- [node-bluetooth](https://github.com/song940/node-bluetooth) - Bluetooth serial port communication for Node.js. ![](https://img.shields.io/github/stars/song940/node-bluetooth.svg?style=social&label=Star)
+- [spi-device](https://github.com/fivdi/spi-device) - SPI serial bus access. ![](https://img.shields.io/github/stars/fivdi/spi-device.svg?style=social&label=Star)
 
-### 物联网IoT
+### IoT
 
-- [zetta](https://github.com/zettajs/zetta) - 面向物联网的 API 优先的开源软件平台。 ![](https://img.shields.io/github/stars/zettajs/zetta.svg?style=social&label=Star)
-- [iot-nodejs](https://github.com/ibm-watson-iot/iot-nodejs) - 用于使用 nodejs 连接到 IBM Watson IoT 的客户端库和示例。 ![](https://img.shields.io/github/stars/ibm-watson-iot/iot-nodejs.svg?style=social&label=Star)
+- [zetta](https://github.com/zettajs/zetta) - An API-first, open source software platform for the Internet of Things. ![](https://img.shields.io/github/stars/zettajs/zetta.svg?style=social&label=Star)
+- [iot-nodejs](https://github.com/ibm-watson-iot/iot-nodejs) - Client libraries and samples for connecting to IBM Watson IoT using nodejs. ![](https://img.shields.io/github/stars/ibm-watson-iot/iot-nodejs.svg?style=social&label=Star)
 
-### 机器学习 和 神经网络
+### Machine learning & Neural networks
 
-- [tfjs](https://github.com/tensorflow/tfjs) - 一个WebGL加速的JavaScript库，用于训练和部署ML模型（Tensorflow官方）。 ![](https://img.shields.io/github/stars/tensorflow/tfjs.svg?style=social&label=Star)
-- [netron](https://github.com/lutzroeder/netron) - 神经网络、深度学习和机器学习模型的可视化工具。 ![](https://img.shields.io/github/stars/lutzroeder/netron.svg?style=social&label=Star)
-- [face-api.js](https://github.com/justadudewhohacks/face-api.js) - 可在浏览器和 nodejs 中，使用 tensorflow.js 进行人脸检测和人脸识别的 JavaScript API。 ![](https://img.shields.io/github/stars/justadudewhohacks/face-api.js.svg?style=social&label=Star)
-- [brain.js](https://github.com/BrainJS/brain.js) - 基于模型训练的神经网络 JS 库，支持浏览器和 Node.js。 ![](https://img.shields.io/github/stars/BrainJS/brain.js.svg?style=social&label=Star)
-- [pipcook](https://github.com/alibaba/pipcook) - 为Web开发者提供的机器学习平台。 ![](https://img.shields.io/github/stars/alibaba/pipcook.svg?style=social&label=Star)
-- [onnxjs](https://github.com/microsoft/onnxjs) - 使用JavaScript运行ONNX模型。 ![](https://img.shields.io/github/stars/microsoft/onnxjs.svg?style=social&label=Star)
-- [tensorflow-nodejs](https://github.com/yorkie/tensorflow-nodejs) - TensorFlow Node.js为Node.js用户提供常用的JavaScript语言绑定和高级API。 ![](https://img.shields.io/github/stars/yorkie/tensorflow-nodejs.svg?style=social&label=Star)
+- [tfjs](https://github.com/tensorflow/tfjs) - A WebGL accelerated JavaScript library for training and deploying ML models. ![](https://img.shields.io/github/stars/tensorflow/tfjs.svg?style=social&label=Star)
+- [netron](https://github.com/lutzroeder/netron) - Visualizer for neural network, deep learning, and machine learning models. ![](https://img.shields.io/github/stars/lutzroeder/netron.svg?style=social&label=Star)
+- [face-api.js](https://github.com/justadudewhohacks/face-api.js) - JavaScript API for face detection and face recognition in the browser and nodejs with tensorflow.js. ![](https://img.shields.io/github/stars/justadudewhohacks/face-api.js.svg?style=social&label=Star)
+- [brain.js](https://github.com/BrainJS/brain.js) - GPU accelerated Neural networks in JavaScript for Browsers and Node.js. ![](https://img.shields.io/github/stars/BrainJS/brain.js.svg?style=social&label=Star)
+- [pipcook](https://github.com/alibaba/pipcook) - Machine learning platform for Web developers. ![](https://img.shields.io/github/stars/alibaba/pipcook.svg?style=social&label=Star)
+- [onnxjs](https://github.com/microsoft/onnxjs) - ONNX.js: run ONNX models using JavaScript. ![](https://img.shields.io/github/stars/microsoft/onnxjs.svg?style=social&label=Star)
+- [tensorflow-nodejs](https://github.com/yorkie/tensorflow-nodejs) - TensorFlow Node.js provides idiomatic JavaScript language bindings and a high layer API for Node.js users. ![](https://img.shields.io/github/stars/yorkie/tensorflow-nodejs.svg?style=social&label=Star)
 
-### 自然语言处理
+### Natural language processing
 
-- [compromise](https://github.com/spencermountain/compromise) - 自然语言处理。 ![](https://img.shields.io/github/stars/spencermountain/compromise.svg?style=social&label=Star)
-- [natural](https://github.com/NaturalNode/natural) - 自然语言设施。 ![](https://img.shields.io/github/stars/NaturalNode/natural.svg?style=social&label=Star)
-- [nlp.js](https://github.com/axa-group/nlp.js) - 构建机器人，具有实体提取、情感分析、自动语言识别等功能。 ![](https://img.shields.io/github/stars/axa-group/nlp.js.svg?style=social&label=Star)
-- [franc](https://github.com/wooorm/franc) - 检测文本使用的语言。 ![](https://img.shields.io/github/stars/wooorm/franc.svg?style=social&label=Star)
-- [sentiment](https://github.com/thisandagain/sentiment) - 基于AFINN的Node.js情感判断库。 ![](https://img.shields.io/github/stars/thisandagain/sentiment.svg?style=social&label=Star)
-- [retext](https://github.com/wooorm/retext) - 一个可扩展的自然语言系统。 ![](https://img.shields.io/github/stars/wooorm/retext.svg?style=social&label=Star)
-- [leven](https://github.com/sindresorhus/leven) - 使用Levenshtein距离算法测量两个字符串之间的差异。 ![](https://img.shields.io/github/stars/sindresorhus/leven.svg?style=social&label=Star)
+- [compromise](https://github.com/spencermountain/compromise) - Modest natural-language processing. ![](https://img.shields.io/github/stars/spencermountain/compromise.svg?style=social&label=Star)
+- [natural](https://github.com/NaturalNode/natural) - Natural language facility. ![](https://img.shields.io/github/stars/NaturalNode/natural.svg?style=social&label=Star)
+- [nlp.js](https://github.com/axa-group/nlp.js) - Building bots, with entity extraction, sentiment analysis, automatic language identify, and more. ![](https://img.shields.io/github/stars/axa-group/nlp.js.svg?style=social&label=Star)
+- [franc](https://github.com/wooorm/franc) - Detect the language of text. ![](https://img.shields.io/github/stars/wooorm/franc.svg?style=social&label=Star)
+- [sentiment](https://github.com/thisandagain/sentiment) - AFINN-based sentiment analysis for Node.js. ![](https://img.shields.io/github/stars/thisandagain/sentiment.svg?style=social&label=Star)
+- [retext](https://github.com/wooorm/retext) - An extensible natural language system. ![](https://img.shields.io/github/stars/wooorm/retext.svg?style=social&label=Star)
+- [leven](https://github.com/sindresorhus/leven) - Measure the difference between two strings using the Levenshtein distance algorithm. ![](https://img.shields.io/github/stars/sindresorhus/leven.svg?style=social&label=Star)
 
 ### OCR
 
-- [tesseract.js](https://github.com/naptha/tesseract.js) - 100 多种语言的纯 Javascript OCR。 ![](https://img.shields.io/github/stars/naptha/tesseract.js.svg?style=social&label=Star)
-- [Parsr](https://github.com/axa-group/Parsr) - 将 PDF、文档和图像转换为丰富的结构化数据。 ![](https://img.shields.io/github/stars/axa-group/Parsr.svg?style=social&label=Star)
+- [tesseract.js](https://github.com/naptha/tesseract.js) - Pure Javascript OCR for more than 100 Languages. ![](https://img.shields.io/github/stars/naptha/tesseract.js.svg?style=social&label=Star)
+- [Parsr](https://github.com/axa-group/Parsr) - Transforms PDF, Documents and Images into Enriched Structured Data. ![](https://img.shields.io/github/stars/axa-group/Parsr.svg?style=social&label=Star)
 
-### 比特币
+### Bitcoin
 
-- [GitTorrent](https://github.com/cjb/GitTorrent) - 使用 BitTorrent 和比特币的 GitHub 去中心化。 ![](https://img.shields.io/github/stars/cjb/GitTorrent.svg?style=social&label=Star)
-- [bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib) - 一个用于 node.js 和浏览器的 javascript 比特币库。 ![](https://img.shields.io/github/stars/bitcoinjs/bitcoinjs-lib.svg?style=social&label=Star)
-- [bitcore](https://github.com/bitpay/bitcore) - 比特币和基于区块链的应用程序的全栈。 ![](https://img.shields.io/github/stars/bitpay/bitcore.svg?style=social&label=Star)
+- [GitTorrent](https://github.com/cjb/GitTorrent) - A decentralization of GitHub using BitTorrent and Bitcoin. ![](https://img.shields.io/github/stars/cjb/GitTorrent.svg?style=social&label=Star)
+- [bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib) - A javascript Bitcoin library for node.js and browsers. ![](https://img.shields.io/github/stars/bitcoinjs/bitcoinjs-lib.svg?style=social&label=Star)
+- [bitcore](https://github.com/bitpay/bitcore) - A full stack for bitcoin and blockchain-based applications. ![](https://img.shields.io/github/stars/bitpay/bitcore.svg?style=social&label=Star)
 
-## 项目
+## Project
 
-### 低代码（Lowcode）
-*(你也许会喜欢 [awesome-lowcode](https://github.com/taowen/awesome-lowcode))*
+### Lowcode
 
 - H5/PC
-  - [amis](https://github.com/baidu/amis) - 前端低代码框架，通过 JSON 配置就能生成各种页面。 ![](https://img.shields.io/github/stars/baidu/amis.svg?style=social&label=Star)
+  - [amis](https://github.com/baidu/amis) - LowCode Framework, Generate various pages through JSON configuration. ![](https://img.shields.io/github/stars/baidu/amis.svg?style=social&label=Star)
 
 - H5
-  - [h5-Dooring](https://github.com/MrXujiang/h5-Dooring) - 让H5制作像搭积木一样简单, 轻松搭建H5页面, H5网站, PC端网站, 可视化设计,LowCode平台。 ![](https://img.shields.io/github/stars/MrXujiang/h5-Dooring.svg?style=social&label=Star)
-  - [luban-h5](https://github.com/ly525/luban-h5) - 类似易企秀的H5制作、建站工具、可视化搭建系统。 ![](https://img.shields.io/github/stars/ly525/luban-h5.svg?style=social&label=Star)
-  - [gods-pen](https://github.com/ymm-tech/gods-pen) - 基于vue的高扩展在线网页制作平台，可自定义组件，可添加脚本，可数据统计。 ![](https://img.shields.io/github/stars/ymm-tech/gods-pen.svg?style=social&label=Star)
+  - [h5-Dooring](https://github.com/MrXujiang/h5-Dooring) - H5 Page Maker, H5 Editor, LowCode. Make H5 as easy as building blocks. ![](https://img.shields.io/github/stars/MrXujiang/h5-Dooring.svg?style=social&label=Star)
+  - [luban-h5](https://github.com/ly525/luban-h5) - Web design tool || mobile page builder/editor || mini webflow for mobile page. ![](https://img.shields.io/github/stars/ly525/luban-h5.svg?style=social&label=Star)
+  - [gods-pen](https://github.com/ymm-tech/gods-pen) - A mobile page builder/editor, similar with amolink. ![](https://img.shields.io/github/stars/ymm-tech/gods-pen.svg?style=social&label=Star)
 
 - PC
-  - [pc-Dooring](https://github.com/MrXujiang/pc-Dooring) - 让网页制作像搭积木一样简单, 轻松搭建PC页面, Web网站, PC端网站. lowcode(low-code)可视化搭建平台。 ![](https://img.shields.io/github/stars/MrXujiang/pc-Dooring.svg?style=social&label=Star)
+  - [pc-Dooring](https://github.com/MrXujiang/pc-Dooring) - LowCode, PC Page Maker, PC Editor. Make PC as easy as building blocks. ![](https://img.shields.io/github/stars/MrXujiang/pc-Dooring.svg?style=social&label=Star)
 
-- 逻辑编排
-  - [node-red](https://github.com/node-red/node-red) - 事件驱动应用的低代码编程。 ![](https://img.shields.io/github/stars/node-red/node-red.svg?style=social&label=Star)
-  - [imove](https://github.com/ykfe/imove) - iMove 是一个逻辑可复用的，面向函数的，流程可视化的 JavaScript 工具库。 ![](https://img.shields.io/github/stars/ykfe/imove.svg?style=social&label=Star)
+- Logical Arrangement
+  - [node-red](https://github.com/node-red/node-red) - Low-code programming for event-driven applications. ![](https://img.shields.io/github/stars/node-red/node-red.svg?style=social&label=Star)
+  - [imove](https://github.com/ykfe/imove) - Move your mouse, generate code from flow chart. ![](https://img.shields.io/github/stars/ykfe/imove.svg?style=social&label=Star)
