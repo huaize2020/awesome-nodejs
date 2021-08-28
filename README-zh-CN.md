@@ -816,6 +816,7 @@
 - [Tinyhttp](https://github.com/talentlessguy/tinyhttp) - 类Express更现代更快的Web框架。 ![](https://img.shields.io/github/stars/talentlessguy/tinyhttp.svg?style=social&label=Star)
 - [daruk](https://github.com/darukjs/daruk) - 基于 typescript 的 Node.js web 框架。 ![](https://img.shields.io/github/stars/darukjs/daruk.svg?style=social&label=Star)
 - [Hemera](https://github.com/hemerajs/hemera) - 使用以下工具编写可靠且容错的微服务 [NATS](https://nats.io)。 ![](https://img.shields.io/github/stars/hemerajs/hemera.svg?style=social&label=Star)
+- [diet](https://github.com/adamhalasz/diet) - 一个小巧、快速、模块化的node.js web框架。适用于制作快速、可扩展的应用程序和API。 ![](https://img.shields.io/github/stars/adamhalasz/diet.svg?style=social&label=Star)
 - [restana](https://github.com/BackendStack21/restana) - 用于构建REST微服务的超快速和简约的框架。 ![](https://img.shields.io/github/stars/BackendStack21/restana.svg?style=social&label=Star)
 - [CabloyJS](https://github.com/zhennann/Cabloy) - 一款自带工作流引擎的Node.js全栈框架。 ![](https://img.shields.io/github/stars/zhennann/Cabloy.svg?style=social&label=Star)
 - [malagu](https://github.com/cellbang/malagu) - Malagu 是基于 TypeScript 的 Serverless First、可扩展和组件化的应用框架。 ![](https://img.shields.io/github/stars/cellbang/malagu.svg?style=social&label=Star)
