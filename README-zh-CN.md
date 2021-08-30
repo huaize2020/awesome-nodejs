@@ -1261,6 +1261,7 @@
 ### RPC
 
 - [grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js) - 纯JavaScript gRPC客户端。 ![](https://img.shields.io/github/stars/grpc/grpc-node.svg?style=social&label=Star)
+- [thrift](https://github.com/apache/thrift/tree/master/lib/nodejs) - Apache Thrift Node.js实现. ![](https://img.shields.io/github/stars/apache/thrift.svg?style=social&label=Star)
 - [jayson](https://github.com/tedeh/jayson) - Jayson是用于Node.js的简单但功能强大的JSON-RPC 2.0 / 1.0客户端和服务器。 ![](https://img.shields.io/github/stars/tedeh/jayson.svg?style=social&label=Star)
 - [sofa-rpc-node](https://github.com/sofastack/sofa-rpc-node) - SOFARPC Node是高性能、高可扩展性、产品级Node.js RPC框架。 ![](https://img.shields.io/github/stars/sofastack/sofa-rpc-node.svg?style=social&label=Star)
 
