@@ -1252,6 +1252,7 @@ English | [简体中文](./README.md)
 ### RPC
 
 - [grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js) - Pure JavaScript gRPC Client. ![](https://img.shields.io/github/stars/grpc/grpc-node.svg?style=social&label=Star)
+- [thrift](https://github.com/apache/thrift/tree/master/lib/nodejs) - Apache Thrift Node.js. ![](https://img.shields.io/github/stars/apache/thrift.svg?style=social&label=Star)
 - [jayson](https://github.com/tedeh/jayson) - Jayson is a simple but featureful JSON-RPC 2.0/1.0 client and server for node.js. ![](https://img.shields.io/github/stars/tedeh/jayson.svg?style=social&label=Star)
 - [sofa-rpc-node](https://github.com/sofastack/sofa-rpc-node) - SOFARPC Node is a high-performance, high-extensibility, production-level Nodejs RPC framework. ![](https://img.shields.io/github/stars/sofastack/sofa-rpc-node.svg?style=social&label=Star)
 
