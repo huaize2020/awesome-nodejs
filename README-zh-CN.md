@@ -803,9 +803,9 @@
 - [Restify](https://github.com/restify/node-restify) - 使你能够构建正确的REST Web服务。 ![](https://img.shields.io/github/stars/restify/node-restify.svg?style=social&label=Star)
 - [ThinkJS](https://github.com/thinkjs/thinkjs) - 支持ES2015 +的框架，WebSockets，REST API。 ![](https://img.shields.io/github/stars/thinkjs/thinkjs.svg?style=social&label=Star)
 - [total.js](https://github.com/totaljs/framework) - 使用纯JavaScript编写的Node.js框架，类似PHP's Laravel或Python's Django或ASP.NET MVC ![](https://img.shields.io/github/stars/totaljs/framework.svg?style=social&label=Star)
-- [AdonisJs](http://adonisjs.com) - 基于依赖注入和IoC容器的坚实基础构建的Node.js的真正MVC框架。
+- [AdonisJs](http://adonisjs.com) - 基于依赖注入和IoC容器的坚实基础构建的Node.js的真正MVC框架。 ![](https://img.shields.io/github/stars/adonisjs/core.svg?style=social&label=Star)
 - [Micro](https://github.com/zeit/micro) - 具有异步方法的简约微服务框架。 ![](https://img.shields.io/github/stars/zeit/micro.svg?style=social&label=Star)
-- [Moleculer](https://moleculer.services) - 快速而强大的微服务框架。
+- [Moleculer](https://moleculer.services) - 快速而强大的微服务框架。 ![](https://img.shields.io/github/stars/moleculerjs/moleculer.svg?style=social&label=Star)
 - [Midway](https://github.com/midwayjs/midway) - 一个面向未来的云端一体 Node.js 框架。 ![](https://img.shields.io/github/stars/midwayjs/midway.svg?style=social&label=Star)
 - [seneca](https://github.com/senecajs/seneca) - 编写微服务的工具包。 ![](https://img.shields.io/github/stars/senecajs/seneca.svg?style=social&label=Star)
 - [server](https://github.com/franciscop/server) - 简单而强大的 Node.js 服务器。 ![](https://img.shields.io/github/stars/franciscop/server.svg?style=social&label=Star)
