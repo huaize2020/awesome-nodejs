@@ -794,9 +794,9 @@ English | [简体中文](./README.md)
 - [Restify](https://github.com/restify/node-restify) - Enables you to build correct REST web services. ![](https://img.shields.io/github/stars/restify/node-restify.svg?style=social&label=Star)
 - [ThinkJS](https://github.com/thinkjs/thinkjs) - Framework with ES2015+ support, WebSockets, REST API. ![](https://img.shields.io/github/stars/thinkjs/thinkjs.svg?style=social&label=Star)
 - [total.js](https://github.com/totaljs/framework) - A framework for Node.js platfrom written in pure JavaScript similar to PHP's Laravel or Python's Django or ASP.NET MVC ![](https://img.shields.io/github/stars/totaljs/framework.svg?style=social&label=Star)
-- [AdonisJs](http://adonisjs.com) - A true MVC framework for Node.js built on solid foundations of Dependency Injection and IoC container.
+- [AdonisJs](http://adonisjs.com) - A true MVC framework for Node.js built on solid foundations of Dependency Injection and IoC container. ![](https://img.shields.io/github/stars/adonisjs/core.svg?style=social&label=Star)
 - [Micro](https://github.com/zeit/micro) - Minimalistic microservice framework with an async approach. ![](https://img.shields.io/github/stars/zeit/micro.svg?style=social&label=Star)
-- [Moleculer](https://moleculer.services) - Fast & powerful microservices framework.
+- [Moleculer](https://moleculer.services) - Fast & powerful microservices framework. ![](https://img.shields.io/github/stars/moleculerjs/moleculer.svg?style=social&label=Star)
 - [Midway](https://github.com/midwayjs/midway) - A Node.js framework for building Serverless services, traditional server-side applications, microservices, and small programs. ![](https://img.shields.io/github/stars/midwayjs/midway.svg?style=social&label=Star)
 - [seneca](https://github.com/senecajs/seneca) - Toolkit for writing microservices. ![](https://img.shields.io/github/stars/senecajs/seneca.svg?style=social&label=Star)
 - [server](https://github.com/franciscop/server) - Simple and powerful server for Node.js. ![](https://img.shields.io/github/stars/franciscop/server.svg?style=social&label=Star)
