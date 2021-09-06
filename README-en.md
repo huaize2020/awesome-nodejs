@@ -151,6 +151,10 @@ English | [简体中文](./README.md)
   - [jsdiff](https://github.com/kpdecker/jsdiff) - A javascript text differencing implementation. ![](https://img.shields.io/github/stars/kpdecker/jsdiff.svg?style=social&label=Star)
   - [recursive-diff](https://github.com/cosmicanant/recursive-diff) - A JavaScript library to find diff between two JavaScript Objects. Support for Array, Number, Date and other primitive data types. ![](https://img.shields.io/github/stars/cosmicanant/recursive-diff.svg?style=social&label=Star)
 
+- Random
+  - [generate-password](https://github.com/brendanashworth/generate-password) - NodeJS library for generating cryptographically-secure passwords. ![](https://img.shields.io/github/stars/brendanashworth/generate-password.svg?style=social&label=Star)
+  - [randomatic](https://github.com/jonschlinkert/randomatic) - Easily generate random strings like passwords, with simple options for specifying a length and for using patterns of numeric, alpha-numeric, alphabetical, special or custom characters. (the original "generate-password") ![](https://img.shields.io/github/stars/jonschlinkert/randomatic.svg?style=social&label=Star)
+
 - Other
   - [StegCloak](https://github.com/kurolabs/stegcloak) - Conceal secrets within strings, in plain sight. ![](https://img.shields.io/github/stars/kurolabs/stegcloak.svg?style=social&label=Star)
   - [unhomoglyph](https://github.com/nodeca/unhomoglyph) - Normalize visually similar unicode characters. ![](https://img.shields.io/github/stars/nodeca/unhomoglyph.svg?style=social&label=Star)
