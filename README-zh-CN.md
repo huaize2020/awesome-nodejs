@@ -713,10 +713,11 @@
 - [log4js-node](https://github.com/log4js-node/log4js-node) - 不同于Java log4j的日志记录库。 ![](https://img.shields.io/github/stars/log4js-node/log4js-node.svg?style=social&label=Star)
 - [consola](https://github.com/nuxt/consola) - 优雅的Node.js和浏览器日志记录库。 ![](https://img.shields.io/github/stars/nuxt/consola.svg?style=social&label=Star)
 - [loglevel](https://github.com/pimterry/loglevel) - 小巧的轻量级日志记录，添加可靠的日志级别方法来封装任何可用的 console.log 方法。 ![](https://img.shields.io/github/stars/pimterry/loglevel.svg?style=social&label=Star)
+- [roarr](https://github.com/gajus/roarr) - JSON日志。 ![](https://img.shields.io/github/stars/gajus/roarr.svg?style=social&label=Star)
 - [storyboard](https://github.com/guigrpa/storyboard) - 一个Chrome浏览器插件，用于查看日志。 ![](https://img.shields.io/github/stars/guigrpa/storyboard.svg?style=social&label=Star)
 - [cabin](https://github.com/cabinjs/cabin) - 提供日志服务和NPM包。 ![](https://img.shields.io/github/stars/cabinjs/cabin.svg?style=social&label=Star)
-- [fancy-log](https://github.com/gulpjs/fancy-log) - 带上时间前缀的日志记录库。 ![](https://img.shields.io/github/stars/gulpjs/fancy-log.svg?style=social&label=Star)
 - [caterpillar](https://github.com/bevry/caterpillar) - Caterpillar 是 Deno、Node.js 和 Web 浏览器的终极日志系统。日志级别实现了RFC标准。日志条目可以过滤并通过管道传输到各种流，包括多色输出到终端、浏览器的控制台和调试文件。你甚至可以编写自己的转换。 ![](https://img.shields.io/github/stars/bevry/caterpillar.svg?style=social&label=Star)
+- [fancy-log](https://github.com/gulpjs/fancy-log) - 带上时间前缀的日志记录库。 ![](https://img.shields.io/github/stars/gulpjs/fancy-log.svg?style=social&label=Star)
 - [captains-log](https://github.com/balderdashy/captains-log) - 通过简单的配置就可以使用的轻量日志记录库。 ![](https://img.shields.io/github/stars/balderdashy/captains-log.svg?style=social&label=Star)
 
 ### 进程管理
@@ -900,6 +901,7 @@
 - [bee-queue](https://github.com/bee-queue/bee-queue) - 高性能的 基于Redis的任务队列。 ![](https://img.shields.io/github/stars/bee-queue/bee-queue.svg?style=social&label=Star)
   - [arena](https://github.com/bee-queue/arena) - bee-queue的交互式UI仪表盘。 ![](https://img.shields.io/github/stars/bee-queue/arena.svg?style=social&label=Star)
 - [kafkajs](https://github.com/tulios/kafkajs) - A modern Apache Kafka client for node.js. ![](https://img.shields.io/github/stars/tulios/kafkajs.svg?style=social&label=Star)
+- [bullmq](https://github.com/taskforcesh/bullmq) - BullMQ - 基于 Redis 的 NodeJS 的高级消息队列。 ![](https://img.shields.io/github/stars/taskforcesh/bullmq.svg?style=social&label=Star)
 - [rsmq](https://github.com/smrchy/rsmq) - 基于Redis的消息队列. ![](https://img.shields.io/github/stars/smrchy/rsmq.svg?style=social&label=Star)
 - [sqs-consumer](https://github.com/bbc/sqs-consumer) - 在没有样板文件的情况下构建基于Amazon简单队列服务（SQS）的应用程序. ![](https://img.shields.io/github/stars/bbc/sqs-consumer.svg?style=social&label=Star)
 - [node-resque](https://github.com/taskrabbit/node-resque) - Redis支持的作业队列. ![](https://img.shields.io/github/stars/taskrabbit/node-resque.svg?style=social&label=Star)
