@@ -158,6 +158,10 @@
   - [jsdiff](https://github.com/kpdecker/jsdiff) - 一种JavaScript文本差异实现。 ![](https://img.shields.io/github/stars/kpdecker/jsdiff.svg?style=social&label=Star)
   - [recursive-diff](https://github.com/cosmicanant/recursive-diff) - 查找两个JavaScript对象的差异，支持数组、数字、日期和其他原始数据类型。 ![](https://img.shields.io/github/stars/cosmicanant/recursive-diff.svg?style=social&label=Star)
 
+- 随机字符串
+  - [generate-password](https://github.com/brendanashworth/generate-password) - 用于生成加密安全密码的 NodeJS 库。 ![](https://img.shields.io/github/stars/brendanashworth/generate-password.svg?style=social&label=Star)
+  - [randomatic](https://github.com/jonschlinkert/randomatic) - 使用简单的选项来指定长度和使用数字、字母数字、字母、特殊或自定义字符的模式，轻松生成密码等随机字符串。(源自`generate-password`) ![](https://img.shields.io/github/stars/jonschlinkert/randomatic.svg?style=social&label=Star)
+
 - 其他
   - [StegCloak](https://github.com/kurolabs/stegcloak) - 基于纯JavaScript开发的隐写功能模块，StegCloak可以对文本中的机密信息进行压缩和加密，然后再使用特殊的Unicode不可见字符来隐藏它。 ![](https://img.shields.io/github/stars/kurolabs/stegcloak.svg?style=social&label=Star)
   - [unhomoglyph](https://github.com/nodeca/unhomoglyph) - 规范视觉上相似的unicode字符。 ![](https://img.shields.io/github/stars/nodeca/unhomoglyph.svg?style=social&label=Star)
