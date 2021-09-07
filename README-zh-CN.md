@@ -237,6 +237,7 @@
 - [jsonfile](https://github.com/jprichardson/node-jsonfile) - 轻松读写JSON文件。 ![](https://img.shields.io/github/stars/jprichardson/node-jsonfile.svg?style=social&label=Star)
 - [jsonata](https://github.com/jsonata-js/jsonata) - JSONata 查询和转换语言 - http://jsonata.org ![](https://img.shields.io/github/stars/jsonata-js/jsonata.svg?style=social&label=Star)
 - [json-stable-stringify](https://github.com/substack/json-stable-stringify) - 具有自定义排序功能的确定性JSON.stringify(), 可以从字符串化结果中获取确定性哈希值。 ![](https://img.shields.io/github/stars/substack/json-stable-stringify.svg?style=social&label=Star)
+- [json-mask](https://github.com/nemtsov/json-mask) - 用于选择 JS 对象特定部分，而隐藏其余部分的微型语言和引擎。 ![](https://img.shields.io/github/stars/nemtsov/json-mask.svg?style=social&label=Star)
 - [strip-json-comments](https://github.com/sindresorhus/strip-json-comments) - 去除JSON文件中的注释。让你可以在JSON中使用注释。 ![](https://img.shields.io/github/stars/sindresorhus/strip-json-comments.svg?style=social&label=Star)
 - [json-stringify-safe](https://github.com/moll/json-stringify-safe) - 类似于JSON.stringify，但不会引发循环引用。 ![](https://img.shields.io/github/stars/moll/json-stringify-safe.svg?style=social&label=Star)
 - [load-json-file](https://github.com/sindresorhus/load-json-file) - 读取并解析JSON文件。 ![](https://img.shields.io/github/stars/sindresorhus/load-json-file.svg?style=social&label=Star)
@@ -422,6 +423,8 @@
   - [pify](https://github.com/sindresorhus/pify) - 将回调式的函数 Promisify 化。 ![](https://img.shields.io/github/stars/sindresorhus/pify.svg?style=social&label=Star)
   - [p-map](https://github.com/sindresorhus/p-map) - 并发的Map执行 Promise 。 ![](https://img.shields.io/github/stars/sindresorhus/p-map.svg?style=social&label=Star)
   - [delay](https://github.com/sindresorhus/delay) - 将 Promise 延迟指定的时间。 ![](https://img.shields.io/github/stars/sindresorhus/delay.svg?style=social&label=Star)
+  - [thenify](https://github.com/thenables/thenify) - 将一个基于回调的函数Promise化。 ![](https://img.shields.io/github/stars/thenables/thenify.svg?style=social&label=Star)
+  - [thenify-all](https://github.com/thenables/thenify-all) - 将一个对象中所有选中的方法全部Promise化。 ![](https://img.shields.io/github/stars/thenables/thenify-all.svg?style=social&label=Star)
   - [promise-memoize](https://github.com/nodeca/promise-memoize) - 记忆化Promise返回函数，带过期和prefetch预取功能。 ![](https://img.shields.io/github/stars/nodeca/promise-memoize.svg?style=social&label=Star)
   - [valvelet](https://github.com/lpinca/valvelet) - 限制Promise返回函数的执行率(限流)。 ![](https://img.shields.io/github/stars/lpinca/valvelet.svg?style=social&label=Star)
 
