@@ -431,6 +431,9 @@ English | [简体中文](./README.md)
 - Channels
   - [js-csp](https://github.com/ubolonton/js-csp) - Communicating sequential processes for JavaScript (like Clojurescript core.async, or Go). ![](https://img.shields.io/github/stars/ubolonton/js-csp.svg?style=social&label=Star)
 
+- Other
+  - [mz](https://github.com/normalize/mz) - Modernize node.js to current ECMAScript standards. ![](https://img.shields.io/github/stars/normalize/mz.svg?style=social&label=Star)
+
 ### Inversion of control / Dependency Injection (Ioc/DI)
 
 - [InversifyJS](https://github.com/inversify/InversifyJS) - A powerful and lightweight inversion of control container for JavaScript & Node.js apps powered by TypeScript. ![](https://img.shields.io/github/stars/inversify/InversifyJS.svg?style=social&label=Star)
@@ -563,6 +566,7 @@ English | [简体中文](./README.md)
 - Semantic Version
   - [semver](https://github.com/npm/node-semver) - The semver parser for node (the one npm uses). ![](https://img.shields.io/github/stars/npm/node-semver.svg?style=social&label=Star)
   - [compare-versions](https://github.com/omichelsen/compare-versions) - Compare semver version strings to find which is greater, equal or lesser. ![](https://img.shields.io/github/stars/omichelsen/compare-versions.svg?style=social&label=Star)
+  - [semver-diff](https://github.com/sindresorhus/semver-diff) - Get the diff type of two semver versions: 0.0.1 0.0.2 → patch. ![](https://img.shields.io/github/stars/sindresorhus/semver-diff.svg?style=social&label=Star)
 
 - Private Npm Registry
   - [verdaccio](https://github.com/verdaccio/verdaccio) - A lightweight private proxy registry build in Node.js. ![](https://img.shields.io/github/stars/verdaccio/verdaccio.svg?style=social&label=Star)
