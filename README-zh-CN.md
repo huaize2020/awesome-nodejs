@@ -439,6 +439,9 @@
 - 管道
   - [js-csp](https://github.com/ubolonton/js-csp) - 用于JavaScript的顺序通信进程CSP（如 ClojureScript core.async 或 Go）。 ![](https://img.shields.io/github/stars/ubolonton/js-csp.svg?style=social&label=Star)
 
+- 其他
+  - [mz](https://github.com/normalize/mz) - 将Node.s Api现代化转化为当前ECMAScript标准（将child_process、crypto、dns、fs、readline、zlib等Promise化）。 ![](https://img.shields.io/github/stars/normalize/mz.svg?style=social&label=Star)
+
 ### 控制反转/依赖注入
 
 - [InversifyJS](https://github.com/inversify/InversifyJS) - 功能强大且轻便的控制反转容器。 ![](https://img.shields.io/github/stars/inversify/InversifyJS.svg?style=social&label=Star)
@@ -571,6 +574,7 @@
 - 语义化版本
   - [semver](https://github.com/npm/node-semver) - NPM使用的JavaScript语义化版本号解析器。 ![](https://img.shields.io/github/stars/npm/node-semver.svg?style=social&label=Star)
   - [compare-versions](https://github.com/omichelsen/compare-versions) - 比较semver版本字符串，找出哪个更大，哪个相等，哪个更小。 ![](https://img.shields.io/github/stars/omichelsen/compare-versions.svg?style=social&label=Star)
+  - [semver-diff](https://github.com/sindresorhus/semver-diff) - 获取两个semver版本号的区别类型：0.0.1 0.0.2 → patch. ![](https://img.shields.io/github/stars/sindresorhus/semver-diff.svg?style=social&label=Star)
 
 - NPM私有部署
   - [verdaccio](https://github.com/verdaccio/verdaccio) - 私有轻量级的NPM镜像。 ![](https://img.shields.io/github/stars/verdaccio/verdaccio.svg?style=social&label=Star)
