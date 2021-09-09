@@ -4,7 +4,10 @@
 >
 > 故此另开仓库，希望可以更好的满足国内开发者的需求。
 
-> 同时推荐你查看我另一个仓库 [awesome-frontend](https://github.com/huaize2020/awesome-frontend)!
+> 同时推荐你查看我正在维护的其他仓库
+> - [awesome-koa](https://github.com/huaize2020/awesome-koa)
+> - [awesome-egg](https://github.com/huaize2020/awesome-egg)
+> - [awesome-frontend](https://github.com/huaize2020/awesome-frontend)
 
 [English](./README-en.md) | 简体中文
 
@@ -486,6 +489,7 @@
   - [oclif](https://github.com/oclif/oclif) - 基于Heroku开源Node.js CLI框架。 ![](https://img.shields.io/github/stars/oclif/oclif.svg?style=social&label=Star)
   - [meow](https://github.com/sindresorhus/meow) - CLI应用助手。 ![](https://img.shields.io/github/stars/sindresorhus/meow.svg?style=social&label=Star)
   - [cac](https://github.com/cacjs/cac) - 用于构建命令行应用的强大框架。 ![](https://img.shields.io/github/stars/cacjs/cac.svg?style=social&label=Star)
+  - [clipanion](https://github.com/arcanis/clipanion) - 无运行时依赖的类型安全的CLI库。 ![](https://img.shields.io/github/stars/arcanis/clipanion.svg?style=social&label=Star)
   - [Cliffy](https://github.com/drew-y/cliffy) - 可交互命令行框架。 ![](https://img.shields.io/github/stars/drew-y/cliffy.svg?style=social&label=Star)
   - [common-bin](https://github.com/node-modules/common-bin) - 基于yargs的命令行工具抽象，提供更方便的使用，支持async/generator。 ![](https://img.shields.io/github/stars/node-modules/common-bin.svg?style=social&label=Star)
 
@@ -1263,6 +1267,7 @@
 
 ### 分布式
 
+- [redlock](https://github.com/mike-marcacci/node-redlock) - 一个高可用的Redis分布式锁实现。 ![](https://img.shields.io/github/stars/mike-marcacci/node-redlock.svg?style=social&label=Star)
 - [node-zookeeper-client](https://github.com/alexguan/node-zookeeper-client) - 纯JavaScript ZooKeeper客户端。 ![](https://img.shields.io/github/stars/alexguan/node-zookeeper-client.svg?style=social&label=Star)
 
 ### 序列化
