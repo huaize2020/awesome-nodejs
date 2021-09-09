@@ -478,6 +478,7 @@ English | [简体中文](./README.md)
   - [oclif](https://github.com/oclif/oclif) - Node.js Open CLI Framework. Built with 💜 by Heroku. ![](https://img.shields.io/github/stars/oclif/oclif.svg?style=social&label=Star)
   - [meow](https://github.com/sindresorhus/meow) - CLI app helper. ![](https://img.shields.io/github/stars/sindresorhus/meow.svg?style=social&label=Star)
   - [cac](https://github.com/cacjs/cac) - Simple yet powerful framework for building command-line apps. ![](https://img.shields.io/github/stars/cacjs/cac.svg?style=social&label=Star)
+  - [clipanion](https://github.com/arcanis/clipanion) - Type-safe CLI library with no runtime dependencies. ![](https://img.shields.io/github/stars/arcanis/clipanion.svg?style=social&label=Star)
   - [Cliffy](https://github.com/drew-y/cliffy) - Framework for interactive CLIs. ![](https://img.shields.io/github/stars/drew-y/cliffy.svg?style=social&label=Star)
   - [common-bin](https://github.com/node-modules/common-bin) - Abstraction bin tool wrap yargs, to provide more convenient usage, support async / generator. ![](https://img.shields.io/github/stars/node-modules/common-bin.svg?style=social&label=Star)
 
@@ -1254,6 +1255,7 @@ English | [简体中文](./README.md)
 
 ### Distribute
 
+- [redlock](https://github.com/mike-marcacci/node-redlock) - A node.js redlock implementation for distributed, highly-available redis locks. ![](https://img.shields.io/github/stars/mike-marcacci/node-redlock.svg?style=social&label=Star)
 - [node-zookeeper-client](https://github.com/alexguan/node-zookeeper-client) - A pure Javascript ZooKeeper client for Node.js. ![](https://img.shields.io/github/stars/alexguan/node-zookeeper-client.svg?style=social&label=Star)
 
 ### Serialization
