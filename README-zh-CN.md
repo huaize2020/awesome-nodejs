@@ -444,6 +444,7 @@
 
 - 其他
   - [mz](https://github.com/normalize/mz) - 将Node.s Api现代化转化为当前ECMAScript标准（将child_process、crypto、dns、fs、readline、zlib等Promise化）。 ![](https://img.shields.io/github/stars/normalize/mz.svg?style=social&label=Star)
+  - [mz-modules](https://github.com/node-modules/mz-modules) - 与 `mz` 类似，但在世界中封装模块而不是核心 API。![](https://img.shields.io/github/stars/node-modules/mz-modules.svg?style=social&label=Star)
 
 ### 控制反转/依赖注入
 
