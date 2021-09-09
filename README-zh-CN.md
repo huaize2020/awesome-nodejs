@@ -4,7 +4,10 @@
 >
 > 故此另开仓库，希望可以更好的满足国内开发者的需求。
 
-> 同时推荐你查看我另一个仓库 [awesome-frontend](https://github.com/huaize2020/awesome-frontend)!
+> 同时推荐你查看我正在维护的其他仓库
+> - [awesome-koa](https://github.com/huaize2020/awesome-koa)
+> - [awesome-egg](https://github.com/huaize2020/awesome-egg)
+> - [awesome-frontend](https://github.com/huaize2020/awesome-frontend)
 
 [English](./README-en.md) | 简体中文
 
