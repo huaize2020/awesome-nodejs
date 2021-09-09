@@ -433,6 +433,7 @@ English | [简体中文](./README.md)
 
 - Other
   - [mz](https://github.com/normalize/mz) - Modernize node.js to current ECMAScript standards. ![](https://img.shields.io/github/stars/normalize/mz.svg?style=social&label=Star)
+  - [mz-modules](https://github.com/node-modules/mz-modules) - Same as `mz`, but wrap modules in the world rather than core API. ![](https://img.shields.io/github/stars/node-modules/mz-modules.svg?style=social&label=Star)
 
 ### Inversion of control / Dependency Injection (Ioc/DI)
 
