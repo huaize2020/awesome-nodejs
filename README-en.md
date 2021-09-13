@@ -1047,6 +1047,7 @@ English | [简体中文](./README.md)
 - [appium](https://github.com/appium/appium) - Automation for iOS, Android, and Windows Apps. ![](https://img.shields.io/github/stars/appium/appium.svg?style=social&label=Star)
 - [wechaty](https://github.com/wechaty/wechaty) - Conversational RPA SDK. ![](https://img.shields.io/github/stars/wechaty/wechaty.svg?style=social&label=Star)
 - [robotjs](https://github.com/octalmage/robotjs) - Node.js Desktop Automation. ![](https://img.shields.io/github/stars/octalmage/robotjs.svg?style=social&label=Star)
+- [pageres](https://github.com/sindresorhus/pageres) - Capture website screenshots. ![](https://img.shields.io/github/stars/sindresorhus/pageres.svg?style=social&label=Star)
 - [nut.js](https://github.com/nut-tree/nut.js) - Native UI testing / controlling with node. ![](https://img.shields.io/github/stars/nut-tree/nut.js.svg?style=social&label=Star)
 
 ### Testing
