@@ -402,8 +402,9 @@
 - [jsonschema](https://github.com/tdegrunt/jsonschema) - JSON Schema校验器. ![](https://img.shields.io/github/stars/tdegrunt/jsonschema.svg?style=social&label=Star)
 - [validatorjs](https://github.com/mikeerickson/validatorjs) - 受Laravel的校验器启发，在浏览器和Node.JS上的数据校验库。 ![](https://img.shields.io/github/stars/mikeerickson/validatorjs.svg?style=social&label=Star)
 - [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) - 极快的JSON Schema校验工具。 ![](https://img.shields.io/github/stars/mafintosh/is-my-json-valid.svg?style=social&label=Star)
-- [property-validator](https://github.com/nettofarah/property-validator) - 用于JavaScript、Node和Express的易用的属性校验工具。 ![](https://img.shields.io/github/stars/nettofarah/property-validator.svg?style=social&label=Star)
+- [parameter](https://github.com/node-modules/parameter) - 参数校验工具。 ![](https://img.shields.io/github/stars/node-modules/parameter.svg?style=social&label=Star)
 - [schema-inspector](https://github.com/Atinux/schema-inspector) - 用于净化和验证JS对象的强大工具。 ![](https://img.shields.io/github/stars/Atinux/schema-inspector.svg?style=social&label=Star)
+- [property-validator](https://github.com/nettofarah/property-validator) - 用于JavaScript、Node和Express的易用的属性校验工具。 ![](https://img.shields.io/github/stars/nettofarah/property-validator.svg?style=social&label=Star)
 
 ### 函数式编程
 
