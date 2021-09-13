@@ -392,8 +392,9 @@ English | [简体中文](./README.md)
 - [jsonschema](https://github.com/tdegrunt/jsonschema) - JSON Schema validation. ![](https://img.shields.io/github/stars/tdegrunt/jsonschema.svg?style=social&label=Star)
 - [validatorjs](https://github.com/mikeerickson/validatorjs) - Data validation library in JavaScript for the browser and Node.js, inspired by Laravel's Validator. ![](https://img.shields.io/github/stars/mikeerickson/validatorjs.svg?style=social&label=Star)
 - [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) - JSON Schema validator that uses code generation to be extremely fast. ![](https://img.shields.io/github/stars/mafintosh/is-my-json-valid.svg?style=social&label=Star)
-- [property-validator](https://github.com/nettofarah/property-validator) - Easy property validation for JavaScript, Node and Express. ![](https://img.shields.io/github/stars/nettofarah/property-validator.svg?style=social&label=Star)
+- [parameter](https://github.com/node-modules/parameter) - A parameter verify tools. ![](https://img.shields.io/github/stars/node-modules/parameter.svg?style=social&label=Star)
 - [schema-inspector](https://github.com/Atinux/schema-inspector) - JSON API sanitization and validation. ![](https://img.shields.io/github/stars/Atinux/schema-inspector.svg?style=social&label=Star)
+- [property-validator](https://github.com/nettofarah/property-validator) - Easy property validation for JavaScript, Node and Express. ![](https://img.shields.io/github/stars/nettofarah/property-validator.svg?style=social&label=Star)
 
 ### Functional programming
 
