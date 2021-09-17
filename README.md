@@ -98,8 +98,9 @@
   - [自然语言处理](#自然语言处理)
   - [OCR](#ocr)
   - [比特币](#比特币)
-- [项目](#项目)
+- [场景](#场景)
   - [低代码（Lowcode）](#低代码lowcode)
+  - [云IDE](#云ide)
 
 ## 官方资源
 
@@ -1402,7 +1403,7 @@
 - [bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib) - 一个用于 node.js 和浏览器的 javascript 比特币库。 ![](https://img.shields.io/github/stars/bitcoinjs/bitcoinjs-lib.svg?style=social&label=Star)
 - [bitcore](https://github.com/bitpay/bitcore) - 比特币和基于区块链的应用程序的全栈。 ![](https://img.shields.io/github/stars/bitpay/bitcore.svg?style=social&label=Star)
 
-## 项目
+## 场景
 
 ### 低代码（Lowcode）
 *(你也许会喜欢 [awesome-lowcode](https://github.com/taowen/awesome-lowcode))*
@@ -1421,3 +1422,8 @@
 - 逻辑编排
   - [node-red](https://github.com/node-red/node-red) - 事件驱动应用的低代码编程。 ![](https://img.shields.io/github/stars/node-red/node-red.svg?style=social&label=Star)
   - [imove](https://github.com/ykfe/imove) - iMove 是一个逻辑可复用的，面向函数的，流程可视化的 JavaScript 工具库。 ![](https://img.shields.io/github/stars/ykfe/imove.svg?style=social&label=Star)
+
+### 云IDE
+
+- [code-server](https://github.com/cdr/code-server) - 在任何地方的任何机器上运行 VS Code，并在浏览器中访问它。 ![](https://img.shields.io/github/stars/cdr/code-server.svg?style=social&label=Star)
+- [theia](https://github.com/eclipse-theia/theia) - Eclipse Theia 是一个可扩展框架，用于使用最先进的 Web 技术开发成熟的多语言云和桌面 IDE 类产品 ![](https://img.shields.io/github/stars/eclipse-theia/theia.svg?style=social&label=Star)
