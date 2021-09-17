@@ -13,8 +13,16 @@
 > (笔者能力有限，如果你有更好的文章、分类和其他建议，欢迎提交[issue](https://github.com/huaize2020/awesome-nodejs/issues))
 
 
+- [BFF](#bff)
+- [Web开发](#web开发)
 - [Lowcode](#lowcode)
 - [Web IDE](#web-ide)
+
+## BFF
+
+- [你学BFF和Serverless了吗](https://juejin.cn/post/6844904185427673095) - 作者分析了BFF是什么、解决了什么问题、存在什么痛点，并进而引出了Serverless的价值。
+
+## Web开发
 
 ## Lowcode
 
