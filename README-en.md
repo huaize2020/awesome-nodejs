@@ -89,8 +89,9 @@ English | [简体中文](./README.md)
   - [Natural language processing](#natural-language-processing)
   - [OCR](#ocr)
   - [Bitcoin](#bitcoin)
-- [Project](#project)
+- [Scene](#scene)
   - [Lowcode](#lowcode)
+  - [Cloud IDE](#cloud-ide)
 
 ## Official
 - [Website](https://nodejs.org)
@@ -1390,7 +1391,7 @@ English | [简体中文](./README.md)
 - [bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib) - A javascript Bitcoin library for node.js and browsers. ![](https://img.shields.io/github/stars/bitcoinjs/bitcoinjs-lib.svg?style=social&label=Star)
 - [bitcore](https://github.com/bitpay/bitcore) - A full stack for bitcoin and blockchain-based applications. ![](https://img.shields.io/github/stars/bitpay/bitcore.svg?style=social&label=Star)
 
-## Project
+## Scene
 
 ### Lowcode
 
@@ -1408,3 +1409,8 @@ English | [简体中文](./README.md)
 - Logical Arrangement
   - [node-red](https://github.com/node-red/node-red) - Low-code programming for event-driven applications. ![](https://img.shields.io/github/stars/node-red/node-red.svg?style=social&label=Star)
   - [imove](https://github.com/ykfe/imove) - Move your mouse, generate code from flow chart. ![](https://img.shields.io/github/stars/ykfe/imove.svg?style=social&label=Star)
+
+### Cloud IDE
+
+- [code-server](https://github.com/cdr/code-server) - Run VS Code on any machine anywhere and access it in the browser. ![](https://img.shields.io/github/stars/cdr/code-server.svg?style=social&label=Star)
+- [theia](https://github.com/eclipse-theia/theia) - Eclipse Theia is an extensible framework to develop full-fledged multi-language Cloud & Desktop IDE-like products with state-of-the-art web technologies. ![](https://img.shields.io/github/stars/eclipse-theia/theia.svg?style=social&label=Star)
