@@ -960,9 +960,10 @@ English | [简体中文](./README.md)
 - Middleware
   - [swagger-stats](https://github.com/slanatech/swagger-stats) - Trace API calls and monitor API performance, health, and usage metrics. ![](https://img.shields.io/github/stars/slanatech/swagger-stats.svg?style=social&label=Star)
 
-- Agent
+- Client
   - [prom-client](https://github.com/siimon/prom-client) - Prometheus client for node.js. ![](https://img.shields.io/github/stars/siimon/prom-client.svg?style=social&label=Star)
   - [apm-agent-nodejs](https://github.com/elastic/apm-agent-nodejs) - Elastic APM Node.js Agent. ![](https://img.shields.io/github/stars/elastic/apm-agent-nodejs.svg?style=social&label=Star)
+  - [dd-trace-js](https://github.com/DataDog/dd-trace-js) - Datadog APM tracing client for Node.js. ![](https://img.shields.io/github/stars/DataDog/dd-trace-js.svg?style=social&label=Star)
   - [skywalking-nodejs](https://github.com/apache/skywalking-nodejs) - The NodeJS agent for Apache SkyWalking. ![](https://img.shields.io/github/stars/apache/skywalking-nodejs.svg?style=social&label=Star)
 
 ### Forum
