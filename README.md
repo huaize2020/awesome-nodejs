@@ -972,9 +972,10 @@
 - 中间件
   - [swagger-stats](https://github.com/slanatech/swagger-stats) - 跟踪 API 调用并监控 API 性能、运行状况和使用指标。 ![](https://img.shields.io/github/stars/slanatech/swagger-stats.svg?style=social&label=Star)
 
-- 代理
+- 客户端
   - [prom-client](https://github.com/siimon/prom-client) - Prometheus代理。 ![](https://img.shields.io/github/stars/siimon/prom-client.svg?style=social&label=Star)
   - [apm-agent-nodejs](https://github.com/elastic/apm-agent-nodejs) - Elastic APM Node.js代理。 ![](https://img.shields.io/github/stars/elastic/apm-agent-nodejs.svg?style=social&label=Star)
+  - [dd-trace-js](https://github.com/DataDog/dd-trace-js) - Datadog APM客户端。 ![](https://img.shields.io/github/stars/DataDog/dd-trace-js.svg?style=social&label=Star)
   - [skywalking-nodejs](https://github.com/apache/skywalking-nodejs) - Apache SkyWalking Node.js代理 ![](https://img.shields.io/github/stars/apache/skywalking-nodejs.svg?style=social&label=Star)
 
 ### 论坛
