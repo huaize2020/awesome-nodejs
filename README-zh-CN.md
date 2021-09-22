@@ -245,6 +245,8 @@
 - [strip-json-comments](https://github.com/sindresorhus/strip-json-comments) - 去除JSON文件中的注释。让你可以在JSON中使用注释。 ![](https://img.shields.io/github/stars/sindresorhus/strip-json-comments.svg?style=social&label=Star)
 - [json-stringify-safe](https://github.com/moll/json-stringify-safe) - 类似于JSON.stringify，但不会引发循环引用。 ![](https://img.shields.io/github/stars/moll/json-stringify-safe.svg?style=social&label=Star)
 - [load-json-file](https://github.com/sindresorhus/load-json-file) - 读取并解析JSON文件。 ![](https://img.shields.io/github/stars/sindresorhus/load-json-file.svg?style=social&label=Star)
+- [jsonc-parser](https://github.com/microsoft/node-jsonc-parser) - 带注释的JSON扫描器和解析器。 ![](https://img.shields.io/github/stars/microsoft/node-jsonc-parser.svg?style=social&label=Star)
+- [parse-json](https://github.com/sindresorhus/parse-json) - 解析JSON，如果解析失败带有更有帮助的错误信息。 ![](https://img.shields.io/github/stars/sindresorhus/parse-json.svg?style=social&label=Star)
 - [write-json-file](https://github.com/sindresorhus/write-json-file) - 序列化并写入JSON文件。 ![](https://img.shields.io/github/stars/sindresorhus/write-json-file.svg?style=social&label=Star)
 - [fast-json-stable-stringify](https://github.com/epoberezkin/fast-json-stable-stringify) - 确定性JSON.stringify() - 比 @substack 的 json-stable-stringify 更快的版本，不带jsonify。 ![](https://img.shields.io/github/stars/epoberezkin/fast-json-stable-stringify.svg?style=social&label=Star)
 - [jsonuri](https://github.com/aligay/jsonuri) - 使用”URI样式“的方法来操作数据。 ![](https://img.shields.io/github/stars/aligay/jsonuri.svg?style=social&label=Star)
