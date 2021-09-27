@@ -239,6 +239,7 @@
 - [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker) - JSON-Schema + 假数据生成器。 ![](https://img.shields.io/github/stars/json-schema-faker/json-schema-faker.svg?style=social&label=Star)
 - [fast-json-stringify](https://github.com/fastify/fast-json-stringify) - 比JSON.stringify()快2倍。 ![](https://img.shields.io/github/stars/fastify/fast-json-stringify.svg?style=social&label=Star)
 - [jsonfile](https://github.com/jprichardson/node-jsonfile) - 轻松读写JSON文件。 ![](https://img.shields.io/github/stars/jprichardson/node-jsonfile.svg?style=social&label=Star)
+- [bson](https://github.com/mongodb/js-bson) - Node.js和浏览器的BSON解析器，BSON是“Binary JSON”的缩写，是类JSON文档的二进制编码序列化。![](https://img.shields.io/github/stars/mongodb/js-bson.svg?style=social&label=Star)
 - [jsonata](https://github.com/jsonata-js/jsonata) - JSONata 查询和转换语言 - http://jsonata.org ![](https://img.shields.io/github/stars/jsonata-js/jsonata.svg?style=social&label=Star)
 - [json-stable-stringify](https://github.com/substack/json-stable-stringify) - 具有自定义排序功能的确定性JSON.stringify(), 可以从字符串化结果中获取确定性哈希值。 ![](https://img.shields.io/github/stars/substack/json-stable-stringify.svg?style=social&label=Star)
 - [json-mask](https://github.com/nemtsov/json-mask) - 用于选择 JS 对象特定部分，而隐藏其余部分的微型语言和引擎。 ![](https://img.shields.io/github/stars/nemtsov/json-mask.svg?style=social&label=Star)
