@@ -27,6 +27,7 @@
   - [URL](#url)
   - [JSON / JSON Schema](#json--json-schema)
   - [图像处理](#图像处理)
+    - [SVG](#svg)
   - [音频 / 视频处理](#音频--视频处理)
   - [字体](#字体)
   - [颜色](#颜色)
@@ -264,7 +265,6 @@
 - [jsQR](https://github.com/cozmo/jsQR) - 一个纯javascript的二维码读取库。 该库接收原始图像，并将定位、提取和解析其中发现的任何二维码。 ![](https://img.shields.io/github/stars/cozmo/jsQR.svg?style=social&label=Star)
 - [lwip](https://github.com/EyalAr/lwip) - 不需要ImageMagick的轻量级图像处理器。 ![](https://img.shields.io/github/stars/EyalAr/lwip.svg?style=social&label=Star)
 - [gifski](https://github.com/ImageOptim/gifski) - 基于 libimagequant (pngquant) 的 GIF 编码器。 从糟糕的 GIF 格式中挤出最大可能的质量。 ![](https://img.shields.io/github/stars/ImageOptim/gifski.svg?style=social&label=Star)
-- [svg-captcha](https://github.com/produck/svg-captcha) - Node.js中生成SVG验证码。 ![](https://img.shields.io/github/stars/produck/svg-captcha.svg?style=social&label=Star)
 - [probe-image-size](https://github.com/nodeca/probe-image-size) - 无需完全下载即可获取大多数图像格式的大小. ![](https://img.shields.io/github/stars/nodeca/probe-image-size.svg?style=social&label=Star)
 - [omggif](https://github.com/deanm/omggif) - GIF 89a编码解码器。 ![](https://img.shields.io/github/stars/deanm/omggif.svg?style=social&label=Star)
 - [jpeg-js](https://github.com/jpeg-js/jpeg-js) - 使用纯JavaScript的JPEG编码和解码器。 ![](https://img.shields.io/github/stars/jpeg-js/jpeg-js.svg?style=social&label=Star)
@@ -274,6 +274,11 @@
 - [image-type](https://github.com/sindresorhus/image-type) - 检测Buffer / Uint8Array的图像类型。 ![](https://img.shields.io/github/stars/sindresorhus/image-type.svg?style=social&label=Star)
 - [node-pngquant](https://github.com/papandreou/node-pngquant) - pngquant 作为可读/可写流操作png。 ![](https://img.shields.io/github/stars/papandreou/node-pngquant.svg?style=social&label=Star)
 - [node-bitmap](https://github.com/nowelium/node-bitmap) - 纯JavaScript Bitmap库。 ![](https://img.shields.io/github/stars/nowelium/node-bitmap.svg?style=social&label=Star)
+
+#### SVG
+
+- [svgo](https://github.com/svg/svgo) - 一个优化SVG文件的工具。 ![](https://img.shields.io/github/stars/lovell/sharp.svg?style=social&label=Star)
+- [svg-captcha](https://github.com/produck/svg-captcha) - Node.js中生成SVG验证码。 ![](https://img.shields.io/github/stars/produck/svg-captcha.svg?style=social&label=Star)
 
 ### 音频 / 视频处理
 
