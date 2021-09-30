@@ -18,6 +18,7 @@ English | [简体中文](./README.md)
   - [URL](#url)
   - [JSON / JSON Schema](#json--json-schema)
   - [Image](#image)
+    - [SVG](#svg)
   - [Audio / Video](#audio--video)
   - [Font](#font)
   - [Color](#color)
@@ -253,7 +254,6 @@ English | [简体中文](./README.md)
 - [jsQR](https://github.com/cozmo/jsQR) - A pure javascript QR code reading library. This library takes in raw images and will locate, extract and parse any QR code found within. ![](https://img.shields.io/github/stars/cozmo/jsQR.svg?style=social&label=Star)
 - [lwip](https://github.com/EyalAr/lwip) - Lightweight image processor which does not require ImageMagick. ![](https://img.shields.io/github/stars/EyalAr/lwip.svg?style=social&label=Star)
 - [gifski](https://github.com/ImageOptim/gifski) - GIF encoder based on libimagequant (pngquant). Squeezes maximum possible quality from the awful GIF format. ![](https://img.shields.io/github/stars/ImageOptim/gifski.svg?style=social&label=Star)
-- [svg-captcha](https://github.com/produck/svg-captcha) - Generate svg captcha in node. ![](https://img.shields.io/github/stars/produck/svg-captcha.svg?style=social&label=Star)
 - [probe-image-size](https://github.com/nodeca/probe-image-size) - Get the size of most image formats without a full download. ![](https://img.shields.io/github/stars/nodeca/probe-image-size.svg?style=social&label=Star)
 - [omggif](https://github.com/deanm/omggif) - JavaScript implementation of a GIF 89a encoder and decoder. ![](https://img.shields.io/github/stars/deanm/omggif.svg?style=social&label=Star)
 - [jpeg-js](https://github.com/jpeg-js/jpeg-js) - A pure javascript JPEG encoder and decoder for node.js. ![](https://img.shields.io/github/stars/jpeg-js/jpeg-js.svg?style=social&label=Star)
@@ -263,6 +263,11 @@ English | [简体中文](./README.md)
 - [image-type](https://github.com/sindresorhus/image-type) - Detect the image type of a Buffer/Uint8Array. ![](https://img.shields.io/github/stars/sindresorhus/image-type.svg?style=social&label=Star)
 - [node-pngquant](https://github.com/papandreou/node-pngquant) - The pngquant utility as a readable/writable stream. ![](https://img.shields.io/github/stars/papandreou/node-pngquant.svg?style=social&label=Star)
 - [node-bitmap](https://github.com/nowelium/node-bitmap) - Pure javascript Bitmap library. ![](https://img.shields.io/github/stars/nowelium/node-bitmap.svg?style=social&label=Star)
+
+#### SVG
+
+- [svgo](https://github.com/svg/svgo) - ⚙️ Node.js tool for optimizing SVG files. ![](https://img.shields.io/github/stars/lovell/sharp.svg?style=social&label=Star)
+- [svg-captcha](https://github.com/produck/svg-captcha) - Generate svg captcha in node. ![](https://img.shields.io/github/stars/produck/svg-captcha.svg?style=social&label=Star)
 
 ### Audio / Video
 
