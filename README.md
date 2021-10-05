@@ -1387,6 +1387,7 @@
 - [netron](https://github.com/lutzroeder/netron) - 神经网络、深度学习和机器学习模型的可视化工具。 ![](https://img.shields.io/github/stars/lutzroeder/netron.svg?style=social&label=Star)
 - [face-api.js](https://github.com/justadudewhohacks/face-api.js) - 可在浏览器和 nodejs 中，使用 tensorflow.js 进行人脸检测和人脸识别的 JavaScript API。 ![](https://img.shields.io/github/stars/justadudewhohacks/face-api.js.svg?style=social&label=Star)
 - [brain.js](https://github.com/BrainJS/brain.js) - 基于模型训练的神经网络 JS 库，支持浏览器和 Node.js。 ![](https://img.shields.io/github/stars/BrainJS/brain.js.svg?style=social&label=Star)
+- [opencv](https://github.com/peterbraden/node-opencv) - OpenCV是一个计算机视觉库——通过在Node.js中与原生接口交互，我们可以在js中获得强大的实时视觉能力。 ![](https://img.shields.io/github/stars/peterbraden/node-opencv.svg?style=social&label=Star)
 - [pipcook](https://github.com/alibaba/pipcook) - 为Web开发者提供的机器学习平台。 ![](https://img.shields.io/github/stars/alibaba/pipcook.svg?style=social&label=Star)
 - [onnxjs](https://github.com/microsoft/onnxjs) - 使用JavaScript运行ONNX模型。 ![](https://img.shields.io/github/stars/microsoft/onnxjs.svg?style=social&label=Star)
 - [tensorflow-nodejs](https://github.com/yorkie/tensorflow-nodejs) - TensorFlow Node.js为Node.js用户提供常用的JavaScript语言绑定和高级API。 ![](https://img.shields.io/github/stars/yorkie/tensorflow-nodejs.svg?style=social&label=Star)
