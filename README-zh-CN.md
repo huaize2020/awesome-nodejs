@@ -1410,8 +1410,8 @@
 ### OCR
 
 - [tesseract.js](https://github.com/naptha/tesseract.js) - 100 多种语言的纯 Javascript OCR。 ![](https://img.shields.io/github/stars/naptha/tesseract.js.svg?style=social&label=Star)
-- [Parsr](https://github.com/axa-group/Parsr) - 将 PDF、文档和图像转换为丰富的结构化数据。 ![](https://img.shields.io/github/stars/axa-group/Parsr.svg?style=social&label=Star)
 - [ocrad.js](https://github.com/antimatter15/ocrad.js) - 通过 Emscripten 实现的 JavaScript 的 OCR  ![](https://img.shields.io/github/stars/antimatter15/ocrad.js.svg?style=social&label=Star)
+- [Parsr](https://github.com/axa-group/Parsr) - 将 PDF、文档和图像转换为丰富的结构化数据。 ![](https://img.shields.io/github/stars/axa-group/Parsr.svg?style=social&label=Star)
 
 ### 比特币
 
