@@ -143,7 +143,8 @@ English | [简体中文](./README.md)
   - [ulid](https://github.com/ulid/javascript) - Universally Unique Lexicographically Sortable Identifier. ![](https://img.shields.io/github/stars/ulid/javascript.svg?style=social&label=Star)
   - [uuid-js](https://github.com/pnegri/uuid-js) - A js library to generate and parse UUIDs,TimeUUIDs and generate TimeUUID based on Date for range selections. ![](https://img.shields.io/github/stars/pnegri/uuid-js.svg?style=social&label=Star)
   - [pure-uuid](https://github.com/rse/pure-uuid) - Pure JavaScript Based Universally Unique Identifiers (UUID). ![](https://img.shields.io/github/stars/rse/pure-uuid.svg?style=social&label=Star)
-
+  - [lsp-uuid](https://github.com/ryouaki/lsp-uuid) - A uuid generator based on SnowFlake for both Browser and Nodejs. Keep sequence and can be deserialized. ![](https://img.shields.io/github/stars/ryouaki/lsp-uuid.svg?style=social&label=Star)
+  
 - Encode/Decode
   - [he](https://github.com/mathiasbynens/he) - HTML entity encoder/decoder. ![](https://img.shields.io/github/stars/mathiasbynens/he.svg?style=social&label=Star)
   - [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - Convert character encodings. ![](https://img.shields.io/github/stars/ashtuchkin/iconv-lite.svg?style=social&label=Star)
