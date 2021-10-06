@@ -153,7 +153,8 @@
   - [ulid](https://github.com/ulid/javascript) - 通用唯一词典分类排序标识符。 ![](https://img.shields.io/github/stars/ulid/javascript.svg?style=social&label=Star)
   - [uuid-js](https://github.com/pnegri/uuid-js) - 用于生成和解析 UUID、TimeUUID 并根据日期生成 TimeUUID 以供范围选择。 ![](https://img.shields.io/github/stars/pnegri/uuid-js.svg?style=social&label=Star)
   - [pure-uuid](https://github.com/rse/pure-uuid) - 基于纯JavaScript全局唯一ID(UUID)。 ![](https://img.shields.io/github/stars/rse/pure-uuid.svg?style=social&label=Star)
-
+  - [lsp-uuid](https://github.com/ryouaki/lsp-uuid) - 一个基于 SnowFlake 的 uuid 生成器，用于浏览器和 Nodejs。 保持序列并且可以反序列化。 ![](https://img.shields.io/github/stars/ryouaki/lsp-uuid.svg?style=social&label=Star)
+  
 - 编码/解码
   - [he](https://github.com/mathiasbynens/he) - HTML实体编码器/解码器。 ![](https://img.shields.io/github/stars/mathiasbynens/he.svg?style=social&label=Star)
   - [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - 转换字符编码。 ![](https://img.shields.io/github/stars/ashtuchkin/iconv-lite.svg?style=social&label=Star)
