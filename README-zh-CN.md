@@ -108,7 +108,7 @@
 - [官网](https://nodejs.org)
 - [文档](https://nodejs.org/dist/latest/docs/api/)
 - [仓库](https://github.com/nodejs/node)
-
+- [文章教程](https://nodejs.dev/learn)
 ## 资源
 
 ### 工具
@@ -119,7 +119,10 @@
 ### 教程
 
 - [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md) - Node.js 最佳体验列表。
-
+- [understand-nodejs](https://github.com/theanarkh/understand-nodejs) - 通过源码分析 nodejs 原理
+- [Nodejs 技术栈](www.nodejs.red) - 包含很多 nodejs 相关文章
+- [七天学会 NodeJS](http://nqdeng.github.io/7-days-nodejs/) - 经典 Nodejs 教程
+- [Nodejs 包教不包会](https://github.com/alsotang/node-lessons) - 经典 Nodejs 教程
 ## GIT 仓库
 
 ### 文本
@@ -767,6 +770,7 @@
 - [js-beautify](https://github.com/beautify-web/js-beautify) - Javascript 美化工具。 ![](https://img.shields.io/github/stars/beautify-web/js-beautify.svg?style=social&label=Star)
 - [xo](https://github.com/xojs/xo) - 带出色默认配置的 JavaScript/TypeScript 代码校验 (基于 ESLint 封装) ![](https://img.shields.io/github/stars/xojs/xo.svg?style=social&label=Star)
 - [markdownlint](https://github.com/DavidAnson/markdownlint) - Markdown/CommonMark 风格检查工具。 ![](https://img.shields.io/github/stars/DavidAnson/markdownlint.svg?style=social&label=Star)
+- [lint-md](https://github.com/lint-md/lint-md) - 用于检查中文 markdown 编写格式规范的核心模块，基于 AST 开发。 ![](https://img.shields.io/github/stars/lint-md/lint-md.svg?style=social&label=Star)
 - [textlint](https://github.com/textlint/textlint) - Text 和 Markdown 校验和格式化。 ![](https://img.shields.io/github/stars/textlint/textlint.svg?style=social&label=Star)
 - [pretty-quick](https://github.com/azz/pretty-quick) - 快速美化。 ![](https://img.shields.io/github/stars/azz/pretty-quick.svg?style=social&label=Star)
 - [dtslint](https://github.com/Microsoft/dtslint) - 基于 TSLint 构建的实用程序，用于对 TypeScript 声明 (.d.ts) 文件进行 linting。 ![](https://img.shields.io/github/stars/Microsoft/dtslint.svg?style=social&label=Star)
