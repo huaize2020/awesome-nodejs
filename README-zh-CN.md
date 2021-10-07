@@ -120,7 +120,7 @@
 
 - [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md) - Node.js 最佳体验列表。
 - [understand-nodejs](https://github.com/theanarkh/understand-nodejs) - 通过源码分析 nodejs 原理
-- [Nodejs 技术栈](www.nodejs.red) - 包含很多 nodejs 相关文章
+- [Nodejs 技术栈](https://www.nodejs.red/) - 包含很多 nodejs 相关文章
 - [七天学会 NodeJS](http://nqdeng.github.io/7-days-nodejs/) - 经典 Nodejs 教程
 - [Nodejs 包教不包会](https://github.com/alsotang/node-lessons) - 经典 Nodejs 教程
 ## GIT 仓库
