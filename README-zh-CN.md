@@ -852,7 +852,7 @@
 - [CabloyJS](https://github.com/zhennann/Cabloy) - 一款自带工作流引擎的 Node.js 全栈框架。 ![](https://img.shields.io/github/stars/zhennann/Cabloy.svg?style=social&label=Star)
 - [malagu](https://github.com/cellbang/malagu) - Malagu 是基于 TypeScript 的 Serverless First、可扩展和组件化的应用框架。 ![](https://img.shields.io/github/stars/cellbang/malagu.svg?style=social&label=Star)
 - [Zeronode](https://github.com/sfast/zeronode) - 最小的构建块，可实现可靠且容错的微服务。 ![](https://img.shields.io/github/stars/sfast/zeronode.svg?style=social&label=Star)
-
+- [hyper-express](https://github.com/kartikk221/hyper-express) - 高性能 web 服务器，具有简单易用的 API，基于 uWebsockets.js。 ![](https://img.shields.io/github/stars/kartikk221/hyper-express.svg?style=social&label=Star)
 ### GraphQL
 
 - *(你也许喜欢 [awesome-graphql](https://github.com/chentsulin/awesome-graphql#javascript-libraries))*
