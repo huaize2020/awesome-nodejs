@@ -108,7 +108,7 @@
 - [官网](https://nodejs.org)
 - [文档](https://nodejs.org/dist/latest/docs/api/)
 - [仓库](https://github.com/nodejs/node)
-
+- [文章教程](https://nodejs.dev/learn)
 ## 资源
 
 ### 工具
@@ -119,7 +119,10 @@
 ### 教程
 
 - [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md) - Node.js 最佳体验列表。
-
+- [understand-nodejs](https://github.com/theanarkh/understand-nodejs) - 通过源码分析 nodejs 原理
+- [Nodejs 技术栈](www.nodejs.red) - 包含很多 nodejs 相关文章
+- [七天学会 NodeJS](http://nqdeng.github.io/7-days-nodejs/) - 经典 Nodejs 教程
+- [Nodejs 包教不包会](https://github.com/alsotang/node-lessons) - 经典 Nodejs 教程
 ## GIT 仓库
 
 ### 文本
