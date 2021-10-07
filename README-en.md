@@ -842,6 +842,7 @@ English | [简体中文](./README.md)
 - [CabloyJS](https://github.com/zhennann/Cabloy) - A Node.js full-stack framework with workflow engine, based on koa + egg + vue + framework7. ![](https://img.shields.io/github/stars/zhennann/Cabloy.svg?style=social&label=Star)
 - [malagu](https://github.com/cellbang/malagu) - Malagu is a serverless First, scalable and componentized application framework developed by TypeScript. ![](https://img.shields.io/github/stars/cellbang/malagu.svg?style=social&label=Star)
 - [Zeronode](https://github.com/sfast/zeronode) - Minimal building block for reliable and fault-tolerant microservices. ![](https://img.shields.io/github/stars/sfast/zeronode.svg?style=social&label=Star)
+- [hyper-express](https://github.com/kartikk221/hyper-express) - High performance webserver with a simple-to-use API powered by uWebsockets.js under the hood. ![](https://img.shields.io/github/stars/kartikk221/hyper-express.svg?style=social&label=Star)
 
 ### GraphQL
 
