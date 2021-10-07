@@ -1393,8 +1393,8 @@ English | [简体中文](./README.md)
 ### OCR
 
 - [tesseract.js](https://github.com/naptha/tesseract.js) - Pure Javascript OCR for more than 100 Languages. ![](https://img.shields.io/github/stars/naptha/tesseract.js.svg?style=social&label=Star)
-- [Parsr](https://github.com/axa-group/Parsr) - Transforms PDF, Documents and Images into Enriched Structured Data. ![](https://img.shields.io/github/stars/axa-group/Parsr.svg?style=social&label=Star)
 - [ocrad.js](https://github.com/antimatter15/ocrad.js) - OCR in Javascript via Emscripten  ![](https://img.shields.io/github/stars/antimatter15/ocrad.js.svg?style=social&label=Star)
+- [Parsr](https://github.com/axa-group/Parsr) - Transforms PDF, Documents and Images into Enriched Structured Data. ![](https://img.shields.io/github/stars/axa-group/Parsr.svg?style=social&label=Star)
 ### Bitcoin
 
 - [GitTorrent](https://github.com/cjb/GitTorrent) - A decentralization of GitHub using BitTorrent and Bitcoin. ![](https://img.shields.io/github/stars/cjb/GitTorrent.svg?style=social&label=Star)
