@@ -109,11 +109,13 @@ English | [简体中文](./README.md)
 
 ### Tutorials
 
-- [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) - The Node.js best practices list.
-- [understand-nodejs](https://github.com/theanarkh/understand-nodejs) - Nodejs principle is analyzed by source code
-- [Nodejs Roadmap](https://www.nodejs.red/) - Contains many nodeJS related articles
-- [7-days-nodejs](http://nqdeng.github.io/7-days-nodejs/) - Classic Nodejs tutorial
-- [node-lessons](https://github.com/alsotang/node-lessons) - Classic Nodejs tutorial
+- [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices) - The Node.js best practices list. ![](https://img.shields.io/github/stars/goldbergyoni/nodebestpractices.svg?style=social&label=Star)
+- [node-lessons](https://github.com/alsotang/node-lessons) - Classic Nodejs tutorial. ![](https://img.shields.io/github/stars/alsotang/node-lessons.svg?style=social&label=Star)
+- [Nodejs Roadmap](https://www.nodejs.red/) - Contains many nodeJS related articles.
+- [7-days-nodejs](http://nqdeng.github.io/7-days-nodejs/) - Classic Nodejs tutorial. ![](https://img.shields.io/github/stars/nqdeng/7-days-nodejs.svg?style=social&label=Star)
+- [understand-nodejs](https://github.com/theanarkh/understand-nodejs) - Nodejs principle is analyzed by source code. ![](https://img.shields.io/github/stars/theanarkh/understand-nodejs.svg?style=social&label=Star)
+- [Nodejs-Roadmap](https://github.com/qufei1993/Nodejs-Roadmap) - The learning journey of the author @qufei1993 since he was engaged in the development of Node.js.![](https://img.shields.io/github/stars/qufei1993/Nodejs-Roadmap.svg?style=social&label=Star)
+
 ## Repository
 
 ### Text
@@ -148,7 +150,7 @@ English | [简体中文](./README.md)
   - [uuid-js](https://github.com/pnegri/uuid-js) - A js library to generate and parse UUIDs,TimeUUIDs and generate TimeUUID based on Date for range selections. ![](https://img.shields.io/github/stars/pnegri/uuid-js.svg?style=social&label=Star)
   - [pure-uuid](https://github.com/rse/pure-uuid) - Pure JavaScript Based Universally Unique Identifiers (UUID). ![](https://img.shields.io/github/stars/rse/pure-uuid.svg?style=social&label=Star)
   - [lsp-uuid](https://github.com/ryouaki/lsp-uuid) - A uuid generator based on SnowFlake for both Browser and Nodejs. Keep sequence and can be deserialized. ![](https://img.shields.io/github/stars/ryouaki/lsp-uuid.svg?style=social&label=Star)
-  
+
 - Encode/Decode
   - [he](https://github.com/mathiasbynens/he) - HTML entity encoder/decoder. ![](https://img.shields.io/github/stars/mathiasbynens/he.svg?style=social&label=Star)
   - [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - Convert character encodings. ![](https://img.shields.io/github/stars/ashtuchkin/iconv-lite.svg?style=social&label=Star)
