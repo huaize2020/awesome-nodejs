@@ -118,11 +118,13 @@
 
 ### 教程
 
-- [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md) - Node.js 最佳体验列表。
-- [understand-nodejs](https://github.com/theanarkh/understand-nodejs) - 通过源码分析 nodejs 原理
-- [Nodejs 技术栈](https://www.nodejs.red/) - 包含很多 nodejs 相关文章
-- [七天学会 NodeJS](http://nqdeng.github.io/7-days-nodejs/) - 经典 Nodejs 教程
-- [Nodejs 包教不包会](https://github.com/alsotang/node-lessons) - 经典 Nodejs 教程
+- [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md) - Node.js 最佳体验列表。 ![](https://img.shields.io/github/stars/goldbergyoni/nodebestpractices.svg?style=social&label=Star)
+- [Nodejs 包教不包会](https://github.com/alsotang/node-lessons) - 经典 Nodejs 教程。 ![](https://img.shields.io/github/stars/alsotang/node-lessons.svg?style=social&label=Star)
+- [Nodejs 技术栈](https://www.nodejs.red/) - 包含很多 nodejs 相关文章。
+- [七天学会 NodeJS](http://nqdeng.github.io/7-days-nodejs/) - 经典 Nodejs 教程。 ![](https://img.shields.io/github/stars/nqdeng/7-days-nodejs.svg?style=social&label=Star)
+- [understand-nodejs](https://github.com/theanarkh/understand-nodejs) - 通过源码分析 nodejs 原理。 ![](https://img.shields.io/github/stars/theanarkh/understand-nodejs.svg?style=social&label=Star)
+- [Nodejs-Roadmap](https://github.com/qufei1993/Nodejs-Roadmap) - 本文档是作者 @五月君 从事 Node.js 开发以来的学习历程。![](https://img.shields.io/github/stars/qufei1993/Nodejs-Roadmap.svg?style=social&label=Star)
+
 ## GIT 仓库
 
 ### 文本
@@ -158,7 +160,7 @@
   - [uuid-js](https://github.com/pnegri/uuid-js) - 用于生成和解析 UUID、TimeUUID 并根据日期生成 TimeUUID 以供范围选择。 ![](https://img.shields.io/github/stars/pnegri/uuid-js.svg?style=social&label=Star)
   - [pure-uuid](https://github.com/rse/pure-uuid) - 基于纯 JavaScript 全局唯一 ID(UUID)。 ![](https://img.shields.io/github/stars/rse/pure-uuid.svg?style=social&label=Star)
   - [lsp-uuid](https://github.com/ryouaki/lsp-uuid) - 一个基于 SnowFlake 的 uuid 生成器，用于浏览器和 Nodejs。 保持序列并且可以反序列化。 ![](https://img.shields.io/github/stars/ryouaki/lsp-uuid.svg?style=social&label=Star)
-  
+
 
 - 编码/解码
   - [he](https://github.com/mathiasbynens/he) - HTML 实体编码器/解码器。 ![](https://img.shields.io/github/stars/mathiasbynens/he.svg?style=social&label=Star)
