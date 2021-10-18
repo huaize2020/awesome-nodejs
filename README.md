@@ -279,6 +279,7 @@
 - [pngjs](https://github.com/lukeapage/pngjs) - 简单的 PNG 编码解码器。 ![](https://img.shields.io/github/stars/lukeapage/pngjs.svg?style=social&label=Star)
 - [get-pixels](https://github.com/scijs/get-pixels) - 将图像读入 ndarray。 ![](https://img.shields.io/github/stars/scijs/get-pixels.svg?style=social&label=Star)
 - [gifencoder](https://github.com/eugeneware/gifencoder) - Node.js 服务器端动画 gif 生成。 ![](https://img.shields.io/github/stars/eugeneware/gifencoder.svg?style=social&label=Star)
+- [ImageScript](https://github.com/matmen/ImageScript) - 零依赖的JavaScript图片操作库。 ![](https://img.shields.io/github/stars/matmen/ImageScript.svg?style=social&label=Star)
 - [image-type](https://github.com/sindresorhus/image-type) - 检测 Buffer / Uint8Array 的图像类型。 ![](https://img.shields.io/github/stars/sindresorhus/image-type.svg?style=social&label=Star)
 - [node-pngquant](https://github.com/papandreou/node-pngquant) - pngquant 作为可读/可写流操作 png。 ![](https://img.shields.io/github/stars/papandreou/node-pngquant.svg?style=social&label=Star)
 - [node-bitmap](https://github.com/nowelium/node-bitmap) - 纯 JavaScript Bitmap 库。 ![](https://img.shields.io/github/stars/nowelium/node-bitmap.svg?style=social&label=Star)
