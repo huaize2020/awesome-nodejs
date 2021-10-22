@@ -29,6 +29,7 @@
   - [JSON / JSON Schema](#json--json-schema)
   - [图像处理](#图像处理)
     - [SVG](#svg)
+  - [画布（Canvas）](#画布canvas)
   - [音频 / 视频处理](#音频--视频处理)
   - [字体](#字体)
   - [颜色](#颜色)
@@ -110,6 +111,7 @@
 - [文档](https://nodejs.org/dist/latest/docs/api/)
 - [仓库](https://github.com/nodejs/node)
 - [文章教程](https://nodejs.dev/learn)
+
 ## 资源
 
 ### 工具
@@ -289,6 +291,11 @@
 
 - [svgo](https://github.com/svg/svgo) - 一个优化 SVG 文件的工具。 ![](https://img.shields.io/github/stars/lovell/sharp.svg?style=social&label=Star)
 - [svg-captcha](https://github.com/produck/svg-captcha) - Node.js 中生成 SVG 验证码。 ![](https://img.shields.io/github/stars/produck/svg-captcha.svg?style=social&label=Star)
+
+### 画布（Canvas）
+
+- [node-canvas](https://github.com/Automattic/node-canvas) - Node canvas 是一个由 [Cairo](http://cairographics.org/) 支持的 NodeJS 的 Canvas 实现。 ![](https://img.shields.io/github/stars/Automattic/node-canvas.svg?style=social&label=Star)
+- [skia-canvas](https://github.com/samizdatco/skia-canvas) - Canvas 环境。 ![](https://img.shields.io/github/stars/samizdatco/skia-canvas.svg?style=social&label=Star)
 
 ### 音频 / 视频处理
 

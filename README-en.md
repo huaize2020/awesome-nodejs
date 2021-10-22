@@ -19,6 +19,7 @@ English | [简体中文](./README.md)
   - [JSON / JSON Schema](#json--json-schema)
   - [Image](#image)
     - [SVG](#svg)
+  - [Canvas](#canvas)
   - [Audio / Video](#audio--video)
   - [Font](#font)
   - [Color](#color)
@@ -276,6 +277,11 @@ English | [简体中文](./README.md)
 
 - [svgo](https://github.com/svg/svgo) - ⚙️ Node.js tool for optimizing SVG files. ![](https://img.shields.io/github/stars/lovell/sharp.svg?style=social&label=Star)
 - [svg-captcha](https://github.com/produck/svg-captcha) - Generate svg captcha in node. ![](https://img.shields.io/github/stars/produck/svg-captcha.svg?style=social&label=Star)
+
+### Canvas
+
+- [node-canvas](https://github.com/Automattic/node-canvas) - Node canvas is a [Cairo](http://cairographics.org/) backed Canvas implementation for NodeJS. ![](https://img.shields.io/github/stars/Automattic/node-canvas.svg?style=social&label=Star)
+- [skia-canvas](https://github.com/samizdatco/skia-canvas) - A canvas environment for Node.js. ![](https://img.shields.io/github/stars/samizdatco/skia-canvas.svg?style=social&label=Star)
 
 ### Audio / Video
 
