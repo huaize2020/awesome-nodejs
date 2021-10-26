@@ -1372,6 +1372,7 @@
   - [astexplorer](https://github.com/fkling/astexplorer) - 使用多种解析器的 AST Web 可视化工具。 ![](https://img.shields.io/github/stars/fkling/astexplorer.svg?style=social&label=Star)
   - [estree-walker](https://github.com/Rich-Harris/estree-walker) - 用于遍历 ESTree 兼容树的 AST。 ![](https://img.shields.io/github/stars/Rich-Harris/estree-walker.svg?style=social&label=Star)
   - [periscopic](https://github.com/Rich-Harris/periscopic) - 用于分析符合 ESTree 的 AST 的作用域的工具。 ![](https://img.shields.io/github/stars/Rich-Harris/periscopic.svg?style=social&label=Star)
+  - [ts-morph](https://github.com/dsherret/ts-morph) - Typescript编译器API的上层封装,使得操纵TS/JS代码更加简单。 ![](https://img.shields.io/github/stars/Rich-Harris/periscopic.svg?style=social&label=Star)
 
 ### WebAssembly
 
