@@ -665,9 +665,9 @@ English | [简体中文](./README.md)
 
 - Markdown
   - [marked](https://github.com/markedjs/marked) - A markdown parser and compiler. Built for speed. ![](https://img.shields.io/github/stars/markedjs/marked.svg?style=social&label=Star)
+  - [markdown-it](https://github.com/markdown-it/markdown-it) - Markdown parser with 100% CommonMark support, extensions and syntax plugins. ![](https://img.shields.io/github/stars/markdown-it/markdown-it.svg?style=social&label=Star)
   - [showdown](https://github.com/showdownjs/showdown) - A bidirectional Markdown to HTML to Markdown converter written in Javascript. ![](https://img.shields.io/github/stars/showdownjs/showdown.svg?style=social&label=Star)
   - [remark](https://github.com/wooorm/remark) - Markdown processor powered by plugins. ![](https://img.shields.io/github/stars/wooorm/remark.svg?style=social&label=Star)
-  - [markdown-it](https://github.com/markdown-it/markdown-it) - Markdown parser with 100% CommonMark support, extensions and syntax plugins. ![](https://img.shields.io/github/stars/markdown-it/markdown-it.svg?style=social&label=Star)
   - [turndown](https://github.com/mixmark-io/turndown) - An HTML to Markdown converter written in JavaScript. ![](https://img.shields.io/github/stars/mixmark-io/turndown.svg?style=social&label=Star)
   - [remove-markdown](https://github.com/stiang/remove-markdown) - Strip Markdown stuff from text. ![](https://img.shields.io/github/stars/stiang/remove-markdown.svg?style=social&label=Star)
 

@@ -680,9 +680,9 @@
 
 - Markdown
   - [marked](https://github.com/markedjs/marked) - Markdown 解析器和编译器，专为提高速度而设计。 ![](https://img.shields.io/github/stars/markedjs/marked.svg?style=social&label=Star)
+  - [markdown-it](https://github.com/markdown-it/markdown-it) - 支持 100%通用 Markdown 标签解析的扩展&语法插件。 ![](https://img.shields.io/github/stars/markdown-it/markdown-it.svg?style=social&label=Star)
   - [showdown](https://github.com/showdownjs/showdown) - Markdown 到 HTML 的双向转换器。 ![](https://img.shields.io/github/stars/showdownjs/showdown.svg?style=social&label=Star)
   - [remark](https://github.com/wooorm/remark) - Markdown 处理工具。 ![](https://img.shields.io/github/stars/wooorm/remark.svg?style=social&label=Star)
-  - [markdown-it](https://github.com/markdown-it/markdown-it) - 支持 100%通用 Markdown 标签解析的扩展&语法插件。 ![](https://img.shields.io/github/stars/markdown-it/markdown-it.svg?style=social&label=Star)
   - [turndown](https://github.com/mixmark-io/turndown) - 用 JavaScript 编写的 HTML 到 Markdown 转换器。 ![](https://img.shields.io/github/stars/mixmark-io/turndown.svg?style=social&label=Star)
   - [remove-markdown](https://github.com/stiang/remove-markdown) - 从文本中删除 Markdown 内容。 ![](https://img.shields.io/github/stars/stiang/remove-markdown.svg?style=social&label=Star)
 
