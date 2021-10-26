@@ -767,10 +767,11 @@ English | [简体中文](./README.md)
 - [js-beautify](https://github.com/beautify-web/js-beautify) - Beautifier for javascript. ![](https://img.shields.io/github/stars/beautify-web/js-beautify.svg?style=social&label=Star)
 - [xo](https://github.com/xojs/xo) - JavaScript/TypeScript linter (ESLint wrapper) with great defaults ![](https://img.shields.io/github/stars/xojs/xo.svg?style=social&label=Star)
 - [markdownlint](https://github.com/DavidAnson/markdownlint) - A Node.js style checker and lint tool for Markdown/CommonMark files. ![](https://img.shields.io/github/stars/DavidAnson/markdownlint.svg?style=social&label=Star)
-- [lint-md](https://github.com/lint-md/lint-md) - Library used to lint your markdown file for Chinese. ![](https://img.shields.io/github/stars/lint-md/lint-md.svg?style=social&label=Star)
 - [textlint](https://github.com/textlint/textlint) - The pluggable natural language linter for text and markdown. ![](https://img.shields.io/github/stars/textlint/textlint.svg?style=social&label=Star)
 - [pretty-quick](https://github.com/azz/pretty-quick) - ⚡ Get Pretty Quick. ![](https://img.shields.io/github/stars/azz/pretty-quick.svg?style=social&label=Star)
 - [dtslint](https://github.com/Microsoft/dtslint) - A utility built on TSLint for linting TypeScript declaration (.d.ts) files. ![](https://img.shields.io/github/stars/Microsoft/dtslint.svg?style=social&label=Star)
+- [lint-md](https://github.com/lint-md/lint-md) - Library used to lint your markdown file for Chinese. ![](https://img.shields.io/github/stars/lint-md/lint-md.svg?style=social&label=Star)
+- [cz-customizable](https://github.com/leoforfree/cz-customizable) - A customizable commitizen adapter for https://github.com/commitizen/cz-cli (or standalone util). ![](https://img.shields.io/github/stars/leoforfree/cz-customizable.svg?style=social&label=Star)
 
 ### Configuration Tools
 
