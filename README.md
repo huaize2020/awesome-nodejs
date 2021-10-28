@@ -173,6 +173,7 @@
 - 差异对比
   - [jsdiff](https://github.com/kpdecker/jsdiff) - 一种 JavaScript 文本差异实现。 ![](https://img.shields.io/github/stars/kpdecker/jsdiff.svg?style=social&label=Star)
   - [recursive-diff](https://github.com/cosmicanant/recursive-diff) - 查找两个 JavaScript 对象的差异，支持数组、数字、日期和其他原始数据类型。 ![](https://img.shields.io/github/stars/cosmicanant/recursive-diff.svg?style=social&label=Star)
+  - [json0-ot-diff](https://github.com/kbadk/json0-ot-diff) - 查找两个 JSON 对象之间的差异，并根据 JSON0 OT Type 生成将第一个对象转换为第二个对象的操作转换/值(OT)操作。 ![](https://img.shields.io/github/stars/kbadk/json0-ot-diff.svg?style=social&label=Star)
 
 - 随机字符串
   - [generate-password](https://github.com/brendanashworth/generate-password) - 用于生成加密安全密码的 NodeJS 库。 ![](https://img.shields.io/github/stars/brendanashworth/generate-password.svg?style=social&label=Star)

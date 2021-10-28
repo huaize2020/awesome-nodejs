@@ -160,6 +160,7 @@ English | [简体中文](./README.md)
 - Comparison
   - [jsdiff](https://github.com/kpdecker/jsdiff) - A javascript text differencing implementation. ![](https://img.shields.io/github/stars/kpdecker/jsdiff.svg?style=social&label=Star)
   - [recursive-diff](https://github.com/cosmicanant/recursive-diff) - A JavaScript library to find diff between two JavaScript Objects. Support for Array, Number, Date and other primitive data types. ![](https://img.shields.io/github/stars/cosmicanant/recursive-diff.svg?style=social&label=Star)
+  - [json0-ot-diff](https://github.com/kbadk/json0-ot-diff) - Finds differences between two JSON object and generates operational transformation (OT) operations for transforming the first object into the second according to the JSON0 OT Type. ![](https://img.shields.io/github/stars/kbadk/json0-ot-diff.svg?style=social&label=Star)
 
 - Random
   - [generate-password](https://github.com/brendanashworth/generate-password) - NodeJS library for generating cryptographically-secure passwords. ![](https://img.shields.io/github/stars/brendanashworth/generate-password.svg?style=social&label=Star)
