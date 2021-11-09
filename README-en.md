@@ -1116,6 +1116,7 @@ English | [简体中文](./README.md)
 - End-to-end Testing
   - [cypress](https://github.com/cypress-io/cypress) - Fast, easy and reliable testing for anything that runs in a browser. ![](https://img.shields.io/github/stars/cypress-io/cypress.svg?style=social&label=Star)
   - [nightwatch](https://github.com/nightwatchjs/nightwatch) - End-to-end testing framework written in Node.js and using the Webdriver API. ![](https://img.shields.io/github/stars/nightwatchjs/nightwatch.svg?style=social&label=Star)
+  - [Detox](https://github.com/wix/Detox) - Gray box end-to-end testing and automation framework for mobile apps. ![](https://img.shields.io/github/stars/wix/Detox.svg?style=social&label=Star)
   - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - End 2 End Testing Framework for NodeJS. ![](https://img.shields.io/github/stars/codeceptjs/CodeceptJS.svg?style=social&label=Star)
 
 - Testing Framework

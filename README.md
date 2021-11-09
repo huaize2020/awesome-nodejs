@@ -1132,6 +1132,7 @@
 - 端到端的测试(E2E)
   - [cypress](https://github.com/cypress-io/cypress) - 对浏览器中运行的任何东西进行快速、简单和可靠的测试。 ![](https://img.shields.io/github/stars/cypress-io/cypress.svg?style=social&label=Star)
   - [nightwatch](https://github.com/nightwatchjs/nightwatch) - 用 Node.js 编写，并使用 Webdriver API 的端到端测试框架。 ![](https://img.shields.io/github/stars/nightwatchjs/nightwatch.svg?style=social&label=Star)
+  - [Detox](https://github.com/wix/Detox) - 用于移动APP的灰盒端到端测试和自动化框架。 ![](https://img.shields.io/github/stars/wix/Detox.svg?style=social&label=Star)
   - [CodeceptJS](https://github.com/codeceptjs/CodeceptJS) - Node.js 端到端测试框架。 ![](https://img.shields.io/github/stars/codeceptjs/CodeceptJS.svg?style=social&label=Star)
 
 - 测试框架
