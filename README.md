@@ -666,6 +666,7 @@
   - [temp-dir](https://github.com/sindresorhus/temp-dir) - 获取系统临时文件夹的真实路径。 ![](https://img.shields.io/github/stars/sindresorhus/temp-dir.svg?style=social&label=Star)
 
 - 监控
+  - [watchman](https://github.com/facebook/watchman) - 监视文件和记录，或在更改时触发操作。 ![](https://img.shields.io/github/stars/facebook/watchman.svg?style=social&label=Star)
   - [chokidar](https://github.com/paulmillr/chokidar) - 最小且高效的跨平台 Watch 库。 ![](https://img.shields.io/github/stars/paulmillr/chokidar.svg?style=social&label=Star)
   - [watchpack](https://github.com/webpack/watchpack) - Watch 文件和文件夹。 ![](https://img.shields.io/github/stars/webpack/watchpack.svg?style=social&label=Star)
 

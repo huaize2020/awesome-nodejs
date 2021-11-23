@@ -651,6 +651,7 @@ English | [简体中文](./README.md)
   - [temp-dir](https://github.com/sindresorhus/temp-dir) - Get the real path of the system temp directory. ![](https://img.shields.io/github/stars/sindresorhus/temp-dir.svg?style=social&label=Star)
 
 - Watch
+  - [watchman](https://github.com/facebook/watchman) - Watches files and records, or triggers actions, when they change. ![](https://img.shields.io/github/stars/facebook/watchman.svg?style=social&label=Star)
   - [chokidar](https://github.com/paulmillr/chokidar) - Minimal and efficient cross-platform file watching library. ![](https://img.shields.io/github/stars/paulmillr/chokidar.svg?style=social&label=Star)
   - [watchpack](https://github.com/webpack/watchpack) - Wrapper library for directory and file watching. ![](https://img.shields.io/github/stars/webpack/watchpack.svg?style=social&label=Star)
 
