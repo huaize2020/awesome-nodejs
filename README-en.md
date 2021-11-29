@@ -1,6 +1,13 @@
 English | [简体中文](./README.md)
 
-> You can also see [awesome-frontend](https://github.com/huaize2020/awesome-frontend)!
+> You can also see
+> - [awesome-nodejs](https://github.com/huaize2020/awesome-nodejs)
+>   - [awesome-koa](https://github.com/huaize2020/awesome-koa)
+>   - [awesome-egg](https://github.com/huaize2020/awesome-egg)
+>   - [awesome-electron](https://github.com/electron-modules/awesome-electron)
+> - [awesome-frontend](https://github.com/huaize2020/awesome-frontend)
+>   - [awesome-react](https://github.com/huaize2020/awesome-react)
+>   - [awesome-react-native](https://github.com/huaize2020/awesome-react-native)
 
 ## Table of contents
 

@@ -5,10 +5,13 @@
 > 故此另开仓库，希望可以更好的满足国内开发者的需求。
 
 > 同时推荐你查看我正在维护的其他仓库
-> - [awesome-koa](https://github.com/huaize2020/awesome-koa)
-> - [awesome-egg](https://github.com/huaize2020/awesome-egg)
-> - [awesome-electron](https://github.com/electron-modules/awesome-electron)
+> - [awesome-nodejs](https://github.com/huaize2020/awesome-nodejs)
+>   - [awesome-koa](https://github.com/huaize2020/awesome-koa)
+>   - [awesome-egg](https://github.com/huaize2020/awesome-egg)
+>   - [awesome-electron](https://github.com/electron-modules/awesome-electron)
 > - [awesome-frontend](https://github.com/huaize2020/awesome-frontend)
+>   - [awesome-react](https://github.com/huaize2020/awesome-react)
+>   - [awesome-react-native](https://github.com/huaize2020/awesome-react-native)
 
 [English](./README-en.md) | 简体中文
 
