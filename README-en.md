@@ -413,6 +413,7 @@ English | [简体中文](./README.md)
 
 - [validator.js](https://github.com/validatorjs/validator.js) - A library of string validators and sanitizers. ![](https://img.shields.io/github/stars/validatorjs/validator.js.svg?style=social&label=Star)
 - [joi](https://github.com/hapijs/joi) - Object schema description language and validator for JavaScript objects. ![](https://img.shields.io/github/stars/hapijs/joi.svg?style=social&label=Star)
+- [yup](https://github.com/jquense/yup) - Dead simple Object schema validation inspired by Joi.  ![](https://img.shields.io/github/stars/jquense/yup.svg?style=social&label=Star)
 - [async-validator](https://github.com/yiminghe/async-validator) - Validate form asynchronous. ![](https://img.shields.io/github/stars/yiminghe/async-validator.svg?style=social&label=Star)
 - [class-validator](https://github.com/typestack/class-validator) - Decorator-based property validation for classes. ![](https://img.shields.io/github/stars/typestack/class-validator.svg?style=social&label=Star)
 - [ajv](https://github.com/epoberezkin/ajv) - The fastest JSON schema Validator. Supports JSON Schema draft-04/06/07/2019-09/2020-12 and JSON Type Definition (RFC8927). ![](https://img.shields.io/github/stars/epoberezkin/ajv.svg?style=social&label=Star)

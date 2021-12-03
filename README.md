@@ -423,6 +423,7 @@
 
 - [validator.js](https://github.com/validatorjs/validator.js) - 字符串校验库。 ![](https://img.shields.io/github/stars/validatorjs/validator.js.svg?style=social&label=Star)
 - [joi](https://github.com/hapijs/joi) - 基于 JavaScript 对象的对象模式描述语言和验证器。 ![](https://img.shields.io/github/stars/hapijs/joi.svg?style=social&label=Star)
+- [yup](https://github.com/jquense/yup) - 受 joi 启发的极简的对象 Schema 校验。 ![](https://img.shields.io/github/stars/jquense/yup.svg?style=social&label=Star)
 - [async-validator](https://github.com/yiminghe/async-validator) - 异步校验。 ![](https://img.shields.io/github/stars/yiminghe/async-validator.svg?style=social&label=Star)
 - [class-validator](https://github.com/typestack/class-validator) - 基于装饰器属性校验的类校验器。 ![](https://img.shields.io/github/stars/typestack/class-validator.svg?style=social&label=Star)
 - [ajv](https://github.com/epoberezkin/ajv) - 最快的 JSON Schema 验证器。支持 JSON Schema draft-04/06/07/2019-09/2020-12 and JSON 类型定义(RFC8927)。 ![](https://img.shields.io/github/stars/epoberezkin/ajv.svg?style=social&label=Star)
