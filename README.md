@@ -21,6 +21,7 @@
 - [官方资源](#官方资源)
 - [资源](#资源)
   - [工具](#工具)
+  - [书籍](#书籍)
   - [教程](#教程)
 - [GIT 仓库](#git-仓库)
   - [文本](#文本)
@@ -121,6 +122,17 @@
 
 - [openbase](https://openbase.com/) - 让你每次都要找到合适的包。目前支持 JavaScript，即将推出更多语言。
 - [npm.devtool](https://npm.devtool.tech/) - 找到最适合您的包，分析您的项目技术栈。
+
+### 书籍
+
+- [狼书（卷2）：Node.js Web应用开发](https://item.jd.com/12614927.html) - 2020-01-01 - [@狼叔](https://www.zhihu.com/people/i5ting)
+  - 本书主要讲解Node.js Web应用开发涉及的HTTP基础知识、常用开发框架、源码原理、数据库和项目实战，旨在向读者展示如何通过Node.js和Koa编写出更具前端特色的Web应用。本书还讲解了Koa中的核心中间件原理，展望了未来Web应用开发的发展方向。
+- [狼书（卷1）：更了不起的Node.js](https://item.jd.com/12623248.html) - 2019-07-01 - [@狼叔](https://www.zhihu.com/people/i5ting)
+  - 本书以Node.js为主，讲解了Node.js的基础知识、开发调试方法、源码原理和应用场景，旨在向读者展示如何通过新的Node.js和npm编写出更具前端特色、更具工程化优势的代码。
+- [Node.js：来一打 C++ 扩展](https://item.jd.com/12380404.html) - 2018-06-01 - [@死月](https://www.zhihu.com/people/xadillax)
+  - Node.js 作为近几年新兴的一种编程运行时，托 V8 引擎的福，在作为后端服务时有比较高的运行效率，在很多场景下对于我们的日常开发足够用了。不过，它还为开发者开了一个使用C++ 开发 Node.js 原生扩展的口子，让开发者进行项目开发时有了更多的选择。
+- [深入浅出Node.js](https://item.jd.com/11355978.html) - 2013-12-01 - [@朴灵](https://www.zhihu.com/people/po-ling)
+  - 初版时间《深入浅出Node.js》从不同的视角介绍了 Node 内在的特点和结构。由首章Node 介绍为索引，涉及Node 的各个方面，主要内容包含模块机制的揭示、异步I/O 实现原理的展现、异步编程的探讨、内存控制的介绍、二进制数据Buffer 的细节、Node 中的网络编程基础、Node 中的Web 开发、进程间的消息传递、Node 测试以及通过Node 构建产品需要的注意事项。附录介绍了Node 的安装、调试、编码规范和NPM 仓库等事宜。
 
 ### 教程
 
