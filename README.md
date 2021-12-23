@@ -30,7 +30,7 @@
   - [日期 和 时间](#日期-和-时间)
   - [正则/通配符匹配](#正则通配符匹配)
   - [URL](#url)
-  - [JSON / JSON Schema](#json--json-schema)
+  - [对象 / JSON / JSON Schema](#对象--json--json-schema)
   - [图像处理](#图像处理)
     - [SVG](#svg)
   - [画布（Canvas）](#画布canvas)
@@ -260,7 +260,7 @@
 - [file-url](https://github.com/sindresorhus/file-url) - 将文件路径转化为文件 URL: `unicorn.jpg` → `file:///Users/sindresorhus/unicorn.jpg` ![](https://img.shields.io/github/stars/sindresorhus/file-url.svg?style=social&label=Star)
 - [encodeurl](https://github.com/pillarjs/encodeurl) - 将 URL 编码为"百分比"形式，不编码已编码部分。 ![](https://img.shields.io/github/stars/pillarjs/encodeurl.svg?style=social&label=Star)
 
-### JSON / JSON Schema
+### 对象 / JSON / JSON Schema
 
 - [json5](https://github.com/json5/json5) - JSON5 是对 JSON 的扩展，其目的是能够更加容易的阅读和编写。 ![](https://img.shields.io/github/stars/json5/json5.svg?style=social&label=Star)
 - [jsondiffpatch](https://github.com/benjamine/jsondiffpatch) - 对比 JSON 对象，并生成差异和 Patch 信息。 ![](https://img.shields.io/github/stars/benjamine/jsondiffpatch.svg?style=social&label=Star)
@@ -273,6 +273,7 @@
 - [json-mask](https://github.com/nemtsov/json-mask) - 用于选择 JS 对象特定部分，而隐藏其余部分的微型语言和引擎。 ![](https://img.shields.io/github/stars/nemtsov/json-mask.svg?style=social&label=Star)
 - [strip-json-comments](https://github.com/sindresorhus/strip-json-comments) - 去除 JSON 文件中的注释。让你可以在 JSON 中使用注释。 ![](https://img.shields.io/github/stars/sindresorhus/strip-json-comments.svg?style=social&label=Star)
 - [json-stringify-safe](https://github.com/moll/json-stringify-safe) - 类似于 JSON.stringify，但不会引发循环引用。 ![](https://img.shields.io/github/stars/moll/json-stringify-safe.svg?style=social&label=Star)
+- [dottie.js](https://github.com/mickhansen/dottie.js) - 快速安全的访问和操作嵌套对象。 ![](https://img.shields.io/github/stars/mickhansen/dottie.js.svg?style=social&label=Star)
 - [load-json-file](https://github.com/sindresorhus/load-json-file) - 读取并解析 JSON 文件。 ![](https://img.shields.io/github/stars/sindresorhus/load-json-file.svg?style=social&label=Star)
 - [jsonc-parser](https://github.com/microsoft/node-jsonc-parser) - 带注释的 JSON 扫描器和解析器。 ![](https://img.shields.io/github/stars/microsoft/node-jsonc-parser.svg?style=social&label=Star)
 - [parse-json](https://github.com/sindresorhus/parse-json) - 解析 JSON，如果解析失败带有更有帮助的错误信息。 ![](https://img.shields.io/github/stars/sindresorhus/parse-json.svg?style=social&label=Star)
