@@ -17,7 +17,7 @@ English | [简体中文](./README.md)
   - [Tools](#tools)
   - [Tutorials](#tutorials)
 - [Repository](#repository)
-  - [Text](#text)
+  - [Text/String](#textstring)
   - [Number](#number)
   - [Math](#math)
   - [Date & Time](#date--time)
@@ -126,9 +126,10 @@ English | [简体中文](./README.md)
 
 ## Repository
 
-### Text
+### Text/String
 
 - Common
+  - [humps](https://github.com/domchristie/humps) - Underscore-to-camelCase converter (and vice versa) for strings and object keys in JavaScript. ![](https://img.shields.io/github/stars/domchristie/humps.svg?style=social&label=Star)
   - [dedent](https://github.com/dmnd/dedent) - ES6 string tag that strips indentation from multi-line strings. ![](https://img.shields.io/github/stars/dmnd/dedent.svg?style=social&label=Star)
   - [camelcase](https://github.com/sindresorhus/camelcase) - Convert a dash/dot/underscore/space separated string to camelCase: foo-bar → fooBar. ![](https://img.shields.io/github/stars/sindresorhus/camelcase.svg?style=social&label=Star)
   - [string-width](https://github.com/sindresorhus/string-width) - Get the visual width of a string - the number of columns required to display it. ![](https://img.shields.io/github/stars/sindresorhus/string-width.svg?style=social&label=Star)
@@ -244,6 +245,7 @@ English | [简体中文](./README.md)
 - [json5](https://github.com/json5/json5) - JSON5 — JSON for humans. ![](https://img.shields.io/github/stars/json5/json5.svg?style=social&label=Star)
 - [jsondiffpatch](https://github.com/benjamine/jsondiffpatch) - Diff & patch JavaScript objects. ![](https://img.shields.io/github/stars/benjamine/jsondiffpatch.svg?style=social&label=Star)
 - [fast-json-stringify](https://github.com/fastify/fast-json-stringify) - 2x faster than JSON.stringify() ![](https://img.shields.io/github/stars/fastify/fast-json-stringify.svg?style=social&label=Star)
+- [humps](https://github.com/domchristie/humps) - Underscore-to-camelCase converter (and vice versa) for strings and object keys in JavaScript. ![](https://img.shields.io/github/stars/domchristie/humps.svg?style=social&label=Star)
 - [jsonfile](https://github.com/jprichardson/node-jsonfile) - Easily read/write JSON files. ![](https://img.shields.io/github/stars/jprichardson/node-jsonfile.svg?style=social&label=Star)
 - [jsonata](https://github.com/jsonata-js/jsonata) - JSONata query and transformation language - http://jsonata.org ![](https://img.shields.io/github/stars/jsonata-js/jsonata.svg?style=social&label=Star)
 - [bson](https://github.com/mongodb/js-bson) - BSON Parser for node and browser, BSON is short for "Binary JSON," and is the binary-encoded serialization of JSON-like documents. ![](https://img.shields.io/github/stars/mongodb/js-bson.svg?style=social&label=Star)

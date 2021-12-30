@@ -1,9 +1,5 @@
 > 该项目受 [awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) 启发
 >
-> 原本是希望在原仓库中提供中文版，但跟该作者沟通，作者不希望添加本地化翻译增加维护工作量；且该库有很多国内用户常见的库并未收录，分类体系也不符合我的预期
->
-> 故此另开仓库，希望可以更好的满足国内开发者的需求。
-
 > 同时推荐你查看我正在维护的其他仓库
 > - [awesome-nodejs](https://github.com/huaize2020/awesome-nodejs)
 >   - [awesome-koa](https://github.com/huaize2020/awesome-koa)
@@ -24,7 +20,7 @@
   - [书籍](#书籍)
   - [教程](#教程)
 - [GIT 仓库](#git-仓库)
-  - [文本](#文本)
+  - [文本/字符串](#文本字符串)
   - [数字](#数字)
   - [数学运算](#数学运算)
   - [日期 和 时间](#日期-和-时间)
@@ -145,9 +141,10 @@
 
 ## GIT 仓库
 
-### 文本
+### 文本/字符串
 
 - 通用
+  - [humps](https://github.com/domchristie/humps) - 将字符串 或 对象的Key 从下划线转化为驼峰。 ![](https://img.shields.io/github/stars/domchristie/humps.svg?style=social&label=Star)
   - [dedent](https://github.com/dmnd/dedent) - ES6 模板字符串函数，用于去除多行字符串的缩进。 ![](https://img.shields.io/github/stars/dmnd/dedent.svg?style=social&label=Star)
   - [camelcase](https://github.com/sindresorhus/camelcase) - 将破折号/点号/下划线/空格分隔的字符串转换为驼峰式, 案例：foo-bar→fooBar。 ![](https://img.shields.io/github/stars/sindresorhus/camelcase.svg?style=social&label=Star)
   - [string-width](https://github.com/sindresorhus/string-width) - 获取字符串的可视宽度-显示字符串所需的列数。 ![](https://img.shields.io/github/stars/sindresorhus/string-width.svg?style=social&label=Star)
@@ -266,6 +263,7 @@
 - [jsondiffpatch](https://github.com/benjamine/jsondiffpatch) - 对比 JSON 对象，并生成差异和 Patch 信息。 ![](https://img.shields.io/github/stars/benjamine/jsondiffpatch.svg?style=social&label=Star)
 - [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker) - JSON-Schema + 假数据生成器。 ![](https://img.shields.io/github/stars/json-schema-faker/json-schema-faker.svg?style=social&label=Star)
 - [fast-json-stringify](https://github.com/fastify/fast-json-stringify) - 比 JSON.stringify()快 2 倍。 ![](https://img.shields.io/github/stars/fastify/fast-json-stringify.svg?style=social&label=Star)
+- [humps](https://github.com/domchristie/humps) - 将字符串 或 对象的Key 从下划线转化为驼峰。 ![](https://img.shields.io/github/stars/domchristie/humps.svg?style=social&label=Star)
 - [jsonfile](https://github.com/jprichardson/node-jsonfile) - 轻松读写 JSON 文件。 ![](https://img.shields.io/github/stars/jprichardson/node-jsonfile.svg?style=social&label=Star)
 - [bson](https://github.com/mongodb/js-bson) - Node.js 和浏览器的 BSON 解析器，BSON 是“Binary JSON”的缩写，是类 JSON 文档的二进制编码序列化。![](https://img.shields.io/github/stars/mongodb/js-bson.svg?style=social&label=Star)
 - [jsonata](https://github.com/jsonata-js/jsonata) - JSONata 查询和转换语言 - http://jsonata.org ![](https://img.shields.io/github/stars/jsonata-js/jsonata.svg?style=social&label=Star)
