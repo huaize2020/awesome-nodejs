@@ -1235,6 +1235,7 @@
 - [Email Templates](https://github.com/forwardemail/email-templates) - 创建、预览和发送自定义电子邮件模板。 ![](https://img.shields.io/github/stars/forwardemail/email-templates.svg?style=social&label=Star)
 - [emailjs](https://github.com/eleith/emailjs) - 向任何 SMTP 服务器发送带有附件的文本/HTML 电子邮件。 ![](https://img.shields.io/github/stars/eleith/emailjs.svg?style=social&label=Star)
 - [mjml](https://github.com/mjmlio/mjml) - 旨在减少创建响应电子邮件的痛苦的标记语言。 ![](https://img.shields.io/github/stars/mjmlio/mjml.svg?style=social&label=Star)
+- [preview-email](https://github.com/forwardemail/preview-email) - 自动打开浏览器以预览使用 Nodemailer 发送的 Node.js 电子邮件消息。  ![](https://img.shields.io/github/stars/forwardemail/preview-email.svg?style=social&label=Star)
 
 ### 网络
 

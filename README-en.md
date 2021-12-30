@@ -1215,6 +1215,7 @@ English | [简体中文](./README.md)
 - [Email Templates](https://github.com/forwardemail/email-templates) - Create, preview, and send custom email templates for Node.js. ![](https://img.shields.io/github/stars/forwardemail/email-templates.svg?style=social&label=Star)
 - [emailjs](https://github.com/eleith/emailjs) - Html emails and attachments to any smtp server with nodejs. ![](https://img.shields.io/github/stars/eleith/emailjs.svg?style=social&label=Star)
 - [mjml](https://github.com/mjmlio/mjml) - Makes responsive-email easy. ![](https://img.shields.io/github/stars/mjmlio/mjml.svg?style=social&label=Star)
+- [preview-email](https://github.com/forwardemail/preview-email) - Automatically opens your browser to preview Node.js email messages sent with Nodemailer. ![](https://img.shields.io/github/stars/forwardemail/preview-email.svg?style=social&label=Star)
 
 ### Network
 
