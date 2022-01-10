@@ -70,7 +70,7 @@ English | [简体中文](./README.md)
   - [Forum](#forum)
   - [Database](#database)
   - [Cache](#cache)
-  - [Search Engine](#search-engine)
+  - [Search Engine/Word Segmentation](#search-engineword-segmentation)
   - [Serverless](#serverless)
   - [Automation & RPA](#automation--rpa)
   - [Testing](#testing)
@@ -1069,9 +1069,10 @@ English | [简体中文](./README.md)
 - [flat-cache](https://github.com/royriojas/flat-cache) - A stupidly simple key/value storage using files to persist the data. ![](https://img.shields.io/github/stars/royriojas/flat-cache.svg?style=social&label=Star)
 - [ylru](https://github.com/node-modules/ylru) - Add "expire", "allow set empty value" extends on hashlru. ![](https://img.shields.io/github/stars/node-modules/ylru.svg?style=social&label=Star)
 
-### Search Engine
+### Search Engine/Word Segmentation
 
 - [elasticsearch-js](https://github.com/elastic/elasticsearch-js) - Official Elasticsearch client library for Node.js. ![](https://img.shields.io/github/stars/elastic/elasticsearch-js.svg?style=social&label=Star)
+- [nodejieba](https://github.com/yanyiwu/nodejieba) - NodeJieba provides chinese word segmentation for Node.js based on CppJieba. ![](https://img.shields.io/github/stars/yanyiwu/nodejieba.svg?style=social&label=Star)
 - [elasticsearch-js-legacy](https://github.com/elastic/elasticsearch-js-legacy) - Legacy Elasticsearch client library for Node.js and the browser. ![](https://img.shields.io/github/stars/elastic/elasticsearch-js-legacy.svg?style=social&label=Star)
 
 ### Serverless

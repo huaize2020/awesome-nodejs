@@ -73,7 +73,7 @@
   - [论坛](#论坛)
   - [数据库](#数据库)
   - [缓存](#缓存)
-  - [搜索引擎](#搜索引擎)
+  - [搜索引擎/分词](#搜索引擎分词)
   - [Serverless](#serverless)
   - [自动化 & 机器人流程自动化 - RPA](#自动化--机器人流程自动化---rpa)
   - [测试相关](#测试相关)
@@ -1088,9 +1088,10 @@
 - [flat-cache](https://github.com/royriojas/flat-cache) - 一个傻瓜般简单的键/值存储使用文件来持久化数据。 ![](https://img.shields.io/github/stars/royriojas/flat-cache.svg?style=social&label=Star)
 - [ylru](https://github.com/node-modules/ylru) - 基于 hashlru 添加过期时间，允许空值。 ![](https://img.shields.io/github/stars/node-modules/ylru.svg?style=social&label=Star)
 
-### 搜索引擎
+### 搜索引擎/分词
 
 - [elasticsearch-js](https://github.com/elastic/elasticsearch-js) - 官方 Elasticsearch 客户端库。 ![](https://img.shields.io/github/stars/elastic/elasticsearch-js.svg?style=social&label=Star)
+- [nodejieba](https://github.com/yanyiwu/nodejieba) - "结巴"中文分词的Node.js版本。 ![](https://img.shields.io/github/stars/yanyiwu/nodejieba.svg?style=social&label=Star)
 - [elasticsearch-js-legacy](https://github.com/elastic/elasticsearch-js-legacy) -  适用于 Node.js 和浏览器的旧版 Elasticsearch 客户端库。 ![](https://img.shields.io/github/stars/elastic/elasticsearch-js-legacy.svg?style=social&label=Star)
 
 ### Serverless
