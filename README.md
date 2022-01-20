@@ -523,6 +523,8 @@
 - [is-elevated](https://github.com/sindresorhus/is-elevated) - 检查进程是否以提升的权限运行。 ![](https://img.shields.io/github/stars/sindresorhus/is-elevated.svg?style=social&label=Star)
 
 ### 事件
+
+- [eventemitter3](https://github.com/primus/eventemitter3) - 高性能 EventEmitter. ![](https://img.shields.io/github/stars/primus/eventemitter3.svg?style=social&label=Star)
 - [ee-first](https://github.com/jonathanong/ee-first) - 获取一组 EventEmitter 和 Event 对中的第一个事件，然后对其进行清理。 ![](https://img.shields.io/github/stars/jonathanong/ee-first.svg?style=social&label=Star)
 
 ### 命令行工具
