@@ -945,6 +945,7 @@
 - [SocketCluster](https://github.com/SocketCluster/socketcluster) -  可扩展的 HTTP + WebSocket 引擎，可以在多个 CPU 内核上运行。 ![](https://img.shields.io/github/stars/SocketCluster/socketcluster.svg?style=social&label=Star)
 - [Faye](https://github.com/faye/faye) - 基于 Bayeux 协议的实时客户端-服务器消息总线。 ![](https://img.shields.io/github/stars/faye/faye.svg?style=social&label=Star)
 - [Primus](https://github.com/primus/primus) - 实时框架的抽象层，以防止模块锁定。 ![](https://img.shields.io/github/stars/primus/primus.svg?style=social&label=Star)
+- [sockette](https://github.com/lukeed/sockette) - 最可爱 WebSocket封装。 🧦 ![](https://img.shields.io/github/stars/lukeed/sockette.svg?style=social&label=Star)
 - [engine.io](https://github.com/socketio/engine.io) - 基于传输的跨浏览器/跨设备双向通信层的实现 Socket.IO。 ![](https://img.shields.io/github/stars/socketio/engine.io.svg?style=social&label=Star)
 - [SockJS-node](https://github.com/sockjs/sockjs-node) - WebSocket Node.js 服务端实现。 ![](https://img.shields.io/github/stars/sockjs/sockjs-node.svg?style=social&label=Star)
 - [Aedes](https://github.com/mcollina/aedes) - 可以在任何流服务器上运行的准系统 MQTT 服务器。 ![](https://img.shields.io/github/stars/mcollina/aedes.svg?style=social&label=Star)
