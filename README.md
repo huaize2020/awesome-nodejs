@@ -494,6 +494,7 @@
 - [InversifyJS](https://github.com/inversify/InversifyJS) - 功能强大且轻便的控制反转容器。 ![](https://img.shields.io/github/stars/inversify/InversifyJS.svg?style=social&label=Star)
 - [injection-js](https://github.com/mgechev/injection-js) - 5.1K 中的 JavaScript 和 TypeScript 的依赖注入库。它提取自 Angular 的 ReflectiveInjector，这意味着它设计合理，功能完整、快速、可靠且经过良好测试。 ![](https://img.shields.io/github/stars/mgechev/injection-js.svg?style=social&label=Star)
 - [power-di](https://github.com/zhang740/power-di) - 轻量的依赖注入库。 ![](https://img.shields.io/github/stars/zhang740/power-di.svg?style=social&label=Star)
+- [@opensumi/di](https://github.com/opensumi/di) - 依赖注入工具。  ![](https://img.shields.io/github/stars/opensumi/di.svg?style=social&label=Star)
 
 ### Shell
 

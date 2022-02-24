@@ -475,6 +475,7 @@ English | [简体中文](./README.md)
 - [InversifyJS](https://github.com/inversify/InversifyJS) - A powerful and lightweight inversion of control container for JavaScript & Node.js apps powered by TypeScript. ![](https://img.shields.io/github/stars/inversify/InversifyJS.svg?style=social&label=Star)
 - [injection-js](https://github.com/mgechev/injection-js) - Dependency injection library for JavaScript and TypeScript in 5.1K. It is an extraction of the Angular's ReflectiveInjector which means that it's well designed, feature complete, fast, reliable and well tested. ![](https://img.shields.io/github/stars/mgechev/injection-js.svg?style=social&label=Star)
 - [power-di](https://github.com/zhang740/power-di) - A lightweight Dependency Injection library. ![](https://img.shields.io/github/stars/zhang740/power-di.svg?style=social&label=Star)
+- [@opensumi/di](https://github.com/opensumi/di) - A dependency injection tool for JavaScript.  ![](https://img.shields.io/github/stars/opensumi/di.svg?style=social&label=Star)
 
 ### Shell
 
