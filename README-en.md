@@ -1108,7 +1108,7 @@ English | [简体中文](./README.md)
   - [http-assert](https://github.com/jshttp/http-assert) - Assert with status codes. ![](https://img.shields.io/github/stars/jshttp/http-assert.svg?style=social&label=Star)
 
 - Faker Generator
-  - [faker.js](https://github.com/marak/Faker.js/) - Generate massive amounts of realistic fake data in Node.js and the browser. ![](https://img.shields.io/github/stars/marak/Faker.js.svg?style=social&label=Star)
+  - [faker.js](https://github.com/faker-js/faker) - Generate massive amounts of realistic fake data in Node.js and the browser. ![](https://img.shields.io/github/stars/faker-js/faker.svg?style=social&label=Star)
   - [casual](https://github.com/boo1ean/casual) - Fake data generator for javascript. ![](https://img.shields.io/github/stars/boo1ean/casual.svg?style=social&label=Star)
   - [fony](https://github.com/captainsafia/fony) - A simple command line tool for generating fake data from a template string. ![](https://img.shields.io/github/stars/captainsafia/fony.svg?style=social&label=Star)
 

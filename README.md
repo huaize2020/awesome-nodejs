@@ -1128,7 +1128,7 @@
   - [http-assert](https://github.com/jshttp/http-assert) - 带状态码的断言。 ![](https://img.shields.io/github/stars/jshttp/http-assert.svg?style=social&label=Star)
 
 - 假数据生成
-  - [faker.js](https://github.com/marak/Faker.js/) - 在 Node.js 和浏览器中生成大量逼真的假数据。 ![](https://img.shields.io/github/stars/marak/Faker.js.svg?style=social&label=Star)
+  - [faker.js](https://github.com/faker-js/faker) - 在 Node.js 和浏览器中生成大量逼真的假数据。 ![](https://img.shields.io/github/stars/faker-js/faker.svg?style=social&label=Star)
   - [casual](https://github.com/boo1ean/casual) - JavaScript 假数据生成。 ![](https://img.shields.io/github/stars/boo1ean/casual.svg?style=social&label=Star)
   - [fony](https://github.com/captainsafia/fony) - 一个简单的命令行工具，从字符串模板中生成假数据。 ![](https://img.shields.io/github/stars/captainsafia/fony.svg?style=social&label=Star)
 
