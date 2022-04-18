@@ -936,6 +936,7 @@
 
 - [Electron](https://github.com/atom/electron) - 使用 Web 技术构建跨平台的桌面应用程序。 *(你也许喜欢 [awesome-electron](https://github.com/sindresorhus/awesome-electron))* ![](https://img.shields.io/github/stars/atom/electron.svg?style=social&label=Star)
 - [nw.js](https://github.com/nwjs/nw.js) - 使用 Web 技术编写应用程序的新方法，并直接从 DOM/WebWorker 调用所有 Node.js 模块。 ![](https://img.shields.io/github/stars/nwjs/nw.js.svg?style=social&label=Star)
+- [Avernakis](https://github.com/qber-soft/Ave-Nodejs) - 使用 TypeScript 构建桌面应用，渲染直接利用系统底层API（例如D2D、D3D11）。 ![](https://img.shields.io/github/stars/qber-soft/Ave-Nodejs.svg?style=social&label=Star)
 
 ### 实时通信
 
