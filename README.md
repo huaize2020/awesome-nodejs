@@ -581,7 +581,8 @@
   - [treeify](https://github.com/notatestuser/treeify) - 将 javascript 对象漂亮地打印为树。 ![](https://img.shields.io/github/stars/notatestuser/treeify.svg?style=social&label=Star)
   - [kolorist](https://github.com/marvinhagemeister/kolorist) - 使用输入和输出色彩化的小工具。 ![](https://img.shields.io/github/stars/marvinhagemeister/kolorist.svg?style=social&label=Star)
   - [console-png](https://github.com/aantthony/console-png) - 在命令行输出中打印 PNG 图片。 ![](https://img.shields.io/github/stars/aantthony/console-png.svg?style=social&label=Star)
-
+  - [chalk-animation](https://github.com/bokub/chalk-animation) - 在命令行输出彩色动画。 ![](https://img.shields.io/github/stars/bokub/chalk-animation.svg?style=social&label=Star)
+  
 - 编辑器
   - [slap](https://github.com/slap-editor/slap) - 基于命令行终端的类 Sublime 文本编辑器。 ![](https://img.shields.io/github/stars/slap-editor/slap.svg?style=social&label=Star)
 
