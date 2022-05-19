@@ -24,6 +24,7 @@ English | [简体中文](./README.md)
   - [RegExp/Glob](#regexpglob)
   - [URL](#url)
   - [Object / JSON / JSON Schema](#object--json--json-schema)
+  - [Meta Programming](#meta-programming)
   - [Image](#image)
     - [SVG](#svg)
   - [Canvas](#canvas)
@@ -260,6 +261,10 @@ English | [简体中文](./README.md)
 - [write-json-file](https://github.com/sindresorhus/write-json-file) - Stringify and write JSON to a file atomically. ![](https://img.shields.io/github/stars/sindresorhus/write-json-file.svg?style=social&label=Star)
 - [fast-json-stable-stringify](https://github.com/epoberezkin/fast-json-stable-stringify) - Deterministic JSON.stringify() - a faster version of @substack's json-stable-strigify without jsonify. ![](https://img.shields.io/github/stars/epoberezkin/fast-json-stable-stringify.svg?style=social&label=Star)
 - [jsonuri](https://github.com/aligay/jsonuri) - Use URI style methods to operate data. ![](https://img.shields.io/github/stars/aligay/jsonuri.svg?style=social&label=Star)
+
+### Meta Programming
+
+- [reflect-metadata](https://github.com/rbuckton/reflect-metadata) - Prototype for a Metadata Reflection API for ECMAScript. ![](https://img.shields.io/github/stars/rbuckton/reflect-metadata.svg?style=social&label=Star)
 
 ### Image
 

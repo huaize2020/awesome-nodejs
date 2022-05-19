@@ -27,6 +27,7 @@
   - [正则/通配符匹配](#正则通配符匹配)
   - [URL](#url)
   - [对象 / JSON / JSON Schema](#对象--json--json-schema)
+  - [元编程](#元编程)
   - [图像处理](#图像处理)
     - [SVG](#svg)
   - [画布（Canvas）](#画布canvas)
@@ -278,6 +279,10 @@
 - [write-json-file](https://github.com/sindresorhus/write-json-file) - 序列化并写入 JSON 文件。 ![](https://img.shields.io/github/stars/sindresorhus/write-json-file.svg?style=social&label=Star)
 - [fast-json-stable-stringify](https://github.com/epoberezkin/fast-json-stable-stringify) - 确定性 JSON.stringify() - 比 @substack 的 json-stable-stringify 更快的版本，不带 jsonify。 ![](https://img.shields.io/github/stars/epoberezkin/fast-json-stable-stringify.svg?style=social&label=Star)
 - [jsonuri](https://github.com/aligay/jsonuri) - 使用”URI 样式“的方法来操作数据。 ![](https://img.shields.io/github/stars/aligay/jsonuri.svg?style=social&label=Star)
+
+### 元编程
+
+- [reflect-metadata](https://github.com/rbuckton/reflect-metadata) - ECMAScript 元数据反射 API 的原型。 ![](https://img.shields.io/github/stars/rbuckton/reflect-metadata.svg?style=social&label=Star)
 
 ### 图像处理
 
