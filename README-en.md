@@ -512,6 +512,7 @@ English | [简体中文](./README.md)
 ### Event
 
 - [eventemitter3](https://github.com/primus/eventemitter3) - EventEmitter3 is a high performance EventEmitter. ![](https://img.shields.io/github/stars/primus/eventemitter3.svg?style=social&label=Star)
+- [tiny-emitter](https://github.com/scottcorgan/tiny-emitter) - A tiny (less than 1k) event emitter library.  ![](https://img.shields.io/github/stars/scottcorgan/tiny-emitter.svg?style=social&label=Star)
 - [ee-first](https://github.com/jonathanong/ee-first) - Get the first event in a set of event emitters and event pairs, then clean up after itself. ![](https://img.shields.io/github/stars/jonathanong/ee-first.svg?style=social&label=Star)
 
 ### Command-line Utilities

@@ -531,6 +531,7 @@
 ### 事件
 
 - [eventemitter3](https://github.com/primus/eventemitter3) - 高性能 EventEmitter. ![](https://img.shields.io/github/stars/primus/eventemitter3.svg?style=social&label=Star)
+- [tiny-emitter](https://github.com/scottcorgan/tiny-emitter) - 小型 EventEmitter 库 (小于 1k) event emitter library.  ![](https://img.shields.io/github/stars/scottcorgan/tiny-emitter.svg?style=social&label=Star)
 - [ee-first](https://github.com/jonathanong/ee-first) - 获取一组 EventEmitter 和 Event 对中的第一个事件，然后对其进行清理。 ![](https://img.shields.io/github/stars/jonathanong/ee-first.svg?style=social&label=Star)
 
 ### 命令行工具
