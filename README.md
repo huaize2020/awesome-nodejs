@@ -1080,6 +1080,7 @@
 - 其他
   - [Lowdb](https://github.com/typicode/lowdb) - 用于小型项目的微型本地 JSON 数据库（支持 Node、Electron 和浏览器）。 ![](https://img.shields.io/github/stars/typicode/lowdb.svg?style=social&label=Star)
   - [NeDB](https://github.com/louischatriot/nedb) - 用于 Node.js、nw.js、Electron 和浏览器的嵌入式持久数据库或内存数据库。 ![](https://img.shields.io/github/stars/louischatriot/nedb.svg?style=social&label=Star)
+  - [sharedb](https://github.com/share/sharedb) - 基于操作转换 (OT) 的实时数据库后端。 ![](https://img.shields.io/github/stars/share/sharedb.svg?style=social&label=Star)
   - [Keyv](https://github.com/lukechilds/keyv) - 支持多个后端的简单键值(KV)存储。 ![](https://img.shields.io/github/stars/lukechilds/keyv.svg?style=social&label=Star)
   - [pg-mem](https://github.com/oguimbal/pg-mem) - 内存 PostgreSQL 实例。 ![](https://img.shields.io/github/stars/oguimbal/pg-mem.svg?style=social&label=Star)
   - [Mongo Seeding](https://github.com/pkosiec/mongo-seeding) - 使用 JavaScript 和 JSON 文件填充 MongoDB 数据库。 ![](https://img.shields.io/github/stars/pkosiec/mongo-seeding.svg?style=social&label=Star)
@@ -1492,3 +1493,4 @@
 
 - [code-server](https://github.com/cdr/code-server) - 在任何地方的任何机器上运行 VS Code，并在浏览器中访问它。 ![](https://img.shields.io/github/stars/cdr/code-server.svg?style=social&label=Star)
 - [theia](https://github.com/eclipse-theia/theia) - Eclipse Theia 是一个可扩展框架，用于使用最先进的 Web 技术开发成熟的多语言云和桌面 IDE 类产品 ![](https://img.shields.io/github/stars/eclipse-theia/theia.svg?style=social&label=Star)
+- [opensumi](https://github.com/opensumi/core) - 🚀 一个帮助你快速构建云或客户端IDE产品的框架 ![](https://img.shields.io/github/stars/opensumi/core.svg?style=social&label=Star)
