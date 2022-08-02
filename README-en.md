@@ -1061,6 +1061,7 @@ English | [简体中文](./README.md)
 - Other
   - [Lowdb](https://github.com/typicode/lowdb) - Tiny local JSON database for small projects (supports Node, Electron and the browser). ![](https://img.shields.io/github/stars/typicode/lowdb.svg?style=social&label=Star)
   - [NeDB](https://github.com/louischatriot/nedb) - Embedded persistent or in memory database for Node.js, nw.js, Electron and browsers. ![](https://img.shields.io/github/stars/louischatriot/nedb.svg?style=social&label=Star)
+  - [sharedb](https://github.com/share/sharedb) - Realtime database backend based on Operational Transformation (OT). ![](https://img.shields.io/github/stars/share/sharedb.svg?style=social&label=Star)
   - [Keyv](https://github.com/lukechilds/keyv) - Simple key-value storage with support for multiple backends. ![](https://img.shields.io/github/stars/lukechilds/keyv.svg?style=social&label=Star)
   - [pg-mem](https://github.com/oguimbal/pg-mem) - In-memory PostgreSQL instance. ![](https://img.shields.io/github/stars/oguimbal/pg-mem.svg?style=social&label=Star)
   - [Mongo Seeding](https://github.com/pkosiec/mongo-seeding) - Populate MongoDB databases with JavaScript and JSON files. ![](https://img.shields.io/github/stars/pkosiec/mongo-seeding.svg?style=social&label=Star)
@@ -1469,3 +1470,4 @@ English | [简体中文](./README.md)
 
 - [code-server](https://github.com/cdr/code-server) - Run VS Code on any machine anywhere and access it in the browser. ![](https://img.shields.io/github/stars/cdr/code-server.svg?style=social&label=Star)
 - [theia](https://github.com/eclipse-theia/theia) - Eclipse Theia is an extensible framework to develop full-fledged multi-language Cloud & Desktop IDE-like products with state-of-the-art web technologies. ![](https://img.shields.io/github/stars/eclipse-theia/theia.svg?style=social&label=Star)
+- [opensumi](https://github.com/opensumi/core) - 🚀 A framework helps you quickly build Cloud or Desktop IDE products. ![](https://img.shields.io/github/stars/opensumi/core.svg?style=social&label=Star)
