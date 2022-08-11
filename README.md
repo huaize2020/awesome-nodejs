@@ -85,6 +85,7 @@
   - [邮箱](#邮箱)
   - [网络](#网络)
   - [HTTP](#http)
+  - [限流](#限流)
   - [验证](#验证)
   - [授权 / 鉴权](#授权--鉴权)
   - [分布式](#分布式)
@@ -1293,6 +1294,9 @@
   - [gh-got](https://github.com/sindresorhus/gh-got) - 基于"got"封装，与 GitHub API 更方便的交互。 ![](https://img.shields.io/github/stars/sindresorhus/gh-got.svg?style=social&label=Star)
   - [flashheart](https://github.com/bbc/flashheart) - REST 客户端。 ![](https://img.shields.io/github/stars/bbc/flashheart.svg?style=social&label=Star)
 
+- 信息提取
+  - [metascraper](https://github.com/microlinkhq/metascraper) - 使用 Open Graph、Microdata、RDFa、Twitter Cards、JSON-LD、HTML 等从网站获取统一的元数据。 ![](https://img.shields.io/github/stars/microlinkhq/metascraper.svg?style=social&label=Star)
+
 - 服务端库
   - [http-server](https://github.com/http-party/http-server) - 零配置的命令行 Http 服务端。 ![](https://img.shields.io/github/stars/http-party/http-server.svg?style=social&label=Star)
   - [anywhere](https://github.com/JacksonTian/anywhere) - 随启随用的静态文件服务器。 ![](https://img.shields.io/github/stars/JacksonTian/anywhere.svg?style=social&label=Star)
@@ -1315,6 +1319,11 @@
 - 下载
   - [download](https://github.com/kevva/download) - 轻松下载和提取文件。 ![](https://img.shields.io/github/stars/kevva/download.svg?style=social&label=Star)
   - [nugget](https://github.com/maxogden/nugget) - 使用 Node.js 编写的极简主义 wget clone。 HTTP GET 文件并将其下载到当前目录。 ![](https://img.shields.io/github/stars/maxogden/nugget.svg?style=social&label=Star)
+
+
+### 限流
+
+- [rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible) - 在单进程 或 分布式环境中 使用原子增量按键计数和限制请求。 ![](https://img.shields.io/github/stars/animir/node-rate-limiter-flexible.svg?style=social&label=Star)
 
 ### 验证
 
