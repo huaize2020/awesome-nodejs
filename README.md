@@ -182,6 +182,7 @@
 - 编码/解码
   - [he](https://github.com/mathiasbynens/he) - HTML 实体编码器/解码器。 ![](https://img.shields.io/github/stars/mathiasbynens/he.svg?style=social&label=Star)
   - [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - 转换字符编码。 ![](https://img.shields.io/github/stars/ashtuchkin/iconv-lite.svg?style=social&label=Star)
+  - [html-entities](https://github.com/mdevils/html-entities) - 最快的 HTML 实体编码/解码库. ![](https://img.shields.io/github/stars/andrejewski/himalaya.svg?style=social&label=Star)
   - [jschardet](https://github.com/aadsm/jschardet) - JavaScript 编码自动识别 (Python 版 chardet 的实现)。 ![](https://img.shields.io/github/stars/aadsm/jschardet.svg?style=social&label=Star)
 
 - 差异对比
@@ -749,6 +750,9 @@
 - ini
   - [ini](https://github.com/npm/ini) - ini 文件解析和序列化。 ![](https://img.shields.io/github/stars/npm/ini.svg?style=social&label=Star)
 
+- MathJax
+  - [mathjax-node](https://github.com/mathjax/MathJax-node) - MathJax 解析。 ![](https://img.shields.io/github/stars/mathjax/MathJax-node.svg?style=social&label=Star)
+
 - 其他
   - [readability](https://github.com/mozilla/readability) - 可读内容提取库，用于 Firefox Reader View 的独立提取版本。 ![](https://img.shields.io/github/stars/mozilla/readability.svg?style=social&label=Star)
 
@@ -1104,6 +1108,7 @@
 
 - [elasticsearch-js](https://github.com/elastic/elasticsearch-js) - 官方 Elasticsearch 客户端库。 ![](https://img.shields.io/github/stars/elastic/elasticsearch-js.svg?style=social&label=Star)
 - [nodejieba](https://github.com/yanyiwu/nodejieba) - "结巴"中文分词的Node.js版本。 ![](https://img.shields.io/github/stars/yanyiwu/nodejieba.svg?style=social&label=Star)
+- [@node-rs/jieba](https://github.com/napi-rs/node-rs/tree/main/packages/jieba) - 使用 Rust 开发 和 N-API 实现的 nodejs jieba. ![](https://img.shields.io/github/stars/napi-rs/node-rs.svg?style=social&label=Star)
 - [elasticsearch-js-legacy](https://github.com/elastic/elasticsearch-js-legacy) -  适用于 Node.js 和浏览器的旧版 Elasticsearch 客户端库。 ![](https://img.shields.io/github/stars/elastic/elasticsearch-js-legacy.svg?style=social&label=Star)
 
 ### Serverless
