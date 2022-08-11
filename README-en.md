@@ -82,6 +82,7 @@ English | [简体中文](./README.md)
   - [Email](#email)
   - [Network](#network)
   - [HTTP](#http)
+  - [RateLimit](#ratelimit)
   - [Authentication](#authentication)
   - [Authorization](#authorization)
   - [Distribute](#distribute)
@@ -1273,6 +1274,9 @@ English | [简体中文](./README.md)
   - [gh-got](https://github.com/sindresorhus/gh-got) - Convenience wrapper for `got` to interact with the GitHub API. ![](https://img.shields.io/github/stars/sindresorhus/gh-got.svg?style=social&label=Star)
   - [flashheart](https://github.com/bbc/flashheart) - REST client. ![](https://img.shields.io/github/stars/bbc/flashheart.svg?style=social&label=Star)
 
+- Metadata
+  - [metascraper](https://github.com/microlinkhq/metascraper) - Get unified metadata from websites using Open Graph, Microdata, RDFa, Twitter Cards, JSON-LD, HTML, and more. ![](https://img.shields.io/github/stars/microlinkhq/metascraper.svg?style=social&label=Star)
+
 - HTTP Server
   - [http-server](https://github.com/http-party/http-server) - A simple zero-configuration command-line http server. ![](https://img.shields.io/github/stars/http-party/http-server.svg?style=social&label=Star)
   - [anywhere](https://github.com/JacksonTian/anywhere) - Running static file server anywhere. ![](https://img.shields.io/github/stars/JacksonTian/anywhere.svg?style=social&label=Star)
@@ -1295,6 +1299,10 @@ English | [简体中文](./README.md)
 - Download
   - [download](https://github.com/kevva/download) - Download and extract files effortlessly. ![](https://img.shields.io/github/stars/kevva/download.svg?style=social&label=Star)
   - [nugget](https://github.com/maxogden/nugget) - Minimalist wget clone written in node. HTTP GET files and downloads them into the current directory. ![](https://img.shields.io/github/stars/maxogden/nugget.svg?style=social&label=Star)
+
+### RateLimit
+
+- [rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible) - Count and limit requests by key with atomic increments in single process or distributed environment. ![](https://img.shields.io/github/stars/animir/node-rate-limiter-flexible.svg?style=social&label=Star)
 
 ### Authentication
 
