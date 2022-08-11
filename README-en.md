@@ -165,6 +165,7 @@ English | [简体中文](./README.md)
 - Encode/Decode
   - [he](https://github.com/mathiasbynens/he) - HTML entity encoder/decoder. ![](https://img.shields.io/github/stars/mathiasbynens/he.svg?style=social&label=Star)
   - [iconv-lite](https://github.com/ashtuchkin/iconv-lite) - Convert character encodings. ![](https://img.shields.io/github/stars/ashtuchkin/iconv-lite.svg?style=social&label=Star)
+  - [html-entities](https://github.com/mdevils/html-entities) - Fastest HTML entities encode/decode library. ![](https://img.shields.io/github/stars/andrejewski/himalaya.svg?style=social&label=Star)
   - [jschardet](https://github.com/aadsm/jschardet) - Character encoding auto-detection in JavaScript (port of python's chardet) ![](https://img.shields.io/github/stars/aadsm/jschardet.svg?style=social&label=Star)
 
 - Comparison
@@ -730,6 +731,9 @@ English | [简体中文](./README.md)
 - ini
   - [ini](https://github.com/npm/ini) - An ini parser/serializer in JavaScript. ![](https://img.shields.io/github/stars/npm/ini.svg?style=social&label=Star)
 
+- MathJax
+  - [mathjax-node](https://github.com/mathjax/MathJax-node) - MathJax for Node. ![](https://img.shields.io/github/stars/mathjax/MathJax-node.svg?style=social&label=Star)
+
 - Other
   - [readability](https://github.com/mozilla/readability) - A standalone version of the readability library used for Firefox Reader View. ![](https://img.shields.io/github/stars/mozilla/readability.svg?style=social&label=Star)
 
@@ -1085,6 +1089,7 @@ English | [简体中文](./README.md)
 
 - [elasticsearch-js](https://github.com/elastic/elasticsearch-js) - Official Elasticsearch client library for Node.js. ![](https://img.shields.io/github/stars/elastic/elasticsearch-js.svg?style=social&label=Star)
 - [nodejieba](https://github.com/yanyiwu/nodejieba) - NodeJieba provides chinese word segmentation for Node.js based on CppJieba. ![](https://img.shields.io/github/stars/yanyiwu/nodejieba.svg?style=social&label=Star)
+- [@node-rs/jieba](https://github.com/napi-rs/node-rs/tree/main/packages/jieba) - jieba-rs binding to Node.js。 ![](https://img.shields.io/github/stars/napi-rs/node-rs.svg?style=social&label=Star)
 - [elasticsearch-js-legacy](https://github.com/elastic/elasticsearch-js-legacy) - Legacy Elasticsearch client library for Node.js and the browser. ![](https://img.shields.io/github/stars/elastic/elasticsearch-js-legacy.svg?style=social&label=Star)
 
 ### Serverless
