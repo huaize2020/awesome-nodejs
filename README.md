@@ -1509,3 +1509,5 @@
 - [code-server](https://github.com/cdr/code-server) - 在任何地方的任何机器上运行 VS Code，并在浏览器中访问它。 ![](https://img.shields.io/github/stars/cdr/code-server.svg?style=social&label=Star)
 - [theia](https://github.com/eclipse-theia/theia) - Eclipse Theia 是一个可扩展框架，用于使用最先进的 Web 技术开发成熟的多语言云和桌面 IDE 类产品 ![](https://img.shields.io/github/stars/eclipse-theia/theia.svg?style=social&label=Star)
 - [opensumi](https://github.com/opensumi/core) - 🚀 一个帮助你快速构建云或客户端IDE产品的框架 ![](https://img.shields.io/github/stars/opensumi/core.svg?style=social&label=Star)
+
+<img src="https://profile-counter.glitch.me/huaize2020-awesome-nodejs/count.svg" />

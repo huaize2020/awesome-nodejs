@@ -1485,3 +1485,5 @@ English | [简体中文](./README.md)
 - [code-server](https://github.com/cdr/code-server) - Run VS Code on any machine anywhere and access it in the browser. ![](https://img.shields.io/github/stars/cdr/code-server.svg?style=social&label=Star)
 - [theia](https://github.com/eclipse-theia/theia) - Eclipse Theia is an extensible framework to develop full-fledged multi-language Cloud & Desktop IDE-like products with state-of-the-art web technologies. ![](https://img.shields.io/github/stars/eclipse-theia/theia.svg?style=social&label=Star)
 - [opensumi](https://github.com/opensumi/core) - 🚀 A framework helps you quickly build Cloud or Desktop IDE products. ![](https://img.shields.io/github/stars/opensumi/core.svg?style=social&label=Star)
+
+<img src="https://profile-counter.glitch.me/huaize2020-awesome-nodejs/count.svg" />
