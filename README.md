@@ -1289,6 +1289,7 @@
   - [superagent](https://github.com/visionmedia/superagent) - HTTP 请求库。 ![](https://img.shields.io/github/stars/visionmedia/superagent.svg?style=social&label=Star)
   - [got](https://github.com/sindresorhus/got) - 更好的基于内建“http”模块接口实现。 ![](https://img.shields.io/github/stars/sindresorhus/got.svg?style=social&label=Star)
   - [node-fetch](https://github.com/bitinn/node-fetch) - Node.js 的 `window.fetch` 实现。 ![](https://img.shields.io/github/stars/bitinn/node-fetch.svg?style=social&label=Star)
+  - [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch) - 同构的 fetch api, 用于Node 和浏览器。 ![](https://img.shields.io/github/stars/matthew-andrews/isomorphic-fetch.svg?style=social&label=Star)
   - [undici](https://github.com/nodejs/undici) - 一个 HTTP/1.1 客户端，从头开始为 Node.js 编写。 ![](https://img.shields.io/github/stars/nodejs/undici.svg?style=social&label=Star)
   - [needle](https://github.com/tomas/needle) - 灵活，基于流的 HTTP Node.js 客户端请求库。支持 proxy，iconv，cookie，deflate 和 multipart。 ![](https://img.shields.io/github/stars/tomas/needle.svg?style=social&label=Star)
   - [urllib](https://github.com/node-modules/urllib) - 在复杂世界中请求 HTTP/HTTPS 的 URL。 ![](https://img.shields.io/github/stars/node-modules/urllib.svg?style=social&label=Star)
