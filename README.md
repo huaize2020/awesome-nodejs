@@ -1180,6 +1180,7 @@
 - 覆盖率
   - [istanbul](https://github.com/gotwarlost/istanbul) - 覆盖率测试工具。 ![](https://img.shields.io/github/stars/gotwarlost/istanbul.svg?style=social&label=Star)
   - [nyc](https://github.com/istanbuljs/nyc) - Istanbul 的命令行工具。 ![](https://img.shields.io/github/stars/istanbuljs/nyc.svg?style=social&label=Star)
+  - [c8](https://github.com/bcoe/c8) - 使用 Node.js 的内置覆盖率输出覆盖率报告。 ![](https://img.shields.io/github/stars/bcoe/c8.svg?style=social&label=Star)
   - [node-coveralls](https://github.com/nickmerwin/node-coveralls) - 借助持续集成服务(Travis CI 或 Jenkins) 向用户报告自动测试的测试覆盖率；为 README 添加一个很酷的覆盖率按钮。 ![](https://img.shields.io/github/stars/nickmerwin/node-coveralls.svg?style=social&label=Star)
   - [codecov](https://github.com/codecov/codecov-node) - NodeJS 中代码覆盖率报告上载器。 ![](https://img.shields.io/github/stars/codecov/codecov-node.svg?style=social&label=Star)
 

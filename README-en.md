@@ -1160,6 +1160,7 @@ English | [简体中文](./README.md)
 - Coverage
   - [istanbul](https://github.com/gotwarlost/istanbul) - A JS code coverage tool written in JS. ![](https://img.shields.io/github/stars/gotwarlost/istanbul.svg?style=social&label=Star)
   - [nyc](https://github.com/istanbuljs/nyc) - The Istanbul command line interface. ![](https://img.shields.io/github/stars/istanbuljs/nyc.svg?style=social&label=Star)
+  - [c8](https://github.com/bcoe/c8) - output coverage reports using Node.js' built in coverage. ![](https://img.shields.io/github/stars/bcoe/c8.svg?style=social&label=Star)
   - [node-coveralls](https://github.com/nickmerwin/node-coveralls) - Coveralls.io support for Node.js. Get the great coverage reporting of coveralls.io and add a cool coverage button (like the one above) to your README. ![](https://img.shields.io/github/stars/nickmerwin/node-coveralls.svg?style=social&label=Star)
   - [codecov](https://github.com/codecov/codecov-node) - Global coverage report uploader for Codecov in NodeJS. ![](https://img.shields.io/github/stars/codecov/codecov-node.svg?style=social&label=Star)
 
