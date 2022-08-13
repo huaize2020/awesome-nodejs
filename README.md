@@ -1,5 +1,7 @@
 > 该项目受 [awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs) 启发
 >
+> 因库收录较多，全部同步star数会影响加载速度，因此只展示 > 100 的仓库 
+>
 > 同时推荐你查看我正在维护的其他仓库
 > - [awesome-nodejs](https://github.com/huaize2020/awesome-nodejs)
 >   - [awesome-koa](https://github.com/huaize2020/awesome-koa)
@@ -148,19 +150,19 @@
 - 通用
   - [humps](https://github.com/domchristie/humps) - 将字符串 或 对象的Key 从下划线转化为驼峰。 ![](https://img.shields.io/github/stars/domchristie/humps.svg?style=social&label=Star)
   - [dedent](https://github.com/dmnd/dedent) - ES6 模板字符串函数，用于去除多行字符串的缩进。 ![](https://img.shields.io/github/stars/dmnd/dedent.svg?style=social&label=Star)
-  - [camelcase](https://github.com/sindresorhus/camelcase) - 将破折号/点号/下划线/空格分隔的字符串转换为驼峰式, 案例：foo-bar→fooBar。 ![](https://img.shields.io/github/stars/sindresorhus/camelcase.svg?style=social&label=Star)
-  - [string-width](https://github.com/sindresorhus/string-width) - 获取字符串的可视宽度-显示字符串所需的列数。 ![](https://img.shields.io/github/stars/sindresorhus/string-width.svg?style=social&label=Star)
-  - [decamelize](https://github.com/sindresorhus/decamelize) - 将驼峰式字符串转化成小写带分隔符带字符串, 案例：unicornRainbow → unicorn_rainbow ![](https://img.shields.io/github/stars/sindresorhus/decamelize.svg?style=social&label=Star)
-  - [detect-indent](https://github.com/sindresorhus/detect-indent) - 检查代码缩进。 ![](https://img.shields.io/github/stars/sindresorhus/detect-indent.svg?style=social&label=Star)
-  - [string-length](https://github.com/sindresorhus/string-length) - 获取字符串的真实长度 - 通过正确计算星号并忽略 ansi 转义码。 ![](https://img.shields.io/github/stars/sindresorhus/string-length.svg?style=social&label=Star)
-  - [strip-indent](https://github.com/sindresorhus/strip-indent) - 将字符串每一行中前置的空格删除。 ![](https://img.shields.io/github/stars/sindresorhus/strip-indent.svg?style=social&label=Star)
-  - [strip-bom](https://github.com/sindresorhus/strip-bom) - 从字符串中删除 UTF-8 字节顺序标记（BOM）。 ![](https://img.shields.io/github/stars/sindresorhus/strip-bom.svg?style=social&label=Star)
-  - [indent-string](https://github.com/sindresorhus/indent-string) - 将字符串每一行缩进。 ![](https://img.shields.io/github/stars/sindresorhus/indent-string.svg?style=social&label=Star)
-  - [redent](https://github.com/sindresorhus/redent) - 去除多余的缩进并缩进字符串。 ![](https://img.shields.io/github/stars/sindresorhus/redent.svg?style=social&label=Star)
-  - [normalize-newline](https://github.com/sindresorhus/normalize-newline) - Normalize the newline characters in a string to `\n`. ![](https://img.shields.io/github/stars/sindresorhus/normalize-newline.svg?style=social&label=Star)
-  - [min-indent](https://github.com/jamiebuilds/min-indent) - 取每一行最少前置空格数。 ![](https://img.shields.io/github/stars/jamiebuilds/min-indent.svg?style=social&label=Star)
-  - [trim-right](https://github.com/sindresorhus/trim-right) - 与 String#trim() 类似，但仅删除右侧的空格。 ![](https://img.shields.io/github/stars/sindresorhus/trim-right.svg?style=social&label=Star)
-  - [splice-string](https://github.com/sindresorhus/splice-string) - 移除或替换字符串的一部分。类似`Array#splice`. ![](https://img.shields.io/github/stars/sindresorhus/splice-string.svg?style=social&label=Star)
+  - [camelcase](https://github.com/sindresorhus/camelcase) - 将破折号/点号/下划线/空格分隔的字符串转换为驼峰式, 案例：foo-bar→fooBar。 
+  - [string-width](https://github.com/sindresorhus/string-width) - 获取字符串的可视宽度-显示字符串所需的列数。
+  - [decamelize](https://github.com/sindresorhus/decamelize) - 将驼峰式字符串转化成小写带分隔符带字符串, 案例：unicornRainbow → unicorn_rainbow。
+  - [detect-indent](https://github.com/sindresorhus/detect-indent) - 检查代码缩进。
+  - [string-length](https://github.com/sindresorhus/string-length) - 获取字符串的真实长度 - 通过正确计算星号并忽略 ansi 转义码。
+  - [strip-indent](https://github.com/sindresorhus/strip-indent) - 将字符串每一行中前置的空格删除。
+  - [strip-bom](https://github.com/sindresorhus/strip-bom) - 从字符串中删除 UTF-8 字节顺序标记（BOM）。
+  - [indent-string](https://github.com/sindresorhus/indent-string) - 将字符串每一行缩进。 
+  - [redent](https://github.com/sindresorhus/redent) - 去除多余的缩进并缩进字符串。
+  - [normalize-newline](https://github.com/sindresorhus/normalize-newline) - 将字符串中的换行符规范化为 `\n`。
+  - [min-indent](https://github.com/jamiebuilds/min-indent) - 取每一行最少前置空格数。 
+  - [trim-right](https://github.com/sindresorhus/trim-right) - 与 String#trim() 类似，但仅删除右侧的空格。
+  - [splice-string](https://github.com/sindresorhus/splice-string) - 移除或替换字符串的一部分。类似`Array#splice`.
 
 
 - 国际化
@@ -175,9 +177,8 @@
   - [cuid](https://github.com/ericelliott/cuid) - 针对水平扩展和性能优化的抗冲突 ids。 ![](https://img.shields.io/github/stars/ericelliott/cuid.svg?style=social&label=Star)
   - [ulid](https://github.com/ulid/javascript) - 通用唯一词典分类排序标识符。 ![](https://img.shields.io/github/stars/ulid/javascript.svg?style=social&label=Star)
   - [uuid-js](https://github.com/pnegri/uuid-js) - 用于生成和解析 UUID、TimeUUID 并根据日期生成 TimeUUID 以供范围选择。 ![](https://img.shields.io/github/stars/pnegri/uuid-js.svg?style=social&label=Star)
-  - [pure-uuid](https://github.com/rse/pure-uuid) - 基于纯 JavaScript 全局唯一 ID(UUID)。 ![](https://img.shields.io/github/stars/rse/pure-uuid.svg?style=social&label=Star)
-  - [lsp-uuid](https://github.com/ryouaki/lsp-uuid) - 一个基于 SnowFlake 的 uuid 生成器，用于浏览器和 Nodejs。 保持序列并且可以反序列化。 ![](https://img.shields.io/github/stars/ryouaki/lsp-uuid.svg?style=social&label=Star)
-
+  - [pure-uuid](https://github.com/rse/pure-uuid) - 基于纯 JavaScript 全局唯一 ID(UUID)。
+  - [lsp-uuid](https://github.com/ryouaki/lsp-uuid) - 一个基于 SnowFlake 的 uuid 生成器，用于浏览器和 Nodejs。 保持序列并且可以反序列化。
 
 - 编码/解码
   - [he](https://github.com/mathiasbynens/he) - HTML 实体编码器/解码器。 ![](https://img.shields.io/github/stars/mathiasbynens/he.svg?style=social&label=Star)
@@ -196,7 +197,7 @@
 
 - 其他
   - [StegCloak](https://github.com/kurolabs/stegcloak) - 基于纯 JavaScript 开发的隐写功能模块，StegCloak 可以对文本中的机密信息进行压缩和加密，然后再使用特殊的 Unicode 不可见字符来隐藏它。 ![](https://img.shields.io/github/stars/kurolabs/stegcloak.svg?style=social&label=Star)
-  - [unhomoglyph](https://github.com/nodeca/unhomoglyph) - 规范视觉上相似的 unicode 字符。 ![](https://img.shields.io/github/stars/nodeca/unhomoglyph.svg?style=social&label=Star)
+  - [unhomoglyph](https://github.com/nodeca/unhomoglyph) - 规范视觉上相似的 unicode 字符。
 
 ### 数字
 
@@ -206,16 +207,16 @@
 - [big.js](https://github.com/MikeMcl/big.js) - 一个小型，快速的 JavaScript 库，用于任意精度的十进制算术运算。 ![](https://img.shields.io/github/stars/MikeMcl/big.js.svg?style=social&label=Star)
 - [random-js](https://github.com/ckknight/random-js) - 一个 JavaScript 随机数生成库。 ![](https://img.shields.io/github/stars/ckknight/random-js.svg?style=social&label=Star)
 - [round-to](https://github.com/sindresorhus/round-to) - 将数字四舍五入到指定的小数位数：`1.234`→`1.2`。 ![](https://img.shields.io/github/stars/sindresorhus/round-to.svg?style=social&label=Star)
-- [unique-random](https://github.com/sindresorhus/unique-random) - 生成连续唯一的随机数。 ![](https://img.shields.io/github/stars/sindresorhus/unique-random.svg?style=social&label=Star)
-- [random-int](https://github.com/sindresorhus/random-int) - 生成随机整数。 ![](https://img.shields.io/github/stars/sindresorhus/random-int.svg?style=social&label=Star)
-- [random-float](https://github.com/sindresorhus/random-float) - 生成随机浮点数。 ![](https://img.shields.io/github/stars/sindresorhus/random-float.svg?style=social&label=Star)
+- [unique-random](https://github.com/sindresorhus/unique-random) - 生成连续唯一的随机数。 
+- [random-int](https://github.com/sindresorhus/random-int) - 生成随机整数。
+- [random-float](https://github.com/sindresorhus/random-float) - 生成随机浮点数。 label=Star)
 
 ### 数学运算
 
 - [mathjs](https://github.com/josdejong/mathjs) - 广泛的数学运算库。 ![](https://img.shields.io/github/stars/josdejong/mathjs.svg?style=social&label=Star)
 - [ndarray](https://github.com/scijs/ndarray) - 多维数组。 ![](https://img.shields.io/github/stars/scijs/ndarray.svg?style=social&label=Star)
-- [algebra](https://github.com/fibo/algebra) - 代数结构。 ![](https://img.shields.io/github/stars/fibo/algebra.svg?style=social&label=Star)
-- [multimath](https://github.com/nodeca/multimath) - 在 WebAssembly 和 JS 中进行快速图像数学运算。 ![](https://img.shields.io/github/stars/nodeca/multimath.svg?style=social&label=Star)
+- [algebra](https://github.com/fibo/algebra) - 代数结构。
+- [multimath](https://github.com/nodeca/multimath) - 在 WebAssembly 和 JS 中进行快速图像数学运算。
 
 ### 日期 和 时间
 
@@ -230,8 +231,8 @@
 - [strftime](https://github.com/samsonjs/strftime) - JavaScript 版时间格式化 Strftime。 ![](https://img.shields.io/github/stars/samsonjs/strftime.svg?style=social&label=Star)
 - [node-microtime](https://github.com/wadey/node-microtime) - 以微秒为单位获取当前时间。 ![](https://img.shields.io/github/stars/wadey/node-microtime.svg?style=social&label=Star)
 - [date-utils](https://github.com/JerrySievert/date-utils) - 用于 Node.js 和浏览器的日期垫片（Polyfills）。 ![](https://img.shields.io/github/stars/JerrySievert/date-utils.svg?style=social&label=Star)
-- [pretty-hrtime](https://github.com/robrich/pretty-hrtime) - 将 process.hrtime()的结果转换为人可读性的字符串。 ![](https://img.shields.io/github/stars/robrich/pretty-hrtime.svg?style=social&label=Star)
-- [humanize-ms](https://github.com/node-modules/humanize-ms) - 将人类可读的时间转换为毫秒。 ![](https://img.shields.io/github/stars/node-modules/humanize-ms.svg?style=social&label=Star)
+- [pretty-hrtime](https://github.com/robrich/pretty-hrtime) - 将 process.hrtime()的结果转换为人可读性的字符串。
+- [humanize-ms](https://github.com/node-modules/humanize-ms) - 对人友好可读的时间格式转换为毫秒。
 
 ### 正则/通配符匹配
 
@@ -243,7 +244,7 @@
 - [matcher](https://github.com/sindresorhus/matcher) - 简单通配符匹配。 ![](https://img.shields.io/github/stars/sindresorhus/matcher.svg?style=social&label=Star)
 - [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - 转义特殊正则字符。 ![](https://img.shields.io/github/stars/sindresorhus/escape-string-regexp.svg?style=social&label=Star)
 - [multimatch](https://github.com/sindresorhus/multimatch) - 扩展 minimatch.match() 以支持多种模式。 ![](https://img.shields.io/github/stars/sindresorhus/multimatch.svg?style=social&label=Star)
-- [execall](https://github.com/sindresorhus/execall) - 在字符串中查找多个 RegExp 匹配项。 ![](https://img.shields.io/github/stars/sindresorhus/execall.svg?style=social&label=Star)
+- [execall](https://github.com/sindresorhus/execall) - 在字符串中查找多个 RegExp 匹配项。
 
 ### URL
 
@@ -257,8 +258,8 @@
 - [url-join](https://github.com/jfromaniello/url-join) - 将所有参数连接在一起，并将结果 url 规范化。 ![](https://img.shields.io/github/stars/jfromaniello/url-join.svg?style=social&label=Star)
 - [humanize-url](https://github.com/sindresorhus/humanize-url) - 使 URL 更可读: http://sindresorhus.com → sindresorhus.com。 ![](https://img.shields.io/github/stars/sindresorhus/humanize-url.svg?style=social&label=Star)
 - [parseurl](https://github.com/pillarjs/parseurl) - 使用记忆化方式解析 URL. ![](https://img.shields.io/github/stars/pillarjs/parseurl.svg?style=social&label=Star)
-- [file-url](https://github.com/sindresorhus/file-url) - 将文件路径转化为文件 URL: `unicorn.jpg` → `file:///Users/sindresorhus/unicorn.jpg` ![](https://img.shields.io/github/stars/sindresorhus/file-url.svg?style=social&label=Star)
-- [encodeurl](https://github.com/pillarjs/encodeurl) - 将 URL 编码为"百分比"形式，不编码已编码部分。 ![](https://img.shields.io/github/stars/pillarjs/encodeurl.svg?style=social&label=Star)
+- [file-url](https://github.com/sindresorhus/file-url) - 将文件路径转化为文件 URL: `unicorn.jpg` → `file:///Users/sindresorhus/unicorn.jpg`。
+- [encodeurl](https://github.com/pillarjs/encodeurl) - 将 URL 编码为"百分比"形式，不编码已编码部分。
 
 ### 对象 / JSON / JSON Schema
 
@@ -306,9 +307,8 @@
 - [gifencoder](https://github.com/eugeneware/gifencoder) - Node.js 服务器端动画 gif 生成。 ![](https://img.shields.io/github/stars/eugeneware/gifencoder.svg?style=social&label=Star)
 - [ImageScript](https://github.com/matmen/ImageScript) - 零依赖的JavaScript图片操作库。 ![](https://img.shields.io/github/stars/matmen/ImageScript.svg?style=social&label=Star)
 - [image-type](https://github.com/sindresorhus/image-type) - 检测 Buffer / Uint8Array 的图像类型。 ![](https://img.shields.io/github/stars/sindresorhus/image-type.svg?style=social&label=Star)
-- [node-pngquant](https://github.com/papandreou/node-pngquant) - pngquant 作为可读/可写流操作 png。 ![](https://img.shields.io/github/stars/papandreou/node-pngquant.svg?style=social&label=Star)
-- [node-bitmap](https://github.com/nowelium/node-bitmap) - 纯 JavaScript Bitmap 库。 ![](https://img.shields.io/github/stars/nowelium/node-bitmap.svg?style=social&label=Star)
-
+- [node-pngquant](https://github.com/papandreou/node-pngquant) - pngquant 作为可读/可写流操作 png。
+- [node-bitmap](https://github.com/nowelium/node-bitmap) - 纯 JavaScript Bitmap 库。
 #### SVG
 
 - [svgo](https://github.com/svg/svgo) - 一个优化 SVG 文件的工具。 ![](https://img.shields.io/github/stars/lovell/sharp.svg?style=social&label=Star)
@@ -333,7 +333,7 @@
 - [svgicons2svgfont](https://github.com/nfroidure/svgicons2svgfont) - 连接 SVG 图标并输出 SVG 字体。 ![](https://img.shields.io/github/stars/nfroidure/svgicons2svgfont.svg?style=social&label=Star)
 - [webfont](https://github.com/itgalaxy/webfont) - 很棒的网页字体生成器。 ![](https://img.shields.io/github/stars/itgalaxy/webfont.svg?style=social&label=Star)
 - [ttf2eot](https://github.com/fontello/ttf2eot) - 字体转换器, TTF 格式转化为 EOT。 ![](https://img.shields.io/github/stars/fontello/ttf2eot.svg?style=social&label=Star)
-- [wawoff2](https://github.com/fontello/wawoff2) - 使用 WebAssembly 构建 Google 的 woff2。 ![](https://img.shields.io/github/stars/fontello/wawoff2.svg?style=social&label=Star)
+- [wawoff2](https://github.com/fontello/wawoff2) - 使用 WebAssembly 构建 Google 的 woff2。
 
 ### 颜色
 
@@ -361,7 +361,7 @@
 - [hash-sum](https://github.com/bevacqua/hash-sum) - 极快的唯一哈希生成器。 ![](https://img.shields.io/github/stars/bevacqua/hash-sum.svg?style=social&label=Star)
 - [cryptr](https://github.com/MauriceButler/cryptr) - 非常基础的加密和解密 Node.js 模块。 ![](https://img.shields.io/github/stars/MauriceButler/cryptr.svg?style=social&label=Star)
 - [pbkdf2](https://github.com/crypto-browserify/pbkdf2) - 在 Node 中具有任何受支持的哈希算法 PBKDF2。 ![](https://img.shields.io/github/stars/crypto-browserify/pbkdf2.svg?style=social&label=Star)
-- [bcrypt-pbkdf](https://github.com/joyent/node-bcrypt-pbkdf) - POpenBSD `bcrypt_pbkdf` Javascript 实现。 ![](https://img.shields.io/github/stars/joyent/node-bcrypt-pbkdf.svg?style=social&label=Star)
+- [bcrypt-pbkdf](https://github.com/joyent/node-bcrypt-pbkdf) - POpenBSD `bcrypt_pbkdf` Javascript 实现。
 
 ### 流
 
@@ -386,38 +386,38 @@
 - [pumpify](https://github.com/mafintosh/pumpify) - 使用泵和全双工，将一系列流合并为单个双工流。 ![](https://img.shields.io/github/stars/mafintosh/pumpify.svg?style=social&label=Star)
 - [progress-stream](https://github.com/freeall/progress-stream) - 读取流的进度。 ![](https://img.shields.io/github/stars/freeall/progress-stream.svg?style=social&label=Star)
 - [merge-stream](https://github.com/grncdr/merge-stream) - 将多个流合并为一个交错流。 ![](https://img.shields.io/github/stars/grncdr/merge-stream.svg?style=social&label=Star)
-- [duplexify](https://github.com/mafintosh/duplexify) - 将可写和可读流转换为具有异步初始化和 stream1/streams2 输入支持的 stream2 双工流。 ![](https://img.shields.io/github/stars/mafintosh/duplexify.svg?style=social&label=Star)
-- [into-stream](https://github.com/sindresorhus/into-stream) - 将缓存/字符串/数组/对象转换为流。 ![](https://img.shields.io/github/stars/sindresorhus/into-stream.svg?style=social&label=Star)
-- [merge2](https://github.com/teambition/merge2) - 按顺序或并行的方式将多个流合并为一个流。 ![](https://img.shields.io/github/stars/teambition/merge2.svg?style=social&label=Star)
-- [end-of-stream](https://github.com/mafintosh/end-of-stream) - 当可读/可写/双工流已完成或失败时，调用回调。 ![](https://img.shields.io/github/stars/mafintosh/end-of-stream.svg?style=social&label=Star)
-- [stream-to-promise](https://github.com/bendrucker/stream-to-promise) - 将流（可读或可写流）转换为 Promise。 ![](https://img.shields.io/github/stars/bendrucker/stream-to-promise.svg?style=social&label=Star)
-- [node-streamifier](https://github.com/gagle/node-streamifier) - 将 Buffer/String 转换为可读流。 ![](https://img.shields.io/github/stars/gagle/node-streamifier.svg?style=social&label=Star)
-- [stream-spec](https://github.com/dominictarr/stream-spec) - Stream 的可执行规范（让测试流变得更容易）。 ![](https://img.shields.io/github/stars/dominictarr/stream-spec.svg?style=social&label=Star)
-- [from2](https://github.com/hughsk/from2) - ReadableStream 的便捷封装，其灵感来自 through2。 ![](https://img.shields.io/github/stars/hughsk/from2.svg?style=social&label=Star)
-- [dmap-stream](https://github.com/dominictarr/map-stream) - 基于 Event-stream 事件流重构。 ![](https://img.shields.io/github/stars/dominictarr/map-stream.svg?style=social&label=Star)
-- [emit-stream](https://github.com/substack/emit-stream) - 将 event-emiiters 转换为流 和 将流转换为 event-emiiters。 ![](https://img.shields.io/github/stars/substack/emit-stream.svg?style=social&label=Star)
-- [stream-combiner](https://github.com/dominictarr/stream-combiner) - 将管道变成单个流。合并返回的流，写入第一个流并从最后一个流读取的流。 ![](https://img.shields.io/github/stars/dominictarr/stream-combiner.svg?style=social&label=Star)
-- [duplexer](https://github.com/raynos/duplexer) - 创建一个双工流。 ![](https://img.shields.io/github/stars/raynos/duplexer.svg?style=social&label=Star)
-- [promise-streams](https://github.com/spion/promise-streams) - Node.js 流的集合，可以很好地与 Promises (through, map, reduce 等）一起使用。 ![](https://img.shields.io/github/stars/spion/promise-streams.svg?style=social&label=Star)
-- [binary-split](https://github.com/maxogden/binary-split) - 快速的换行符（或任何分隔符）分隔符流。 ![](https://img.shields.io/github/stars/maxogden/binary-split.svg?style=social&label=Star)
-- [stream-combiner2](https://github.com/substack/stream-combiner2) - stream3 的 stream-combiner。 ![](https://img.shields.io/github/stars/substack/stream-combiner2.svg?style=social&label=Star)
-- [through2-concurrent](https://github.com/almost/through2-concurrent) - 简单的 Node.JS 流（streams2）转换，可并行执行转换功能（可设置的最大并发数）。 ![](https://img.shields.io/github/stars/almost/through2-concurrent.svg?style=social&label=Star)
-- [cloneable-readable](https://github.com/mcollina/cloneable-readable) - 安全地克隆可读流。 ![](https://img.shields.io/github/stars/mcollina/cloneable-readable.svg?style=social&label=Star)
-- [destroy](https://github.com/stream-utils/destroy) - 如果可能，销毁流。 ![](https://img.shields.io/github/stars/stream-utils/destroy.svg?style=social&label=Star)
-- [peek-stream](https://github.com/mafintosh/peek-stream) - 转换流，可让您在决定如何解析前先窥视第一行。 ![](https://img.shields.io/github/stars/mafintosh/peek-stream.svg?style=social&label=Star)
-- [resumer](https://github.com/substack/resumer) - 通过流开始暂停，并在下一个 tick 恢复。 ![](https://img.shields.io/github/stars/substack/resumer.svg?style=social&label=Star)
-- [stream-each](https://github.com/mafintosh/stream-each) - 迭代流中的所有数据。 ![](https://img.shields.io/github/stars/mafintosh/stream-each.svg?style=social&label=Star)
-- [flush-write-stream](https://github.com/mafintosh/flush-write-stream) - 一种写入流构造函数，支持流完成之前调用的 flush 函数。 ![](https://img.shields.io/github/stars/mafintosh/flush-write-stream.svg?style=social&label=Star)
-- [multi-write-stream](https://github.com/mafintosh/multi-write-stream) - 创建一个可写流，其可写入多个其他可写流。 ![](https://img.shields.io/github/stars/mafintosh/multi-write-stream.svg?style=social&label=Star)
-- [first-chunk-stream](https://github.com/sindresorhus/first-chunk-stream) - 缓冲并转换流的前 n 个字节。 ![](https://img.shields.io/github/stars/sindresorhus/first-chunk-stream.svg?style=social&label=Star)
-- [multi-read-stream](https://github.com/mafintosh/multi-read-stream) - 可读流，它同时从多个可读流中读取。 ![](https://img.shields.io/github/stars/mafintosh/multi-read-stream.svg?style=social&label=Star)
-- [node-stream-reduce](https://github.com/parshap/node-stream-reduce) - 将流数据减少为单个值。 ![](https://img.shields.io/github/stars/parshap/node-stream-reduce.svg?style=social&label=Star)
-- [stream-shift](https://github.com/mafintosh/stream-shift) - 返回流可读队列中的下一个缓冲区/对象。 ![](https://img.shields.io/github/stars/mafintosh/stream-shift.svg?style=social&label=Star)
-- [stream-assert](https://github.com/floatdrop/stream-assert) - 流的断言库。 ![](https://img.shields.io/github/stars/floatdrop/stream-assert.svg?style=social&label=Star)
-- [stream-from-promise](https://github.com/schnittstabil/stream-from-promise) - 根据 Promise 创建流。 ![](https://img.shields.io/github/stars/schnittstabil/stream-from-promise.svg?style=social&label=Star)
+- [duplexify](https://github.com/mafintosh/duplexify) - 将可写和可读流转换为具有异步初始化和 stream1/streams2 输入支持的 stream2 双工流。
+- [into-stream](https://github.com/sindresorhus/into-stream) - 将缓存/字符串/数组/对象转换为流。
+- [merge2](https://github.com/teambition/merge2) - 按顺序或并行的方式将多个流合并为一个流。
+- [end-of-stream](https://github.com/mafintosh/end-of-stream) - 当可读/可写/双工流已完成或失败时，调用回调。
+- [stream-to-promise](https://github.com/bendrucker/stream-to-promise) - 将流（可读或可写流）转换为 Promise。
+- [node-streamifier](https://github.com/gagle/node-streamifier) - 将 Buffer/String 转换为可读流。
+- [stream-spec](https://github.com/dominictarr/stream-spec) - Stream 的可执行规范（让测试流变得更容易）。
+- [from2](https://github.com/hughsk/from2) - ReadableStream 的便捷封装，其灵感来自 through2。
+- [dmap-stream](https://github.com/dominictarr/map-stream) - 基于 Event-stream 事件流重构。 
+- [emit-stream](https://github.com/substack/emit-stream) - 将 event-emiiters 转换为流 和 将流转换为 event-emiiters。
+- [stream-combiner](https://github.com/dominictarr/stream-combiner) - 将管道变成单个流。合并返回的流，写入第一个流并从最后一个流读取的流。
+- [duplexer](https://github.com/raynos/duplexer) - 创建一个双工流。
+- [promise-streams](https://github.com/spion/promise-streams) - Node.js 流的集合，可以很好地与 Promises (through, map, reduce 等）一起使用。
 - [stromjs](https://github.com/lewisdiamond/stromjs) - 无依赖的流实用程序。流的 Lodash。 ![](https://img.shields.io/github/stars/lewisdiamond/stromjs.svg?style=social&label=Star)
-- [exec-stream](https://github.com/suarasaur/exec-stream) - 将流传入到子进程。 ![](https://img.shields.io/github/stars/suarasaur/exec-stream.svg?style=social&label=Star)
-- [stream-callback](https://github.com/kikobeats/stream-callback) – 将流转换为一个回调函数。 ![](https://img.shields.io/github/stars/kikobeats/stream-callback.svg?style=social&label=Star)
+- [cloneable-readable](https://github.com/mcollina/cloneable-readable) - 安全地克隆可读流。
+- [binary-split](https://github.com/maxogden/binary-split) - 快速的换行符（或任何分隔符）分隔符流。
+- [stream-combiner2](https://github.com/substack/stream-combiner2) - stream3 的 stream-combiner。
+- [through2-concurrent](https://github.com/almost/through2-concurrent) - 简单的 Node.JS 流（streams2）转换，可并行执行转换功能（可设置的最大并发数）。
+- [destroy](https://github.com/stream-utils/destroy) - 如果可能，销毁流。
+- [peek-stream](https://github.com/mafintosh/peek-stream) - 转换流，可让您在决定如何解析前先窥视第一行。 
+- [resumer](https://github.com/substack/resumer) - 通过流开始暂停，并在下一个 tick 恢复。
+- [stream-each](https://github.com/mafintosh/stream-each) - 迭代流中的所有数据。
+- [flush-write-stream](https://github.com/mafintosh/flush-write-stream) - 一种写入流构造函数，支持流完成之前调用的 flush 函数。
+- [multi-write-stream](https://github.com/mafintosh/multi-write-stream) - 创建一个可写流，其可写入多个其他可写流。
+- [first-chunk-stream](https://github.com/sindresorhus/first-chunk-stream) - 缓冲并转换流的前 n 个字节。
+- [multi-read-stream](https://github.com/mafintosh/multi-read-stream) - 可读流，它同时从多个可读流中读取。
+- [node-stream-reduce](https://github.com/parshap/node-stream-reduce) - 将流数据减少为单个值。
+- [stream-shift](https://github.com/mafintosh/stream-shift) - 返回流可读队列中的下一个缓冲区/对象。
+- [stream-assert](https://github.com/floatdrop/stream-assert) - 流的断言库。
+- [stream-from-promise](https://github.com/schnittstabil/stream-from-promise) - 根据 Promise 创建流。
+- [exec-stream](https://github.com/suarasaur/exec-stream) - 将流传入到子进程。
+- [stream-callback](https://github.com/kikobeats/stream-callback) – 将流转换为一个回调函数。
 
 ### 检测/判断
 
@@ -428,14 +428,14 @@
 - [is-type-of](https://github.com/node-modules/is-type-of) - Node.js 完整类型判断。 ![](https://img.shields.io/github/stars/node-modules/is-type-of.svg?style=social&label=Star)
 - [is-stream](https://github.com/sindresorhus/is-stream) - 判断对象是否为流对象。 ![](https://img.shields.io/github/stars/sindresorhus/is-stream.svg?style=social&label=Star)
 - [is-utf8](https://github.com/wayfind/is-utf8) - 判断 Buffer 对象是否 UTF8 编码。 ![](https://img.shields.io/github/stars/wayfind/is-utf8.svg?style=social&label=Star)
-- [core-util-is](https://github.com/isaacs/core-util-is) - Node.js 核心工具 util.is* 函数。 ![](https://img.shields.io/github/stars/isaacs/core-util-is.svg?style=social&label=Star)
-- [is-ip](https://github.com/sindresorhus/is-ip) - 检查字符串是否为 IP 地址。 ![](https://img.shields.io/github/stars/sindresorhus/is-ip.svg?style=social&label=Star)
-- [isstream](https://github.com/rvagg/isstream) - 判断对象是否为流对象。 ![](https://img.shields.io/github/stars/rvagg/isstream.svg?style=social&label=Star)
-- [is-class](https://github.com/miguelmota/is-class) - 判断函数是否为 ES6 类(class) 类型。 ![](https://img.shields.io/github/stars/miguelmota/is-class.svg?style=social&label=Star)
-- [isexe](https://github.com/isaacs/isexe) - 检查文件是否可执行文件。 ![](https://img.shields.io/github/stars/isaacs/isexe.svg?style=social&label=Star)
-- [is-type](https://github.com/juliangruber/is-type) - Node.js 核心类型判断。 ![](https://img.shields.io/github/stars/juliangruber/is-type.svg?style=social&label=Star)
-- [is-md5](https://github.com/imanhodjaev/is-md5) - JavaScript 实用程序，用于检查字符串是否为 md5 加密。 ![](https://img.shields.io/github/stars/imanhodjaev/is-md5.svg?style=social&label=Star)
-- [is-core-module](https://github.com/inspect-js/is-core-module) - 判断一个说明符 是否为 Node.js 核心模块。 ![](https://img.shields.io/github/stars/inspect-js/is-core-module.svg?style=social&label=Star)
+- [core-util-is](https://github.com/isaacs/core-util-is) - Node.js 核心工具 util.is* 函数。
+- [is-ip](https://github.com/sindresorhus/is-ip) - 检查字符串是否为 IP 地址。
+- [isstream](https://github.com/rvagg/isstream) - 判断对象是否为流对象。
+- [is-class](https://github.com/miguelmota/is-class) - 判断函数是否为 ES6 类(class) 类型。
+- [isexe](https://github.com/isaacs/isexe) - 检查文件是否可执行文件。
+- [is-type](https://github.com/juliangruber/is-type) - Node.js 核心类型判断。
+- [is-core-module](https://github.com/inspect-js/is-core-module) - 判断一个说明符 是否为 Node.js 核心模块。
+- [is-md5](https://github.com/imanhodjaev/is-md5) - JavaScript 实用程序，用于检查字符串是否为 md5 加密。
 
 ### 数据校验
 
@@ -477,14 +477,14 @@
   - [p-map](https://github.com/sindresorhus/p-map) - 并发的 Map 执行 Promise 。 ![](https://img.shields.io/github/stars/sindresorhus/p-map.svg?style=social&label=Star)
   - [delay](https://github.com/sindresorhus/delay) - 将 Promise 延迟指定的时间。 ![](https://img.shields.io/github/stars/sindresorhus/delay.svg?style=social&label=Star)
   - [thenify](https://github.com/thenables/thenify) - 将一个基于回调的函数 Promise 化。 ![](https://img.shields.io/github/stars/thenables/thenify.svg?style=social&label=Star)
-  - [thenify-all](https://github.com/thenables/thenify-all) - 将一个对象中所有选中的方法全部 Promise 化。 ![](https://img.shields.io/github/stars/thenables/thenify-all.svg?style=social&label=Star)
-  - [promise-memoize](https://github.com/nodeca/promise-memoize) - 记忆化 Promise 返回函数，带过期和 prefetch 预取功能。 ![](https://img.shields.io/github/stars/nodeca/promise-memoize.svg?style=social&label=Star)
-  - [valvelet](https://github.com/lpinca/valvelet) - 限制 Promise 返回函数的执行率(限流)。 ![](https://img.shields.io/github/stars/lpinca/valvelet.svg?style=social&label=Star)
+  - [thenify-all](https://github.com/thenables/thenify-all) - 将一个对象中所有选中的方法全部 Promise 化。
+  - [promise-memoize](https://github.com/nodeca/promise-memoize) - 记忆化 Promise 返回函数，带过期和 prefetch 预取功能。
+  - [valvelet](https://github.com/lpinca/valvelet) - 限制 Promise 返回函数的执行率(限流)。
 
 - 可观察对象
   - [RxJS](https://github.com/ReactiveX/RxJS) - 响应式编程。 ![](https://img.shields.io/github/stars/ReactiveX/RxJS.svg?style=social&label=Star)
   - [zen-observable](https://github.com/zenparsing/zen-observable) - 可观察对象的实现。 ![](https://img.shields.io/github/stars/zenparsing/zen-observable.svg?style=social&label=Star)
-  - [observable-to-promise](https://github.com/sindresorhus/observable-to-promise) - 将可观察对象转化为 Promise. ![](https://img.shields.io/github/stars/sindresorhus/observable-to-promise.svg?style=social&label=Star)
+  - [observable-to-promise](https://github.com/sindresorhus/observable-to-promise) - 将可观察对象转化为 Promise. 
 
 - 回调函数
   - [async](https://github.com/caolan/async) - 提供直接、强大的函数们来处理异步问题。 ![](https://img.shields.io/github/stars/caolan/async.svg?style=social&label=Star)
@@ -501,7 +501,7 @@
 - [InversifyJS](https://github.com/inversify/InversifyJS) - 功能强大且轻便的控制反转容器。 ![](https://img.shields.io/github/stars/inversify/InversifyJS.svg?style=social&label=Star)
 - [injection-js](https://github.com/mgechev/injection-js) - 5.1K 中的 JavaScript 和 TypeScript 的依赖注入库。它提取自 Angular 的 ReflectiveInjector，这意味着它设计合理，功能完整、快速、可靠且经过良好测试。 ![](https://img.shields.io/github/stars/mgechev/injection-js.svg?style=social&label=Star)
 - [power-di](https://github.com/zhang740/power-di) - 轻量的依赖注入库。 ![](https://img.shields.io/github/stars/zhang740/power-di.svg?style=social&label=Star)
-- [@opensumi/di](https://github.com/opensumi/di) - 依赖注入工具。  ![](https://img.shields.io/github/stars/opensumi/di.svg?style=social&label=Star)
+- [@opensumi/di](https://github.com/opensumi/di) - 依赖注入工具。
 
 ### Shell
 
@@ -514,10 +514,10 @@
 - [cross-spawn](https://github.com/IndigoUnited/node-cross-spawn) - 跨平台实现 `child_process.spawn()`。 ![](https://img.shields.io/github/stars/IndigoUnited/node-cross-spawn.svg?style=social&label=Star)
 - [parallelshell](https://github.com/darkguy2008/parallelshell) - 并行运行多个 shell 命令。 ![](https://img.shields.io/github/stars/darkguy2008/parallelshell.svg?style=social&label=Star)
 - [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - 跨平台的复制/粘贴。 ![](https://img.shields.io/github/stars/sindresorhus/clipboard-cli.svg?style=social&label=Star)
-- [gulp-execa](https://github.com/ehmicky/gulp-execa) - 在 Gulp 中跨平台命令执行。 ![](https://img.shields.io/github/stars/ehmicky/gulp-execa.svg?style=social&label=Star)
-- [runscript](https://github.com/node-modules/runscript) - 更容易的运行脚本命令。 ![](https://img.shields.io/github/stars/node-modules/runscript.svg?style=social&label=Star)
-- [cross-spawn-promise](https://github.com/zentrick/cross-spawn-promise) - Promise 化的 cross-spawn。 ![](https://img.shields.io/github/stars/zentrick/cross-spawn-promise.svg?style=social&label=Star)
-- [shell-exec](https://github.com/tiaanduplessis/shell-exec) - 通过系统 Shell 执行命令。 ![](https://img.shields.io/github/stars/tiaanduplessis/shell-exec.svg?style=social&label=Star)
+- [gulp-execa](https://github.com/ehmicky/gulp-execa) - 在 Gulp 中跨平台命令执行。
+- [runscript](https://github.com/node-modules/runscript) - 更容易的运行脚本命令。
+- [cross-spawn-promise](https://github.com/zentrick/cross-spawn-promise) - Promise 化的 cross-spawn。
+- [shell-exec](https://github.com/tiaanduplessis/shell-exec) - 通过系统 Shell 执行命令。
 
 ### 环境
 
@@ -528,13 +528,13 @@
 - [user-home](https://github.com/sindresorhus/user-home) - 跨平台获取用户 home 目录路径。 ![](https://img.shields.io/github/stars/sindresorhus/user-home.svg?style=social&label=Star)
 - [username](https://github.com/sindresorhus/username) - 获取当前用户名。 ![](https://img.shields.io/github/stars/sindresorhus/username.svg?style=social&label=Star)
 - [osenv](https://github.com/npm/osenv) - 跨平台环境变量。 ![](https://img.shields.io/github/stars/npm/osenv.svg?style=social&label=Star)
-- [is-elevated](https://github.com/sindresorhus/is-elevated) - 检查进程是否以提升的权限运行。 ![](https://img.shields.io/github/stars/sindresorhus/is-elevated.svg?style=social&label=Star)
+- [is-elevated](https://github.com/sindresorhus/is-elevated) - 检查进程是否以提升的权限运行。
 
 ### 事件
 
 - [eventemitter3](https://github.com/primus/eventemitter3) - 高性能 EventEmitter. ![](https://img.shields.io/github/stars/primus/eventemitter3.svg?style=social&label=Star)
 - [tiny-emitter](https://github.com/scottcorgan/tiny-emitter) - 小型 EventEmitter 库 (小于 1k) event emitter library.  ![](https://img.shields.io/github/stars/scottcorgan/tiny-emitter.svg?style=social&label=Star)
-- [ee-first](https://github.com/jonathanong/ee-first) - 获取一组 EventEmitter 和 Event 对中的第一个事件，然后对其进行清理。 ![](https://img.shields.io/github/stars/jonathanong/ee-first.svg?style=social&label=Star)
+- [ee-first](https://github.com/jonathanong/ee-first) - 获取一组 EventEmitter 和 Event 对中的第一个事件，然后对其进行清理。
 
 ### 命令行工具
 
@@ -588,7 +588,7 @@
   - [cli-highlight](https://github.com/felixfbecker/cli-highlight) - 终端的语法高亮显示💻✨ ![](https://img.shields.io/github/stars/felixfbecker/cli-highlight.svg?style=social&label=Star)
   - [treeify](https://github.com/notatestuser/treeify) - 将 javascript 对象漂亮地打印为树。 ![](https://img.shields.io/github/stars/notatestuser/treeify.svg?style=social&label=Star)
   - [kolorist](https://github.com/marvinhagemeister/kolorist) - 使用输入和输出色彩化的小工具。 ![](https://img.shields.io/github/stars/marvinhagemeister/kolorist.svg?style=social&label=Star)
-  - [console-png](https://github.com/aantthony/console-png) - 在命令行输出中打印 PNG 图片。 ![](https://img.shields.io/github/stars/aantthony/console-png.svg?style=social&label=Star)
+  - [console-png](https://github.com/aantthony/console-png) - 在命令行输出中打印 PNG 图片。
 
 - 编辑器
   - [slap](https://github.com/slap-editor/slap) - 基于命令行终端的类 Sublime 文本编辑器。 ![](https://img.shields.io/github/stars/slap-editor/slap.svg?style=social&label=Star)
@@ -599,7 +599,7 @@
   - [update-notifier](https://github.com/yeoman/update-notifier) - 为你的 CLI 应用提供的更新提示。 ![](https://img.shields.io/github/stars/yeoman/update-notifier.svg?style=social&label=Star)
   - [console-stamp](https://github.com/starak/node-console-stamp) - 为 NodeJS console 方法添加布丁，使其按模式添加时间戳信息。 ![](https://img.shields.io/github/stars/starak/node-console-stamp.svg?style=social&label=Star)
   - [didyoumean](https://github.com/dcporter/didyoumean.js) - 简单、优化的 JS 库 和 Node.JS 模块，用于将简短的人为的输入匹配到一个可能性列表中。 ![](https://img.shields.io/github/stars/dcporter/didyoumean.js.svg?style=social&label=Star)
-  - [console-clear](https://github.com/lukeed/console-clear) - 跨平台清空控制台。 ![](https://img.shields.io/github/stars/lukeed/console-clear.svg?style=social&label=Star)
+  - [console-clear](https://github.com/lukeed/console-clear) - 跨平台清空控制台。
 
 ### Node.js 管理工具
 

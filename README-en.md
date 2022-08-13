@@ -133,19 +133,19 @@ English | [简体中文](./README.md)
 - Common
   - [humps](https://github.com/domchristie/humps) - Underscore-to-camelCase converter (and vice versa) for strings and object keys in JavaScript. ![](https://img.shields.io/github/stars/domchristie/humps.svg?style=social&label=Star)
   - [dedent](https://github.com/dmnd/dedent) - ES6 string tag that strips indentation from multi-line strings. ![](https://img.shields.io/github/stars/dmnd/dedent.svg?style=social&label=Star)
-  - [camelcase](https://github.com/sindresorhus/camelcase) - Convert a dash/dot/underscore/space separated string to camelCase: foo-bar → fooBar. ![](https://img.shields.io/github/stars/sindresorhus/camelcase.svg?style=social&label=Star)
-  - [string-width](https://github.com/sindresorhus/string-width) - Get the visual width of a string - the number of columns required to display it. ![](https://img.shields.io/github/stars/sindresorhus/string-width.svg?style=social&label=Star)
-  - [decamelize](https://github.com/sindresorhus/decamelize) - Convert a camelized string into a lowercased one with a custom separator: unicornRainbow → unicorn_rainbow ![](https://img.shields.io/github/stars/sindresorhus/decamelize.svg?style=social&label=Star)
-  - [detect-indent](https://github.com/sindresorhus/detect-indent) - Detect the indentation of code. ![](https://img.shields.io/github/stars/sindresorhus/detect-indent.svg?style=social&label=Star)
-  - [string-length](https://github.com/sindresorhus/string-length) - Get the real length of a string - by correctly counting astral symbols and ignoring ansi escape codes. ![](https://img.shields.io/github/stars/sindresorhus/string-length.svg?style=social&label=Star)
-  - [strip-indent](https://github.com/sindresorhus/strip-indent) - Strip leading whitespace from every line in a string. ![](https://img.shields.io/github/stars/sindresorhus/strip-indent.svg?style=social&label=Star)
-  - [strip-bom](https://github.com/sindresorhus/strip-bom) - Strip UTF-8 byte order mark (BOM) from a string. ![](https://img.shields.io/github/stars/sindresorhus/strip-bom.svg?style=social&label=Star)
-  - [indent-string](https://github.com/sindresorhus/indent-string) - Indent each line in a string. ![](https://img.shields.io/github/stars/sindresorhus/indent-string.svg?style=social&label=Star)
-  - [redent](https://github.com/sindresorhus/redent) - Strip redundant indentation and indent the string. ![](https://img.shields.io/github/stars/sindresorhus/redent.svg?style=social&label=Star)
-  - [normalize-newline](https://github.com/sindresorhus/normalize-newline) - Normalize the newline characters in a string to `\n`. ![](https://img.shields.io/github/stars/sindresorhus/normalize-newline.svg?style=social&label=Star)
-  - [min-indent](https://github.com/jamiebuilds/min-indent) - Get the shortest leading whitespace from lines in a string. ![](https://img.shields.io/github/stars/jamiebuilds/min-indent.svg?style=social&label=Star)
-  - [trim-right](https://github.com/sindresorhus/trim-right) - Similar to String#trim() but removes only whitespace on the right. ![](https://img.shields.io/github/stars/sindresorhus/trim-right.svg?style=social&label=Star)
-  - [splice-string](https://github.com/sindresorhus/splice-string) - Remove or replace part of a string like `Array#splice`. ![](https://img.shields.io/github/stars/sindresorhus/splice-string.svg?style=social&label=Star)
+  - [camelcase](https://github.com/sindresorhus/camelcase) - Convert a dash/dot/underscore/space separated string to camelCase: foo-bar → fooBar.
+  - [string-width](https://github.com/sindresorhus/string-width) - Get the visual width of a string - the number of columns required to display it.
+  - [decamelize](https://github.com/sindresorhus/decamelize) - Convert a camelized string into a lowercased one with a custom separator: unicornRainbow → unicorn_rainbow.
+  - [detect-indent](https://github.com/sindresorhus/detect-indent) - Detect the indentation of code. 
+  - [string-length](https://github.com/sindresorhus/string-length) - Get the real length of a string - by correctly counting astral symbols and ignoring ansi escape codes. 
+  - [strip-indent](https://github.com/sindresorhus/strip-indent) - Strip leading whitespace from every line in a string.
+  - [strip-bom](https://github.com/sindresorhus/strip-bom) - Strip UTF-8 byte order mark (BOM) from a string.
+  - [indent-string](https://github.com/sindresorhus/indent-string) - Indent each line in a string.
+  - [redent](https://github.com/sindresorhus/redent) - Strip redundant indentation and indent the string.
+  - [normalize-newline](https://github.com/sindresorhus/normalize-newline) - Normalize the newline characters in a string to `\n`.
+  - [min-indent](https://github.com/jamiebuilds/min-indent) - Get the shortest leading whitespace from lines in a string. 
+  - [trim-right](https://github.com/sindresorhus/trim-right) - Similar to String#trim() but removes only whitespace on the right.
+  - [splice-string](https://github.com/sindresorhus/splice-string) - Remove or replace part of a string like `Array#splice`. 
 
 - i18n
   - [i18next](https://github.com/i18next/i18next) - Internationalization framework. ![](https://img.shields.io/github/stars/i18next/i18next.svg?style=social&label=Star)
@@ -159,8 +159,8 @@ English | [简体中文](./README.md)
   - [cuid](https://github.com/ericelliott/cuid) - Collision-resistant ids optimized for horizontal scaling and performance. ![](https://img.shields.io/github/stars/ericelliott/cuid.svg?style=social&label=Star)
   - [ulid](https://github.com/ulid/javascript) - Universally Unique Lexicographically Sortable Identifier. ![](https://img.shields.io/github/stars/ulid/javascript.svg?style=social&label=Star)
   - [uuid-js](https://github.com/pnegri/uuid-js) - A js library to generate and parse UUIDs,TimeUUIDs and generate TimeUUID based on Date for range selections. ![](https://img.shields.io/github/stars/pnegri/uuid-js.svg?style=social&label=Star)
-  - [pure-uuid](https://github.com/rse/pure-uuid) - Pure JavaScript Based Universally Unique Identifiers (UUID). ![](https://img.shields.io/github/stars/rse/pure-uuid.svg?style=social&label=Star)
-  - [lsp-uuid](https://github.com/ryouaki/lsp-uuid) - A uuid generator based on SnowFlake for both Browser and Nodejs. Keep sequence and can be deserialized. ![](https://img.shields.io/github/stars/ryouaki/lsp-uuid.svg?style=social&label=Star)
+  - [pure-uuid](https://github.com/rse/pure-uuid) - Pure JavaScript Based Universally Unique Identifiers (UUID).
+  - [lsp-uuid](https://github.com/ryouaki/lsp-uuid) - A uuid generator based on SnowFlake for both Browser and Nodejs. Keep sequence and can be deserialized.
 
 - Encode/Decode
   - [he](https://github.com/mathiasbynens/he) - HTML entity encoder/decoder. ![](https://img.shields.io/github/stars/mathiasbynens/he.svg?style=social&label=Star)
@@ -179,7 +179,7 @@ English | [简体中文](./README.md)
 
 - Other
   - [StegCloak](https://github.com/kurolabs/stegcloak) - Conceal secrets within strings, in plain sight. ![](https://img.shields.io/github/stars/kurolabs/stegcloak.svg?style=social&label=Star)
-  - [unhomoglyph](https://github.com/nodeca/unhomoglyph) - Normalize visually similar unicode characters. ![](https://img.shields.io/github/stars/nodeca/unhomoglyph.svg?style=social&label=Star)
+  - [unhomoglyph](https://github.com/nodeca/unhomoglyph) - Normalize visually similar unicode characters.
 
 ### Number
 
@@ -189,16 +189,16 @@ English | [简体中文](./README.md)
 - [big.js](https://github.com/MikeMcl/big.js) - A small, fast JavaScript library for arbitrary-precision decimal arithmetic. ![](https://img.shields.io/github/stars/MikeMcl/big.js.svg?style=social&label=Star)
 - [random-js](https://github.com/ckknight/random-js) - A mathematically correct random number generator library for JavaScript. ![](https://img.shields.io/github/stars/ckknight/random-js.svg?style=social&label=Star)
 - [round-to](https://github.com/sindresorhus/round-to) - Round a number to a specific number of decimal places: `1.234` → `1.2`. ![](https://img.shields.io/github/stars/sindresorhus/round-to.svg?style=social&label=Star)
-- [unique-random](https://github.com/sindresorhus/unique-random) - Generate random numbers that are consecutively unique. ![](https://img.shields.io/github/stars/sindresorhus/unique-random.svg?style=social&label=Star)
-- [random-int](https://github.com/sindresorhus/random-int) - Generate a random integer. ![](https://img.shields.io/github/stars/sindresorhus/random-int.svg?style=social&label=Star)
-- [random-float](https://github.com/sindresorhus/random-float) - Generate a random float. ![](https://img.shields.io/github/stars/sindresorhus/random-float.svg?style=social&label=Star)
+- [unique-random](https://github.com/sindresorhus/unique-random) - Generate random numbers that are consecutively unique.
+- [random-int](https://github.com/sindresorhus/random-int) - Generate a random integer.
+- [random-float](https://github.com/sindresorhus/random-float) - Generate a random float.
 
 ### Math
 
 - [mathjs](https://github.com/josdejong/mathjs) - An extensive math library. ![](https://img.shields.io/github/stars/josdejong/mathjs.svg?style=social&label=Star)
 - [ndarray](https://github.com/scijs/ndarray) - Multidimensional arrays. ![](https://img.shields.io/github/stars/scijs/ndarray.svg?style=social&label=Star)
-- [algebra](https://github.com/fibo/algebra) - Algebraic structures. ![](https://img.shields.io/github/stars/fibo/algebra.svg?style=social&label=Star)
-- [multimath](https://github.com/nodeca/multimath) - Core to create fast image math in WebAssembly and JS. ![](https://img.shields.io/github/stars/nodeca/multimath.svg?style=social&label=Star)
+- [algebra](https://github.com/fibo/algebra) - Algebraic structures.
+- [multimath](https://github.com/nodeca/multimath) - Core to create fast image math in WebAssembly and JS.
 
 ### Date & Time
 
@@ -213,8 +213,8 @@ English | [简体中文](./README.md)
 - [strftime](https://github.com/samsonjs/strftime) - Strftime for JavaScript. ![](https://img.shields.io/github/stars/samsonjs/strftime.svg?style=social&label=Star)
 - [node-microtime](https://github.com/wadey/node-microtime) - Get the current time in microseconds. ![](https://img.shields.io/github/stars/wadey/node-microtime.svg?style=social&label=Star)
 - [date-utils](https://github.com/JerrySievert/date-utils) - Date Pollyfills for Node.js and Browser. ![](https://img.shields.io/github/stars/JerrySievert/date-utils.svg?style=social&label=Star)
-- [pretty-hrtime](https://github.com/robrich/pretty-hrtime) - process.hrtime() to words. ![](https://img.shields.io/github/stars/robrich/pretty-hrtime.svg?style=social&label=Star)
-- [humanize-ms](https://github.com/node-modules/humanize-ms) - Transform humanize time to ms. ![](https://img.shields.io/github/stars/node-modules/humanize-ms.svg?style=social&label=Star)
+- [pretty-hrtime](https://github.com/robrich/pretty-hrtime) - process.hrtime() to words. 
+- [humanize-ms](https://github.com/node-modules/humanize-ms) - Transform humanize time to ms. 
 
 ### RegExp/Glob
 
@@ -226,7 +226,7 @@ English | [简体中文](./README.md)
 - [matcher](https://github.com/sindresorhus/matcher) - Simple wildcard matching. ![](https://img.shields.io/github/stars/sindresorhus/matcher.svg?style=social&label=Star)
 - [escape-string-regexp](https://github.com/sindresorhus/escape-string-regexp) - Escape RegExp special characters. ![](https://img.shields.io/github/stars/sindresorhus/escape-string-regexp.svg?style=social&label=Star)
 - [multimatch](https://github.com/sindresorhus/multimatch) - Extends minimatch.match() with support for multiple patterns. ![](https://img.shields.io/github/stars/sindresorhus/multimatch.svg?style=social&label=Star)
-- [execall](https://github.com/sindresorhus/execall) - Find multiple RegExp matches in a string. ![](https://img.shields.io/github/stars/sindresorhus/execall.svg?style=social&label=Star)
+- [execall](https://github.com/sindresorhus/execall) - Find multiple RegExp matches in a string.
 
 ### URL
 
@@ -240,8 +240,8 @@ English | [简体中文](./README.md)
 - [url-join](https://github.com/jfromaniello/url-join) - Join all arguments together and normalize the resulting url. ![](https://img.shields.io/github/stars/jfromaniello/url-join.svg?style=social&label=Star)
 - [humanize-url](https://github.com/sindresorhus/humanize-url) - Humanize a URL: https://sindresorhus.com → sindresorhus.com. ![](https://img.shields.io/github/stars/sindresorhus/humanize-url.svg?style=social&label=Star)
 - [parseurl](https://github.com/pillarjs/parseurl) - Parse a url with memoization. ![](https://img.shields.io/github/stars/pillarjs/parseurl.svg?style=social&label=Star)
-- [file-url](https://github.com/sindresorhus/file-url) - Convert a file path to a file URL: `unicorn.jpg` → `file:///Users/sindresorhus/unicorn.jpg` ![](https://img.shields.io/github/stars/sindresorhus/file-url.svg?style=social&label=Star)
-- [encodeurl](https://github.com/pillarjs/encodeurl) - Encode a URL to a percent-encoded form, excluding already-encoded sequences. ![](https://img.shields.io/github/stars/pillarjs/encodeurl.svg?style=social&label=Star)
+- [file-url](https://github.com/sindresorhus/file-url) - Convert a file path to a file URL: `unicorn.jpg` → `file:///Users/sindresorhus/unicorn.jpg`.
+- [encodeurl](https://github.com/pillarjs/encodeurl) - Encode a URL to a percent-encoded form, excluding already-encoded sequences. 
 
 ### Object / JSON / JSON Schema
 
@@ -288,8 +288,8 @@ English | [简体中文](./README.md)
 - [gifencoder](https://github.com/eugeneware/gifencoder) - Server side animated gif generation for node.js. ![](https://img.shields.io/github/stars/eugeneware/gifencoder.svg?style=social&label=Star)
 - [ImageScript](https://github.com/matmen/ImageScript) - zero-dependency JavaScript image manipulation. ![](https://img.shields.io/github/stars/matmen/ImageScript.svg?style=social&label=Star)
 - [image-type](https://github.com/sindresorhus/image-type) - Detect the image type of a Buffer/Uint8Array. ![](https://img.shields.io/github/stars/sindresorhus/image-type.svg?style=social&label=Star)
-- [node-pngquant](https://github.com/papandreou/node-pngquant) - The pngquant utility as a readable/writable stream. ![](https://img.shields.io/github/stars/papandreou/node-pngquant.svg?style=social&label=Star)
-- [node-bitmap](https://github.com/nowelium/node-bitmap) - Pure javascript Bitmap library. ![](https://img.shields.io/github/stars/nowelium/node-bitmap.svg?style=social&label=Star)
+- [node-pngquant](https://github.com/papandreou/node-pngquant) - The pngquant utility as a readable/writable stream. 
+- [node-bitmap](https://github.com/nowelium/node-bitmap) - Pure javascript Bitmap library.
 
 #### SVG
 
@@ -315,7 +315,7 @@ English | [简体中文](./README.md)
 - [svgicons2svgfont](https://github.com/nfroidure/svgicons2svgfont) - Concatenate SVG icons and ouput an SVG font. ![](https://img.shields.io/github/stars/nfroidure/svgicons2svgfont.svg?style=social&label=Star)
 - [webfont](https://github.com/itgalaxy/webfont) - Awesome generator of webfont. ![](https://img.shields.io/github/stars/itgalaxy/webfont.svg?style=social&label=Star)
 - [ttf2eot](https://github.com/fontello/ttf2eot) - Font convertor, TTF to EOT, for node.js. ![](https://img.shields.io/github/stars/fontello/ttf2eot.svg?style=social&label=Star)
-- [wawoff2](https://github.com/fontello/wawoff2) - WebAssembly build of Google's woff2. ![](https://img.shields.io/github/stars/fontello/wawoff2.svg?style=social&label=Star)
+- [wawoff2](https://github.com/fontello/wawoff2) - WebAssembly build of Google's woff2.
 
 ### Color
 
@@ -343,7 +343,7 @@ English | [简体中文](./README.md)
 - [cryptr](https://github.com/MauriceButler/cryptr) - Very basic encrypt and decrypt node module. ![](https://img.shields.io/github/stars/MauriceButler/cryptr.svg?style=social&label=Star)
 - [hash.js](https://github.com/indutny/hash.js) - Hash functions in pure javascript. ![](https://img.shields.io/github/stars/indutny/hash.js.svg?style=social&label=Star)
 - [pbkdf2](https://github.com/crypto-browserify/pbkdf2) - PBKDF2 with any supported hashing algorithm in Node. ![](https://img.shields.io/github/stars/crypto-browserify/pbkdf2.svg?style=social&label=Star)
-- [bcrypt-pbkdf](https://github.com/joyent/node-bcrypt-pbkdf) - Port of the OpenBSD `bcrypt_pbkdf` function to pure Javascript. ![](https://img.shields.io/github/stars/joyent/node-bcrypt-pbkdf.svg?style=social&label=Star)
+- [bcrypt-pbkdf](https://github.com/joyent/node-bcrypt-pbkdf) - Port of the OpenBSD `bcrypt_pbkdf` function to pure Javascript.
 
 ### Streams
 
@@ -368,38 +368,38 @@ English | [简体中文](./README.md)
 - [pumpify](https://github.com/mafintosh/pumpify) - Combine an array of streams into a single duplex stream using pump and duplexify. ![](https://img.shields.io/github/stars/mafintosh/pumpify.svg?style=social&label=Star)
 - [progress-stream](https://github.com/freeall/progress-stream) - Read the progress of a stream. ![](https://img.shields.io/github/stars/freeall/progress-stream.svg?style=social&label=Star)
 - [merge-stream](https://github.com/grncdr/merge-stream) - Merge multiple streams into one interleaved stream. ![](https://img.shields.io/github/stars/grncdr/merge-stream.svg?style=social&label=Star)
-- [duplexify](https://github.com/mafintosh/duplexify) - Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input. ![](https://img.shields.io/github/stars/mafintosh/duplexify.svg?style=social&label=Star)
-- [into-stream](https://github.com/sindresorhus/into-stream) - Convert a buffer/string/array/object into a stream. ![](https://img.shields.io/github/stars/sindresorhus/into-stream.svg?style=social&label=Star)
-- [merge2](https://github.com/teambition/merge2) - Merge multiple streams into one stream in sequence or parallel. ![](https://img.shields.io/github/stars/teambition/merge2.svg?style=social&label=Star)
-- [end-of-stream](https://github.com/mafintosh/end-of-stream) - Call a callback when a readable/writable/duplex stream has completed or failed. ![](https://img.shields.io/github/stars/mafintosh/end-of-stream.svg?style=social&label=Star)
-- [stream-to-promise](https://github.com/bendrucker/stream-to-promise) - Convert streams (readable or writable) to promises. ![](https://img.shields.io/github/stars/bendrucker/stream-to-promise.svg?style=social&label=Star)
-- [node-streamifier](https://github.com/gagle/node-streamifier) - Converts a Buffer/String to a readable stream. ![](https://img.shields.io/github/stars/gagle/node-streamifier.svg?style=social&label=Star)
-- [stream-spec](https://github.com/dominictarr/stream-spec) - executable specification for Stream (make testing streams easy). ![](https://img.shields.io/github/stars/dominictarr/stream-spec.svg?style=social&label=Star)
-- [from2](https://github.com/hughsk/from2) - Convenience wrapper for ReadableStream, inspired by through2. ![](https://img.shields.io/github/stars/hughsk/from2.svg?style=social&label=Star)
-- [dmap-stream](https://github.com/dominictarr/map-stream) - refactored out of event-stream. ![](https://img.shields.io/github/stars/dominictarr/map-stream.svg?style=social&label=Star)
-- [emit-stream](https://github.com/substack/emit-stream) - turn event emitters into streams and streams into event emitters. ![](https://img.shields.io/github/stars/substack/emit-stream.svg?style=social&label=Star)
-- [stream-combiner](https://github.com/dominictarr/stream-combiner) - Turn a pipeline into a single stream. Combine returns a stream that writes to the first stream and reads from the last stream. ![](https://img.shields.io/github/stars/dominictarr/stream-combiner.svg?style=social&label=Star)
-- [duplexer](https://github.com/raynos/duplexer) - Creates a duplex stream. ![](https://img.shields.io/github/stars/raynos/duplexer.svg?style=social&label=Star)
-- [promise-streams](https://github.com/spion/promise-streams) - A collection of node.js streams that work well with promises (through, map, reduce, etc...). ![](https://img.shields.io/github/stars/spion/promise-streams.svg?style=social&label=Star)
-- [binary-split](https://github.com/maxogden/binary-split) - A fast newline (or any delimiter) splitter stream. ![](https://img.shields.io/github/stars/maxogden/binary-split.svg?style=social&label=Star)
-- [stream-combiner2](https://github.com/substack/stream-combiner2) - stream-combiner for streams3. ![](https://img.shields.io/github/stars/substack/stream-combiner2.svg?style=social&label=Star)
-- [through2-concurrent](https://github.com/almost/through2-concurrent) - Simple Node.JS stream (streams2) Transform that runs the transform functions concurrently (with a set max concurrency). ![](https://img.shields.io/github/stars/almost/through2-concurrent.svg?style=social&label=Star)
-- [cloneable-readable](https://github.com/mcollina/cloneable-readable) - Clone a Readable stream, safely. ![](https://img.shields.io/github/stars/mcollina/cloneable-readable.svg?style=social&label=Star)
-- [destroy](https://github.com/stream-utils/destroy) - destroy a stream if possible. ![](https://img.shields.io/github/stars/stream-utils/destroy.svg?style=social&label=Star)
-- [peek-stream](https://github.com/mafintosh/peek-stream) - Transform stream that lets you peek the first line before deciding how to parse it. ![](https://img.shields.io/github/stars/mafintosh/peek-stream.svg?style=social&label=Star)
-- [resumer](https://github.com/substack/resumer) - a through stream that starts paused and resumes on the next tick. ![](https://img.shields.io/github/stars/substack/resumer.svg?style=social&label=Star)
-- [stream-each](https://github.com/mafintosh/stream-each) - Iterate all the data in a stream. ![](https://img.shields.io/github/stars/mafintosh/stream-each.svg?style=social&label=Star)
-- [flush-write-stream](https://github.com/mafintosh/flush-write-stream) - A write stream constructor that supports a flush function that is called before finish is emitted. ![](https://img.shields.io/github/stars/mafintosh/flush-write-stream.svg?style=social&label=Star)
-- [multi-write-stream](https://github.com/mafintosh/multi-write-stream) - Create a writable stream that writes to multiple other writeable streams. ![](https://img.shields.io/github/stars/mafintosh/multi-write-stream.svg?style=social&label=Star)
-- [first-chunk-stream](https://github.com/sindresorhus/first-chunk-stream) - Buffer and transform the n first bytes of a stream. ![](https://img.shields.io/github/stars/sindresorhus/first-chunk-stream.svg?style=social&label=Star)
-- [multi-read-stream](https://github.com/mafintosh/multi-read-stream) - Readable stream that reads from multiple readable streams at the same time. ![](https://img.shields.io/github/stars/mafintosh/multi-read-stream.svg?style=social&label=Star)
-- [node-stream-reduce](https://github.com/parshap/node-stream-reduce) - Reduce stream data to a single value. ![](https://img.shields.io/github/stars/parshap/node-stream-reduce.svg?style=social&label=Star)
-- [stream-shift](https://github.com/mafintosh/stream-shift) - Returns the next buffer/object in a stream's readable queue. ![](https://img.shields.io/github/stars/mafintosh/stream-shift.svg?style=social&label=Star)
-- [stream-assert](https://github.com/floatdrop/stream-assert) - Assertion library for streams. ![](https://img.shields.io/github/stars/floatdrop/stream-assert.svg?style=social&label=Star)
-- [stream-from-promise](https://github.com/schnittstabil/stream-from-promise) - Create streams from promises. ![](https://img.shields.io/github/stars/schnittstabil/stream-from-promise.svg?style=social&label=Star)
+- [duplexify](https://github.com/mafintosh/duplexify) - Turn a writeable and readable stream into a streams2 duplex stream with support for async initialization and streams1/streams2 input. 
+- [into-stream](https://github.com/sindresorhus/into-stream) - Convert a buffer/string/array/object into a stream.
+- [merge2](https://github.com/teambition/merge2) - Merge multiple streams into one stream in sequence or parallel. 
+- [end-of-stream](https://github.com/mafintosh/end-of-stream) - Call a callback when a readable/writable/duplex stream has completed or failed. 
+- [stream-to-promise](https://github.com/bendrucker/stream-to-promise) - Convert streams (readable or writable) to promises. 
+- [node-streamifier](https://github.com/gagle/node-streamifier) - Converts a Buffer/String to a readable stream. 
+- [stream-spec](https://github.com/dominictarr/stream-spec) - executable specification for Stream (make testing streams easy). 
+- [from2](https://github.com/hughsk/from2) - Convenience wrapper for ReadableStream, inspired by through2. 
+- [dmap-stream](https://github.com/dominictarr/map-stream) - refactored out of event-stream. 
+- [emit-stream](https://github.com/substack/emit-stream) - turn event emitters into streams and streams into event emitters.
+- [stream-combiner](https://github.com/dominictarr/stream-combiner) - Turn a pipeline into a single stream. Combine returns a stream that writes to the first stream and reads from the last stream. 
+- [duplexer](https://github.com/raynos/duplexer) - Creates a duplex stream. 
+- [promise-streams](https://github.com/spion/promise-streams) - A collection of node.js streams that work well with promises (through, map, reduce, etc...).
 - [stromjs](https://github.com/lewisdiamond/stromjs) - Dependency-free stream utils. The Lodash of streams. ![](https://img.shields.io/github/stars/lewisdiamond/stromjs.svg?style=social&label=Star)
-- [exec-stream](https://github.com/suarasaur/exec-stream) - stream to a child process. ![](https://img.shields.io/github/stars/suarasaur/exec-stream.svg?style=social&label=Star)
-- [stream-callback](https://github.com/kikobeats/stream-callback) – Turns a stream into a callback. ![](https://img.shields.io/github/stars/kikobeats/stream-callback.svg?style=social&label=Star)
+- [cloneable-readable](https://github.com/mcollina/cloneable-readable) - Clone a Readable stream, safely. 
+- [binary-split](https://github.com/maxogden/binary-split) - A fast newline (or any delimiter) splitter stream. 
+- [stream-combiner2](https://github.com/substack/stream-combiner2) - stream-combiner for streams3. 
+- [through2-concurrent](https://github.com/almost/through2-concurrent) - Simple Node.JS stream (streams2) Transform that runs the transform functions concurrently (with a set max concurrency). 
+- [destroy](https://github.com/stream-utils/destroy) - destroy a stream if possible.
+- [peek-stream](https://github.com/mafintosh/peek-stream) - Transform stream that lets you peek the first line before deciding how to parse it.
+- [resumer](https://github.com/substack/resumer) - a through stream that starts paused and resumes on the next tick. 
+- [stream-each](https://github.com/mafintosh/stream-each) - Iterate all the data in a stream.
+- [flush-write-stream](https://github.com/mafintosh/flush-write-stream) - A write stream constructor that supports a flush function that is called before finish is emitted.
+- [multi-write-stream](https://github.com/mafintosh/multi-write-stream) - Create a writable stream that writes to multiple other writeable streams.
+- [first-chunk-stream](https://github.com/sindresorhus/first-chunk-stream) - Buffer and transform the n first bytes of a stream.
+- [multi-read-stream](https://github.com/mafintosh/multi-read-stream) - Readable stream that reads from multiple readable streams at the same time.
+- [node-stream-reduce](https://github.com/parshap/node-stream-reduce) - Reduce stream data to a single value.
+- [stream-shift](https://github.com/mafintosh/stream-shift) - Returns the next buffer/object in a stream's readable queue.
+- [stream-assert](https://github.com/floatdrop/stream-assert) - Assertion library for streams.
+- [stream-from-promise](https://github.com/schnittstabil/stream-from-promise) - Create streams from promises.
+- [exec-stream](https://github.com/suarasaur/exec-stream) - stream to a child process.
+- [stream-callback](https://github.com/kikobeats/stream-callback) – Turns a stream into a callback.
 
 ### Check/Detect
 
@@ -410,14 +410,14 @@ English | [简体中文](./README.md)
 - [is-type-of](https://github.com/node-modules/is-type-of) - Complete type checking for node. ![](https://img.shields.io/github/stars/node-modules/is-type-of.svg?style=social&label=Star)
 - [is-stream](https://github.com/sindresorhus/is-stream) - Check if something is a Node.js stream. ![](https://img.shields.io/github/stars/sindresorhus/is-stream.svg?style=social&label=Star)
 - [is-utf8](https://github.com/wayfind/is-utf8) - Detect if a buffer is utf8 encoded. ![](https://img.shields.io/github/stars/wayfind/is-utf8.svg?style=social&label=Star)
-- [core-util-is](https://github.com/isaacs/core-util-is) - The util.is* functions from Node core. ![](https://img.shields.io/github/stars/isaacs/core-util-is.svg?style=social&label=Star)
-- [is-ip](https://github.com/sindresorhus/is-ip) - Check if a string is an IP address. ![](https://img.shields.io/github/stars/sindresorhus/is-ip.svg?style=social&label=Star)
-- [isstream](https://github.com/rvagg/isstream) - Determine if an object is a Node.js Stream. ![](https://img.shields.io/github/stars/rvagg/isstream.svg?style=social&label=Star)
-- [is-class](https://github.com/miguelmota/is-class) - Check if function is an ES6 class. ![](https://img.shields.io/github/stars/miguelmota/is-class.svg?style=social&label=Star)
-- [isexe](https://github.com/isaacs/isexe) - Minimal module to check if a file is executable. ![](https://img.shields.io/github/stars/isaacs/isexe.svg?style=social&label=Star)
-- [is-type](https://github.com/juliangruber/is-type) - Type checking from node core. ![](https://img.shields.io/github/stars/juliangruber/is-type.svg?style=social&label=Star)
-- [is-md5](https://github.com/imanhodjaev/is-md5) - JavaScript utility to check if string is md5 encrypted. ![](https://img.shields.io/github/stars/imanhodjaev/is-md5.svg?style=social&label=Star)
-- [is-core-module](https://github.com/inspect-js/is-core-module) - Is this specifier a node.js core module? ![](https://img.shields.io/github/stars/inspect-js/is-core-module.svg?style=social&label=Star)
+- [core-util-is](https://github.com/isaacs/core-util-is) - The util.is* functions from Node core.
+- [is-ip](https://github.com/sindresorhus/is-ip) - Check if a string is an IP address.
+- [isstream](https://github.com/rvagg/isstream) - Determine if an object is a Node.js Stream.
+- [is-class](https://github.com/miguelmota/is-class) - Check if function is an ES6 class.
+- [isexe](https://github.com/isaacs/isexe) - Minimal module to check if a file is executable. 
+- [is-type](https://github.com/juliangruber/is-type) - Type checking from node core. 
+- [is-core-module](https://github.com/inspect-js/is-core-module) - Is this specifier a node.js core module? 
+- [is-md5](https://github.com/imanhodjaev/is-md5) - JavaScript utility to check if string is md5 encrypted. 
 
 ### Data Validation
 
@@ -458,14 +458,14 @@ English | [简体中文](./README.md)
   - [p-map](https://github.com/sindresorhus/p-map) - Map over promises concurrently. ![](https://img.shields.io/github/stars/sindresorhus/p-map.svg?style=social&label=Star)
   - [delay](https://github.com/sindresorhus/delay) - Delay a promise a specified amount of time. ![](https://img.shields.io/github/stars/sindresorhus/delay.svg?style=social&label=Star)
   - [thenify](https://github.com/thenables/thenify) - Promisify a callback-based function. ![](https://img.shields.io/github/stars/thenables/thenify.svg?style=social&label=Star)
-  - [thenify-all](https://github.com/thenables/thenify-all) - Promisifies all the selected functions in an object. ![](https://img.shields.io/github/stars/thenables/thenify-all.svg?style=social&label=Star)
-  - [promise-memoize](https://github.com/nodeca/promise-memoize) - Memoize promise-returning functions, with expire and prefetch. ![](https://img.shields.io/github/stars/nodeca/promise-memoize.svg?style=social&label=Star)
-  - [valvelet](https://github.com/lpinca/valvelet) - Limit the execution rate of a promise-returning function. ![](https://img.shields.io/github/stars/lpinca/valvelet.svg?style=social&label=Star)
+  - [thenify-all](https://github.com/thenables/thenify-all) - Promisifies all the selected functions in an object.
+  - [promise-memoize](https://github.com/nodeca/promise-memoize) - Memoize promise-returning functions, with expire and prefetch.
+  - [valvelet](https://github.com/lpinca/valvelet) - Limit the execution rate of a promise-returning function.
 
 - Observables
   - [RxJS](https://github.com/ReactiveX/RxJS) - Reactive programming. ![](https://img.shields.io/github/stars/ReactiveX/RxJS.svg?style=social&label=Star)
   - [zen-observable](https://github.com/zenparsing/zen-observable) - Implementation of Observables. ![](https://img.shields.io/github/stars/zenparsing/zen-observable.svg?style=social&label=Star)
-  - [observable-to-promise](https://github.com/sindresorhus/awesome-observables) - Convert an Observable to a Promise. ![](https://img.shields.io/github/stars/sindresorhus/awesome-observables.svg?style=social&label=Star)
+  - [observable-to-promise](https://github.com/sindresorhus/awesome-observables) - Convert an Observable to a Promise.
 
 - Callbacks
   - [async](https://github.com/caolan/async) - Provides straight-forward, powerful functions for working with asynchronicity. ![](https://img.shields.io/github/stars/caolan/async.svg?style=social&label=Star)
@@ -482,7 +482,7 @@ English | [简体中文](./README.md)
 - [InversifyJS](https://github.com/inversify/InversifyJS) - A powerful and lightweight inversion of control container for JavaScript & Node.js apps powered by TypeScript. ![](https://img.shields.io/github/stars/inversify/InversifyJS.svg?style=social&label=Star)
 - [injection-js](https://github.com/mgechev/injection-js) - Dependency injection library for JavaScript and TypeScript in 5.1K. It is an extraction of the Angular's ReflectiveInjector which means that it's well designed, feature complete, fast, reliable and well tested. ![](https://img.shields.io/github/stars/mgechev/injection-js.svg?style=social&label=Star)
 - [power-di](https://github.com/zhang740/power-di) - A lightweight Dependency Injection library. ![](https://img.shields.io/github/stars/zhang740/power-di.svg?style=social&label=Star)
-- [@opensumi/di](https://github.com/opensumi/di) - A dependency injection tool for JavaScript.  ![](https://img.shields.io/github/stars/opensumi/di.svg?style=social&label=Star)
+- [@opensumi/di](https://github.com/opensumi/di) - A dependency injection tool for JavaScript.
 
 ### Shell
 
@@ -495,10 +495,10 @@ English | [简体中文](./README.md)
 - [cross-spawn](https://github.com/IndigoUnited/node-cross-spawn) - Cross-platform implementation of `child_process.spawn()`. ![](https://img.shields.io/github/stars/IndigoUnited/node-cross-spawn.svg?style=social&label=Star)
 - [parallelshell](https://github.com/darkguy2008/parallelshell) - Run multiple shell commands in parallel. ![](https://img.shields.io/github/stars/darkguy2008/parallelshell.svg?style=social&label=Star)
 - [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - Cross-platform copy/paste. ![](https://img.shields.io/github/stars/sindresorhus/clipboard-cli.svg?style=social&label=Star)
-- [gulp-execa](https://github.com/ehmicky/gulp-execa) - Cross-platform command execution in Gulp.js. ![](https://img.shields.io/github/stars/ehmicky/gulp-execa.svg?style=social&label=Star)
-- [runscript](https://github.com/node-modules/runscript) - Run script easy! ![](https://img.shields.io/github/stars/node-modules/runscript.svg?style=social&label=Star)
-- [cross-spawn-promise](https://github.com/zentrick/cross-spawn-promise) - Promisified cross-spawn. ![](https://img.shields.io/github/stars/zentrick/cross-spawn-promise.svg?style=social&label=Star)
-- [shell-exec](https://github.com/tiaanduplessis/shell-exec) - Execute a command through the system shell. ![](https://img.shields.io/github/stars/tiaanduplessis/shell-exec.svg?style=social&label=Star)
+- [gulp-execa](https://github.com/ehmicky/gulp-execa) - Cross-platform command execution in Gulp.js.
+- [runscript](https://github.com/node-modules/runscript) - Run script easy!
+- [cross-spawn-promise](https://github.com/zentrick/cross-spawn-promise) - Promisified cross-spawn.
+- [shell-exec](https://github.com/tiaanduplessis/shell-exec) - Execute a command through the system shell. 
 
 ### Environment
 
@@ -509,13 +509,13 @@ English | [简体中文](./README.md)
 - [user-home](https://github.com/sindresorhus/user-home) - Get the path to the user home directory. Cross-platform. ![](https://img.shields.io/github/stars/sindresorhus/user-home.svg?style=social&label=Star)
 - [username](https://github.com/sindresorhus/username) - Get the current username. ![](https://img.shields.io/github/stars/sindresorhus/username.svg?style=social&label=Star)
 - [osenv](https://github.com/npm/osenv) - Cross-platform environment variables. ![](https://img.shields.io/github/stars/npm/osenv.svg?style=social&label=Star)
-- [is-elevated](https://github.com/sindresorhus/is-elevated) - Check if the process is running with elevated privileges. ![](https://img.shields.io/github/stars/sindresorhus/is-elevated.svg?style=social&label=Star)
+- [is-elevated](https://github.com/sindresorhus/is-elevated) - Check if the process is running with elevated privileges.
 
 ### Event
 
 - [eventemitter3](https://github.com/primus/eventemitter3) - EventEmitter3 is a high performance EventEmitter. ![](https://img.shields.io/github/stars/primus/eventemitter3.svg?style=social&label=Star)
 - [tiny-emitter](https://github.com/scottcorgan/tiny-emitter) - A tiny (less than 1k) event emitter library.  ![](https://img.shields.io/github/stars/scottcorgan/tiny-emitter.svg?style=social&label=Star)
-- [ee-first](https://github.com/jonathanong/ee-first) - Get the first event in a set of event emitters and event pairs, then clean up after itself. ![](https://img.shields.io/github/stars/jonathanong/ee-first.svg?style=social&label=Star)
+- [ee-first](https://github.com/jonathanong/ee-first) - Get the first event in a set of event emitters and event pairs, then clean up after itself.
 
 ### Command-line Utilities
 
@@ -569,7 +569,7 @@ English | [简体中文](./README.md)
   - [cli-highlight](https://github.com/felixfbecker/cli-highlight) - Syntax highlighting for your terminal 💻✨. ![](https://img.shields.io/github/stars/felixfbecker/cli-highlight.svg?style=social&label=Star)
   - [treeify](https://github.com/notatestuser/treeify) - Pretty-print a javascript object as a tree. ![](https://img.shields.io/github/stars/notatestuser/treeify.svg?style=social&label=Star)
   - [kolorist](https://github.com/marvinhagemeister/kolorist) - A tiny utility to colorize stdin/stdout. ![](https://img.shields.io/github/stars/marvinhagemeister/kolorist.svg?style=social&label=Star)
-  - [console-png](https://github.com/aantthony/console-png) - Print PNG images to terminal output. ![](https://img.shields.io/github/stars/aantthony/console-png.svg?style=social&label=Star)
+  - [console-png](https://github.com/aantthony/console-png) - Print PNG images to terminal output.
 
 - Editor
   - [slap](https://github.com/slap-editor/slap) - Sublime-like terminal-based text editor. ![](https://img.shields.io/github/stars/slap-editor/slap.svg?style=social&label=Star)
@@ -580,7 +580,7 @@ English | [简体中文](./README.md)
   - [update-notifier](https://github.com/yeoman/update-notifier) - Update notifications for your CLI app. ![](https://img.shields.io/github/stars/yeoman/update-notifier.svg?style=social&label=Star)
   - [console-stamp](https://github.com/starak/node-console-stamp) - Patch NodeJS console methods in order to add timestamp information by pattern. ![](https://img.shields.io/github/stars/starak/node-console-stamp.svg?style=social&label=Star)
   - [didyoumean](https://github.com/dcporter/didyoumean.js) - A simple, optimized JS library & node.js module for matching short, human-quality input to a list of possibilities. ![](https://img.shields.io/github/stars/dcporter/didyoumean.js.svg?style=social&label=Star)
-  - [console-clear](https://github.com/lukeed/console-clear) - Clear the console, cross-platform. ![](https://img.shields.io/github/stars/lukeed/console-clear.svg?style=social&label=Star)
+  - [console-clear](https://github.com/lukeed/console-clear) - Clear the console, cross-platform.
 
 ### Node.js Management
 
