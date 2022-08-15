@@ -1165,6 +1165,7 @@ English | [简体中文](./README.md)
   - [codecov](https://github.com/codecov/codecov-node) - Global coverage report uploader for Codecov in NodeJS. ![](https://img.shields.io/github/stars/codecov/codecov-node.svg?style=social&label=Star)
 
 - Benchmarking
+  - [autocannon](https://github.com/mcollina/autocannon) - Fast HTTP/1.1 benchmarking tool written in Node.js. ![](https://img.shields.io/github/stars/mcollina/autocannon.svg?style=social&label=Star)
   - [Benchmark.js](https://github.com/bestiejs/benchmark.js) - Benchmarking library that supports high-resolution timers and returns statistically significant results. ![](https://img.shields.io/github/stars/bestiejs/benchmark.js.svg?style=social&label=Star)
   - [matcha](https://github.com/logicalparadox/matcha) - Simplistic approach to benchmarking. ![](https://img.shields.io/github/stars/logicalparadox/matcha.svg?style=social&label=Star)
   - [benny](https://github.com/caderek/benny) - A dead simple benchmarking framework for JS/TS libs. ![](https://img.shields.io/github/stars/caderek/benny.svg?style=social&label=Star)
