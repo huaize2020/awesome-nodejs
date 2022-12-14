@@ -648,6 +648,7 @@ English | [简体中文](./README.md)
   - [dir-compare](https://github.com/gliviu/dir-compare) - Node JS directory compare. ![](https://img.shields.io/github/stars/gliviu/dir-compare.svg?style=social&label=Star)
   - [folder-hash](https://github.com/marc136/node-folder-hash) - Create a hash checksum over a folder or a file. ![](https://img.shields.io/github/stars/marc136/node-folder-hash.svg?style=social&label=Star)
   - [lnfs](https://github.com/kevva/lnfs) - Force create symlinks like `ln -fs`. ![](https://img.shields.io/github/stars/kevva/lnfs.svg?style=social&label=Star)
+  - [vinyl-fs](https://github.com/gulpjs/vinyl-fs) - Vinyl adapter for the file system. ![](https://img.shields.io/github/stars/gulpjs/vinyl-fs.svg?style=social&label=Star)
 
 - Copy
   - [ncp](https://github.com/AvianFlu/ncp) - Asynchronous recursive file copying with Node.js. ![](https://img.shields.io/github/stars/AvianFlu/ncp.svg?style=social&label=Star)
