@@ -21,6 +21,10 @@
   - [工具](#工具)
   - [书籍](#书籍)
   - [教程](#教程)
+    - [免费教程](#免费教程)
+    - [付费教程](#付费教程)
+  - [视频](#视频)
+    - [付费视频](#付费视频)
 - [GIT 仓库](#git-仓库)
   - [文本/字符串](#文本字符串)
   - [数字](#数字)
@@ -62,7 +66,7 @@
   - [Web 框架](#web-框架)
   - [GraphQL](#graphql)
   - [内容管理系统 (CMS)](#内容管理系统-cms)
-  - [静态网站生成 & 博客](#静态网站生成--博客)
+  - [静态网站生成 \& 博客](#静态网站生成--博客)
   - [文档生成](#文档生成)
   - [接口管理](#接口管理)
   - [桌面应用程序](#桌面应用程序)
@@ -78,7 +82,7 @@
   - [缓存](#缓存)
   - [搜索引擎/分词](#搜索引擎分词)
   - [Serverless](#serverless)
-  - [自动化 & 机器人流程自动化 - RPA](#自动化--机器人流程自动化---rpa)
+  - [自动化 \& 机器人流程自动化 - RPA](#自动化--机器人流程自动化---rpa)
   - [测试相关](#测试相关)
   - [办公软件](#办公软件)
   - [操作系统识别](#操作系统识别)
@@ -125,6 +129,8 @@
 
 ### 书籍
 
+- [狼书（卷3）：Node.js高级技术](https://item.jd.com/10066761907558.html) - 2022-12-01 - [@狼叔](https://www.zhihu.com/people/i5ting)
+  - 本书聚焦于Node.js高级技术。第1章介绍如何编写npm模块，其中涉及对许多常用模块的解析。第2章介绍如何编写企业级Web开发框架，主要剖析了开发框架的流程。第3章介绍如何构建具有Node.js特色的服务，着重讲解了页面即服务的概念。第4章介绍服务器部署与性能调优的相关知识。第5章介绍TDD和BDD理念，以及如何编写测试用例，同时分享了笔者关于开源和自学的看法。
 - [狼书（卷2）：Node.js Web应用开发](https://item.jd.com/12614927.html) - 2020-01-01 - [@狼叔](https://www.zhihu.com/people/i5ting)
   - 本书主要讲解Node.js Web应用开发涉及的HTTP基础知识、常用开发框架、源码原理、数据库和项目实战，旨在向读者展示如何通过Node.js和Koa编写出更具前端特色的Web应用。本书还讲解了Koa中的核心中间件原理，展望了未来Web应用开发的发展方向。
 - [狼书（卷1）：更了不起的Node.js](https://item.jd.com/12623248.html) - 2019-07-01 - [@狼叔](https://www.zhihu.com/people/i5ting)
@@ -136,12 +142,34 @@
 
 ### 教程
 
+#### 免费教程
+
 - [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md) - Node.js 最佳体验列表。 ![](https://img.shields.io/github/stars/goldbergyoni/nodebestpractices.svg?style=social&label=Star)
 - [Nodejs 包教不包会](https://github.com/alsotang/node-lessons) - 经典 Nodejs 教程。 ![](https://img.shields.io/github/stars/alsotang/node-lessons.svg?style=social&label=Star)
 - [Nodejs 技术栈](https://www.nodejs.red/) - 包含很多 nodejs 相关文章。
 - [七天学会 NodeJS](http://nqdeng.github.io/7-days-nodejs/) - 经典 Nodejs 教程。 ![](https://img.shields.io/github/stars/nqdeng/7-days-nodejs.svg?style=social&label=Star)
 - [understand-nodejs](https://github.com/theanarkh/understand-nodejs) - 通过源码分析 nodejs 原理。 ![](https://img.shields.io/github/stars/theanarkh/understand-nodejs.svg?style=social&label=Star)
 - [Nodejs-Roadmap](https://github.com/qufei1993/Nodejs-Roadmap) - 本文档是作者 @五月君 从事 Node.js 开发以来的学习历程。![](https://img.shields.io/github/stars/qufei1993/Nodejs-Roadmap.svg?style=social&label=Star)
+
+#### 付费教程
+
+> 仅做整理，不代表编者意图和推荐，请自行判断
+
+- [深入剖析 Node.js 底层原理](https://juejin.cn/book/7171733571638738952) - 掘金小册 - theanarkh 字节跳动 Node.js 工程师
+  - 从源码角度解读 Node.js 底层设计，并实现一个简单的 JS 运行时。
+
+### 视频
+
+#### 付费视频
+
+> 仅做整理，不代表编者意图和推荐，请自行判断
+
+- [Node.js 开发实战](https://time.geekbang.org/course/intro/100036001) - 极客时间 - 杨浩  腾讯高级工程师
+  - 本课程站在一个前端工程师的角度，讲解如何基于 Node.js 开发一个完整的项目，从一开始的技术预研再到实际开发、性能优化以及最终的框架架构搭建和工程化建设，带你完整体验一遍前端工程师使用 Node.js 进行项目开发会碰到的各种常见场景和技术难点，学完课程之后，你将能够熟练运用 Node.js 进行大型项目的设计和开发。
+- [构建千万级高可用企业级Node.js应用](https://coding.imooc.com/class/569.html) - 慕客网 - 进阶
+  - 即使你会用 Node.js 开发小型项目后端系统，也只能说你掌握了它最基本的用法，并不足以打动大厂招聘官。因为，很多大厂选择 Node.js来承接服务端（BFF层），涉及的项目更为复杂，要求也更加精细，这需要前端既非常懂 Node.js 本身，也要懂其相关的服务端知识，才能更好地支撑大规模线上业务。本课程就带你学习BAT级别的 Node.js 用法，快速提升你在前端市场的区分度和竞争力。
+- [Node.js工程师养成计划](https://coding.imooc.com/class/chapter/584.html) - 慕客网 - 初级 - 北瑶 - 系统架构师
+  - 保姆级教程，手把手带你完成工具、服务器、中间层等多类应用开发实战
 
 ## GIT 仓库
 
