@@ -704,6 +704,7 @@
   - [dir-compare](https://github.com/gliviu/dir-compare) - Node JS 文件夹对比。 ![](https://img.shields.io/github/stars/gliviu/dir-compare.svg?style=social&label=Star)
   - [folder-hash](https://github.com/marc136/node-folder-hash) - 为 文件夹或文件 上创建哈希检验码。 ![](https://img.shields.io/github/stars/marc136/node-folder-hash.svg?style=social&label=Star)
   - [lnfs](https://github.com/kevva/lnfs) - 强制创建符号链接。类似`ln -fs`. ![](https://img.shields.io/github/stars/kevva/lnfs.svg?style=social&label=Star)
+  - [vinyl-fs](https://github.com/gulpjs/vinyl-fs) - 文件系统的 `Vinyl` 适配器. ![](https://img.shields.io/github/stars/gulpjs/vinyl-fs.svg?style=social&label=Star)
 
 - 复制
   - [ncp](https://github.com/AvianFlu/ncp) - 使用 Node.js 进行异步递归文件复制。 ![](https://img.shields.io/github/stars/AvianFlu/ncp.svg?style=social&label=Star)
