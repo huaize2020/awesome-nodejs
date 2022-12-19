@@ -1380,6 +1380,7 @@
 ### 分布式
 
 - [redlock](https://github.com/mike-marcacci/node-redlock) - 一个高可用的 Redis 分布式锁实现。 ![](https://img.shields.io/github/stars/mike-marcacci/node-redlock.svg?style=social&label=Star)
+- [node-consul](https://github.com/silas/node-consul) - Consul 客户端.  ![](https://img.shields.io/github/stars/silas/node-consul.svg?style=social&label=Star)
 - [node-zookeeper-client](https://github.com/alexguan/node-zookeeper-client) - 纯 JavaScript ZooKeeper 客户端。 ![](https://img.shields.io/github/stars/alexguan/node-zookeeper-client.svg?style=social&label=Star)
 
 
