@@ -1111,6 +1111,9 @@
 - SQL
   - [sqlstring](https://github.com/mysqljs/sqlstring) - 简单 SQL 转义和格式，用于 MySQL。 ![](https://img.shields.io/github/stars/mysqljs/sqlstring.svg?style=social&label=Star)
 
+- 列式数据库
+  - [clickhouse](https://github.com/TimonKK/clickhouse) - 用于客户端连接 ClickHouse。 ![](https://img.shields.io/github/stars/TimonKK/clickhouse.svg?style=social&label=Star)
+
 - 其他
   - [Lowdb](https://github.com/typicode/lowdb) - 用于小型项目的微型本地 JSON 数据库（支持 Node、Electron 和浏览器）。 ![](https://img.shields.io/github/stars/typicode/lowdb.svg?style=social&label=Star)
   - [NeDB](https://github.com/louischatriot/nedb) - 用于 Node.js、nw.js、Electron 和浏览器的嵌入式持久数据库或内存数据库。 ![](https://img.shields.io/github/stars/louischatriot/nedb.svg?style=social&label=Star)

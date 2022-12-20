@@ -726,6 +726,9 @@ English | [简体中文](./README.md)
   - [pgsql-ast-parser](https://github.com/oguimbal/pgsql-ast-parser) - Yet another simple Postgres SQL parser. ![](https://img.shields.io/github/stars/oguimbal/pgsql-ast-parser.svg?style=social&label=Star)
   - [dt-sql-parser](https://github.com/DTStack/dt-sql-parser) - SQL Parsers for BigData, built with antlr4. ![](https://img.shields.io/github/stars/DTStack/dt-sql-parser.svg?style=social&label=Star)
 
+- Columnar Databases
+  - [clickhouse](https://github.com/TimonKK/clickhouse) - NodeJS client for ClickHouse. ![](https://img.shields.io/github/stars/TimonKK/clickhouse.svg?style=social&label=Star)
+
 - Plist
   - [node-bplist-parser](https://github.com/joeferner/node-bplist-parser) - Binary plist parser. ![](https://img.shields.io/github/stars/joeferner/node-bplist-parser.svg?style=social&label=Star)
 
