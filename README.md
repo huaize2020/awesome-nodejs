@@ -74,7 +74,7 @@
   - [任务队列](#任务队列)
   - [定时任务](#定时任务)
   - [调试](#调试)
-  - [剖析/分析](#剖析分析)
+  - [性能分析/诊断](#性能分析诊断)
   - [性能优化](#性能优化)
   - [应用性能监控 (APM)](#应用性能监控-apm)
   - [论坛](#论坛)
@@ -1034,7 +1034,7 @@
 - [ctrace](https://github.com/automation-stack/ctrace) - 将系统调用信息和信号，以更良好的格式显示和扩展。 ![](https://img.shields.io/github/stars/automation-stack/ctrace.svg?style=social&label=Star)
 - [vstream](https://github.com/joyent/node-vstream) - 检测流。 ![](https://img.shields.io/github/stars/joyent/node-vstream.svg?style=social&label=Star)
 
-### 剖析/分析
+### 性能分析/诊断
 
 - [Clinic.js](https://github.com/clinicjs/node-clinic) - Clinic.js 诊断 Node.js 性能问题。 ![](https://img.shields.io/github/stars/clinicjs/node-clinic.svg?style=social&label=Star)
 - [0x](https://github.com/davidmarkclements/0x) - 火焰图分析。 ![](https://img.shields.io/github/stars/davidmarkclements/0x.svg?style=social&label=Star)
@@ -1042,6 +1042,7 @@
 - [leakage](https://github.com/andywer/leakage) - 内存写入泄漏测试。 ![](https://img.shields.io/github/stars/andywer/leakage.svg?style=social&label=Star)
 - [v8-profiler](https://github.com/node-inspector/v8-profiler) - V8 性能探测器。 ![](https://img.shields.io/github/stars/node-inspector/v8-profiler.svg?style=social&label=Star)
 - [node-memwatch](https://github.com/marcominetti/node-memwatch) - 一个 NodeJS 库，用于监视您的内存使用情况，并发现和隔离泄漏。 ![](https://img.shields.io/github/stars/marcominetti/node-memwatch.svg?style=social&label=Star)
+- [pidusage](https://github.com/soyuka/pidusage) - 通过 PID 获取 CPU 使用百分比和内存用量。 ![](https://img.shields.io/github/stars/soyuka/pidusage.svg?style=social&label=Star)
 - [v8-analytics](https://github.com/hyj1991/v8-analytics) - V8 引擎 CPU 和 堆内存分析。 ![](https://img.shields.io/github/stars/hyj1991/v8-analytics.svg?style=social&label=Star)
 - [thetool](https://github.com/sfninja/thetool) - 以 Chrome DevTools 友好格式为您的应用捕获不同的 CPU，内存和其他配置文件。 ![](https://img.shields.io/github/stars/sfninja/thetool.svg?style=social&label=Star)
 - [flamegraph](https://github.com/thlorenz/flamegraph) - 在 Node.js 或浏览器中生成火焰图。 ![](https://img.shields.io/github/stars/thlorenz/flamegraph.svg?style=social&label=Star)
