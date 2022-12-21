@@ -1216,8 +1216,9 @@
   - [node-coveralls](https://github.com/nickmerwin/node-coveralls) - 借助持续集成服务(Travis CI 或 Jenkins) 向用户报告自动测试的测试覆盖率；为 README 添加一个很酷的覆盖率按钮。 ![](https://img.shields.io/github/stars/nickmerwin/node-coveralls.svg?style=social&label=Star)
   - [codecov](https://github.com/codecov/codecov-node) - NodeJS 中代码覆盖率报告上载器。 ![](https://img.shields.io/github/stars/codecov/codecov-node.svg?style=social&label=Star)
 
-- 基准测试
+- 基准/性能测试
   - [autocannon](https://github.com/mcollina/autocannon) - 用Node.js编写的快速HTTP/1.1基准测试工具。 ![](https://img.shields.io/github/stars/mcollina/autocannon.svg?style=social&label=Star)
+  - [artillery](https://github.com/artilleryio/artillery) - 负载测试。 ![](https://img.shields.io/github/stars/artilleryio/artillery.svg?style=social&label=Star)
   - [Benchmark.js](https://github.com/bestiejs/benchmark.js) - 基准测试库，支持高分辨率计时器并返回具有统计意义的结果。 ![](https://img.shields.io/github/stars/bestiejs/benchmark.js.svg?style=social&label=Star)
   - [matcha](https://github.com/logicalparadox/matcha) - 基准测试的简化方法。 ![](https://img.shields.io/github/stars/logicalparadox/matcha.svg?style=social&label=Star)
   - [benny](https://github.com/caderek/benny) - 一个非常简单的 JS/TS 库基准测试框架。 ![](https://img.shields.io/github/stars/caderek/benny.svg?style=social&label=Star)
