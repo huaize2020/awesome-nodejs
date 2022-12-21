@@ -1182,7 +1182,7 @@ English | [简体中文](./README.md)
 ### Office
 
 - Excel
-  - [sheetjs](https://github.com/SheetJS/sheetjs) - Spreadsheet Data Toolkit. ![](https://img.shields.io/github/stars/SheetJS/sheetjs.svg?style=social&label=Star)
+  - [sheetjs](https://github.com/SheetJS/sheetjs) - Spreadsheet Data Toolkit(npm: [xlsx](https://www.npmjs.com/package/xlsx)). ![](https://img.shields.io/github/stars/SheetJS/sheetjs.svg?style=social&label=Star)
   - [exceljs](https://github.com/exceljs/exceljs) - Excel Workbook Manager. ![](https://img.shields.io/github/stars/exceljs/exceljs.svg?style=social&label=Star)
   - [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) - Excel XLSX parser/generator written in JavaScript with Node.js and browser support. ![](https://img.shields.io/github/stars/dtjohnson/xlsx-populate.svg?style=social&label=Star)
 

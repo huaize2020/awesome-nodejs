@@ -1230,7 +1230,7 @@
 ### 办公软件
 
 - Excel
-  - [sheetjs](https://github.com/SheetJS/sheetjs) - 电子表格数据工具箱。 ![](https://img.shields.io/github/stars/SheetJS/sheetjs.svg?style=social&label=Star)
+  - [sheetjs](https://github.com/SheetJS/sheetjs) - 电子表格数据工具箱(npm: [xlsx](https://www.npmjs.com/package/xlsx))。 ![](https://img.shields.io/github/stars/SheetJS/sheetjs.svg?style=social&label=Star)
   - [exceljs](https://github.com/exceljs/exceljs) - Excel 工作表管理工具。 ![](https://img.shields.io/github/stars/exceljs/exceljs.svg?style=social&label=Star)
   - [xlsx-populate](https://github.com/dtjohnson/xlsx-populate) - Excel XLSX 生成和解析工具，可运行在 Node 和浏览器。 ![](https://img.shields.io/github/stars/dtjohnson/xlsx-populate.svg?style=social&label=Star)
 
