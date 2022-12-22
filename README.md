@@ -1040,6 +1040,7 @@
 - [0x](https://github.com/davidmarkclements/0x) - 火焰图分析。 ![](https://img.shields.io/github/stars/davidmarkclements/0x.svg?style=social&label=Star)
 - [node-heapdump](https://github.com/bnoordhuis/node-heapdump) - 存储 V8 内存堆使用情况，以供以后诊断。 ![](https://img.shields.io/github/stars/bnoordhuis/node-heapdump.svg?style=social&label=Star)
 - [leakage](https://github.com/andywer/leakage) - 内存写入泄漏测试。 ![](https://img.shields.io/github/stars/andywer/leakage.svg?style=social&label=Star)
+- [flamebearer](https://github.com/mapbox/flamebearer) - V8 和 Node 的快速火焰图工具🔥。 ![](https://img.shields.io/github/stars/mapbox/flamebearer.svg?style=social&label=Star)
 - [v8-profiler](https://github.com/node-inspector/v8-profiler) - V8 性能探测器。 ![](https://img.shields.io/github/stars/node-inspector/v8-profiler.svg?style=social&label=Star)
 - [node-memwatch](https://github.com/marcominetti/node-memwatch) - 一个 NodeJS 库，用于监视您的内存使用情况，并发现和隔离泄漏。 ![](https://img.shields.io/github/stars/marcominetti/node-memwatch.svg?style=social&label=Star)
 - [pidusage](https://github.com/soyuka/pidusage) - 通过 PID 获取 CPU 使用百分比和内存用量。 ![](https://img.shields.io/github/stars/soyuka/pidusage.svg?style=social&label=Star)
