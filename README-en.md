@@ -79,6 +79,7 @@ English | [简体中文](./README.md)
   - [OS Identification](#os-identification)
   - [Compression / Decompression](#compression--decompression)
   - [Minifiers](#minifiers)
+  - [Source Code Obfuscator/Protect](#source-code-obfuscatorprotect)
   - [Email](#email)
   - [Network](#network)
   - [HTTP](#http)
@@ -1234,6 +1235,11 @@ English | [简体中文](./README.md)
 - [clean-css](https://github.com/jakubpawlowicz/clean-css) - CSS minifier. ![](https://img.shields.io/github/stars/jakubpawlowicz/clean-css.svg?style=social&label=Star)
 - [minimize](https://github.com/Swaagie/minimize) - HTML minifier. ![](https://img.shields.io/github/stars/Swaagie/minimize.svg?style=social&label=Star)
 - [strip-css-comments](https://github.com/sindresorhus/strip-css-comments) - Strip comments from CSS. ![](https://img.shields.io/github/stars/sindresorhus/strip-css-comments.svg?style=social&label=Star)
+
+### Source Code Obfuscator/Protect
+
+- [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator) - A powerful obfuscator for JavaScript and Node.js. ![](https://img.shields.io/github/stars/javascript-obfuscator/javascript-obfuscator.svg?style=social&label=Star)
+- [bytenode](https://github.com/bytenode/bytenode) - A minimalist bytecode compiler for Node.js. it truly compiles your JavaScript code into V8 bytecode, so that you can protect your source code.  ![](https://img.shields.io/github/stars/bytenode/bytenode.svg?style=social&label=Star)
 
 ### Email
 

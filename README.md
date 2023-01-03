@@ -88,6 +88,7 @@
   - [操作系统识别](#操作系统识别)
   - [压缩解压](#压缩解压)
   - [最小化](#最小化)
+  - [源码混淆/保护](#源码混淆保护)
   - [邮箱](#邮箱)
   - [网络](#网络)
   - [HTTP](#http)
@@ -1282,6 +1283,11 @@
 - [clean-css](https://github.com/jakubpawlowicz/clean-css) - CSS 压缩工具。 ![](https://img.shields.io/github/stars/jakubpawlowicz/clean-css.svg?style=social&label=Star)
 - [minimize](https://github.com/Swaagie/minimize) - HTML 压缩工具。 ![](https://img.shields.io/github/stars/Swaagie/minimize.svg?style=social&label=Star)
 - [strip-css-comments](https://github.com/sindresorhus/strip-css-comments) - CSS 注释剔除工具。 ![](https://img.shields.io/github/stars/sindresorhus/strip-css-comments.svg?style=social&label=Star)
+
+### 源码混淆/保护
+
+- [javascript-obfuscator](https://github.com/javascript-obfuscator/javascript-obfuscator) - 一个强大的 JavaScript 和 Node.js 混淆器。 ![](https://img.shields.io/github/stars/javascript-obfuscator/javascript-obfuscator.svg?style=social&label=Star)
+- [bytenode](https://github.com/bytenode/bytenode) - 用于 Node.js 的极简字节码编译器。它真正将你的 JavaScript 代码编译成 V8 字节码，这样你就可以保护你的源代码。 ![](https://img.shields.io/github/stars/bytenode/bytenode.svg?style=social&label=Star)
 
 ### 邮箱
 
