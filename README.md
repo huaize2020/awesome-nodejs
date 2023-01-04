@@ -382,6 +382,7 @@
 - [jsrsasign](https://github.com/kjur/jsrsasign) - "jsrsasign"（RSA Sign JavaScript 库）是一个开源的免费加密库，支持纯 JavaScript 中的 RSA/RSAPSS/ECDSA/DSA 签名/验证、ASN.1、PKCS#1/5/8 私钥/公钥、X.509 证书、CRL、OCSP、CMS SignedData、TimeStamp、CAdES JSON Web 签名/令牌。 ![](https://img.shields.io/github/stars/kjur/jsrsasign.svg?style=social&label=Star)
 - [node-rsa](https://github.com/rzcoder/node-rsa) - Node.js RSA 库。 ![](https://img.shields.io/github/stars/rzcoder/node-rsa.svg?style=social&label=Star)
 - [aes-js](https://github.com/ricmoo/aes-js) - AES 的纯 JavaScript 实现。 ![](https://img.shields.io/github/stars/ricmoo/aes-js.svg?style=social&label=Star)
+- [object-hash](https://github.com/puleos/object-hash) - 基于 javascript 对象生成对应哈希。 ![](https://img.shields.io/github/stars/puleos/object-hash.svg?style=social&label=Star)
 - [node-md5](https://github.com/pvorb/node-md5) - 一个 JavaScript 函数，用于使用 MD5 对消息进行哈希处理。 ![](https://img.shields.io/github/stars/pvorb/node-md5.svg?style=social&label=Star)
 - [crypto-hash](https://github.com/sindresorhus/crypto-hash) - 微型哈希模块，在 Node.js 和浏览器中使用原生 crypto API。 ![](https://img.shields.io/github/stars/sindresorhus/crypto-hash.svg?style=social&label=Star)
 - [hash.js](https://github.com/indutny/hash.js) - 使用纯 JavaScript 的哈希实现。 ![](https://img.shields.io/github/stars/indutny/hash.js.svg?style=social&label=Star)
