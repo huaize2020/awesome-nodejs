@@ -391,6 +391,7 @@
 - [hash-sum](https://github.com/bevacqua/hash-sum) - 极快的唯一哈希生成器。 ![](https://img.shields.io/github/stars/bevacqua/hash-sum.svg?style=social&label=Star)
 - [cryptr](https://github.com/MauriceButler/cryptr) - 非常基础的加密和解密 Node.js 模块。 ![](https://img.shields.io/github/stars/MauriceButler/cryptr.svg?style=social&label=Star)
 - [pbkdf2](https://github.com/crypto-browserify/pbkdf2) - 在 Node 中具有任何受支持的哈希算法 PBKDF2。 ![](https://img.shields.io/github/stars/crypto-browserify/pbkdf2.svg?style=social&label=Star)
+- [node-object-hash](https://github.com/SkeLLLa/node-object-hash) - Node.js 对象哈希库，具有属性/数组排序以提供常量哈希。它还提供了一种返回排序对象字符串的方法，可用于不使用哈希的对象比较。 ![](https://img.shields.io/github/stars/SkeLLLa/node-object-hash.svg?style=social&label=Star)
 - [bcrypt-pbkdf](https://github.com/joyent/node-bcrypt-pbkdf) - POpenBSD `bcrypt_pbkdf` Javascript 实现。
 
 ### 流
