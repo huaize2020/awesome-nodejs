@@ -386,6 +386,7 @@
 - [node-md5](https://github.com/pvorb/node-md5) - 一个 JavaScript 函数，用于使用 MD5 对消息进行哈希处理。 ![](https://img.shields.io/github/stars/pvorb/node-md5.svg?style=social&label=Star)
 - [crypto-hash](https://github.com/sindresorhus/crypto-hash) - 微型哈希模块，在 Node.js 和浏览器中使用原生 crypto API。 ![](https://img.shields.io/github/stars/sindresorhus/crypto-hash.svg?style=social&label=Star)
 - [hash.js](https://github.com/indutny/hash.js) - 使用纯 JavaScript 的哈希实现。 ![](https://img.shields.io/github/stars/indutny/hash.js.svg?style=social&label=Star)
+- [crc](https://github.com/alexgorbatchev/crc) - 在 Node.js 和浏览器的超快 CRC 实现。 ![](https://img.shields.io/github/stars/alexgorbatchev/crc.svg?style=social&label=Star)
 - [sm-crypto](https://github.com/JuneAndGreen/sm-crypto) - sm2, sm3, sm4 的 JavaScript 实现。 ![](https://img.shields.io/github/stars/JuneAndGreen/sm-crypto.svg?style=social&label=Star)
 - [sha.js](https://github.com/crypto-browserify/sha.js) - 使用纯 JavaScript 中的流式 SHA 哈希。 ![](https://img.shields.io/github/stars/crypto-browserify/sha.js.svg?style=social&label=Star)
 - [hash-sum](https://github.com/bevacqua/hash-sum) - 极快的唯一哈希生成器。 ![](https://img.shields.io/github/stars/bevacqua/hash-sum.svg?style=social&label=Star)

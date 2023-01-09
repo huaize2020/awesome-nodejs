@@ -344,6 +344,7 @@ English | [简体中文](./README.md)
 - [hash-sum](https://github.com/bevacqua/hash-sum) - Blazing fast unique hash generator. ![](https://img.shields.io/github/stars/bevacqua/hash-sum.svg?style=social&label=Star)
 - [cryptr](https://github.com/MauriceButler/cryptr) - Very basic encrypt and decrypt node module. ![](https://img.shields.io/github/stars/MauriceButler/cryptr.svg?style=social&label=Star)
 - [hash.js](https://github.com/indutny/hash.js) - Hash functions in pure javascript. ![](https://img.shields.io/github/stars/indutny/hash.js.svg?style=social&label=Star)
+- [crc](https://github.com/alexgorbatchev/crc) - Blazingly fast CRC implementations for node.js and browser. ![](https://img.shields.io/github/stars/alexgorbatchev/crc.svg?style=social&label=Star)
 - [pbkdf2](https://github.com/crypto-browserify/pbkdf2) - PBKDF2 with any supported hashing algorithm in Node. ![](https://img.shields.io/github/stars/crypto-browserify/pbkdf2.svg?style=social&label=Star)
 - [node-object-hash](https://github.com/SkeLLLa/node-object-hash) - Node.js object hash library with properties/arrays sorting to provide constant hashes. It also provides a method that returns sorted object strings that can be used for object comparison without hashes. ![](https://img.shields.io/github/stars/SkeLLLa/node-object-hash.svg?style=social&label=Star)
 - [bcrypt-pbkdf](https://github.com/joyent/node-bcrypt-pbkdf) - Port of the OpenBSD `bcrypt_pbkdf` function to pure Javascript.
