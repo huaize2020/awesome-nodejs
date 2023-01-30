@@ -205,6 +205,7 @@
   - [shortid](https://github.com/dylang/shortid) - 短 ID 生成器。 网址友好。 不可预测的。 集群兼容。 ![](https://img.shields.io/github/stars/dylang/shortid.svg?style=social&label=Star)
   - [cuid](https://github.com/ericelliott/cuid) - 针对水平扩展和性能优化的抗冲突 ids。 ![](https://img.shields.io/github/stars/ericelliott/cuid.svg?style=social&label=Star)
   - [ulid](https://github.com/ulid/javascript) - 通用唯一词典分类排序标识符。 ![](https://img.shields.io/github/stars/ulid/javascript.svg?style=social&label=Star)
+  - [short-uuid](https://github.com/oculus42/short-uuid) - 将标准 UUID 转换为更短的格式并返回。 ![](https://img.shields.io/github/stars/oculus42/short-uuid.svg?style=social&label=Star)
   - [uuid-js](https://github.com/pnegri/uuid-js) - 用于生成和解析 UUID、TimeUUID 并根据日期生成 TimeUUID 以供范围选择。 ![](https://img.shields.io/github/stars/pnegri/uuid-js.svg?style=social&label=Star)
   - [pure-uuid](https://github.com/rse/pure-uuid) - 基于纯 JavaScript 全局唯一 ID(UUID)。
   - [lsp-uuid](https://github.com/ryouaki/lsp-uuid) - 一个基于 SnowFlake 的 uuid 生成器，用于浏览器和 Nodejs。 保持序列并且可以反序列化。

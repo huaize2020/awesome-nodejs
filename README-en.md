@@ -159,6 +159,7 @@ English | [简体中文](./README.md)
   - [shortid](https://github.com/dylang/shortid) - Short id generator. Url-friendly. Non-predictable. Cluster-compatible. ![](https://img.shields.io/github/stars/dylang/shortid.svg?style=social&label=Star)
   - [cuid](https://github.com/ericelliott/cuid) - Collision-resistant ids optimized for horizontal scaling and performance. ![](https://img.shields.io/github/stars/ericelliott/cuid.svg?style=social&label=Star)
   - [ulid](https://github.com/ulid/javascript) - Universally Unique Lexicographically Sortable Identifier. ![](https://img.shields.io/github/stars/ulid/javascript.svg?style=social&label=Star)
+  - [short-uuid](https://github.com/oculus42/short-uuid) - Translate standard UUIDs into shorter formats and back. ![](https://img.shields.io/github/stars/oculus42/short-uuid.svg?style=social&label=Star)
   - [uuid-js](https://github.com/pnegri/uuid-js) - A js library to generate and parse UUIDs,TimeUUIDs and generate TimeUUID based on Date for range selections. ![](https://img.shields.io/github/stars/pnegri/uuid-js.svg?style=social&label=Star)
   - [pure-uuid](https://github.com/rse/pure-uuid) - Pure JavaScript Based Universally Unique Identifiers (UUID).
   - [lsp-uuid](https://github.com/ryouaki/lsp-uuid) - A uuid generator based on SnowFlake for both Browser and Nodejs. Keep sequence and can be deserialized.
