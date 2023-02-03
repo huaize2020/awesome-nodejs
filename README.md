@@ -1121,6 +1121,9 @@
 - 列式数据库
   - [clickhouse](https://github.com/TimonKK/clickhouse) - 用于客户端连接 ClickHouse。 ![](https://img.shields.io/github/stars/TimonKK/clickhouse.svg?style=social&label=Star)
 
+- 数据库实现
+  - [AlaSQL.js](https://github.com/AlaSQL/alasql) - 用于浏览器和 Node.js 的 JavaScript SQL 数据库。 处理传统的关系表和嵌套的 JSON 数据 (NoSQL)。 从 localStorage、IndexedDB 或 Excel 导出、存储和导入数据。![](https://img.shields.io/github/stars/AlaSQL/alasql.svg?style=social&label=Star)
+
 - 其他
   - [Lowdb](https://github.com/typicode/lowdb) - 用于小型项目的微型本地 JSON 数据库（支持 Node、Electron 和浏览器）。 ![](https://img.shields.io/github/stars/typicode/lowdb.svg?style=social&label=Star)
   - [NeDB](https://github.com/louischatriot/nedb) - 用于 Node.js、nw.js、Electron 和浏览器的嵌入式持久数据库或内存数据库。 ![](https://img.shields.io/github/stars/louischatriot/nedb.svg?style=social&label=Star)

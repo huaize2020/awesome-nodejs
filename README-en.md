@@ -1074,6 +1074,9 @@ English | [简体中文](./README.md)
 - SQL
   - [sqlstring](https://github.com/mysqljs/sqlstring) - Simple SQL escape and format for MySQL. ![](https://img.shields.io/github/stars/mysqljs/sqlstring.svg?style=social&label=Star)
 
+- Database implementation
+  - [AlaSQL.js](https://github.com/AlaSQL/alasql) - JavaScript SQL database for browser and Node.js. Handles both traditional relational tables and nested JSON data (NoSQL). Export, store, and import data from localStorage, IndexedDB, or Excel. ![](https://img.shields.io/github/stars/AlaSQL/alasql.svg?style=social&label=Star)
+
 - Other
   - [Lowdb](https://github.com/typicode/lowdb) - Tiny local JSON database for small projects (supports Node, Electron and the browser). ![](https://img.shields.io/github/stars/typicode/lowdb.svg?style=social&label=Star)
   - [NeDB](https://github.com/louischatriot/nedb) - Embedded persistent or in memory database for Node.js, nw.js, Electron and browsers. ![](https://img.shields.io/github/stars/louischatriot/nedb.svg?style=social&label=Star)
