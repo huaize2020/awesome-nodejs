@@ -690,7 +690,7 @@
 *(你也许喜欢 [awesome-monorepo](https://github.com/korfuri/awesome-monorepo))*
 
 - [lerna](https://github.com/lerna/lerna) - 用于管理具有多个包的 JavaScript 项目的工具。 ![](https://img.shields.io/github/stars/lerna/lerna.svg?style=social&label=Star)
-- [rush](https://rushjs.io/) - 可伸缩的 monorepo 构建管理工具。
+- [rush](https://github.com/microsoft/rushstack) - 可伸缩的 monorepo 构建管理工具。 ![](https://img.shields.io/github/stars/microsoft/rushstack.svg?style=social&label=Star)
 
 ### 文件系统
 
