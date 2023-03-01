@@ -302,6 +302,7 @@
 - [bson](https://github.com/mongodb/js-bson) - Node.js 和浏览器的 BSON 解析器，BSON 是“Binary JSON”的缩写，是类 JSON 文档的二进制编码序列化。![](https://img.shields.io/github/stars/mongodb/js-bson.svg?style=social&label=Star)
 - [jsonata](https://github.com/jsonata-js/jsonata) - JSONata 查询和转换语言 - http://jsonata.org ![](https://img.shields.io/github/stars/jsonata-js/jsonata.svg?style=social&label=Star)
 - [json-stable-stringify](https://github.com/substack/json-stable-stringify) - 具有自定义排序功能的确定性 JSON.stringify(), 可以从字符串化结果中获取确定性哈希值。 ![](https://img.shields.io/github/stars/substack/json-stable-stringify.svg?style=social&label=Star)
+- [json-diff](https://github.com/andreyvit/json-diff) - 结构化对比 JSON 文件差异。 ![](https://img.shields.io/github/stars/andreyvit/json-diff.svg?style=social&label=Star)
 - [json-mask](https://github.com/nemtsov/json-mask) - 用于选择 JS 对象特定部分，而隐藏其余部分的微型语言和引擎。 ![](https://img.shields.io/github/stars/nemtsov/json-mask.svg?style=social&label=Star)
 - [strip-json-comments](https://github.com/sindresorhus/strip-json-comments) - 去除 JSON 文件中的注释。让你可以在 JSON 中使用注释。 ![](https://img.shields.io/github/stars/sindresorhus/strip-json-comments.svg?style=social&label=Star)
 - [json-stringify-safe](https://github.com/moll/json-stringify-safe) - 类似于 JSON.stringify，但不会引发循环引用。 ![](https://img.shields.io/github/stars/moll/json-stringify-safe.svg?style=social&label=Star)
