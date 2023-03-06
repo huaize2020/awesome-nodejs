@@ -645,6 +645,7 @@ English | [简体中文](./README.md)
 
 - [lerna](https://github.com/lerna/lerna) - A tool for managing JavaScript projects with multiple packages. ![](https://img.shields.io/github/stars/lerna/lerna.svg?style=social&label=Star)
 - [rush](https://github.com/microsoft/rushstack) - The scalable monorepo build orchestrator. ![](https://img.shields.io/github/stars/microsoft/rushstack.svg?style=social&label=Star)
+- [manypkg](https://github.com/Thinkmill/manypkg) - ☔️ An umbrella for your monorepo. ![](https://img.shields.io/github/stars/Thinkmill/manypkg.svg?style=social&label=Star)
 
 ### Filesystem
 
