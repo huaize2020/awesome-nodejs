@@ -25,6 +25,7 @@
     - [付费教程](#付费教程)
   - [视频](#视频)
     - [付费视频](#付费视频)
+  - [面试题](#面试题)
 - [GIT 仓库](#git-仓库)
   - [文本/字符串](#文本字符串)
   - [数字](#数字)
@@ -151,6 +152,7 @@
 - [七天学会 NodeJS](http://nqdeng.github.io/7-days-nodejs/) - 经典 Nodejs 教程。 ![](https://img.shields.io/github/stars/nqdeng/7-days-nodejs.svg?style=social&label=Star)
 - [understand-nodejs](https://github.com/theanarkh/understand-nodejs) - 通过源码分析 nodejs 原理。 ![](https://img.shields.io/github/stars/theanarkh/understand-nodejs.svg?style=social&label=Star)
 - [Nodejs-Roadmap](https://github.com/qufei1993/Nodejs-Roadmap) - 本文档是作者 @五月君 从事 Node.js 开发以来的学习历程。![](https://img.shields.io/github/stars/qufei1993/Nodejs-Roadmap.svg?style=social&label=Star)
+- [Node.js 应用故障排查手册](https://github.com/aliyun-node/Node.js-Troubleshooting-Guide) - 本手册主要的目的是帮助广大的 Node.js 开发者应对开发和线上部署中遇到的问题。![](https://img.shields.io/github/stars/aliyun-node/Node.js-Troubleshooting-Guide.svg?style=social&label=Star)
 
 #### 付费教程
 
@@ -171,6 +173,10 @@
   - 即使你会用 Node.js 开发小型项目后端系统，也只能说你掌握了它最基本的用法，并不足以打动大厂招聘官。因为，很多大厂选择 Node.js来承接服务端（BFF层），涉及的项目更为复杂，要求也更加精细，这需要前端既非常懂 Node.js 本身，也要懂其相关的服务端知识，才能更好地支撑大规模线上业务。本课程就带你学习BAT级别的 Node.js 用法，快速提升你在前端市场的区分度和竞争力。
 - [Node.js工程师养成计划](https://coding.imooc.com/class/chapter/584.html) - 慕客网 - 初级 - 北瑶 - 系统架构师
   - 保姆级教程，手把手带你完成工具、服务器、中间层等多类应用开发实战
+
+### 面试题
+
+- [饿了么 Node.js 面试题及实战教程](https://github.com/ElemeFE/node-interview/tree/master/sections/zh-cn) - 由饿了么前端团队分享的 node.js 实战经验，非常实用。
 
 ## GIT 仓库
 
