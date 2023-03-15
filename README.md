@@ -87,7 +87,7 @@
   - [测试相关](#测试相关)
   - [办公软件](#办公软件)
   - [操作系统识别](#操作系统识别)
-  - [压缩解压](#压缩解压)
+  - [文件压缩解压](#文件压缩解压)
   - [最小化](#最小化)
   - [源码混淆/保护](#源码混淆保护)
   - [邮箱](#邮箱)
@@ -1275,7 +1275,7 @@
 - [getos](https://github.com/retrohacker/getos) - 获取当前操作系统名称，包括 Linux 的发行版名称。 ![](https://img.shields.io/github/stars/retrohacker/getos.svg?style=social&label=Star)
 - [is-windows](https://github.com/jonschlinkert/is-windows) - 判断当前系统是否为 Windows。 ![](https://img.shields.io/github/stars/jonschlinkert/is-windows.svg?style=social&label=Star)
 
-### 压缩解压
+### 文件压缩解压
 
 - [jszip](https://github.com/Stuk/jszip) - 使用 JavaScript 创建、读取、编辑.zip 文件。 ![](https://img.shields.io/github/stars/Stuk/jszip.svg?style=social&label=Star)
 - [pako](https://github.com/nodeca/pako) - 高速 zlib 实现，适用于浏览器和 Node.js。 ![](https://img.shields.io/github/stars/nodeca/pako.svg?style=social&label=Star)

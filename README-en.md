@@ -77,7 +77,7 @@ English | [简体中文](./README.md)
   - [Testing](#testing)
   - [Office](#office)
   - [OS Identification](#os-identification)
-  - [Compression / Decompression](#compression--decompression)
+  - [File Compression / Decompression](#file-compression--decompression)
   - [Minifiers](#minifiers)
   - [Source Code Obfuscator/Protect](#source-code-obfuscatorprotect)
   - [Email](#email)
@@ -1221,7 +1221,7 @@ English | [简体中文](./README.md)
 - [getos](https://github.com/retrohacker/getos) - Retrieve the current OS, including Linux distribution. ![](https://img.shields.io/github/stars/retrohacker/getos.svg?style=social&label=Star)
 - [is-windows](https://github.com/jonschlinkert/is-windows) - Detect whether the current platform is Windows. ![](https://img.shields.io/github/stars/jonschlinkert/is-windows.svg?style=social&label=Star)
 
-### Compression / Decompression
+### File Compression / Decompression
 
 - [jszip](https://github.com/Stuk/jszip) - Create, read and edit .zip files with Javascript. ![](https://img.shields.io/github/stars/Stuk/jszip.svg?style=social&label=Star)
 - [pako](https://github.com/nodeca/pako) - High speed zlib port to javascript, works in browser & node.js. ![](https://img.shields.io/github/stars/nodeca/pako.svg?style=social&label=Star)
