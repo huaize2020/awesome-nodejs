@@ -1110,6 +1110,7 @@
   - [Mongoose](https://github.com/Automattic/mongoose) - 优雅的 MongoDB 对象建模。 ![](https://img.shields.io/github/stars/Automattic/mongoose.svg?style=social&label=Star)
     - [typegoose](https://github.com/typegoose/typegoose) - Typegoose - 使用 TypeScript 类定义 Mongoose 模型。 ![](https://img.shields.io/github/stars/typegoose/typegoose.svg?style=social&label=Star)
   - [Prisma](https://github.com/prisma/prisma) - 支持 PostgreSQL, MySQL & SQLite，自动生成、类型安全的 query builder。 ![](https://img.shields.io/github/stars/prisma/prisma.svg?style=social&label=Star)
+  - [Neuledge](https://github.com/neuledge/engine-js) - 为数据建模、业务逻辑表示和模式验证提供最先进工具的数据库通用语言。 ![](https://img.shields.io/github/stars/neuledge/engine-js.svg?style=social&label=Star)
   - [Bookshelf](https://github.com/bookshelf/bookshelf) - Backbone.js 风格的 PostgreSQL，MySQL 和 SQLite3 的 ORM。 ![](https://img.shields.io/github/stars/bookshelf/bookshelf.svg?style=social&label=Star)
   - [Objection.js](https://github.com/Vincit/objection.js) - 基于 SQL 查询生成器 Knex 的轻量级 ORM。 ![](https://img.shields.io/github/stars/Vincit/objection.js.svg?style=social&label=Star)
   - [Waterline](https://github.com/balderdashy/waterline) - 与数据存储区无关的工具，可大大简化与一个或多个数据库的交互。 ![](https://img.shields.io/github/stars/balderdashy/waterline.svg?style=social&label=Star)
