@@ -99,6 +99,7 @@ English | [简体中文](./README.md)
   - [IoT](#iot)
   - [Machine learning \& Neural networks](#machine-learning--neural-networks)
   - [Natural language processing](#natural-language-processing)
+  - [GPT](#gpt)
   - [OCR](#ocr)
   - [Bitcoin](#bitcoin)
 - [Scene](#scene)
@@ -1475,11 +1476,18 @@ English | [简体中文](./README.md)
 - [retext](https://github.com/wooorm/retext) - An extensible natural language system. ![](https://img.shields.io/github/stars/wooorm/retext.svg?style=social&label=Star)
 - [leven](https://github.com/sindresorhus/leven) - Measure the difference between two strings using the Levenshtein distance algorithm. ![](https://img.shields.io/github/stars/sindresorhus/leven.svg?style=social&label=Star)
 
+### GPT
+
+- [chatgpt](https://github.com/transitive-bullshit/chatgpt-api) - Node.js client for the official ChatGPT API. 🔥 ![](https://img.shields.io/github/stars/transitive-bullshit/chatgpt-api.svg?style=social&label=Star)
+- [@waylaidwanderer/chatgpt-api](https://github.com/waylaidwanderer/node-chatgpt-api) - A client implementation for ChatGPT and Bing AI. Available as a Node.js module, REST API server, and CLI app. ![](https://img.shields.io/github/stars/waylaidwanderer/node-chatgpt-api.svg?style=social&label=Star)
+- [openai](https://github.com/openai/openai-node) - Node.js library for the OpenAI API. ![](https://img.shields.io/github/stars/openai/openai-node.svg?style=social&label=Star)
+
 ### OCR
 
 - [tesseract.js](https://github.com/naptha/tesseract.js) - Pure Javascript OCR for more than 100 Languages. ![](https://img.shields.io/github/stars/naptha/tesseract.js.svg?style=social&label=Star)
 - [ocrad.js](https://github.com/antimatter15/ocrad.js) - OCR in Javascript via Emscripten  ![](https://img.shields.io/github/stars/antimatter15/ocrad.js.svg?style=social&label=Star)
 - [Parsr](https://github.com/axa-group/Parsr) - Transforms PDF, Documents and Images into Enriched Structured Data. ![](https://img.shields.io/github/stars/axa-group/Parsr.svg?style=social&label=Star)
+
 ### Bitcoin
 
 - [GitTorrent](https://github.com/cjb/GitTorrent) - A decentralization of GitHub using BitTorrent and Bitcoin. ![](https://img.shields.io/github/stars/cjb/GitTorrent.svg?style=social&label=Star)

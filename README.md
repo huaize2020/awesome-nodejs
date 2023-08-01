@@ -109,6 +109,7 @@
   - [物联网 IoT](#物联网-iot)
   - [机器学习 和 神经网络](#机器学习-和-神经网络)
   - [自然语言处理](#自然语言处理)
+  - [GPT](#gpt)
   - [OCR](#ocr)
   - [比特币](#比特币)
 - [场景](#场景)
@@ -1530,6 +1531,12 @@
 - [sentiment](https://github.com/thisandagain/sentiment) - 基于 AFINN 的 Node.js 情感判断库。 ![](https://img.shields.io/github/stars/thisandagain/sentiment.svg?style=social&label=Star)
 - [retext](https://github.com/wooorm/retext) - 一个可扩展的自然语言系统。 ![](https://img.shields.io/github/stars/wooorm/retext.svg?style=social&label=Star)
 - [leven](https://github.com/sindresorhus/leven) - 使用 Levenshtein 距离算法测量两个字符串之间的差异。 ![](https://img.shields.io/github/stars/sindresorhus/leven.svg?style=social&label=Star)
+
+### GPT
+
+- [chatgpt](https://github.com/transitive-bullshit/chatgpt-api) - 官方 ChatGPT API 的 Node.js 客户端。🔥 ![](https://img.shields.io/github/stars/transitive-bullshit/chatgpt-api.svg?style=social&label=Star)
+- [@waylaidwanderer/chatgpt-api](https://github.com/waylaidwanderer/node-chatgpt-api) - ChatGPT 和 Bing AI 的客户端实现。 可用作 Node.js 模块、REST API 服务器和 CLI 应用程序。 ![](https://img.shields.io/github/stars/waylaidwanderer/node-chatgpt-api.svg?style=social&label=Star)
+- [openai](https://github.com/openai/openai-node) - OpenAI API 的 Node.js 库。 ![](https://img.shields.io/github/stars/openai/openai-node.svg?style=social&label=Star)
 
 ### OCR
 
