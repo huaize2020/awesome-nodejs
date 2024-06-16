@@ -330,6 +330,7 @@
 
 - [sharp](https://github.com/lovell/sharp) - 调整 JPEG，PNG，WebP 和 TIFF 格式图像大小的最快模块。 ![](https://img.shields.io/github/stars/lovell/sharp.svg?style=social&label=Star)
 - [jimp](https://github.com/oliver-moran/jimp) - 纯 JavaScript 中的图像处理。 ![](https://img.shields.io/github/stars/oliver-moran/jimp.svg?style=social&label=Star)
+- [satori](https://github.com/vercel/satori) - html 转 svg. ![](https://img.shields.io/github/stars/vercel/satori.svg?style=social&label=Star)
 - [gm](https://github.com/aheckmann/gm) - GraphicsMagick 和 ImageMagick 封装。 ![](https://img.shields.io/github/stars/aheckmann/gm.svg?style=social&label=Star)
 - [qrcode](https://github.com/soldair/node-qrcode) - 二维码和条形码生成器。 ![](https://img.shields.io/github/stars/soldair/node-qrcode.svg?style=social&label=Star)
 - [pixelmatch](https://github.com/mapbox/pixelmatch) - 最小、最简单、最快的 JavaScript 像素级图像比较库。 ![](https://img.shields.io/github/stars/mapbox/pixelmatch.svg?style=social&label=Star)
@@ -481,6 +482,7 @@
 
 ### 数据校验
 
+- [zod](https://github.com/colinhacks/zod) - TypeScript 优先的 Schema 校验 ![](https://img.shields.io/github/stars/colinhacks/zod.svg?style=social&label=Star)
 - [validator.js](https://github.com/validatorjs/validator.js) - 字符串校验库。 ![](https://img.shields.io/github/stars/validatorjs/validator.js.svg?style=social&label=Star)
 - [joi](https://github.com/hapijs/joi) - 基于 JavaScript 对象的对象模式描述语言和验证器。 ![](https://img.shields.io/github/stars/hapijs/joi.svg?style=social&label=Star)
 - [yup](https://github.com/jquense/yup) - 受 joi 启发的极简的对象 Schema 校验。 ![](https://img.shields.io/github/stars/jquense/yup.svg?style=social&label=Star)
@@ -1205,6 +1207,7 @@
 
 - Mock 服务
   - [json-server](https://github.com/typicode/json-server) - 在不到 30 秒的时间内获得具有零编码的完整伪造的 REST API。 ![](https://img.shields.io/github/stars/typicode/json-server.svg?style=social&label=Star)
+  - [msw](https://github.com/mswjs/msw) - 顺畅的 REST/GraphQL Mock 库，适用于 Node 和浏览器 ![https://img.shields.io/github/stars/mswjs/msw.svg?style=social&label=Star]
   - [easy-mock](https://github.com/easy-mock/easy-mock) - 可视化，并且能快速生成模拟数据的持久化服务。 ![](https://img.shields.io/github/stars/easy-mock/easy-mock.svg?style=social&label=Star)
   - [miragejs](https://github.com/miragejs/miragejs) - 用于构建、测试和共享您的 JavaScript 应用程序的客户端服务。 ![](https://img.shields.io/github/stars/miragejs/miragejs.svg?style=social&label=Star)
   - [pretender](https://github.com/pretenderjs/pretender) - 具有良好路由 DSL 的 Mock 服务器库。 ![](https://img.shields.io/github/stars/pretenderjs/pretender.svg?style=social&label=Star)

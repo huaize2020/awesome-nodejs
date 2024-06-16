@@ -277,6 +277,7 @@ English | [简体中文](./README.md)
 
 - [sharp](https://github.com/lovell/sharp) - The fastest module for resizing JPEG, PNG, WebP and TIFF images. ![](https://img.shields.io/github/stars/lovell/sharp.svg?style=social&label=Star)
 - [jimp](https://github.com/oliver-moran/jimp) - Image processing in pure JavaScript. ![](https://img.shields.io/github/stars/oliver-moran/jimp.svg?style=social&label=Star)
+- [satori](https://github.com/vercel/satori) - convert HTML and CSS to SVG. ![](https://img.shields.io/github/stars/vercel/satori.svg?style=social&label=Star)
 - [gm](https://github.com/aheckmann/gm) - GraphicsMagick and ImageMagick wrapper. ![](https://img.shields.io/github/stars/aheckmann/gm.svg?style=social&label=Star)
 - [qrcode](https://github.com/soldair/node-qrcode) - QR code and bar code generator. ![](https://img.shields.io/github/stars/soldair/node-qrcode.svg?style=social&label=Star)
 - [pixelmatch](https://github.com/mapbox/pixelmatch) - The smallest, simplest and fastest JavaScript pixel-level image comparison library. ![](https://img.shields.io/github/stars/mapbox/pixelmatch.svg?style=social&label=Star)
@@ -429,6 +430,7 @@ English | [简体中文](./README.md)
 
 ### Data Validation
 
+- [zod](https://github.com/colinhacks/zod) - TypeScript-first schema validation with static type inference. ![](https://img.shields.io/github/stars/colinhacks/zod.svg?style=social&label=Star)
 - [validator.js](https://github.com/validatorjs/validator.js) - A library of string validators and sanitizers. ![](https://img.shields.io/github/stars/validatorjs/validator.js.svg?style=social&label=Star)
 - [joi](https://github.com/hapijs/joi) - Object schema description language and validator for JavaScript objects. ![](https://img.shields.io/github/stars/hapijs/joi.svg?style=social&label=Star)
 - [yup](https://github.com/jquense/yup) - Dead simple Object schema validation inspired by Joi.  ![](https://img.shields.io/github/stars/jquense/yup.svg?style=social&label=Star)
@@ -1151,6 +1153,7 @@ English | [简体中文](./README.md)
 
 - Mock Server
   - [json-server](https://github.com/typicode/json-server) - Get a full fake REST API with zero coding in less than 30 seconds. ![](https://img.shields.io/github/stars/typicode/json-server.svg?style=social&label=Star)
+  - [msw](https://github.com/mswjs/msw) - Seamless REST/GraphQL API mocking library for browser and Node.js. ![https://img.shields.io/github/stars/mswjs/msw.svg?style=social&label=Star]
   - [easy-mock](https://github.com/easy-mock/easy-mock) - A persistent service that generates mock data quickly and provids visualization view. ![](https://img.shields.io/github/stars/easy-mock/easy-mock.svg?style=social&label=Star)
   - [miragejs](https://github.com/miragejs/miragejs) - A client-side server to build, test and share your JavaScript app. ![](https://img.shields.io/github/stars/miragejs/miragejs.svg?style=social&label=Star)
   - [pretender](https://github.com/pretenderjs/pretender) - A mock server library with a nice routing DSL. ![](https://img.shields.io/github/stars/pretenderjs/pretender.svg?style=social&label=Star)
