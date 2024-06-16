@@ -1073,6 +1073,7 @@ English | [简体中文](./README.md)
   - [slonik](https://github.com/gajus/slonik) - PostgreSQL client with strict types, detailed logging and assertions. ![](https://img.shields.io/github/stars/gajus/slonik.svg?style=social&label=Star)
   - [OpenRecord](https://github.com/PhilWaldmann/openrecord) - ORM for PostgreSQL, MySQL, SQLite3 and RESTful datastores. Similar to ActiveRecord. ![](https://img.shields.io/github/stars/PhilWaldmann/openrecord.svg?style=social&label=Star)
   - [leoric](https://github.com/cyjake/leoric) - JavaScript ORM for MySQL, PostgreSQL, and SQLite. ![](https://img.shields.io/github/stars/cyjake/leoric.svg?style=social&label=Star)
+  - [Sutando](https://github.com/sutandojs/sutando) - ActiveRecord style ORM, based on Knex, supports MySQL, PostgreSQL, SQLite and other databases. ![](https://img.shields.io/github/stars/sutandojs/sutando.svg?style=social&label=Star)
 
 - Query builder
   - [Knex](https://github.com/tgriesser/knex) - Query builder for PostgreSQL, MySQL and SQLite3, designed to be flexible, portable, and fun to use. ![](https://img.shields.io/github/stars/tgriesser/knex.svg?style=social&label=Star)

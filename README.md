@@ -1123,6 +1123,7 @@
   - [slonik](https://github.com/gajus/slonik) - 具有严格类型，详细日志记录和断言的 PostgreSQL 客户端。 ![](https://img.shields.io/github/stars/gajus/slonik.svg?style=social&label=Star)
   - [OpenRecord](https://github.com/PhilWaldmann/openrecord) - PostgreSQL，MySQL，SQLite3 和 RESTful 数据存储的 ORM。 类似于 ActiveRecord。 ![](https://img.shields.io/github/stars/PhilWaldmann/openrecord.svg?style=social&label=Star)
   - [leoric](https://github.com/cyjake/leoric) - 用于 MySQL, PostgreSQL, and SQLite 的 ORM。 ![](https://img.shields.io/github/stars/cyjake/leoric.svg?style=social&label=Star)
+  - [Sutando](https://github.com/sutandojs/sutando) - ActiveRecord 风格的 ORM, 基于 Knex, 支持 MySQL, PostgreSQL, SQLite 等多种数据库。![](https://img.shields.io/github/stars/sutandojs/sutando.svg?style=social&label=Star)
 
 - Query builder
   - [Knex](https://github.com/tgriesser/knex) - PostgreSQL，MySQL 和 SQLite3 的查询构建器，旨在灵活，可移植且易于使用。 ![](https://img.shields.io/github/stars/tgriesser/knex.svg?style=social&label=Star)
