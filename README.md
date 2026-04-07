@@ -639,6 +639,7 @@
 
 - 其他
   - [commitizen](https://github.com/commitizen/cz-cli) - Commitizen 命令行实用程序。 ![](https://img.shields.io/github/stars/commitizen/cz-cli.svg?style=social&label=Star)
+  - [better-fullstack](https://github.com/Marve10s/Better-Fullstack) - 跨 TypeScript、Rust、Python 和 Go 的端到端全栈脚手架 — 代码即刻可供你和 AI 智能体使用。 ![](https://img.shields.io/github/stars/Marve10s/Better-Fullstack.svg?style=social&label=Star)
   - [plop](https://github.com/plopjs/plop) - 微型代码模板生成工具，可让整个团队轻松创建具有统一的文件。 ![](https://img.shields.io/github/stars/plopjs/plop.svg?style=social&label=Star)
   - [update-notifier](https://github.com/yeoman/update-notifier) - 为你的 CLI 应用提供的更新提示。 ![](https://img.shields.io/github/stars/yeoman/update-notifier.svg?style=social&label=Star)
   - [console-stamp](https://github.com/starak/node-console-stamp) - 为 NodeJS console 方法添加布丁，使其按模式添加时间戳信息。 ![](https://img.shields.io/github/stars/starak/node-console-stamp.svg?style=social&label=Star)
