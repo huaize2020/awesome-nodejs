@@ -131,6 +131,8 @@
 - [openbase](https://openbase.com/) - 让你每次都要找到合适的包。目前支持 JavaScript，即将推出更多语言。
 - [npm.devtool](https://npm.devtool.tech/) - 找到最适合您的包，分析您的项目技术栈。
 
+* [Agent Shadow Brain](https://github.com/theihtisham/agent-shadow-brain) - 自我进化的AI编程智能，拥有无限记忆(TurboQuant)、遗传算法自进化、预测性错误检测、PageRank知识图谱、群体智能和对抗性防御。
+* [Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge) - 50,000+精选AI代理技能，适用于Claude Code、Cursor、Copilot、Windsurf、Cline。可视化仪表盘、一键安装、技能医生、自动更新。
 ### 书籍
 
 - [狼书（卷3）：Node.js高级技术](https://item.jd.com/10066761907558.html) - 2022-12-01 - [@狼叔](https://www.zhihu.com/people/i5ting)
