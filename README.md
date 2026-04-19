@@ -1584,4 +1584,9 @@
 - [theia](https://github.com/eclipse-theia/theia) - Eclipse Theia 是一个可扩展框架，用于使用最先进的 Web 技术开发成熟的多语言云和桌面 IDE 类产品 ![](https://img.shields.io/github/stars/eclipse-theia/theia.svg?style=social&label=Star)
 - [opensumi](https://github.com/opensumi/core) - 🚀 一个帮助你快速构建云或客户端IDE产品的框架 ![](https://img.shields.io/github/stars/opensumi/core.svg?style=social&label=Star)
 
+## AI 编程工具
+
+- [Agent Shadow Brain](https://github.com/theihtisham/agent-shadow-brain) - 自我进化的 AI 编码智能体，具有无限记忆（TurboQuant）、遗传算法自我进化、预测性错误检测、PageRank 知识图谱、群体智能和对抗性防御。
+- [Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge) - 50,000+ 为 Claude Code、Cursor、Copilot、Windsurf、Cline 策划的 AI 智能体技能。可视化仪表板、一键安装、技能医生、自动更新。
+
 <img src="https://profile-counter.glitch.me/huaize2020-awesome-nodejs/count.svg" />
