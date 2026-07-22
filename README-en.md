@@ -1491,6 +1491,7 @@ English | [简体中文](./README.md)
 ### OCR
 
 - [tesseract.js](https://github.com/naptha/tesseract.js) - Pure Javascript OCR for more than 100 Languages. ![](https://img.shields.io/github/stars/naptha/tesseract.js.svg?style=social&label=Star)
+- [light-ocr](https://github.com/arcships/light-ocr) - Fast, offline PP-OCRv6 OCR for Node.js and C++, with bundled cross-platform runtimes. ![](https://img.shields.io/github/stars/arcships/light-ocr.svg?style=social&label=Star)
 - [ocrad.js](https://github.com/antimatter15/ocrad.js) - OCR in Javascript via Emscripten  ![](https://img.shields.io/github/stars/antimatter15/ocrad.js.svg?style=social&label=Star)
 - [Parsr](https://github.com/axa-group/Parsr) - Transforms PDF, Documents and Images into Enriched Structured Data. ![](https://img.shields.io/github/stars/axa-group/Parsr.svg?style=social&label=Star)
 
