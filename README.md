@@ -1016,6 +1016,7 @@
 ### 任务队列
 
 - [bull](https://github.com/OptimalBits/bull) - 持久作业和消息队列。 ![](https://img.shields.io/github/stars/OptimalBits/bull.svg?style=social&label=Star)
+- [BetterQueue](https://github.com/Saiop68/better-queue)：基于 Redis 的 Node.js 分布式限流器与任务队列，支持跨进程优先级、延时任务与崩溃恢复。
 - [amqp](https://github.com/squaremo/amqp.node)- AMQP 0-9-1 rabbit 消息队列连接库。 ![](https://img.shields.io/github/stars/squaremo/amqp.node.svg?style=social&label=Star)
 - [kafka-node](https://github.com/SOHU-Co/kafka-node)-  Apache Kafka 0.8 kafka 客户端。![](https://img.shields.io/github/stars/SOHU-Co/kafka-node.svg?style=social&label=Star)
 - [bee-queue](https://github.com/bee-queue/bee-queue) - 高性能的 基于 Redis 的任务队列。 ![](https://img.shields.io/github/stars/bee-queue/bee-queue.svg?style=social&label=Star)
